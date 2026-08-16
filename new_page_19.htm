@@ -983,6 +983,349 @@ mso-border-top-alt:solid #2E74B5 .25pt;padding:2.0pt 0cm 0cm 0cm">
         <!-- Content End -->
         </div>
         
+    
+
+        <!-- VIDEHA UNIVERSAL SEARCH START -->
+        <section id="videha-universal-search" class="vus-wrap" aria-labelledby="vus-heading" data-pagefind-ignore="all">
+          <style>
+            .vus-wrap{margin:28px 0 18px;padding:22px 20px;background:#FAF6EE;border:1px solid #D8CFC0;border-left:4px solid #8B1A1A;box-shadow:0 2px 9px rgba(139,26,26,.07)}
+            .vus-wrap *{box-sizing:border-box}
+            .vus-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:1px solid #D8CFC0;padding-bottom:10px;margin-bottom:14px}
+            .vus-head h2{margin:0!important;color:#8B1A1A!important;font-family:'Playfair Display','Noto Serif Devanagari',Georgia,serif!important;font-size:1.45rem!important}
+            .vus-head small{font-family:'Libre Baskerville',Georgia,serif;color:#6A5845;font-size:.76rem}
+            .vus-form{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:8px;align-items:stretch}
+            #vus-q{width:100%;min-height:44px;padding:9px 11px;font-size:1rem;background:#FFFCF6!important;border:1px solid #BFB29E!important;color:#23201B!important;font-family:'Noto Serif Devanagari','Libre Baskerville',serif!important}
+            #vus-q:focus{outline:3px solid rgba(196,154,60,.32)!important;outline-offset:1px;border-color:#8B1A1A!important}
+            .vus-btn{min-height:44px;padding:8px 14px;border:1px solid #8B1A1A;background:#8B1A1A;color:#fff;font-family:'Noto Serif Devanagari','Libre Baskerville',serif;font-weight:700;cursor:pointer;border-radius:0}
+            .vus-btn--quiet{background:transparent;color:#8B1A1A}
+            .vus-btn:hover,.vus-btn:focus{filter:brightness(.95);outline:2px solid #C49A3C;outline-offset:1px}
+            .vus-filters{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 7px}
+            .vus-filter{min-height:34px;padding:5px 9px;border:1px solid #D8CFC0;background:#FFFCF6;color:#544D42;font:600 .79rem/1.2 'Libre Baskerville','Noto Serif Devanagari',serif;cursor:pointer;border-radius:0}
+            .vus-filter[aria-pressed="true"]{background:#8B1A1A;color:#fff;border-color:#8B1A1A}
+            .vus-help{margin:5px 0 0;color:#6A5845;font-size:.75rem;line-height:1.55}
+            #vus-status{min-height:1.4em;margin:10px 0 4px;color:#544D42;font-size:.82rem}
+            #vus-results{list-style:none;margin:0;padding:0}
+            .vus-result{padding:12px 2px;border-top:1px solid #E7DECB}
+            .vus-result:first-child{border-top:0}
+            .vus-result a{font-family:'Playfair Display','Noto Serif Devanagari',Georgia,serif!important;font-weight:700;color:#8B1A1A!important;text-decoration:none!important}
+            .vus-result a:hover{text-decoration:underline!important}
+            .vus-url{display:block;margin-top:2px;color:#746858;font-size:.68rem;overflow-wrap:anywhere}
+            .vus-excerpt{margin:5px 0 0;font-size:.84rem;line-height:1.65;color:#302B25}
+            .vus-excerpt mark{background:rgba(196,154,60,.28);color:inherit;padding:0 .06em}
+            .vus-badge{display:inline-block;margin-left:7px;padding:1px 5px;border:1px solid #D8CFC0;color:#6A5845;font-size:.62rem;font-family:'Libre Baskerville',serif;vertical-align:middle}
+            .vus-more{margin-top:12px}
+            @media(max-width:620px){.vus-wrap{padding:16px 12px}.vus-form{grid-template-columns:1fr}.vus-btn{width:100%}.vus-filter{font-size:.74rem}.vus-head small{width:100%}}
+          </style>
+          <div class="vus-head">
+            <h2 id="vus-heading">विदेहमे सभठाम ताकू <span style="font-size:.68em;font-weight:400;color:#544D42">/ Search all Videha</span></h2>
+            <small>Static full-text search · Pagefind</small>
+          </div>
+          <form id="vus-form" class="vus-form" role="search" autocomplete="off">
+            <label for="vus-q" class="videha-sr-only">विदेहमे सभठाम ताकू · Search all Videha</label>
+            <input id="vus-q" name="q" type="search" inputmode="search" placeholder="लेखक, शीर्षक, अंक, वर्ष, शब्द… / author, title, issue, year, word…" aria-describedby="vus-help vus-status">
+            <button class="vus-btn" type="submit">ताकू · Search</button>
+            <button class="vus-btn vus-btn--quiet" type="button" id="vus-clear">मेटाउ · Clear</button>
+          </form>
+          <div class="vus-filters" id="vus-filters" role="group" aria-label="Search filters">
+            <button type="button" class="vus-filter" data-scope="all" aria-pressed="true">सभ · All</button>
+            <button type="button" class="vus-filter" data-scope="author" aria-pressed="false">लेखक · Author</button>
+            <button type="button" class="vus-filter" data-scope="title" aria-pressed="false">शीर्षक · Title</button>
+            <button type="button" class="vus-filter" data-scope="issue" aria-pressed="false">अंक · Issue</button>
+            <button type="button" class="vus-filter" data-scope="year" aria-pressed="false">वर्ष · Year</button>
+            <button type="button" class="vus-filter" data-scope="Prose" aria-pressed="false">गद्य · Prose</button>
+            <button type="button" class="vus-filter" data-scope="Poetry" aria-pressed="false">पद्य · Poetry</button>
+            <button type="button" class="vus-filter" data-scope="Research" aria-pressed="false">शोध · Research</button>
+            <button type="button" class="vus-filter" data-scope="Book" aria-pressed="false">पोथी · Book</button>
+            <button type="button" class="vus-filter" data-scope="Quiz" aria-pressed="false">प्रश्नोत्तरी · Quiz</button>
+            <button type="button" class="vus-filter" data-scope="Audio/Video" aria-pressed="false">श्रव्य-दृश्य · Audio/Video</button>
+            <button type="button" class="vus-filter" data-scope="Panji" aria-pressed="false">पञ्जी · Panji</button>
+            <button type="button" class="vus-filter" data-scope="Thesaurus" aria-pressed="false">थेसारस · Thesaurus</button>
+            <button type="button" class="vus-filter" data-scope="Dictionary" aria-pressed="false">शब्दकोश · Dictionary</button>
+            <button type="button" class="vus-filter" data-scope="archive" aria-pressed="false">PDF-अभिलेख · Archive</button>
+          </div>
+          <p class="vus-help" id="vus-help">लेखक/शीर्षक/अंक/वर्ष — खोज-विधा; शेष बटन विदेह-खण्ड फिल्टर। Author/Title/Issue/Year are search modes; the remaining buttons filter indexed Videha sections. Static Pagefind index — no search server. रोमन/IAST शब्दक ठीक परिणाम नहि भेटलापर ध्वन्यात्मक (phonetic) फॉलबैक स्वतः चलत। <strong>PDF-अभिलेख</strong> बटन archive.org/VidehaAndSadeha क जीवन्त सूची (सभ अंक + सदेह) मे ताकत — अंक-संख्या (जेना ४४५) लिखितहि सोझे PDF भेटत।</p>
+          <div id="vus-status" role="status" aria-live="polite"></div>
+          <ol id="vus-results" aria-label="Search results"></ol>
+          <button class="vus-btn vus-btn--quiet vus-more" type="button" id="vus-more" hidden>आर परिणाम · More results</button>
+        </section>
+        <script type="module" id="videha-universal-search-script">
+        (()=>{
+          const form=document.getElementById('vus-form');
+          const input=document.getElementById('vus-q');
+          const clearBtn=document.getElementById('vus-clear');
+          const status=document.getElementById('vus-status');
+          const list=document.getElementById('vus-results');
+          const moreBtn=document.getElementById('vus-more');
+          const filterButtons=[...document.querySelectorAll('.vus-filter')];
+          if(!form||!input||!status||!list) return;
+          var VIDEHA_ARCHIVE_SNAPSHOT=["Sadeha 01.pdf","Sadeha 02.pdf","Sadeha 03.pdf","Sadeha 04.pdf","Sadeha 05 v2.pdf","Sadeha 05.pdf","Sadeha 06.pdf","Sadeha 07.pdf","Sadeha 08.pdf","Sadeha 09.pdf","Sadeha 10.pdf","Sadeha 11.pdf","Sadeha 12.pdf","Sadeha 13.pdf","Sadeha 14.pdf","Sadeha 15.pdf","Sadeha 16.pdf","Sadeha 17.pdf","Sadeha 18.pdf","Sadeha 19.pdf","Sadeha 20.pdf","Sadeha 21.pdf","Sadeha 22.pdf","Sadeha 23.pdf","Sadeha 24.pdf","Sadeha 25.pdf","Sadeha 26.pdf","Sadeha 27.pdf","Sadeha 28.pdf","Sadeha 29.pdf","Sadeha 30.pdf","Sadeha 31.pdf","Sadeha 32.pdf","Sadeha 33.pdf","Sadeha 34.pdf","Sadeha 35.pdf","Sadeha 36.pdf","Sadeha 37.pdf","Videha 001.pdf","Videha 002.pdf","Videha 003.pdf","Videha 004.pdf","Videha 005.pdf","Videha 006.pdf","Videha 007.pdf","Videha 008.pdf","Videha 009.pdf","Videha 010.pdf","Videha 011.pdf","Videha 012.pdf","Videha 013.pdf","Videha 014.pdf","Videha 015.pdf","Videha 016.pdf","Videha 017.pdf","Videha 018.pdf","Videha 019.pdf","Videha 020.pdf","Videha 021.pdf","Videha 022.pdf","Videha 023.pdf","Videha 024.pdf","Videha 025.pdf","Videha 026.pdf","Videha 027.pdf","Videha 028.pdf","Videha 029.pdf","Videha 030.pdf","Videha 031.pdf","Videha 032.pdf","Videha 033.pdf","Videha 034.pdf","Videha 035.pdf","Videha 036.pdf","Videha 037.pdf","Videha 038.pdf","Videha 039.pdf","Videha 040.pdf","Videha 041.pdf","Videha 042.pdf","Videha 043.pdf","Videha 044.pdf","Videha 045.pdf","Videha 046.pdf","Videha 047.pdf","Videha 048.pdf","Videha 049.pdf","Videha 050.pdf","Videha 051.pdf","Videha 052.pdf","Videha 053.pdf","Videha 054.pdf","Videha 055.pdf","Videha 056.pdf","Videha 057.pdf","Videha 058.pdf","Videha 059.pdf","Videha 060.pdf","Videha 061.pdf","Videha 062.pdf","Videha 063.pdf","Videha 064.pdf","Videha 065.pdf","Videha 066.pdf","Videha 067.pdf","Videha 068.pdf","Videha 069.pdf","Videha 070.pdf","Videha 071.pdf","Videha 072.pdf","Videha 073.pdf","Videha 074.pdf","Videha 075.pdf","Videha 076.pdf","Videha 077.pdf","Videha 078.pdf","Videha 079.pdf","Videha 080.pdf","Videha 081.pdf","Videha 082.pdf","Videha 083.pdf","Videha 084.pdf","Videha 085.pdf","Videha 086.pdf","Videha 087.pdf","Videha 088.pdf","Videha 089.pdf","Videha 090.pdf","Videha 091.pdf","Videha 092.pdf","Videha 093.pdf","Videha 094.pdf","Videha 095.pdf","Videha 096.pdf","Videha 097.pdf","Videha 098.pdf","Videha 099.pdf","Videha 100.pdf","Videha 101.pdf","Videha 102.pdf","Videha 103.pdf","Videha 104.pdf","Videha 105.pdf","Videha 106.pdf","Videha 107.pdf","Videha 108.pdf","Videha 109.pdf","Videha 110.pdf","Videha 111.pdf","Videha 112.pdf","Videha 113.pdf","Videha 114.pdf","Videha 115.pdf","Videha 116.pdf","Videha 117.pdf","Videha 118.pdf","Videha 119.pdf","Videha 120.pdf","Videha 121.pdf","Videha 122.pdf","Videha 123.pdf","Videha 124.pdf","Videha 125.pdf","Videha 126.pdf","Videha 127.pdf","Videha 128.pdf","Videha 129.pdf","Videha 130.pdf","Videha 131.pdf","Videha 132.pdf","Videha 133.pdf","Videha 134.pdf","Videha 135.pdf","Videha 136.pdf","Videha 137.pdf","Videha 138.pdf","Videha 139.pdf","Videha 140.pdf","Videha 141.pdf","Videha 142.pdf","Videha 143.pdf","Videha 144.pdf","Videha 145.pdf","Videha 146.pdf","Videha 147.pdf","Videha 148.pdf","Videha 149.pdf","Videha 150.pdf","Videha 151.pdf","Videha 152.pdf","Videha 153.pdf","Videha 154.pdf","Videha 155.pdf","Videha 156.pdf","Videha 157.pdf","Videha 158.pdf","Videha 159.pdf","Videha 160.pdf","Videha 161.pdf","Videha 162.pdf","Videha 163.pdf","Videha 164.pdf","Videha 165.pdf","Videha 166.pdf","Videha 167.pdf","Videha 168.pdf","Videha 169.pdf","Videha 170.pdf","Videha 171.pdf","Videha 172.pdf","Videha 173.pdf","Videha 174.pdf","Videha 175.pdf","Videha 176.pdf","Videha 177.pdf","Videha 178.pdf","Videha 179.pdf","Videha 180.pdf","Videha 181.pdf","Videha 182.pdf","Videha 183.pdf","Videha 184.pdf","Videha 185.pdf","Videha 186.pdf","Videha 187.pdf","Videha 188.pdf","Videha 189.pdf","Videha 190.pdf","Videha 191.pdf","Videha 192.pdf","Videha 193.pdf","Videha 194.pdf","Videha 195.pdf","Videha 196.pdf","Videha 197.pdf","Videha 198.pdf","Videha 199.pdf","Videha 200.pdf","Videha 201.pdf","Videha 202.pdf","Videha 203.pdf","Videha 204.pdf","Videha 205.pdf","Videha 206.pdf","Videha 207.pdf","Videha 208.pdf","Videha 209.pdf","Videha 210.pdf","Videha 211.pdf","Videha 212.pdf","Videha 213.pdf","Videha 214.pdf","Videha 215.pdf","Videha 216.pdf","Videha 217.pdf","Videha 218.pdf","Videha 219.pdf","Videha 220.pdf","Videha 221.pdf","Videha 222.pdf","Videha 223.pdf","Videha 224.pdf","Videha 225.pdf","Videha 226.pdf","Videha 227.pdf","Videha 228.pdf","Videha 229.pdf","Videha 230.pdf","Videha 231.pdf","Videha 232.pdf","Videha 233.pdf","Videha 234.pdf","Videha 235.pdf","Videha 236.pdf","Videha 237.pdf","Videha 238.pdf","Videha 239.pdf","Videha 240.pdf","Videha 241.pdf","Videha 242.pdf","Videha 243.pdf","Videha 244.pdf","Videha 245.pdf","Videha 246.pdf","Videha 247.pdf","Videha 248.pdf","Videha 249.pdf","Videha 250.pdf","Videha 251.pdf","Videha 252.pdf","Videha 253.pdf","Videha 254.pdf","Videha 255.pdf","Videha 256.pdf","Videha 257.pdf","Videha 258.pdf","Videha 259.pdf","Videha 260.pdf","Videha 261.pdf","Videha 262.pdf","Videha 263.pdf","Videha 264.pdf","Videha 265.pdf","Videha 266.pdf","Videha 267.pdf","Videha 268.pdf","Videha 269.pdf","Videha 270.pdf","Videha 271.pdf","Videha 272.pdf","Videha 273.pdf","Videha 274.pdf","Videha 275.pdf","Videha 276.pdf","Videha 277.pdf","Videha 278.pdf","Videha 279.pdf","Videha 280.pdf","Videha 281.pdf","Videha 282.pdf","Videha 283.pdf","Videha 284.pdf","Videha 285.pdf","Videha 286.pdf","Videha 287.pdf","Videha 288.pdf","Videha 289.pdf","Videha 290.pdf","Videha 291.pdf","Videha 292.pdf","Videha 293.pdf","Videha 294.pdf","Videha 295.pdf","Videha 296.pdf","Videha 297.pdf","Videha 298.pdf","Videha 299.pdf","Videha 300.pdf","Videha 301.pdf","Videha 302.pdf","Videha 303.pdf","Videha 304.pdf","Videha 305.pdf","Videha 306.pdf","Videha 307.pdf","Videha 308.pdf","Videha 309.pdf","Videha 310.pdf","Videha 311.pdf","Videha 312.pdf","Videha 313.pdf","Videha 314.pdf","Videha 315.pdf","Videha 316.pdf","Videha 317.pdf","Videha 318.pdf","Videha 319.pdf","Videha 320.pdf","Videha 321.pdf","Videha 322.pdf","Videha 323.pdf","Videha 324.pdf","Videha 325.pdf","Videha 326.pdf","Videha 327.pdf","Videha 328.pdf","Videha 329.pdf","Videha 330.pdf","Videha 331.pdf","Videha 332.pdf","Videha 333.pdf","Videha 334.pdf","Videha 335.pdf","Videha 336.pdf","Videha 337.pdf","Videha 338.pdf","Videha 339.pdf","Videha 340.pdf","Videha 341.pdf","Videha 342.pdf","Videha 343.pdf","Videha 344.pdf","Videha 345.pdf","Videha 346.pdf","Videha 347.pdf","Videha 348.pdf","Videha 349.pdf","Videha 350.pdf","Videha 351.pdf","Videha 352.pdf","Videha 353.pdf","Videha 354.pdf","Videha 355.pdf","Videha 356.pdf","Videha 357.pdf","Videha 358.pdf","Videha 359.pdf","Videha 360.pdf","Videha 361.pdf","Videha 362.pdf","Videha 363.pdf","Videha 364.pdf","Videha 365.pdf","Videha 366.pdf","Videha 367.pdf","Videha 368.pdf","Videha 369.pdf","Videha 370.pdf","Videha 371.pdf","Videha 372.pdf","Videha 373.pdf","Videha 374.pdf","Videha 375.pdf","Videha 376.pdf","Videha 377.pdf","Videha 378.pdf","Videha 379.pdf","Videha 380.pdf","Videha 381.pdf","Videha 382.pdf","Videha 383.pdf","Videha 384.pdf","Videha 385.pdf","Videha 386.pdf","Videha 387.pdf","Videha 388.pdf","Videha 389.pdf","Videha 390.pdf","Videha 391.pdf","Videha 392.pdf","Videha 393.pdf","Videha 394.pdf","Videha 395.pdf","Videha 396.pdf","Videha 397.pdf","Videha 398.pdf","Videha 399.pdf","Videha 400.pdf","Videha 401.pdf","Videha 402.pdf","Videha 403.pdf","Videha 404.pdf","Videha 405.pdf","Videha 406.pdf","Videha 407.pdf","Videha 408.pdf","Videha 409.pdf","Videha 410.pdf","Videha 411.pdf","Videha 412.pdf","Videha 413.pdf","Videha 414.pdf","Videha 415.pdf","Videha 416.pdf","Videha 417.pdf","Videha 418.pdf","Videha 419.pdf","Videha 420.pdf","Videha 421.pdf","Videha 422.pdf","Videha 423.pdf","Videha 424.pdf","Videha 425.pdf","Videha 426.pdf","Videha 427.pdf","Videha 428.pdf","Videha 429.pdf","Videha 430.pdf","Videha 431.pdf","Videha 432.pdf","Videha 433.pdf","Videha 434.pdf","Videha 435.pdf","Videha 436.pdf","Videha 437.pdf","Videha 438.pdf","Videha 439.pdf","Videha 440.pdf","Videha 441.pdf","Videha 442.pdf","Videha 443.pdf","Videha 444.pdf","Videha 444_text.pdf","Videha 445.pdf","Videha 446.pdf","Videha 447.pdf","pdf_index.pdf"];
+          /* ===== VIDEHA ARCHIVE (archive.org/VidehaAndSadeha) live PDF catalog ===== */
+          const AR_ITEM='VidehaAndSadeha';
+          const AR_DL='https://archive.org/download/'+AR_ITEM+'/';
+          let arCat=null, arProm=null;
+          function arBuild(names, live){
+            const out=[];
+            for(const n of names){
+              if(!/\.pdf$/i.test(n)) continue;
+              const e={name:n,url:AR_DL+encodeURIComponent(n),kind:'other',num:0,label:n.replace(/\.pdf$/i,'')};
+              let m;
+              if((m=n.match(/^Videha[ _-]*(\d+)(.*)\.pdf$/i))){e.kind='videha';e.num=+m[1];e.label='विदेह अंक '+m[1]+(m[2].trim()?' ('+m[2].trim()+')':'');}
+              else if((m=n.match(/^Sadeha[ _-]*(\d+)(.*)\.pdf$/i))){e.kind='sadeha';e.num=+m[1];e.label='विदेह-सदेह खण्ड '+m[1]+(m[2].trim()?' ('+m[2].trim()+')':'');}
+              out.push(e);
+            }
+            out.sort((a,b)=> a.kind===b.kind? a.num-b.num : (a.kind==='videha'?-1:b.kind==='videha'?1:a.kind<b.kind?-1:1));
+            const st={live:live,maxV:0,maxS:0};
+            for(const e of out){ if(e.kind==='videha'&&e.num>st.maxV)st.maxV=e.num; if(e.kind==='sadeha'&&e.num>st.maxS)st.maxS=e.num; }
+            out.stat=st;
+            return out;
+          }
+          function arGet(){
+            if(arCat) return Promise.resolve(arCat);
+            if(arProm) return arProm;
+            arProm=fetch('https://archive.org/metadata/'+AR_ITEM,{mode:'cors',credentials:'omit',cache:'force-cache'})
+              .then(r=>{ if(!r.ok) throw 0; return r.json(); })
+              .then(j=>{ arCat=arBuild((j.files||[]).map(f=>f.name), true); return arCat; })
+              .catch(()=>{ arCat=arBuild(VIDEHA_ARCHIVE_SNAPSHOT,false); return arCat; });
+            return arProm;
+          }
+          function arDigits(s){const D={'०':'0','१':'1','२':'2','३':'3','४':'4','५':'5','६':'6','७':'7','८':'8','९':'9'};return String(s||'').replace(/[०-९]/g,d=>D[d]);}
+          function arSearch(cat,q,max){
+            q=arDigits(q).toLowerCase().trim(); max=max||30;
+            if(!q) return [];
+            const numM=q.match(/(\d{1,3})/); const num=numM? parseInt(numM[1],10):null;
+            const wantS=/sadeha|सदेह/.test(q), wantV=/videha|विदेह|अंक|ank|issue/.test(q);
+            const res=[];
+            for(const e of cat){
+              let sc=0;
+              if(num!==null && e.num===num){
+                sc=100;
+                if(wantS && e.kind!=='sadeha') sc=40;
+                if(wantV && !wantS && e.kind!=='videha') sc=40;
+              }
+              if(!sc && e.name.toLowerCase().includes(q)) sc=60;
+              if(!sc && num===null){
+                if(wantS && e.kind==='sadeha') sc=20;
+                else if(wantV && !wantS && e.kind==='videha') sc=10;
+              }
+              if(sc) res.push({sc,e});
+            }
+            res.sort((a,b)=> b.sc-a.sc || a.e.num-b.e.num);
+            return res.slice(0,max).map(r=>r.e);
+          }
+          /* ===== /VIDEHA ARCHIVE ===== */
+
+          let activeScope='all', pagefindPromise=null, lastRows=[], shown=0, timer=null, seq=0;
+          const typeScopes=new Set(['Prose','Poetry','Research','Book','Quiz','Audio/Video','Panji','Thesaurus','Dictionary']);
+          const devanagariDigits={'०':'0','१':'1','२':'2','३':'3','४':'4','५':'5','६':'6','७':'7','८':'8','९':'9'};
+          const normalizeDigits=s=>String(s||'').replace(/[०-९]/g,d=>devanagariDigits[d]||d);
+          const plain=s=>String(s||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
+          const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+          /* Pagefind bundle: पहिने अपन server (rediff) पर देखत; नहि भेटलापर
+             GitHub Pages पर Actions-निर्मित प्रति स्वतः प्रयोग करत (GitHub Pages
+             सभ फाइल CORS-खुला * दैत अछि)। Repo-नाम भिन्न हो तँ नीचाँक URL सुधारू। */
+          const PAGEFIND_CANDIDATES=[
+            './pagefind/pagefind.js',
+            'https://videha-ejournal.github.io/videha/pagefind/pagefind.js'
+          ];
+          async function getPagefind(){
+            if(!pagefindPromise){
+              pagefindPromise=(async()=>{
+                let lastErr;
+                for(const u of PAGEFIND_CANDIDATES){
+                  try{ const pf=await import(u); await pf.init(); return pf; }
+                  catch(e){ lastErr=e; }
+                }
+                throw lastErr||new Error('pagefind unavailable');
+              })();
+            }
+            return pagefindPromise;
+          }
+          function setStatus(msg){status.textContent=msg;}
+
+          /* ===== phonetic cross-script fallback (videha-search-index.json) ===== */
+          const DEVA={"क":"k","ख":"k","ग":"g","घ":"g","ङ":"n","च":"c","छ":"c","ज":"j","झ":"j","ञ":"n",
+           "ट":"t","ठ":"t","ड":"d","ढ":"d","ण":"n","त":"t","थ":"t","द":"d","ध":"d","न":"n",
+           "प":"p","फ":"p","ब":"b","भ":"b","म":"m","य":"y","र":"r","ल":"l","व":"v",
+           "श":"s","ष":"s","स":"s","ह":"h","ळ":"l","क़":"k","ख़":"k","ग़":"g","ज़":"j",
+           "ड़":"r","ढ़":"r","फ़":"p","य़":"y","अ":"a","आ":"a","इ":"i","ई":"i","उ":"u","ऊ":"u","ऋ":"r",
+           "ए":"e","ऐ":"e","ओ":"o","औ":"o","ा":"a","ि":"i","ी":"i","ु":"u","ू":"u","ृ":"r","े":"e","ै":"e",
+           "ो":"o","ौ":"o","ं":"n","ँ":"n","ः":"","़":"","्":"",
+           "०":"0","१":"1","२":"2","३":"3","४":"4","५":"5","६":"6","७":"7","८":"8","९":"9"};
+          function latinNorm(x){
+            x=x.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+            return x.replace(/([kgcjtdpb])h/g,"$1").replace(/sh/g,"s").replace(/ch/g,"c")
+              .replace(/aa/g,"a").replace(/ii/g,"i").replace(/uu/g,"u").replace(/ai/g,"e").replace(/au/g,"o")
+              .replace(/w/g,"v").replace(/f/g,"p").replace(/z/g,"j").replace(/x/g,"ks").replace(/q/g,"k");
+          }
+          function skeleton(x){
+            let out="";
+            for(const ch of String(x)){
+              if(Object.prototype.hasOwnProperty.call(DEVA,ch)) out+=DEVA[ch];
+              else if(/[a-zA-Z0-9\u00C0-\u024F\u1E00-\u1EFF]/.test(ch)) out+=ch;
+              else out+=" ";
+            }
+            out=latinNorm(out);
+            return out.split(/\s+/).map(w=>{
+              if(!w) return "";
+              return (w[0]+w.slice(1).replace(/[aeiou]/g,"")).replace(/(.)\1+/g,"$1");
+            }).join(" ").replace(/\s+/g," ").trim();
+          }
+          const rawN=x=>latinNorm(String(x).replace(/\s+/g," "));
+          const FBCAT={Prose:"prose",Poetry:"poetry",Research:"research",Book:"book",Quiz:"quiz",
+            "Audio/Video":"av",Panji:"panji",Thesaurus:"thesaurus",Dictionary:"dictionary"};
+          let fbIndex=null, fbTried=false;
+          async function getFbIndex(){
+            if(fbIndex||fbTried) return fbIndex;
+            fbTried=true;
+            try{
+              const r=await fetch('./videha-search-index.json',{cache:'no-cache'});
+              if(!r.ok) return null;
+              const j=await r.json();
+              fbIndex=(j.entries||j).map(e=>{
+                e._rt=rawN(e.t||"");e._ra=rawN(e.a||"");e._rx=rawN(e.x||"");
+                e._st=skeleton(e.t||"");e._sa=skeleton(e.a||"");e._sx=skeleton(e.x||"");
+                return e;
+              });
+            }catch(err){ fbIndex=null; }
+            return fbIndex;
+          }
+          async function jsonFallback(q){
+            const idx=await getFbIndex();
+            if(!idx||!idx.length) return [];
+            const nq=normalizeDigits(q).toLocaleLowerCase();
+            const rq=rawN(q), sq=skeleton(q), out=[];
+            for(const e of idx){
+              if(typeScopes.has(activeScope) && e.c!==FBCAT[activeScope]) continue;
+              if(activeScope==='year' && String(e.y||'')!==nq) continue;
+              if(activeScope==='issue' && String(parseInt(normalizeDigits(e.i||'0'),10))!==String(parseInt(nq,10))) continue;
+              let sc=0;
+              const inT=activeScope!=='author', inA=activeScope!=='title';
+              if(inT&&e._rt.includes(rq))sc+=100;
+              if(inA&&e._ra.includes(rq))sc+=80;
+              if(activeScope!=='author'&&activeScope!=='title'&&e._rx.includes(rq))sc+=50;
+              if(!sc&&sq.length>1){
+                if(inT&&e._st.includes(sq))sc+=40;
+                if(inA&&e._sa.includes(sq))sc+=30;
+                if(activeScope!=='author'&&activeScope!=='title'&&e._sx.includes(sq))sc+=15;
+              }
+              if(activeScope==='year'||activeScope==='issue'){ if(!sc) sc=1; }
+              if(sc>0) out.push({sc,row:{url:'./'+e.f,meta:{title:e.t||e.f,author:e.a||''},
+                plain_excerpt:(e.s||'').slice(0,220),excerpt:'',_fb:true}});
+            }
+            out.sort((a,b)=>b.sc-a.sc);
+            return out.slice(0,120).map(o=>o.row);
+          }
+          /* ===== /phonetic fallback ===== */
+
+          function modePass(row,q){
+            const nq=normalizeDigits(q).toLocaleLowerCase();
+            const title=normalizeDigits(plain(row.meta?.title||'')).toLocaleLowerCase();
+            if(activeScope==='title') return title.includes(nq);
+            if(activeScope==='author'){
+              const author=normalizeDigits(plain(row.meta?.author||'')).toLocaleLowerCase();
+              return author ? author.includes(nq) : false;
+            }
+            return true;
+          }
+          function render(reset=true){
+            if(reset){list.innerHTML='';shown=0;}
+            const batch=lastRows.slice(shown,shown+20);
+            for(const row of batch){
+              const li=document.createElement('li');li.className='vus-result';
+              const title=esc(row.meta?.title||row.url||'Videha result');
+              let badge=activeScope!=='all'?`<span class="vus-badge">${esc(activeScope)}</span>`:'';
+              if(row._fb) badge+=`<span class="vus-badge">ध्वन्यात्मक · phonetic</span>`;
+              if(row._pdf) badge+=`<span class="vus-badge">PDF · archive.org</span>`;
+              const author=row.meta?.author?`<span class="vus-badge">${esc(row.meta.author)}</span>`:'';
+              li.innerHTML=`<a href="${esc(row.url)}">${title}</a>${author}${badge}<span class="vus-url">${esc(row.url)}</span><p class="vus-excerpt">${row.excerpt||esc(row.plain_excerpt||'')}</p>`;
+              list.appendChild(li);
+            }
+            shown+=batch.length;
+            moreBtn.hidden=shown>=lastRows.length;
+          }
+          async function search(){
+            const my=++seq;
+            const q=input.value.trim();
+            if(!q){lastRows=[];list.innerHTML='';moreBtn.hidden=true;setStatus('खोजबाक लेल शब्द लिखू · Enter a search term.');return;}
+            setStatus('ताकल जा रहल अछि… · Searching…');
+            list.innerHTML='';moreBtn.hidden=true;
+            if(activeScope==='archive'){
+              const cat=await arGet();
+              if(my!==seq) return;
+              const hits=arSearch(cat,q,60);
+              lastRows=hits.map(e=>({url:e.url,meta:{title:e.label},plain_excerpt:e.name+' · archive.org/'+AR_ITEM+(cat.stat.live?'':' (snapshot सूची)'),excerpt:'',_pdf:true}));
+              if(!lastRows.length){setStatus('कोनो PDF नहि भेटल · No matching PDF — सूची: विदेह १–'+(cat.stat.maxV||'?')+' · सदेह १–'+(cat.stat.maxS||'?'));return;}
+              setStatus(lastRows.length+' PDF · archive.org '+(cat.stat.live?'(जीवन्त सूची: विदेह १–'+cat.stat.maxV+', सदेह १–'+cat.stat.maxS+')':'(offline snapshot)'));
+              render(true);return;
+            }
+            async function arPrepend(rowsIn){
+              if(!/(\d{1,3})|sadeha|सदेह|videha|विदेह|अंक/i.test(arDigits(q))) return rowsIn;
+              try{
+                const cat=await arGet();
+                const ph=arSearch(cat,q,5).map(e=>({url:e.url,meta:{title:e.label},plain_excerpt:e.name+' · archive.org',excerpt:'',_pdf:true}));
+                if(ph.length) return ph.concat(rowsIn);
+              }catch(err){}
+              return rowsIn;
+            }
+            try{
+              const pf=await getPagefind();
+              const nq=normalizeDigits(q).toLocaleLowerCase();
+              let term=q, opts={};
+              if(typeScopes.has(activeScope)){
+                opts={filters:{videha_type:activeScope}};
+              }else if(activeScope==='year' && /^(?:19|20)\d{2}$/.test(nq)){
+                term=null; opts={filters:{year:nq}};
+              }else if(activeScope==='issue' && /^\d{1,4}$/.test(nq)){
+                term=null; opts={filters:{issue:String(parseInt(nq,10))}};
+              }else if(activeScope==='author'){
+                const available=await pf.filters();
+                const matches=Object.keys(available.author||{}).filter(a=>normalizeDigits(a).toLocaleLowerCase().includes(nq)).slice(0,80);
+                if(matches.length){term=null;opts={filters:{author:{any:matches}}};}
+              }
+              const found=await pf.search(term,opts);
+              const raw=found.results||[];
+              const cap=Math.min(raw.length,120);
+              const rows=await Promise.all(raw.slice(0,cap).map(r=>r.data()));
+              if(my!==seq) return;
+              lastRows=rows.filter(r=>modePass(r,q));
+              if(!lastRows.length){
+                lastRows=await arPrepend(await jsonFallback(q));
+                if(my!==seq) return;
+                if(lastRows.length){setStatus(`${lastRows.length} परिणाम · matches (phonetic/PDF fallback)`);render(true);return;}
+                setStatus('कोनो परिणाम नहि भेटल · No results found.');return;
+              }
+              lastRows=await arPrepend(lastRows);
+              if(my!==seq) return;
+              setStatus(`${lastRows.length}${raw.length>cap?'+':''} परिणाम · results`);
+              render(true);
+            }catch(err){
+              console.error(err);
+              lastRows=await arPrepend(await jsonFallback(q));
+              if(my!==seq) return;
+              if(lastRows.length){setStatus(`${lastRows.length} परिणाम · matches (phonetic/PDF fallback)`);render(true);return;}
+              setStatus('Search index उपलब्ध नहि अछि। Repository मे pagefind/ बनलाक बाद, वा videha-search-index.json साइट-मूलमे रखलाक बाद ई खोज चलत। · Search index not available yet; run the included Pagefind build workflow, or place videha-search-index.json (from the Site Auditor) in the site root.');
+            }
+          }
+          form.addEventListener('submit',e=>{e.preventDefault();search();});
+          input.addEventListener('focus',()=>{getPagefind().catch(()=>{});},{once:true});
+          input.addEventListener('input',()=>{
+            clearTimeout(timer);
+            const q=input.value.trim();
+            if(q.length>1){getPagefind().then(pf=>pf.preload(q)).catch(()=>{});timer=setTimeout(search,280);}
+            else if(!q){list.innerHTML='';lastRows=[];moreBtn.hidden=true;setStatus('');}
+          });
+          clearBtn.addEventListener('click',()=>{input.value='';list.innerHTML='';lastRows=[];moreBtn.hidden=true;setStatus('');input.focus();});
+          moreBtn.addEventListener('click',()=>render(false));
+          filterButtons.forEach(btn=>btn.addEventListener('click',()=>{
+            activeScope=btn.dataset.scope||'all';
+            filterButtons.forEach(b=>b.setAttribute('aria-pressed',b===btn?'true':'false'));
+            if(input.value.trim()) search();
+          }));
+          const params=new URLSearchParams(location.search);const initial=params.get('q');if(initial){input.value=initial;search();}
+        })();
+        </script>
+        <!-- VIDEHA UNIVERSAL SEARCH END -->
+
     </main>
     
     
