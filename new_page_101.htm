@@ -1,0 +1,974 @@
+<!doctype html>
+<html class="no-js" lang="mai">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>विदेह · VIDEHA | २३ भाषा लिप्यंतरण · Transliterator</title>
+    <meta name="description" content="विदेह: First Maithili Fortnightly eJournal. 23-language transliterator to Roman script.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="256x256" href="assets/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=IM+Fell+English:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+Devanagari:wght@300;400;500;600&family=Noto+Serif+Devanagari:wght@400;500;600;700&family=Noto+Sans+Bengali&family=Noto+Sans+Telugu&family=Noto+Sans+Kannada&family=Noto+Sans+Malayalam&family=Noto+Sans+Tamil&family=Noto+Nastaliq+Urdu&family=Noto+Sans+Gujarati&family=Noto+Sans+Oriya&family=Noto+Sans+Meetei+Mayek&family=Noto+Sans+Gurmukhi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tirhuta&display=swap" rel="stylesheet">
+    <style id="videha-tirhuta-font-support">
+/* Tirhuta font support — online Google Fonts + self-hosted fallback. */
+@font-face {
+  font-family: "Noto Sans Tirhuta";
+  src:
+    url("assets/fonts/NotoSansTirhuta-Regular.woff2") format("woff2"),
+    url("assets/fonts/NotoSansTirhuta-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+.noto-sans-tirhuta-regular {
+  font-family: "Noto Sans Tirhuta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.tirhuta,
+.tirhuta-text,
+.videha-tirhuta,
+.videha-tirhuta-text,
+[lang="tir"],
+[data-script="tirhuta"],
+[class*="tirhuta"],
+[class*="Tirhuta"],
+[id*="tirhuta"],
+[id*="Tirhuta"] {
+  font-family: "Noto Sans Tirhuta", sans-serif !important;
+  line-height: 1.9;
+}
+</style>
+
+    <link rel="stylesheet" href="assets/css/videha.css?v=20260810b">
+    <meta name="msvalidate.01" content="1A8A7C76312E8BDFE3D10AF65390CA67" />
+    <style>
+body { font-family: 'Libre Baskerville', 'Noto Serif Devanagari', Georgia, serif !important; }
+font[face="Kalam"] { font-family: 'Noto Serif Devanagari', serif !important; }
+.MsoNormal { font-family: 'Noto Serif Devanagari', serif !important; line-height: 1.9 !important; }
+span.MsoHyperlink { color: #8B1A1A !important; text-decoration: underline; text-underline: single; }
+
+/* Transliterator page layout */
+.trans-page-wrap {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  padding: 1.5rem 1rem;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.trans-intro-col {
+  flex: 1;
+  min-width: 260px;
+}
+.trans-tool-col {
+  flex: 1.1;
+  min-width: 320px;
+  position: sticky;
+  top: 70px;
+  background: #fff9ef;
+  border: 1px solid #e5d9c6;
+  border-radius: 12px;
+  padding: 1.4rem;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+}
+
+/* Transliterator tool internals */
+:root {
+  --vg: #c27e2e;
+  --vg-dark: #9b601f;
+  --vborder: #e5d9c6;
+}
+.trans-header {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--vg-dark);
+  border-bottom: 2px solid var(--vg);
+  padding-bottom: 7px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.lang-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 5px;
+  max-height: 260px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  padding-right: 4px;
+}
+.lang-btn {
+  background: #fef7ec;
+  border: 1px solid #e3d5bf;
+  padding: 5px 7px;
+  border-radius: 4px;
+  font-size: 0.68rem;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.15s;
+  color: #4e3e28;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: 'Noto Serif Devanagari', serif;
+}
+.lang-btn.active, .lang-btn:hover {
+  background: var(--vg);
+  border-color: var(--vg);
+  color: white;
+}
+textarea {
+  width: 100%;
+  border: 1px solid var(--vborder);
+  border-radius: 6px;
+  padding: 9px 11px;
+  font-size: 0.88rem;
+  font-family: 'Noto Serif Devanagari', Georgia, serif;
+  background: #fffcf5;
+  resize: vertical;
+  margin: 6px 0;
+}
+.action-bar {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin: 4px 0;
+}
+.mini-btn {
+  background: transparent;
+  border: 1px solid #dacfbb;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.15s;
+  font-family: 'Libre Baskerville', serif;
+}
+.mini-btn:hover { border-color: var(--vg); background: #fef2e2; }
+.btn-transliterate {
+  background: var(--vg);
+  color: white;
+  border: none;
+  padding: 9px;
+  border-radius: 6px;
+  font-weight: 600;
+  width: 100%;
+  margin: 8px 0;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 0.9rem;
+}
+.btn-transliterate:hover { background: var(--vg-dark); }
+.status {
+  font-size: 0.68rem;
+  text-align: center;
+  background: #f5ede0;
+  padding: 5px;
+  border-radius: 4px;
+  margin-top: 6px;
+  color: #6b5a3e;
+}
+.ex-chips { display: flex; flex-wrap: wrap; gap: 5px; margin: 8px 0; }
+.ex-chip {
+  background: #f2e9dc;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  cursor: pointer;
+  transition: 0.15s;
+  font-family: 'Noto Serif Devanagari', serif;
+}
+.ex-chip:hover { background: var(--vg); color: white; }
+.lang-list-note {
+  font-size: 0.58rem;
+  text-align: center;
+  margin-top: 8px;
+  color: #aa8f66;
+  font-family: 'Libre Baskerville', serif;
+  line-height: 1.6;
+}
+
+/* Intro content */
+.trans-intro-col h2 {
+  font-family: 'Playfair Display', serif;
+  color: #8B1A1A;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid var(--vg);
+  padding-left: 0.8rem;
+}
+.trans-intro-col p {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #2c2418;
+  margin-bottom: 0.9rem;
+}
+.trans-intro-col .note-box {
+  background: #fef6ea;
+  border-left: 3px solid var(--vg);
+  padding: 0.7rem 1rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  margin: 1rem 0;
+  color: #5a3e1e;
+}
+
+@media (max-width: 860px) {
+  .trans-page-wrap { flex-direction: column; }
+  .trans-tool-col { position: static; min-width: auto; }
+}
+    </style>
+<style id="videha-editorial-skin">
+/* ============================================================
+   VIDEHA · EDITORIAL READING SKIN
+   New Yorker / Paris Review register.
+   Reading surface = cream #FAF6EE (matches index.htm prose &
+   poetry blocks). Page field is a quieter parchment so the
+   article column reads as a printed page laid on a table.
+   Scoped to .videha-main-content so site chrome is untouched.
+   ============================================================ */
+:root{
+  --vd-cream:#FAF6EE;      /* reading surface (prose/poetry block) */
+  --vd-field:#EFE9DC;      /* page field behind the column        */
+  --vd-rule:#D8CFC0;       /* hairline                            */
+  --vd-crimson:#8B1A1A;    /* display + drop cap + links          */
+  --vd-gold:#C49A3C;       /* accent rule                         */
+  --vd-ink:#23201B;        /* body ink (warm near-black)          */
+  --vd-ink-soft:#544D42;   /* captions / meta                     */
+}
+
+/* page field behind the reading column */
+body{ background:var(--vd-field) !important; color:var(--vd-ink); }
+
+/* the reading column itself */
+.videha-main-content .boxOutline{
+  background:var(--vd-cream) !important;
+  border:1px solid var(--vd-rule) !important;
+  border-radius:2px !important;
+  box-shadow:0 1px 0 #fff inset, 0 6px 22px rgba(35,32,27,.07);
+  max-width:760px;            /* New Yorker measure */
+  margin:26px auto 40px !important;
+  padding:40px 52px 46px !important;
+  position:relative;
+}
+/* thin gold rule across the very top of the page, broadsheet cue */
+.videha-main-content .boxOutline::before{
+  content:"";position:absolute;left:0;right:0;top:0;height:3px;
+  background:linear-gradient(90deg,var(--vd-crimson) 0 38%,var(--vd-gold) 38% 100%);
+  border-radius:2px 2px 0 0;
+}
+
+/* the running-head strip above the column: make it a quiet eyebrow */
+.videha-main-content .clrStrip{
+  background:linear-gradient(90deg,#C77B2C 0%,#8B1A1A 50%,#1F2A44 100%) !important;
+  color:#FAF6EE !important;
+  padding:10px 16px !important;
+  margin:6px 0 12px !important;
+  border:0 !important;border-radius:2px !important;
+  box-shadow:0 2px 4px rgba(31,42,68,.08) !important;
+}
+.videha-main-content .clrStrip center,
+.videha-main-content .clrStrip font,
+.videha-main-content .clrStrip span{
+  color:#FAF6EE !important;
+  font-family:'Noto Serif Devanagari','Playfair Display',Georgia,serif !important;
+  font-style:normal;font-weight:600;font-size:1.1em;letter-spacing:0;
+  max-width:none;margin:0;padding:0;border-bottom:0 !important;
+  text-transform:none;
+}
+
+/* refresh / grayBox notice — fold it into the editorial palette */
+.videha-main-content .grayBox{
+  background:#F3ECDC !important;border:0 !important;
+  border-left:3px solid var(--vd-gold) !important;
+  border-radius:0 2px 2px 0 !important;
+  padding:8px 14px !important;margin:0 0 18px !important;
+}
+.videha-main-content .videha-refresh-note{
+  font-family:'Libre Baskerville',Georgia,serif;
+  font-size:.72rem;line-height:1.5;color:var(--vd-ink-soft);
+}
+.videha-main-content .videha-refresh-keys{ color:#8a8170; }
+
+/* ---- TYPOGRAPHY ------------------------------------------- */
+.videha-main-content #content,
+.videha-main-content .boxOutline{
+  font-family:'Libre Baskerville','Noto Serif Devanagari',Georgia,serif;
+}
+
+/* body paragraphs: true reading measure, justified, warm ink */
+.videha-main-content #content .MsoNormal,
+.videha-main-content #content p{
+  font-family:'Noto Serif Devanagari','Libre Baskerville',Georgia,serif !important;
+  color:var(--vd-ink);
+  font-size:1.02rem;
+  line-height:1.95 !important;
+  text-align:justify;
+  text-justify:inter-word;
+  margin:0 0 1.05em !important;
+  -webkit-hyphens:auto;hyphens:auto;
+}
+:lang(mai) .videha-main-content #content p,
+.videha-main-content #content p:lang(mai){ line-height:1.98 !important; }
+
+/* headings → Playfair / IM Fell display, crimson, like a title page */
+.videha-main-content #content b span,
+.videha-main-content #content strong span,
+.videha-main-content #content h1,
+.videha-main-content #content h2,
+.videha-main-content #content h3{
+  font-family:'Playfair Display','Noto Serif Devanagari',Georgia,serif !important;
+  color:var(--vd-crimson) !important;
+  line-height:1.25 !important;
+  letter-spacing:.005em;
+}
+
+/* the big author/title line (font-size 18pt in source) reads as a deck */
+.videha-main-content #content span[style*="18.0pt"]{
+  font-family:'Playfair Display','Noto Serif Devanagari',serif !important;
+  color:var(--vd-crimson) !important;
+  display:inline-block;
+}
+
+/* drop-cap on the first real paragraph of the article — Paris Review cue.
+   Applied only to a paragraph explicitly opted-in via .vd-lede to avoid
+   capping image-only or heading paragraphs. */
+.videha-main-content #content p.vd-lede::first-letter{
+  font-family:'Playfair Display',Georgia,serif;
+  font-size:3.4em;line-height:.84;font-weight:700;
+  color:var(--vd-crimson);
+  float:left;margin:.02em .10em -.04em 0;
+}
+
+/* links: crimson, restrained underline */
+.videha-main-content #content a{
+  color:var(--vd-crimson) !important;
+  text-decoration:none;
+  border-bottom:1px solid rgba(139,26,26,.32);
+  transition:border-color .15s,background .15s;
+}
+.videha-main-content #content a:hover{
+  border-bottom-color:var(--vd-crimson);
+  background:rgba(196,154,60,.12);
+}
+
+/* images centred, framed like editorial plates */
+.videha-main-content #content img{
+  max-width:100%;height:auto;display:block;margin:1.4em auto;
+  border:1px solid var(--vd-rule);
+  background:#fff;padding:5px;
+  box-shadow:0 4px 14px rgba(35,32,27,.10);
+}
+/* small inline portrait/thumbnails shouldn't be forced full-width-block */
+.videha-main-content #content img[width]{ display:block; }
+
+/* captions (the 8pt italic notes) */
+.videha-main-content #content span[style*="8.0pt"],
+.videha-main-content #content i span[lang]{
+  color:var(--vd-ink-soft);
+}
+
+/* a slim section divider feel for empty/spacer paragraphs */
+.videha-main-content #content hr{
+  border:0;height:1px;background:var(--vd-rule);
+  width:42%;margin:1.8em auto;
+}
+
+/* selection in house colours */
+.videha-main-content #content ::selection{
+  background:rgba(196,154,60,.30);
+}
+
+/* ---- RESPONSIVE ------------------------------------------- */
+@media (max-width:820px){
+  .videha-main-content .boxOutline{
+    margin:14px 10px 28px !important;
+    padding:26px 20px 30px !important;
+  }
+  .videha-main-content .clrStrip center,
+.videha-main-content .clrStrip font,
+.videha-main-content .clrStrip span{
+  color:#FAF6EE !important;
+  font-family:'Noto Serif Devanagari','Playfair Display',Georgia,serif !important;
+  font-style:normal;font-weight:600;font-size:1.1em;letter-spacing:0;
+  max-width:none;margin:0;padding:0;border-bottom:0 !important;
+  text-transform:none;
+}
+  .videha-main-content #content .MsoNormal,
+  .videha-main-content #content p{ font-size:.99rem; }
+  .videha-main-content #content p.vd-lede::first-letter{ font-size:2.9em; }
+}
+@media (prefers-reduced-motion:reduce){
+  .videha-main-content #content a{ transition:none; }
+}
+</style>
+
+
+<!-- VIDEHA_CACHE_AND_JSONLD_20260810 -->
+<!-- Page revalidation support. The visible Ctrl+F5/refresh reminder is intentionally preserved as a fallback. -->
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<script type="application/ld+json" id="videha-jsonld">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.videha.co.in/#website",
+      "url": "https://www.videha.co.in/",
+      "name": "Videha — First Maithili Fortnightly eJournal",
+      "alternateName": "विदेह — प्रथम मैथिली पाक्षिक ई-पत्रिका",
+      "inLanguage": "mai"
+    },
+    {
+      "@type": "Periodical",
+      "@id": "https://www.videha.co.in/#periodical",
+      "url": "https://www.videha.co.in/",
+      "name": "Videha — First Maithili Fortnightly eJournal",
+      "alternateName": "विदेह — प्रथम मैथिली पाक्षिक ई-पत्रिका",
+      "issn": "2229-547X",
+      "inLanguage": "mai"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.videha.co.in/new_page_101.htm#webpage",
+      "url": "https://www.videha.co.in/new_page_101.htm",
+      "name": "विदेह · VIDEHA | २३ भाषा लिप्यंतरण · Transliterator",
+      "isPartOf": {
+        "@id": "https://www.videha.co.in/#website"
+      },
+      "about": {
+        "@id": "https://www.videha.co.in/#periodical"
+      },
+      "inLanguage": "mai"
+    }
+  ]
+}
+</script>
+<link rel="alternate" type="application/rss+xml" title="Videha — New Issue RSS" href="https://www.videha.co.in/videha-rss.xml"/>
+</head>
+
+<body>
+<a class="videha-skip" href="#videha-main">मुख्य सामग्रीपर जाउ · Skip to main content</a>
+<div class="videha-a11y-bar" role="region" aria-label="पृष्ठ सुनबाक नियंत्रण · Listen to this page">
+  <button type="button" id="videha-tts-toggle" class="videha-tts-btn" aria-pressed="false" aria-label="ई पृष्ठ सुनू · Listen to this page"><span class="videha-tts-ic" aria-hidden="true">🔊</span><span class="videha-tts-label">सुनू · Listen</span></button>
+  <button type="button" id="videha-tts-stop" class="videha-tts-btn videha-tts-stop" hidden aria-label="वाचन रोकू · Stop reading"><span class="videha-tts-ic" aria-hidden="true">⏹</span><span class="videha-tts-label">रोकू</span></button>
+  <span id="videha-tts-status" class="videha-sr-only" role="status" aria-live="polite"></span>
+</div>
+
+<!-- Videha Header Start -->
+<div class="videha-topbar">
+  VIDEHA ISSN 2229-547X &nbsp;·&nbsp; First Maithili Fortnightly eJournal &nbsp;·&nbsp; Since 2000 &nbsp;·&nbsp;
+  <a href="http://www.videha.co.in">www.videha.co.in</a>
+</div>
+<div class="videha-utilbar">
+  <span>विदेह — प्रथम मैथिली पाक्षिक ई पत्रिका</span>
+  <div class="videha-utilbar-social">
+    <a href="https://x.com/videha" target="_blank">Twitter / X</a>
+    <a href="https://www.facebook.com/groups/videha/" target="_blank">Facebook</a>
+    <a href="archive.htm">Archive</a>
+  </div>
+</div>
+<header class="videha-masthead">
+        <a href="index.htm" class="videha-masthead-emblem" aria-label="विदेह — मैथिली पाक्षिक ई-पत्रिका"><img class="videha-tirhuta-img" src="assets/img/videha-tirhuta-wordmark.png" alt="विदेह प्रथम मैथिली पाक्षिक ई पत्रिका"></a>
+    </header>
+<nav class="videha-nav" role="navigation" aria-label="मुख्य नेविगेशन · Main navigation">
+  <button class="videha-nav-toggle" onclick="this.parentNode.querySelector('.videha-nav-inner').classList.toggle('open')" aria-label="मेनू · Menu" aria-expanded="false" aria-controls="videha-primary-nav">&#9776;</button>
+  <div class="videha-nav-inner" id="videha-primary-nav">
+    <a href="index.htm">विदेह नूतन अंक</a>
+    <a href="videha.htm">विदेहक पुरान अंक</a>
+    <a href="pothi.htm">विदेह पोथी</a>
+    <a href="kids.htm">शिशु उत्सव</a>
+    <a href="Audio_Video.htm">दृश्य-श्रव्य नाट्य उत्सव</a>
+    <a href="femcorner.htm">स्त्री कोना</a>
+    <a href="videha-elearning.htm">विदेह ई-लर्निङ्ग</a>
+    <a href="ratna.htm">मिथिला रत्न</a>
+    <a href="discovery.htm">मिथिलाक खोज</a>
+    <a href="gajenthakur.htm">Parallel History</a>
+    <a href="videha-converters.htm">Videha Converters</a>
+    <a href="archive.htm">पेटार / Archive</a>
+  </div>
+</nav>
+<!-- Videha Header End -->
+
+<main class="videha-main-content">
+<h1 class="videha-sr-only videha-page-title">विदेह · VIDEHA | २३ भाषा लिप्यंतरण · Transliterator</h1>
+
+        <div class="col-md-12 clrStrip">
+            <div class="row">
+                <div class="col-md-12" style="margin-top: 6px;">
+                    <center>विदेह · 23 LANGUAGE TRANSLITERATOR</center>
+                </div>
+            </div>
+        </div>
+
+        <div class="container boxOutline">
+            <span id="videha-main" tabindex="-1"></span><div class="col-md-12 grayBox">
+                <div class="row">
+                    <div class="col-md-12">
+                        <center class="videha-refresh-note">विदेह ई पत्रिकाक नव अंक देखबाक लेल पृष्ठ सभकेँ रिफ्रेश कए देखू: <span class="videha-refresh-keys">[Windows / Linux: Ctrl + F5 / Ctrl + Shift + R &nbsp;&middot;&nbsp; macOS: Command (Cmd) + Option + E + F5 / hold Shift + Click the Refresh button]</span></center>
+                    </div>
+                </div>
+            </div>
+
+            <div id="content">
+
+  <div class="trans-page-wrap">
+
+    <!-- Left: Intro / info column -->
+    <div class="trans-intro-col">
+      <h2>२३ भाषा लिप्यंतरण · 23-Language Transliterator</h2>
+
+      <p><strong>विदेह</strong> ISSN 2229-547X — प्रथम मैथिली पाक्षिक ई-पत्रिका (since 2000). सम्पादक: <strong>गजेन्द्र ठाकुर</strong>।</p>
+
+      <div class="note-box">
+        एहि उपकरण द्वारा भारतक २३ भाषाक लिपिकेँ रोमन/लैटिन लिपिमे लिप्यंतरित कएल जा सकैत अछि।<br>
+        This tool transliterates text from all 23 Indian languages into Roman/Latin script.
+      </div>
+
+      <p><strong>समर्थित भाषा / Supported Languages:</strong><br>
+      मैथिली · हिन्दी · संस्कृत · मराठी · नेपाली · कोंकणी · बोडो · डोगरी · कश्मीरी · सिन्धी · ओड़िआ · বাংলা · অসমীয়া · తెలుగు · தமிழ் · ಕನ್ನಡ · മലയാളം · ગુજરાતી · ਪੰਜਾਬੀ · اردو · ᱥᱟᱱᱛᱟᱲᱤ · ꯃꯩꯇꯩꯂꯣꯟ · English</p>
+
+      <p><strong>उपयोग / How to use:</strong><br>
+      १. अपन भाषा चुनू (Choose your language)<br>
+      २. पाठ लिखू वा पेस्ट करू (Type or paste text)<br>
+      ३. "रोमन लिपि मे बदलू" दबाउ (Click the button)<br>
+      ४. परिणाम कॉपी करू (Copy the result)</p>
+
+      <p style="font-size:0.82rem; color:#6b5a3e;">
+        <a href="index.htm" style="color:#8B1A1A;">← मुख्य पृष्ठ / Home</a> &nbsp;|&nbsp;
+        <a href="archive.htm" style="color:#8B1A1A;">पेटार / Archive</a>
+      </p>
+    </div>
+
+    <!-- Right: Transliterator tool -->
+    <div class="trans-tool-col">
+      <div class="trans-header">
+        🌐 २३ भाषा · TRANSLITERATOR<br>
+        <span style="font-size:0.55rem; font-family:'Libre Baskerville',serif;">सभ लिपि → रोमन (Roman/Latin)</span>
+      </div>
+
+      <div class="lang-grid" id="langGrid"></div>
+
+      <textarea id="inputText" rows="3" placeholder="पाठ लिखू / paste text in your language…" aria-label="पाठ लिखू / paste text in your language…"></textarea>
+      <div class="action-bar">
+        <button class="mini-btn" id="listenInputBtn">🔊 सुनू (Input)</button>
+        <button class="mini-btn" id="clearInputBtn">🗑️ Clear</button>
+      </div>
+
+      <button class="btn-transliterate" id="transliterateBtn">⟳ रोमन लिपि मे बदलू</button>
+
+      <textarea id="outputText" rows="4" readonly placeholder="Transliteration (Roman) will appear here…" aria-label="Transliteration (Roman) will appear here…"></textarea>
+      <div class="action-bar">
+        <button class="mini-btn" id="listenOutputBtn">🔊 सुनू (Output)</button>
+        <button class="mini-btn" id="copyOutputBtn">📋 Copy</button>
+        <button class="mini-btn" id="clearAllBtn">🗑️ All clear</button>
+      </div>
+
+      <div class="status" id="statusBar">✨ तैयार · २३ languages</div>
+      <div class="ex-chips" id="exChips"></div>
+
+      <div class="lang-list-note">
+        Assamese · Bengali · Bodo · Dogri · English · Gujarati · Hindi · Kannada · Kashmiri · Konkani · Maithili · Malayalam · Manipuri · Marathi · Nepali · Odia · Punjabi · Sanskrit · Santhali · Sindhi · Tamil · Telugu · Urdu
+      </div>
+    </div>
+
+  </div><!-- /trans-page-wrap -->
+
+            </div><!-- /content -->
+
+        </div><!-- /container boxOutline -->
+
+</main>
+
+<!-- Videha Footer Start -->
+    <!-- Videha Parallel Platform Strip Start -->
+    <div class="clrStrip videha-parallel-platform-strip" role="note" aria-label="विदेह मैथिली साहित्यक समानान्तर मंच" style="text-align:justify;text-justify:inter-word;">
+      साहित्य अकादेमीक संकीर्ण मैथिली भाषा विभागसँ विदेह (मैथिली साहित्यक समानान्तर मंच) ऐ अर्थमे सेहो फराक अछि जे विदेहमे ठेठी, अंगिका आ बज्जिका सन सहभाषाकेँ संग लऽ कऽ मिथिलाक बोली-वैविध्यक समग्र चित्र देल जाइत अछि। विदेहमे ठेठी, अंगिका आ बज्जिकाक भाषा विज्ञान, रचना आ व्याकरण मैथिलीक संग देल गेल अछि <a href="https://archive.org/download/videha-petar/Maithili_Samanantar_Vyakaran_Rachna_Bhasha-Vigyan_merge.pdf" style="color:#FAF6EE;text-decoration:underline;font-weight:700;">मैथिलीक एकटा समानान्तर व्याकरण, रचना आ भाषा विज्ञान (ठेठी, अंगिका आ बज्जिकाकेँ संग लऽ कऽ)- गजेन्द्र ठाकुर</a>, संगे विदेहमे ठेठी, अंगिका आ बज्जिकाक साहित्य ई-प्रकाशित आ समीक्षित सेहो होइत अछि।– गजेन्द्र ठाकुर, सम्पादक, विदेह ISSN 2229-547X
+    </div>
+    <!-- Videha Parallel Platform Strip End -->
+<footer class="videha-footer-simple">
+  Videha — First Maithili Fortnightly eJournal ISSN 2229-547X विदेह प्रथम मैथिली पाक्षिक ई पत्रिका
+</footer>
+<div id="videha-back-top"><a href="#" title="Back to top" aria-label="पृष्ठक शीर्षपर जाउ · Back to top">&#8679;</a></div>
+
+<script>
+(function(){
+  var btn = document.getElementById('videha-back-top');
+  window.addEventListener('scroll', function(){ btn.style.display = window.scrollY > 300 ? 'block' : 'none'; });
+})();
+
+// ── Complete 23-language transliteration maps ──
+const TRANSLIT_MAPS = {
+  devanagari: { 'अ':'a','आ':'aa','इ':'i','ई':'ee','उ':'u','ऊ':'oo','ऋ':'ri','ए':'e','ऐ':'ai','ओ':'o','औ':'au','क':'ka','ख':'kha','ग':'ga','घ':'gha','ङ':'nga','च':'cha','छ':'chha','ज':'ja','झ':'jha','ञ':'nya','ट':'ta','ठ':'tha','ड':'da','ढ':'dha','ण':'na','त':'ta','थ':'tha','द':'da','ध':'dha','न':'na','प':'pa','फ':'pha','ब':'ba','भ':'bha','म':'ma','य':'ya','र':'ra','ल':'la','व':'va','श':'sha','ष':'sha','स':'sa','ह':'ha','क्ष':'ksha','त्र':'tra','ज्ञ':'gya','ा':'aa','ि':'i','ी':'ee','ु':'u','ू':'oo','ृ':'ri','े':'e','ै':'ai','ो':'o','ौ':'au','ं':'n','ः':'h','्':'' },
+  bengali: { 'অ':'a','আ':'aa','ই':'i','ঈ':'ee','উ':'u','ঊ':'oo','ঋ':'ri','এ':'e','ঐ':'ai','ও':'o','ঔ':'au','ক':'ka','খ':'kha','গ':'ga','ঘ':'gha','ঙ':'nga','চ':'cha','ছ':'chha','জ':'ja','ঝ':'jha','ঞ':'nya','ট':'ta','ঠ':'tha','ড':'da','ঢ':'dha','ণ':'na','ত':'ta','থ':'tha','দ':'da','ধ':'dha','ন':'na','প':'pa','ফ':'pha','ব':'ba','ভ':'bha','ম':'ma','য':'ya','র':'ra','ল':'la','শ':'sha','ষ':'sha','স':'sa','হ':'ha','ড়':'ra','ঢ়':'rha','য়':'ya','া':'aa','ি':'i','ী':'ee','ু':'u','ূ':'oo','ৃ':'ri','ে':'e','ৈ':'ai','ো':'o','ৌ':'au','ং':'ng','ঃ':'h','্':'' },
+  telugu: { 'అ':'a','ఆ':'aa','ఇ':'i','ఈ':'ee','ఉ':'u','ఊ':'oo','ఋ':'ri','ఎ':'e','ఏ':'e','ఐ':'ai','ఒ':'o','ఓ':'o','ఔ':'au','క':'ka','ఖ':'kha','గ':'ga','ఘ':'gha','ఙ':'nga','చ':'cha','ఛ':'chha','జ':'ja','ఝ':'jha','ఞ':'nya','ట':'ta','ఠ':'tha','డ':'da','ఢ':'dha','ణ':'na','త':'ta','థ':'tha','ద':'da','ధ':'dha','న':'na','ప':'pa','ఫ':'pha','బ':'ba','భ':'bha','మ':'ma','య':'ya','ర':'ra','ల':'la','వ':'va','శ':'sha','ష':'sha','స':'sa','హ':'ha','ళ':'la','ా':'aa','ి':'i','ీ':'ee','ు':'u','ూ':'oo','ృ':'ri','ె':'e','ే':'e','ై':'ai','ొ':'o','ో':'o','ౌ':'au','ం':'n','ః':'h' },
+  tamil: { 'அ':'a','ஆ':'aa','இ':'i','ஈ':'ee','உ':'u','ஊ':'oo','எ':'e','ஏ':'e','ஐ':'ai','ஒ':'o','ஓ':'o','ஔ':'au','க':'ka','ங':'nga','ச':'cha','ஜ':'ja','ஞ':'nya','ட':'ta','ண':'na','த':'tha','ந':'na','ப':'pa','ம':'ma','ய':'ya','ர':'ra','ல':'la','வ':'va','ழ':'zha','ள':'la','ற':'ra','ன':'na','ஶ':'sha','ஷ':'sha','ஸ':'sa','ஹ':'ha' },
+  kannada: { 'ಅ':'a','ಆ':'aa','ಇ':'i','ಈ':'ee','ಉ':'u','ಊ':'oo','ಋ':'ri','ಎ':'e','ಏ':'e','ಐ':'ai','ಒ':'o','ಓ':'o','ಔ':'au','ಕ':'ka','ಖ':'kha','ಗ':'ga','ಘ':'gha','ಙ':'nga','ಚ':'cha','ಛ':'chha','ಜ':'ja','ಝ':'jha','ಞ':'nya','ಟ':'ta','ಠ':'tha','ಡ':'da','ಢ':'dha','ಣ':'na','ತ':'ta','ಥ':'tha','ದ':'da','ಧ':'dha','ನ':'na','ಪ':'pa','ಫ':'pha','ಬ':'ba','ಭ':'bha','ಮ':'ma','ಯ':'ya','ರ':'ra','ಲ':'la','ವ':'va','ಶ':'sha','ಷ':'sha','ಸ':'sa','ಹ':'ha','ಳ':'la','ಾ':'aa','ಿ':'i','ೀ':'ee','ು':'u','ೂ':'oo','ೃ':'ri','ೆ':'e','ೇ':'e','ೈ':'ai','ೊ':'o','ೋ':'o','ೌ':'au','ಂ':'n','ಃ':'h' },
+  malayalam: { 'അ':'a','ആ':'aa','ഇ':'i','ഈ':'ee','ഉ':'u','ഊ':'oo','ഋ':'ri','എ':'e','ഏ':'e','ഐ':'ai','ഒ':'o','ഓ':'o','ഔ':'au','ക':'ka','ഖ':'kha','ഗ':'ga','ഘ':'gha','ങ':'nga','ച':'cha','ഛ':'chha','ജ':'ja','ഝ':'jha','ഞ':'nya','ട':'ta','ഠ':'tha','ഡ':'da','ഢ':'dha','ണ':'na','ത':'ta','ഥ':'tha','ദ':'da','ധ':'dha','ന':'na','പ':'pa','ഫ':'pha','ബ':'ba','ഭ':'bha','മ':'ma','യ':'ya','ര':'ra','ല':'la','വ':'va','ശ':'sha','ഷ':'sha','സ':'sa','ഹ':'ha','ള':'la','ഴ':'zha','റ':'ra','ാ':'aa','ി':'i','ീ':'ee','ു':'u','ൂ':'oo','ൃ':'ri','െ':'e','േ':'e','ൈ':'ai','ൊ':'o','ോ':'o','ൌ':'au','ം':'n','ഃ':'h' },
+  gujarati: { 'અ':'a','આ':'aa','ઇ':'i','ઈ':'ee','ઉ':'u','ઊ':'oo','ઋ':'ri','એ':'e','ઐ':'ai','ઓ':'o','ઔ':'au','ક':'ka','ખ':'kha','ગ':'ga','ઘ':'gha','ઙ':'nga','ચ':'cha','છ':'chha','જ':'ja','ઝ':'jha','ઞ':'nya','ટ':'ta','ઠ':'tha','ડ':'da','ઢ':'dha','ણ':'na','ત':'ta','થ':'tha','દ':'da','ધ':'dha','ન':'na','પ':'pa','ફ':'pha','બ':'ba','ભ':'bha','મ':'ma','ય':'ya','ર':'ra','લ':'la','વ':'va','શ':'sha','ષ':'sha','સ':'sa','હ':'ha','ળ':'la','ા':'aa','િ':'i','ી':'ee','ુ':'u','ૂ':'oo','ૃ':'ri','ે':'e','ૈ':'ai','ો':'o','ૌ':'au','ં':'n','ઃ':'h' },
+  gurmukhi: { 'ਅ':'a','ਆ':'aa','ਇ':'i','ਈ':'ee','ਉ':'u','ਊ':'oo','ਏ':'e','ਐ':'ai','ਓ':'o','ਔ':'au','ਕ':'ka','ਖ':'kha','ਗ':'ga','ਘ':'gha','ਙ':'nga','ਚ':'cha','ਛ':'chha','ਜ':'ja','ਝ':'jha','ਞ':'nya','ਟ':'ta','ਠ':'tha','ਡ':'da','ਢ':'dha','ਣ':'na','ਤ':'ta','ਥ':'tha','ਦ':'da','ਧ':'dha','ਨ':'na','ਪ':'pa','ਫ':'pha','ਬ':'ba','ਭ':'bha','ਮ':'ma','ਯ':'ya','ਰ':'ra','ਲ':'la','ਵ':'va','ਸ':'sa','ਹ':'ha' },
+  urdu: { 'ا':'a','ب':'b','پ':'p','ت':'t','ٹ':'t','ث':'s','ج':'j','چ':'ch','ح':'h','خ':'kh','د':'d','ڈ':'d','ذ':'z','ر':'r','ڑ':'r','ز':'z','ژ':'zh','س':'s','ش':'sh','ص':'s','ض':'z','ط':'t','ظ':'z','ع':'a','غ':'gh','ف':'f','ق':'q','ک':'k','گ':'g','ل':'l','م':'m','ن':'n','و':'o','ہ':'h','ھ':'h','ی':'y','ے':'e' },
+  olchiki: { 'ᱚ':'a','ᱛ':'ta','ᱜ':'ga','ᱝ':'nga','ᱞ':'la','ᱟ':'aa','ᱠ':'ka','ᱡ':'ja','ᱢ':'ma','ᱤ':'i','ᱥ':'sa','ᱦ':'ha','ᱨ':'ra','ᱩ':'u','ᱪ':'cha','ᱫ':'da','ᱮ':'e','ᱯ':'pa','ᱳ':'o','ᱴ':'ta','ᱵ':'ba','ᱸ':'n' },
+  meitei: { 'ꯀ':'ka','ꯁ':'sa','ꯂ':'la','ꯃ':'ma','ꯄ':'pa','ꯅ':'na','ꯆ':'cha','ꯇ':'ta','ꯈ':'kha','ꯉ':'nga','ꯊ':'tha','ꯋ':'wa','ꯌ':'ya','ꯍ':'ha','ꯎ':'u','ꯏ':'i','ꯐ':'pha','ꯑ':'a','ꯒ':'ga','ꯓ':'jha','ꯔ':'ra','ꯕ':'ba','ꯖ':'ja','ꯗ':'da','ꯘ':'gha','ꯙ':'dha','ꯚ':'bha','ꯛ':'ka','ꯜ':'la','ꯝ':'ma','ꯞ':'pa','ꯟ':'na','ꯠ':'ta','ꯡ':'nga','ꯢ':'i' }
+};
+
+const LANGUAGES = [
+  {id:'devanagari', name:'मैथिली (Maithili)', examples:['नमस्कार','अहाँ केना छी?','विदेह ई-पत्रिका','बहुत धन्यवाद']},
+  {id:'devanagari', name:'हिन्दी (Hindi)', examples:['नमस्ते','आप कैसे हैं?','धन्यवाद']},
+  {id:'devanagari', name:'संस्कृत (Sanskrit)', examples:['नमस्ते','भवान् कथमस्ति?']},
+  {id:'devanagari', name:'मराठी (Marathi)', examples:['नमस्कार','तू कसा आहेस?']},
+  {id:'devanagari', name:'नेपाली (Nepali)', examples:['नमस्ते','तपाईंलाई कस्तो छ?']},
+  {id:'devanagari', name:'कोंकणी (Konkani)', examples:['देव बरें करूं']},
+  {id:'devanagari', name:'बोडो (Bodo)', examples:['खुलुम्बाई']},
+  {id:'devanagari', name:'डोगरी (Dogri)', examples:['नमस्कार']},
+  {id:'devanagari', name:'कश्मीरी (Kashmiri)', examples:['अस्सलाम अलैकुम']},
+  {id:'devanagari', name:'सिन्धी (Sindhi)', examples:['केम हालो आहिन?']},
+  {id:'devanagari', name:'ଓଡ଼ିଆ (Odia)', examples:['ନମସ୍କାର']},
+  {id:'bengali', name:'বাংলা (Bangla)', examples:['নমস্কার','আপনি কেমন আছেন?']},
+  {id:'bengali', name:'অসমীয়া (Assamese)', examples:['নমস্কাৰ']},
+  {id:'telugu', name:'తెలుగు (Telugu)', examples:['నమస్కారం']},
+  {id:'tamil', name:'தமிழ் (Tamil)', examples:['வணக்கம்']},
+  {id:'kannada', name:'ಕನ್ನಡ (Kannada)', examples:['ನಮಸ್ಕಾರ']},
+  {id:'malayalam', name:'മലയാളം', examples:['നമസ്കാരം']},
+  {id:'gujarati', name:'ગુજરાતી', examples:['નમસ્તે']},
+  {id:'gurmukhi', name:'ਪੰਜਾਬੀ', examples:['ਸਤ ਸ੍ਰੀ ਅਕਾਲ']},
+  {id:'urdu', name:'اردو (Urdu)', examples:['السلام علیکم']},
+  {id:'olchiki', name:'ᱥᱟᱱᱛᱟᱲᱤ (Santhali)', examples:['ᱡᱚᱦᱟᱨ']},
+  {id:'meitei', name:'ꯃꯩꯇꯩꯂꯣꯟ (Manipuri)', examples:['ꯑꯩꯀꯩꯗꯥ']},
+  {id:'devanagari', name:'English', examples:['Hello','How are you?','Thank you']}
+];
+
+let currentLangMap = 'devanagari';
+
+function transliterate(t, m) {
+  let map = TRANSLIT_MAPS[m] || TRANSLIT_MAPS.devanagari, r = '';
+  for (let i = 0; i < t.length; i++) {
+    let ch = t[i], nx = t[i+1];
+    if (nx && map[ch+nx]) { r += map[ch+nx]; i++; }
+    else if (map[ch]) r += map[ch];
+    else r += ch;
+  }
+  return r.replace(/\s+/g, ' ').trim();
+}
+
+function buildLangGrid() {
+  let g = document.getElementById('langGrid');
+  g.innerHTML = '';
+  LANGUAGES.forEach((l, i) => {
+    let btn = document.createElement('button');
+    btn.className = 'lang-btn' + (i === 0 ? ' active' : '');
+    btn.textContent = l.name;
+    btn.onclick = () => {
+      document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentLangMap = l.id;
+      updateExamples();
+      setStatus('✓ भाषा: ' + l.name, 'success');
+    };
+    g.appendChild(btn);
+  });
+}
+
+function updateExamples() {
+  let cont = document.getElementById('exChips');
+  cont.innerHTML = '';
+  let cur = LANGUAGES.find(l => l.id === currentLangMap) || LANGUAGES[0];
+  cur.examples.forEach(ex => {
+    let chip = document.createElement('button');
+    chip.className = 'ex-chip';
+    chip.textContent = ex;
+    chip.onclick = () => {
+      document.getElementById('inputText').value = ex;
+      document.getElementById('outputText').value = '';
+      setStatus('उदाहरण लोड', 'success');
+    };
+    cont.appendChild(chip);
+  });
+}
+
+function setStatus(msg, t) {
+  let sb = document.getElementById('statusBar');
+  sb.textContent = msg;
+  if (t === 'success') setTimeout(() => { if (sb.textContent === msg) sb.textContent = '✨ तैयार · २३ languages'; }, 1800);
+}
+
+function speakText(txt, src) {
+  if (!txt.trim()) { setStatus('⚠️ किछु नहि', ''); return; }
+  window.speechSynthesis.cancel();
+  let u = new SpeechSynthesisUtterance(txt.replace(/([.!?।])\s*/g, '$1  '));
+  u.rate = 0.85;
+  if (/[\u0900-\u097F]/.test(txt)) u.lang = 'hi-IN';
+  else if (/[\u0980-\u09FF]/.test(txt)) u.lang = 'bn-IN';
+  else u.lang = 'en-US';
+  u.onstart = () => setStatus('🔊 ' + src + ' सुनाओल जाइ रहल अछि', '');
+  u.onend   = () => setStatus('✓ ' + src + ' समाप्त', 'success');
+  window.speechSynthesis.speak(u);
+}
+
+document.getElementById('transliterateBtn').onclick = () => {
+  let inp = document.getElementById('inputText').value;
+  if (!inp.trim()) { setStatus('पाठ लिखू', ''); return; }
+  document.getElementById('outputText').value = transliterate(inp, currentLangMap);
+  setStatus('✓ रोमन लिपि मे बदलल गेल', 'success');
+};
+document.getElementById('listenInputBtn').onclick  = () => speakText(document.getElementById('inputText').value, 'इनपुट');
+document.getElementById('listenOutputBtn').onclick = () => speakText(document.getElementById('outputText').value, 'आउटपुट');
+document.getElementById('clearInputBtn').onclick   = () => { document.getElementById('inputText').value = ''; setStatus('इनपुट साफ', 'success'); };
+document.getElementById('clearAllBtn').onclick     = () => { document.getElementById('inputText').value = ''; document.getElementById('outputText').value = ''; setStatus('सब साफ', 'success'); };
+document.getElementById('copyOutputBtn').onclick   = async () => {
+  let o = document.getElementById('outputText').value;
+  if (o) { await navigator.clipboard.writeText(o); setStatus('कॉपी भेल', 'success'); }
+  else setStatus('कॉपी नहि भेल', '');
+};
+
+buildLangGrid();
+updateExamples();
+</script>
+
+<script src="assets/js/videha-tts.js?v=20260810" defer></script>
+<script src="assets/js/videha-translate.js?v=20260810" defer></script>
+<script src="assets/js/videha-access.js?v=20260810b" defer></script>
+
+<style id="videha-uniformity-fix">
+
+/* ============================================================
+   VIDEHA v2.4 — uniformity patch
+   Keeps all landing/list pages in the aboutme.htm / index.htm
+   editorial palette; removes remaining purple/pink/multicolour
+   category blocks by targeting the actual page classes.
+   ============================================================ */
+:root{
+  --vd-cream:#FAF6EE;
+  --vd-field:#EFE9DC;
+  --vd-rule:#D8CFC0;
+  --vd-rule-soft:#E7DECB;
+  --vd-crimson:#8B1A1A;
+  --vd-gold:#C49A3C;
+  --vd-indigo:#1F2A44;
+  --vd-ink:#23201B;
+  --vd-ink-soft:#544D42;
+}
+body{background:var(--vd-field)!important;color:var(--vd-ink)!important;}
+.videha-main-content,main.videha-main-content{background:transparent!important;}
+.videha-main-content .boxOutline{
+  background:var(--vd-cream)!important;
+  border:1px solid var(--vd-rule)!important;
+  border-radius:2px!important;
+  box-shadow:0 1px 0 #fff inset,0 6px 22px rgba(35,32,27,.07)!important;
+}
+
+/* Actual category wrappers used across prose/verse/fem/audio/kids/investigation/e-learning. */
+.prosecat,.femcat,.avcat,.kidcat,.kidscat,.invcat,.stucat,.sccat,
+.pr-author,.wc-author,.kc-author,.sc-author,.av-group,.iv-group,.sc-group,
+.kidcat-video,.inv-prose,.vq-section,.kids-quiz-wrap .vq-section{
+  background:var(--vd-cream)!important;
+  background-image:none!important;
+  border:1px solid var(--vd-rule)!important;
+  border-left:3px solid var(--vd-crimson)!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  transform:none!important;
+  overflow:visible!important;
+}
+.prosecat:hover,.femcat:hover,.avcat:hover,.kidcat:hover,.kidscat:hover,
+.invcat:hover,.stucat:hover,.sccat:hover,.pr-author:hover,.wc-author:hover,
+.kc-author:hover,.sc-author:hover,.av-group:hover,.iv-group:hover,.sc-group:hover,
+.kidcat-video:hover,.inv-prose:hover,.vq-section:hover{
+  transform:none!important;
+  box-shadow:none!important;
+}
+
+/* Category/card heads: replace gradients and bright fills with quiet editorial rules. */
+.prosecat-head,.femcat-head,.avcat-head,.kidcat-head,.kidscat-head,
+.invcat-head,.stucat-head,.sccat-head,.kids-quiz-wrap .vq-section-header,
+.vq-section-header,.av-group-name,.iv-group-name,.pr-author-name,.wc-author-name,
+.kc-author-name,.sc-author-name,.sc-group-name,.kidcat-video-title,.inv-dir-heading{
+  background:none!important;
+  background-color:var(--vd-cream)!important;
+  background-image:none!important;
+  color:var(--vd-crimson)!important;
+  text-shadow:none!important;
+  border:0!important;
+  border-bottom:1px solid var(--vd-rule)!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.prosecat-title,.femcat-title,.avcat-title,.kidcat-title,.kidscat-title,
+.invcat-title,.stucat-title,.sccat-title,.kids-quiz-title,.vq-section-label{
+  font-family:'Playfair Display','Noto Serif Devanagari',Georgia,serif!important;
+  color:var(--vd-crimson)!important;
+  text-shadow:none!important;
+  font-weight:700!important;
+  background:none!important;
+  background-image:none!important;
+}
+.prosecat-sub,.femcat-sub,.avcat-sub,.kidcat-sub,.kidscat-sub,
+.invcat-sub,.stucat-sub,.sccat-sub,.vq-section-sub{
+  background:none!important;
+  background-color:transparent!important;
+  color:var(--vd-ink-soft)!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  padding:0!important;
+  font-family:'IM Fell English','Libre Baskerville',Georgia,serif!important;
+  font-style:italic!important;
+}
+.prosecat-emoji,.femcat-emoji,.avcat-emoji,.kidcat-emoji,.kidscat-emoji,
+.invcat-emoji,.stucat-emoji,.sccat-emoji,.vq-toggle-icon,.vq-card-arrow,
+.pr-bk-a,.wc-bk-a,.kc-bk-a,.sc-bk-a,.av-bk-a,.iv-l-a{
+  display:none!important;
+}
+.prosecat-body,.femcat-body,.avcat-body,.kidcat-body,.kidscat-body,
+.invcat-body,.stucat-body,.sccat-body{
+  background:var(--vd-cream)!important;
+  background-image:none!important;
+}
+
+/* Links/buttons/cards: ruled rows, no coloured pills, no purple/pink gradients. */
+.pr-book,.wc-book,.kc-book,.sc-book,.av-book,.iv-link,
+.pr-booklist a,.wc-booklist a,.kc-booklist a,.sc-booklist a,.av-glist a,.iv-glist a,
+.vq-card,.kids-quiz-wrap .vq-card,.av-chip,.kc-sub-tag,.sc-sub-tag,.inv-sec-num,
+.vq-tab,.vpill,.pothi-card,.pothi-card-link,.pothi-dl-btn,.pothi-buy-btn,.pothi-buy-btn--outline{
+  background:#FFFCF6!important;
+  background-image:none!important;
+  color:var(--vd-ink)!important;
+  border:0!important;
+  border-bottom:1px solid var(--vd-rule-soft)!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  transform:none!important;
+  text-shadow:none!important;
+}
+.pr-book:hover,.wc-book:hover,.kc-book:hover,.sc-book:hover,.av-book:hover,.iv-link:hover,
+.vq-card:hover,.kids-quiz-wrap .vq-card:hover,.av-chip:hover,.vq-tab:hover,.vq-tab.active,
+.vpill:hover,.pothi-card-link:hover,.pothi-dl-btn:hover,.pothi-buy-btn:hover,.pothi-buy-btn--outline:hover{
+  background:rgba(196,154,60,.10)!important;
+  background-image:none!important;
+  color:var(--vd-crimson)!important;
+  border-color:var(--vd-rule)!important;
+  transform:none!important;
+  box-shadow:none!important;
+}
+.pr-booklist,.wc-booklist,.kc-booklist,.sc-booklist,.av-glist,.iv-glist,
+.kc-grid,.sc-grid,.sc-booklist,.vq-cards{gap:0!important;}
+.sc-bk-a,.kc-bk-a,.pr-bk-a,.wc-bk-a,.av-bk-a,.iv-l-a{color:var(--vd-gold)!important;}
+
+/* Evidence/image/video panels keep structure but follow the same parchment palette. */
+.inv-evidence,.kidcat-video-frame,.inv-evi-img{
+  background:#FFFCF6!important;
+  border:1px solid var(--vd-rule)!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.inv-evi-img:hover{transform:none!important;box-shadow:none!important;}
+
+/* Search bars and utility controls. */
+.vls-wrap,.vls-bar,.vsearch-bar,.vsearch-count,.vls-count{
+  background:var(--vd-cream)!important;
+  border:1px solid var(--vd-rule)!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.vls-input,.vsearch-input,input[type="text"],textarea{
+  background:var(--vd-cream)!important;
+  color:var(--vd-ink)!important;
+  border:1px solid var(--vd-rule)!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.vls-clear,.vsearch-clear,.mini-btn,.btn-transliterate,
+.conv-btn,.conv-dir-btn,.t-btn,.dir-btn,.dir-swap,.drive-search-btn,.btn{
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.vls-clear,.vsearch-clear{
+  background:none!important;
+  color:var(--vd-crimson)!important;
+  border:1px solid var(--vd-crimson)!important;
+}
+.vls-clear:hover,.vsearch-clear:hover{background:var(--vd-crimson)!important;color:#fff!important;}
+mark.vlsmark{background:rgba(196,154,60,.30)!important;color:var(--vd-ink)!important;}
+
+/* Functional-control safety: keep local search, corpus search, translator,
+   thesaurus and script-converter widgets visible/clickable while applying
+   only the quiet Videha palette. Do not force hidden file inputs or TTS stop. */
+.vls-wrap,.vls-bar,.vsearch-bar,.drive-search-box,.translator-card,.conv-card,
+.search-container,.dictionary-search,.upload-area,.tool-actions,.action-bar{
+  pointer-events:auto!important;
+  opacity:1!important;
+}
+.vls-bar,.vsearch-bar{
+  display:flex!important;
+  align-items:center!important;
+  gap:8px!important;
+}
+.vls-input,.vsearch-input,.search-box,#searchBox,#driveSearchInput,#vcq,
+#srcText,#outText,.io-textarea,.conv-textarea,.t-input{
+  pointer-events:auto!important;
+  opacity:1!important;
+  visibility:visible!important;
+}
+.vls-input,.vsearch-input,.search-box,#searchBox,#driveSearchInput,#vcq{
+  min-height:36px!important;
+}
+.vls-clear,.vsearch-clear,.conv-btn,.conv-dir-btn,.t-btn,.dir-btn,.dir-swap,
+.drive-search-btn,#driveSearchBtn,#translateBtn,.btn-transliterate{
+  pointer-events:auto!important;
+  opacity:1!important;
+  visibility:visible!important;
+  cursor:pointer!important;
+}
+.conv-textarea,.io-textarea,#srcText,#outText{
+  min-height:120px!important;
+  resize:vertical!important;
+}
+
+
+/* Legacy inline colour rescue for content links/text without disturbing masthead/footer. */
+.videha-main-content a{color:var(--vd-crimson)!important;}
+.videha-main-content h1,.videha-main-content h2,.videha-main-content h3,
+.videha-main-content h4,.videha-main-content h5,.videha-main-content h6{
+  color:var(--vd-crimson)!important;
+}
+.videha-main-content [style*="color:#283593"],.videha-main-content [style*="color: #283593"],
+.videha-main-content [style*="color:#9c27b0"],.videha-main-content [style*="color: #9c27b0"],
+.videha-main-content [style*="color:#e91e63"],.videha-main-content [style*="color: #e91e63"],
+.videha-main-content [style*="color:#ff6f61"],.videha-main-content [style*="color: #ff6f61"]{
+  color:var(--vd-crimson)!important;
+}
+.videha-main-content [style*="background:#283593"],.videha-main-content [style*="background: #283593"],
+.videha-main-content [style*="background:#9c27b0"],.videha-main-content [style*="background: #9c27b0"],
+.videha-main-content [style*="background:#e91e63"],.videha-main-content [style*="background: #e91e63"],
+.videha-main-content [style*="background:#ff6f61"],.videha-main-content [style*="background: #ff6f61"]{
+  background:var(--vd-cream)!important;
+  background-image:none!important;
+}
+@media(max-width:720px){
+  .prosecat-head,.femcat-head,.avcat-head,.kidcat-head,.invcat-head,.stucat-head,
+  .vq-section-header{padding:12px 14px!important;}
+}
+
+</style>
+
+<div class="videha-subscribe-strip" role="region" aria-label="New Videha Issue subscription">
+  <strong>नव विदेह अंक — मासमे दू बेर · New Videha Issue — twice monthly</strong> &nbsp;·&nbsp;
+  <a href="https://groups.google.com/g/videha">ई-पत्र सदस्यता · Email subscription</a> &nbsp;·&nbsp;
+  <a href="videha-rss.xml" type="application/rss+xml">RSS feed</a>
+</div>
+
+</body>
+</html>
