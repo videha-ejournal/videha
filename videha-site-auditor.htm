@@ -184,8 +184,8 @@ function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp
 
 /* ---------- default find/replace rules ---------- */
 var DEFAULT_RULES = [
-  {f:"http://www.videha.co.in", r:"https://www.videha.co.in", auto:true},
-  {f:"http://videha.co.in",     r:"https://videha.co.in",     auto:true},
+  {f:"https://www.videha.co.in", r:"https://www.videha.co.in", auto:true},
+  {f:"https://videha.co.in",     r:"https://videha.co.in",     auto:true},
   {f:"पुरान ग्राहकी-वाक्य एतऽ लिखू", r:"", auto:false},
   {f:"/अंक\\s*4[0-3][0-9]/g", r:"", auto:false}
 ];

@@ -1117,9 +1117,23 @@ textarea:focus,input[type="text"]:focus{
           const normalizeDigits=s=>String(s||'').replace(/[०-९]/g,d=>devanagariDigits[d]||d);
           const plain=s=>String(s||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
           const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+          /* Pagefind bundle: पहिने अपन server (rediff) पर देखत; नहि भेटलापर
+             GitHub Pages पर Actions-निर्मित प्रति स्वतः प्रयोग करत (GitHub Pages
+             सभ फाइल CORS-खुला * दैत अछि)। Repo-नाम भिन्न हो तँ नीचाँक URL सुधारू। */
+          const PAGEFIND_CANDIDATES=[
+            './pagefind/pagefind.js',
+            'https://videha-ejournal.github.io/videha/pagefind/pagefind.js'
+          ];
           async function getPagefind(){
             if(!pagefindPromise){
-              pagefindPromise=import('./pagefind/pagefind.js').then(async pf=>{await pf.init();return pf;});
+              pagefindPromise=(async()=>{
+                let lastErr;
+                for(const u of PAGEFIND_CANDIDATES){
+                  try{ const pf=await import(u); await pf.init(); return pf; }
+                  catch(e){ lastErr=e; }
+                }
+                throw lastErr||new Error('pagefind unavailable');
+              })();
             }
             return pagefindPromise;
           }
