@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="mai">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>विदेहमे सभठाम ताकू — Videha Universal Search</title>
+<meta name="description" content="विदेह प्रथम मैथिली पाक्षिक ई-पत्रिका — सम्पूर्ण साइटक एकीकृत खोज। Search every page of videha.co.in: authors, titles, issues, prose, poetry, research, books, quizzes, audio-video, Panji, thesaurus, dictionary.">
+<style>
+:root{
+  --v-crimson:#8B1A1A; --v-crimson-dk:#6d1313; --v-gold:#c49a3c; --v-gold-lt:#e8d9b0;
+  --v-cream:#FAF6EE; --v-paper:#fffdf8; --v-ink:#2a2320; --v-ink-soft:#5c534d;
+  --v-rule:#e5dcc8;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--v-cream); color:var(--v-ink);
+  font-family:"Noto Serif Devanagari","Kokila","Mangal",Georgia,"Times New Roman",serif;
+  line-height:1.95; font-size:17px;
+}
+:lang(mai){line-height:1.95}
+a{color:var(--v-crimson)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{
+  outline:3px solid var(--v-gold); outline-offset:2px;
+}
+.skip-link{position:absolute;left:-9999px;top:0;background:var(--v-crimson);color:#fff;padding:.5em 1em;z-index:99}
+.skip-link:focus{left:0}
+.vus-wrap{max-width:980px;margin:0 auto;padding:0 18px 60px}
+header.vus-mast{
+  text-align:center; padding:34px 10px 18px;
+  border-bottom:3px double var(--v-gold);
+  margin-bottom:8px;
+}
+.vus-eyebrow{
+  font-size:.72rem; letter-spacing:.35em; text-transform:uppercase;
+  color:var(--v-gold); font-family:Georgia,serif; margin-bottom:10px;
+}
+h1.vus-title{
+  font-size:clamp(1.7rem,4.5vw,2.6rem); margin:.1em 0 .15em;
+  color:var(--v-crimson); font-weight:700; line-height:1.4;
+}
+.vus-sub{color:var(--v-ink-soft); font-size:.95rem; margin:0}
+.vus-searchband{
+  background:var(--v-paper); border:1px solid var(--v-rule);
+  border-top:4px solid var(--v-crimson);
+  padding:22px 20px 16px; margin:24px 0 10px;
+  box-shadow:0 1px 0 var(--v-rule);
+}
+.vus-boxrow{display:flex; gap:10px; flex-wrap:wrap}
+.vus-q{
+  flex:1 1 320px; font:inherit; font-size:1.1rem; padding:.55em .9em;
+  border:2px solid var(--v-crimson); background:#fff; color:var(--v-ink);
+  border-radius:0;
+}
+.vus-go{
+  font:inherit; font-size:1.05rem; padding:.55em 1.4em; cursor:pointer;
+  background:var(--v-crimson); color:#fff; border:2px solid var(--v-crimson);
+}
+.vus-go:hover{background:var(--v-crimson-dk)}
+.vus-hint{font-size:.82rem; color:var(--v-ink-soft); margin:.6em 0 0}
+.vus-filters{margin-top:14px; border-top:1px solid var(--v-rule); padding-top:12px}
+.vus-frow{display:flex; flex-wrap:wrap; gap:8px 14px; align-items:center; margin-bottom:8px}
+.vus-flabel{
+  font-size:.72rem; letter-spacing:.22em; text-transform:uppercase;
+  color:var(--v-gold); font-family:Georgia,serif; min-width:64px;
+}
+.vus-chip{
+  font:inherit; font-size:.86rem; padding:.18em .85em; cursor:pointer;
+  border:1px solid var(--v-gold); background:var(--v-paper); color:var(--v-ink);
+  border-radius:999px;
+}
+.vus-chip[aria-pressed="true"]{background:var(--v-crimson); border-color:var(--v-crimson); color:#fff}
+select.vus-sel{font:inherit; font-size:.9rem; padding:.2em .5em; border:1px solid var(--v-gold); background:#fff}
+.vus-status{margin:16px 4px 4px; font-size:.92rem; color:var(--v-ink-soft)}
+.vus-status strong{color:var(--v-crimson)}
+ol.vus-results{list-style:none; margin:10px 0 0; padding:0}
+.vus-hit{
+  background:var(--v-paper); border:1px solid var(--v-rule);
+  border-left:4px solid var(--v-gold); padding:14px 18px; margin:0 0 14px;
+}
+.vus-hit h2{margin:0 0 2px; font-size:1.12rem; line-height:1.55}
+.vus-hit h2 a{text-decoration:none}
+.vus-hit h2 a:hover{text-decoration:underline}
+.vus-meta{font-size:.78rem; color:var(--v-ink-soft); letter-spacing:.02em; margin-bottom:4px}
+.vus-meta .vus-cat{
+  display:inline-block; background:var(--v-gold-lt); color:var(--v-crimson-dk);
+  padding:0 .6em; border-radius:999px; margin-right:.6em; font-family:Georgia,serif;
+}
+.vus-snip{font-size:.93rem; margin:0; color:var(--v-ink)}
+.vus-snip mark{background:var(--v-gold-lt); color:inherit; padding:0 .1em}
+.vus-pager{display:flex; gap:8px; justify-content:center; margin:22px 0 4px; flex-wrap:wrap}
+.vus-pager button{
+  font:inherit; font-size:.9rem; padding:.25em .9em; cursor:pointer;
+  border:1px solid var(--v-gold); background:var(--v-paper);
+}
+.vus-pager button[aria-current="page"]{background:var(--v-crimson); color:#fff; border-color:var(--v-crimson)}
+.vus-empty{
+  text-align:center; padding:40px 20px; color:var(--v-ink-soft);
+  border:1px dashed var(--v-gold); background:var(--v-paper); margin-top:16px;
+}
+.vus-err{border-color:var(--v-crimson); color:var(--v-crimson-dk)}
+footer.vus-foot{
+  margin-top:44px; padding-top:14px; border-top:3px double var(--v-gold);
+  text-align:center; font-size:.85rem; color:var(--v-ink-soft);
+}
+@media (max-width:520px){
+  body{font-size:16px}
+  .vus-searchband{padding:16px 12px 12px}
+}
+@media print{
+  .vus-searchband,.vus-pager{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">मुख्य सामग्री पर जाउ / Skip to main content</a>
+<div class="vus-wrap">
+<header class="vus-mast">
+  <div class="vus-eyebrow">VIDEHA · ISSN 2229-547X</div>
+  <h1 class="vus-title">विदेहमे सभठाम ताकू</h1>
+  <p class="vus-sub">Search all Videha — लेखक · शीर्षक · अंक · गद्य · पद्य · शोध · पोथी · प्रश्नोत्तरी · श्रव्य-दृश्य · पञ्जी · थेसारस · शब्दकोश</p>
+</header>
+
+<main id="main">
+<section class="vus-searchband" aria-label="खोज / Search">
+  <div class="vus-boxrow">
+    <input class="vus-q" id="q" type="search" autocomplete="off"
+      placeholder="देवनागरी / Tirhutā-roman / IAST — जे लिखब से भेटत…"
+      aria-label="खोज शब्द / Search terms">
+    <button class="vus-go" id="goBtn" type="button">ताकू / Search</button>
+  </div>
+  <p class="vus-hint">लिप्यन्तरण-सहिष्णु खोज: <em>vidyapati</em>, <em>विद्यापति</em> आ <em>Vidyāpati</em> — तीनू एक्के परिणाम देत। कमसँ कम २ अक्षर लिखू।</p>
+
+  <div class="vus-filters">
+    <div class="vus-frow" role="group" aria-label="खोज-क्षेत्र / Search scope">
+      <span class="vus-flabel">क्षेत्र</span>
+      <button class="vus-chip scope" data-scope="all"    aria-pressed="true"  type="button">सभ / All</button>
+      <button class="vus-chip scope" data-scope="author" aria-pressed="false" type="button">लेखक / Author</button>
+      <button class="vus-chip scope" data-scope="title"  aria-pressed="false" type="button">शीर्षक / Title</button>
+      <label style="margin-left:auto;font-size:.85rem">वर्ष / Year
+        <select class="vus-sel" id="yearSel"><option value="">सभ</option></select>
+      </label>
+    </div>
+    <div class="vus-frow" role="group" aria-label="वर्ग / Category filters">
+      <span class="vus-flabel">वर्ग</span>
+      <button class="vus-chip cat" data-cat="issue"      aria-pressed="false" type="button">अंक / Issue</button>
+      <button class="vus-chip cat" data-cat="prose"      aria-pressed="false" type="button">गद्य / Prose</button>
+      <button class="vus-chip cat" data-cat="poetry"     aria-pressed="false" type="button">पद्य / Poetry</button>
+      <button class="vus-chip cat" data-cat="research"   aria-pressed="false" type="button">शोध / Research</button>
+      <button class="vus-chip cat" data-cat="book"       aria-pressed="false" type="button">पोथी / Book</button>
+      <button class="vus-chip cat" data-cat="quiz"       aria-pressed="false" type="button">प्रश्नोत्तरी / Quiz</button>
+      <button class="vus-chip cat" data-cat="av"         aria-pressed="false" type="button">श्रव्य-दृश्य / Audio-Video</button>
+      <button class="vus-chip cat" data-cat="panji"      aria-pressed="false" type="button">पञ्जी / Panji</button>
+      <button class="vus-chip cat" data-cat="thesaurus"  aria-pressed="false" type="button">थेसारस / Thesaurus</button>
+      <button class="vus-chip cat" data-cat="dictionary" aria-pressed="false" type="button">शब्दकोश / Dictionary</button>
+      <button class="vus-chip cat" data-cat="pdf" aria-pressed="false" type="button">PDF-अभिलेख / Archive</button>
+      <button class="vus-chip" id="clearCats" type="button" style="border-style:dashed">✕ सभ वर्ग</button>
+    </div>
+  </div>
+</section>
+
+<div class="vus-status" id="status" aria-live="polite">सूचकांक लोड भऽ रहल अछि… / Loading index…</div>
+<ol class="vus-results" id="results"></ol>
+<nav class="vus-pager" id="pager" aria-label="पृष्ठ / Pages"></nav>
+</main>
+
+<footer class="vus-foot">
+  <p>© गजेन्द्र ठाकुर, सम्पादक — विदेह ई-पत्रिका · <a href="https://www.videha.co.in/">videha.co.in</a></p>
+</footer>
+</div>
+
+<script>
+/* ============================================================
+   VIDEHA UNIVERSAL SEARCH — pure static, GitHub-Pages friendly.
+   Reads videha-search-index.json (built by videha-site-auditor.htm).
+   Index entry: {f:file, t:title, a:author, c:category, y:year,
+                 i:issue, s:snippet, x:searchable text}
+   ============================================================ */
+(function(){
+"use strict";
+var INDEX_URL = "videha-search-index.json";
+var PER_PAGE = 20;
+var DB = [], READY = false;
+var state = { q:"", scope:"all", cats:{}, year:"", page:1 };
+
+/* ---------- phonetic cross-script key ---------- */
+var DEVA = {
+ "क":"k","ख":"k","ग":"g","घ":"g","ङ":"n","च":"c","छ":"c","ज":"j","झ":"j","ञ":"n",
+ "ट":"t","ठ":"t","ड":"d","ढ":"d","ण":"n","त":"t","थ":"t","द":"d","ध":"d","न":"n",
+ "प":"p","फ":"p","ब":"b","भ":"b","म":"m","य":"y","र":"r","ल":"l","व":"v",
+ "श":"s","ष":"s","स":"s","ह":"h","ळ":"l","क़":"k","ख़":"k","ग़":"g","ज़":"j",
+ "ड़":"r","ढ़":"r","फ़":"p","य़":"y",
+ "अ":"a","आ":"a","इ":"i","ई":"i","उ":"u","ऊ":"u","ऋ":"r","ए":"e","ऐ":"e","ओ":"o","औ":"o",
+ "ा":"a","ि":"i","ी":"i","ु":"u","ू":"u","ृ":"r","े":"e","ै":"e","ो":"o","ौ":"o",
+ "ं":"n","ँ":"n","ः":"","़":"","्":"",
+ "०":"0","१":"1","२":"2","३":"3","४":"4","५":"5","६":"6","७":"7","८":"8","९":"9"
+};
+function latinNorm(s){
+  s = s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+  s = s.replace(/([kgcjtdpb])h/g,"$1")
+       .replace(/sh/g,"s").replace(/ch/g,"c")
+       .replace(/aa/g,"a").replace(/ii/g,"i").replace(/uu/g,"u")
+       .replace(/ai/g,"e").replace(/au/g,"o")
+       .replace(/w/g,"v").replace(/f/g,"p").replace(/z/g,"j").replace(/x/g,"ks")
+       .replace(/q/g,"k");
+  return s;
+}
+/* consonant skeleton: initial vowel kept, other vowels dropped, doubles collapsed */
+function skeleton(s){
+  var out = "", i, ch, m;
+  for(i=0;i<s.length;i++){
+    ch = s[i];
+    if(DEVA.hasOwnProperty(ch)){ out += DEVA[ch]; }
+    else if(/[a-zA-Z0-9\u00C0-\u024F\u1E00-\u1EFF]/.test(ch)){ out += ch; }
+    else { out += " "; }
+  }
+  out = latinNorm(out);
+  out = out.split(/\s+/).map(function(w){
+    if(!w) return "";
+    var first = w[0], rest = w.slice(1).replace(/[aeiou]/g,"");
+    return (first+rest).replace(/(.)\1+/g,"$1");
+  }).join(" ");
+  return out.replace(/\s+/g," ").trim();
+}
+function rawNorm(s){ return latinNorm(s.replace(/\s+/g," ")); }
+
+/* ---------- load ---------- */
+function setStatus(html){ document.getElementById("status").innerHTML = html; }
+fetch(INDEX_URL).then(function(r){
+  if(!r.ok) throw new Error(r.status);
+  return r.json();
+}).then(function(j){
+  DB = (j.entries||j).map(function(e){
+    e._rawT = rawNorm(e.t||""); e._rawA = rawNorm(e.a||""); e._rawX = rawNorm(e.x||"");
+    e._skT = skeleton(e.t||""); e._skA = skeleton(e.a||""); e._skX = skeleton(e.x||"");
+    return e;
+  });
+  READY = true;
+  fillYears();
+  setStatus("सूचकांक तैयार: <strong>"+DB.length+"</strong> पृष्ठ। खोज-शब्द लिखू।");
+  readParams();
+}).catch(function(){
+  setStatus('<span class="vus-err"><strong>videha-search-index.json</strong> नहि भेटल। ' +
+    'ई फाइल <em>Videha Site Auditor</em> (videha-site-auditor.htm) मे ZIP देलापर ' +
+    '"Build search index" बटनसँ बनत — ओकरा एही पृष्ठक संग एक्के फोल्डरमे राखू।</span>');
+});
+
+function fillYears(){
+  var ys = {}; DB.forEach(function(e){ if(e.y) ys[e.y]=1; });
+  var sel = document.getElementById("yearSel");
+  Object.keys(ys).sort().reverse().forEach(function(y){
+    var o = document.createElement("option"); o.value=y; o.textContent=y; sel.appendChild(o);
+  });
+}
+
+/* ---------- search ---------- */
+function score(e, rq, sq){
+  var s = 0;
+  var inT = state.scope==="all"||state.scope==="title";
+  var inA = state.scope==="all"||state.scope==="author";
+  var inX = state.scope==="all";
+  if(inT && e._rawT.indexOf(rq)>-1) s+=100;
+  if(inA && e._rawA.indexOf(rq)>-1) s+=80;
+  if(inX && e._rawX.indexOf(rq)>-1) s+=50;
+  if(!s && sq.length>1){
+    if(inT && e._skT.indexOf(sq)>-1) s+=40;
+    if(inA && e._skA.indexOf(sq)>-1) s+=30;
+    if(inX && e._skX.indexOf(sq)>-1) s+=15;
+  }
+  return s;
+}
+function activeCats(){
+  var a=[]; for(var k in state.cats) if(state.cats[k]) a.push(k); return a;
+}
+function run(){
+  if(!READY) return;
+  var q = state.q.trim();
+  var results = [];
+  var cats = activeCats();
+  var rq = rawNorm(q), sq = skeleton(q);
+  DB.forEach(function(e){
+    if(cats.length && cats.indexOf(e.c)<0) return;
+    if(state.year && String(e.y)!==state.year) return;
+    if(q.length<2){ results.push({e:e,s:1}); return; }
+    var sc = score(e, rq, sq);
+    if(sc>0) results.push({e:e,s:sc});
+  });
+  results.sort(function(a,b){ return b.s-a.s; });
+  render(results, q);
+}
+function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];}); }
+function snippetFor(e, q){
+  var base = e.s || (e.x||"").slice(0,220);
+  if(q.length>=2){
+    var pos = rawNorm(e.x||"").indexOf(rawNorm(q));
+    if(pos>-1 && e.x){
+      /* approximate original position — raw & original lengths track closely */
+      var start = Math.max(0, pos-70);
+      base = (start>0?"…":"") + e.x.slice(start, start+220) + "…";
+    }
+  }
+  var h = esc(base);
+  if(q.length>=2){
+    try{
+      var re = new RegExp("("+q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","gi");
+      h = h.replace(re,"<mark>$1</mark>");
+    }catch(err){}
+  }
+  return h;
+}
+var CATL = {issue:"अंक",prose:"गद्य",poetry:"पद्य",research:"शोध",book:"पोथी",quiz:"प्रश्नोत्तरी",
+  av:"श्रव्य-दृश्य",panji:"पञ्जी",thesaurus:"थेसारस",dictionary:"शब्दकोश",pdf:"PDF-अभिलेख",other:"अन्य"};
+function render(results, q){
+  var list = document.getElementById("results"), pager = document.getElementById("pager");
+  list.innerHTML=""; pager.innerHTML="";
+  if(!results.length){
+    setStatus("परिणाम: <strong>0</strong>");
+    list.innerHTML = '<li class="vus-empty">किछु नहि भेटल। वर्तनी बदलि कऽ, वर्ग-फिल्टर हटा कऽ, वा रोमन/देवनागरी बदलि कऽ पुनः ताकू।</li>';
+    return;
+  }
+  var pages = Math.ceil(results.length/PER_PAGE);
+  if(state.page>pages) state.page=1;
+  setStatus("परिणाम: <strong>"+results.length+"</strong>"+(q.length>=2?" — “"+esc(q)+"”":"")+" · पृष्ठ "+state.page+"/"+pages);
+  results.slice((state.page-1)*PER_PAGE, state.page*PER_PAGE).forEach(function(r){
+    var e=r.e, li=document.createElement("li"); li.className="vus-hit";
+    li.innerHTML =
+      '<h2><a href="'+esc(e.f)+'">'+esc(e.t||e.f)+'</a></h2>'+
+      '<div class="vus-meta"><span class="vus-cat">'+ (CATL[e.c]||e.c||"") +'</span>'+
+      (e.a?esc(e.a)+" · ":"")+(e.i?"अंक "+esc(e.i)+" · ":"")+(e.y?esc(e.y)+" · ":"")+esc(e.f)+'</div>'+
+      '<p class="vus-snip">'+snippetFor(e,q)+'</p>';
+    list.appendChild(li);
+  });
+  for(var p=1;p<=pages && p<=40;p++){
+    (function(p){
+      var b=document.createElement("button"); b.textContent=p;
+      if(p===state.page) b.setAttribute("aria-current","page");
+      b.onclick=function(){ state.page=p; run(); window.scrollTo({top:0}); };
+      pager.appendChild(b);
+    })(p);
+  }
+}
+
+/* ---------- wiring ---------- */
+var qEl = document.getElementById("q"), tmr=null;
+qEl.addEventListener("input", function(){
+  clearTimeout(tmr);
+  tmr = setTimeout(function(){ state.q=qEl.value; state.page=1; run(); }, 220);
+});
+qEl.addEventListener("keydown", function(ev){ if(ev.key==="Enter"){ state.q=qEl.value; state.page=1; run(); }});
+document.getElementById("goBtn").onclick=function(){ state.q=qEl.value; state.page=1; run(); };
+Array.prototype.forEach.call(document.querySelectorAll(".scope"), function(b){
+  b.onclick=function(){
+    Array.prototype.forEach.call(document.querySelectorAll(".scope"),function(x){x.setAttribute("aria-pressed","false");});
+    b.setAttribute("aria-pressed","true"); state.scope=b.dataset.scope; state.page=1; run();
+  };
+});
+Array.prototype.forEach.call(document.querySelectorAll(".cat"), function(b){
+  b.onclick=function(){
+    var on = b.getAttribute("aria-pressed")==="true";
+    b.setAttribute("aria-pressed", on?"false":"true");
+    state.cats[b.dataset.cat] = !on; state.page=1; run();
+  };
+});
+document.getElementById("clearCats").onclick=function(){
+  state.cats={}; state.page=1;
+  Array.prototype.forEach.call(document.querySelectorAll(".cat"),function(x){x.setAttribute("aria-pressed","false");});
+  run();
+};
+document.getElementById("yearSel").onchange=function(){ state.year=this.value; state.page=1; run(); };
+
+/* accept ?q= and ?cat= from the embedded box on other pages */
+function readParams(){
+  try{
+    var p = new URLSearchParams(location.search);
+    var q = p.get("q")||"", c = p.get("cat")||"";
+    if(c && CATL[c]){ state.cats[c]=true;
+      var btn=document.querySelector('.cat[data-cat="'+c+'"]'); if(btn) btn.setAttribute("aria-pressed","true");
+    }
+    if(q){ qEl.value=q; state.q=q; run(); qEl.focus(); }
+    else if(c){ run(); }
+  }catch(err){}
+}
+})();
+</script>
+</body>
+</html>

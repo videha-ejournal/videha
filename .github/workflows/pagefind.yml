@@ -1,0 +1,53 @@
+name: Build Videha Universal Search
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'pagefind/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: videha-pagefind-main
+  cancel-in-progress: true
+
+jobs:
+  build-search:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Prepare searchable HTML/HTM corpus
+        run: python3 tools/videha-pagefind-prepare.py . _pagefind_build
+
+      - name: Build Pagefind index
+        run: npx -y pagefind@1.5.2 --site _pagefind_build --output-subdir pagefind --glob '**/*.{html,htm}'
+
+      - name: Install generated search bundle
+        run: |
+          rm -rf pagefind
+          cp -R _pagefind_build/pagefind ./pagefind
+          rm -rf _pagefind_build
+
+      - name: Commit refreshed search index
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pagefind
+          if git diff --cached --quiet; then
+            echo "Search index unchanged."
+          else
+            git commit -m "Build Videha universal search index"
+            git push
+          fi
