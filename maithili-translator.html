@@ -3237,7 +3237,7 @@ function phoneticKey(text) {
           const devanagariDigits={'०':'0','१':'1','२':'2','३':'3','४':'4','५':'5','६':'6','७':'7','८':'8','९':'9'};
           const normalizeDigits=s=>String(s||'').replace(/[०-९]/g,d=>devanagariDigits[d]||d);
           const plain=s=>String(s||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
-          const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'''}[c]));
+          const esc=s=>String(s??'').replace(/[&<>"']/g,c=>'&#'+c.charCodeAt(0)+';');
           /* Pagefind bundle: पहिने अपन server (rediff) पर देखत; नहि भेटलापर
              GitHub Pages पर Actions-निर्मित प्रति स्वतः प्रयोग करत (GitHub Pages
              सभ फाइल CORS-खुला * दैत अछि)। Repo-नाम भिन्न हो तँ नीचाँक URL सुधारू। */
@@ -5046,7 +5046,7 @@ document.addEventListener('keydown', e => {
   var loadedShard = { db1:Object.create(null), db2:Object.create(null) };
 
   function el(id){ return document.getElementById(id); }
-  function html(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'''}[c]; }); }
+  function html(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return '&#'+c.charCodeAt(0)+';'; }); }
   function nrm(s){ return (typeof norm === 'function') ? norm(s) : String(s || '').normalize('NFC').trim().replace(/\s+/g,' '); }
   function pkey(s){ return (typeof phoneticKey === 'function') ? phoneticKey(s) : String(s || '').toLowerCase().replace(/[^a-z0-9 ]/g,' ').trim(); }
   function bucketForWord(q){
@@ -5286,7 +5286,7 @@ document.addEventListener('keydown', e => {
   function el(id){ return document.getElementById(id); }
   function txt(v){ return String(v == null ? '' : v).normalize('NFC').trim().replace(/\s+/g,' '); }
   function lower(v){ return txt(v).toLowerCase(); }
-  function escapeHtml(s){ return String(s == null ? '' : s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'''}[c];}); }
+  function escapeHtml(s){ return String(s == null ? '' : s).replace(/[&<>"']/g,function(c){return '&#'+c.charCodeAt(0)+';';}); }
   function status(msg,isError,dots){ if(typeof setStatus === 'function') setStatus(msg,!!isError,!!dots); }
   function setDbStatus(dbKey,msg,ok){
     var node = el(dbKey+'Status');

@@ -694,7 +694,7 @@ src="new_page_120_files/image002.jpg" v:shapes="Picture_x0020_1"><![endif]></spa
           const devanagariDigits={'०':'0','१':'1','२':'2','३':'3','४':'4','५':'5','६':'6','७':'7','८':'8','९':'9'};
           const normalizeDigits=s=>String(s||'').replace(/[०-९]/g,d=>devanagariDigits[d]||d);
           const plain=s=>String(s||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
-          const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'''}[c]));
+          const esc=s=>String(s??'').replace(/[&<>"']/g,c=>'&#'+c.charCodeAt(0)+';');
           /* Pagefind bundle: पहिने अपन server (rediff) पर देखत; नहि भेटलापर
              GitHub Pages पर Actions-निर्मित प्रति स्वतः प्रयोग करत (GitHub Pages
              सभ फाइल CORS-खुला * दैत अछि)। Repo-नाम भिन्न हो तँ नीचाँक URL सुधारू। */
