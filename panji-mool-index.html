@@ -1162,7 +1162,7 @@
         </a>
     </header>
 <nav class="videha-nav" role="navigation" aria-label="मुख्य नेविगेशन · Main navigation">
-  <button class="videha-nav-toggle" onclick="this.parentNode.querySelector('.videha-nav-inner').classList.toggle('open')" aria-label="मेनू · Menu" aria-expanded="false" aria-controls="videha-primary-nav">&#9776;</button>
+  <button class="videha-nav-toggle" onclick="this.parentNode.querySelector('.videha-nav-inner').classList.toggle('open')" aria-label="मेनू · Menu" aria-expanded="false" aria-controls="videha-primary-nav">☰</button>
   <div class="videha-nav-inner" id="videha-primary-nav">
     <a href="index.htm">विदेह नूतन अंक</a>
     <a href="videha.htm">विदेहक पुरान अंक</a>
@@ -2409,7 +2409,7 @@ tattvacintāmaṇi"></textarea>
           const devanagariDigits={'०':'0','१':'1','२':'2','३':'3','४':'4','५':'5','६':'6','७':'7','८':'8','९':'9'};
           const normalizeDigits=s=>String(s||'').replace(/[०-९]/g,d=>devanagariDigits[d]||d);
           const plain=s=>String(s||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
-          const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+          const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'''}[c]));
           /* Pagefind bundle: पहिने अपन server (rediff) पर देखत; नहि भेटलापर
              GitHub Pages पर Actions-निर्मित प्रति स्वतः प्रयोग करत (GitHub Pages
              सभ फाइल CORS-खुला * दैत अछि)। Repo-नाम भिन्न हो तँ नीचाँक URL सुधारू। */
@@ -5690,7 +5690,7 @@ var CORPUS=null,KEYS=null;
 function byId(id){return document.getElementById(id)}
 function stripDia(s){return(s||'').toString().normalize('NFD').replace(/[̀-ͯ]/g,'')}
 function norm(s){return stripDia(s).toLowerCase().replace(/[‌‍]/g,'').replace(/[^\p{Letter}\p{Number}]+/gu,' ').trim()}
-function esc(s){return(s==null?'':String(s)).replace(/[&<>"']/g,function(m){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]})}
+function esc(s){return(s==null?'':String(s)).replace(/[&<>"']/g,function(m){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'''}[m]})}
 function escRe(s){return String(s||'').replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}
 function corpusUrl(){var meta=document.querySelector('meta[name="panji-books-corpus-url"]');if(meta&&meta.content)return meta.content;if(location.hostname.indexOf('videha.co.in')!==-1)return 'https://videha-ejournal.github.io/videha-sadeha/panji_english_books_corpus.json';return 'panji_english_books_corpus.json'}
 function status(msg){var el=byId('panjiBooksStatus');if(el)el.innerHTML=msg}
@@ -5732,7 +5732,7 @@ function shardUrl(path){
   path=path.replace(/^\/+/, '').replace(/^panji-shards\//,'');
   return SHARD_BASE + path;
 }
-function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'''}[c];});}
 function fetchJSON(path){var u=shardUrl(path); if(JSON_CACHE[u]) return JSON_CACHE[u]; JSON_CACHE[u]=fetch(u,{cache:'force-cache'}).then(function(r){if(!r.ok) throw new Error(u+' '+r.status); return r.json();}); return JSON_CACHE[u];}
 function manifest(){if(MANIFEST) return Promise.resolve(MANIFEST); return fetchJSON('manifest.json').then(function(m){MANIFEST=m||{}; DB_CHUNK_SIZE=m.db_chunk_size||500; PDF_CHUNK_SIZE=m.pdf_chunk_size||500; MIN_CHARS=m.min_search_chars||2; return MANIFEST;});}
 var IAST_MAP={'ā':'a','ī':'i','ū':'u','ṛ':'r','ṝ':'r','ḷ':'l','ḹ':'l','ṃ':'m','ṁ':'m','ḥ':'h','ṅ':'n','ñ':'n','ṭ':'t','ḍ':'d','ṇ':'n','ś':'s','ṣ':'s','Ā':'a','Ī':'i','Ū':'u','Ṛ':'r','Ṝ':'r','Ḷ':'l','Ḹ':'l','Ṃ':'m','Ṁ':'m','Ḥ':'h','Ṅ':'n','Ñ':'n','Ṭ':'t','Ḍ':'d','Ṇ':'n','Ś':'s','Ṣ':'s'};
