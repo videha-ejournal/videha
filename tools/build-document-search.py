@@ -234,6 +234,11 @@ def ocr_image_bytes(data: bytes, suffix: str, cache: Path, tesseract: str | None
         try:
             cached = json.loads(record.read_text(encoding="utf-8"))
             stats["ocr_cache_hits"] += 1
+            stats["embedded_images_seen"] += 1
+            stats["embedded_images_candidates"] += 1
+            stats["embedded_images_ocr"] += 1
+            if cached.get("text"):
+                stats["embedded_images_with_text"] += 1
             return cached
         except Exception:
             pass
@@ -495,6 +500,21 @@ def main():
     stats["generated_html_bytes"] = sum((output / name).stat().st_size for name in expected_outputs)
     stats["stale_outputs_removed"] = len(stale)
     stats["unpaired_source_files"] = len(unpaired)
+    embedded_records = []
+    pdf_page_records = []
+    for record in (args.cache.resolve() / "ocr").glob("*.json"):
+        try: embedded_records.append(json.loads(record.read_text(encoding="utf-8")))
+        except Exception: pass
+    for record in (args.cache.resolve() / "ocr-pages").glob("*.json"):
+        try: pdf_page_records.append(json.loads(record.read_text(encoding="utf-8")))
+        except Exception: pass
+    stats["unique_embedded_ocr_records"] = len(embedded_records)
+    stats["unique_embedded_ocr_with_text"] = sum(bool(r.get("text")) for r in embedded_records)
+    stats["unique_pdf_page_ocr_records"] = len(pdf_page_records)
+    stats["unique_pdf_page_ocr_with_text"] = sum(bool(r.get("text")) for r in pdf_page_records)
+    stats["ocr_characters"] = sum(len(r.get("text", "")) for r in embedded_records + pdf_page_records)
+    confidences = [r["confidence"] for r in embedded_records + pdf_page_records if r.get("confidence") is not None]
+    stats["ocr_mean_confidence"] = (sum(confidences) / len(confidences) if confidences else None)
 
     report = {
         "schema": 1,
