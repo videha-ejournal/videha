@@ -205,9 +205,9 @@
   function rewrite(root) {
     if (!root || root.nodeType !== 1) return;
     var links = [];
-    if (root.matches && root.matches('.vus-result a')) links.push(root);
+    if (root.matches && root.matches('.vus-result a, .vus-hit a')) links.push(root);
     if (root.querySelectorAll) {
-      var found = root.querySelectorAll('.vus-result a');
+      var found = root.querySelectorAll('.vus-result a, .vus-hit a');
       for (var i = 0; i < found.length; i++) links.push(found[i]);
     }
     for (var j = 0; j < links.length; j++) {
