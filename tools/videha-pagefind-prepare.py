@@ -60,6 +60,16 @@ def anchors_from(rel):
         if t and t.lower().endswith(('.htm','.html')): out.append((t,label))
     return out
 
+def anchors_from_text(base_rel, raw):
+    a=Anchors()
+    try: a.feed(raw)
+    except Exception: pass
+    out=[]
+    for href,label in a.rows:
+        t=normalize_rel(base_rel,href)
+        if t and t.lower().endswith(('.htm','.html')): out.append((t,label))
+    return out
+
 def clean_label(label):
     s=re.sub(r'\s+',' ',label or '').strip()
     # remove article numbering like २.१५., 1.2., ४४८ etc. only when followed by text
@@ -100,8 +110,36 @@ for hub,typ in hub_types.items():
     inbound.setdefault(hub,set()).add(typ)
     for target,label in anchors_from(hub): remember(target,label,typ)
 
-# Current issue listings are a strong source for article author/title metadata.
-for target,label in anchors_from('index.htm'): remember(target,label,None)
+# Current issue: only links inside the live issue block are current-issue articles.
+# The same canonical filenames are reused fortnightly, so issue/year must be inherited
+# dynamically from index.htm rather than hardcoded.
+index_raw=read(SRC/'index.htm')
+current_issue=None; current_year=None; current_targets=set()
+m=re.search(r'issue-number-square[^>]*>\s*([०-९0-9]{1,4})',index_raw,re.I)
+if m: current_issue=int(m.group(1).translate(DEV))
+# Prefer the date/year adjacent to the live issue number, not copyright/navigation years.
+if m:
+    near=re.sub(r'<[^>]+>',' ',html.unescape(index_raw[m.start():m.start()+5000])).translate(DEV)
+    ym=re.search(r'(?<!\d)((?:19|20)\d{2})(?!\d)',near)
+    if ym: current_year=int(ym.group(1))
+# The current issue block is explicitly delimited in the canonical index page.
+cm=re.search(r'<!--\s*Current Issue Block\s*-->(.*?)(?:<!--\s*Archive-style paired numbered tabs\s*-->|<h2[^>]*>\s*पेटार\s*/\s*Archive)',index_raw,re.I|re.S)
+current_block=cm.group(1) if cm else ''
+for target,label in anchors_from_text('index.htm',current_block):
+    current_targets.add(target); remember(target,label,None)
+# The landing page itself is also part of the live issue.
+current_targets.add('index.htm')
+
+# Parallel History is a permanent 100-part series, distinct from the live issue.
+parallel_targets=set()
+for target,label in anchors_from('gajenthakur.htm'):
+    if re.fullmatch(r'new_page_(?:[1-9]|[1-9][0-9]|100)\.htm',target,re.I):
+        parallel_targets.add(target); remember(target,label,'Research')
+parallel_targets.add('gajenthakur.htm')
+
+# Keep general index-page links as title/author hints only after current links are captured.
+for target,label in anchors_from('index.htm'):
+    if target not in current_targets: remember(target,label,None)
 
 # eLearning: mark links that explicitly look like quizzes and preserve listing titles/authors.
 for target,label in anchors_from('videha-elearning.htm'):
@@ -127,7 +165,36 @@ def meta_tags(rel, raw):
     tags=[]
     for typ in classify(rel,raw):
         tags.append(f'<meta data-pagefind-filter="videha_type[content]" content="{html.escape(typ,quote=True)}">')
-    if rel in labels and rel not in hub_types and rel != 'index.htm':
+
+    # Search-result source heading. This metadata lives only in the temporary
+    # Pagefind corpus; canonical public HTML remains unchanged/lightweight.
+    source_label=None
+    if rel in current_targets:
+        source_label='CURRENT ISSUE नूतन अंक'
+    elif rel in parallel_targets:
+        source_label='PARALLEL HISTORY / समानान्तर इतिहास'
+    elif rel.startswith('search-documents/videha-'):
+        source_label='VIDEHA ARCHIVE / विदेह पुरान अंक'
+    elif rel.startswith('search-documents/sadeha-'):
+        source_label='SADEHA ARCHIVE / सदेह'
+    else:
+        source_label='VIDEHA SITE / स्थायी पृष्ठ'
+    tags.append(f'<meta data-pagefind-meta="source[content]" content="{html.escape(source_label,quote=True)}">')
+    tags.append(f'<meta data-pagefind-filter="source[content]" content="{html.escape(source_label,quote=True)}">')
+
+    # Prefix result titles for the two special live/permanent series so the
+    # existing embedded UI shows the requested heading without heavier JS.
+    if rel in current_targets:
+        base=labels.get(rel,'')
+        if rel=='index.htm':
+            base=(f'VIDEHA Issue {current_issue} / विदेह अंक {current_issue}' if current_issue else 'VIDEHA')
+        title=f'CURRENT ISSUE नूतन अंक — {base}' if base else 'CURRENT ISSUE नूतन अंक'
+        tags.append(f'<meta data-pagefind-meta="title[content]" content="{html.escape(title,quote=True)}">')
+    elif rel in parallel_targets:
+        part=labels.get(rel,'')
+        title=f'PARALLEL HISTORY / समानान्तर इतिहास — {part}' if part else 'PARALLEL HISTORY / समानान्तर इतिहास'
+        tags.append(f'<meta data-pagefind-meta="title[content]" content="{html.escape(title,quote=True)}">')
+    elif rel in labels and rel not in hub_types and rel != 'index.htm':
         tags.append(f'<meta data-pagefind-meta="title[content]" content="{html.escape(labels[rel],quote=True)}">')
     if rel in authors and rel not in hub_types and rel != 'index.htm':
         # metadata is one display value; filters can carry every discovered author value.
@@ -135,21 +202,31 @@ def meta_tags(rel, raw):
         tags.append(f'<meta data-pagefind-meta="author[content]" content="{html.escape(display,quote=True)}">')
         for a in sorted(authors[rel]):
             tags.append(f'<meta data-pagefind-filter="author[content]" content="{html.escape(a,quote=True)}">')
+    # Generated archive pages already carry authoritative issue/publication metadata
+    # from build-document-search.py. Do not add heuristic issue/year values to them.
+    if rel.startswith('search-documents/'):
+        return '\n'.join(tags)
+
     # Issue/year filters use the page's leading/current-issue context rather than every
     # historical year/issue mentioned in long navigation and copyright blocks.
-    issue=None; issue_pos=None
-    m=re.search(r'issue-number-square[^>]*>\s*([०-९0-9]{1,4})',raw,re.I)
+    # Current article pages inherit these values from index.htm because their own
+    # bodies intentionally keep stable filenames and may contain older years.
+    issue=current_issue if rel in current_targets else None; issue_pos=None
+    m=None if issue is not None else re.search(r'issue-number-square[^>]*>\s*([०-९0-9]{1,4})',raw,re.I)
     if m:
         issue=int(m.group(1).translate(DEV)); issue_pos=m.start()
-    else:
+    elif issue is None:
         visible_head=re.sub(r'<[^>]+>',' ',html.unescape(raw[:30000])).translate(DEV)
         m=re.search(r'(?:विदेह\s*)?अंक\s*([0-9]{1,4})',visible_head,re.I)
         if m: issue=int(m.group(1))
     if issue: tags.append(f'<meta data-pagefind-filter="issue[content]" content="{issue}">')
-    year_source=raw[issue_pos:issue_pos+7000] if issue_pos is not None else raw[:30000]
-    head_plain=re.sub(r'<[^>]+>',' ',html.unescape(year_source)).translate(DEV)
-    years=re.findall(r'(?<!\d)((?:19|20)\d{2})(?!\d)',head_plain)
-    if years: tags.append(f'<meta data-pagefind-filter="year[content]" content="{years[0]}">')
+    if rel in current_targets and current_year:
+        tags.append(f'<meta data-pagefind-filter="year[content]" content="{current_year}">')
+    else:
+        year_source=raw[issue_pos:issue_pos+7000] if issue_pos is not None else raw[:30000]
+        head_plain=re.sub(r'<[^>]+>',' ',html.unescape(year_source)).translate(DEV)
+        years=re.findall(r'(?<!\d)((?:19|20)\d{2})(?!\d)',head_plain)
+        if years: tags.append(f'<meta data-pagefind-filter="year[content]" content="{years[0]}">')
     return '\n'.join(tags)
 
 if DST.exists(): shutil.rmtree(DST)
@@ -172,4 +249,6 @@ for p in SRC.rglob('*'):
         else: raw=m+'\n'+raw
     dest=DST/rel; dest.parent.mkdir(parents=True,exist_ok=True); dest.write_text(raw,encoding='utf-8'); count+=1
 print(f'Prepared {count} HTML/HTM files for Pagefind at {DST}')
+print(f'Current issue: {current_issue or "unknown"}; year: {current_year or "unknown"}; current pages: {len(current_targets)}')
+print(f'Parallel History pages: {len(parallel_targets)}')
 print(f'Article title metadata: {len(labels)} pages; author metadata: {len(authors)} pages')
