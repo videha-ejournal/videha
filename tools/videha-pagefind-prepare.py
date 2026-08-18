@@ -243,6 +243,13 @@ for p in SRC.rglob('*'):
         if re.search(r'<html\b[^>]*\blang\s*=',raw,re.I):
             raw=re.sub(r'(<html\b[^>]*\blang\s*=\s*["\'])[^"\']*(["\'])',r'\1mai\2',raw,count=1,flags=re.I)
         else: raw=re.sub(r'<html\b','<html lang="mai"',raw,count=1,flags=re.I)
+    # Pagefind treats data-pagefind-body as a site-wide opt-in: once any page uses it,
+    # pages without it are excluded. Generated archive pages already use the marker
+    # on <main>; add it to <body> only in these temporary copies for canonical pages.
+    # Public/canonical source HTML remains untouched.
+    if 'data-pagefind-body' not in raw and re.search(r'<body\b', raw, re.I):
+        raw=re.sub(r'<body\b', '<body data-pagefind-body', raw, count=1, flags=re.I)
+
     m=meta_tags(rel.as_posix(),raw)
     if m:
         if re.search(r'</head\s*>',raw,re.I): raw=re.sub(r'</head\s*>',m+'\n</head>',raw,count=1,flags=re.I)
