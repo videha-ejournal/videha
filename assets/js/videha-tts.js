@@ -170,3 +170,69 @@
   window.addEventListener("beforeunload", function () { try { synth.cancel(); } catch (e) {} });
   setUI("idle");
 })();
+
+/* Videha universal-search result URL normalizer — 2026-08-18.
+   Canonical/current/static results stay on the reader's current host;
+   GitHub-only search-documents always open on GitHub Pages. */
+(function () {
+  'use strict';
+  var GH_HOST = 'videha-ejournal.github.io';
+  var GH_BASE = '/videha/';
+  var VIDEHA_HOSTS = { 'videha.co.in': true, 'www.videha.co.in': true };
+
+  function resultUrl(raw) {
+    if (!raw || typeof raw !== 'string') return raw;
+    if (/^(?:#|mailto:|tel:|javascript:|data:)/i.test(raw)) return raw;
+    try {
+      var u = new URL(raw, window.location.href);
+      var known = (u.hostname === window.location.hostname ||
+                   u.hostname === GH_HOST || VIDEHA_HOSTS[u.hostname]);
+      if (!known) return raw;
+      var path = u.pathname || '/';
+      if (path.indexOf(GH_BASE) === 0) path = path.slice(GH_BASE.length);
+      else path = path.replace(/^\/+/, '');
+      if (!path) path = 'index.htm';
+      var suffix = (u.search || '') + (u.hash || '');
+      if (path.indexOf('search-documents/') === 0) {
+        return 'https://' + GH_HOST + GH_BASE + path + suffix;
+      }
+      if (window.location.hostname === GH_HOST) return GH_BASE + path + suffix;
+      if (VIDEHA_HOSTS[window.location.hostname]) return '/' + path + suffix;
+      return raw;
+    } catch (e) { return raw; }
+  }
+
+  function rewrite(root) {
+    if (!root || root.nodeType !== 1) return;
+    var links = [];
+    if (root.matches && root.matches('.vus-result a')) links.push(root);
+    if (root.querySelectorAll) {
+      var found = root.querySelectorAll('.vus-result a');
+      for (var i = 0; i < found.length; i++) links.push(found[i]);
+    }
+    for (var j = 0; j < links.length; j++) {
+      var a = links[j], oldHref = a.getAttribute('href') || '';
+      var newHref = resultUrl(oldHref);
+      if (newHref && newHref !== oldHref) a.setAttribute('href', newHref);
+      var li = a.closest ? a.closest('.vus-result') : null;
+      var shown = li && li.querySelector ? li.querySelector('.vus-url') : null;
+      if (shown && newHref) shown.textContent = newHref;
+    }
+  }
+
+  function start() {
+    rewrite(document.documentElement);
+    if (!window.MutationObserver) return;
+    new MutationObserver(function (mutations) {
+      for (var i = 0; i < mutations.length; i++) {
+        var nodes = mutations[i].addedNodes || [];
+        for (var j = 0; j < nodes.length; j++) rewrite(nodes[j]);
+      }
+    }).observe(document.documentElement, { childList: true, subtree: true });
+  }
+
+  window.videhaSearchResultUrl = resultUrl;
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, { once: true });
+  else start();
+}());
+
