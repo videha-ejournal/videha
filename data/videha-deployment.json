@@ -1,0 +1,24 @@
+{
+  "generated": "2026-08-20T17:35:53.383004+00:00",
+  "strategy": {
+    "videha.co.in": {
+      "role": "canonical lightweight publication site",
+      "exclude": [
+        "pagefind/**",
+        "search-documents/**",
+        ".github/**",
+        "tools/**"
+      ],
+      "ordinarySearchResults": "https://www.videha.co.in/<same-path>",
+      "historicalSearchResults": "https://videha-ejournal.github.io/videha/search-documents/<file>"
+    },
+    "github": {
+      "role": "full static archive/search/studio fallback",
+      "include": "full package",
+      "ordinarySearchResults": "https://videha-ejournal.github.io/videha/<same-path>",
+      "historicalSearchResults": "https://videha-ejournal.github.io/videha/search-documents/<file>"
+    }
+  },
+  "currentIssue": 448,
+  "historicalThrough": 447
+}

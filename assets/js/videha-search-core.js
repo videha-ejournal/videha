@@ -1,0 +1,9 @@
+(function(g){"use strict";
+let pfPromise=null,pfSource="";
+const candidates=()=>[{u:"./pagefind/pagefind.js",source:"local"},{u:VidehaCore.GITHUB+"pagefind/pagefind.js",source:"github"}];
+async function pagefind(){if(!pfPromise)pfPromise=(async()=>{let last;for(const c of candidates()){try{const pf=await import(c.u);await pf.init();pfSource=c.source;return pf}catch(e){last=e}}throw last||new Error("Pagefind unavailable")})();return pfPromise}
+async function fallback(q,limit){try{const bases=["./videha-search-index.json",VidehaCore.GITHUB+"videha-search-index.json"];let j=null;for(const u of bases){try{const r=await fetch(u,{cache:"force-cache",mode:"cors"});if(r.ok){j=await r.json();break}}catch(e){}}if(!j)return[];const nq=String(q).toLocaleLowerCase();const arr=j.entries||j;return arr.filter(e=>((e.t||"")+" "+(e.a||"")+" "+(e.s||"")).toLocaleLowerCase().includes(nq)).slice(0,limit||20).map(e=>({url:VidehaCore.resolveSearchUrl(e.f),meta:{title:e.t||e.f,author:e.a||"",category:e.c||""},plain_excerpt:e.s||"",_fallback:true}))}catch(e){return[]}}
+async function search(q,opts){opts=opts||{};const limit=opts.limit||20;try{const pf=await pagefind();let po={};if(opts.filters)po.filters=opts.filters;const found=await pf.search(q,po);const raw=(found.results||[]).slice(0,limit);const rows=await Promise.all(raw.map(r=>r.data()));return rows.map(r=>({...r,url:VidehaCore.resolveSearchUrl(r.url),_pagefindSource:pfSource}))}catch(e){return fallback(q,limit)}}
+async function filters(){try{return await (await pagefind()).filters()}catch(e){return{}}}
+g.VidehaSearch={search,filters,pagefind,source:()=>pfSource};
+})(window);

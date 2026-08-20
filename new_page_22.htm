@@ -258,6 +258,7 @@ body{ background:var(--vd-field) !important; color:var(--vd-ink); }
 <meta data-pagefind-filter="videha_type[content]" content="Research">
 <meta data-pagefind-meta="title[content]" content="PART 22">
 <meta data-pagefind-filter="year[content]" content="2000">
+<script src="assets/js/videha-core.js?v=20260820"></script>
 </head>
 <body>
 <a class="videha-skip" href="#videha-main">मुख्य सामग्रीपर जाउ · Skip to main content</a>
@@ -986,7 +987,8 @@ line-height:133%">6.2 The Breast Cancer Story as Institutional Achievement</span
             <button type="button" class="vus-filter" data-scope="Dictionary" aria-pressed="false">शब्दकोश · Dictionary</button>
             <button type="button" class="vus-filter" data-scope="archive" aria-pressed="false">PDF-अभिलेख · Archive</button>
           </div>
-          <p class="vus-help" id="vus-help">लेखक/शीर्षक/अंक/वर्ष — खोज-विधा; शेष बटन विदेह-खण्ड फिल्टर। Author/Title/Issue/Year are search modes; the remaining buttons filter indexed Videha sections. Static Pagefind index — no search server. रोमन/IAST शब्दक ठीक परिणाम नहि भेटलापर ध्वन्यात्मक (phonetic) फॉलबैक स्वतः चलत। <strong>PDF-अभिलेख</strong> बटन archive.org/VidehaAndSadeha क जीवन्त सूची (सभ अंक + सदेह) मे ताकत — अंक-संख्या (जेना ४४५) लिखितहि सोझे PDF भेटत।</p>
+          <div class="videha-digital-suite-links" data-pagefind-ignore="all" style="margin:.45em 0;text-align:center;font-size:.88rem"><a href="videha-digital-archive.html">Digital Archive</a> · <a href="videha-chatbot.html">Ask Videha</a> · <a href="videha-editor-studio.html">Editor Studio</a></div>
+<p class="vus-help" id="vus-help">लेखक/शीर्षक/अंक/वर्ष — खोज-विधा; शेष बटन विदेह-खण्ड फिल्टर। Author/Title/Issue/Year are search modes; the remaining buttons filter indexed Videha sections. Static Pagefind index — no search server. रोमन/IAST शब्दक ठीक परिणाम नहि भेटलापर ध्वन्यात्मक (phonetic) फॉलबैक स्वतः चलत। <strong>PDF-अभिलेख</strong> बटन archive.org/VidehaAndSadeha क जीवन्त सूची (सभ अंक + सदेह) मे ताकत — अंक-संख्या (जेना ४४५) लिखितहि सोझे PDF भेटत।</p>
           <div id="vus-status" role="status" aria-live="polite"></div>
           <ol id="vus-results" aria-label="Search results"></ol>
           <button class="vus-btn vus-btn--quiet vus-more" type="button" id="vus-more" hidden>आर परिणाम · More results</button>
@@ -1175,12 +1177,13 @@ line-height:133%">6.2 The Breast Cancer Story as Institutional Achievement</span
             const batch=lastRows.slice(shown,shown+20);
             for(const row of batch){
               const li=document.createElement('li');li.className='vus-result';
-              const title=esc(row.meta?.title||row.url||'Videha result');
+              const resolvedUrl=(window.VidehaCore?VidehaCore.resolveSearchUrl(row.url):row.url);
+              const title=esc(row.meta?.title||resolvedUrl||'Videha result');
               let badge=activeScope!=='all'?`<span class="vus-badge">${esc(activeScope)}</span>`:'';
               if(row._fb) badge+=`<span class="vus-badge">ध्वन्यात्मक · phonetic</span>`;
               if(row._pdf) badge+=`<span class="vus-badge">PDF · archive.org</span>`;
               const author=row.meta?.author?`<span class="vus-badge">${esc(row.meta.author)}</span>`:'';
-              li.innerHTML=`<a href="${esc(row.url)}">${title}</a>${author}${badge}<span class="vus-url">${esc(row.url)}</span><p class="vus-excerpt">${row.excerpt||esc(row.plain_excerpt||'')}</p>`;
+              li.innerHTML=`<a href="${esc(resolvedUrl)}">${title}</a>${author}${badge}<span class="vus-url">${esc(resolvedUrl)}</span><p class="vus-excerpt">${row.excerpt||esc(row.plain_excerpt||'')}</p>`;
               list.appendChild(li);
             }
             shown+=batch.length;

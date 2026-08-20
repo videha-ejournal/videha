@@ -1,0 +1,5 @@
+VIDEHA_GITHUB update-only package — 20 August 2026
+
+Copy/overwrite the CONTENTS into the existing videha GitHub repository root.
+Do not delete existing pagefind/ or search-documents/.
+After commit/push, the included GitHub Action regenerates metadata and Pagefind.

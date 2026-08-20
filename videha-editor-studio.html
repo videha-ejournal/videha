@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="mai">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VIDEHA Editorial Studio · विदेह सम्पादक / Site Auditor — offline</title>
+<meta name="description" content="Videha Editor / Site Auditor — पूरा साइट-ZIP देल जाउ; पुरान अंक-तिथि, टूटल लिंक, अनुपस्थित RSS/Skip/Listen, alt, heading, lang, CSS-JS संस्करण, दोहराएल ब्लॉक, http लिंक, अनाथ फाइल — सभक स्वचालित रिपोर्ट, सुधारल फाइलक ZIP आ सर्च-इंडेक्स।">
+<style>
+:root{
+  --v-crimson:#8B1A1A; --v-crimson-dk:#6d1313; --v-gold:#c49a3c; --v-gold-lt:#e8d9b0;
+  --v-cream:#FAF6EE; --v-paper:#fffdf8; --v-ink:#2a2320; --v-ink-soft:#5c534d;
+  --v-rule:#e5dcc8; --v-ok:#2f6b2f; --v-warn:#8a6d00; --v-err:#8B1A1A;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--v-cream);color:var(--v-ink);
+  font-family:"Noto Serif Devanagari","Kokila","Mangal",Georgia,serif;line-height:1.9;font-size:16px}
+:lang(mai){line-height:1.9}
+a{color:var(--v-crimson)}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--v-gold);outline-offset:2px}
+.skip-link{position:absolute;left:-9999px;top:0;background:var(--v-crimson);color:#fff;padding:.5em 1em;z-index:99}
+.skip-link:focus{left:0}
+.wrap{max-width:1080px;margin:0 auto;padding:0 18px 30px}
+header.mast{text-align:center;padding:30px 10px 14px;border-bottom:3px double var(--v-gold);margin-bottom:20px}
+.eyebrow{font-size:.7rem;letter-spacing:.35em;text-transform:uppercase;color:var(--v-gold);font-family:Georgia,serif}
+h1{font-size:clamp(1.5rem,4vw,2.2rem);color:var(--v-crimson);margin:.15em 0;line-height:1.4}
+.sub{color:var(--v-ink-soft);font-size:.92rem;margin:0}
+h2{color:var(--v-crimson);font-size:1.15rem;border-bottom:1px solid var(--v-rule);padding-bottom:.2em;margin:1.6em 0 .6em}
+.panel{background:var(--v-paper);border:1px solid var(--v-rule);border-top:4px solid var(--v-crimson);padding:16px 18px;margin-bottom:16px}
+.drop{border:2px dashed var(--v-gold);background:var(--v-paper);text-align:center;padding:34px 16px;cursor:pointer;margin-bottom:16px}
+.drop.on{background:var(--v-gold-lt)}
+.drop strong{color:var(--v-crimson)}
+.small{font-size:.82rem;color:var(--v-ink-soft)}
+label.inl{display:inline-flex;align-items:center;gap:.4em;margin:0 1.1em .35em 0;font-size:.92rem}
+input[type=text],input[type=number]{font:inherit;font-size:.9rem;border:1px solid var(--v-gold);background:#fff;padding:.15em .5em}
+textarea{font:inherit;font-size:.85rem;width:100%;border:1px solid var(--v-gold);background:#fff;padding:.4em .6em}
+table.rules{width:100%;border-collapse:collapse;font-size:.85rem}
+table.rules th,table.rules td{border:1px solid var(--v-rule);padding:3px 6px;text-align:left;vertical-align:top}
+table.rules th{background:var(--v-gold-lt);color:var(--v-crimson-dk);font-family:Georgia,serif;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase}
+table.rules input[type=text]{width:100%;border:none;background:transparent}
+button.btn{font:inherit;cursor:pointer;background:var(--v-crimson);color:#fff;border:2px solid var(--v-crimson);padding:.45em 1.3em;font-size:1rem;margin:4px 8px 4px 0}
+button.btn:hover{background:var(--v-crimson-dk)}
+button.btn[disabled]{opacity:.45;cursor:not-allowed}
+button.btn.sec{background:var(--v-paper);color:var(--v-crimson)}
+button.mini{font:inherit;font-size:.78rem;cursor:pointer;border:1px solid var(--v-gold);background:var(--v-paper);padding:0 .6em}
+.prog{height:10px;background:var(--v-gold-lt);border:1px solid var(--v-gold);margin:10px 0;display:none}
+.prog i{display:block;height:100%;width:0;background:var(--v-crimson);transition:width .15s}
+#log{font-family:ui-monospace,Consolas,monospace;font-size:.78rem;background:#fff;border:1px solid var(--v-rule);max-height:130px;overflow:auto;padding:6px 10px;white-space:pre-wrap;display:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin:14px 0}
+.card{background:var(--v-paper);border:1px solid var(--v-rule);border-left:4px solid var(--v-gold);padding:8px 12px}
+.card b{display:block;font-size:1.5rem;line-height:1.3}
+.card.err b{color:var(--v-err)} .card.warn b{color:var(--v-warn)} .card.ok b{color:var(--v-ok)}
+.card span{font-size:.78rem;color:var(--v-ink-soft)}
+details.chk{background:var(--v-paper);border:1px solid var(--v-rule);margin-bottom:8px}
+details.chk summary{cursor:pointer;padding:8px 14px;font-weight:700;color:var(--v-crimson-dk)}
+details.chk summary .n{font-weight:400;color:var(--v-ink-soft);font-size:.85rem}
+details.chk .body{padding:2px 16px 12px;font-size:.88rem;border-top:1px solid var(--v-rule)}
+details.chk .body ul{margin:.3em 0;padding-left:1.3em}
+code{background:var(--v-gold-lt);padding:0 .3em;font-size:.82em;word-break:break-all}
+.fileref{color:var(--v-crimson);font-weight:700}
+/* embedded universal search band */
+.vus-embed{background:var(--v-paper);border:1px solid var(--v-rule);border-top:4px solid var(--v-gold);
+  padding:16px 18px;margin:34px 0 0;text-align:center}
+.vus-embed h2{border:none;margin:.1em 0 .4em}
+.vus-embed form{display:flex;gap:8px;max-width:640px;margin:0 auto;flex-wrap:wrap;justify-content:center}
+.vus-embed input[type=search]{flex:1 1 260px;font:inherit;font-size:1rem;padding:.45em .8em;border:2px solid var(--v-crimson);background:#fff}
+.vus-embed button{font:inherit;font-size:.95rem;padding:.45em 1.2em;cursor:pointer;background:var(--v-crimson);color:#fff;border:2px solid var(--v-crimson)}
+/* videha css strip */
+.videha-strip{height:14px;margin-top:26px;
+  background:linear-gradient(90deg,var(--v-crimson) 0 33%,var(--v-gold) 33% 66%,var(--v-cream) 66% 100%);
+  border-top:1px solid var(--v-crimson-dk);border-bottom:1px solid var(--v-crimson-dk)}
+footer.foot{text-align:center;font-size:.85rem;color:var(--v-ink-soft);padding:14px 0 30px}
+@media (max-width:560px){.wrap{padding:0 10px 20px}}
+@media (prefers-reduced-motion:reduce){.prog i{transition:none}}
+</style>
+<script src="assets/js/videha-core.js?v=20260820"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">मुख्य सामग्री पर जाउ / Skip to main content</a>
+<div class="wrap">
+<header class="mast">
+  <div class="eyebrow">VIDEHA · OFFLINE TOOL</div>
+  <h1>विदेह सम्पादक — Site Auditor</h1>
+  <p class="sub">पूरा साइटक ZIP देल जाउ → स्वचालित रिपोर्ट → सुधारल फाइल-ZIP → सर्च-इंडेक्स। सभ किछु अहींक ब्राउज़रमे — कोनो फाइल कतहु अपलोड नहि होइत अछि।</p>
+</header>
+
+<main id="main">
+<div class="drop" id="drop" role="button" tabindex="0" aria-label="ZIP file चुनू वा एतऽ खसाउ">
+  <strong>विदेह साइटक ZIP एतऽ खसाउ</strong> — वा क्लिक कऽ चुनू<br>
+  <span class="small">(.zip — HTML/HTM, CSS, JS, चित्र सभ; GitHub Pages रिपोजिटरीक ZIP सेहो चलत)</span>
+  <input type="file" id="fileIn" accept=".zip" style="display:none">
+</div>
+
+<div class="panel">
+  <h2 style="margin-top:.2em">जाँच-विन्यास / Audit configuration</h2>
+  <label class="inl">वर्तमान अंक-संख्या <input type="number" id="curIssue" value="448" style="width:90px"></label>
+  <label class="inl">वर्तमान अंक-तिथि (सही स्ट्रिंग) <input type="text" id="curDate" value="15 अगस्त 2026" style="width:220px"></label>
+  <label class="inl">Google Groups URL <input type="text" id="ggUrl" value="https://groups.google.com/g/videha" style="width:250px"></label>
+  <label class="inl">RSS फाइल <input type="text" id="rssUrl" value="videha-rss.xml" style="width:130px"></label>
+  <br>
+  <label class="inl"><input type="checkbox" id="fxHttps" checked> http:// → https:// (स्वतः सुधार)</label>
+  <label class="inl"><input type="checkbox" id="fxLang" checked> &lt;html&gt; मे lang जोड़ू:
+    <input type="text" id="langVal" value="mai" style="width:60px"></label>
+  <label class="inl"><input type="checkbox" id="fxAlt"> रिक्त/अनुपस्थित alt मे फाइल-नामसँ alt भरू</label>
+  <label class="inl"><input type="checkbox" id="fxRules" checked> नीचाँक Find/Replace नियम लागू करू</label>
+  <br>
+  <label class="inl"><input type="checkbox" id="fxSub" checked> mailto-ग्राहकी → Google Groups लिंक</label>
+  <label class="inl"><input type="checkbox" id="fxRssL" checked> RSS &lt;link rel=alternate&gt; head मे जोड़ू</label>
+  <label class="inl"><input type="checkbox" id="fxStrip" checked> ग्राहकी-पट्टी (Groups+RSS) body मे जोड़ू</label>
+  <label class="inl"><input type="checkbox" id="fxRef" checked> Refresh-सूचना जोड़ू</label>
+  <label class="inl"><input type="checkbox" id="fxSkip" checked> Skip-to-main जोड़ू</label>
+
+  <label class="inl"><input type="checkbox" id="idxArc" checked> Search-index मे archive.org PDF-सूची (VidehaAndSadeha) जोड़ू — इन्टरनेट रहलापर जीवन्त, नहि तँ built-in snapshot</label>
+
+  <h2>Find / Replace नियम <button class="mini" id="addRule" type="button">+ नियम जोड़ू</button></h2>
+  <p class="small">सादा पाठ लिखू, वा regex लेल <code>/pattern/flags</code> रूप। "Fix" खाली रहत तँ मात्र रिपोर्ट हएत (सुधार नहि)। पुरान अंक-संख्या, पुरान ग्राहकी-वाक्य, पुरान तिथि — सभ एतहि जोड़ू।</p>
+  <table class="rules" id="rulesTbl">
+    <thead><tr><th style="width:38%">Find (पुरान)</th><th style="width:38%">Fix (नव)</th><th>Auto</th><th></th></tr></thead>
+    <tbody></tbody>
+  </table>
+
+  <h2>अनिवार्य तत्त्व / Required elements (अनुपस्थित रहलापर रिपोर्ट)</h2>
+  <label class="inl"><input type="checkbox" class="req" data-k="gg" checked> Google Groups लिंक <input type="text" id="s_gg" value="groups.google.com" style="width:180px"></label>
+  <label class="inl"><input type="checkbox" class="req" data-k="rss" checked> RSS लिंक <input type="text" id="s_rss" value="rss" style="width:110px"></label>
+  <label class="inl"><input type="checkbox" class="req" data-k="ref" checked> Refresh सूचना <input type="text" id="s_ref" value="रिफ्रेश|Refresh|Ctrl+F5" style="width:200px"></label>
+  <label class="inl"><input type="checkbox" class="req" data-k="skip" checked> Skip-to-main <input type="text" id="s_skip" value="skip|मुख्य सामग्री|videha-main" style="width:170px"></label>
+  <label class="inl"><input type="checkbox" class="req" data-k="lis" checked> Listen/Stop <input type="text" id="s_lis" value="सुनू|Listen|videha-tts" style="width:150px"></label>
+  <p class="small">प्रत्येकमे <code>|</code> सँ विकल्प दिअ — कोनो एक भेटलापर तत्त्व "उपस्थित" मानल जाएत।</p>
+
+  <h2>अप्रचलित URL सूची / Obsolete URLs (एक पंक्ति = एक अंश)</h2>
+  <textarea id="obsUrls" rows="3">esnips.com
+geocities.com
+box.net/shared</textarea>
+</div>
+
+<div>
+  <button class="btn" id="runBtn" disabled>जाँच चलाउ / Run audit</button>
+  <button class="btn sec" id="zipBtn" disabled>सुधारल ZIP उतारू</button>
+  <button class="btn sec" id="repBtn" disabled>रिपोर्ट (.txt) उतारू</button>
+  <button class="btn sec" id="csvBtn" disabled>रिपोर्ट (.csv)</button>
+  <button class="btn sec" id="htmlBtn" disabled>रिपोर्ट (.html)</button>
+  <button class="btn sec" id="idxBtn" disabled>Search index (JSON) बनाउ</button>
+</div>
+<div class="prog" id="prog"><i id="progBar"></i></div>
+<div id="log" aria-live="polite"></div>
+
+<div id="summary" class="cards"></div>
+<div id="report"></div>
+
+
+        <!-- VIDEHA UNIVERSAL SEARCH START -->
+        <section id="videha-universal-search" class="vus-wrap" aria-labelledby="vus-heading" data-pagefind-ignore="all">
+          <style>
+            .vus-wrap{margin:28px 0 18px;padding:22px 20px;background:#FAF6EE;border:1px solid #D8CFC0;border-left:4px solid #8B1A1A;box-shadow:0 2px 9px rgba(139,26,26,.07)}
+            .vus-wrap *{box-sizing:border-box}
+            .vus-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:1px solid #D8CFC0;padding-bottom:10px;margin-bottom:14px}
+            .vus-head h2{margin:0!important;color:#8B1A1A!important;font-family:'Playfair Display','Noto Serif Devanagari',Georgia,serif!important;font-size:1.45rem!important}
+            .vus-head small{font-family:'Libre Baskerville',Georgia,serif;color:#6A5845;font-size:.76rem}
+            .vus-form{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:8px;align-items:stretch}
+            #vus-q{width:100%;min-height:44px;padding:9px 11px;font-size:1rem;background:#FFFCF6!important;border:1px solid #BFB29E!important;color:#23201B!important;font-family:'Noto Serif Devanagari','Libre Baskerville',serif!important}
+            #vus-q:focus{outline:3px solid rgba(196,154,60,.32)!important;outline-offset:1px;border-color:#8B1A1A!important}
+            .vus-btn{min-height:44px;padding:8px 14px;border:1px solid #8B1A1A;background:#8B1A1A;color:#fff;font-family:'Noto Serif Devanagari','Libre Baskerville',serif;font-weight:700;cursor:pointer;border-radius:0}
+            .vus-btn--quiet{background:transparent;color:#8B1A1A}
+            .vus-btn:hover,.vus-btn:focus{filter:brightness(.95);outline:2px solid #C49A3C;outline-offset:1px}
+            .vus-filters{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 7px}
+            .vus-filter{min-height:34px;padding:5px 9px;border:1px solid #D8CFC0;background:#FFFCF6;color:#544D42;font:600 .79rem/1.2 'Libre Baskerville','Noto Serif Devanagari',serif;cursor:pointer;border-radius:0}
+            .vus-filter[aria-pressed="true"]{background:#8B1A1A;color:#fff;border-color:#8B1A1A}
+            .vus-help{margin:5px 0 0;color:#6A5845;font-size:.75rem;line-height:1.55}
+            #vus-status{min-height:1.4em;margin:10px 0 4px;color:#544D42;font-size:.82rem}
+            #vus-results{list-style:none;margin:0;padding:0}
+            .vus-result{padding:12px 2px;border-top:1px solid #E7DECB}
+            .vus-result:first-child{border-top:0}
+            .vus-result a{font-family:'Playfair Display','Noto Serif Devanagari',Georgia,serif!important;font-weight:700;color:#8B1A1A!important;text-decoration:none!important}
+            .vus-result a:hover{text-decoration:underline!important}
+            .vus-url{display:block;margin-top:2px;color:#746858;font-size:.68rem;overflow-wrap:anywhere}
+            .vus-excerpt{margin:5px 0 0;font-size:.84rem;line-height:1.65;color:#302B25}
+            .vus-excerpt mark{background:rgba(196,154,60,.28);color:inherit;padding:0 .06em}
+            .vus-badge{display:inline-block;margin-left:7px;padding:1px 5px;border:1px solid #D8CFC0;color:#6A5845;font-size:.62rem;font-family:'Libre Baskerville',serif;vertical-align:middle}
+            .vus-more{margin-top:12px}
+            @media(max-width:620px){.vus-wrap{padding:16px 12px}.vus-form{grid-template-columns:1fr}.vus-btn{width:100%}.vus-filter{font-size:.74rem}.vus-head small{width:100%}}
+          </style>
+          <div class="vus-head">
+            <h2 id="vus-heading">विदेहमे सभठाम ताकू <span style="font-size:.68em;font-weight:400;color:#544D42">/ Search all Videha</span></h2>
+            <small>Static full-text search · Pagefind</small>
+          </div>
+          <form id="vus-form" class="vus-form" role="search" autocomplete="off">
+            <label for="vus-q" class="videha-sr-only">विदेहमे सभठाम ताकू · Search all Videha</label>
+            <input id="vus-q" name="q" type="search" inputmode="search" placeholder="लेखक, शीर्षक, अंक, वर्ष, शब्द… / author, title, issue, year, word…" aria-describedby="vus-help vus-status">
+            <button class="vus-btn" type="submit">ताकू · Search</button>
+            <button class="vus-btn vus-btn--quiet" type="button" id="vus-clear">मेटाउ · Clear</button>
+          </form>
+          <div class="vus-filters" id="vus-filters" role="group" aria-label="Search filters">
+            <button type="button" class="vus-filter" data-scope="all" aria-pressed="true">सभ · All</button>
+            <button type="button" class="vus-filter" data-scope="author" aria-pressed="false">लेखक · Author</button>
+            <button type="button" class="vus-filter" data-scope="title" aria-pressed="false">शीर्षक · Title</button>
+            <button type="button" class="vus-filter" data-scope="issue" aria-pressed="false">अंक · Issue</button>
+            <button type="button" class="vus-filter" data-scope="year" aria-pressed="false">वर्ष · Year</button>
+            <button type="button" class="vus-filter" data-scope="Prose" aria-pressed="false">गद्य · Prose</button>
+            <button type="button" class="vus-filter" data-scope="Poetry" aria-pressed="false">पद्य · Poetry</button>
+            <button type="button" class="vus-filter" data-scope="Research" aria-pressed="false">शोध · Research</button>
+            <button type="button" class="vus-filter" data-scope="Book" aria-pressed="false">पोथी · Book</button>
+            <button type="button" class="vus-filter" data-scope="Quiz" aria-pressed="false">प्रश्नोत्तरी · Quiz</button>
+            <button type="button" class="vus-filter" data-scope="Audio/Video" aria-pressed="false">श्रव्य-दृश्य · Audio/Video</button>
+            <button type="button" class="vus-filter" data-scope="Panji" aria-pressed="false">पञ्जी · Panji</button>
+            <button type="button" class="vus-filter" data-scope="Thesaurus" aria-pressed="false">थेसारस · Thesaurus</button>
+            <button type="button" class="vus-filter" data-scope="Dictionary" aria-pressed="false">शब्दकोश · Dictionary</button>
+            <button type="button" class="vus-filter" data-scope="archive" aria-pressed="false">PDF-अभिलेख · Archive</button>
+          </div>
+          <div class="videha-digital-suite-links" data-pagefind-ignore="all" style="margin:.45em 0;text-align:center;font-size:.88rem"><a href="videha-digital-archive.html">Digital Archive</a> · <a href="videha-chatbot.html">Ask Videha</a> · <a href="videha-editor-studio.html">Editor Studio</a></div>
+<p class="vus-help" id="vus-help">लेखक/शीर्षक/अंक/वर्ष — खोज-विधा; शेष बटन विदेह-खण्ड फिल्टर। Author/Title/Issue/Year are search modes; the remaining buttons filter indexed Videha sections. Static Pagefind index — no search server. रोमन/IAST शब्दक ठीक परिणाम नहि भेटलापर ध्वन्यात्मक (phonetic) फॉलबैक स्वतः चलत। <strong>PDF-अभिलेख</strong> बटन archive.org/VidehaAndSadeha क जीवन्त सूची (सभ अंक + सदेह) मे ताकत — अंक-संख्या (जेना ४४५) लिखितहि सोझे PDF भेटत।</p>
+          <div id="vus-status" role="status" aria-live="polite"></div>
+          <ol id="vus-results" aria-label="Search results"></ol>
+          <button class="vus-btn vus-btn--quiet vus-more" type="button" id="vus-more" hidden>आर परिणाम · More results</button>
+        </section>
+        <script type="module" id="videha-universal-search-script">
+        (()=>{
+          const form=document.getElementById('vus-form');
+          const input=document.getElementById('vus-q');
+          const clearBtn=document.getElementById('vus-clear');
+          const status=document.getElementById('vus-status');
+          const list=document.getElementById('vus-results');
+          const moreBtn=document.getElementById('vus-more');
+          const filterButtons=[...document.querySelectorAll('.vus-filter')];
+          if(!form||!input||!status||!list) return;
+          var VIDEHA_ARCHIVE_SNAPSHOT=["Sadeha 01.pdf","Sadeha 02.pdf","Sadeha 03.pdf","Sadeha 04.pdf","Sadeha 05 v2.pdf","Sadeha 05.pdf","Sadeha 06.pdf","Sadeha 07.pdf","Sadeha 08.pdf","Sadeha 09.pdf","Sadeha 10.pdf","Sadeha 11.pdf","Sadeha 12.pdf","Sadeha 13.pdf","Sadeha 14.pdf","Sadeha 15.pdf","Sadeha 16.pdf","Sadeha 17.pdf","Sadeha 18.pdf","Sadeha 19.pdf","Sadeha 20.pdf","Sadeha 21.pdf","Sadeha 22.pdf","Sadeha 23.pdf","Sadeha 24.pdf","Sadeha 25.pdf","Sadeha 26.pdf","Sadeha 27.pdf","Sadeha 28.pdf","Sadeha 29.pdf","Sadeha 30.pdf","Sadeha 31.pdf","Sadeha 32.pdf","Sadeha 33.pdf","Sadeha 34.pdf","Sadeha 35.pdf","Sadeha 36.pdf","Sadeha 37.pdf","Videha 001.pdf","Videha 002.pdf","Videha 003.pdf","Videha 004.pdf","Videha 005.pdf","Videha 006.pdf","Videha 007.pdf","Videha 008.pdf","Videha 009.pdf","Videha 010.pdf","Videha 011.pdf","Videha 012.pdf","Videha 013.pdf","Videha 014.pdf","Videha 015.pdf","Videha 016.pdf","Videha 017.pdf","Videha 018.pdf","Videha 019.pdf","Videha 020.pdf","Videha 021.pdf","Videha 022.pdf","Videha 023.pdf","Videha 024.pdf","Videha 025.pdf","Videha 026.pdf","Videha 027.pdf","Videha 028.pdf","Videha 029.pdf","Videha 030.pdf","Videha 031.pdf","Videha 032.pdf","Videha 033.pdf","Videha 034.pdf","Videha 035.pdf","Videha 036.pdf","Videha 037.pdf","Videha 038.pdf","Videha 039.pdf","Videha 040.pdf","Videha 041.pdf","Videha 042.pdf","Videha 043.pdf","Videha 044.pdf","Videha 045.pdf","Videha 046.pdf","Videha 047.pdf","Videha 048.pdf","Videha 049.pdf","Videha 050.pdf","Videha 051.pdf","Videha 052.pdf","Videha 053.pdf","Videha 054.pdf","Videha 055.pdf","Videha 056.pdf","Videha 057.pdf","Videha 058.pdf","Videha 059.pdf","Videha 060.pdf","Videha 061.pdf","Videha 062.pdf","Videha 063.pdf","Videha 064.pdf","Videha 065.pdf","Videha 066.pdf","Videha 067.pdf","Videha 068.pdf","Videha 069.pdf","Videha 070.pdf","Videha 071.pdf","Videha 072.pdf","Videha 073.pdf","Videha 074.pdf","Videha 075.pdf","Videha 076.pdf","Videha 077.pdf","Videha 078.pdf","Videha 079.pdf","Videha 080.pdf","Videha 081.pdf","Videha 082.pdf","Videha 083.pdf","Videha 084.pdf","Videha 085.pdf","Videha 086.pdf","Videha 087.pdf","Videha 088.pdf","Videha 089.pdf","Videha 090.pdf","Videha 091.pdf","Videha 092.pdf","Videha 093.pdf","Videha 094.pdf","Videha 095.pdf","Videha 096.pdf","Videha 097.pdf","Videha 098.pdf","Videha 099.pdf","Videha 100.pdf","Videha 101.pdf","Videha 102.pdf","Videha 103.pdf","Videha 104.pdf","Videha 105.pdf","Videha 106.pdf","Videha 107.pdf","Videha 108.pdf","Videha 109.pdf","Videha 110.pdf","Videha 111.pdf","Videha 112.pdf","Videha 113.pdf","Videha 114.pdf","Videha 115.pdf","Videha 116.pdf","Videha 117.pdf","Videha 118.pdf","Videha 119.pdf","Videha 120.pdf","Videha 121.pdf","Videha 122.pdf","Videha 123.pdf","Videha 124.pdf","Videha 125.pdf","Videha 126.pdf","Videha 127.pdf","Videha 128.pdf","Videha 129.pdf","Videha 130.pdf","Videha 131.pdf","Videha 132.pdf","Videha 133.pdf","Videha 134.pdf","Videha 135.pdf","Videha 136.pdf","Videha 137.pdf","Videha 138.pdf","Videha 139.pdf","Videha 140.pdf","Videha 141.pdf","Videha 142.pdf","Videha 143.pdf","Videha 144.pdf","Videha 145.pdf","Videha 146.pdf","Videha 147.pdf","Videha 148.pdf","Videha 149.pdf","Videha 150.pdf","Videha 151.pdf","Videha 152.pdf","Videha 153.pdf","Videha 154.pdf","Videha 155.pdf","Videha 156.pdf","Videha 157.pdf","Videha 158.pdf","Videha 159.pdf","Videha 160.pdf","Videha 161.pdf","Videha 162.pdf","Videha 163.pdf","Videha 164.pdf","Videha 165.pdf","Videha 166.pdf","Videha 167.pdf","Videha 168.pdf","Videha 169.pdf","Videha 170.pdf","Videha 171.pdf","Videha 172.pdf","Videha 173.pdf","Videha 174.pdf","Videha 175.pdf","Videha 176.pdf","Videha 177.pdf","Videha 178.pdf","Videha 179.pdf","Videha 180.pdf","Videha 181.pdf","Videha 182.pdf","Videha 183.pdf","Videha 184.pdf","Videha 185.pdf","Videha 186.pdf","Videha 187.pdf","Videha 188.pdf","Videha 189.pdf","Videha 190.pdf","Videha 191.pdf","Videha 192.pdf","Videha 193.pdf","Videha 194.pdf","Videha 195.pdf","Videha 196.pdf","Videha 197.pdf","Videha 198.pdf","Videha 199.pdf","Videha 200.pdf","Videha 201.pdf","Videha 202.pdf","Videha 203.pdf","Videha 204.pdf","Videha 205.pdf","Videha 206.pdf","Videha 207.pdf","Videha 208.pdf","Videha 209.pdf","Videha 210.pdf","Videha 211.pdf","Videha 212.pdf","Videha 213.pdf","Videha 214.pdf","Videha 215.pdf","Videha 216.pdf","Videha 217.pdf","Videha 218.pdf","Videha 219.pdf","Videha 220.pdf","Videha 221.pdf","Videha 222.pdf","Videha 223.pdf","Videha 224.pdf","Videha 225.pdf","Videha 226.pdf","Videha 227.pdf","Videha 228.pdf","Videha 229.pdf","Videha 230.pdf","Videha 231.pdf","Videha 232.pdf","Videha 233.pdf","Videha 234.pdf","Videha 235.pdf","Videha 236.pdf","Videha 237.pdf","Videha 238.pdf","Videha 239.pdf","Videha 240.pdf","Videha 241.pdf","Videha 242.pdf","Videha 243.pdf","Videha 244.pdf","Videha 245.pdf","Videha 246.pdf","Videha 247.pdf","Videha 248.pdf","Videha 249.pdf","Videha 250.pdf","Videha 251.pdf","Videha 252.pdf","Videha 253.pdf","Videha 254.pdf","Videha 255.pdf","Videha 256.pdf","Videha 257.pdf","Videha 258.pdf","Videha 259.pdf","Videha 260.pdf","Videha 261.pdf","Videha 262.pdf","Videha 263.pdf","Videha 264.pdf","Videha 265.pdf","Videha 266.pdf","Videha 267.pdf","Videha 268.pdf","Videha 269.pdf","Videha 270.pdf","Videha 271.pdf","Videha 272.pdf","Videha 273.pdf","Videha 274.pdf","Videha 275.pdf","Videha 276.pdf","Videha 277.pdf","Videha 278.pdf","Videha 279.pdf","Videha 280.pdf","Videha 281.pdf","Videha 282.pdf","Videha 283.pdf","Videha 284.pdf","Videha 285.pdf","Videha 286.pdf","Videha 287.pdf","Videha 288.pdf","Videha 289.pdf","Videha 290.pdf","Videha 291.pdf","Videha 292.pdf","Videha 293.pdf","Videha 294.pdf","Videha 295.pdf","Videha 296.pdf","Videha 297.pdf","Videha 298.pdf","Videha 299.pdf","Videha 300.pdf","Videha 301.pdf","Videha 302.pdf","Videha 303.pdf","Videha 304.pdf","Videha 305.pdf","Videha 306.pdf","Videha 307.pdf","Videha 308.pdf","Videha 309.pdf","Videha 310.pdf","Videha 311.pdf","Videha 312.pdf","Videha 313.pdf","Videha 314.pdf","Videha 315.pdf","Videha 316.pdf","Videha 317.pdf","Videha 318.pdf","Videha 319.pdf","Videha 320.pdf","Videha 321.pdf","Videha 322.pdf","Videha 323.pdf","Videha 324.pdf","Videha 325.pdf","Videha 326.pdf","Videha 327.pdf","Videha 328.pdf","Videha 329.pdf","Videha 330.pdf","Videha 331.pdf","Videha 332.pdf","Videha 333.pdf","Videha 334.pdf","Videha 335.pdf","Videha 336.pdf","Videha 337.pdf","Videha 338.pdf","Videha 339.pdf","Videha 340.pdf","Videha 341.pdf","Videha 342.pdf","Videha 343.pdf","Videha 344.pdf","Videha 345.pdf","Videha 346.pdf","Videha 347.pdf","Videha 348.pdf","Videha 349.pdf","Videha 350.pdf","Videha 351.pdf","Videha 352.pdf","Videha 353.pdf","Videha 354.pdf","Videha 355.pdf","Videha 356.pdf","Videha 357.pdf","Videha 358.pdf","Videha 359.pdf","Videha 360.pdf","Videha 361.pdf","Videha 362.pdf","Videha 363.pdf","Videha 364.pdf","Videha 365.pdf","Videha 366.pdf","Videha 367.pdf","Videha 368.pdf","Videha 369.pdf","Videha 370.pdf","Videha 371.pdf","Videha 372.pdf","Videha 373.pdf","Videha 374.pdf","Videha 375.pdf","Videha 376.pdf","Videha 377.pdf","Videha 378.pdf","Videha 379.pdf","Videha 380.pdf","Videha 381.pdf","Videha 382.pdf","Videha 383.pdf","Videha 384.pdf","Videha 385.pdf","Videha 386.pdf","Videha 387.pdf","Videha 388.pdf","Videha 389.pdf","Videha 390.pdf","Videha 391.pdf","Videha 392.pdf","Videha 393.pdf","Videha 394.pdf","Videha 395.pdf","Videha 396.pdf","Videha 397.pdf","Videha 398.pdf","Videha 399.pdf","Videha 400.pdf","Videha 401.pdf","Videha 402.pdf","Videha 403.pdf","Videha 404.pdf","Videha 405.pdf","Videha 406.pdf","Videha 407.pdf","Videha 408.pdf","Videha 409.pdf","Videha 410.pdf","Videha 411.pdf","Videha 412.pdf","Videha 413.pdf","Videha 414.pdf","Videha 415.pdf","Videha 416.pdf","Videha 417.pdf","Videha 418.pdf","Videha 419.pdf","Videha 420.pdf","Videha 421.pdf","Videha 422.pdf","Videha 423.pdf","Videha 424.pdf","Videha 425.pdf","Videha 426.pdf","Videha 427.pdf","Videha 428.pdf","Videha 429.pdf","Videha 430.pdf","Videha 431.pdf","Videha 432.pdf","Videha 433.pdf","Videha 434.pdf","Videha 435.pdf","Videha 436.pdf","Videha 437.pdf","Videha 438.pdf","Videha 439.pdf","Videha 440.pdf","Videha 441.pdf","Videha 442.pdf","Videha 443.pdf","Videha 444.pdf","Videha 444_text.pdf","Videha 445.pdf","Videha 446.pdf","Videha 447.pdf","pdf_index.pdf"];
+          /* ===== VIDEHA ARCHIVE (archive.org/VidehaAndSadeha) live PDF catalog ===== */
+          const AR_ITEM='VidehaAndSadeha';
+          const AR_DL='https://archive.org/download/'+AR_ITEM+'/';
+          let arCat=null, arProm=null;
+          function arBuild(names, live){
+            const out=[];
+            for(const n of names){
+              if(!/\.pdf$/i.test(n)) continue;
+              const e={name:n,url:AR_DL+encodeURIComponent(n),kind:'other',num:0,label:n.replace(/\.pdf$/i,'')};
+              let m;
+              if((m=n.match(/^Videha[ _-]*(\d+)(.*)\.pdf$/i))){e.kind='videha';e.num=+m[1];e.label='विदेह अंक '+m[1]+(m[2].trim()?' ('+m[2].trim()+')':'');}
+              else if((m=n.match(/^Sadeha[ _-]*(\d+)(.*)\.pdf$/i))){e.kind='sadeha';e.num=+m[1];e.label='विदेह-सदेह खण्ड '+m[1]+(m[2].trim()?' ('+m[2].trim()+')':'');}
+              out.push(e);
+            }
+            out.sort((a,b)=> a.kind===b.kind? a.num-b.num : (a.kind==='videha'?-1:b.kind==='videha'?1:a.kind<b.kind?-1:1));
+            const st={live:live,maxV:0,maxS:0};
+            for(const e of out){ if(e.kind==='videha'&&e.num>st.maxV)st.maxV=e.num; if(e.kind==='sadeha'&&e.num>st.maxS)st.maxS=e.num; }
+            out.stat=st;
+            return out;
+          }
+          function arGet(){
+            if(arCat) return Promise.resolve(arCat);
+            if(arProm) return arProm;
+            arProm=fetch('https://archive.org/metadata/'+AR_ITEM,{mode:'cors',credentials:'omit',cache:'force-cache'})
+              .then(r=>{ if(!r.ok) throw 0; return r.json(); })
+              .then(j=>{ arCat=arBuild((j.files||[]).map(f=>f.name), true); return arCat; })
+              .catch(()=>{ arCat=arBuild(VIDEHA_ARCHIVE_SNAPSHOT,false); return arCat; });
+            return arProm;
+          }
+          function arDigits(s){const D={'०':'0','१':'1','२':'2','३':'3','४':'4','५':'5','६':'6','७':'7','८':'8','९':'9'};return String(s||'').replace(/[०-९]/g,d=>D[d]);}
+          function arSearch(cat,q,max){
+            q=arDigits(q).toLowerCase().trim(); max=max||30;
+            if(!q) return [];
+            const numM=q.match(/(\d{1,3})/); const num=numM? parseInt(numM[1],10):null;
+            const wantS=/sadeha|सदेह/.test(q), wantV=/videha|विदेह|अंक|ank|issue/.test(q);
+            const res=[];
+            for(const e of cat){
+              let sc=0;
+              if(num!==null && e.num===num){
+                sc=100;
+                if(wantS && e.kind!=='sadeha') sc=40;
+                if(wantV && !wantS && e.kind!=='videha') sc=40;
+              }
+              if(!sc && e.name.toLowerCase().includes(q)) sc=60;
+              if(!sc && num===null){
+                if(wantS && e.kind==='sadeha') sc=20;
+                else if(wantV && !wantS && e.kind==='videha') sc=10;
+              }
+              if(sc) res.push({sc,e});
+            }
+            res.sort((a,b)=> b.sc-a.sc || a.e.num-b.e.num);
+            return res.slice(0,max).map(r=>r.e);
+          }
+          /* ===== /VIDEHA ARCHIVE ===== */
+
+          let activeScope='all', pagefindPromise=null, lastRows=[], shown=0, timer=null, seq=0;
+          const typeScopes=new Set(['Prose','Poetry','Research','Book','Quiz','Audio/Video','Panji','Thesaurus','Dictionary']);
+          const devanagariDigits={'०':'0','१':'1','२':'2','३':'3','४':'4','५':'5','६':'6','७':'7','८':'8','९':'9'};
+          const normalizeDigits=s=>String(s||'').replace(/[०-९]/g,d=>devanagariDigits[d]||d);
+          const plain=s=>String(s||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
+          const esc=s=>String(s??'').replace(/[&<>"']/g,c=>'&#'+c.charCodeAt(0)+';');
+          /* Pagefind bundle: पहिने अपन server (rediff) पर देखत; नहि भेटलापर
+             GitHub Pages पर Actions-निर्मित प्रति स्वतः प्रयोग करत (GitHub Pages
+             सभ फाइल CORS-खुला * दैत अछि)। Repo-नाम भिन्न हो तँ नीचाँक URL सुधारू। */
+          const PAGEFIND_CANDIDATES=[
+            './pagefind/pagefind.js',
+            'https://videha-ejournal.github.io/videha/pagefind/pagefind.js'
+          ];
+          async function getPagefind(){
+            if(!pagefindPromise){
+              pagefindPromise=(async()=>{
+                let lastErr;
+                for(const u of PAGEFIND_CANDIDATES){
+                  try{ const pf=await import(u); await pf.init(); return pf; }
+                  catch(e){ lastErr=e; }
+                }
+                throw lastErr||new Error('pagefind unavailable');
+              })();
+            }
+            return pagefindPromise;
+          }
+          function setStatus(msg){status.textContent=msg;}
+
+          /* ===== phonetic cross-script fallback (videha-search-index.json) ===== */
+          const DEVA={"क":"k","ख":"k","ग":"g","घ":"g","ङ":"n","च":"c","छ":"c","ज":"j","झ":"j","ञ":"n",
+           "ट":"t","ठ":"t","ड":"d","ढ":"d","ण":"n","त":"t","थ":"t","द":"d","ध":"d","न":"n",
+           "प":"p","फ":"p","ब":"b","भ":"b","म":"m","य":"y","र":"r","ल":"l","व":"v",
+           "श":"s","ष":"s","स":"s","ह":"h","ळ":"l","क़":"k","ख़":"k","ग़":"g","ज़":"j",
+           "ड़":"r","ढ़":"r","फ़":"p","य़":"y","अ":"a","आ":"a","इ":"i","ई":"i","उ":"u","ऊ":"u","ऋ":"r",
+           "ए":"e","ऐ":"e","ओ":"o","औ":"o","ा":"a","ि":"i","ी":"i","ु":"u","ू":"u","ृ":"r","े":"e","ै":"e",
+           "ो":"o","ौ":"o","ं":"n","ँ":"n","ः":"","़":"","्":"",
+           "०":"0","१":"1","२":"2","३":"3","४":"4","५":"5","६":"6","७":"7","८":"8","९":"9"};
+          function latinNorm(x){
+            x=x.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+            return x.replace(/([kgcjtdpb])h/g,"$1").replace(/sh/g,"s").replace(/ch/g,"c")
+              .replace(/aa/g,"a").replace(/ii/g,"i").replace(/uu/g,"u").replace(/ai/g,"e").replace(/au/g,"o")
+              .replace(/w/g,"v").replace(/f/g,"p").replace(/z/g,"j").replace(/x/g,"ks").replace(/q/g,"k");
+          }
+          function skeleton(x){
+            let out="";
+            for(const ch of String(x)){
+              if(Object.prototype.hasOwnProperty.call(DEVA,ch)) out+=DEVA[ch];
+              else if(/[a-zA-Z0-9\u00C0-\u024F\u1E00-\u1EFF]/.test(ch)) out+=ch;
+              else out+=" ";
+            }
+            out=latinNorm(out);
+            return out.split(/\s+/).map(w=>{
+              if(!w) return "";
+              return (w[0]+w.slice(1).replace(/[aeiou]/g,"")).replace(/(.)\1+/g,"$1");
+            }).join(" ").replace(/\s+/g," ").trim();
+          }
+          const rawN=x=>latinNorm(String(x).replace(/\s+/g," "));
+          const FBCAT={Prose:"prose",Poetry:"poetry",Research:"research",Book:"book",Quiz:"quiz",
+            "Audio/Video":"av",Panji:"panji",Thesaurus:"thesaurus",Dictionary:"dictionary"};
+          let fbIndex=null, fbTried=false;
+          async function getFbIndex(){
+            if(fbIndex||fbTried) return fbIndex;
+            fbTried=true;
+            try{
+              const r=await fetch('./videha-search-index.json',{cache:'no-cache'});
+              if(!r.ok) return null;
+              const j=await r.json();
+              fbIndex=(j.entries||j).map(e=>{
+                e._rt=rawN(e.t||"");e._ra=rawN(e.a||"");e._rx=rawN(e.x||"");
+                e._st=skeleton(e.t||"");e._sa=skeleton(e.a||"");e._sx=skeleton(e.x||"");
+                return e;
+              });
+            }catch(err){ fbIndex=null; }
+            return fbIndex;
+          }
+          async function jsonFallback(q){
+            const idx=await getFbIndex();
+            if(!idx||!idx.length) return [];
+            const nq=normalizeDigits(q).toLocaleLowerCase();
+            const rq=rawN(q), sq=skeleton(q), out=[];
+            for(const e of idx){
+              if(typeScopes.has(activeScope) && e.c!==FBCAT[activeScope]) continue;
+              if(activeScope==='year' && String(e.y||'')!==nq) continue;
+              if(activeScope==='issue' && String(parseInt(normalizeDigits(e.i||'0'),10))!==String(parseInt(nq,10))) continue;
+              let sc=0;
+              const inT=activeScope!=='author', inA=activeScope!=='title';
+              if(inT&&e._rt.includes(rq))sc+=100;
+              if(inA&&e._ra.includes(rq))sc+=80;
+              if(activeScope!=='author'&&activeScope!=='title'&&e._rx.includes(rq))sc+=50;
+              if(!sc&&sq.length>1){
+                if(inT&&e._st.includes(sq))sc+=40;
+                if(inA&&e._sa.includes(sq))sc+=30;
+                if(activeScope!=='author'&&activeScope!=='title'&&e._sx.includes(sq))sc+=15;
+              }
+              if(activeScope==='year'||activeScope==='issue'){ if(!sc) sc=1; }
+              if(sc>0) out.push({sc,row:{url:'./'+e.f,meta:{title:e.t||e.f,author:e.a||''},
+                plain_excerpt:(e.s||'').slice(0,220),excerpt:'',_fb:true}});
+            }
+            out.sort((a,b)=>b.sc-a.sc);
+            return out.slice(0,120).map(o=>o.row);
+          }
+          /* ===== /phonetic fallback ===== */
+
+          function modePass(row,q){
+            const nq=normalizeDigits(q).toLocaleLowerCase();
+            const title=normalizeDigits(plain(row.meta?.title||'')).toLocaleLowerCase();
+            if(activeScope==='title') return title.includes(nq);
+            if(activeScope==='author'){
+              const author=normalizeDigits(plain(row.meta?.author||'')).toLocaleLowerCase();
+              return author ? author.includes(nq) : false;
+            }
+            return true;
+          }
+          function render(reset=true){
+            if(reset){list.innerHTML='';shown=0;}
+            const batch=lastRows.slice(shown,shown+20);
+            for(const row of batch){
+              const li=document.createElement('li');li.className='vus-result';
+              const resolvedUrl=(window.VidehaCore?VidehaCore.resolveSearchUrl(row.url):row.url);
+              const title=esc(row.meta?.title||resolvedUrl||'Videha result');
+              let badge=activeScope!=='all'?`<span class="vus-badge">${esc(activeScope)}</span>`:'';
+              if(row._fb) badge+=`<span class="vus-badge">ध्वन्यात्मक · phonetic</span>`;
+              if(row._pdf) badge+=`<span class="vus-badge">PDF · archive.org</span>`;
+              const author=row.meta?.author?`<span class="vus-badge">${esc(row.meta.author)}</span>`:'';
+              li.innerHTML=`<a href="${esc(resolvedUrl)}">${title}</a>${author}${badge}<span class="vus-url">${esc(resolvedUrl)}</span><p class="vus-excerpt">${row.excerpt||esc(row.plain_excerpt||'')}</p>`;
+              list.appendChild(li);
+            }
+            shown+=batch.length;
+            moreBtn.hidden=shown>=lastRows.length;
+          }
+          async function search(){
+            const my=++seq;
+            const q=input.value.trim();
+            if(!q){lastRows=[];list.innerHTML='';moreBtn.hidden=true;setStatus('खोजबाक लेल शब्द लिखू · Enter a search term.');return;}
+            setStatus('ताकल जा रहल अछि… · Searching…');
+            list.innerHTML='';moreBtn.hidden=true;
+            if(activeScope==='archive'){
+              const cat=await arGet();
+              if(my!==seq) return;
+              const hits=arSearch(cat,q,60);
+              lastRows=hits.map(e=>({url:e.url,meta:{title:e.label},plain_excerpt:e.name+' · archive.org/'+AR_ITEM+(cat.stat.live?'':' (snapshot सूची)'),excerpt:'',_pdf:true}));
+              if(!lastRows.length){setStatus('कोनो PDF नहि भेटल · No matching PDF — सूची: विदेह १–'+(cat.stat.maxV||'?')+' · सदेह १–'+(cat.stat.maxS||'?'));return;}
+              setStatus(lastRows.length+' PDF · archive.org '+(cat.stat.live?'(जीवन्त सूची: विदेह १–'+cat.stat.maxV+', सदेह १–'+cat.stat.maxS+')':'(offline snapshot)'));
+              render(true);return;
+            }
+            async function arPrepend(rowsIn){
+              if(!/(\d{1,3})|sadeha|सदेह|videha|विदेह|अंक/i.test(arDigits(q))) return rowsIn;
+              try{
+                const cat=await arGet();
+                const ph=arSearch(cat,q,5).map(e=>({url:e.url,meta:{title:e.label},plain_excerpt:e.name+' · archive.org',excerpt:'',_pdf:true}));
+                if(ph.length) return ph.concat(rowsIn);
+              }catch(err){}
+              return rowsIn;
+            }
+            try{
+              const pf=await getPagefind();
+              const nq=normalizeDigits(q).toLocaleLowerCase();
+              let term=q, opts={};
+              if(typeScopes.has(activeScope)){
+                opts={filters:{videha_type:activeScope}};
+              }else if(activeScope==='year' && /^(?:19|20)\d{2}$/.test(nq)){
+                term=null; opts={filters:{year:nq}};
+              }else if(activeScope==='issue' && /^\d{1,4}$/.test(nq)){
+                term=null; opts={filters:{issue:String(parseInt(nq,10))}};
+              }else if(activeScope==='author'){
+                const available=await pf.filters();
+                const matches=Object.keys(available.author||{}).filter(a=>normalizeDigits(a).toLocaleLowerCase().includes(nq)).slice(0,80);
+                if(matches.length){term=null;opts={filters:{author:{any:matches}}};}
+              }
+              const found=await pf.search(term,opts);
+              const raw=found.results||[];
+              const cap=Math.min(raw.length,120);
+              const rows=await Promise.all(raw.slice(0,cap).map(r=>r.data()));
+              if(my!==seq) return;
+              lastRows=rows.filter(r=>modePass(r,q));
+              if(!lastRows.length){
+                lastRows=await arPrepend(await jsonFallback(q));
+                if(my!==seq) return;
+                if(lastRows.length){setStatus(`${lastRows.length} परिणाम · matches (phonetic/PDF fallback)`);render(true);return;}
+                setStatus('कोनो परिणाम नहि भेटल · No results found.');return;
+              }
+              lastRows=await arPrepend(lastRows);
+              if(my!==seq) return;
+              setStatus(`${lastRows.length}${raw.length>cap?'+':''} परिणाम · results`);
+              render(true);
+            }catch(err){
+              console.error(err);
+              lastRows=await arPrepend(await jsonFallback(q));
+              if(my!==seq) return;
+              if(lastRows.length){setStatus(`${lastRows.length} परिणाम · matches (phonetic/PDF fallback)`);render(true);return;}
+              setStatus('Search index उपलब्ध नहि अछि। Repository मे pagefind/ बनलाक बाद, वा videha-search-index.json साइट-मूलमे रखलाक बाद ई खोज चलत। · Search index not available yet; run the included Pagefind build workflow, or place videha-search-index.json (from the Site Auditor) in the site root.');
+            }
+          }
+          form.addEventListener('submit',e=>{e.preventDefault();search();});
+          input.addEventListener('focus',()=>{getPagefind().catch(()=>{});},{once:true});
+          input.addEventListener('input',()=>{
+            clearTimeout(timer);
+            const q=input.value.trim();
+            if(q.length>1){getPagefind().then(pf=>pf.preload(q)).catch(()=>{});timer=setTimeout(search,280);}
+            else if(!q){list.innerHTML='';lastRows=[];moreBtn.hidden=true;setStatus('');}
+          });
+          clearBtn.addEventListener('click',()=>{input.value='';list.innerHTML='';lastRows=[];moreBtn.hidden=true;setStatus('');input.focus();});
+          moreBtn.addEventListener('click',()=>render(false));
+          filterButtons.forEach(btn=>btn.addEventListener('click',()=>{
+            activeScope=btn.dataset.scope||'all';
+            filterButtons.forEach(b=>b.setAttribute('aria-pressed',b===btn?'true':'false'));
+            if(input.value.trim()) search();
+          }));
+          const params=new URLSearchParams(location.search);const initial=params.get('q');if(initial){input.value=initial;search();}
+        })();
+        </script>
+        <!-- VIDEHA UNIVERSAL SEARCH END -->
+
+    </main>
+
+<!-- ===== UNIVERSAL SEARCH (embedded) — बरखा-पट्टीसँ ठीक ऊपर ===== -->
+<section class="vus-embed" aria-label="विदेह सार्वत्रिक खोज">
+  <h2>विदेहमे सभठाम ताकू / Search all Videha</h2>
+  <form action="videha-universal-search.htm" method="get">
+    <input type="search" name="q" placeholder="लेखक · शीर्षक · अंक · पञ्जी · शब्दकोश…" aria-label="खोज शब्द">
+    <button type="submit">ताकू</button>
+  </form>
+  <p class="small" style="margin:.5em 0 0">देवनागरी, IAST, रोमन — तीनू लिपिमे खोज। परिणाम videha-universal-search.htm पर।</p>
+</section>
+
+<section style="max-width:1100px;margin:18px auto;padding:14px;border:1px solid #D8CFC0;background:#FAF6EE"><h2 style="color:#8B1A1A">Digital Archive deployment rule</h2><p>Ordinary/current/static search results remain host-relative. Generated <code>search-documents/</code> historical results always resolve to <code>https://videha-ejournal.github.io/videha/</code>. Use the Publisher module to create SERVER and GITHUB packages from one source ZIP.</p><p><a href="videha-publisher.html">New Issue Publisher</a> · <a href="videha-digital-archive.html">Digital Archive</a></p></section>
+<div class="videha-strip" role="presentation"></div>
+<footer class="foot">© गजेन्द्र ठाकुर, सम्पादक — विदेह ई-पत्रिका · <a href="https://www.videha.co.in/">videha.co.in</a></footer>
+</div>
+
+<script>
+!function(f){typeof module!='undefined'&&typeof exports=='object'?module.exports=f():typeof define!='undefined'&&define.amd?define(f):(typeof self!='undefined'?self:this).fflate=f()}(function(){var _e={};"use strict";var t=(typeof module!='undefined'&&typeof exports=='object'?function(_f){"use strict";var e,t=";var __w=require('worker_threads');__w.parentPort.on('message',function(m){onmessage({data:m})}),postMessage=function(m,t){__w.parentPort.postMessage(m,t)},close=process.exit;self=global";try{e=require("worker_threads").Worker}catch(e){}exports.default=e?function(r,n,o,a,s){var u=!1,i=new e(r+t,{eval:!0}).on("error",(function(e){return s(e,null)})).on("message",(function(e){return s(null,e)})).on("exit",(function(e){e&&!u&&s(Error("exited with code "+e),null)}));return i.postMessage(o,a),i.terminate=function(){return u=!0,e.prototype.terminate.call(i)},i}:function(e,t,r,n,o){setImmediate((function(){return o(Error("async operations unsupported - update to Node 12+ (or Node 10-11 with the --experimental-worker CLI flag)"),null)}));var a=function(){};return{terminate:a,postMessage:a}};return _f}:function(_f){"use strict";var e={};_f.default=function(r,t,s,a,n){var o=new Worker(e[t]||(e[t]=URL.createObjectURL(new Blob([r+';addEventListener("error",function(e){e=e.error;postMessage({$e$:[e.message,e.code,e.stack]})})'],{type:"text/javascript"}))));return o.onmessage=function(e){var r=e.data,t=r.$e$;if(t){var s=Error(t[0]);s.code=t[1],s.stack=t[2],n(s,null)}else n(null,r)},o.postMessage(s,a),o};return _f})({}),n=Uint8Array,r=Uint16Array,e=Int32Array,i=new n([0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,0,0,0,0]),o=new n([0,0,0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,0,0]),s=new n([16,17,18,0,8,7,9,6,10,5,11,4,12,3,13,2,14,1,15]),a=function(t,n){for(var i=new r(31),o=0;o<31;++o)i[o]=n+=1<<t[o-1];var s=new e(i[30]);for(o=1;o<30;++o)for(var a=i[o];a<i[o+1];++a)s[a]=a-i[o]<<5|o;return{b:i,r:s}},u=a(i,2),h=u.b,f=u.r;h[28]=258,f[258]=28;for(var l=a(o,0),c=l.b,p=l.r,v=new r(32768),d=0;d<32768;++d){var g=(43690&d)>>1|(21845&d)<<1;v[d]=((65280&(g=(61680&(g=(52428&g)>>2|(13107&g)<<2))>>4|(3855&g)<<4))>>8|(255&g)<<8)>>1}var y=function(t,n,e){for(var i=t.length,o=0,s=new r(n);o<i;++o)t[o]&&++s[t[o]-1];var a,u=new r(n);for(o=1;o<n;++o)u[o]=u[o-1]+s[o-1]<<1;if(e){a=new r(1<<n);var h=15-n;for(o=0;o<i;++o)if(t[o])for(var f=o<<4|t[o],l=n-t[o],c=u[t[o]-1]++<<l,p=c|(1<<l)-1;c<=p;++c)a[v[c]>>h]=f}else for(a=new r(i),o=0;o<i;++o)t[o]&&(a[o]=v[u[t[o]-1]++]>>15-t[o]);return a},m=new n(288);for(d=0;d<144;++d)m[d]=8;for(d=144;d<256;++d)m[d]=9;for(d=256;d<280;++d)m[d]=7;for(d=280;d<288;++d)m[d]=8;var b=new n(32);for(d=0;d<32;++d)b[d]=5;var w=y(m,9,0),x=y(m,9,1),z=y(b,5,0),k=y(b,5,1),M=function(t){for(var n=t[0],r=1;r<t.length;++r)t[r]>n&&(n=t[r]);return n},S=function(t,n,r){var e=n/8|0;return(t[e]|t[e+1]<<8)>>(7&n)&r},A=function(t,n){var r=n/8|0;return(t[r]|t[r+1]<<8|t[r+2]<<16)>>(7&n)},T=function(t){return(t+7)/8|0},D=function(t,r,e){return(null==r||r<0)&&(r=0),(null==e||e>t.length)&&(e=t.length),new n(t.subarray(r,e))};_e.FlateErrorCode={UnexpectedEOF:0,InvalidBlockType:1,InvalidLengthLiteral:2,InvalidDistance:3,StreamFinished:4,NoStreamHandler:5,InvalidHeader:6,NoCallback:7,InvalidUTF8:8,ExtraFieldTooLong:9,InvalidDate:10,FilenameTooLong:11,StreamFinishing:12,InvalidZipData:13,UnknownCompressionMethod:14};var C=["unexpected EOF","invalid block type","invalid length/literal","invalid distance","stream finished","no stream handler",,"no callback","invalid UTF-8 data","extra field too long","date not in range 1980-2099","filename too long","stream finishing","invalid zip data"],I=function(t,n,r){var e=Error(n||C[t]);if(e.code=t,Error.captureStackTrace&&Error.captureStackTrace(e,I),!r)throw e;return e},U=function(t,r,e,a){var u=t.length,f=a?a.length:0;if(!u||r.f&&!r.l)return e||new n(0);var l=!e,p=l||2!=r.i,v=r.i;l&&(e=new n(3*u));var d=function(t){var r=e.length;if(t>r){var i=new n(Math.max(2*r,t));i.set(e),e=i}},g=r.f||0,m=r.p||0,b=r.b||0,w=r.l,z=r.d,C=r.m,U=r.n,F=8*u;do{if(!w){g=S(t,m,1);var E=S(t,m+1,3);if(m+=3,!E){var Z=t[(J=T(m)+4)-4]|t[J-3]<<8,q=J+Z;if(q>u){v&&I(0);break}p&&d(b+Z),e.set(t.subarray(J,q),b),r.b=b+=Z,r.p=m=8*q,r.f=g;continue}if(1==E)w=x,z=k,C=9,U=5;else if(2==E){var O=S(t,m,31)+257,G=S(t,m+10,15)+4,L=O+S(t,m+5,31)+1;m+=14;for(var H=new n(L),j=new n(19),N=0;N<G;++N)j[s[N]]=S(t,m+3*N,7);m+=3*G;var P=M(j),B=(1<<P)-1,Y=y(j,P,1);for(N=0;N<L;){var J,K=Y[S(t,m,B)];if(m+=15&K,(J=K>>4)<16)H[N++]=J;else{var Q=0,R=0;for(16==J?(R=3+S(t,m,3),m+=2,Q=H[N-1]):17==J?(R=3+S(t,m,7),m+=3):18==J&&(R=11+S(t,m,127),m+=7);R--;)H[N++]=Q}}var V=H.subarray(0,O),W=H.subarray(O);C=M(V),U=M(W),w=y(V,C,1),z=y(W,U,1)}else I(1);if(m>F){v&&I(0);break}}p&&d(b+131072);for(var X=(1<<C)-1,$=(1<<U)-1,_=m;;_=m){var tt=(Q=w[A(t,m)&X])>>4;if((m+=15&Q)>F){v&&I(0);break}if(Q||I(2),tt<256)e[b++]=tt;else{if(256==tt){_=m,w=null;break}var nt=tt-254;tt>264&&(nt=S(t,m,(1<<(it=i[N=tt-257]))-1)+h[N],m+=it);var rt=z[A(t,m)&$],et=rt>>4;if(rt||I(3),m+=15&rt,W=c[et],et>3){var it=o[et];W+=A(t,m)&(1<<it)-1,m+=it}if(m>F){v&&I(0);break}p&&d(b+131072);var ot=b+nt;if(b<W){var st=f-W,at=Math.min(W,ot);for(st+b<0&&I(3);b<at;++b)e[b]=a[st+b]}for(;b<ot;++b)e[b]=e[b-W]}}r.l=w,r.p=_,r.b=b,r.f=g,w&&(g=1,r.m=C,r.d=z,r.n=U)}while(!g);return b!=e.length&&l?D(e,0,b):e.subarray(0,b)},F=function(t,n,r){var e=n/8|0;t[e]|=r<<=7&n,t[e+1]|=r>>8},E=function(t,n,r){var e=n/8|0;t[e]|=r<<=7&n,t[e+1]|=r>>8,t[e+2]|=r>>16},Z=function(t,e){for(var i=[],o=0;o<t.length;++o)t[o]&&i.push({s:o,f:t[o]});var s=i.length,a=i.slice();if(!s)return{t:N,l:0};if(1==s){var u=new n(i[0].s+1);return u[i[0].s]=1,{t:u,l:1}}i.sort((function(t,n){return t.f-n.f})),i.push({s:-1,f:25001});var h=i[0],f=i[1],l=0,c=1,p=2;for(i[0]={s:-1,f:h.f+f.f,l:h,r:f};c!=s-1;)h=i[i[l].f<i[p].f?l++:p++],f=i[l!=c&&i[l].f<i[p].f?l++:p++],i[c++]={s:-1,f:h.f+f.f,l:h,r:f};var v=a[0].s;for(o=1;o<s;++o)a[o].s>v&&(v=a[o].s);var d=new r(v+1),g=q(i[c-1],d,0);if(g>e){o=0;var y=0,m=g-e,b=1<<m;for(a.sort((function(t,n){return d[n.s]-d[t.s]||t.f-n.f}));o<s;++o){var w=a[o].s;if(!(d[w]>e))break;y+=b-(1<<g-d[w]),d[w]=e}for(y>>=m;y>0;){var x=a[o].s;d[x]<e?y-=1<<e-d[x]++-1:++o}for(;o>=0&&y;--o){var z=a[o].s;d[z]==e&&(--d[z],++y)}g=e}return{t:new n(d),l:g}},q=function(t,n,r){return-1==t.s?Math.max(q(t.l,n,r+1),q(t.r,n,r+1)):n[t.s]=r},O=function(t){for(var n=t.length;n&&!t[--n];);for(var e=new r(++n),i=0,o=t[0],s=1,a=function(t){e[i++]=t},u=1;u<=n;++u)if(t[u]==o&&u!=n)++s;else{if(!o&&s>2){for(;s>138;s-=138)a(32754);s>2&&(a(s>10?s-11<<5|28690:s-3<<5|12305),s=0)}else if(s>3){for(a(o),--s;s>6;s-=6)a(8304);s>2&&(a(s-3<<5|8208),s=0)}for(;s--;)a(o);s=1,o=t[u]}return{c:e.subarray(0,i),n:n}},G=function(t,n){for(var r=0,e=0;e<n.length;++e)r+=t[e]*n[e];return r},L=function(t,n,r){var e=r.length,i=T(n+2);t[i]=255&e,t[i+1]=e>>8,t[i+2]=255^t[i],t[i+3]=255^t[i+1];for(var o=0;o<e;++o)t[i+o+4]=r[o];return 8*(i+4+e)},H=function(t,n,e,a,u,h,f,l,c,p,v){F(n,v++,e),++u[256];for(var d=Z(u,15),g=d.t,x=d.l,k=Z(h,15),M=k.t,S=k.l,A=O(g),T=A.c,D=A.n,C=O(M),I=C.c,U=C.n,q=new r(19),H=0;H<T.length;++H)++q[31&T[H]];for(H=0;H<I.length;++H)++q[31&I[H]];for(var j=Z(q,7),N=j.t,P=j.l,B=19;B>4&&!N[s[B-1]];--B);var Y,J,K,Q,R=p+5<<3,V=G(u,m)+G(h,b)+f,W=G(u,g)+G(h,M)+f+14+3*B+G(q,N)+2*q[16]+3*q[17]+7*q[18];if(c>=0&&R<=V&&R<=W)return L(n,v,t.subarray(c,c+p));if(F(n,v,1+(W<V)),v+=2,W<V){Y=y(g,x,0),J=g,K=y(M,S,0),Q=M;var X=y(N,P,0);for(F(n,v,D-257),F(n,v+5,U-1),F(n,v+10,B-4),v+=14,H=0;H<B;++H)F(n,v+3*H,N[s[H]]);v+=3*B;for(var $=[T,I],_=0;_<2;++_){var tt=$[_];for(H=0;H<tt.length;++H)F(n,v,X[rt=31&tt[H]]),v+=N[rt],rt>15&&(F(n,v,tt[H]>>5&127),v+=tt[H]>>12)}}else Y=w,J=m,K=z,Q=b;for(H=0;H<l;++H){var nt=a[H];if(nt>255){var rt;E(n,v,Y[257+(rt=nt>>18&31)]),v+=J[rt+257],rt>7&&(F(n,v,nt>>23&31),v+=i[rt]);var et=31&nt;E(n,v,K[et]),v+=Q[et],et>3&&(E(n,v,nt>>5&8191),v+=o[et])}else E(n,v,Y[nt]),v+=J[nt]}return E(n,v,Y[256]),v+J[256]},j=new e([65540,131080,131088,131104,262176,1048704,1048832,2114560,2117632]),N=new n(0),P=function(t,s,a,u,h,l){var c=l.z||t.length,v=new n(u+c+5*(1+Math.ceil(c/7e3))+h),d=v.subarray(u,v.length-h),g=l.l,y=7&(l.r||0);if(s){y&&(d[0]=l.r>>3);for(var m=j[s-1],b=m>>13,w=8191&m,x=(1<<a)-1,z=l.p||new r(32768),k=l.h||new r(x+1),M=Math.ceil(a/3),S=2*M,A=function(n){return(t[n]^t[n+1]<<M^t[n+2]<<S)&x},C=new e(25e3),I=new r(288),U=new r(32),F=0,E=0,Z=l.i||0,q=0,O=l.w||0,G=0;Z+2<c;++Z){var N=A(Z),P=32767&Z,B=k[N];if(z[P]=B,k[N]=P,O<=Z){var Y=c-Z;if((F>7e3||q>24576)&&(Y>423||!g)){y=H(t,d,0,C,I,U,E,q,G,Z-G,y),q=F=E=0,G=Z;for(var J=0;J<286;++J)I[J]=0;for(J=0;J<30;++J)U[J]=0}var K=2,Q=0,R=w,V=P-B&32767;if(Y>2&&N==A(Z-V))for(var W=Math.min(b,Y)-1,X=Math.min(32767,Z),$=Math.min(258,Y);V<=X&&--R&&P!=B;){if(t[Z+K]==t[Z+K-V]){for(var _=0;_<$&&t[Z+_]==t[Z+_-V];++_);if(_>K){if(K=_,Q=V,_>W)break;var tt=Math.min(V,_-2),nt=0;for(J=0;J<tt;++J){var rt=Z-V+J&32767,et=rt-z[rt]&32767;et>nt&&(nt=et,B=rt)}}}V+=(P=B)-(B=z[P])&32767}if(Q){C[q++]=268435456|f[K]<<18|p[Q];var it=31&f[K],ot=31&p[Q];E+=i[it]+o[ot],++I[257+it],++U[ot],O=Z+K,++F}else C[q++]=t[Z],++I[t[Z]]}}for(Z=Math.max(Z,O);Z<c;++Z)C[q++]=t[Z],++I[t[Z]];y=H(t,d,g,C,I,U,E,q,G,Z-G,y),g||(l.r=7&y|d[y/8|0]<<3,y-=7,l.h=k,l.p=z,l.i=Z,l.w=O)}else{for(Z=l.w||0;Z<c+g;Z+=65535){var st=Z+65535;st>=c&&(d[y/8|0]=g,st=c),y=L(d,y+1,t.subarray(Z,st))}l.i=c}return D(v,0,u+T(y)+h)},B=function(){for(var t=new Int32Array(256),n=0;n<256;++n){for(var r=n,e=9;--e;)r=(1&r&&-306674912)^r>>>1;t[n]=r}return t}(),Y=function(){var t=-1;return{p:function(n){for(var r=t,e=0;e<n.length;++e)r=B[255&r^n[e]]^r>>>8;t=r},d:function(){return~t}}},J=function(){var t=1,n=0;return{p:function(r){for(var e=t,i=n,o=0|r.length,s=0;s!=o;){for(var a=Math.min(s+2655,o);s<a;++s)i+=e+=r[s];e=(65535&e)+15*(e>>16),i=(65535&i)+15*(i>>16)}t=e,n=i},d:function(){return(255&(t%=65521))<<24|(65280&t)<<8|(255&(n%=65521))<<8|n>>8}}},K=function(t,r,e,i,o){if(!o&&(o={l:1},r.dictionary)){var s=r.dictionary.subarray(-32768),a=new n(s.length+t.length);a.set(s),a.set(t,s.length),t=a,o.w=s.length}return P(t,null==r.level?6:r.level,null==r.mem?o.l?Math.ceil(1.5*Math.max(8,Math.min(13,Math.log(t.length)))):20:12+r.mem,e,i,o)},Q=function(t,n){var r={};for(var e in t)r[e]=t[e];for(var e in n)r[e]=n[e];return r},R=function(t,n,r){for(var e=t(),i=""+t,o=i.slice(i.indexOf("[")+1,i.lastIndexOf("]")).replace(/\s+/g,"").split(","),s=0;s<e.length;++s){var a=e[s],u=o[s];if("function"==typeof a){n+=";"+u+"=";var h=""+a;if(a.prototype)if(-1!=h.indexOf("[native code]")){var f=h.indexOf(" ",8)+1;n+=h.slice(f,h.indexOf("(",f))}else for(var l in n+=h,a.prototype)n+=";"+u+".prototype."+l+"="+a.prototype[l];else n+=h}else r[u]=a}return n},V=[],W=function(t){var n=[];for(var r in t)t[r].buffer&&n.push((t[r]=new t[r].constructor(t[r])).buffer);return n},X=function(n,r,e,i){if(!V[e]){for(var o="",s={},a=n.length-1,u=0;u<a;++u)o=R(n[u],o,s);V[e]={c:R(n[a],o,s),e:s}}var h=Q({},V[e].e);return(0,t.default)(V[e].c+";onmessage=function(e){for(var k in e.data)self[k]=e.data[k];onmessage="+r+"}",e,h,W(h),i)},$=function(){return[n,r,e,i,o,s,h,c,x,k,v,C,y,M,S,A,T,D,I,U,Tt,it,ot]},_=function(){return[n,r,e,i,o,s,f,p,w,m,z,b,v,j,N,y,F,E,Z,q,O,G,L,H,T,D,P,K,kt,it]},tt=function(){return[pt,gt,ct,Y,B]},nt=function(){return[vt,dt]},rt=function(){return[yt,ct,J]},et=function(){return[mt]},it=function(t){return postMessage(t,[t.buffer])},ot=function(t){return t&&{out:t.size&&new n(t.size),dictionary:t.dictionary}},st=function(t,n,r,e,i,o){var s=X(r,e,i,(function(t,n){s.terminate(),o(t,n)}));return s.postMessage([t,n],n.consume?[t.buffer]:[]),function(){s.terminate()}},at=function(t){return t.ondata=function(t,n){return postMessage([t,n],[t.buffer])},function(n){n.data.length?(t.push(n.data[0],n.data[1]),postMessage([n.data[0].length])):t.flush()}},ut=function(t,n,r,e,i,o,s){var a,u=X(t,e,i,(function(t,r){t?(u.terminate(),n.ondata.call(n,t)):Array.isArray(r)?1==r.length?(n.queuedSize-=r[0],n.ondrain&&n.ondrain(r[0])):(r[1]&&u.terminate(),n.ondata.call(n,t,r[0],r[1])):s(r)}));u.postMessage(r),n.queuedSize=0,n.push=function(t,r){n.ondata||I(5),a&&n.ondata(I(4,0,1),null,!!r),n.queuedSize+=t.length,u.postMessage([t,a=r],[t.buffer])},n.terminate=function(){u.terminate()},o&&(n.flush=function(){u.postMessage([])})},ht=function(t,n){return t[n]|t[n+1]<<8},ft=function(t,n){return(t[n]|t[n+1]<<8|t[n+2]<<16|t[n+3]<<24)>>>0},lt=function(t,n){return ft(t,n)+4294967296*ft(t,n+4)},ct=function(t,n,r){for(;r;++n)t[n]=r,r>>>=8},pt=function(t,n){var r=n.filename;if(t[0]=31,t[1]=139,t[2]=8,t[8]=n.level<2?4:9==n.level?2:0,t[9]=3,0!=n.mtime&&ct(t,4,Math.floor(new Date(n.mtime||Date.now())/1e3)),r){t[3]=8;for(var e=0;e<=r.length;++e)t[e+10]=r.charCodeAt(e)}},vt=function(t){31==t[0]&&139==t[1]&&8==t[2]||I(6,"invalid gzip data");var n=t[3],r=10;4&n&&(r+=2+(t[10]|t[11]<<8));for(var e=(n>>3&1)+(n>>4&1);e>0;e-=!t[r++]);return r+(2&n)},dt=function(t){var n=t.length;return(t[n-4]|t[n-3]<<8|t[n-2]<<16|t[n-1]<<24)>>>0},gt=function(t){return 10+(t.filename?t.filename.length+1:0)},yt=function(t,n){var r=n.level,e=0==r?0:r<6?1:9==r?3:2;if(t[0]=120,t[1]=e<<6|(n.dictionary&&32),t[1]|=31-(t[0]<<8|t[1])%31,n.dictionary){var i=J();i.p(n.dictionary),ct(t,2,i.d())}},mt=function(t,n){return(8!=(15&t[0])||t[0]>>4>7||(t[0]<<8|t[1])%31)&&I(6,"invalid zlib data"),(t[1]>>5&1)==+!n&&I(6,"invalid zlib data: "+(32&t[1]?"need":"unexpected")+" dictionary"),2+(t[1]>>3&4)};function bt(t,n){return"function"==typeof t&&(n=t,t={}),this.ondata=n,t}var wt=function(){function t(t,r){if("function"==typeof t&&(r=t,t={}),this.ondata=r,this.o=t||{},this.s={l:0,i:32768,w:32768,z:32768},this.b=new n(98304),this.o.dictionary){var e=this.o.dictionary.subarray(-32768);this.b.set(e,32768-e.length),this.s.i=32768-e.length}}return t.prototype.p=function(t,n){this.ondata(K(t,this.o,0,0,this.s),n)},t.prototype.push=function(t,r){this.ondata||I(5),this.s.l&&I(4);var e=t.length+this.s.z;if(e>this.b.length){if(e>2*this.b.length-32768){var i=new n(-32768&e);i.set(this.b.subarray(0,this.s.z)),this.b=i}var o=this.b.length-this.s.z;this.b.set(t.subarray(0,o),this.s.z),this.s.z=this.b.length,this.p(this.b,!1),this.b.set(this.b.subarray(-32768)),this.b.set(t.subarray(o),32768),this.s.z=t.length-o+32768,this.s.i=32766,this.s.w=32768}else this.b.set(t,this.s.z),this.s.z+=t.length;this.s.l=1&r,(this.s.z>this.s.w+8191||r)&&(this.p(this.b,r||!1),this.s.w=this.s.i,this.s.i-=2)},t.prototype.flush=function(){this.ondata||I(5),this.s.l&&I(4),this.p(this.b,!1),this.s.w=this.s.i,this.s.i-=2},t}();_e.Deflate=wt;var xt=function(){return function(t,n){ut([_,function(){return[at,wt]}],this,bt.call(this,t,n),(function(t){var n=new wt(t.data);onmessage=at(n)}),6,1)}}();function zt(t,n,r){return r||(r=n,n={}),"function"!=typeof r&&I(7),st(t,n,[_],(function(t){return it(kt(t.data[0],t.data[1]))}),0,r)}function kt(t,n){return K(t,n||{},0,0)}_e.AsyncDeflate=xt,_e.deflate=zt,_e.deflateSync=kt;var Mt=function(){function t(t,r){"function"==typeof t&&(r=t,t={}),this.ondata=r;var e=t&&t.dictionary&&t.dictionary.subarray(-32768);this.s={i:0,b:e?e.length:0},this.o=new n(32768),this.p=new n(0),e&&this.o.set(e)}return t.prototype.e=function(t){if(this.ondata||I(5),this.d&&I(4),this.p.length){if(t.length){var r=new n(this.p.length+t.length);r.set(this.p),r.set(t,this.p.length),this.p=r}}else this.p=t},t.prototype.c=function(t){this.s.i=+(this.d=t||!1);var n=this.s.b,r=U(this.p,this.s,this.o);this.ondata(D(r,n,this.s.b),this.d),this.o=D(r,this.s.b-32768),this.s.b=this.o.length,this.p=D(this.p,this.s.p/8|0),this.s.p&=7},t.prototype.push=function(t,n){this.e(t),this.c(n)},t}();_e.Inflate=Mt;var St=function(){return function(t,n){ut([$,function(){return[at,Mt]}],this,bt.call(this,t,n),(function(t){var n=new Mt(t.data);onmessage=at(n)}),7,0)}}();function At(t,n,r){return r||(r=n,n={}),"function"!=typeof r&&I(7),st(t,n,[$],(function(t){return it(Tt(t.data[0],ot(t.data[1])))}),1,r)}function Tt(t,n){return U(t,{i:2},n&&n.out,n&&n.dictionary)}_e.AsyncInflate=St,_e.inflate=At,_e.inflateSync=Tt;var Dt=function(){function t(t,n){this.c=Y(),this.l=0,this.v=1,wt.call(this,t,n)}return t.prototype.push=function(t,n){this.c.p(t),this.l+=t.length,wt.prototype.push.call(this,t,n)},t.prototype.p=function(t,n){var r=K(t,this.o,this.v&&gt(this.o),n&&8,this.s);this.v&&(pt(r,this.o),this.v=0),n&&(ct(r,r.length-8,this.c.d()),ct(r,r.length-4,this.l)),this.ondata(r,n)},t.prototype.flush=function(){wt.prototype.flush.call(this)},t}();_e.Gzip=Dt,_e.Compress=Dt;var Ct=function(){return function(t,n){ut([_,tt,function(){return[at,wt,Dt]}],this,bt.call(this,t,n),(function(t){var n=new Dt(t.data);onmessage=at(n)}),8,1)}}();function It(t,n,r){return r||(r=n,n={}),"function"!=typeof r&&I(7),st(t,n,[_,tt,function(){return[Ut]}],(function(t){return it(Ut(t.data[0],t.data[1]))}),2,r)}function Ut(t,n){n||(n={});var r=Y(),e=t.length;r.p(t);var i=K(t,n,gt(n),8),o=i.length;return pt(i,n),ct(i,o-8,r.d()),ct(i,o-4,e),i}_e.AsyncGzip=Ct,_e.AsyncCompress=Ct,_e.gzip=It,_e.compress=It,_e.gzipSync=Ut,_e.compressSync=Ut;var Ft=function(){function t(t,n){this.v=1,this.r=0,Mt.call(this,t,n)}return t.prototype.push=function(t,r){if(Mt.prototype.e.call(this,t),this.r+=t.length,this.v){var e=this.p.subarray(this.v-1),i=e.length>3?vt(e):4;if(i>e.length){if(!r)return}else this.v>1&&this.onmember&&this.onmember(this.r-e.length);this.p=e.subarray(i),this.v=0}Mt.prototype.c.call(this,r),!this.s.f||this.s.l||r||(this.v=T(this.s.p)+9,this.s={i:0},this.o=new n(0),this.push(new n(0),r))},t}();_e.Gunzip=Ft;var Et=function(){return function(t,n){var r=this;ut([$,nt,function(){return[at,Mt,Ft]}],this,bt.call(this,t,n),(function(t){var n=new Ft(t.data);n.onmember=function(t){return postMessage(t)},onmessage=at(n)}),9,0,(function(t){return r.onmember&&r.onmember(t)}))}}();function Zt(t,n,r){return r||(r=n,n={}),"function"!=typeof r&&I(7),st(t,n,[$,nt,function(){return[qt]}],(function(t){return it(qt(t.data[0],t.data[1]))}),3,r)}function qt(t,r){var e=vt(t);return e+8>t.length&&I(6,"invalid gzip data"),U(t.subarray(e,-8),{i:2},r&&r.out||new n(dt(t)),r&&r.dictionary)}_e.AsyncGunzip=Et,_e.gunzip=Zt,_e.gunzipSync=qt;var Ot=function(){function t(t,n){this.c=J(),this.v=1,wt.call(this,t,n)}return t.prototype.push=function(t,n){this.c.p(t),wt.prototype.push.call(this,t,n)},t.prototype.p=function(t,n){var r=K(t,this.o,this.v&&(this.o.dictionary?6:2),n&&4,this.s);this.v&&(yt(r,this.o),this.v=0),n&&ct(r,r.length-4,this.c.d()),this.ondata(r,n)},t.prototype.flush=function(){wt.prototype.flush.call(this)},t}();_e.Zlib=Ot;var Gt=function(){return function(t,n){ut([_,rt,function(){return[at,wt,Ot]}],this,bt.call(this,t,n),(function(t){var n=new Ot(t.data);onmessage=at(n)}),10,1)}}();function Lt(t,n,r){return r||(r=n,n={}),"function"!=typeof r&&I(7),st(t,n,[_,rt,function(){return[Ht]}],(function(t){return it(Ht(t.data[0],t.data[1]))}),4,r)}function Ht(t,n){n||(n={});var r=J();r.p(t);var e=K(t,n,n.dictionary?6:2,4);return yt(e,n),ct(e,e.length-4,r.d()),e}_e.AsyncZlib=Gt,_e.zlib=Lt,_e.zlibSync=Ht;var jt=function(){function t(t,n){Mt.call(this,t,n),this.v=t&&t.dictionary?2:1}return t.prototype.push=function(t,n){if(Mt.prototype.e.call(this,t),this.v){if(this.p.length<6&&!n)return;this.p=this.p.subarray(mt(this.p,this.v-1)),this.v=0}n&&(this.p.length<4&&I(6,"invalid zlib data"),this.p=this.p.subarray(0,-4)),Mt.prototype.c.call(this,n)},t}();_e.Unzlib=jt;var Nt=function(){return function(t,n){ut([$,et,function(){return[at,Mt,jt]}],this,bt.call(this,t,n),(function(t){var n=new jt(t.data);onmessage=at(n)}),11,0)}}();function Pt(t,n,r){return r||(r=n,n={}),"function"!=typeof r&&I(7),st(t,n,[$,et,function(){return[Bt]}],(function(t){return it(Bt(t.data[0],ot(t.data[1])))}),5,r)}function Bt(t,n){return U(t.subarray(mt(t,n&&n.dictionary),-4),{i:2},n&&n.out,n&&n.dictionary)}_e.AsyncUnzlib=Nt,_e.unzlib=Pt,_e.unzlibSync=Bt;var Yt=function(){function t(t,n){this.o=bt.call(this,t,n)||{},this.G=Ft,this.I=Mt,this.Z=jt}return t.prototype.i=function(){var t=this;this.s.ondata=function(n,r){t.ondata(n,r)}},t.prototype.push=function(t,r){if(this.ondata||I(5),this.s)this.s.push(t,r);else{if(this.p&&this.p.length){var e=new n(this.p.length+t.length);e.set(this.p),e.set(t,this.p.length)}else this.p=t;this.p.length>2&&(this.s=31==this.p[0]&&139==this.p[1]&&8==this.p[2]?new this.G(this.o):8!=(15&this.p[0])||this.p[0]>>4>7||(this.p[0]<<8|this.p[1])%31?new this.I(this.o):new this.Z(this.o),this.i(),this.s.push(this.p,r),this.p=null)}},t}();_e.Decompress=Yt;var Jt=function(){function t(t,n){Yt.call(this,t,n),this.queuedSize=0,this.G=Et,this.I=St,this.Z=Nt}return t.prototype.i=function(){var t=this;this.s.ondata=function(n,r,e){t.ondata(n,r,e)},this.s.ondrain=function(n){t.queuedSize-=n,t.ondrain&&t.ondrain(n)}},t.prototype.push=function(t,n){this.queuedSize+=t.length,Yt.prototype.push.call(this,t,n)},t}();function Kt(t,n,r){return r||(r=n,n={}),"function"!=typeof r&&I(7),31==t[0]&&139==t[1]&&8==t[2]?Zt(t,n,r):8!=(15&t[0])||t[0]>>4>7||(t[0]<<8|t[1])%31?At(t,n,r):Pt(t,n,r)}function Qt(t,n){return 31==t[0]&&139==t[1]&&8==t[2]?qt(t,n):8!=(15&t[0])||t[0]>>4>7||(t[0]<<8|t[1])%31?Tt(t,n):Bt(t,n)}_e.AsyncDecompress=Jt,_e.decompress=Kt,_e.decompressSync=Qt;var Rt=function(t,r,e,i){for(var o in t){var s=t[o],a=r+o,u=i;Array.isArray(s)&&(u=Q(i,s[1]),s=s[0]),s instanceof n?e[a]=[s,u]:(e[a+="/"]=[new n(0),u],Rt(s,a,e,i))}},Vt="undefined"!=typeof TextEncoder&&new TextEncoder,Wt="undefined"!=typeof TextDecoder&&new TextDecoder,Xt=0;try{Wt.decode(N,{stream:!0}),Xt=1}catch(t){}var $t=function(t){for(var n="",r=0;;){var e=t[r++],i=(e>127)+(e>223)+(e>239);if(r+i>t.length)return{s:n,r:D(t,r-1)};i?3==i?(e=((15&e)<<18|(63&t[r++])<<12|(63&t[r++])<<6|63&t[r++])-65536,n+=String.fromCharCode(55296|e>>10,56320|1023&e)):n+=String.fromCharCode(1&i?(31&e)<<6|63&t[r++]:(15&e)<<12|(63&t[r++])<<6|63&t[r++]):n+=String.fromCharCode(e)}},_t=function(){function t(t){this.ondata=t,Xt?this.t=new TextDecoder:this.p=N}return t.prototype.push=function(t,r){if(this.ondata||I(5),r=!!r,this.t)return this.ondata(this.t.decode(t,{stream:!0}),r),void(r&&(this.t.decode().length&&I(8),this.t=null));this.p||I(4);var e=new n(this.p.length+t.length);e.set(this.p),e.set(t,this.p.length);var i=$t(e),o=i.s,s=i.r;r?(s.length&&I(8),this.p=null):this.p=s,this.ondata(o,r)},t}();_e.DecodeUTF8=_t;var tn=function(){function t(t){this.ondata=t}return t.prototype.push=function(t,n){this.ondata||I(5),this.d&&I(4),this.ondata(nn(t),this.d=n||!1)},t}();function nn(t,r){if(r){for(var e=new n(t.length),i=0;i<t.length;++i)e[i]=t.charCodeAt(i);return e}if(Vt)return Vt.encode(t);var o=t.length,s=new n(t.length+(t.length>>1)),a=0,u=function(t){s[a++]=t};for(i=0;i<o;++i){if(a+5>s.length){var h=new n(a+8+(o-i<<1));h.set(s),s=h}var f=t.charCodeAt(i);f<128||r?u(f):f<2048?(u(192|f>>6),u(128|63&f)):f>55295&&f<57344?(u(240|(f=65536+(1047552&f)|1023&t.charCodeAt(++i))>>18),u(128|f>>12&63),u(128|f>>6&63),u(128|63&f)):(u(224|f>>12),u(128|f>>6&63),u(128|63&f))}return D(s,0,a)}function rn(t,n){if(n){for(var r="",e=0;e<t.length;e+=16384)r+=String.fromCharCode.apply(null,t.subarray(e,e+16384));return r}if(Wt)return Wt.decode(t);var i=$t(t),o=i.s;return(r=i.r).length&&I(8),o}_e.EncodeUTF8=tn,_e.strToU8=nn,_e.strFromU8=rn;var en=function(t){return 1==t?3:t<6?2:9==t?1:0},on=function(t,n){return n+30+ht(t,n+26)+ht(t,n+28)},sn=function(t,n,r){var e=ht(t,n+28),i=rn(t.subarray(n+46,n+46+e),!(2048&ht(t,n+8))),o=n+46+e,s=ft(t,n+20),a=r&&4294967295==s?an(t,o):[s,ft(t,n+24),ft(t,n+42)],u=a[0],h=a[1],f=a[2];return[ht(t,n+10),u,h,i,o+ht(t,n+30)+ht(t,n+32),f]},an=function(t,n){for(;1!=ht(t,n);n+=4+ht(t,n+2));return[lt(t,n+12),lt(t,n+4),lt(t,n+20)]},un=function(t){var n=0;if(t)for(var r in t){var e=t[r].length;e>65535&&I(9),n+=e+4}return n},hn=function(t,n,r,e,i,o,s,a){var u=e.length,h=r.extra,f=a&&a.length,l=un(h);ct(t,n,null!=s?33639248:67324752),n+=4,null!=s&&(t[n++]=20,t[n++]=r.os),t[n]=20,n+=2,t[n++]=r.flag<<1|(o<0&&8),t[n++]=i&&8,t[n++]=255&r.compression,t[n++]=r.compression>>8;var c=new Date(null==r.mtime?Date.now():r.mtime),p=c.getFullYear()-1980;if((p<0||p>119)&&I(10),ct(t,n,p<<25|c.getMonth()+1<<21|c.getDate()<<16|c.getHours()<<11|c.getMinutes()<<5|c.getSeconds()>>1),n+=4,-1!=o&&(ct(t,n,r.crc),ct(t,n+4,o<0?-o-2:o),ct(t,n+8,r.size)),ct(t,n+12,u),ct(t,n+14,l),n+=16,null!=s&&(ct(t,n,f),ct(t,n+6,r.attrs),ct(t,n+10,s),n+=14),t.set(e,n),n+=u,l)for(var v in h){var d=h[v],g=d.length;ct(t,n,+v),ct(t,n+2,g),t.set(d,n+4),n+=4+g}return f&&(t.set(a,n),n+=f),n},fn=function(t,n,r,e,i){ct(t,n,101010256),ct(t,n+8,r),ct(t,n+10,r),ct(t,n+12,e),ct(t,n+16,i)},ln=function(){function t(t){this.filename=t,this.c=Y(),this.size=0,this.compression=0}return t.prototype.process=function(t,n){this.ondata(null,t,n)},t.prototype.push=function(t,n){this.ondata||I(5),this.c.p(t),this.size+=t.length,n&&(this.crc=this.c.d()),this.process(t,n||!1)},t}();_e.ZipPassThrough=ln;var cn=function(){function t(t,n){var r=this;n||(n={}),ln.call(this,t),this.d=new wt(n,(function(t,n){r.ondata(null,t,n)})),this.compression=8,this.flag=en(n.level)}return t.prototype.process=function(t,n){try{this.d.push(t,n)}catch(t){this.ondata(t,null,n)}},t.prototype.push=function(t,n){ln.prototype.push.call(this,t,n)},t}();_e.ZipDeflate=cn;var pn=function(){function t(t,n){var r=this;n||(n={}),ln.call(this,t),this.d=new xt(n,(function(t,n,e){r.ondata(t,n,e)})),this.compression=8,this.flag=en(n.level),this.terminate=this.d.terminate}return t.prototype.process=function(t,n){this.d.push(t,n)},t.prototype.push=function(t,n){ln.prototype.push.call(this,t,n)},t}();_e.AsyncZipDeflate=pn;var vn=function(){function t(t){this.ondata=t,this.u=[],this.d=1}return t.prototype.add=function(t){var r=this;if(this.ondata||I(5),2&this.d)this.ondata(I(4+8*(1&this.d),0,1),null,!1);else{var e=nn(t.filename),i=e.length,o=t.comment,s=o&&nn(o),a=i!=t.filename.length||s&&o.length!=s.length,u=i+un(t.extra)+30;i>65535&&this.ondata(I(11,0,1),null,!1);var h=new n(u);hn(h,0,t,e,a,-1);var f=[h],l=function(){for(var t=0,n=f;t<n.length;t++)r.ondata(null,n[t],!1);f=[]},c=this.d;this.d=0;var p=this.u.length,v=Q(t,{f:e,u:a,o:s,t:function(){t.terminate&&t.terminate()},r:function(){if(l(),c){var t=r.u[p+1];t?t.r():r.d=1}c=1}}),d=0;t.ondata=function(e,i,o){if(e)r.ondata(e,i,o),r.terminate();else if(d+=i.length,f.push(i),o){var s=new n(16);ct(s,0,134695760),ct(s,4,t.crc),ct(s,8,d),ct(s,12,t.size),f.push(s),v.c=d,v.b=u+d+16,v.crc=t.crc,v.size=t.size,c&&v.r(),c=1}else c&&l()},this.u.push(v)}},t.prototype.end=function(){var t=this;2&this.d?this.ondata(I(4+8*(1&this.d),0,1),null,!0):(this.d?this.e():this.u.push({r:function(){1&t.d&&(t.u.splice(-1,1),t.e())},t:function(){}}),this.d=3)},t.prototype.e=function(){for(var t=0,r=0,e=0,i=0,o=this.u;i<o.length;i++)e+=46+(h=o[i]).f.length+un(h.extra)+(h.o?h.o.length:0);for(var s=new n(e+22),a=0,u=this.u;a<u.length;a++){var h;hn(s,t,h=u[a],h.f,h.u,-h.c-2,r,h.o),t+=46+h.f.length+un(h.extra)+(h.o?h.o.length:0),r+=h.b}fn(s,t,this.u.length,e,r),this.ondata(null,s,!0),this.d=2},t.prototype.terminate=function(){for(var t=0,n=this.u;t<n.length;t++)n[t].t();this.d=2},t}();function dn(t,r,e){e||(e=r,r={}),"function"!=typeof e&&I(7);var i={};Rt(t,"",i,r);var o=Object.keys(i),s=o.length,a=0,u=0,h=s,f=Array(s),l=[],c=function(){for(var t=0;t<l.length;++t)l[t]()},p=function(t,n){xn((function(){e(t,n)}))};xn((function(){p=e}));var v=function(){var t=new n(u+22),r=a,e=u-a;u=0;for(var i=0;i<h;++i){var o=f[i];try{var s=o.c.length;hn(t,u,o,o.f,o.u,s);var l=30+o.f.length+un(o.extra),c=u+l;t.set(o.c,c),hn(t,a,o,o.f,o.u,s,u,o.m),a+=16+l+(o.m?o.m.length:0),u=c+s}catch(t){return p(t,null)}}fn(t,a,f.length,e,r),p(null,t)};s||v();for(var d=function(t){var n=o[t],r=i[n],e=r[0],h=r[1],d=Y(),g=e.length;d.p(e);var y=nn(n),m=y.length,b=h.comment,w=b&&nn(b),x=w&&w.length,z=un(h.extra),k=0==h.level?0:8,M=function(r,e){if(r)c(),p(r,null);else{var i=e.length;f[t]=Q(h,{size:g,crc:d.d(),c:e,f:y,m:w,u:m!=n.length||w&&b.length!=x,compression:k}),a+=30+m+z+i,u+=76+2*(m+z)+(x||0)+i,--s||v()}};if(m>65535&&M(I(11,0,1),null),k)if(g<16e4)try{M(null,kt(e,h))}catch(t){M(t,null)}else l.push(zt(e,h,M));else M(null,e)},g=0;g<h;++g)d(g);return c}function gn(t,r){r||(r={});var e={},i=[];Rt(t,"",e,r);var o=0,s=0;for(var a in e){var u=e[a],h=u[0],f=u[1],l=0==f.level?0:8,c=(M=nn(a)).length,p=f.comment,v=p&&nn(p),d=v&&v.length,g=un(f.extra);c>65535&&I(11);var y=l?kt(h,f):h,m=y.length,b=Y();b.p(h),i.push(Q(f,{size:h.length,crc:b.d(),c:y,f:M,m:v,u:c!=a.length||v&&p.length!=d,o:o,compression:l})),o+=30+c+g+m,s+=76+2*(c+g)+(d||0)+m}for(var w=new n(s+22),x=o,z=s-o,k=0;k<i.length;++k){var M;hn(w,(M=i[k]).o,M,M.f,M.u,M.c.length);var S=30+M.f.length+un(M.extra);w.set(M.c,M.o+S),hn(w,o,M,M.f,M.u,M.c.length,M.o,M.m),o+=16+S+(M.m?M.m.length:0)}return fn(w,o,i.length,z,x),w}_e.Zip=vn,_e.zip=dn,_e.zipSync=gn;var yn=function(){function t(){}return t.prototype.push=function(t,n){this.ondata(null,t,n)},t.compression=0,t}();_e.UnzipPassThrough=yn;var mn=function(){function t(){var t=this;this.i=new Mt((function(n,r){t.ondata(null,n,r)}))}return t.prototype.push=function(t,n){try{this.i.push(t,n)}catch(t){this.ondata(t,null,n)}},t.compression=8,t}();_e.UnzipInflate=mn;var bn=function(){function t(t,n){var r=this;n<32e4?this.i=new Mt((function(t,n){r.ondata(null,t,n)})):(this.i=new St((function(t,n,e){r.ondata(t,n,e)})),this.terminate=this.i.terminate)}return t.prototype.push=function(t,n){this.i.terminate&&(t=D(t,0)),this.i.push(t,n)},t.compression=8,t}();_e.AsyncUnzipInflate=bn;var wn=function(){function t(t){this.onfile=t,this.k=[],this.o={0:yn},this.p=N}return t.prototype.push=function(t,r){var e=this;if(this.onfile||I(5),this.p||I(4),this.c>0){var i=Math.min(this.c,t.length),o=t.subarray(0,i);if(this.c-=i,this.d?this.d.push(o,!this.c):this.k[0].push(o),(t=t.subarray(i)).length)return this.push(t,r)}else{var s=0,a=0,u=void 0,h=void 0;this.p.length?t.length?((h=new n(this.p.length+t.length)).set(this.p),h.set(t,this.p.length)):h=this.p:h=t;for(var f=h.length,l=this.c,c=l&&this.d,p=function(){var t,n=ft(h,a);if(67324752==n){s=1,u=a,v.d=null,v.c=0;var r=ht(h,a+6),i=ht(h,a+8),o=2048&r,c=8&r,p=ht(h,a+26),d=ht(h,a+28);if(f>a+30+p+d){var g=[];v.k.unshift(g),s=2;var y,m=ft(h,a+18),b=ft(h,a+22),w=rn(h.subarray(a+30,a+=30+p),!o);4294967295==m?(t=c?[-2]:an(h,a),m=t[0],b=t[1]):c&&(m=-1),a+=d,v.c=m;var x={name:w,compression:i,start:function(){if(x.ondata||I(5),m){var t=e.o[i];t||x.ondata(I(14,"unknown compression type "+i,1),null,!1),(y=m<0?new t(w):new t(w,m,b)).ondata=function(t,n,r){x.ondata(t,n,r)};for(var n=0,r=g;n<r.length;n++)y.push(r[n],!1);e.k[0]==g&&e.c?e.d=y:y.push(N,!0)}else x.ondata(null,N,!0)},terminate:function(){y&&y.terminate&&y.terminate()}};m>=0&&(x.size=m,x.originalSize=b),v.onfile(x)}return"break"}if(l){if(134695760==n)return u=a+=12+(-2==l&&8),s=3,v.c=0,"break";if(33639248==n)return u=a-=4,s=3,v.c=0,"break"}},v=this;a<f-4&&"break"!==p();++a);if(this.p=N,l<0){var d=h.subarray(0,s?u-12-(-2==l&&8)-(134695760==ft(h,u-16)&&4):a);c?c.push(d,!!s):this.k[+(2==s)].push(d)}if(2&s)return this.push(h.subarray(a),r);this.p=h.subarray(a)}r&&(this.c&&I(13),this.p=null)},t.prototype.register=function(t){this.o[t.compression]=t},t}();_e.Unzip=wn;var xn="function"==typeof queueMicrotask?queueMicrotask:"function"==typeof setTimeout?setTimeout:function(t){t()};function zn(t,r,e){e||(e=r,r={}),"function"!=typeof e&&I(7);var i=[],o=function(){for(var t=0;t<i.length;++t)i[t]()},s={},a=function(t,n){xn((function(){e(t,n)}))};xn((function(){a=e}));for(var u=t.length-22;101010256!=ft(t,u);--u)if(!u||t.length-u>65558)return a(I(13,0,1),null),o;var h=ht(t,u+8);if(h){var f=h,l=ft(t,u+16),c=4294967295==l||65535==f;if(c){var p=ft(t,u-12);(c=101075792==ft(t,p))&&(f=h=ft(t,p+32),l=ft(t,p+48))}for(var v=r&&r.filter,d=function(r){var e=sn(t,l,c),u=e[0],f=e[1],p=e[2],d=e[3],g=e[4],y=on(t,e[5]);l=g;var m=function(t,n){t?(o(),a(t,null)):(n&&(s[d]=n),--h||a(null,s))};if(!v||v({name:d,size:f,originalSize:p,compression:u}))if(u)if(8==u){var b=t.subarray(y,y+f);if(p<524288||f>.8*p)try{m(null,Tt(b,{out:new n(p)}))}catch(t){m(t,null)}else i.push(At(b,{size:p},m))}else m(I(14,"unknown compression type "+u,1),null);else m(null,D(t,y,y+f));else m(null,null)},g=0;g<f;++g)d()}else a(null,{});return o}function kn(t,r){for(var e={},i=t.length-22;101010256!=ft(t,i);--i)(!i||t.length-i>65558)&&I(13);var o=ht(t,i+8);if(!o)return{};var s=ft(t,i+16),a=4294967295==s||65535==o;if(a){var u=ft(t,i-12);(a=101075792==ft(t,u))&&(o=ft(t,u+32),s=ft(t,u+48))}for(var h=r&&r.filter,f=0;f<o;++f){var l=sn(t,s,a),c=l[0],p=l[1],v=l[2],d=l[3],g=l[4],y=on(t,l[5]);s=g,h&&!h({name:d,size:p,originalSize:v,compression:c})||(c?8==c?e[d]=Tt(t.subarray(y,y+p),{out:new n(v)}):I(14,"unknown compression type "+c):e[d]=D(t,y,y+p))}return e}_e.unzip=zn,_e.unzipSync=kn;return _e});
+</script>
+<script>
+/* ============================================================
+   VIDEHA SITE AUDITOR — fully offline. fflate inlined above.
+   ============================================================ */
+(function(){
+"use strict";
+var files = null;        // {path: Uint8Array}
+var htmlFiles = [];      // sorted list of html paths
+var texts = {};          // path -> decoded text
+var fixedTexts = {};     // path -> corrected text (only if changed)
+var findings = [];       // {check, sev, file, msg}
+var reportTxt = "";
+var enc = new TextEncoder(), dec = new TextDecoder("utf-8");
+
+var $ = function(id){ return document.getElementById(id); };
+function log(m){ var l=$("log"); l.style.display="block"; l.textContent += m+"\n"; l.scrollTop=l.scrollHeight; }
+function prog(p){ $("prog").style.display="block"; $("progBar").style.width=(p*100).toFixed(1)+"%"; }
+function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];}); }
+
+/* ---------- default find/replace rules ---------- */
+var DEFAULT_RULES = [
+  {f:"https://www.videha.co.in", r:"https://www.videha.co.in", auto:true},
+  {f:"https://videha.co.in",     r:"https://videha.co.in",     auto:true},
+  {f:"पुरान ग्राहकी-वाक्य एतऽ लिखू", r:"", auto:false},
+  {f:"/अंक\\s*4[0-3][0-9]/g", r:"", auto:false}
+];
+function addRuleRow(f,r,auto){
+  var tb = $("rulesTbl").tBodies[0];
+  var tr = document.createElement("tr");
+  tr.innerHTML = '<td><input type="text" class="rf" value="'+esc(f||"")+'"></td>'+
+    '<td><input type="text" class="rr" value="'+esc(r||"")+'"></td>'+
+    '<td style="text-align:center"><input type="checkbox" class="ra"'+(auto?" checked":"")+'></td>'+
+    '<td style="text-align:center"><button class="mini" type="button">✕</button></td>';
+  tr.querySelector("button").onclick=function(){ tr.remove(); };
+  tb.appendChild(tr);
+}
+DEFAULT_RULES.forEach(function(x){ addRuleRow(x.f,x.r,x.auto); });
+$("addRule").onclick=function(){ addRuleRow("","",false); };
+function getRules(){
+  var rules=[];
+  Array.prototype.forEach.call($("rulesTbl").tBodies[0].rows,function(tr){
+    var f=tr.querySelector(".rf").value, r=tr.querySelector(".rr").value,
+        a=tr.querySelector(".ra").checked;
+    if(!f) return;
+    var re=null, m=f.match(/^\/(.*)\/([gimsu]*)$/);
+    if(m){ try{ re=new RegExp(m[1], m[2].indexOf("g")<0?m[2]+"g":m[2]); }catch(e){ re=null; } }
+    rules.push({f:f, re:re, r:r, auto:a});
+  });
+  return rules;
+}
+
+/* ---------- load zip ---------- */
+var drop = $("drop"), fileIn = $("fileIn");
+drop.onclick=function(){ fileIn.click(); };
+drop.onkeydown=function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); fileIn.click(); } };
+["dragover","dragenter"].forEach(function(ev){ drop.addEventListener(ev,function(e){e.preventDefault();drop.classList.add("on");}); });
+["dragleave","drop"].forEach(function(ev){ drop.addEventListener(ev,function(e){e.preventDefault();drop.classList.remove("on");}); });
+drop.addEventListener("drop",function(e){ var f=e.dataTransfer.files[0]; if(f) loadZip(f); });
+fileIn.onchange=function(){ if(fileIn.files[0]) loadZip(fileIn.files[0]); };
+
+function loadZip(file){
+  log("ZIP पढ़ल जा रहल: "+file.name+" ("+(file.size/1048576).toFixed(1)+" MB)");
+  var fr = new FileReader();
+  fr.onload = function(){
+    try{
+      var raw = fflate.unzipSync(new Uint8Array(fr.result));
+      files = {}; htmlFiles = []; texts = {}; fixedTexts = {};
+      var root = null;
+      var names = Object.keys(raw).filter(function(n){ return !/\/$/.test(n); });
+      /* strip single top-level folder (GitHub repo zips) */
+      var tops = {};
+      names.forEach(function(n){ tops[n.split("/")[0]] = 1; });
+      var topKeys = Object.keys(tops);
+      if(topKeys.length===1 && names.every(function(n){return n.indexOf(topKeys[0]+"/")===0;})) root = topKeys[0]+"/";
+      names.forEach(function(n){
+        var p = root? n.slice(root.length) : n;
+        if(!p) return;
+        files[p] = raw[n];
+        if(/\.x?html?$/i.test(p)) htmlFiles.push(p);
+      });
+      htmlFiles.sort();
+      htmlFiles.forEach(function(p){ texts[p] = dec.decode(files[p]); });
+      log("फाइल: "+Object.keys(files).length+" · HTML: "+htmlFiles.length + (root? " (मूल फोल्डर '"+root+"' हटाओल)":""));
+      drop.innerHTML = "<strong>"+esc(file.name)+"</strong> — "+htmlFiles.length+" HTML फाइल तैयार। नीचाँ “जाँच चलाउ” दबाउ।<br><span class='small'>दोसर ZIP लेल पुनः क्लिक करू।</span>";
+      $("runBtn").disabled=false; $("idxBtn").disabled=false;
+    }catch(err){ log("त्रुटि: ZIP नहि खुजल — "+err.message); }
+  };
+  fr.readAsArrayBuffer(file);
+}
+
+/* ---------- helpers ---------- */
+function deva2num(s){ return s.replace(/[०-९]/g,function(d){return "०१२३४५६७८९".indexOf(d);}); }
+function dirOf(p){ var i=p.lastIndexOf("/"); return i<0? "" : p.slice(0,i+1); }
+function resolveRel(base, href){
+  href = href.split("#")[0].split("?")[0];
+  if(!href) return null;
+  try{ href = decodeURIComponent(href); }catch(e){}
+  if(/^(https?:|mailto:|tel:|javascript:|data:|\/\/)/i.test(href)) return null;
+  if(href.charAt(0)==="/") return href.slice(1);
+  var parts = (dirOf(base)+href).split("/"), out=[];
+  parts.forEach(function(seg){
+    if(seg===".."){ out.pop(); } else if(seg!=="."&&seg!==""){ out.push(seg); }
+  });
+  return out.join("/");
+}
+function add(check,sev,file,msg){ findings.push({check:check,sev:sev,file:file,msg:msg}); }
+
+/* ---------- the audit ---------- */
+var CHECKS = [];
+$("runBtn").onclick=function(){ runAudit(); };
+
+function runAudit(){
+  findings = []; fixedTexts = {};
+  $("summary").innerHTML=""; $("report").innerHTML="";
+  var rules = getRules();
+  var obs = $("obsUrls").value.split(/\n+/).map(function(s){return s.trim();}).filter(Boolean);
+  var curIssue = parseInt($("curIssue").value,10)||0;
+  var curDate = $("curDate").value.trim();
+  var req = {};
+  Array.prototype.forEach.call(document.querySelectorAll(".req"),function(c){
+    if(c.checked) req[c.dataset.k] = $("s_"+c.dataset.k).value.split("|").map(function(x){return x.trim();}).filter(Boolean);
+  });
+  var doHttps=$("fxHttps").checked, doLang=$("fxLang").checked, langVal=$("langVal").value.trim()||"mai",
+      doAlt=$("fxAlt").checked, doRules=$("fxRules").checked,
+      doSub=$("fxSub").checked, doRssL=$("fxRssL").checked, doStrip=$("fxStrip").checked,
+      doRef=$("fxRef").checked, doSkip=$("fxSkip").checked,
+      ggUrl=$("ggUrl").value.trim(), rssUrl=$("rssUrl").value.trim();
+  function injHead(t,frag){ return /<\/head\s*>/i.test(t)? t.replace(/<\/head\s*>/i,frag+"\n</head>") : frag+"\n"+t; }
+  function injAfterBody(t,frag){ return /<body\b[^>]*>/i.test(t)? t.replace(/(<body\b[^>]*>)/i,"$1\n"+frag) : frag+"\n"+t; }
+  function injBeforeBodyEnd(t,frag){ return /<\/body\s*>/i.test(t)? t.replace(/<\/body\s*>/i,frag+"\n</body>") : t+"\n"+frag; }
+
+  var fileSet = {}; Object.keys(files).forEach(function(p){ fileSet[p]=1; });
+  var lowerMap = {}; Object.keys(files).forEach(function(p){ lowerMap[p.toLowerCase()]=p; });
+  var referenced = {};                       // for orphan check
+  var cssVer = {};                           // asset -> {ver: [files]}
+  var parser = new DOMParser();
+  var i = 0, N = htmlFiles.length;
+  $("runBtn").disabled = true;
+  log("जाँच आरम्भ: "+N+" HTML फाइल…");
+
+  function step(){
+    var end = Math.min(i+8, N);
+    for(; i<end; i++){ auditFile(htmlFiles[i]); }
+    prog(i/N);
+    if(i<N){ setTimeout(step, 0); }
+    else{ finish(); }
+  }
+
+  function auditFile(p){
+    var raw = texts[p];
+    var fixed = raw, changed = false;
+    var head6k = raw.slice(0, 6000);
+
+    /* — old issue numbers (masthead zone) — */
+    if(curIssue > 0){
+      var sq = head6k.match(/issue-number-square[^>]*>\s*([0-9०-९]{1,4})/i);
+      if(sq){
+        var sqN = parseInt(deva2num(sq[1]),10);
+        if(sqN && sqN < curIssue) add("पुरान अंक-संख्या","warn",p,"issue-number-square मे अंक "+sqN+" (वर्तमान "+curIssue+")");
+      }
+      var mm, reI = /अंक[\s:–.-]*([0-9०-९]{1,4})/g, worst = null;
+      while((mm = reI.exec(head6k))){
+        var n = parseInt(deva2num(mm[1]),10);
+        if(n && n < curIssue && (worst===null || n>worst)) worst = n;
+      }
+      var hasCur = new RegExp("अंक[\\s:–.-]*("+curIssue+"|"+String(curIssue).replace(/[0-9]/g,function(d){return "०१२३४५६७८९"[+d];})+")").test(head6k);
+      if(worst!==null && !hasCur) add("पुरान अंक-संख्या","warn",p,"शीर्ष-भागमे अंक "+worst+" (वर्तमान "+curIssue+" अनुपस्थित)");
+    }
+    /* — old date: current date string given but absent in masthead — */
+    if(curDate && head6k.indexOf("अंक")>-1 && head6k.indexOf(curDate)<0)
+      add("पुरान तिथि","warn",p,"शीर्ष-भागमे वर्तमान तिथि “"+curDate+"” नहि अछि");
+
+    /* — find/replace rules — */
+    rules.forEach(function(rule){
+      var count = 0;
+      if(rule.re){ var m = fixed.match(rule.re); count = m? m.length:0; }
+      else{ var idx=-1,c2=0; while((idx=fixed.indexOf(rule.f,idx+1))>-1) c2++; count=c2; }
+      if(count>0){
+        if(rule.auto && doRules && rule.r!==undefined && (rule.r!==""||confirmBlank(rule))){
+          fixed = rule.re? fixed.replace(rule.re, rule.r) : fixed.split(rule.f).join(rule.r);
+          changed = true;
+          add("Find/Replace","ok",p,count+"× “"+trim40(rule.f)+"” → “"+trim40(rule.r)+"” (सुधारल)");
+        } else {
+          add("Find/Replace","warn",p,count+"× “"+trim40(rule.f)+"” भेटल (मात्र रिपोर्ट)");
+        }
+      }
+    });
+    function confirmBlank(){ return true; } /* blank replacement = deletion, allowed when Auto ticked */
+    function trim40(s){ s=String(s); return s.length>40? s.slice(0,40)+"…" : s; }
+
+    /* — http:// links — */
+    var httpM = fixed.match(/(?:href|src)=["']http:\/\/[^"']+/g) || [];
+    if(httpM.length){
+      if(doHttps){
+        fixed = fixed.replace(/(href|src)=(["'])http:\/\//g, "$1=$2https://");
+        changed = true;
+        add("HTTP लिंक","ok",p,httpM.length+" http:// → https:// (सुधारल)");
+      } else add("HTTP लिंक","warn",p,httpM.length+" असुरक्षित http:// लिंक");
+    }
+    /* — obsolete URLs — */
+    obs.forEach(function(o){
+      var c=0, idx=-1; while((idx=fixed.indexOf(o,idx+1))>-1) c++;
+      if(c) add("अप्रचलित URL","err",p,c+"× "+o);
+    });
+
+    /* — DOM checks — */
+    var doc; try{ doc = parser.parseFromString(fixed, "text/html"); }catch(e){ doc=null; }
+    if(doc){
+      /* lang */
+      var htmlEl = doc.documentElement;
+      if(!htmlEl.getAttribute("lang")){
+        if(doLang){
+          var m2 = fixed.match(/<html([^>]*)>/i);
+          if(m2 && !/lang\s*=/i.test(m2[1])){
+            fixed = fixed.replace(/<html([^>]*)>/i, '<html lang="'+langVal+'"$1>');
+            changed = true;
+            add("भाषा-टैग","ok",p,'lang="'+langVal+'" जोड़ल (सुधारल)');
+          }
+        } else add("भाषा-टैग","err",p,"<html> मे lang अनुपस्थित");
+      }
+      /* alt */
+      var imgs = doc.getElementsByTagName("img"), miss=0, empty=0;
+      for(var k=0;k<imgs.length;k++){
+        var alt = imgs[k].getAttribute("alt");
+        if(alt===null) miss++; else if(alt.trim()==="") empty++;
+      }
+      if(miss||empty){
+        if(doAlt){
+          fixed = fixed.replace(/<img\b([^>]*?)>/gi, function(tag, attrs){
+            if(/alt\s*=\s*["'][^"']+["']/i.test(attrs)) return tag;
+            var sm = attrs.match(/src\s*=\s*["']([^"']+)["']/i);
+            var base = sm? sm[1].split("/").pop().replace(/\.[a-z0-9]+$/i,"").replace(/[-_]+/g," ") : "चित्र";
+            attrs = attrs.replace(/alt\s*=\s*["']\s*["']/i,"");
+            return '<img alt="'+base+'"'+attrs+'>';
+          });
+          changed = true;
+          add("चित्र-alt","ok",p,(miss+empty)+" alt भरल गेल (सुधारल)");
+        } else add("चित्र-alt", miss?"err":"warn", p, miss+" अनुपस्थित, "+empty+" रिक्त alt");
+      }
+      /* headings */
+      var hs = doc.querySelectorAll("h1,h2,h3,h4,h5,h6"), seq=[], prev=0, jumps=0, h1c=0;
+      for(var k2=0;k2<hs.length;k2++){
+        var lv=+hs[k2].tagName[1]; seq.push("h"+lv);
+        if(lv===1) h1c++;
+        if(prev && lv>prev+1) jumps++;
+        prev=lv;
+      }
+      if(hs.length && h1c===0) add("शीर्षक-क्रम","warn",p,"h1 नहि अछि ("+seq.slice(0,8).join("→")+"…)");
+      if(h1c>1) add("शीर्षक-क्रम","warn",p,h1c+" गोट h1");
+      if(jumps) add("शीर्षक-क्रम","warn",p,jumps+" स्तर-छलाँग ("+seq.slice(0,10).join("→")+(seq.length>10?"…":"")+")");
+      /* old subscription wording (mailto) */
+      var anchors = doc.getElementsByTagName("a"), subN=0;
+      for(var kA=0;kA<anchors.length;kA++){
+        var hrefA = anchors[kA].getAttribute("href")||"";
+        if(/^mailto:/i.test(hrefA)){
+          var lbl = (anchors[kA].textContent||"")+" "+((anchors[kA].parentElement&&anchors[kA].parentElement.textContent)||"").slice(0,200);
+          if(/subscribe|subscription|सदस्यता|ग्राहकी|नव\s+अंक|new\s+issue/i.test(lbl)) subN++;
+        }
+      }
+      if(subN){
+        if(doSub && ggUrl){
+          fixed = fixed.replace(/<a\b([^>]*\bhref\s*=\s*["']mailto:[^"']+["'][^>]*)>([\s\S]*?)<\/a>/gi, function(whole,attrs,inner){
+            var t2 = inner.replace(/<[^>]*>/g," ");
+            if(/subscribe|subscription|सदस्यता|ग्राहकी|नव\s+अंक|new\s+issue/i.test(t2))
+              return '<a href="'+ggUrl+'">ई-पत्र सदस्यता · Email subscription</a>';
+            return whole;
+          });
+          changed = true;
+          add("पुरान ग्राहकी-वाक्य","ok",p,subN+" mailto-ग्राहकी → Google Groups (सुधारल)");
+        } else add("पुरान ग्राहकी-वाक्य","warn",p,subN+" mailto-आधारित ग्राहकी-लिंक");
+      }
+      /* required elements — detect, and inject when the matching fix is on */
+      function present(list){ return list.some(function(s2){ return fixed.indexOf(s2)>-1; }); }
+      var hasGG  = (req.gg? present(req.gg):true) || (ggUrl && fixed.indexOf(ggUrl)>-1);
+      var hasRSS = /application\/rss\+xml/i.test(fixed) || (req.rss? present(req.rss):true);
+      if(req.rss && !hasRSS && doRssL && rssUrl){
+        fixed = injHead(fixed, '<link rel="alternate" type="application/rss+xml" title="Videha — New Issue RSS" href="'+rssUrl+'">');
+        changed=true; hasRSS=true;
+        add("RSS लिंक","ok",p,"<link rel=alternate> जोड़ल (सुधारल)");
+      }
+      if((req.gg && !hasGG) || (req.rss && !/<a\b[^>]*href=["'][^"']*rss/i.test(fixed) && !present(req.rss||["rss"]))){
+        if(doStrip && ggUrl){
+          var strip = '<div class="videha-subscribe-strip" role="region" aria-label="New Videha Issue subscription" style="margin:12px 0;padding:9px 12px;border:1px solid #D8CFC0;background:#FAF6EE"><strong>नव विदेह अंक — मासमे दू बेर · New Videha Issue — twice monthly</strong> &nbsp;·&nbsp; <a href="'+ggUrl+'">ई-पत्र सदस्यता · Email subscription</a> &nbsp;·&nbsp; <a href="'+rssUrl+'" type="application/rss+xml">RSS feed</a></div>';
+          fixed = injBeforeBodyEnd(fixed, strip); changed=true; hasGG=true; hasRSS=true;
+          add("Google Groups लिंक","ok",p,"ग्राहकी-पट्टी (Groups+RSS) जोड़ल (सुधारल)");
+        }
+      }
+      if(req.gg  && !hasGG)  add("Google Groups लिंक","warn",p,"अनुपस्थित");
+      if(req.rss && !hasRSS) add("RSS लिंक","warn",p,"अनुपस्थित");
+      if(req.ref && !present(req.ref)){
+        if(doRef){
+          fixed = injAfterBody(fixed, '<div class="videha-refresh-note" role="note" style="margin:8px 12px;padding:7px 10px;border-left:3px solid #C49A3C;background:#FAF6EE;font-size:.82rem">विदेहक नवीन सामग्री देखबाक लेल पृष्ठ रिफ्रेश करू · Refresh to see the latest updates [Windows/Linux: Ctrl+F5 or Ctrl+Shift+R]</div>');
+          changed=true;
+          add("Refresh सूचना","ok",p,"Refresh-सूचना जोड़ल (सुधारल)");
+        } else add("Refresh सूचना","warn",p,"अनुपस्थित");
+      }
+      if(req.skip && !present(req.skip)){
+        if(doSkip){
+          if(/<main\b/i.test(fixed) && !/<main\b[^>]*\bid\s*=/i.test(fixed)) fixed=fixed.replace(/<main\b/i,'<main id="videha-main"');
+          else if(!/id=["']videha-main["']/i.test(fixed)) fixed=injAfterBody(fixed,'<span id="videha-main" tabindex="-1"></span>');
+          fixed = injHead(fixed,'<style>.videha-skip-link{position:absolute;left:-9999px;top:0;background:#8B1A1A;color:#fff;padding:.5em 1em;z-index:999}.videha-skip-link:focus{left:0}</style>');
+          fixed = injAfterBody(fixed,'<a class="videha-skip-link" href="#videha-main">मुख्य सामग्री पर जाउ · Skip to main content</a>');
+          changed=true;
+          add("Skip-to-main","ok",p,"Skip-लिंक + #videha-main जोड़ल (सुधारल)");
+        } else add("Skip-to-main","warn",p,"अनुपस्थित");
+      }
+      if(req.lis && !present(req.lis)){
+        add("Listen/Stop","warn",p, fileSet["assets/js/videha-tts.js"]? "अनुपस्थित (videha-tts.js साइटमे अछि — बटन जोड़ब सम्भव)":"अनुपस्थित (videha-tts.js सेहो ZIP मे नहि)");
+      }
+      /* links: broken / referenced / versions */
+      var nodes = doc.querySelectorAll("[href],[src]");
+      for(var k3=0;k3<nodes.length;k3++){
+        var u = nodes[k3].getAttribute("href")||nodes[k3].getAttribute("src");
+        if(!u) continue;
+        var vm = u.match(/^([^?#]+\.(css|js))(\?v=([\w.\-]+))?/i);
+        if(vm){
+          var an = vm[1].split("/").pop().toLowerCase();
+          (cssVer[an] = cssVer[an]||{})[vm[4]||"(no ?v=)"] = (cssVer[an][vm[4]||"(no ?v=)"]||[]);
+          cssVer[an][vm[4]||"(no ?v=)"].push(p);
+        }
+        var t = resolveRel(p,u);
+        if(t===null || t==="") continue;
+        if(fileSet[t]){ referenced[t]=1; continue; }
+        var alt2 = null;
+        if(/\/$/.test(u.split("#")[0].split("?")[0]) && fileSet[t+"/index.htm"]) alt2=t+"/index.htm";
+        if(!alt2 && !/\.[a-z0-9]{2,5}$/i.test(t)){
+          if(fileSet[t+".htm"]) alt2=t+".htm";
+          else if(fileSet[t+".html"]) alt2=t+".html";
+          else if(fileSet[t+"/index.htm"]) alt2=t+"/index.htm";
+        }
+        if(!alt2 && t.indexOf("videha/")===0 && fileSet[t.slice(7)]) alt2=t.slice(7);
+        if(alt2){ referenced[alt2]=1; continue; }
+        var lc = lowerMap[t.toLowerCase()];
+        if(lc){ referenced[lc]=1; add("टूटल आन्तरिक लिंक","warn",p,"अक्षर-भेद (case): "+u+" → वास्तविक: "+lc); }
+        else add("टूटल आन्तरिक लिंक","err",p,u);
+      }
+      /* duplicated blocks */
+      var seen={}, dup=0, kids = doc.body? doc.body.querySelectorAll("table,div,p,ul,ol"):[];
+      for(var k4=0;k4<kids.length;k4++){
+        var h = kids[k4].outerHTML.replace(/\s+/g," ").trim();
+        if(h.length<300) continue;
+        if(seen[h]){ if(seen[h]===1){dup++;} seen[h]++; } else seen[h]=1;
+      }
+      if(dup) add("दोहराएल ब्लॉक","warn",p,dup+" गोट >300-वर्ण ब्लॉक एक्के फाइलमे 2+ बेर");
+    }
+    if(changed) fixedTexts[p] = fixed;
+  }
+
+  function finish(){
+    prog(1);
+    /* orphan files */
+    htmlFiles.forEach(function(p){
+      var b = p.split("/").pop().toLowerCase();
+      if(b==="index.htm"||b==="index.html") return;
+      if(!referenced[p]) add("अनाथ फाइल (कतहुसँ लिंक नहि)","info",p,"कोनो पृष्ठ एकरा दिस लिंक नहि करैत");
+    });
+    /* css/js version drift */
+    Object.keys(cssVer).forEach(function(asset){
+      var vers = Object.keys(cssVer[asset]);
+      if(vers.length>1){
+        var msg = vers.map(function(v){ return v+" ("+cssVer[asset][v].length+" फाइल)"; }).join(" · ");
+        add("CSS/JS संस्करण-भेद","warn","(साइट-व्यापी)",asset+": "+msg);
+        var maj = vers.reduce(function(a,b){ return cssVer[asset][a].length>=cssVer[asset][b].length? a:b; });
+        vers.forEach(function(v){
+          if(v!==maj) cssVer[asset][v].forEach(function(f){ add("CSS/JS संस्करण-भेद","warn",f,asset+" "+v+" (बहुमत: "+maj+")"); });
+        });
+      }
+    });
+    renderReport();
+    $("runBtn").disabled=false;
+    $("zipBtn").disabled = Object.keys(fixedTexts).length===0;
+    $("repBtn").disabled=false; $("csvBtn").disabled=false; $("htmlBtn").disabled=false;
+    log("जाँच पूर्ण: "+findings.length+" टिप्पणी · "+Object.keys(fixedTexts).length+" फाइल स्वतः सुधारल।");
+  }
+  step();
+}
+
+/* ---------- report render ---------- */
+function renderReport(){
+  var byCheck = {};
+  findings.forEach(function(f){ (byCheck[f.check]=byCheck[f.check]||[]).push(f); });
+  var order = Object.keys(byCheck).sort(function(a,b){ return byCheck[b].length-byCheck[a].length; });
+  var sm = $("summary"); sm.innerHTML="";
+  order.forEach(function(c){
+    var arr=byCheck[c], sev = arr.some(function(x){return x.sev==="err";})?"err":
+      arr.some(function(x){return x.sev==="warn";})?"warn":"ok";
+    var card=document.createElement("div"); card.className="card "+sev;
+    card.innerHTML="<b>"+arr.length+"</b><span>"+esc(c)+"</span>";
+    sm.appendChild(card);
+  });
+  if(!order.length){ sm.innerHTML='<div class="card ok"><b>0</b><span>कोनो समस्या नहि भेटल 🎉</span></div>'; }
+  var rp = $("report"); rp.innerHTML="";
+  reportTxt = "VIDEHA SITE AUDIT — "+new Date().toISOString()+"\nHTML files: "+htmlFiles.length+"\n\n";
+  order.forEach(function(c){
+    var arr = byCheck[c];
+    reportTxt += "== "+c+" ("+arr.length+") ==\n";
+    var d=document.createElement("details"); d.className="chk";
+    d.innerHTML="<summary>"+esc(c)+' <span class="n">— '+arr.length+"</span></summary>";
+    var body=document.createElement("div"); body.className="body";
+    var ul=document.createElement("ul");
+    arr.slice(0,800).forEach(function(f){
+      var li=document.createElement("li");
+      li.innerHTML='<span class="fileref">'+esc(f.file)+"</span> — "+esc(f.msg);
+      ul.appendChild(li);
+      reportTxt += "  "+f.file+" — "+f.msg+"\n";
+    });
+    if(arr.length>800){ var li2=document.createElement("li"); li2.textContent="… आ "+(arr.length-800)+" आर"; ul.appendChild(li2); }
+    body.appendChild(ul); d.appendChild(body); rp.appendChild(d);
+    reportTxt += "\n";
+  });
+}
+
+/* ---------- downloads ---------- */
+function download(name, u8, mime){
+  var b=new Blob([u8],{type:mime||"application/octet-stream"});
+  var a=document.createElement("a"); a.href=URL.createObjectURL(b); a.download=name;
+  document.body.appendChild(a); a.click();
+  setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove(); },600);
+}
+$("zipBtn").onclick=function(){
+  var out={}, n=0;
+  Object.keys(fixedTexts).forEach(function(p){ out[p]=enc.encode(fixedTexts[p]); n++; });
+  if(!n){ log("किछु सुधारल नहि — ZIP रिक्त रहत।"); return; }
+  var z = fflate.zipSync(out,{level:6});
+  download("videha-corrected-files.zip", z, "application/zip");
+  log("सुधारल ZIP: "+n+" फाइल।");
+};
+$("repBtn").onclick=function(){ download("videha-audit-report.txt", enc.encode(reportTxt), "text/plain;charset=utf-8"); };
+$("csvBtn").onclick=function(){
+  var q=function(x){ return '"'+String(x).replace(/"/g,'""')+'"'; };
+  var csv="\uFEFFfile,check,severity,detail\n"+findings.map(function(f){
+    return [q(f.file),q(f.check),q(f.sev),q(f.msg)].join(",");
+  }).join("\n");
+  download("videha-audit-report.csv", enc.encode(csv), "text/csv;charset=utf-8");
+};
+$("htmlBtn").onclick=function(){
+  var rows=findings.map(function(f){
+    return "<tr><td>"+esc(f.file)+"</td><td>"+esc(f.check)+"</td><td class='"+f.sev+"'>"+esc(f.sev)+"</td><td>"+esc(f.msg)+"</td></tr>";
+  }).join("");
+  var h='<!DOCTYPE html><html lang="mai"><head><meta charset="utf-8"><title>Videha Audit Report</title><style>body{font-family:"Noto Serif Devanagari",Georgia,serif;background:#FAF6EE;color:#2a2320;margin:20px}h1{color:#8B1A1A}table{border-collapse:collapse;width:100%;font-size:.85rem}th,td{border:1px solid #e5dcc8;padding:4px 8px;text-align:left}th{background:#e8d9b0;color:#6d1313}td.err{color:#8B1A1A;font-weight:700}td.warn{color:#8a6d00}td.ok{color:#2f6b2f}</style></head><body><h1>विदेह साइट-जाँच रिपोर्ट · Videha Site Audit</h1><p>'+new Date().toLocaleString()+" · "+htmlFiles.length+" HTML/HTM फाइल · "+findings.length+" टिप्पणी · "+Object.keys(fixedTexts).length+' फाइल स्वतः सुधारल</p><table><tr><th>File</th><th>Check</th><th>Severity</th><th>Detail</th></tr>'+rows+"</table></body></html>";
+  download("videha-audit-report.html", enc.encode(h), "text/html;charset=utf-8");
+};
+
+/* ---------- archive.org PDF catalog (for search index) ---------- */
+var VIDEHA_ARCHIVE_SNAPSHOT=["Sadeha 01.pdf","Sadeha 02.pdf","Sadeha 03.pdf","Sadeha 04.pdf","Sadeha 05 v2.pdf","Sadeha 05.pdf","Sadeha 06.pdf","Sadeha 07.pdf","Sadeha 08.pdf","Sadeha 09.pdf","Sadeha 10.pdf","Sadeha 11.pdf","Sadeha 12.pdf","Sadeha 13.pdf","Sadeha 14.pdf","Sadeha 15.pdf","Sadeha 16.pdf","Sadeha 17.pdf","Sadeha 18.pdf","Sadeha 19.pdf","Sadeha 20.pdf","Sadeha 21.pdf","Sadeha 22.pdf","Sadeha 23.pdf","Sadeha 24.pdf","Sadeha 25.pdf","Sadeha 26.pdf","Sadeha 27.pdf","Sadeha 28.pdf","Sadeha 29.pdf","Sadeha 30.pdf","Sadeha 31.pdf","Sadeha 32.pdf","Sadeha 33.pdf","Sadeha 34.pdf","Sadeha 35.pdf","Sadeha 36.pdf","Sadeha 37.pdf","Videha 001.pdf","Videha 002.pdf","Videha 003.pdf","Videha 004.pdf","Videha 005.pdf","Videha 006.pdf","Videha 007.pdf","Videha 008.pdf","Videha 009.pdf","Videha 010.pdf","Videha 011.pdf","Videha 012.pdf","Videha 013.pdf","Videha 014.pdf","Videha 015.pdf","Videha 016.pdf","Videha 017.pdf","Videha 018.pdf","Videha 019.pdf","Videha 020.pdf","Videha 021.pdf","Videha 022.pdf","Videha 023.pdf","Videha 024.pdf","Videha 025.pdf","Videha 026.pdf","Videha 027.pdf","Videha 028.pdf","Videha 029.pdf","Videha 030.pdf","Videha 031.pdf","Videha 032.pdf","Videha 033.pdf","Videha 034.pdf","Videha 035.pdf","Videha 036.pdf","Videha 037.pdf","Videha 038.pdf","Videha 039.pdf","Videha 040.pdf","Videha 041.pdf","Videha 042.pdf","Videha 043.pdf","Videha 044.pdf","Videha 045.pdf","Videha 046.pdf","Videha 047.pdf","Videha 048.pdf","Videha 049.pdf","Videha 050.pdf","Videha 051.pdf","Videha 052.pdf","Videha 053.pdf","Videha 054.pdf","Videha 055.pdf","Videha 056.pdf","Videha 057.pdf","Videha 058.pdf","Videha 059.pdf","Videha 060.pdf","Videha 061.pdf","Videha 062.pdf","Videha 063.pdf","Videha 064.pdf","Videha 065.pdf","Videha 066.pdf","Videha 067.pdf","Videha 068.pdf","Videha 069.pdf","Videha 070.pdf","Videha 071.pdf","Videha 072.pdf","Videha 073.pdf","Videha 074.pdf","Videha 075.pdf","Videha 076.pdf","Videha 077.pdf","Videha 078.pdf","Videha 079.pdf","Videha 080.pdf","Videha 081.pdf","Videha 082.pdf","Videha 083.pdf","Videha 084.pdf","Videha 085.pdf","Videha 086.pdf","Videha 087.pdf","Videha 088.pdf","Videha 089.pdf","Videha 090.pdf","Videha 091.pdf","Videha 092.pdf","Videha 093.pdf","Videha 094.pdf","Videha 095.pdf","Videha 096.pdf","Videha 097.pdf","Videha 098.pdf","Videha 099.pdf","Videha 100.pdf","Videha 101.pdf","Videha 102.pdf","Videha 103.pdf","Videha 104.pdf","Videha 105.pdf","Videha 106.pdf","Videha 107.pdf","Videha 108.pdf","Videha 109.pdf","Videha 110.pdf","Videha 111.pdf","Videha 112.pdf","Videha 113.pdf","Videha 114.pdf","Videha 115.pdf","Videha 116.pdf","Videha 117.pdf","Videha 118.pdf","Videha 119.pdf","Videha 120.pdf","Videha 121.pdf","Videha 122.pdf","Videha 123.pdf","Videha 124.pdf","Videha 125.pdf","Videha 126.pdf","Videha 127.pdf","Videha 128.pdf","Videha 129.pdf","Videha 130.pdf","Videha 131.pdf","Videha 132.pdf","Videha 133.pdf","Videha 134.pdf","Videha 135.pdf","Videha 136.pdf","Videha 137.pdf","Videha 138.pdf","Videha 139.pdf","Videha 140.pdf","Videha 141.pdf","Videha 142.pdf","Videha 143.pdf","Videha 144.pdf","Videha 145.pdf","Videha 146.pdf","Videha 147.pdf","Videha 148.pdf","Videha 149.pdf","Videha 150.pdf","Videha 151.pdf","Videha 152.pdf","Videha 153.pdf","Videha 154.pdf","Videha 155.pdf","Videha 156.pdf","Videha 157.pdf","Videha 158.pdf","Videha 159.pdf","Videha 160.pdf","Videha 161.pdf","Videha 162.pdf","Videha 163.pdf","Videha 164.pdf","Videha 165.pdf","Videha 166.pdf","Videha 167.pdf","Videha 168.pdf","Videha 169.pdf","Videha 170.pdf","Videha 171.pdf","Videha 172.pdf","Videha 173.pdf","Videha 174.pdf","Videha 175.pdf","Videha 176.pdf","Videha 177.pdf","Videha 178.pdf","Videha 179.pdf","Videha 180.pdf","Videha 181.pdf","Videha 182.pdf","Videha 183.pdf","Videha 184.pdf","Videha 185.pdf","Videha 186.pdf","Videha 187.pdf","Videha 188.pdf","Videha 189.pdf","Videha 190.pdf","Videha 191.pdf","Videha 192.pdf","Videha 193.pdf","Videha 194.pdf","Videha 195.pdf","Videha 196.pdf","Videha 197.pdf","Videha 198.pdf","Videha 199.pdf","Videha 200.pdf","Videha 201.pdf","Videha 202.pdf","Videha 203.pdf","Videha 204.pdf","Videha 205.pdf","Videha 206.pdf","Videha 207.pdf","Videha 208.pdf","Videha 209.pdf","Videha 210.pdf","Videha 211.pdf","Videha 212.pdf","Videha 213.pdf","Videha 214.pdf","Videha 215.pdf","Videha 216.pdf","Videha 217.pdf","Videha 218.pdf","Videha 219.pdf","Videha 220.pdf","Videha 221.pdf","Videha 222.pdf","Videha 223.pdf","Videha 224.pdf","Videha 225.pdf","Videha 226.pdf","Videha 227.pdf","Videha 228.pdf","Videha 229.pdf","Videha 230.pdf","Videha 231.pdf","Videha 232.pdf","Videha 233.pdf","Videha 234.pdf","Videha 235.pdf","Videha 236.pdf","Videha 237.pdf","Videha 238.pdf","Videha 239.pdf","Videha 240.pdf","Videha 241.pdf","Videha 242.pdf","Videha 243.pdf","Videha 244.pdf","Videha 245.pdf","Videha 246.pdf","Videha 247.pdf","Videha 248.pdf","Videha 249.pdf","Videha 250.pdf","Videha 251.pdf","Videha 252.pdf","Videha 253.pdf","Videha 254.pdf","Videha 255.pdf","Videha 256.pdf","Videha 257.pdf","Videha 258.pdf","Videha 259.pdf","Videha 260.pdf","Videha 261.pdf","Videha 262.pdf","Videha 263.pdf","Videha 264.pdf","Videha 265.pdf","Videha 266.pdf","Videha 267.pdf","Videha 268.pdf","Videha 269.pdf","Videha 270.pdf","Videha 271.pdf","Videha 272.pdf","Videha 273.pdf","Videha 274.pdf","Videha 275.pdf","Videha 276.pdf","Videha 277.pdf","Videha 278.pdf","Videha 279.pdf","Videha 280.pdf","Videha 281.pdf","Videha 282.pdf","Videha 283.pdf","Videha 284.pdf","Videha 285.pdf","Videha 286.pdf","Videha 287.pdf","Videha 288.pdf","Videha 289.pdf","Videha 290.pdf","Videha 291.pdf","Videha 292.pdf","Videha 293.pdf","Videha 294.pdf","Videha 295.pdf","Videha 296.pdf","Videha 297.pdf","Videha 298.pdf","Videha 299.pdf","Videha 300.pdf","Videha 301.pdf","Videha 302.pdf","Videha 303.pdf","Videha 304.pdf","Videha 305.pdf","Videha 306.pdf","Videha 307.pdf","Videha 308.pdf","Videha 309.pdf","Videha 310.pdf","Videha 311.pdf","Videha 312.pdf","Videha 313.pdf","Videha 314.pdf","Videha 315.pdf","Videha 316.pdf","Videha 317.pdf","Videha 318.pdf","Videha 319.pdf","Videha 320.pdf","Videha 321.pdf","Videha 322.pdf","Videha 323.pdf","Videha 324.pdf","Videha 325.pdf","Videha 326.pdf","Videha 327.pdf","Videha 328.pdf","Videha 329.pdf","Videha 330.pdf","Videha 331.pdf","Videha 332.pdf","Videha 333.pdf","Videha 334.pdf","Videha 335.pdf","Videha 336.pdf","Videha 337.pdf","Videha 338.pdf","Videha 339.pdf","Videha 340.pdf","Videha 341.pdf","Videha 342.pdf","Videha 343.pdf","Videha 344.pdf","Videha 345.pdf","Videha 346.pdf","Videha 347.pdf","Videha 348.pdf","Videha 349.pdf","Videha 350.pdf","Videha 351.pdf","Videha 352.pdf","Videha 353.pdf","Videha 354.pdf","Videha 355.pdf","Videha 356.pdf","Videha 357.pdf","Videha 358.pdf","Videha 359.pdf","Videha 360.pdf","Videha 361.pdf","Videha 362.pdf","Videha 363.pdf","Videha 364.pdf","Videha 365.pdf","Videha 366.pdf","Videha 367.pdf","Videha 368.pdf","Videha 369.pdf","Videha 370.pdf","Videha 371.pdf","Videha 372.pdf","Videha 373.pdf","Videha 374.pdf","Videha 375.pdf","Videha 376.pdf","Videha 377.pdf","Videha 378.pdf","Videha 379.pdf","Videha 380.pdf","Videha 381.pdf","Videha 382.pdf","Videha 383.pdf","Videha 384.pdf","Videha 385.pdf","Videha 386.pdf","Videha 387.pdf","Videha 388.pdf","Videha 389.pdf","Videha 390.pdf","Videha 391.pdf","Videha 392.pdf","Videha 393.pdf","Videha 394.pdf","Videha 395.pdf","Videha 396.pdf","Videha 397.pdf","Videha 398.pdf","Videha 399.pdf","Videha 400.pdf","Videha 401.pdf","Videha 402.pdf","Videha 403.pdf","Videha 404.pdf","Videha 405.pdf","Videha 406.pdf","Videha 407.pdf","Videha 408.pdf","Videha 409.pdf","Videha 410.pdf","Videha 411.pdf","Videha 412.pdf","Videha 413.pdf","Videha 414.pdf","Videha 415.pdf","Videha 416.pdf","Videha 417.pdf","Videha 418.pdf","Videha 419.pdf","Videha 420.pdf","Videha 421.pdf","Videha 422.pdf","Videha 423.pdf","Videha 424.pdf","Videha 425.pdf","Videha 426.pdf","Videha 427.pdf","Videha 428.pdf","Videha 429.pdf","Videha 430.pdf","Videha 431.pdf","Videha 432.pdf","Videha 433.pdf","Videha 434.pdf","Videha 435.pdf","Videha 436.pdf","Videha 437.pdf","Videha 438.pdf","Videha 439.pdf","Videha 440.pdf","Videha 441.pdf","Videha 442.pdf","Videha 443.pdf","Videha 444.pdf","Videha 444_text.pdf","Videha 445.pdf","Videha 446.pdf","Videha 447.pdf","pdf_index.pdf"];
+function arBuildEntries(names, live){
+  var out=[];
+  names.forEach(function(n){
+    if(!/\.pdf$/i.test(n)) return;
+    var url="https://archive.org/download/VidehaAndSadeha/"+encodeURIComponent(n), m;
+    var label=n.replace(/\.pdf$/i,""), num="";
+    if((m=n.match(/^Videha[ _-]*(\d+)(.*)\.pdf$/i))){ num=m[1]; label="विदेह अंक "+m[1]+(m[2].trim()?" ("+m[2].trim()+")":""); }
+    else if((m=n.match(/^Sadeha[ _-]*(\d+)(.*)\.pdf$/i))){ num=m[1]; label="विदेह-सदेह खण्ड "+m[1]+(m[2].trim()?" ("+m[2].trim()+")":""); }
+    out.push({ f:url, t:label, a:"", c:"pdf", y:"", i:num,
+      s:n+" · PDF · archive.org", x:label+" "+n+" videha sadeha pdf archive अंक विदेह सदेह "+num });
+  });
+  log("Archive PDF सूची: "+out.length+" फाइल ("+(live?"जीवन्त":"snapshot")+")");
+  return out;
+}
+function arFetchEntries(){
+  return fetch("https://archive.org/metadata/VidehaAndSadeha",{mode:"cors",credentials:"omit",cache:"force-cache"})
+    .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+    .then(function(j){ return arBuildEntries((j.files||[]).map(function(f){return f.name;}), true); })
+    .catch(function(){ return arBuildEntries(VIDEHA_ARCHIVE_SNAPSHOT, false); });
+}
+
+/* ---------- search index builder ---------- */
+$("idxBtn").onclick=function(){
+  if(!htmlFiles.length) return;
+  log("Search index बनि रहल…");
+  var parser=new DOMParser(), entries=[], i=0;
+  function cat(p, doc, text){
+    var f=p.toLowerCase();
+    if(/quiz/.test(f)) return "quiz";
+    if(/panji|panjee/.test(f)) return "panji";
+    if(/thesaur/.test(f)) return "thesaurus";
+    if(/diction|kalyani|kosh/.test(f)) return "dictionary";
+    if(/audio|video|multimedia|documentary/.test(f)) return "av";
+    if(/prose|gadya|katha|upanyas|story/.test(f)) return "prose";
+    if(/verse|padya|poetr|kavita|gajal|ghazal|geet/.test(f)) return "poetry";
+    if(/research|shodh|discovery|investigation|samiksha|criticism|samalochan/.test(f)) return "research";
+    if(/pothi|book|pustak|library/.test(f)) return "book";
+    if(doc && (doc.querySelector("audio,video") || /youtube\.com\/embed|youtu\.be/.test(text))) return "av";
+    var t4 = text.slice(0,4000);
+    if(/प्रश्नोत्तरी/.test(t4)) return "quiz";
+    if(/पञ्जी|पंजी/.test(t4)) return "panji";
+    if(/थेसारस/.test(t4)) return "thesaurus";
+    if(/शब्दकोश/.test(t4)) return "dictionary";
+    if(/अंक\s*[0-9०-९]/.test(text.slice(0,4000)) && /सम्पादक/.test(text.slice(0,6000))) return "issue";
+    if(/new_page_|issue|ank/.test(f)) return "issue";
+    return "other";
+  }
+  function step(){
+    var end=Math.min(i+6, htmlFiles.length);
+    for(; i<end; i++){
+      var p=htmlFiles[i], raw=texts[p], doc=null;
+      try{ doc=parser.parseFromString(raw,"text/html"); }catch(e){}
+      var title = doc && doc.title? doc.title.trim() : "";
+      if(!title && doc){ var h1=doc.querySelector("h1,h2"); title = h1? h1.textContent.trim():""; }
+      if(!title) title = p;
+      var meta = doc? doc.querySelector('meta[name="author"]') : null;
+      var author = meta? (meta.getAttribute("content")||"").trim() : "";
+      var body = doc && doc.body? doc.body.textContent.replace(/\s+/g," ").trim() : "";
+      var ym = deva2num(body).match(/(19|20)[0-9]{2}/); var year = ym? ym[0] : "";
+      var im = raw.match(/अंक[\s:–.-]*([0-9०-९]{1,4})/);
+      var issue = im? deva2num(im[1]) : "";
+      entries.push({ f:p, t:title.slice(0,160), a:author.slice(0,80),
+        c:cat(p,doc,body), y:year, i:issue,
+        s:body.slice(0,220), x:body.slice(0,4500) });
+    }
+    prog(i/htmlFiles.length);
+    if(i<htmlFiles.length){ setTimeout(step,0); }
+    else{
+      var finishIdx = function(extra){
+        if(extra && extra.length) entries = entries.concat(extra);
+        var json = JSON.stringify({generated:new Date().toISOString(), count:entries.length, entries:entries});
+        download("videha-search-index.json", enc.encode(json), "application/json;charset=utf-8");
+        log("videha-search-index.json तैयार — "+entries.length+" प्रविष्टि ("+(json.length/1048576).toFixed(2)+" MB)। एकरा index.htm आ videha-universal-search.htm क संग साइट-मूलमे राखू।");
+      };
+      if($("idxArc").checked){ arFetchEntries().then(finishIdx); }
+      else finishIdx(null);
+    }
+  }
+  step();
+};
+})();
+</script>
+  <script src="assets/js/videha-tts.js?v=20260818-hostfix2"></script>
+</body>
+</html>

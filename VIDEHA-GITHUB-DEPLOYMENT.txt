@@ -1,0 +1,6 @@
+VIDEHA_GITHUB — full static archive/search/studio deployment
+Generated 20 August 2026
+
+Contains Pagefind, search-documents, GitHub Actions and build tools.
+Ordinary/current/static search results open on the GitHub mirror when search is used there.
+Historical generated search-documents results also open on the GitHub mirror.
