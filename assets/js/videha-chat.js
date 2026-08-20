@@ -7,13 +7,36 @@ function sourceHTML(ev){return '<details class="vds-card" open><summary><strong>
 function sentenceCandidates(ev,query){const ts=VidehaSearch.terms(query);const rows=[];for(const e of ev){const text=clean(e.text);const parts=text.replace(/([।!?])\s+/g,"$1\n").replace(/\.\s+/g,".\n").split(/\n+/);for(let s of parts){s=s.trim();if(s.length<35||s.length>520||BAD.test(s))continue;const low=s.toLocaleLowerCase();let score=0;for(const t of ts){if(low.includes(t)){score+=10;score+=Math.min(4,low.split(t).length-1)*2}}if(/[जन्म|कवि|लेखक|रचना|ग्रन्थ|poet|writer|born|author]/i.test(s))score+=2;if(score>0)rows.push({s,score,url:e.url})}}rows.sort((a,b)=>b.score-a.score||a.s.length-b.s.length);const seen=new Set(),out=[];for(const r of rows){const k=r.s.toLocaleLowerCase().replace(/\W+/g,' ').slice(0,140);if(seen.has(k))continue;seen.add(k);out.push(r);if(out.length===3)break}return out}
 function archiveAnswer(ev,query){const cand=sentenceCandidates(ev,query);if(cand.length)return cand.map(x=>x.s).join(" ");const first=ev.map(x=>clean(x.text)).find(x=>x&&!BAD.test(x));return first?first.slice(0,900):"विदेह अभिलेखमे सम्बन्धित स्रोत भेटल, मुदा साफ उत्तर-वाक्य निकालल नहि जा सकल। नीचे मूल स्रोत देखू।"}
 function followupQuery(query){const ts=VidehaSearch.terms(query);if(ts.length<=1&&lastTerms.length&&/(हुनकर|ओकर|आओर|more|his|her|their|then|सेहो|फेर)/i.test(query))return query+" "+lastTerms.join(" ");if(ts.length)lastTerms=ts.slice(0,5);return query}
-async function run(){const raw=q.value.trim();if(!raw){status.textContent="प्रश्न लिखू · Please enter a question.";q.focus();return}const query=followupQuery(raw);if(btn)btn.disabled=true;status.textContent="विदेह अभिलेखमे स्रोत खोजल जा रहल अछि…";out.innerHTML='<div class="vds-callout">Ask Videha काम कऽ रहल अछि…</div>';
-try{const devanagari=/[\u0900-\u097f]/.test(query);const rows=await VidehaSearch.search(query,{limit:10,preferQuick:VidehaCore.hostMode()!=="github"&&devanagari});if(!rows.length){status.textContent="विदेह अभिलेखमे पर्याप्त स्रोत नहि भेटल।";out.innerHTML='<div class="vds-callout">एहि प्रश्न लेल indexed Videha corpus मे पर्याप्त स्रोत नहि भेटल; अनुमानित उत्तर नहि देल गेल। <a href="videha-universal-search.htm">Universal Search खोलू</a>।</div>';return}
-const evidence=rows.map((r,i)=>({n:i+1,title:r.meta?.title||r.url,url:r.url,author:r.meta?.author||"",text:clean(r.plain_excerpt||r.excerpt||"")})).filter(e=>e.text&&!BAD.test(e.text));const baseAnswer=archiveAnswer(evidence.length?evidence:rows.map((r,i)=>({n:i+1,title:r.meta?.title||r.url,url:r.url,author:r.meta?.author||"",text:clean(r.plain_excerpt||r.excerpt||"")})),query);
-if(mode.value==="sources"){status.textContent=rows.length+" स्रोत भेटल";out.innerHTML=sourceHTML(evidence);return}
-if(mode.value==="ai"){status.textContent=evidence.length+" स्रोत भेटल; generative AI जाँचल जा रहल अछि…";try{const endpoint=VidehaCore.hostMode()==="github"?VidehaCore.PRIMARY+"api/ask-videha.php":"api/ask-videha.php";const rr=await Promise.race([fetch(endpoint,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({query:raw,evidence})}),new Promise((_,rej)=>setTimeout(()=>rej(new Error("AI endpoint timeout")),12000))]);if(rr.ok){const j=await rr.json();if(j.configured&&j.answer){status.textContent="Source-grounded generative answer · "+evidence.length+" sources";out.innerHTML=`<div class="vds-callout"><strong>उत्तर</strong><p>${VidehaCore.escapeHTML(j.answer)}</p></div>`+sourceHTML(evidence);return}if(j.configured===false){status.textContent="Generative AI configured नहि अछि; Archive Answer देखाओल जा रहल अछि।"}}}catch(e){status.textContent="Generative AI उपलब्ध नहि; Archive Answer देखाओल जा रहल अछि।"}}
-else status.textContent=evidence.length+" स्रोत सँ Archive Answer";
-out.innerHTML=`<div class="vds-callout"><strong>उत्तर · Answer from Videha archive</strong><p>${VidehaCore.escapeHTML(baseAnswer)}</p><p class="vds-help">ई बिना बाहरी AI केर source-grounded archive answer अछि। Generative AI mode अलग अछि आ server API configuration चाहैत अछि।</p></div>`+sourceHTML(evidence)
-}catch(e){console.error("Ask Videha error",e);status.textContent="Ask Videha engine error — कृपया फेर प्रयास करू।";out.innerHTML='<div class="vds-callout">तकनीकी समस्या आयल। <a href="videha-universal-search.htm">Universal Search</a> एखन उपयोग करू।</div>'}finally{if(btn)btn.disabled=false}}
+async function run(){
+  const raw=q.value.trim();
+  if(!raw){status.textContent="प्रश्न लिखू · Please enter a question.";q.focus();return}
+  const query=followupQuery(raw);
+  const effective=VidehaSearch.queryForSearch?VidehaSearch.queryForSearch(query):query;
+  if(btn)btn.disabled=true;
+  status.textContent="मुख्य खोज-शब्द: "+effective+" · विदेह अभिलेखमे खोजल जा रहल अछि…";
+  out.innerHTML='<div class="vds-callout">Ask Videha काम कऽ रहल अछि…</div>';
+  try{
+    const devanagari=/[\u0900-\u097f]/.test(effective);
+    const rows=await VidehaSearch.search(query,{limit:10,preferQuick:VidehaCore.hostMode()!=="github"&&devanagari});
+    if(!rows.length){
+      status.textContent="विदेह अभिलेखमे पर्याप्त स्रोत नहि भेटल।";
+      out.innerHTML='<div class="vds-callout">एहि प्रश्न लेल indexed Videha corpus मे पर्याप्त स्रोत नहि भेटल। <a href="videha-universal-search.htm">Universal Search खोलू</a>।</div>';
+      return;
+    }
+    const evidence=rows.map((r,i)=>({n:i+1,title:r.meta?.title||r.url,url:r.url,author:r.meta?.author||"",text:clean(r.plain_excerpt||r.excerpt||"")})).filter(e=>e.text&&!BAD.test(e.text));
+    if(mode&&mode.value==="sources"){
+      status.textContent="मुख्य खोज-शब्द: "+effective+" · "+rows.length+" स्रोत भेटल";
+      out.innerHTML=sourceHTML(evidence);
+      return;
+    }
+    const baseAnswer=archiveAnswer(evidence.length?evidence:rows.map((r,i)=>({n:i+1,title:r.meta?.title||r.url,url:r.url,author:r.meta?.author||"",text:clean(r.plain_excerpt||r.excerpt||"")})),effective);
+    status.textContent="मुख्य खोज-शब्द: "+effective+" · "+evidence.length+" स्रोत";
+    out.innerHTML=`<div class="vds-callout"><strong>उत्तर · Answer from Videha archive</strong><p>${VidehaCore.escapeHTML(baseAnswer)}</p></div>`+sourceHTML(evidence);
+  }catch(e){
+    console.error("Ask Videha error",e);
+    status.textContent="Ask Videha engine error — कृपया फेर प्रयास करू।";
+    out.innerHTML='<div class="vds-callout">तकनीकी समस्या आयल। <a href="videha-universal-search.htm">Universal Search</a> एखन उपयोग करू।</div>';
+  }finally{if(btn)btn.disabled=false}
+}
 if(form)form.addEventListener("submit",e=>{e.preventDefault();run()});
 })();

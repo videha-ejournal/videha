@@ -3,15 +3,44 @@ let pfPromise=null,pfSource="",quickPromise=null;
 const STOP=new Set(("ke ki ka ko se me mein mai chhathi chhi achhi achhai chha chhai hai hain ho what who whom whose is are was were be been being the a an tell about please and or of to in on for with के की केर केँ कोन छथि अछि छैक छथिन छै छी छियै में मे सँ स पर आ वा अथवा एक ई ओ से हुनकर ओकर तकर सेहो की किएक कहू बताउ बताऊ").split(/\s+/));
 const candidates=()=>[{u:"./pagefind/pagefind.js",source:"local"},{u:VidehaCore.GITHUB+"pagefind/pagefind.js",source:"github"}];
 function timeout(p,ms,label){return Promise.race([p,new Promise((_,rej)=>setTimeout(()=>rej(new Error(label||"Timed out")),ms))])}
-function norm(s){return String(s||"").toLocaleLowerCase().replace(/[“”"'`´’‘?!.:,;()\[\]{}\/\\|]+/g," ").replace(/\s+/g," ").trim()}
+function norm(s){return String(s||"").toLocaleLowerCase().replace(/[“”"'`´’‘?!.:,;()\[\]{}\/\\|—–_-]+/g," ").replace(/\s+/g," ").trim()}
 function terms(q){const a=(norm(q).match(/[a-z0-9\u0900-\u097f]+/g)||[]).filter(t=>t.length>1&&!STOP.has(t));return [...new Set(a)]}
+const ENTITY_ALIASES={
+  "vidyapati":["विद्यापति","vidyapati"],
+  "vidyapathi":["विद्यापति","vidyapati"],
+  "विद्यापति":["विद्यापति","vidyapati"]
+};
+function queryVariants(q){
+  const ts=terms(q);
+  if(!ts.length)return [norm(q)].filter(Boolean);
+  const base=ts.join(" ");
+  const out=[];
+  const add=x=>{x=String(x||"").trim();if(x&&!out.includes(x))out.push(x)};
+  add(base);
+  if(ts.length===1&&ENTITY_ALIASES[ts[0]])ENTITY_ALIASES[ts[0]].forEach(add);
+  return out;
+}
+function queryForSearch(q){return queryVariants(q)[0]||norm(q)}
 function cleanText(s){return String(s||"").replace(/<[^>]+>/g," ").replace(/\/\*.*?\*\//gs," ").replace(/\b(?:font-family|background|border-radius|box-shadow|linear-gradient|!important)\b[^।.!?]{0,180}/gi," ").replace(/\s+/g," ").trim()}
 function context(text,q,max){text=cleanText(text);const ts=terms(q),low=norm(text),n=max||700;let i=-1;for(const t of ts){i=low.indexOf(t);if(i>=0)break}if(i<0)return text.slice(0,n);const start=Math.max(0,i-Math.floor(n*.34)),end=Math.min(text.length,start+n);return(start?"…":"")+text.slice(start,end)+(end<text.length?"…":"")}
 async function loadQuick(){if(!quickPromise)quickPromise=(async()=>{const bases=VidehaCore.hostMode()==="github"?["./videha-search-index.json",VidehaCore.PRIMARY+"videha-search-index.json"]:["./videha-search-index.json",VidehaCore.GITHUB+"videha-search-index.json"];for(const u of bases){try{const r=await timeout(fetch(u,{cache:"no-store",mode:"cors"}),6500,"Quick index timeout");if(r.ok){const j=await r.json();return j.entries||j||[]}}catch(e){}}return[]})();return quickPromise}
 async function quickSearch(q,limit){try{const arr=await loadQuick(),ts=terms(q);if(!ts.length)return[];const phrase=ts.join(" "),scored=[];for(const e of arr){const title=norm(e.t),author=norm(e.a),short=norm(e.s),full=norm(e.x),hay=title+" "+author+" "+short+" "+full;let score=0,matched=0;if(phrase&&phrase.length>2){if(title.includes(phrase))score+=90;if(author.includes(phrase))score+=80;if(short.includes(phrase))score+=45;if(full.includes(phrase))score+=30}for(const t of ts){let hit=false;if(title.includes(t)){score+=30;hit=true}if(author.includes(t)){score+=26;hit=true}if(short.includes(t)){score+=14;hit=true}if(full.includes(t)){const c=Math.min(6,full.split(t).length-1);score+=8+c*2;hit=true}if(hit)matched++}if(matched&&score>0){score+=matched===ts.length?25:0;if(/(?:^|\/)search-documents\//i.test(e.f||""))score+=5;scored.push({e,score})}}scored.sort((a,b)=>b.score-a.score);return scored.slice(0,limit||20).map(({e})=>({url:VidehaCore.resolveSearchUrl(e.f),meta:{title:e.t||e.f,author:e.a||"",category:e.c||"",year:e.y||"",issue:e.i||""},plain_excerpt:context(e.x||e.s||"",q,720),_fallback:true,_quick:true}))}catch(e){return[]}}
 async function pagefind(){if(!pfPromise)pfPromise=(async()=>{let last;for(const c of candidates()){try{const mod=await timeout(import(c.u),8000,"Pagefind module timeout");let pf=mod;if(mod.createInstance){const base=c.u.replace(/pagefind\.js(?:[?#].*)?$/i,"");pf=mod.createInstance({basePath:base,noWorker:c.source==="github"&&VidehaCore.hostMode()!=="github"})}await timeout(pf.init(),8000,"Pagefind init timeout");pfSource=c.source;return pf}catch(e){last=e}}throw last||new Error("Pagefind unavailable")})().catch(e=>{pfPromise=null;throw e});return pfPromise}
-async function deepSearch(q,opts){const limit=opts.limit||20,pf=await pagefind();let po={};if(opts.filters)po.filters=opts.filters;const found=await timeout(pf.search(q,po),12000,"Pagefind search timeout");const raw=(found.results||[]).slice(0,limit);const rows=await Promise.all(raw.map(r=>timeout(r.data(),8000,"Pagefind result timeout")));return rows.map(r=>({...r,url:VidehaCore.resolveSearchUrl(r.url),plain_excerpt:cleanText(r.plain_excerpt||r.excerpt||""),_pagefindSource:pfSource}))}
-async function search(q,opts){opts=opts||{};const limit=opts.limit||20;if(opts.preferQuick){const quick=await quickSearch(q,limit);if(quick.length)return quick}try{const deep=await deepSearch(q,opts);if(deep.length)return deep}catch(e){}return quickSearch(q,limit)}
+function dedupeRows(rows,limit){const seen=new Set(),out=[];for(const r of rows){const k=String(r.url||"").replace(/[?#].*$/,'');if(!k||seen.has(k))continue;seen.add(k);out.push(r);if(out.length>=(limit||20))break}return out}
+async function deepSearch(q,opts){
+  const limit=opts.limit||20,pf=await pagefind();let po={};if(opts.filters)po.filters=opts.filters;
+  const variants=queryVariants(q),all=[];
+  for(const sq of variants){
+    try{
+      const found=await timeout(pf.search(sq,po),12000,"Pagefind search timeout");
+      const raw=(found.results||[]).slice(0,limit);
+      const rows=await Promise.all(raw.map(r=>timeout(r.data(),8000,"Pagefind result timeout")));
+      all.push(...rows.map(r=>({...r,url:VidehaCore.resolveSearchUrl(r.url),plain_excerpt:cleanText(r.plain_excerpt||r.excerpt||""),_pagefindSource:pfSource,_searchQuery:sq})));
+    }catch(e){}
+  }
+  return dedupeRows(all,limit);
+}
+async function search(q,opts){opts=opts||{};const limit=opts.limit||20;if(opts.preferQuick){const quick=await quickSearch(queryForSearch(q),limit);if(quick.length)return quick}try{const deep=await deepSearch(q,opts);if(deep.length)return deep}catch(e){}for(const sq of queryVariants(q)){const quick=await quickSearch(sq,limit);if(quick.length)return quick}return []}
 async function filters(){try{return await timeout((await pagefind()).filters(),8000,"Pagefind filters timeout")}catch(e){return{}}}
-g.VidehaSearch={search,filters,pagefind,quickSearch,terms,cleanText,source:()=>pfSource};
+g.VidehaSearch={search,filters,pagefind,quickSearch,terms,queryForSearch,queryVariants,cleanText,source:()=>pfSource};
 })(window);
