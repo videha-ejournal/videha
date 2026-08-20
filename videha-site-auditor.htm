@@ -1005,13 +1005,20 @@ $("idxBtn").onclick=function(){
     var end=Math.min(i+6, htmlFiles.length);
     for(; i<end; i++){
       var p=htmlFiles[i], raw=texts[p], doc=null;
+      if(/(^|\/)_vti_cnf(\/|$)/i.test(p)){ continue; }
       try{ doc=parser.parseFromString(raw,"text/html"); }catch(e){}
       var title = doc && doc.title? doc.title.trim() : "";
       if(!title && doc){ var h1=doc.querySelector("h1,h2"); title = h1? h1.textContent.trim():""; }
       if(!title) title = p;
       var meta = doc? doc.querySelector('meta[name="author"]') : null;
       var author = meta? (meta.getAttribute("content")||"").trim() : "";
-      var body = doc && doc.body? doc.body.textContent.replace(/\s+/g," ").trim() : "";
+      var body = "";
+      if(doc && doc.body){
+        var cleanBody=doc.body.cloneNode(true);
+        cleanBody.querySelectorAll("script,style,noscript,template,svg,link,meta,[data-pagefind-ignore]").forEach(function(n){n.remove();});
+        var uq=cleanBody.querySelector("#videha-universal-search,.videha-universal-search"); if(uq) uq.remove();
+        body=cleanBody.textContent.replace(/\s+/g," ").trim();
+      }
       var ym = deva2num(body).match(/(19|20)[0-9]{2}/); var year = ym? ym[0] : "";
       var im = raw.match(/अंक[\s:–.-]*([0-9०-९]{1,4})/);
       var issue = im? deva2num(im[1]) : "";
