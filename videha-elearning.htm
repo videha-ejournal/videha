@@ -764,7 +764,7 @@ summary{ list-style:none; }
 <meta data-pagefind-meta="author[content]" content="विदेह ई">
 <meta data-pagefind-filter="author[content]" content="विदेह ई">
 <meta data-pagefind-filter="year[content]" content="2000">
-<script src="assets/js/videha-core.js?v=20260821h-github-routing"></script>
+<script src="assets/js/videha-core.js?v=20260821i-routing2"></script>
 </head>
 <body>
 <a class="videha-skip" href="#videha-main">मुख्य सामग्रीपर जाउ · Skip to main content</a>
@@ -4966,8 +4966,8 @@ function vgResizeTool(btn,delta){
           <ol id="vus-results" aria-label="Search results"></ol>
           <button class="vus-btn vus-btn--quiet vus-more" type="button" id="vus-more" hidden>आर परिणाम · More results</button>
         </section>
-        <script src="assets/js/videha-specialized-search.js?v=20260821b-lexquiz" data-pagefind-ignore="all"></script>
-        <script src="assets/js/videha-federated-search.js?v=20260821f" data-pagefind-ignore="all"></script>
+        <script src="assets/js/videha-specialized-search.js?v=20260821i-routing2" data-pagefind-ignore="all"></script>
+        <script src="assets/js/videha-federated-search.js?v=20260821i-routing2" data-pagefind-ignore="all"></script>
         <script type="module" id="videha-universal-search-script">
         (()=>{
           const form=document.getElementById('vus-form');
@@ -5234,14 +5234,17 @@ function vgResizeTool(btn,delta){
           ];
           const quizPfPromises=new Map();
           function withTimeout(p,ms,fallback){return Promise.race([p,new Promise(resolve=>setTimeout(()=>resolve(fallback),ms))]);}
-          function quizUrl(src,u){
-            let x=String(u||'').trim(),suffix='';const m=x.match(/([?#].*)$/);if(m){suffix=m[1];x=x.slice(0,-m[1].length);}
-            if(/^https?:\/\//i.test(x))return x+suffix;
-            x=x.replace(/^\.?\/+/, '');
-            const project=new URL(src.base).pathname.replace(/^\/+|\/+$/g,'');
-            if(project&&x.startsWith(project+'/'))x=x.slice(project.length+1);
-            return src.base+x+suffix;
+          function sourceCanonicalUrl(base,u){
+            let raw=String(u||'').trim();if(!raw)return base;
+            let suffix='';const sm=raw.match(/([?#].*)$/);if(sm){suffix=sm[1];raw=raw.slice(0,-sm[1].length);}
+            let path=raw;if(/^https?:\/\//i.test(raw)){try{path=new URL(raw).pathname;}catch(e){path=raw;}}
+            path=String(path||'').replace(/\\/g,'/').replace(/^\.?\/+/, '');try{path=decodeURIComponent(path);}catch(e){}
+            const bu=new URL(base),project=bu.pathname.replace(/^\/+|\/+$/g,''),parts=path.split('/').filter(Boolean);
+            if(project){const lp=project.toLowerCase();let at=-1;for(let i=0;i<parts.length;i++)if(parts[i].toLowerCase()===lp){at=i;break;}path=at>=0?parts.slice(at+1).join('/'):parts.join('/').replace(/^videha\//i,'');}
+            else path=parts.join('/').replace(/^videha\//i,'');
+            return base+path+suffix;
           }
+          function quizUrl(src,u){return sourceCanonicalUrl(src.base,u);}
           async function getQuizPagefind(src){
             if(!quizPfPromises.has(src.id))quizPfPromises.set(src.id,(async()=>{
               const mod=await import(src.index+'pagefind.js');let pf=mod;
@@ -5255,7 +5258,7 @@ function vgResizeTool(btn,delta){
               const pf=await getQuizPagefind(src),merged=new Map();
               for(const term of searchVariants(q)){
                 const found=await pf.search(term),raw=found.results||[],rows=await Promise.all(raw.slice(0,Math.max(30,limit||30)).map(r=>r.data()));
-                for(const row of rows){const url=quizUrl(src,row.url),key=url.replace(/[?#].*$/,'');if(!merged.has(key))merged.set(key,{...row,url,_quiz:true,_xscript:term!==q,_source:src.label});}
+                for(const row of rows){const url=quizUrl(src,row.url),key=url.replace(/[?#].*$/,'');if(!merged.has(key))merged.set(key,{...row,url,_quiz:true,_xscript:term!==q,_source:src.label,_externalBase:src.base});}
               }
               return [...merged.values()].slice(0,limit||60);
             }catch(e){return[];}
@@ -5297,7 +5300,22 @@ function vgResizeTool(btn,delta){
             const batch=lastRows.slice(shown,shown+20);
             for(const row of batch){
               const li=document.createElement('li');li.className='vus-result';
-              const rawUrl=String(row.url||'');const ghFixed=window.VidehaCore&&VidehaCore.canonicalGitHubUrl?VidehaCore.canonicalGitHubUrl(rawUrl):(/^\/?(?:videha\/)?videha-(?:quiz|sadeha|ejournal)\//i.test(rawUrl)?'https://videha-ejournal.github.io/'+rawUrl.replace(/^\/+/, '').replace(/^videha\//i,''):'');const resolvedUrl=ghFixed||((row._quiz||row._specialized||row._federated)?rawUrl:(window.VidehaCore?VidehaCore.resolveSearchUrl(rawUrl):rawUrl));
+              const rawUrl=String(row.url||'');
+              function strictGitHubResultUrl(raw,r){
+                if(r&&r._externalBase){try{return sourceCanonicalUrl(r._externalBase,raw);}catch(e){}}
+                let text=String(raw||'').trim(),suffix='';const sm=text.match(/([?#].*)$/);if(sm){suffix=sm[1];text=text.slice(0,-sm[1].length);}
+                let path=text,absGH=false,absPrimary=false;
+                if(/^https?:\/\//i.test(text)){try{const u=new URL(text);path=u.pathname;absGH=/^videha-ejournal\.github\.io$/i.test(u.hostname);absPrimary=/(?:^|\.)videha\.co\.in$/i.test(u.hostname);}catch(e){}}
+                path=String(path||'').replace(/\\/g,'/').replace(/^\.?\/+/, '');try{path=decodeURIComponent(path);}catch(e){}
+                const parts=path.split('/').filter(Boolean),low=parts.map(x=>x.toLowerCase());
+                for(const project of ['videha-quiz','videha-sadeha','videha-ejournal']){const at=low.indexOf(project);if(at>=0)return 'https://videha-ejournal.github.io/'+parts.slice(at).join('/')+suffix;}
+                const sd=low.indexOf('search-documents');if(sd>=0)return 'https://videha-ejournal.github.io/videha/'+parts.slice(sd).join('/')+suffix;
+                if(absGH)return text+suffix;
+                if(absPrimary)return '';
+                return '';
+              }
+              const ghFixed=strictGitHubResultUrl(rawUrl,row)||(window.VidehaCore&&VidehaCore.canonicalGitHubUrl?VidehaCore.canonicalGitHubUrl(rawUrl):'');
+              const resolvedUrl=ghFixed||((row._quiz||row._specialized||row._federated)?rawUrl:(window.VidehaCore?VidehaCore.resolveSearchUrl(rawUrl):rawUrl));
               const title=esc(row.meta?.title||resolvedUrl||'Videha result');
               let badge=activeScope!=='all'?`<span class="vus-badge">${esc(activeScope)}</span>`:'';
               if(row._fb) badge+=`<span class="vus-badge">ध्वन्यात्मक · phonetic</span>`;

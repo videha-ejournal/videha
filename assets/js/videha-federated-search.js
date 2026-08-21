@@ -18,12 +18,25 @@ function variants(q){
 }
 function timeout(p,ms,fallback){return Promise.race([p,new Promise(r=>setTimeout(()=>r(fallback),ms))]);}
 function absolute(src,u){
-  let x=String(u||'').trim();if(!x)return src.base;
-  if(/^https?:\/\//i.test(x))return x;
-  x=x.replace(/^\.?\/+/, '');
-  const project=new URL(src.base).pathname.replace(/^\/+|\/+$/g,'');
-  if(project&&x.startsWith(project+'/'))x=x.slice(project.length+1);
-  return src.base+x;
+  /* The source declaration is authoritative. Never trust a Pagefind URL to carry
+     the correct host/project prefix: rebuild it from src.base. */
+  let raw=String(u||'').trim();if(!raw)return src.base;
+  let suffix='';const sm=raw.match(/([?#].*)$/);if(sm){suffix=sm[1];raw=raw.slice(0,-sm[1].length);}
+  let path=raw;
+  if(/^https?:\/\//i.test(raw)){try{path=new URL(raw).pathname;}catch(e){path=raw;}}
+  path=String(path||'').replace(/\\/g,'/').replace(/^\.?\/+/, '');
+  try{path=decodeURIComponent(path);}catch(e){}
+  const bu=new URL(src.base),project=bu.pathname.replace(/^\/+|\/+$/g,'');
+  const parts=path.split('/').filter(Boolean);
+  if(project){
+    const lp=project.toLowerCase();let at=-1;
+    for(let i=0;i<parts.length;i++)if(parts[i].toLowerCase()===lp){at=i;break;}
+    if(at>=0)path=parts.slice(at+1).join('/');
+    else path=parts.join('/').replace(/^videha\//i,'');
+  }else{
+    path=parts.join('/').replace(/^videha\//i,'');
+  }
+  return src.base+path+suffix;
 }
 async function getPf(src){
   if(!instances.has(src.id))instances.set(src.id,(async()=>{
@@ -41,7 +54,7 @@ async function searchOne(src,q,limit){
       const rows=await Promise.all(raw.slice(0,Math.max(24,limit||24)).map(r=>r.data()));
       for(const row of rows){
         const url=absolute(src,row.url),key=url.replace(/[?#].*$/,'');
-        if(!out.has(key))out.set(key,{...row,url,_federated:true,_source:src.label,_xscript:term!==q});
+        if(!out.has(key))out.set(key,{...row,url,_federated:true,_source:src.label,_externalBase:src.base,_xscript:term!==q});
       }
     }
     return [...out.values()].slice(0,limit||40);
@@ -50,7 +63,7 @@ async function searchOne(src,q,limit){
 function merge(groups,limit){const out=[],seen=new Set();let i=0;while(out.length<(limit||80)){let added=false;for(const g of groups){const r=(g||[])[i];if(!r)continue;added=true;const k=String(r.url||'').replace(/[?#].*$/,'');if(k&&!seen.has(k)){seen.add(k);out.push(r);if(out.length>=(limit||80))break;}}if(!added)break;i++;}return out;}
 async function loadPdf(src){if(!pdfPromises.has(src.id))pdfPromises.set(src.id,fetch(src.url,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('PDF catalog '+src.id+' '+r.status);return r.json();}).catch(e=>{pdfPromises.delete(src.id);throw e;}));return pdfPromises.get(src.id);}
 function pdfScore(e,q){const forms=variants(q).map(norm).filter(Boolean),text=norm([e.title,e.name,e.path].join(' '));let s=0;for(const f of forms){if(!f)continue;if(text===f)s=Math.max(s,500);else if(text.startsWith(f))s=Math.max(s,350);else if(text.includes(f))s=Math.max(s,220);else{const ts=f.split(' ').filter(Boolean);if(ts.length&&ts.every(t=>text.includes(t)))s=Math.max(s,160);}}return s;}
-async function searchPdf(q,limit){const groups=await Promise.all(PDF_CATALOGS.map(async src=>{try{const cat=await loadPdf(src),arr=Array.isArray(cat)?cat:(cat.items||[]),hits=[];for(const e of arr){const score=pdfScore(e,q);if(!score)continue;hits.push({score,url:e.url||(src.base+String(e.path||'').replace(/^\/+/,'')),meta:{title:e.title||e.name||e.path||'Videha PDF'},plain_excerpt:(e.path||e.name||'')+' · '+src.label+' archive',excerpt:'',_federated:true,_pdfRepo:true,_source:src.label});}hits.sort((a,b)=>b.score-a.score||String(a.meta.title).localeCompare(String(b.meta.title)));return hits.slice(0,Math.max(20,limit||40));}catch(e){return[];}}));const out=[],seen=new Set();for(const g of groups){for(const r of g){const k=norm((r.meta&&r.meta.title)||'')+'|'+norm((r.url||'').split('/').pop()||'');if(k&&seen.has(k))continue;if(k)seen.add(k);out.push(r);}}out.sort((a,b)=>(b.score||0)-(a.score||0)||String(a.meta&&a.meta.title||'').localeCompare(String(b.meta&&b.meta.title||'')));return out.slice(0,limit||40);}
+async function searchPdf(q,limit){const groups=await Promise.all(PDF_CATALOGS.map(async src=>{try{const cat=await loadPdf(src),arr=Array.isArray(cat)?cat:(cat.items||[]),hits=[];for(const e of arr){const score=pdfScore(e,q);if(!score)continue;hits.push({score,url:e.url||(src.base+String(e.path||'').replace(/^\/+/,'')),meta:{title:e.title||e.name||e.path||'Videha PDF'},plain_excerpt:(e.path||e.name||'')+' · '+src.label+' archive',excerpt:'',_federated:true,_pdfRepo:true,_source:src.label,_externalBase:src.base});}hits.sort((a,b)=>b.score-a.score||String(a.meta.title).localeCompare(String(b.meta.title)));return hits.slice(0,Math.max(20,limit||40));}catch(e){return[];}}));const out=[],seen=new Set();for(const g of groups){for(const r of g){const k=norm((r.meta&&r.meta.title)||'')+'|'+norm((r.url||'').split('/').pop()||'');if(k&&seen.has(k))continue;if(k)seen.add(k);out.push(r);}}out.sort((a,b)=>(b.score||0)-(a.score||0)||String(a.meta&&a.meta.title||'').localeCompare(String(b.meta&&b.meta.title||'')));return out.slice(0,limit||40);}
 async function searchAll(q,limitEach){const groups=await Promise.all(PF_SOURCES.map(s=>timeout(searchOne(s,q,limitEach||20),5500,[])));const pdf=await timeout(searchPdf(q,Math.max(6,limitEach||10)),4500,[]);return merge(groups.concat([pdf]),Math.max(30,(limitEach||20)*PF_SOURCES.length+10));}
 window.VidehaFederatedSearch={searchAll,searchPdf,searchOne,sources:PF_SOURCES,pdfCatalogs:PDF_CATALOGS};
 })();
