@@ -423,7 +423,7 @@
             const batch=lastRows.slice(shown,shown+20);
             for(const row of batch){
               const li=document.createElement('li');li.className='vus-result';
-              const resolvedUrl=(row._quiz||row._specialized||row._federated)?row.url:(window.VidehaCore?VidehaCore.resolveSearchUrl(row.url):row.url);
+              const rawUrl=String(row.url||'');const ghFixed=window.VidehaCore&&VidehaCore.canonicalGitHubUrl?VidehaCore.canonicalGitHubUrl(rawUrl):(/^\/?(?:videha\/)?videha-(?:quiz|sadeha|ejournal)\//i.test(rawUrl)?'https://videha-ejournal.github.io/'+rawUrl.replace(/^\/+/, '').replace(/^videha\//i,''):'');const resolvedUrl=ghFixed||((row._quiz||row._specialized||row._federated)?rawUrl:(window.VidehaCore?VidehaCore.resolveSearchUrl(rawUrl):rawUrl));
               const title=esc(row.meta?.title||resolvedUrl||'Videha result');
               let badge=activeScope!=='all'?`<span class="vus-badge">${esc(activeScope)}</span>`:'';
               if(row._fb) badge+=`<span class="vus-badge">ध्वन्यात्मक · phonetic</span>`;

@@ -257,7 +257,7 @@ body{ background:var(--vd-field) !important; color:var(--vd-ink); }
 <meta data-pagefind-filter="videha_type[content]" content="Research">
 <meta data-pagefind-meta="title[content]" content="PART 12">
 <meta data-pagefind-filter="year[content]" content="2000">
-<script src="assets/js/videha-core.js?v=20260820"></script>
+<script src="assets/js/videha-core.js?v=20260821h-github-routing"></script>
 </head>
 <body>
 <a class="videha-skip" href="#videha-main">मुख्य सामग्रीपर जाउ · Skip to main content</a>
@@ -2063,7 +2063,7 @@ font-family:&quot;Noto Sans Devanagari&quot;"> </span>
             const batch=lastRows.slice(shown,shown+20);
             for(const row of batch){
               const li=document.createElement('li');li.className='vus-result';
-              const resolvedUrl=(row._quiz||row._specialized||row._federated)?row.url:(window.VidehaCore?VidehaCore.resolveSearchUrl(row.url):row.url);
+              const rawUrl=String(row.url||'');const ghFixed=window.VidehaCore&&VidehaCore.canonicalGitHubUrl?VidehaCore.canonicalGitHubUrl(rawUrl):(/^\/?(?:videha\/)?videha-(?:quiz|sadeha|ejournal)\//i.test(rawUrl)?'https://videha-ejournal.github.io/'+rawUrl.replace(/^\/+/, '').replace(/^videha\//i,''):'');const resolvedUrl=ghFixed||((row._quiz||row._specialized||row._federated)?rawUrl:(window.VidehaCore?VidehaCore.resolveSearchUrl(rawUrl):rawUrl));
               const title=esc(row.meta?.title||resolvedUrl||'Videha result');
               let badge=activeScope!=='all'?`<span class="vus-badge">${esc(activeScope)}</span>`:'';
               if(row._fb) badge+=`<span class="vus-badge">ध्वन्यात्मक · phonetic</span>`;
