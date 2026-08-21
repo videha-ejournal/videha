@@ -42,12 +42,22 @@ function canonicalize(raw, base){
   return "";
 }
 
+function syncVisibleUrl(a,c){
+  if(!a||!c)return;
+  const row=a.closest?a.closest(".vus-result"):null;
+  if(!row)return;
+  const shown=row.querySelector(".vus-url");
+  if(shown&&shown.textContent!==c)shown.textContent=c;
+}
 function fixAnchor(a){
   if(!a||!a.getAttribute)return;
   const raw=a.getAttribute("href");
   if(!raw)return;
   const c=canonicalize(raw,(typeof document!=="undefined"?document.baseURI:undefined));
-  if(c&&a.href!==c)a.setAttribute("href",c);
+  if(c){
+    if(a.href!==c)a.setAttribute("href",c);
+    syncVisibleUrl(a,c);
+  }
 }
 function scan(root){
   if(!root||typeof root.querySelectorAll!=="function")return;
