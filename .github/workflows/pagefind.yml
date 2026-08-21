@@ -8,6 +8,7 @@ on:
       - 'data/videha-archive-manifest.json'
       - 'data/videha-deployment.json'
       - 'data/videha-knowledge-graph.json'
+      - 'data/videha-archive-facets.json'
   workflow_dispatch:
 
 permissions:
@@ -34,6 +35,9 @@ jobs:
       - name: Refresh Videha digital archive manifests
         run: python3 tools/build-videha-digital.py
 
+      - name: Refresh historical author/title/genre facets
+        run: python3 tools/build-videha-archive-facets.py . data/videha-archive-facets.json
+
       - name: Prepare searchable HTML/HTM corpus
         run: python3 tools/videha-pagefind-prepare.py . _pagefind_build
 
@@ -50,7 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pagefind data/videha-archive-manifest.json data/videha-knowledge-graph.json data/videha-deployment.json
+          git add pagefind data/videha-archive-manifest.json data/videha-knowledge-graph.json data/videha-deployment.json data/videha-archive-facets.json
           if git diff --cached --quiet; then
             echo "Search index unchanged."
           else

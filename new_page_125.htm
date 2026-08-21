@@ -622,11 +622,13 @@ line-height:115%;font-family:&quot;Noto Serif Devanagari&quot;">, </span>
             <button type="button" class="vus-filter" data-scope="archive" aria-pressed="false">PDF-अभिलेख · Archive</button>
           </div>
           <div class="videha-digital-suite-links" data-pagefind-ignore="all" style="margin:.45em 0;text-align:center;font-size:.88rem"><a href="videha-digital-archive.html">Digital Archive</a> · <a href="videha-chatbot.html">Ask Videha</a> · <a href="videha-editor-studio.html">Editor Studio</a></div>
-<p class="vus-help" id="vus-help">लेखक/शीर्षक/अंक/वर्ष — खोज-विधा; शेष बटन विदेह-खण्ड फिल्टर। Author/Title/Issue/Year are search modes; the remaining buttons filter indexed Videha sections. Static Pagefind index — no search server. रोमन/IAST खोजमे मूल Roman आ देवनागरी रूप दुनू एक संग सभ विदेह-सदेह corpus मे ताकल जाइत अछि। <strong>PDF-अभिलेख</strong> बटन archive.org/VidehaAndSadeha क जीवन्त सूची (सभ अंक + सदेह) मे ताकत — अंक-संख्या (जेना ४४५) लिखितहि सोझे PDF भेटत।</p>
+<p class="vus-help" id="vus-help">लेखक/शीर्षक/अंक/वर्ष — खोज-विधा। गद्य/पद्य/शोध current/static + पुरान Videha/Sadeha contents खोजैत अछि। <strong>पोथी</strong> <code>pothi.htm</code> केर पूर्ण listing, <strong>श्रव्य-दृश्य</strong> <code>Audio_Video.htm</code> केर पूर्ण listing, <strong>पञ्जी</strong> <code>videha-sadeha/panji-shards</code> GitHub data, आ <strong>थेसारस/शब्दकोश</strong> <code>videha-ejournal.github.io/data</code> GitHub JSON corpus केँ query करैत अछि आ दूनू Quiz corpus मे dictionary/vocabulary/शब्दार्थ-सम्बन्धी प्रश्नोत्तरी परिणाम सेहो जोड़ैत अछि। Quiz <code>videha-quiz</code> आ GitHub user-site दूनू bilingual quiz corpus खोजैत अछि। Roman/IAST + देवनागरी cross-script search समर्थित। Issue/Year लेल संख्या दिअ। <strong>PDF-अभिलेख</strong> archive.org/VidehaAndSadeha सूची खोजैत अछि।</p>
           <div id="vus-status" role="status" aria-live="polite"></div>
           <ol id="vus-results" aria-label="Search results"></ol>
           <button class="vus-btn vus-btn--quiet vus-more" type="button" id="vus-more" hidden>आर परिणाम · More results</button>
         </section>
+        <script src="assets/js/videha-specialized-search.js?v=20260821b-lexquiz" data-pagefind-ignore="all"></script>
+        <script src="assets/js/videha-federated-search.js?v=20260821f" data-pagefind-ignore="all"></script>
         <script type="module" id="videha-universal-search-script">
         (()=>{
           const form=document.getElementById('vus-form');
@@ -694,7 +696,7 @@ line-height:115%;font-family:&quot;Noto Serif Devanagari&quot;">, </span>
           /* ===== /VIDEHA ARCHIVE ===== */
 
           let activeScope='all', pagefindPromise=null, lastRows=[], shown=0, timer=null, seq=0;
-          const typeScopes=new Set(['Prose','Poetry','Research','Book','Quiz','Audio/Video','Panji','Thesaurus','Dictionary']);
+          const typeScopes=new Set(['Prose','Poetry','Research']);
           const devanagariDigits={'०':'0','१':'1','२':'2','३':'3','४':'4','५':'5','६':'6','७':'7','८':'8','९':'9'};
           const normalizeDigits=s=>String(s||'').replace(/[०-९]/g,d=>devanagariDigits[d]||d);
           const plain=s=>String(s||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
@@ -831,6 +833,116 @@ line-height:115%;font-family:&quot;Noto Serif Devanagari&quot;">, </span>
           }
           /* ===== /phonetic fallback ===== */
 
+          /* ===== historical archive facet index + external bilingual Quiz corpus ===== */
+          const ARCHIVE_FACET_SCOPES=new Set(['Prose','Poetry','Research']);
+          let afIndex=null, afPromise=null;
+          async function getArchiveFacets(){
+            if(afIndex) return afIndex;
+            if(afPromise) return afPromise;
+            afPromise=(async()=>{
+              const gh=(window.VidehaCore&&VidehaCore.GITHUB)||'https://videha-ejournal.github.io/videha/';
+              const onGh=location.hostname.toLowerCase().endsWith('github.io')&&location.pathname.startsWith('/videha/');
+              const urls=onGh?['./data/videha-archive-facets.json',gh+'data/videha-archive-facets.json']:[gh+'data/videha-archive-facets.json'];
+              for(const u of urls){
+                try{const r=await fetch(u,{mode:'cors',credentials:'omit',cache:'force-cache'});if(!r.ok)continue;const j=await r.json();afIndex=j.entries||j||[];return afIndex;}catch(e){}
+              }
+              afIndex=[];return afIndex;
+            })();
+            return afPromise;
+          }
+          function facetScore(text,q){
+            text=String(text||'');if(!text)return 0;
+            const nt=normalizeDigits(text).toLocaleLowerCase(), st=skeleton(text);let best=0;
+            for(const v of searchVariants(q)){
+              const nv=normalizeDigits(v).toLocaleLowerCase();
+              if(nv&&nt.includes(nv))best=Math.max(best,120+Math.min(30,nv.length));
+              const sv=skeleton(v);if(sv&&sv.length>1&&st.includes(sv))best=Math.max(best,55+Math.min(20,sv.length));
+            }
+            return best;
+          }
+          function facetExcerpt(text,q){
+            text=String(text||'').replace(/\s+/g,' ').trim();if(text.length<=420)return text;
+            const low=normalizeDigits(text).toLocaleLowerCase();let pos=-1;
+            for(const v of searchVariants(q)){const nv=normalizeDigits(v).toLocaleLowerCase();const i=nv?low.indexOf(nv):-1;if(i>=0){pos=i;break;}}
+            if(pos<0)return text.slice(0,420)+'…';
+            const start=Math.max(0,pos-130),end=Math.min(text.length,start+420);return(start?'…':'')+text.slice(start,end)+(end<text.length?'…':'');
+          }
+          async function archiveFacetSearch(q,scope){
+            const idx=await getArchiveFacets();if(!idx||!idx.length)return[];
+            const nq=normalizeDigits(q).toLocaleLowerCase(),out=[];
+            for(const e of idx){
+              let field='',score=0;
+              if(scope==='issue'){
+                if(!/^\d{1,4}$/.test(nq)||String(e.i||'')!==String(parseInt(nq,10)))continue;score=200;field=(e.p||'')+' · Issue '+(e.i||'');
+              }else if(scope==='year'){
+                if(!/^(?:19|20)\d{2}$/.test(nq)||String(e.y||'')!==nq)continue;score=200;field=(e.p||'')+' · '+(e.y||'');
+              }else if(scope==='author'){
+                field=e.a||'';score=facetScore(field,q);
+              }else if(scope==='title'){
+                field=e.tt||'';score=facetScore(field,q);
+              }else{
+                field=(e.c&&e.c[scope])||'';score=facetScore(field,q);
+              }
+              if(score>0)out.push({score,row:{url:e.f,meta:{title:e.t||e.f,issue:e.i||'',year:e.y||'',publication:e.p||''},plain_excerpt:facetExcerpt(field,q),excerpt:'',_archiveFacet:true,_facetScope:scope}});
+            }
+            out.sort((a,b)=>b.score-a.score||String(b.row.meta.year||'').localeCompare(String(a.row.meta.year||'')));
+            return out.slice(0,120).map(x=>x.row);
+          }
+
+          const QUIZ_SOURCES=[
+            {id:'quiz',label:'Videha Quiz',base:'https://videha-ejournal.github.io/videha-quiz/',index:'https://videha-ejournal.github.io/videha-quiz/pagefind/'},
+            {id:'rootquiz',label:'Videha Quiz · GitHub user site',base:'https://videha-ejournal.github.io/',index:'https://videha-ejournal.github.io/pagefind-quiz/'}
+          ];
+          const quizPfPromises=new Map();
+          function withTimeout(p,ms,fallback){return Promise.race([p,new Promise(resolve=>setTimeout(()=>resolve(fallback),ms))]);}
+          function quizUrl(src,u){
+            let x=String(u||'').trim(),suffix='';const m=x.match(/([?#].*)$/);if(m){suffix=m[1];x=x.slice(0,-m[1].length);}
+            if(/^https?:\/\//i.test(x))return x+suffix;
+            x=x.replace(/^\.?\/+/, '');
+            const project=new URL(src.base).pathname.replace(/^\/+|\/+$/g,'');
+            if(project&&x.startsWith(project+'/'))x=x.slice(project.length+1);
+            return src.base+x+suffix;
+          }
+          async function getQuizPagefind(src){
+            if(!quizPfPromises.has(src.id))quizPfPromises.set(src.id,(async()=>{
+              const mod=await import(src.index+'pagefind.js');let pf=mod;
+              if(mod.createInstance)pf=mod.createInstance({basePath:src.index,noWorker:true});
+              await pf.init();return pf;
+            })().catch(e=>{quizPfPromises.delete(src.id);throw e;}));
+            return quizPfPromises.get(src.id);
+          }
+          async function quizSearchOne(src,q,limit){
+            try{
+              const pf=await getQuizPagefind(src),merged=new Map();
+              for(const term of searchVariants(q)){
+                const found=await pf.search(term),raw=found.results||[],rows=await Promise.all(raw.slice(0,Math.max(30,limit||30)).map(r=>r.data()));
+                for(const row of rows){const url=quizUrl(src,row.url),key=url.replace(/[?#].*$/,'');if(!merged.has(key))merged.set(key,{...row,url,_quiz:true,_xscript:term!==q,_source:src.label});}
+              }
+              return [...merged.values()].slice(0,limit||60);
+            }catch(e){return[];}
+          }
+          async function quizSearch(q,limit){
+            const groups=await Promise.all(QUIZ_SOURCES.map(src=>withTimeout(quizSearchOne(src,q,limit||60),5000,[])));
+            return mergeUnique(groups[0]||[],groups[1]||[],limit||120);
+          }
+          function mergeUnique(primary,secondary,limit){
+            const out=[],seen=new Set(),a=primary||[],b=secondary||[],n=Math.max(a.length,b.length);
+            const add=r=>{if(!r)return;const k=String(r.url||'').replace(/[?#].*$/,'');if(!k||seen.has(k))return;seen.add(k);out.push(r);};
+            for(let i=0;i<n&&out.length<(limit||160);i++){add(a[i]);add(b[i]);}
+            return out;
+          }
+          function mergeAllWithQuiz(mainRows,quizRows,limit){
+            const out=[],seen=new Set(),a=mainRows||[],b=quizRows||[];let ai=0,bi=0;
+            const add=r=>{if(!r)return;const k=String(r.url||'').replace(/[?#].*$/,'');if(!k||seen.has(k))return;seen.add(k);out.push(r);};
+            while(out.length<(limit||160)&&(ai<a.length||bi<b.length)){
+              for(let k=0;k<3&&ai<a.length&&out.length<(limit||160);k++)add(a[ai++]);
+              if(bi<b.length&&out.length<(limit||160))add(b[bi++]);
+              if(ai>=a.length&&bi<b.length)add(b[bi++]);
+            }
+            return out;
+          }
+          /* ===== /historical archive facet index + external bilingual Quiz corpus ===== */
+
           function modePass(row,q){
             const qv=searchVariants(q).map(x=>normalizeDigits(x).toLocaleLowerCase());
             const title=normalizeDigits(plain(row.meta?.title||'')).toLocaleLowerCase();
@@ -846,11 +958,17 @@ line-height:115%;font-family:&quot;Noto Serif Devanagari&quot;">, </span>
             const batch=lastRows.slice(shown,shown+20);
             for(const row of batch){
               const li=document.createElement('li');li.className='vus-result';
-              const resolvedUrl=(window.VidehaCore?VidehaCore.resolveSearchUrl(row.url):row.url);
+              const resolvedUrl=(row._quiz||row._specialized||row._federated)?row.url:(window.VidehaCore?VidehaCore.resolveSearchUrl(row.url):row.url);
               const title=esc(row.meta?.title||resolvedUrl||'Videha result');
               let badge=activeScope!=='all'?`<span class="vus-badge">${esc(activeScope)}</span>`:'';
               if(row._fb) badge+=`<span class="vus-badge">ध्वन्यात्मक · phonetic</span>`;
               if(row._xscript) badge+=`<span class="vus-badge">Roman→देवनागरी</span>`;
+              if(row._archiveFacet) badge+=`<span class="vus-badge">पुरान अंक contents</span>`;
+              if(row._lexQuiz) badge+=`<span class="vus-badge">Quiz · Dictionary/Vocabulary</span>`;
+              else if(row._quiz) badge+=`<span class="vus-badge">Videha Quiz</span>`;
+              if(row._specialized&&!row._lexQuiz) badge+=`<span class="vus-badge">${esc(row._source||'specialized data')}</span>`;
+              if(row._federated) badge+=`<span class="vus-badge">${esc(row._source||'GitHub corpus')}</span>`;
+              if(row._pdfRepo) badge+=`<span class="vus-badge">PDF · GitHub</span>`;
               if(row._pdf) badge+=`<span class="vus-badge">PDF · archive.org</span>`;
               const author=row.meta?.author?`<span class="vus-badge">${esc(row.meta.author)}</span>`:'';
               li.innerHTML=`<a href="${esc(resolvedUrl)}">${title}</a>${author}${badge}<span class="vus-url">${esc(resolvedUrl)}</span><p class="vus-excerpt">${row.excerpt||esc(row.plain_excerpt||'')}</p>`;
@@ -859,77 +977,104 @@ line-height:115%;font-family:&quot;Noto Serif Devanagari&quot;">, </span>
             shown+=batch.length;
             moreBtn.hidden=shown>=lastRows.length;
           }
-          async function search(){
+          async function search(live=false){
             const my=++seq;
             const q=input.value.trim();
             if(!q){lastRows=[];list.innerHTML='';moreBtn.hidden=true;setStatus('खोजबाक लेल शब्द लिखू · Enter a search term.');return;}
-            setStatus('ताकल जा रहल अछि… · Searching…');
-            list.innerHTML='';moreBtn.hidden=true;
+            const nq=normalizeDigits(q).toLocaleLowerCase();
+            if(activeScope==='issue'&&!/^\d{1,4}$/.test(nq)){lastRows=[];list.innerHTML='';moreBtn.hidden=true;setStatus('अंक · Issue फिल्टरमे अंक-संख्या लिखू, जेना 117 वा ११७।');return;}
+            if(activeScope==='year'&&!/^(?:19|20)\d{2}$/.test(nq)){lastRows=[];list.innerHTML='';moreBtn.hidden=true;setStatus('वर्ष · Year फिल्टरमे चारि अंकक वर्ष लिखू, जेना 2012 वा २०१२।');return;}
+            setStatus('ताकल जा रहल अछि… · Searching…');list.innerHTML='';moreBtn.hidden=true;
+
             if(activeScope==='archive'){
-              const cat=await arGet();
-              if(my!==seq) return;
+              const cat=await arGet();if(my!==seq)return;
               const hits=arSearch(cat,q,60);
-              lastRows=hits.map(e=>({url:e.url,meta:{title:e.label},plain_excerpt:e.name+' · archive.org/'+AR_ITEM+(cat.stat.live?'':' (snapshot सूची)'),excerpt:'',_pdf:true}));
-              if(!lastRows.length){setStatus('कोनो PDF नहि भेटल · No matching PDF — सूची: विदेह १–'+(cat.stat.maxV||'?')+' · सदेह १–'+(cat.stat.maxS||'?'));return;}
-              setStatus(lastRows.length+' PDF · archive.org '+(cat.stat.live?'(जीवन्त सूची: विदेह १–'+cat.stat.maxV+', सदेह १–'+cat.stat.maxS+')':'(offline snapshot)'));
-              render(true);return;
+              const archiveOrgRows=hits.map(e=>({url:e.url,meta:{title:e.label},plain_excerpt:e.name+' · archive.org/'+AR_ITEM+(cat.stat.live?'':' (snapshot सूची)'),excerpt:'',_pdf:true}));
+              const githubPdfRows=window.VidehaFederatedSearch?await withTimeout(VidehaFederatedSearch.searchPdf(q,60).catch(()=>[]),5000,[]):[];
+              if(my!==seq)return;
+              lastRows=mergeUnique(archiveOrgRows,githubPdfRows,120);
+              if(!lastRows.length){setStatus('कोनो PDF नहि भेटल · No matching PDF in archive.org or Videha GitHub PDF catalogue.');return;}
+              setStatus(`${lastRows.length} PDF · archive.org + Videha GitHub PDF catalogue`);render(true);return;
             }
-            async function arPrepend(rowsIn){
-              if(!/(\d{1,3})|sadeha|सदेह|videha|विदेह|अंक/i.test(arDigits(q))) return rowsIn;
+
+            if(['Book','Audio/Video','Panji','Thesaurus','Dictionary'].includes(activeScope)){
               try{
-                const cat=await arGet();
-                const ph=arSearch(cat,q,5).map(e=>({url:e.url,meta:{title:e.label},plain_excerpt:e.name+' · archive.org',excerpt:'',_pdf:true}));
-                if(ph.length) return ph.concat(rowsIn);
-              }catch(err){}
+                if(!window.VidehaSpecializedSearch)throw new Error('specialized search module unavailable');
+                lastRows=await window.VidehaSpecializedSearch.search(activeScope,q,160);if(my!==seq)return;
+                if(!lastRows.length){setStatus('कोनो परिणाम नहि भेटल · No matching result in '+activeScope+' data.');return;}
+                const lexQuizCount=lastRows.filter(r=>r._lexQuiz).length;setStatus(`${lastRows.length} परिणाम · ${activeScope} authoritative data${lexQuizCount?' + '+lexQuizCount+' dictionary/vocabulary quiz':''}`);render(true);return;
+              }catch(err){console.error(activeScope+' search',err);setStatus(activeScope+' data search एखन उपलब्ध नहि अछि।');return;}
+            }
+
+            if(activeScope==='Quiz'){
+              try{
+                lastRows=await quizSearch(q,160);if(my!==seq)return;
+                if(!lastRows.length){setStatus('Videha Quiz corpus मे कोनो परिणाम नहि भेटल · No matching quiz result.');return;}
+                setStatus(`${lastRows.length} परिणाम · Videha Quiz (Maithili/Devanagari + English/Roman)`);render(true);return;
+              }catch(err){console.error('Videha Quiz search',err);setStatus('Videha Quiz index एखन उपलब्ध नहि अछि · Quiz Pagefind index is not available yet.');return;}
+            }
+
+            async function arPrepend(rowsIn){
+              if(!/(\d{1,3})|sadeha|सदेह|videha|विदेह|अंक/i.test(arDigits(q)))return rowsIn;
+              try{const cat=await arGet();const ph=arSearch(cat,q,5).map(e=>({url:e.url,meta:{title:e.label},plain_excerpt:e.name+' · archive.org',excerpt:'',_pdf:true}));if(ph.length)return mergeUnique(ph,rowsIn,160);}catch(err){}
               return rowsIn;
             }
             try{
               const pf=await getPagefind();
-              const nq=normalizeDigits(q).toLocaleLowerCase();
-              let term=q, opts={};
-              if(typeScopes.has(activeScope)){
-                opts={filters:{videha_type:activeScope}};
-              }else if(activeScope==='year' && /^(?:19|20)\d{2}$/.test(nq)){
-                term=null; opts={filters:{year:nq}};
-              }else if(activeScope==='issue' && /^\d{1,4}$/.test(nq)){
-                term=null; opts={filters:{issue:String(parseInt(nq,10))}};
-              }else if(activeScope==='author'){
-                const available=await pf.filters();
-                const qv=searchVariants(q).map(x=>normalizeDigits(x).toLocaleLowerCase());
-                const matches=Object.keys(available.author||{}).filter(a=>{const na=normalizeDigits(a).toLocaleLowerCase();return qv.some(x=>na.includes(x));}).slice(0,80);
-                if(matches.length){term=null;opts={filters:{author:{any:matches}}};}
-              }
-              const pfTerms=term===null?[null]:searchVariants(term);
-              const merged=new Map();let rawTotal=0;
-              for(const pfTerm of pfTerms){
-                const found=await pf.search(pfTerm,opts);
-                const rawPart=found.results||[];rawTotal+=rawPart.length;
-                const capPart=Math.min(rawPart.length,120);
-                const rowsPart=await Promise.all(rawPart.slice(0,capPart).map(r=>r.data()));
-                for(const row of rowsPart){
-                  const key=String(row.url||'').replace(/[?#].*$/,'');
-                  if(!merged.has(key)){if(pfTerm!==term)row._xscript=true;merged.set(key,row);}
+              async function pfRows(terms,opts){
+                const merged=new Map();let total=0;
+                for(const term of terms){
+                  const found=await pf.search(term,opts||{});const raw=found.results||[];total+=raw.length;
+                  const rows=await Promise.all(raw.slice(0,120).map(r=>r.data()));
+                  for(const row of rows){const key=String(row.url||'').replace(/[?#].*$/,'');if(!merged.has(key)){if(term!==q&&term!==null)row._xscript=true;merged.set(key,row);}}
                 }
+                return {rows:[...merged.values()],total};
               }
-              const rows=[...merged.values()];
-              if(my!==seq) return;
-              lastRows=rows.filter(r=>modePass(r,q));
+              const qv=searchVariants(q),available=(activeScope==='author'?await pf.filters():null);
+              let primary=[],facets=[],quizRows=[],specialRows=[],federatedRows=[],rawTotal=0;
+              if(activeScope==='all'){
+                const mainPromise=pfRows(qv,{});
+                const quizPromise=live?Promise.resolve([]):withTimeout(quizSearch(q,40).catch(()=>[]),5000,[]);
+                const specialPromise=live?Promise.resolve([]):(window.VidehaSpecializedSearch?withTimeout(window.VidehaSpecializedSearch.searchAll(q,6).catch(()=>[]),6000,[]):Promise.resolve([]));
+                const federatedPromise=live?Promise.resolve([]):(window.VidehaFederatedSearch?withTimeout(window.VidehaFederatedSearch.searchAll(q,18).catch(()=>[]),6000,[]):Promise.resolve([]));
+                const [z,qz,sz,fz]=await Promise.all([mainPromise,quizPromise,specialPromise,federatedPromise]);primary=z.rows;rawTotal=z.total;quizRows=qz;specialRows=sz;federatedRows=fz;
+              }else if(activeScope==='issue'){
+                const z=await pfRows([null],{filters:{issue:String(parseInt(nq,10))}});primary=z.rows;rawTotal=z.total;facets=await archiveFacetSearch(q,'issue');
+              }else if(activeScope==='year'){
+                const z=await pfRows([null],{filters:{year:nq}});primary=z.rows;rawTotal=z.total;facets=await archiveFacetSearch(q,'year');
+              }else if(activeScope==='author'){
+                const av=searchVariants(q).map(x=>normalizeDigits(x).toLocaleLowerCase());
+                const matches=Object.keys((available&&available.author)||{}).filter(a=>{const na=normalizeDigits(a).toLocaleLowerCase();return av.some(x=>x&&na.includes(x));}).slice(0,100);
+                if(matches.length){const z=await pfRows([null],{filters:{author:{any:matches}}});primary=z.rows;rawTotal=z.total;}
+                facets=await archiveFacetSearch(q,'author');
+              }else if(activeScope==='title'){
+                const z=await pfRows(qv,{});rawTotal=z.total;
+                primary=z.rows.filter(r=>{const t=normalizeDigits(plain(r.meta?.title||'')).toLocaleLowerCase();return qv.some(v=>t.includes(normalizeDigits(v).toLocaleLowerCase()));});
+                facets=await archiveFacetSearch(q,'title');
+              }else if(typeScopes.has(activeScope)){
+                const z=await pfRows(qv,{filters:{videha_type:activeScope}});primary=z.rows;rawTotal=z.total;
+                if(ARCHIVE_FACET_SCOPES.has(activeScope))facets=await archiveFacetSearch(q,activeScope);
+              }
+              if(my!==seq)return;
+              const mainMerged=mergeUnique(primary,facets,160);
+              lastRows=activeScope==='all'?mergeUnique(mergeUnique(mergeAllWithQuiz(mainMerged,quizRows,160),specialRows,180),federatedRows,220):mainMerged;
               if(!lastRows.length){
-                lastRows=await arPrepend(await jsonFallback(q));
-                if(my!==seq) return;
-                if(lastRows.length){setStatus(`${lastRows.length} परिणाम · matches (phonetic/PDF fallback)`);render(true);return;}
+                let fb=(activeScope==='author'||activeScope==='title'||activeScope==='issue'||activeScope==='year'||typeScopes.has(activeScope))?await jsonFallback(q):[];
+                lastRows=mergeUnique(fb,facets,160);lastRows=await arPrepend(lastRows);if(my!==seq)return;
+                if(lastRows.length){setStatus(`${lastRows.length} परिणाम · matches (fallback + historical archive contents)`);render(true);return;}
                 setStatus('कोनो परिणाम नहि भेटल · No results found.');return;
               }
-              lastRows=await arPrepend(lastRows);
-              if(my!==seq) return;
-              setStatus(`${lastRows.length}${rawTotal>lastRows.length?'+':''} परिणाम · results`);
-              render(true);
+              lastRows=await arPrepend(lastRows);if(my!==seq)return;
+              const facetCount=lastRows.filter(r=>r._archiveFacet).length,quizCount=lastRows.filter(r=>r._quiz).length,specialCount=lastRows.filter(r=>r._specialized).length,federatedCount=lastRows.filter(r=>r._federated).length;
+              setStatus(`${lastRows.length}${rawTotal>primary.length?'+':''} परिणाम · results${facetCount?' · '+facetCount+' पुरान अंक contents':''}${quizCount?' · '+quizCount+' quiz':''}${specialCount?' · '+specialCount+' specialized data':''}${federatedCount?' · '+federatedCount+' GitHub corpus':''}`);render(true);
             }catch(err){
-              console.error(err);
-              lastRows=await arPrepend(await jsonFallback(q));
-              if(my!==seq) return;
-              if(lastRows.length){setStatus(`${lastRows.length} परिणाम · matches (phonetic/PDF fallback)`);render(true);return;}
-              setStatus('Search index उपलब्ध नहि अछि। Repository मे pagefind/ बनलाक बाद, वा videha-search-index.json साइट-मूलमे रखलाक बाद ई खोज चलत। · Search index not available yet; run the included Pagefind build workflow, or place videha-search-index.json (from the Site Auditor) in the site root.');
+              console.error(err);let facets=[],quizRows=[],specialRows=[],federatedRows=[];
+              if(activeScope==='author'||activeScope==='title'||activeScope==='year'||activeScope==='issue'||ARCHIVE_FACET_SCOPES.has(activeScope))facets=await archiveFacetSearch(q,activeScope);
+              if(activeScope==='all'&&!live){quizRows=await quizSearch(q,40).catch(()=>[]);specialRows=window.VidehaSpecializedSearch?await window.VidehaSpecializedSearch.searchAll(q,6).catch(()=>[]):[];federatedRows=window.VidehaFederatedSearch?await window.VidehaFederatedSearch.searchAll(q,18).catch(()=>[]):[];}
+              const fb=await jsonFallback(q);let mainMerged=mergeUnique(fb,facets,160);
+              lastRows=activeScope==='all'?mergeUnique(mergeUnique(mergeAllWithQuiz(mainMerged,quizRows,160),specialRows,180),federatedRows,220):mainMerged;lastRows=await arPrepend(lastRows);if(my!==seq)return;
+              if(lastRows.length){setStatus(`${lastRows.length} परिणाम · matches (fallback + historical/quiz corpus)`);render(true);return;}
+              setStatus('Search index उपलब्ध नहि अछि। GitHub Pagefind / archive facet / quiz index जाँचू।');
             }
           }
           form.addEventListener('submit',e=>{e.preventDefault();search();});
@@ -937,7 +1082,7 @@ line-height:115%;font-family:&quot;Noto Serif Devanagari&quot;">, </span>
           input.addEventListener('input',()=>{
             clearTimeout(timer);
             const q=input.value.trim();
-            if(q.length>1){getPagefind().then(pf=>pf.preload(q)).catch(()=>{});timer=setTimeout(search,280);}
+            if(q.length>1){getPagefind().then(pf=>pf.preload(q)).catch(()=>{});timer=setTimeout(()=>search(true),450);}
             else if(!q){list.innerHTML='';lastRows=[];moreBtn.hidden=true;setStatus('');}
           });
           clearBtn.addEventListener('click',()=>{input.value='';list.innerHTML='';lastRows=[];moreBtn.hidden=true;setStatus('');input.focus();});
