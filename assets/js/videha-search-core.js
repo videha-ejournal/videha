@@ -12,6 +12,42 @@ const candidates=()=>[{u:"./pagefind/pagefind.js",source:"local"},{u:VidehaCore.
 function timeout(p,ms,label){return Promise.race([p,new Promise((_,rej)=>setTimeout(()=>rej(new Error(label||"Timed out")),ms))])}
 function norm(s){return String(s||"").toLocaleLowerCase().replace(/[“”"'`´’‘?!.:,;()\[\]{}\/\\|—–_-]+/g," ").replace(/\s+/g," ").trim()}
 function terms(q){const a=(norm(q).match(/[a-z0-9\u0900-\u097f]+/g)||[]).filter(t=>t.length>1&&!STOP.has(t));return [...new Set(a)]}
+
+/* Roman/IAST -> Devanagari query expansion. Original Roman query is always kept. */
+function romanWordVariants(w){
+  w=String(w||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
+  if(!w) return [];
+  const V=['aa','ii','ee','uu','oo','ai','au','ri','a','i','u','e','o'];
+  const C=['ksh','jny','chh','kh','gh','ch','jh','th','dh','ph','bh','sh','k','g','c','j','t','d','n','p','b','m','y','r','l','v','w','s','h','f','q','x','z'];
+  const toks=[];let i=0;
+  while(i<w.length){let hit='';for(const t of V.concat(C)){if(w.startsWith(t,i)&&t.length>hit.length)hit=t;}if(!hit){i++;continue;}toks.push(hit);i+=hit.length;}
+  const vowel=new Set(V);
+  const cmap={ksh:'क्ष',jny:'ज्ञ',chh:'छ',kh:'ख',gh:'घ',ch:'च',jh:'झ',th:'थ',dh:'ध',ph:'फ',bh:'भ',sh:'श',k:'क',g:'ग',c:'च',j:'ज',t:'त',d:'द',n:'न',p:'प',b:'ब',m:'म',y:'य',r:'र',l:'ल',v:'व',w:'व',s:'स',h:'ह',f:'फ',q:'क',x:'क्स',z:'ज'};
+  const indep={a:'अ',aa:'आ',i:'इ',ii:'ई',ee:'ई',u:'उ',uu:'ऊ',oo:'ऊ',e:'ए',ai:'ऐ',o:'ओ',au:'औ',ri:'ऋ'};
+  const mat={a:'',aa:'ा',i:'ि',ii:'ी',ee:'ी',u:'ु',uu:'ू',oo:'ू',e:'े',ai:'ै',o:'ो',au:'ौ',ri:'ृ'};
+  const aPos=[];for(let k=0;k<toks.length;k++)if(toks[k]==='a')aPos.push(k);
+  const cfg=[{long:new Set(),fin:false},{long:new Set(),fin:true}];
+  for(const ap of aPos.slice(0,3)){cfg.push({long:new Set([ap]),fin:false},{long:new Set([ap]),fin:true});}
+  function build(c){let out='';for(let k=0;k<toks.length;k++){const t=toks[k];if(vowel.has(t)){let vv=t;if(vv==='a'&&c.long.has(k))vv='aa';if(vv==='i'&&c.fin&&k===toks.length-1)vv='ii';out+=indep[vv]||'';continue;}out+=cmap[t]||'';const nt=toks[k+1];if(nt&&vowel.has(nt)){k++;let vv=nt;if(vv==='a'&&c.long.has(k))vv='aa';if(vv==='i'&&c.fin&&k===toks.length-1)vv='ii';out+=mat[vv]||'';}else if(nt&&!vowel.has(nt)){out+='्';}}return out;}
+  const base=[...new Set(cfg.map(build).filter(Boolean))];
+  const nasal=base.map(x=>x.replace(/न्(?=[कखगघचछजझटठडढतथदधपफबभ])/g,'ं'));
+  return [...new Set(base.concat(nasal))].slice(0,12);
+}
+function romanToDevaVariants(q){
+  const raw=String(q||'').trim();
+  if(!raw || /[\u0900-\u097f]/.test(raw) || !/[A-Za-z]/.test(raw)) return [];
+  const parts=raw.split(/\s+/).filter(Boolean);
+  if(!parts.length || parts.some(p=>!/^[A-Za-zÀ-ž]+$/.test(p))) return [];
+  let combos=[''];
+  for(const p of parts){const vs=romanWordVariants(p).slice(0,8);if(!vs.length)return[];const next=[];for(const a of combos)for(const b of vs)next.push((a+' '+b).trim());combos=[...new Set(next)].slice(0,20);}
+  return combos;
+}
+function searchVariants(q){
+  const original=String(q||'').trim(), out=[];
+  const add=x=>{x=String(x||'').trim();if(x&&!out.includes(x))out.push(x);};
+  add(original);romanToDevaVariants(original).forEach(add);return out;
+}
+
 const ENTITY_ALIASES={
   "vidyapati":["विद्यापति","vidyapati"],
   "vidyapathi":["विद्यापति","vidyapati"],
@@ -28,6 +64,7 @@ function queryVariants(q){
   const add=x=>{x=String(x||"").trim();if(x&&!out.includes(x))out.push(x)};
   add(base);
   if(ts.length===1&&ENTITY_ALIASES[ts[0]])ENTITY_ALIASES[ts[0]].forEach(add);
+  if(ts.every(t=>/^[a-z]+$/i.test(t)))romanToDevaVariants(base).forEach(add);
   return out;
 }
 function queryForSearch(q){return queryVariants(q)[0]||norm(q)}
@@ -138,5 +175,5 @@ async function search(q,opts){
   const dedup=dedupeRows(fallback);for(const r of dedup)r._rankScore=scoreRow(r,q);return diversify(dedup,limit);
 }
 async function filters(){try{return await timeout((await pagefind()).filters(),8000,"Pagefind filters timeout")}catch(e){return{}}}
-g.VidehaSearch={search,filters,pagefind,quickSearch,terms,queryForSearch,queryVariants,cleanText,sourceKey,source:()=>pfSource};
+g.VidehaSearch={search,filters,pagefind,quickSearch,terms,queryForSearch,queryVariants,romanToDevaVariants,cleanText,sourceKey,source:()=>pfSource};
 })(window);

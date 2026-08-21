@@ -1331,7 +1331,7 @@ font-family:&quot;Noto Serif Devanagari&quot;">, </span>
             <button type="button" class="vus-filter" data-scope="archive" aria-pressed="false">PDF-अभिलेख · Archive</button>
           </div>
           <div class="videha-digital-suite-links" data-pagefind-ignore="all" style="margin:.45em 0;text-align:center;font-size:.88rem"><a href="videha-digital-archive.html">Digital Archive</a> · <a href="videha-chatbot.html">Ask Videha</a> · <a href="videha-editor-studio.html">Editor Studio</a></div>
-<p class="vus-help" id="vus-help">लेखक/शीर्षक/अंक/वर्ष — खोज-विधा; शेष बटन विदेह-खण्ड फिल्टर। Author/Title/Issue/Year are search modes; the remaining buttons filter indexed Videha sections. Static Pagefind index — no search server. रोमन/IAST शब्दक ठीक परिणाम नहि भेटलापर ध्वन्यात्मक (phonetic) फॉलबैक स्वतः चलत। <strong>PDF-अभिलेख</strong> बटन archive.org/VidehaAndSadeha क जीवन्त सूची (सभ अंक + सदेह) मे ताकत — अंक-संख्या (जेना ४४५) लिखितहि सोझे PDF भेटत।</p>
+<p class="vus-help" id="vus-help">लेखक/शीर्षक/अंक/वर्ष — खोज-विधा; शेष बटन विदेह-खण्ड फिल्टर। Author/Title/Issue/Year are search modes; the remaining buttons filter indexed Videha sections. Static Pagefind index — no search server. रोमन/IAST खोजमे मूल Roman आ देवनागरी रूप दुनू एक संग सभ विदेह-सदेह corpus मे ताकल जाइत अछि। <strong>PDF-अभिलेख</strong> बटन archive.org/VidehaAndSadeha क जीवन्त सूची (सभ अंक + सदेह) मे ताकत — अंक-संख्या (जेना ४४५) लिखितहि सोझे PDF भेटत।</p>
           <div id="vus-status" role="status" aria-live="polite"></div>
           <ol id="vus-results" aria-label="Search results"></ol>
           <button class="vus-btn vus-btn--quiet vus-more" type="button" id="vus-more" hidden>आर परिणाम · More results</button>
@@ -1459,6 +1459,41 @@ font-family:&quot;Noto Serif Devanagari&quot;">, </span>
             }).join(" ").replace(/\s+/g," ").trim();
           }
           const rawN=x=>latinNorm(String(x).replace(/\s+/g," "));
+
+          /* Roman/IAST -> Devanagari query expansion. Original Roman query is always kept. */
+          function romanWordVariants(w){
+            w=String(w||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
+            if(!w) return [];
+            const V=['aa','ii','ee','uu','oo','ai','au','ri','a','i','u','e','o'];
+            const C=['ksh','jny','chh','kh','gh','ch','jh','th','dh','ph','bh','sh','k','g','c','j','t','d','n','p','b','m','y','r','l','v','w','s','h','f','q','x','z'];
+            const toks=[];let i=0;
+            while(i<w.length){let hit='';for(const t of V.concat(C)){if(w.startsWith(t,i)&&t.length>hit.length)hit=t;}if(!hit){i++;continue;}toks.push(hit);i+=hit.length;}
+            const vowel=new Set(V);
+            const cmap={ksh:'क्ष',jny:'ज्ञ',chh:'छ',kh:'ख',gh:'घ',ch:'च',jh:'झ',th:'थ',dh:'ध',ph:'फ',bh:'भ',sh:'श',k:'क',g:'ग',c:'च',j:'ज',t:'त',d:'द',n:'न',p:'प',b:'ब',m:'म',y:'य',r:'र',l:'ल',v:'व',w:'व',s:'स',h:'ह',f:'फ',q:'क',x:'क्स',z:'ज'};
+            const indep={a:'अ',aa:'आ',i:'इ',ii:'ई',ee:'ई',u:'उ',uu:'ऊ',oo:'ऊ',e:'ए',ai:'ऐ',o:'ओ',au:'औ',ri:'ऋ'};
+            const mat={a:'',aa:'ा',i:'ि',ii:'ी',ee:'ी',u:'ु',uu:'ू',oo:'ू',e:'े',ai:'ै',o:'ो',au:'ौ',ri:'ृ'};
+            const aPos=[];for(let k=0;k<toks.length;k++)if(toks[k]==='a')aPos.push(k);
+            const cfg=[{long:new Set(),fin:false},{long:new Set(),fin:true}];
+            for(const ap of aPos.slice(0,3)){cfg.push({long:new Set([ap]),fin:false},{long:new Set([ap]),fin:true});}
+            function build(c){let out='';for(let k=0;k<toks.length;k++){const t=toks[k];if(vowel.has(t)){let vv=t;if(vv==='a'&&c.long.has(k))vv='aa';if(vv==='i'&&c.fin&&k===toks.length-1)vv='ii';out+=indep[vv]||'';continue;}out+=cmap[t]||'';const nt=toks[k+1];if(nt&&vowel.has(nt)){k++;let vv=nt;if(vv==='a'&&c.long.has(k))vv='aa';if(vv==='i'&&c.fin&&k===toks.length-1)vv='ii';out+=mat[vv]||'';}else if(nt&&!vowel.has(nt)){out+='्';}}return out;}
+            const base=[...new Set(cfg.map(build).filter(Boolean))];
+            const nasal=base.map(x=>x.replace(/न्(?=[कखगघचछजझटठडढतथदधपफबभ])/g,'ं'));
+            return [...new Set(base.concat(nasal))].slice(0,12);
+          }
+          function romanToDevaVariants(q){
+            const raw=String(q||'').trim();
+            if(!raw || /[\u0900-\u097f]/.test(raw) || !/[A-Za-z]/.test(raw)) return [];
+            const parts=raw.split(/\s+/).filter(Boolean);
+            if(!parts.length || parts.some(p=>!/^[A-Za-zÀ-ž]+$/.test(p))) return [];
+            let combos=[''];
+            for(const p of parts){const vs=romanWordVariants(p).slice(0,8);if(!vs.length)return[];const next=[];for(const a of combos)for(const b of vs)next.push((a+' '+b).trim());combos=[...new Set(next)].slice(0,20);}
+            return combos;
+          }
+          function searchVariants(q){
+            const original=String(q||'').trim(), out=[];
+            const add=x=>{x=String(x||'').trim();if(x&&!out.includes(x))out.push(x);};
+            add(original);romanToDevaVariants(original).forEach(add);return out;
+          }
           const FBCAT={Prose:"prose",Poetry:"poetry",Research:"research",Book:"book",Quiz:"quiz",
             "Audio/Video":"av",Panji:"panji",Thesaurus:"thesaurus",Dictionary:"dictionary"};
           let fbIndex=null, fbTried=false;
@@ -1506,12 +1541,12 @@ font-family:&quot;Noto Serif Devanagari&quot;">, </span>
           /* ===== /phonetic fallback ===== */
 
           function modePass(row,q){
-            const nq=normalizeDigits(q).toLocaleLowerCase();
+            const qv=searchVariants(q).map(x=>normalizeDigits(x).toLocaleLowerCase());
             const title=normalizeDigits(plain(row.meta?.title||'')).toLocaleLowerCase();
-            if(activeScope==='title') return title.includes(nq);
+            if(activeScope==='title') return qv.some(x=>title.includes(x));
             if(activeScope==='author'){
               const author=normalizeDigits(plain(row.meta?.author||'')).toLocaleLowerCase();
-              return author ? author.includes(nq) : false;
+              return author ? qv.some(x=>author.includes(x)) : false;
             }
             return true;
           }
@@ -1524,6 +1559,7 @@ font-family:&quot;Noto Serif Devanagari&quot;">, </span>
               const title=esc(row.meta?.title||resolvedUrl||'Videha result');
               let badge=activeScope!=='all'?`<span class="vus-badge">${esc(activeScope)}</span>`:'';
               if(row._fb) badge+=`<span class="vus-badge">ध्वन्यात्मक · phonetic</span>`;
+              if(row._xscript) badge+=`<span class="vus-badge">Roman→देवनागरी</span>`;
               if(row._pdf) badge+=`<span class="vus-badge">PDF · archive.org</span>`;
               const author=row.meta?.author?`<span class="vus-badge">${esc(row.meta.author)}</span>`:'';
               li.innerHTML=`<a href="${esc(resolvedUrl)}">${title}</a>${author}${badge}<span class="vus-url">${esc(resolvedUrl)}</span><p class="vus-excerpt">${row.excerpt||esc(row.plain_excerpt||'')}</p>`;
@@ -1568,13 +1604,23 @@ font-family:&quot;Noto Serif Devanagari&quot;">, </span>
                 term=null; opts={filters:{issue:String(parseInt(nq,10))}};
               }else if(activeScope==='author'){
                 const available=await pf.filters();
-                const matches=Object.keys(available.author||{}).filter(a=>normalizeDigits(a).toLocaleLowerCase().includes(nq)).slice(0,80);
+                const qv=searchVariants(q).map(x=>normalizeDigits(x).toLocaleLowerCase());
+                const matches=Object.keys(available.author||{}).filter(a=>{const na=normalizeDigits(a).toLocaleLowerCase();return qv.some(x=>na.includes(x));}).slice(0,80);
                 if(matches.length){term=null;opts={filters:{author:{any:matches}}};}
               }
-              const found=await pf.search(term,opts);
-              const raw=found.results||[];
-              const cap=Math.min(raw.length,120);
-              const rows=await Promise.all(raw.slice(0,cap).map(r=>r.data()));
+              const pfTerms=term===null?[null]:searchVariants(term);
+              const merged=new Map();let rawTotal=0;
+              for(const pfTerm of pfTerms){
+                const found=await pf.search(pfTerm,opts);
+                const rawPart=found.results||[];rawTotal+=rawPart.length;
+                const capPart=Math.min(rawPart.length,120);
+                const rowsPart=await Promise.all(rawPart.slice(0,capPart).map(r=>r.data()));
+                for(const row of rowsPart){
+                  const key=String(row.url||'').replace(/[?#].*$/,'');
+                  if(!merged.has(key)){if(pfTerm!==term)row._xscript=true;merged.set(key,row);}
+                }
+              }
+              const rows=[...merged.values()];
               if(my!==seq) return;
               lastRows=rows.filter(r=>modePass(r,q));
               if(!lastRows.length){
@@ -1585,7 +1631,7 @@ font-family:&quot;Noto Serif Devanagari&quot;">, </span>
               }
               lastRows=await arPrepend(lastRows);
               if(my!==seq) return;
-              setStatus(`${lastRows.length}${raw.length>cap?'+':''} परिणाम · results`);
+              setStatus(`${lastRows.length}${rawTotal>lastRows.length?'+':''} परिणाम · results`);
               render(true);
             }catch(err){
               console.error(err);
