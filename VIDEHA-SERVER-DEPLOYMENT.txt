@@ -1,0 +1,7 @@
+VIDEHA_SERVER — lightweight canonical deployment
+Generated 20 August 2026
+
+Not included by design: pagefind/, search-documents/, .github/, tools/.
+Universal search falls back to the GitHub Pagefind bundle.
+Ordinary/current/static results open on www.videha.co.in; historical generated search-documents open on GitHub.
+Upload the CONTENTS of this folder to the Videha server root.
