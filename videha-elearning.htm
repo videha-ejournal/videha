@@ -768,69 +768,110 @@ summary{ list-style:none; }
 <script src="assets/js/videha-github-link-guard.js?v=20260821l-linkguard-display" defer></script>
 
 <style id="videha-ppt-teaching-course-style">
-/* ============================================================
-   VIDEHA PPTs · Videha Teaching Course
-   Quiet editorial presentation library; scoped to this section.
-   ============================================================ */
+/* VIDEHA PPTs · expandable Teaching Course library */
 .vd-ppt-course-wrap{
   max-width:900px;
   margin:18px auto 28px;
   padding:0 1rem;
   box-sizing:border-box;
 }
-.vd-ppt-course{
+.vd-ppt-course-details{
   background:var(--vd-cream,#FAF6EE);
   border:1px solid var(--vd-rule,#D8CFC0);
-  border-top:4px solid var(--vd-crimson,#8B1A1A);
+  border-left:5px solid var(--vd-gold,#C49A3C);
   box-shadow:none;
 }
-.vd-ppt-course-head{
-  padding:18px 20px 16px;
-  border-bottom:1px solid var(--vd-rule,#D8CFC0);
-  background:#FFFCF6;
-}
-.vd-ppt-course-kicker{
-  margin:0 0 7px;
-  color:var(--vd-gold,#C49A3C) !important;
-  font-family:'Libre Baskerville',Georgia,serif !important;
-  font-size:.74rem !important;
-  font-weight:700 !important;
-  letter-spacing:.14em !important;
-  text-transform:uppercase;
-}
-#content .vd-ppt-course-title,.vd-ppt-course-title{
+.vd-ppt-course-summary{
   display:flex;
   align-items:center;
-  gap:11px;
-  flex-wrap:wrap;
-  margin:0;
-  color:var(--vd-crimson,#8B1A1A) !important;
-  font-family:'Playfair Display','Noto Serif Devanagari',Georgia,serif !important;
-  font-size:1.34rem !important;
-  font-weight:800 !important;
-  line-height:1.28 !important;
+  gap:14px;
+  padding:13px 16px;
+  cursor:pointer;
+  list-style:none;
+  user-select:none;
+  background:var(--vd-cream,#FAF6EE);
 }
-.vd-ppt-flags{
+.vd-ppt-course-summary::-webkit-details-marker{display:none;}
+.vd-ppt-course-summary .mh-flags{
+  display:flex !important;
+  align-items:center !important;
+  gap:9px !important;
+  flex-shrink:0 !important;
+}
+.vd-ppt-course-summary .mh-flag-svg{
+  width:58px !important;
+  height:auto !important;
+  display:block !important;
+  filter:drop-shadow(0 1px 1px rgba(0,0,0,.12));
+}
+.vd-ppt-course-summary .mh-new-copy{
+  display:flex !important;
+  flex-direction:column !important;
+  gap:3px !important;
+  min-width:0 !important;
+  flex:1 1 auto;
+}
+#content .vd-ppt-course-summary .mh-new-badge,
+.vd-ppt-course-summary .mh-new-badge{
+  display:inline-flex !important;
+  align-self:flex-start !important;
+  background:var(--vd-cream,#FAF6EE) !important;
+  color:var(--vd-crimson,#8B1A1A) !important;
+  border:2px solid var(--vd-crimson,#8B1A1A) !important;
+  font-family:'Libre Baskerville',Georgia,serif !important;
+  font-size:.78rem !important;
+  font-weight:900 !important;
+  letter-spacing:.16em !important;
+  padding:3px 9px !important;
+  line-height:1.1 !important;
+  text-shadow:none !important;
+}
+#content .vd-ppt-course-summary .mh-new-title,
+.vd-ppt-course-summary .mh-new-title{
+  font-family:'Playfair Display','Noto Serif Devanagari',Georgia,serif !important;
+  color:var(--vd-crimson,#8B1A1A) !important;
+  font-weight:900 !important;
+  font-size:1.18rem !important;
+  letter-spacing:.03em !important;
+  line-height:1.25 !important;
+  text-shadow:none !important;
+}
+#content .vd-ppt-course-summary .mh-new-sub,
+.vd-ppt-course-summary .mh-new-sub{
+  font-family:'Noto Serif Devanagari','Libre Baskerville',serif !important;
+  color:var(--vd-ink-soft,#544D42) !important;
+  font-size:.86rem !important;
+  line-height:1.35 !important;
+  text-shadow:none !important;
+}
+.vd-ppt-course-toggle{
+  display:flex;
+  align-items:center;
+  gap:7px;
+  flex:0 0 auto;
+  color:var(--vd-gold,#C49A3C);
+}
+.vd-ppt-course-triangle{
   display:inline-flex;
   align-items:center;
-  gap:4px;
-  padding:3px 8px;
-  border:1px solid var(--vd-rule,#D8CFC0);
-  background:#fff;
-  font-family:"Segoe UI Emoji","Apple Color Emoji","Noto Color Emoji",sans-serif !important;
-  font-size:1.2rem !important;
-  line-height:1 !important;
-  letter-spacing:0 !important;
+  justify-content:center;
+  color:var(--vd-gold,#C49A3C) !important;
+  font-size:1rem !important;
+  line-height:1;
+  transition:transform .2s ease;
 }
-#content .vd-ppt-course-sub,.vd-ppt-course-sub{
-  margin:8px 0 0;
-  color:var(--vd-ink-soft,#544D42) !important;
+.vd-ppt-course-details[open] .vd-ppt-course-triangle{transform:rotate(90deg);}
+#content .vd-ppt-course-open,.vd-ppt-course-open{
+  color:var(--vd-gold,#C49A3C) !important;
   font-family:'Noto Serif Devanagari','Libre Baskerville',Georgia,serif !important;
-  font-size:.86rem !important;
-  line-height:1.5 !important;
+  font-size:.84rem !important;
+  font-weight:700 !important;
+  white-space:nowrap;
 }
 .vd-ppt-course-body{
-  padding:15px 18px 17px;
+  padding:14px 16px 17px;
+  border-top:1px solid var(--vd-rule-soft,#E7DECB);
+  background:#FFFCF6;
 }
 .vd-ppt-grid{
   display:grid;
@@ -918,16 +959,25 @@ summary{ list-style:none; }
 }
 @media(max-width:600px){
   .vd-ppt-course-wrap{padding:0 .75rem;margin-top:14px;}
-  .vd-ppt-course-head{padding:15px 14px 13px;}
+  .vd-ppt-course-summary{align-items:flex-start;gap:10px;padding:11px 12px;}
+  .vd-ppt-course-summary .mh-flag-svg{width:46px !important;}
+  #content .vd-ppt-course-summary .mh-new-title,
+  .vd-ppt-course-summary .mh-new-title{font-size:1rem !important;}
+  #content .vd-ppt-course-summary .mh-new-badge,
+  .vd-ppt-course-summary .mh-new-badge{font-size:.72rem !important;letter-spacing:.12em !important;}
+  .vd-ppt-course-toggle{margin-left:auto;padding-top:4px;}
   .vd-ppt-course-body{padding:12px;}
   .vd-ppt-card{padding:13px 12px;}
-  #content .vd-ppt-course-title,.vd-ppt-course-title{font-size:1.08rem !important;}
-  .vd-ppt-flags{font-size:1.02rem !important;}
   .vd-ppt-actions{display:grid;grid-template-columns:1fr;}
   #content .vd-ppt-action,.vd-ppt-action{width:100%;}
 }
+@media(max-width:480px){
+  .vd-ppt-course-summary{flex-wrap:wrap;}
+  .vd-ppt-course-summary .mh-new-copy{min-width:170px !important;}
+  .vd-ppt-course-toggle{width:100%;justify-content:flex-end;padding-top:0;}
+}
 @media(prefers-reduced-motion:reduce){
-  .vd-ppt-action{transition:none !important;}
+  .vd-ppt-action,.vd-ppt-course-triangle{transition:none !important;}
 }
 </style>
 
@@ -1042,15 +1092,49 @@ summary{ list-style:none; }
 
 <!-- VIDEHA PPTs · Videha Teaching Course -->
 <div class="vd-ppt-course-wrap" id="sec-videha-ppts">
-  <section class="vd-ppt-course" aria-labelledby="videha-ppt-course-title">
-    <header class="vd-ppt-course-head">
-      <p class="vd-ppt-course-kicker">VIDEHA PPTs · TEACHING COURSE</p>
-      <h2 class="vd-ppt-course-title" id="videha-ppt-course-title">
-        <span class="vd-ppt-flags" role="img" aria-label="India and Nepal flags">🇮🇳 🇳🇵</span>
-        <span>Videha PPTs — Videha Teaching Course</span>
-      </h2>
-      <p class="vd-ppt-course-sub">भारत · नेपाल · मिथिला — विदेह ई-लर्निङ्गक प्रस्तुति आ शिक्षण-सामग्री</p>
-    </header>
+  <details class="vd-ppt-course-details">
+    <summary class="vd-ppt-course-summary" aria-label="Videha PPTs — Videha Teaching Course खोलू">
+      <div class="mh-flags" aria-hidden="true">
+        <svg class="mh-flag-svg" viewBox="0 0 900 600" role="img" aria-label="India flag" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" fill="#fff"/>
+  <rect width="900" height="200" fill="#FF9933"/>
+  <rect y="400" width="900" height="200" fill="#138808"/>
+  <circle cx="450" cy="300" r="62" fill="none" stroke="#000080" stroke-width="10"/>
+  <circle cx="450" cy="300" r="9" fill="#000080"/>
+  <g stroke="#000080" stroke-width="4">
+    <line x1="450" y1="238" x2="450" y2="362"/>
+    <line x1="388" y1="300" x2="512" y2="300"/>
+    <line x1="406" y1="256" x2="494" y2="344"/>
+    <line x1="494" y1="256" x2="406" y2="344"/>
+    <line x1="426" y1="243" x2="474" y2="357"/>
+    <line x1="474" y1="243" x2="426" y2="357"/>
+    <line x1="393" y1="276" x2="507" y2="324"/>
+    <line x1="507" y1="276" x2="393" y2="324"/>
+  </g>
+</svg>
+        <svg class="mh-flag-svg" viewBox="0 0 520 640" role="img" aria-label="Nepal flag" xmlns="http://www.w3.org/2000/svg">
+  <path d="M38 22 L38 610 L392 430 L160 304 L392 304 Z" fill="#003893"/>
+  <path d="M70 78 L70 558 L314 434 L110 322 L314 322 Z" fill="#DC143C"/>
+  <circle cx="139" cy="222" r="48" fill="#fff"/>
+  <circle cx="139" cy="194" r="45" fill="#DC143C"/>
+  <g fill="#fff">
+    <circle cx="145" cy="442" r="43"/>
+    <g transform="translate(145 442)">
+      <polygon points="0,-76 12,-32 54,-54 32,-12 76,0 32,12 54,54 12,32 0,76 -12,32 -54,54 -32,12 -76,0 -32,-12 -54,-54 -12,-32"/>
+    </g>
+  </g>
+</svg>
+      </div>
+      <div class="mh-new-copy">
+        <span class="mh-new-badge">NEW</span>
+        <span class="mh-new-title">Videha PPTs — Videha Teaching Course</span>
+        <span class="mh-new-sub">भारत आ नेपाल · मिथिला · विदेह ई-लर्निङ्ग प्रस्तुति आ शिक्षण-सामग्री</span>
+      </div>
+      <span class="vd-ppt-course-toggle">
+        <span class="vd-ppt-course-triangle" aria-hidden="true">▶</span>
+        <span class="vd-ppt-course-open">खोलू</span>
+      </span>
+    </summary>
 
     <div class="vd-ppt-course-body">
       <div class="vd-ppt-grid">
@@ -1084,9 +1168,8 @@ summary{ list-style:none; }
         </article>
       </div>
     </div>
-  </section>
+  </details>
 </div>
-
 
 <!-- ══════════════════════════════════════════
          QUIZ HUB
