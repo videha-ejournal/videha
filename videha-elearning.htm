@@ -766,6 +766,171 @@ summary{ list-style:none; }
 <meta data-pagefind-filter="year[content]" content="2000">
 <script src="assets/js/videha-core.js?v=20260821i-routing2"></script>
 <script src="assets/js/videha-github-link-guard.js?v=20260821l-linkguard-display" defer></script>
+
+<style id="videha-ppt-teaching-course-style">
+/* ============================================================
+   VIDEHA PPTs · Videha Teaching Course
+   Quiet editorial presentation library; scoped to this section.
+   ============================================================ */
+.vd-ppt-course-wrap{
+  max-width:900px;
+  margin:18px auto 28px;
+  padding:0 1rem;
+  box-sizing:border-box;
+}
+.vd-ppt-course{
+  background:var(--vd-cream,#FAF6EE);
+  border:1px solid var(--vd-rule,#D8CFC0);
+  border-top:4px solid var(--vd-crimson,#8B1A1A);
+  box-shadow:none;
+}
+.vd-ppt-course-head{
+  padding:18px 20px 16px;
+  border-bottom:1px solid var(--vd-rule,#D8CFC0);
+  background:#FFFCF6;
+}
+.vd-ppt-course-kicker{
+  margin:0 0 7px;
+  color:var(--vd-gold,#C49A3C) !important;
+  font-family:'Libre Baskerville',Georgia,serif !important;
+  font-size:.74rem !important;
+  font-weight:700 !important;
+  letter-spacing:.14em !important;
+  text-transform:uppercase;
+}
+#content .vd-ppt-course-title,.vd-ppt-course-title{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  flex-wrap:wrap;
+  margin:0;
+  color:var(--vd-crimson,#8B1A1A) !important;
+  font-family:'Playfair Display','Noto Serif Devanagari',Georgia,serif !important;
+  font-size:1.34rem !important;
+  font-weight:800 !important;
+  line-height:1.28 !important;
+}
+.vd-ppt-flags{
+  display:inline-flex;
+  align-items:center;
+  gap:4px;
+  padding:3px 8px;
+  border:1px solid var(--vd-rule,#D8CFC0);
+  background:#fff;
+  font-family:"Segoe UI Emoji","Apple Color Emoji","Noto Color Emoji",sans-serif !important;
+  font-size:1.2rem !important;
+  line-height:1 !important;
+  letter-spacing:0 !important;
+}
+#content .vd-ppt-course-sub,.vd-ppt-course-sub{
+  margin:8px 0 0;
+  color:var(--vd-ink-soft,#544D42) !important;
+  font-family:'Noto Serif Devanagari','Libre Baskerville',Georgia,serif !important;
+  font-size:.86rem !important;
+  line-height:1.5 !important;
+}
+.vd-ppt-course-body{
+  padding:15px 18px 17px;
+}
+.vd-ppt-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:12px;
+}
+.vd-ppt-card{
+  background:#FFFCF6;
+  border:1px solid var(--vd-rule,#D8CFC0);
+  border-left:4px solid var(--vd-gold,#C49A3C);
+  padding:15px 16px 14px;
+}
+#content .vd-ppt-card-title,.vd-ppt-card-title{
+  margin:0 0 5px;
+  color:var(--vd-ink,#23201B) !important;
+  font-family:'Playfair Display','Noto Serif Devanagari',Georgia,serif !important;
+  font-size:1.05rem !important;
+  font-weight:700 !important;
+  line-height:1.4 !important;
+}
+#content .vd-ppt-card-meta,.vd-ppt-card-meta{
+  margin:0 0 12px;
+  color:var(--vd-ink-soft,#544D42) !important;
+  font-family:'Noto Serif Devanagari','Libre Baskerville',Georgia,serif !important;
+  font-size:.79rem !important;
+  line-height:1.45 !important;
+}
+.vd-ppt-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  align-items:center;
+}
+#content .vd-ppt-action,.vd-ppt-action{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+  min-height:38px;
+  padding:8px 12px;
+  box-sizing:border-box;
+  text-decoration:none !important;
+  border:1px solid var(--vd-crimson,#8B1A1A);
+  background:transparent;
+  color:var(--vd-crimson,#8B1A1A) !important;
+  font-family:'Noto Serif Devanagari','Libre Baskerville',Georgia,serif !important;
+  font-size:.8rem !important;
+  font-weight:700 !important;
+  line-height:1.25 !important;
+  transition:background .15s,color .15s,border-color .15s;
+}
+#content .vd-ppt-action:hover,#content .vd-ppt-action:focus,
+.vd-ppt-action:hover,.vd-ppt-action:focus{
+  background:var(--vd-crimson,#8B1A1A) !important;
+  color:#fff !important;
+  outline:none;
+}
+#content .vd-ppt-action.vd-ppt-primary,.vd-ppt-action.vd-ppt-primary{
+  background:var(--vd-crimson,#8B1A1A);
+  color:#fff !important;
+}
+#content .vd-ppt-action.vd-ppt-primary:hover,#content .vd-ppt-action.vd-ppt-primary:focus,
+.vd-ppt-action.vd-ppt-primary:hover,.vd-ppt-action.vd-ppt-primary:focus{
+  background:var(--vd-ink,#23201B) !important;
+  border-color:var(--vd-ink,#23201B) !important;
+}
+.vd-ppt-source{
+  display:inline-block;
+  margin-left:2px;
+  color:var(--vd-gold,#C49A3C);
+  font-family:'Libre Baskerville',Georgia,serif;
+  font-size:.68rem;
+  font-weight:700;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+}
+#content .vd-ppt-note,.vd-ppt-note{
+  margin:11px 0 0;
+  padding-top:9px;
+  border-top:1px solid var(--vd-rule-soft,#E7DECB);
+  color:var(--vd-ink-soft,#544D42) !important;
+  font-family:'Noto Serif Devanagari','Libre Baskerville',Georgia,serif !important;
+  font-size:.74rem !important;
+  line-height:1.55 !important;
+}
+@media(max-width:600px){
+  .vd-ppt-course-wrap{padding:0 .75rem;margin-top:14px;}
+  .vd-ppt-course-head{padding:15px 14px 13px;}
+  .vd-ppt-course-body{padding:12px;}
+  .vd-ppt-card{padding:13px 12px;}
+  #content .vd-ppt-course-title,.vd-ppt-course-title{font-size:1.08rem !important;}
+  .vd-ppt-flags{font-size:1.02rem !important;}
+  .vd-ppt-actions{display:grid;grid-template-columns:1fr;}
+  #content .vd-ppt-action,.vd-ppt-action{width:100%;}
+}
+@media(prefers-reduced-motion:reduce){
+  .vd-ppt-action{transition:none !important;}
+}
+</style>
+
 </head>
 <body>
 <a class="videha-skip" href="#videha-main">मुख्य सामग्रीपर जाउ · Skip to main content</a>
@@ -873,6 +1038,55 @@ summary{ list-style:none; }
 </div>
 </details>
 </div>
+
+
+<!-- VIDEHA PPTs · Videha Teaching Course -->
+<div class="vd-ppt-course-wrap" id="sec-videha-ppts">
+  <section class="vd-ppt-course" aria-labelledby="videha-ppt-course-title">
+    <header class="vd-ppt-course-head">
+      <p class="vd-ppt-course-kicker">VIDEHA PPTs · TEACHING COURSE</p>
+      <h2 class="vd-ppt-course-title" id="videha-ppt-course-title">
+        <span class="vd-ppt-flags" role="img" aria-label="India and Nepal flags">🇮🇳 🇳🇵</span>
+        <span>Videha PPTs — Videha Teaching Course</span>
+      </h2>
+      <p class="vd-ppt-course-sub">भारत · नेपाल · मिथिला — विदेह ई-लर्निङ्गक प्रस्तुति आ शिक्षण-सामग्री</p>
+    </header>
+
+    <div class="vd-ppt-course-body">
+      <div class="vd-ppt-grid">
+        <article class="vd-ppt-card">
+          <h3 class="vd-ppt-card-title">Gohi Sabhak Beech Jalsamadhi Teaching Course</h3>
+          <p class="vd-ppt-card-meta">गजेन्द्र ठाकुर · Videha Teaching Course · PowerPoint presentation</p>
+
+          <div class="vd-ppt-actions">
+            <a class="vd-ppt-action vd-ppt-primary"
+               href="https://videha-ejournal.github.io/videha-ejournal/Videha_Teaching_Water_Burial.html"
+               target="_blank" rel="noopener">
+              ◉ Browser · ब्राउजरमे खोलू
+            </a>
+
+            <a class="vd-ppt-action"
+               href="https://videha-ejournal.github.io/videha-ejournal/Videha_Teaching_Water_Burial.pptx"
+               target="_blank" rel="noopener">
+              PPTX ↓ <span class="vd-ppt-source">GitHub</span>
+            </a>
+
+            <a class="vd-ppt-action"
+               href="https://archive.org/download/videha-petar-2/Gohi_Jalsamadhi_Teaching_merge.pptx"
+               target="_blank" rel="noopener">
+              PPTX ↓ <span class="vd-ppt-source">Archive.org</span>
+            </a>
+          </div>
+
+          <p class="vd-ppt-note">
+            Browser लिंक प्रस्तुति-पृष्ठ खोलैत अछि; PPTX लिंक मूल PowerPoint फाइल सीधे खोलबाक/डाउनलोड करबाक लेल अछि।
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+</div>
+
 
 <!-- ══════════════════════════════════════════
          QUIZ HUB
