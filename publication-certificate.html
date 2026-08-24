@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="mai">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>VIDEHA / SADEHA Self-Certified Publication Certificate</title>
+  <meta name="description" content="Authors published in VIDEHA or SADEHA can prepare a self-certified publication certificate with issue details and QR links to both Videha websites.">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/videha.css?v=20260810b">
+  <link rel="stylesheet" href="assets/css/videha-studio.css?v=20260820">
+  <link rel="stylesheet" href="assets/css/videha-certificate.css?v=20260824">
+  <script src="assets/js/videha-core.js?v=20260820"></script>
+</head>
+<body class="vpc-body">
+  <a class="vds-skip" href="#main">मुख्य सामग्री पर जाउ · Skip to main content</a>
+  <div class="vpc-app">
+    <header class="vpc-head">
+      <div class="vpc-kicker">VIDEHA · प्रथम मैथिली पाक्षिक ई-पत्रिका · ISSN 2229-547X</div>
+      <h1>स्व-प्रमाणित प्रकाशन प्रमाणपत्र</h1>
+      <p class="vpc-sub">Self-Certified Publication Certificate for VIDEHA / SADEHA Authors</p>
+      <nav class="vpc-nav" aria-label="Videha tools">
+        <a href="index.htm">VIDEHA Home</a>
+        <a href="videha-universal-search.htm">Search all Videha</a>
+        <a href="videha-digital-archive.html">Digital Archive</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="vpc-notice" aria-label="Important notice">
+        <strong>Self-certified:</strong> ई प्रमाणपत्र लेखक द्वारा भरल विवरण पर आधारित अछि। लेखकक नाम अभिलेखमे खोजल जा सकैत अछि, मुदा ई सम्पादकीय कार्यालय द्वारा हस्ताक्षरित वा आधिकारिक सत्यापन प्रमाणपत्र नहि अछि।
+        <span>This certificate records the author’s own declaration; it is not a digitally signed editorial verification.</span>
+        <span>नाम, शीर्षक आ प्रमाणपत्र विवरण browser मे रहैत अछि; कोनो form data server पर upload नहि होइत अछि। · Entered certificate details stay in your browser and are not uploaded.</span>
+      </section>
+
+      <div class="vpc-workspace">
+        <section class="vpc-panel" aria-labelledby="formTitle">
+          <h2 id="formTitle">अपन प्रकाशन खोजू · Find your publication</h2>
+          <p class="vpc-help">लेखकक नाम लिखि अभिलेख खोजू, सही अंक चुनू, आ लेख/रचनाक शीर्षक स्वयं भरू। Article titles remain self-declared because the historical archive does not reliably map every title to its author.</p>
+
+          <div class="vpc-search-row">
+            <label class="vpc-field grow" for="authorSearch">
+              <span>लेखकक नाम · Author name</span>
+              <input id="authorSearch" type="search" autocomplete="name" maxlength="120" placeholder="जेना: गजेन्द्र ठाकुर / Gajendra Thakur">
+            </label>
+            <label class="vpc-field scope" for="searchPublication">
+              <span>खोज क्षेत्र · Search</span>
+              <select id="searchPublication">
+                <option value="">VIDEHA + SADEHA</option>
+                <option value="VIDEHA">VIDEHA</option>
+                <option value="SADEHA">SADEHA</option>
+              </select>
+            </label>
+            <button id="findAuthor" class="vpc-btn secondary" type="button">अभिलेख खोजू · Search</button>
+          </div>
+          <p id="searchStatus" class="vpc-status" aria-live="polite">नाम लिखि Search दबाउ। Manual entry is also available below.</p>
+          <div id="searchResults" class="vpc-results" aria-label="Matching publication issues"></div>
+
+          <form id="certificateForm" novalidate>
+            <h3>प्रमाणपत्र विवरण · Certificate details</h3>
+            <label class="vpc-field" for="authorName">
+              <span>प्रमाणपत्र पर लेखकक पूरा नाम · Full author name</span>
+              <input id="authorName" required maxlength="120">
+            </label>
+            <label class="vpc-field" for="articleTitle">
+              <span>लेख/रचनाक शीर्षक · Article/work title</span>
+              <textarea id="articleTitle" required maxlength="300" rows="2"></textarea>
+            </label>
+            <div class="vpc-grid-three">
+              <label class="vpc-field" for="publicationName">
+                <span>प्रकाशन · Publication</span>
+                <select id="publicationName" required>
+                  <option value="VIDEHA">VIDEHA</option>
+                  <option value="SADEHA">SADEHA</option>
+                </select>
+              </label>
+              <label class="vpc-field" for="issueNumber">
+                <span>अंक · Issue</span>
+                <input id="issueNumber" required type="number" min="1" max="9999" inputmode="numeric">
+              </label>
+              <label id="versionField" class="vpc-field" for="issueVersion" hidden>
+                <span>Version</span>
+                <select id="issueVersion">
+                  <option value="1">Version 1</option>
+                  <option value="2">Version 2</option>
+                </select>
+              </label>
+              <label class="vpc-field" for="certificateDate">
+                <span>स्व-प्रमाणन तिथि · Date</span>
+                <input id="certificateDate" required type="date">
+              </label>
+            </div>
+            <div id="matchSummary" class="vpc-match" aria-live="polite">अभिलेख मिलान एखन चयनित नहि अछि · No archive match selected.</div>
+            <label class="vpc-declaration" for="authorDeclaration">
+              <input id="authorDeclaration" type="checkbox" required>
+              <span>हम स्व-प्रमाणित करैत छी जे ऊपर देल लेखक, रचना आ प्रकाशन विवरण हमर सर्वोत्तम जानकारी अनुसार सत्य अछि। · I self-certify that the author, work and publication details entered above are true to the best of my knowledge.</span>
+            </label>
+            <div class="vpc-actions">
+              <button class="vpc-btn primary" type="submit">प्रमाणपत्र बनाउ · Generate certificate</button>
+              <button id="resetCertificate" class="vpc-btn secondary" type="button">Reset</button>
+            </div>
+            <p id="formStatus" class="vpc-status" aria-live="polite"></p>
+          </form>
+        </section>
+
+        <section class="vpc-preview-card" aria-labelledby="previewTitle">
+          <div class="vpc-preview-head">
+            <div>
+              <h2 id="previewTitle">Certificate preview</h2>
+              <p>Use Print / Save PDF after generating.</p>
+            </div>
+            <button id="printCertificate" class="vpc-btn primary" type="button" disabled>Print · Save PDF</button>
+          </div>
+
+          <article id="certificateSheet" class="vpc-certificate is-empty" aria-label="Generated self-certified publication certificate">
+            <div class="vpc-corner one" aria-hidden="true"></div><div class="vpc-corner two" aria-hidden="true"></div>
+            <div class="vpc-corner three" aria-hidden="true"></div><div class="vpc-corner four" aria-hidden="true"></div>
+            <div class="vpc-watermark" aria-hidden="true">VIDEHA</div>
+            <header class="vpc-cert-head">
+              <img src="assets/img/videha-tirhuta-wordmark.png" alt="Videha" class="vpc-wordmark">
+              <p>VIDEHA · प्रथम मैथिली पाक्षिक ई-पत्रिका</p>
+              <strong>ISSN 2229-547X</strong>
+            </header>
+            <div class="vpc-cert-title">
+              <span>SELF-CERTIFIED</span>
+              <h2>प्रकाशन प्रमाणपत्र</h2>
+              <p>PUBLICATION CERTIFICATE</p>
+            </div>
+            <div id="emptyMessage" class="vpc-empty-message">विवरण भरि प्रमाणपत्र बनाउ<br><span>Complete the form to generate the certificate</span></div>
+            <div id="certificateContent" class="vpc-cert-content" hidden>
+              <p class="vpc-cert-lead">ई स्व-प्रमाणित कएल जाइत अछि जे · This is to self-certify that</p>
+              <h3 id="certAuthor"></h3>
+              <p>द्वारा लिखित रचना · authored/contributed the work</p>
+              <blockquote id="certArticle"></blockquote>
+              <p>प्रकाशित भेल · was published in</p>
+              <div id="certIssue" class="vpc-issue-seal"></div>
+              <p id="certMatch" class="vpc-cert-match"></p>
+              <div class="vpc-cert-meta">
+                <div><span>Self-certification date</span><strong id="certDate"></strong></div>
+                <div><span>Certificate reference</span><strong id="certId"></strong></div>
+                <div><span>Author’s typed signature</span><strong id="certSignature"></strong></div>
+              </div>
+              <p class="vpc-cert-disclaimer">Generated from the author’s declaration and public archive search. This document is not digitally signed and does not replace an editorial verification letter.</p>
+            </div>
+            <footer class="vpc-cert-footer">
+              <a href="https://www.videha.co.in/" class="vpc-qr-card">
+                <img src="assets/img/qr-videha-primary.png" alt="QR code for www.videha.co.in">
+                <span>Primary website</span><strong>www.videha.co.in</strong>
+              </a>
+              <div class="vpc-cert-source">
+                <a id="certSource" href="https://videha-ejournal.github.io/videha/" target="_blank" rel="noopener">Open publication record</a>
+                <span>© Gajendra Thakur, Editor · Videha eJournal</span>
+              </div>
+              <a href="https://videha-ejournal.github.io/videha/" class="vpc-qr-card">
+                <img src="assets/img/qr-videha-github.png" alt="QR code for Videha GitHub Pages archive">
+                <span>Searchable archive</span><strong>GitHub Pages</strong>
+              </a>
+            </footer>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <footer class="vpc-site-footer">© Gajendra Thakur, Editor — Videha First Maithili Fortnightly eJournal · ISSN 2229-547X</footer>
+  </div>
+  <script src="assets/js/videha-certificate.js?v=20260824"></script>
+</body>
+</html>

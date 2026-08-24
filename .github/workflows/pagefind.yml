@@ -41,6 +41,9 @@ jobs:
       - name: Validate generated document-search corpus
         run: python3 tools/test-document-search.py
 
+      - name: Validate publication-certificate widget
+        run: python3 tools/test-publication-certificate.py
+
       - name: Prepare searchable HTML/HTM corpus
         run: python3 tools/videha-pagefind-prepare.py . _pagefind_build
 

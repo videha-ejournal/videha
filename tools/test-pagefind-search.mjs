@@ -75,9 +75,13 @@ try {
   const existingData = await dataFor(existing.results, 50);
   require(existingData.some((result) => result.url.endsWith(`/${fixture.existing_html.expected_output}`)), "Existing canonical HTML search result was not preserved");
 
+  const certificate = await pagefind.search("Self-Certified Publication Certificate");
+  const certificateData = await dataFor(certificate.results, 50);
+  require(certificateData.some((result) => result.url.endsWith("/publication-certificate.html")), "Publication-certificate widget is missing from Pagefind");
+
   console.log(
     `Pagefind smoke tests passed: ${filters.publication.VIDEHA} VIDEHA, ` +
-    `${filters.publication.SADEHA} SADEHA, naming/filters correct, OCR and existing HTML searchable.`
+    `${filters.publication.SADEHA} SADEHA, naming/filters correct, OCR, existing HTML, and certificate widget searchable.`
   );
 } finally {
   if (local) await new Promise((resolve, reject) => local.server.close((error) => error ? reject(error) : resolve()));
