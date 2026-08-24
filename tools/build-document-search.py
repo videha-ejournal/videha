@@ -350,7 +350,7 @@ def render_html(key, pdf: Path, text: str, source_names, extraction_note: str):
     title = title_for(key)
     body = "\n".join(f"<p>{html.escape(p)}</p>" for p in re.split(r"\n{2,}", text) if p.strip())
     source = archive_url(pdf)
-    version_meta = f'<meta data-pagefind-filter="version" content="{version}">' if version else ""
+    version_meta = f'<meta data-pagefind-filter="version[content]" content="{version}">' if version else ""
     return f'''<!doctype html>
 <html lang="mai-Deva">
 <head>
@@ -360,9 +360,9 @@ def render_html(key, pdf: Path, text: str, source_names, extraction_note: str):
 <meta name="robots" content="index,follow">
 <meta data-pagefind-meta="title" content="{html.escape(title, quote=True)}">
 <meta data-pagefind-meta="publication" content="{pub.upper()}">
-<meta data-pagefind-filter="publication" content="{pub.upper()}">
-<meta data-pagefind-filter="issue" content="{issue}">
-<meta data-pagefind-filter="videha_type" content="Archive document">
+<meta data-pagefind-filter="publication[content]" content="{pub.upper()}">
+<meta data-pagefind-filter="issue[content]" content="{issue}">
+<meta data-pagefind-filter="videha_type[content]" content="Archive document">
 {version_meta}
 <style>body{{max-width:78rem;margin:auto;padding:1.2rem;font:18px/1.65 Georgia,"Noto Serif Devanagari",serif;color:#241a14}}header{{border-bottom:2px solid #8a2f21;margin-bottom:1.5rem}}h1{{color:#7b241c}}.source{{background:#f7efe5;padding:.9rem;border-radius:.4rem}}main p{{white-space:pre-wrap}}a{{color:#7b241c}}</style>
 </head>
