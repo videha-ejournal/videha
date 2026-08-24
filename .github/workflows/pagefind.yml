@@ -38,11 +38,17 @@ jobs:
       - name: Refresh historical author/title/genre facets
         run: python3 tools/build-videha-archive-facets.py . data/videha-archive-facets.json
 
+      - name: Validate generated document-search corpus
+        run: python3 tools/test-document-search.py
+
       - name: Prepare searchable HTML/HTM corpus
         run: python3 tools/videha-pagefind-prepare.py . _pagefind_build
 
       - name: Build Pagefind index
         run: npx -y pagefind@1.5.2 --site _pagefind_build --output-subdir pagefind --glob '**/*.{html,htm}'
+
+      - name: Smoke-test Pagefind counts, naming, existing HTML, and OCR
+        run: node tools/test-pagefind-search.mjs
 
       - name: Install generated search bundle
         run: |

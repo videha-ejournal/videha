@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "ocr": {
+    "query": "हेतीह हूँ पंचपुत्रीक पिता",
+    "expected_output": "videha-368.html",
+    "note": "Phrase verified as text contributed by the OCR cache for a low-text PDF page."
+  },
+  "existing_html": {
+    "query": "प्रथम मैथिली पाक्षिक",
+    "expected_output": "investigation.htm"
+  }
+}
