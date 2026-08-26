@@ -1,4 +1,4 @@
-# Videha Scholar workflow — refreshed 2026-08-26 after legacy TOC parser update
+# Videha Scholar workflow — expanded 2026-08-26 for audit-queue publication
 name: Build Videha Scholar Research Index
 
 on:
@@ -37,8 +37,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Build full research corpus
-        run: python scholar-tools/build_all_research.py
       - name: Diagnose article boundaries
         run: python scholar-tools/diagnose_boundaries.py
       - name: Build complete article inventory
@@ -51,6 +49,8 @@ jobs:
         run: python scholar-tools/harden_section_catalogue.py
       - name: Discover legacy top-level scholarly sections
         run: python scholar-tools/build_top_level_candidates.py
+      - name: Build full research corpus including hardened audit queue
+        run: python scholar-tools/build_all_research.py
       - name: Validate Scholar metadata
         run: python scholar-tools/validate_scholar.py
       - name: Commit generated research layer
