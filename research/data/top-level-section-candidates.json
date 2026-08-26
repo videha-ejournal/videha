@@ -1,6 +1,6 @@
 {
   "issue_files_scanned": 447,
-  "top_level_scholarly_candidates": 224,
+  "top_level_scholarly_candidates": 148,
   "publication_policy": "review-only; never auto-published",
   "rows": [
     {
@@ -74,19 +74,6 @@
       "publication_date": "2008-01-15",
       "section": "9",
       "label": "पंजी-प्रबंध (पृ. 54सँ 55 )",
-      "signals": [
-        "पंजी"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-002.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20002.pdf"
-    },
-    {
-      "issue": "2",
-      "publication_date": "2008-01-15",
-      "section": "9",
-      "label": "पंजी-प्रबन्ध",
       "signals": [
         "पंजी"
       ],
@@ -190,19 +177,6 @@
       "issue": "8",
       "publication_date": "2008-04-15",
       "section": "3",
-      "label": "शोध लेख",
-      "signals": [
-        "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-008.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20008.pdf"
-    },
-    {
-      "issue": "8",
-      "publication_date": "2008-04-15",
-      "section": "3",
       "label": "शोध लेख: मायानन्द मिश्रक इतिहास बोध (आगाँ)",
       "signals": [
         "इतिहास",
@@ -212,19 +186,6 @@
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
       "source_path": "search-documents/videha-008.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20008.pdf"
-    },
-    {
-      "issue": "9",
-      "publication_date": "2008-05-01",
-      "section": "2",
-      "label": "शोध लेख",
-      "signals": [
-        "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-009.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20009.pdf"
     },
     {
       "issue": "9",
@@ -244,19 +205,6 @@
       "issue": "10",
       "publication_date": "2008-05-15",
       "section": "2",
-      "label": "शोध लेख",
-      "signals": [
-        "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-010.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20010.pdf"
-    },
-    {
-      "issue": "10",
-      "publication_date": "2008-05-15",
-      "section": "2",
       "label": "शोध लेख: मायानन्द मिश्रक इतिहास बोध (आगाँ)",
       "signals": [
         "इतिहास",
@@ -266,19 +214,6 @@
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
       "source_path": "search-documents/videha-010.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20010.pdf"
-    },
-    {
-      "issue": "11",
-      "publication_date": "2008-06-01",
-      "section": "2",
-      "label": "शोध लेख",
-      "signals": [
-        "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-011.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20011.pdf"
     },
     {
       "issue": "11",
@@ -311,19 +246,6 @@
       "issue": "12",
       "publication_date": "2008-06-15",
       "section": "2",
-      "label": "शोध लेख",
-      "signals": [
-        "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-012.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20012.pdf"
-    },
-    {
-      "issue": "12",
-      "publication_date": "2008-06-15",
-      "section": "2",
       "label": "शोध लेख: मायानन्द मिश्रक इतिहास बोध (आगाँ)",
       "signals": [
         "इतिहास",
@@ -341,19 +263,6 @@
       "label": "श्री प्रो. उदय नारायण सिंह \"नचिकेता\"- जे काज अहाँ कए रहल छी तकर चरचा एक दिन मैथिली भाषाक इतिहासमे होएत। आनन्द भए रहल अछि, ई जानि कए जे एतेक गोट मैथिल \"विदेह\" ई जर्नलकेँ पढ़ि रहल छथि।",
       "signals": [
         "इतिहास"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-013.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20013.pdf"
-    },
-    {
-      "issue": "13",
-      "publication_date": "2008-07-01",
-      "section": "2",
-      "label": "शोध लेख",
-      "signals": [
-        "शोध"
       ],
       "status": "manual-boundary-review",
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
@@ -386,19 +295,6 @@
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
       "source_path": "search-documents/videha-016.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20016.pdf"
-    },
-    {
-      "issue": "17",
-      "publication_date": "2008-09-01",
-      "section": "1",
-      "label": "श्री प्रो. उदय नारायण सिंह \"नचिकेता\"- जे काज अहाँ कए रहल छी तकर चरचा एक दिन मैथिली भाषाक इतिहासमे होएत। आनन्द भए रहल अछि, ई जानि कए जे एतेक गोट मैथिल \"विदेह\" ई जर्नलकेँ पढ़ि रहल छथि।",
-      "signals": [
-        "इतिहास"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-017.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20017.pdf"
     },
     {
       "issue": "18",
@@ -518,33 +414,6 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20022.pdf"
     },
     {
-      "issue": "23",
-      "publication_date": "2008-12-01",
-      "section": "1",
-      "label": "डॉ पंकज पराशरश्री डॉ. पंकज पराशर (१९७६- )। मोहनपुर, बलवाहाट चपराँव कोठी, सहरसा। प्रारम्भिक शिक्षासँ स्नातक धरि गाम आऽ सहरसामे। फेर पटना विश्वविद्यालयसँ एम.ए. हिन्दीमे प्रथम श्रेणीमे प्रथम स्थान। जे.एन.यू.,दिल्लीसँ एम.फिल.। जामिया मिलिया इस्लामियासँ टी.वी.पत्रकारितामे स्नातकोत्तर डिप्लोमा। मैथिली आऽ हिन्दीक प्रतिष्ठित पत्रिका सभमे कविता, समीक्षा आऽ आलोचनात्मक निबंध प्रकाशित। अंग्रेजीसँ हिन्दीमे क्लॉद लेवी स्ट्रॉस, एबहार्ड फिशर, हकु शाह आ ब्रूस चैटविन आदिक शोध निबन्धक अनुवाद। ’गोवध और अंग्रेज’ नामसँ एकटा स्वतंत्र पोथीक अंग्रेजीसँ अनुवाद। जनसत्तामे ’दुनिया मेरे आगे’ स्तंभमे लेखन। रघुवीर सहायक साहित्यपर जे.एन.यू.सँ पी.एच.डी.।",
-      "signals": [
-        "आलोचना",
-        "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-023.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20023.pdf"
-    },
-    {
-      "issue": "23",
-      "publication_date": "2008-12-01",
-      "section": "1",
-      "label": "प्रकाश झा, सुपरिचित रंगकर्मी। राष्ट्रीय स्तरक सांस्कृतिक संस्था सभक संग कार्यक अनुभव। शोध आलेख (लोकनाट्य एवं रंगमंच) आऽ कथा लेखन। राष्ट्रीय जूनियर फेलोशिप, भारत सरकार प्राप्त। राजधानी दिल्लीमे मैथिली लोक रंग महोत्सवक शुरुआत। मैथिली लोककला आऽ संस्कृतिक प्रलेखन आऽ विश्व फलकपर विस्तारक लेल प्रतिबद्ध। अपन कर्मठ संगीक संग मैलोरंगक संस्थापक, निदेशक। मैलोरंग पत्रिकाक सम्पादन। संप्रति राष्ट्रीय नाट्य विद्यालय, नई दिल्लीक रंगमंचीय शोध पत्रिका रंग-प्रसंगक सहयोगी संपादकक रूपमे कार्यरत।",
-      "signals": [
-        "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-023.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20023.pdf"
-    },
-    {
       "issue": "24",
       "publication_date": "2008-12-15",
       "section": "1",
@@ -634,19 +503,6 @@
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
       "source_path": "search-documents/videha-026.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20026.pdf"
-    },
-    {
-      "issue": "27",
-      "publication_date": "2009-02-01",
-      "section": "5",
-      "label": "कुरुक्षेत्रम्–अन्तर्मनक, खण्ड-१ आऽ २ (लेखकक छिड़िआयल पद्य, उपन्यास, गल्प-कथा, नाटक-एकाङ्की, बालानां कृते, महाकाव्य, शोध-निबन्ध आदिक समग्र संकलन)- गजेन्द्र ठाकुर",
-      "signals": [
-        "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-027.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20027.pdf"
     },
     {
       "issue": "28",
@@ -779,45 +635,6 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20033.pdf"
     },
     {
-      "issue": "35",
-      "publication_date": "2009-06-01",
-      "section": "1",
-      "label": "चेतना अपन कार्यक्रम केँ व्‍यापक बनयबाक हेतु पूर्व निर्णयापनुरूप सन् 1973 ई. में अमरनाथ झा जयन्‍ती क आयोजन कंकडबाग कॉलनीक लोहियानगर में इैबाक निर्णय भेलैक तथा इहो निर्णय भेलैक जे एहि अवसर पर एक नाट्यभिनयक आयोजन कयल जाय जाहिये सहयोगी भेलाह वासुकिनाथ झा, गणेशशंकर सर्गा, अमरनाथ झा एवं छात्रानन्‍दसिंह झा। जखन ई प्रचार भेलैक जेएहि कौलनी में अमरनाथ झा जयन्‍तीक अवसर पर नाट्यभिनयक सेहो योजना छैक तखत कौलनीवासी सभक सहयोग पर्याप्‍तमा =11 से भेंटय लागलनि। ओहि अवसर पर जनमानसक मनोरंजनाथ हवेली रानी नाटकक मंचन भेल छल, जाहिमे रोहिणी रमण झा जे आब मैथिलीक नाटककार आ अभिनेताक रूप में चर्चित छथि अभिनेत्री रूप से रंगमंच पर उतरल रहथि। एहि नाट्य योजना में कतिपय सहयोगीक बल भेटल जाहि में उल्‍लेखनीय छथि इण्डियन नेशनक इन्‍द्रकान्‍त झा. मिथिलेन्‍दु एवं वेदानन्‍द झा जनसम्‍पर्क विभाग का एहि आयोजनक ऐतिहासिक महत्‍व छैक जे विहारक तत्‍कालीन मुख्‍यमंत्री केदार पाण्‍डेय एही मंच सँ विहार पब्लिक सर्भिस कमीशन में मैथिलीक स्‍वीकृति आ मिथिला विश्‍वविद्यालयक स्‍थापनाक उद्घोषणा कराने रहथि। प्रारम्भिकावस्‍था में अभिनयोपयुक्‍त नाटक अभाव रहलैक ओकरा संगहि-संग रंगमंच केँ नवरूप देबाक प्रयास कोलैक। समयाभावक कारणेँ समितिक नाट्यमंच प्रभाग द्वारा एकर प्रयोग प्रारम्‍भ में लैक दिगम्‍बर झा लिखित एकांकी हुरैत लोकऍं। पुन: समितिकेँ महिला अभिनेत्रीक अन्‍वेषणक प्रक्रिया प्रारम्‍भ कयलक जाहि में ओंकरा कठिनताक सामना करय पडलैक, किन्‍तु संयोग सँ रेडियोक अभिनेत्री प्रेमलता मिश्र प्रेम कुमारी भारती मिश्र तथा अभिनेकताक रूप से छात्रानन्‍द सिंहझा, जगन्‍नाथ झा, नरसिंह प्रसाद आ वेदानन्‍द झा क अविस्‍मरणीय सहयोगक फलस्‍वरूप ई प्रदर्शन अत्‍यन्‍त सफल भेल जाहिऍ आयोजक संगहि-संगसंयोगकक सेहो उत्‍साहवर्द्धन भेलनि। एहि एकांकीक निर्देशन कराने र‍हथि गणेश प्रसाद सिन्‍हा तथा बिहार आर्ट थियेटर क संस्‍थापक अनिल कुमार मुखर्णीक अपरिमित तकनिक सहयोग भेटलनि। एहि एकांकीक मंचनक संगप्रथ में प्रथम आधुनिक रंगसंचक अवधारणाक एकरा बानगी प्रस्‍तुतभेल।",
-      "signals": [
-        "ऐतिहासिक"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-035.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20035.pdf"
-    },
-    {
-      "issue": "35",
-      "publication_date": "2009-06-01",
-      "section": "1",
-      "label": "चेतना समितिक ई अभिनव प्रयास भेलैक जे मिथिलाव्‍चलक पुरातन सांस्‍कृतिक विरासत तथा नाट्य साहित्‍यक अविच्छिन्‍न स्‍मृद्धिशाली आ गौरवशाली परम्‍परा में एक नव प्राणक स्‍पन्‍दन भरबाक निमित नियमित रूपेँ प्राचीन एवं अर्वाचीन प्रतिभाशाली नाट्य-लेखकक आहवानक कए नाट्य –लेखनक दिशा में प्रोत्‍साहन, मंचोपरान्‍त ओंकर प्रकाशनक व्‍यवस्थित परम्‍पराक व्‍यवस्‍था कयलक सन् 1973 ई. सँ जे जनमानसक मनोरंजनक संगहि-संग नाट्य-साहित्यिक साबर्द्धनक दिशा में गतिशील भेल जे विद्यापति स्‍मृति पर्वोत्‍सव पर संगहि-संग अमरनाथ झा, हरिमोहन झा, ललितनारायण मिश्र एवं जयनाथ मिश्र जयन्‍तीक अवसरपर मौलिक, अन्‍य भारतीय भाषाएं अनूदित वा मैथिलीक प्रसिद्ध उपन्‍यास वा कथाक नाट्य रूपान्‍तरणक परम्‍पराक शुभारम्‍भ कयलक जे अद्यपर्यन्‍त अव्‍याहत रूपेँ चलि आबि रहल अछि। एकर सुपरिणाम एलबा अवश्‍य भेलैक जे अद्यापि निरस्‍थ नाटकक मंचन समितिक तत्‍वाधान में भेल अछि जकरा ऐतिहासिक घटना कहब विशेष समुचित हैत, कारण भंगिमा (1984) केँ छोडि क’ मिथिला अचल बा मिथिलेतर क्षेत्रक कोनो नाट्य संस्‍था अर्द्भाव एतेक परिभाषा में नाट्यायोजन नहि क’ सकल अछि। एकरा द्वारा रचित नाटककेँ विविध काल-खंड में सुविधानुसार विभन्‍न दशक में प्रदर्शित नाटकक तिथिक अनुसारेँ कयल जा रहल अछि।",
-      "signals": [
-        "ऐतिहासिक"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-035.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20035.pdf"
-    },
-    {
-      "issue": "35",
-      "publication_date": "2009-06-01",
-      "section": "1",
-      "label": "श्रीसम शताब्‍दीक सप्‍तदशकोत्‍तर कालावधि में समिति क नाट्यमंच प्रभाग नाटक लेखक लोकनिसँ नव-नव प्रवृत्ति आ नव-शिल्‍पक नाट्य रचनाक अनुरोध करब प्रारम्‍भ कयलक तथा मंचोपरान्‍त ओकर प्रकाशनक भार वहन करबाक दायित्‍व स्‍वीकारलक। नाट्यमंच प्रभाग द्वारा विद्यापति स्‍मृति पर्वोत्‍सव बा अन्‍याय कोनो आयोजनोत्‍सव पर मौलिक, अनूदित वा उपन्‍यास वा कथाक नाट्य-रूप प्रस्‍तुत करबाक परम्‍पराक शुभारम्‍भ कयलकज नाट्यलेखन आ मंचनक दिशा में ऐतिहासिक घटना थिक ले नव-लव प्रतिभाशाली नाट्य-लेखक लोकत्ति केँ प्रोतसाहन भेटलनि तथा प्राचीन आ अर्वाचीन अभिनेता, अभिनेत्री आ निर्देशक लोकत्ति एकर प्रस्‍तुति में सहभागी बनलाह। अभिनयोपयोगी आ मंचोपयोगी नाटकक जे अभाव साहित्‍यान्‍तर्गत छस तकर पूत्‍यर्थ समितिक नाट्य प्रभागक ई निर्णय निश्चित रूपेण नाट्य-लेखन ओंकर मंचन तथा ओंकर प्रकाशत्‍न में नव-दिशाक संकेत कयलक।",
-      "signals": [
-        "ऐतिहासिक"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-035.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20035.pdf"
-    },
-    {
       "issue": "36",
       "publication_date": "2009-06-15",
       "section": "3",
@@ -894,6 +711,19 @@
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
       "source_path": "search-documents/videha-041.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20041.pdf"
+    },
+    {
+      "issue": "43",
+      "publication_date": "2009-10-01",
+      "section": "1",
+      "label": "मैथिलीक नूतन वैज्ञानिक कोश (वाक्य-प्रयोग सहित)-गजेन्द्र ठाकुर, नागेन्द्र कुमार झा आ पञ्जीकार विद्यानन्द झा।",
+      "signals": [
+        "पञ्जी"
+      ],
+      "status": "manual-boundary-review",
+      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
+      "source_path": "search-documents/videha-043.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20043.pdf"
     },
     {
       "issue": "45",
@@ -1002,19 +832,6 @@
     {
       "issue": "66",
       "publication_date": "2010-09-15",
-      "section": "5",
-      "label": "पश्चिमी मैथिली:-- एकर क्षेत्र मुजफ्फरपुर ओ चम्पारण जिलाक पुबरिया भाग थिक जाहिपर भोजपुरीक व्यापक प्रभाव अछि। ग्रियर्सनक अनुसारेँ एहि क्षेत्रक कतिपय लोक जे बजैत छथि तकरा भोजपुरी कहल जाय अथवा मैथिली ई कहब कने कठिन। ओना मुजफ्फरपुरसँ अलग भेल वैशाली जिलाक क्षेत्रक भाषाक नाम ‘बज्जिका’ भाषा देल गेल अछि। एहि भाषाक नामकरण लिच्छवी वंशक इतिहासक आधार पर कएल गेल अछि।",
-      "signals": [
-        "इतिहास"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-066.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20066.pdf"
-    },
-    {
-      "issue": "66",
-      "publication_date": "2010-09-15",
       "section": "8",
       "label": "2.1.Sweta Jha -History of Mithila Painting: An Introduction2. Original Poem in Maithili by Gajendra Thakur Translated into English by Jyoti Jha Chaudhary",
       "signals": [
@@ -1093,49 +910,10 @@
     {
       "issue": "80",
       "publication_date": "2011-04-15",
-      "section": "1",
-      "label": "अनुपमा प्रियदर्शिनी, पति डॉ. रतन कर्ण, गाम- उजान (बड़कागाम), पो. लोहना रोड, जिला दरभंगा। सम्प्रति लोजियाना (संयुक्त राज्य अमेरिकामे), शिक्षा- एम.एस.सी. (जंतु विज्ञान), ल.ना. मिथिला वि.वि., दरभंगा; बी.एस.सी. बी.आर. अम्बेडकर वि.वि. मुजफ्फरपुरसँ, हॉबी, मिथिला चित्रकला, कमप्यूटराइज्ड चित्रकला, ललित कला। उपलब्धि: अखिल भारतीय कला आ दस्तकारी प्रतियोगिताक पुरस्कार 1995 मे; संस्कार भारती भाव नृत्य प्रतियोगिता 1989 मे सहभागी।",
-      "signals": [
-        "मिथिला चित्रकला"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-080.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20080.pdf"
-    },
-    {
-      "issue": "80",
-      "publication_date": "2011-04-15",
-      "section": "2",
-      "label": "२ तर्कगत (शोध) -",
-      "signals": [
-        "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-080.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20080.pdf"
-    },
-    {
-      "issue": "80",
-      "publication_date": "2011-04-15",
       "section": "3",
       "label": "१.डॉ. शेफालिका वर्मा-१. बीतल इतिहास २. पाथर",
       "signals": [
         "इतिहास"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-080.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20080.pdf"
-    },
-    {
-      "issue": "80",
-      "publication_date": "2011-04-15",
-      "section": "3",
-      "label": "२ तर्कगत (शोध) -",
-      "signals": [
-        "शोध"
       ],
       "status": "manual-boundary-review",
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
@@ -1167,32 +945,6 @@
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
       "source_path": "search-documents/videha-086.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20086.pdf"
-    },
-    {
-      "issue": "87",
-      "publication_date": "2011-08-01",
-      "section": "2",
-      "label": "विविध शोधपत्र/लेख",
-      "signals": [
-        "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-087.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20087.pdf"
-    },
-    {
-      "issue": "87",
-      "publication_date": "2011-08-01",
-      "section": "2",
-      "label": "संगणकीय भाषाविज्ञान हेतु",
-      "signals": [
-        "भाषाविज्ञान"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-087.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20087.pdf"
     },
     {
       "issue": "88",
@@ -1370,19 +1122,6 @@
     {
       "issue": "114",
       "publication_date": "2012-09-15",
-      "section": "1",
-      "label": "अरविन्द श्रीवास्तव-‘मणिपद्मक काव्यकृतिक आलोचनात्मक अध्ययन’ पुस्तकक लोकार्पण२.मुन्नी कामत- कतऽ जा रहल छी हम!/ नाटकः- शिक्षित बेटी",
-      "signals": [
-        "आलोचना"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-114.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20114.pdf"
-    },
-    {
-      "issue": "114",
-      "publication_date": "2012-09-15",
       "section": "2",
       "label": "१.१.अरविन्द श्रीवास्तव-‘मणिपद्मक काव्यकृतिक आलोचनात्मक अध्ययन’ पुस्तकक लोकार्पण२.मुन्नी कामत- कतऽ जा रहल छी हम!/ नाटकः- शिक्षित बेटी",
       "signals": [
@@ -1420,71 +1159,6 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20136.pdf"
     },
     {
-      "issue": "136",
-      "publication_date": "2013-08-15",
-      "section": "3",
-      "label": "ग्रियर्सन,जी.ए., मैथिली व्याकरण, सम्पादक, डा. रमानंद झा ‘रमण’, अनुवादक, पं. गोविन्द झा, चेतना समिति, पटना, 2011",
-      "signals": [
-        "व्याकरण"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-136.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20136.pdf"
-    },
-    {
-      "issue": "136",
-      "publication_date": "2013-08-15",
-      "section": "5",
-      "label": "Sampson, Geoffrey, Natural Language as a Special Case of Programming Language, American Journal of Computational Linguistics, Microfiche-25, 1975",
-      "signals": [
-        "linguistic"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-136.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20136.pdf"
-    },
-    {
-      "issue": "136",
-      "publication_date": "2013-08-15",
-      "section": "5",
-      "label": "तिवारी, भोलानाथ, आधुनिक भाषा विज्ञान, लिपि प्रकाशन, नई दिल्ली, 1985",
-      "signals": [
-        "भाषा विज्ञान"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-136.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20136.pdf"
-    },
-    {
-      "issue": "136",
-      "publication_date": "2013-08-15",
-      "section": "6",
-      "label": "मिश्र, नवोनाथ, मैथिली भाषा विज्ञान, मिथिला पुस्तक केन्द्र, दरभंगा, 1984",
-      "signals": [
-        "भाषा विज्ञान"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-136.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20136.pdf"
-    },
-    {
-      "issue": "136",
-      "publication_date": "2013-08-15",
-      "section": "7",
-      "label": "सिंह, सूरजभान, अमग्रेजी-हिंदी अनुवाद व्याकरण, प्रभात प्रकाशन, नई दिल्ली, 2003",
-      "signals": [
-        "व्याकरण"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-136.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20136.pdf"
-    },
-    {
       "issue": "142",
       "publication_date": "2013-11-15",
       "section": "7",
@@ -1496,19 +1170,6 @@
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
       "source_path": "search-documents/videha-142.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20142.pdf"
-    },
-    {
-      "issue": "148",
-      "publication_date": "2014-02-15",
-      "section": "5",
-      "label": "मिथिला चित्रकला/ आधुनिक चित्रकला आ चित्र Mithila Painting/ Modern Art and Photos",
-      "signals": [
-        "मिथिला चित्रकला"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-148.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20148.pdf"
     },
     {
       "issue": "150",
@@ -1646,19 +1307,6 @@
       "issue": "191",
       "publication_date": "2015-12-01",
       "section": "2",
-      "label": "२.[एक]- विदेहक जगदीश चन्द्र ठाकुर ’अनिल’ विशेषांक लेल मुन्नाजी द्वारा अनिल जी सं लेल ई-साक्षात्कार [दू]- समालोचना १. गीत-गंगा- कामिनी २. गजल गंगा- जगदानन्द झा 'मनु' ३. मैथिल अङना : ‘तोरा अंगनामे’ -डॉ. अजीत मिश्र ४. धारक \"अइ\" पार- आशीष अनचिन्हार ५.कवि अनिलजीक आंतरिक परिचिति : गीत गंगा- परमानन्द प्रभाकर ६.‘गीत-गंगा’मे सब किछु अछि -----छत्रानंद सिंह झा७.गीत गंगामे अनिल-केदार कानन ८.‘गीत-गंगा’क प्रवाह- डा.अमर नाथ ठाकुर",
-      "signals": [
-        "समालोचना"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-191.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20191.pdf"
-    },
-    {
-      "issue": "191",
-      "publication_date": "2015-12-01",
-      "section": "2",
       "label": "२.[एक]- विदेहक जगदीश चन्द्र ठाकुर ’अनिल’ विशेषांक लेल मुन्नाजी द्वारा अनिल जी सं लेल ई-साक्षात्कार [दू]- समालोचना १. गीत-गंगा- कामिनी २. गजल गंगा- जगदानन्द झा 'मनु' ३. मैथिल अङना : ‘तोरा अंगनामे’ -डॉ. अजीत मिश्र ४. धारक \"अइ\" पार- आशीष अनचिन्हार ५.कवि अनिलजीक आंतरिक परिचिति : गीत गंगा- परमानन्द प्रभाकर ६.‘गीत-गंगा’मे सब किछु अछि- छत्रानंद सिंह झा ७.गीतगंगामे अनिल-केदार कानन ८.‘गीत-गंगा’क प्रवाह- डा.अमर नाथ ठाकुर",
       "signals": [
         "समालोचना"
@@ -1736,32 +1384,6 @@
     {
       "issue": "253",
       "publication_date": "2018-07-01",
-      "section": "1",
-      "label": "आशीष अनिचbहार - आधुिनक मैिथली गजलक संिJdत आलोचनाgमक पिरचय २.उमेश मiडल -सगर राित",
-      "signals": [
-        "आलोचना"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-253.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20253.pdf"
-    },
-    {
-      "issue": "253",
-      "publication_date": "2018-07-01",
-      "section": "2",
-      "label": "१.१.आशीष अनिचbहार- आधुिनक मैिथली गजलक संिJdत आलोचनाgमक पिरचय २.उमेश मiडल-सगर",
-      "signals": [
-        "आलोचना"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-253.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20253.pdf"
-    },
-    {
-      "issue": "253",
-      "publication_date": "2018-07-01",
       "section": "2",
       "label": "१.१.आशीष अनिचbहार- आधुिनक मैिथली गजलक संिJdत आलोचनाgमक पिरचय २.उमेश मiडल-सगर राित",
       "signals": [
@@ -1771,19 +1393,6 @@
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
       "source_path": "search-documents/videha-253.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20253.pdf"
-    },
-    {
-      "issue": "258",
-      "publication_date": "2018-09-15",
-      "section": "4",
-      "label": "मैिथली उप_यासक आलोचनाeमक आfययन पृ0-172",
-      "signals": [
-        "आलोचना"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-258.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20258.pdf"
     },
     {
       "issue": "284",
@@ -1797,45 +1406,6 @@
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
       "source_path": "search-documents/videha-284.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20284.pdf"
-    },
-    {
-      "issue": "291",
-      "publication_date": "2020-02-01",
-      "section": "7",
-      "label": "‘बाबी’, एहि कथा केर पाठसँ स्पष्ट होइछ जे कथाकार हिन्‍दू-मुस्‍लि‍म सरोकारकेँ छठि‍ पावनिक ऐतिहासिक आधारकेँ उजागर करैत एकटा ठोस प्रमाण उपस्थित कएलनि अछि। एहि कथाक समीक्षामे डॉ. कैलाश मिश्रजी लिखलन्हि अछि-",
-      "signals": [
-        "ऐतिहासिक"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-291.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20291.pdf"
-    },
-    {
-      "issue": "299",
-      "publication_date": "2020-06-01",
-      "section": "7",
-      "label": "सन् २०१६मे लागूभेल शराबबंदी कानूनक अनुसार जौँ केओ शराबक संग्रह केने पकड़ल जाइत अछि तँ ओकर परिवारक सदस्य(पत्नी,पति आ आश्रित संतान)केँ सेहो अपराधिक मामिला कएल जा सकैत अछि । संगहि मकान मालिककेँ खिलाफ सेहो अपराधिक मोकदमा कएल जा सकैत अछि । कानूनी प्रावधानक अनुसार अपराध साबित भेला पर कम सँ कम दस सा धरि जहल आ एकलाख जुर्माना कएल जाएत ।पारिवारिक सदस्य किंबा मकान मालिककेँ एहि तरहेँ प्रताड़ित करब भारतीय संविधानक धारा १४ एवम् २१क उल्लंघनहोइत छल ।उपरोक्त कानूनमे २०१८मे कएल गेल संशोधन द्वारा उपरोक्त प्रावधानकेँ हटा देल गेल अछि।",
-      "signals": [
-        "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-299.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20299.pdf"
-    },
-    {
-      "issue": "299",
-      "publication_date": "2020-06-01",
-      "section": "9",
-      "label": "कोनो मकानमे शराब भेटलापर पहिलुका कानूनमे पूरा मकान सील करबाक प्रावधान छल । संशोधनक बाद आब मात्र ओहि कोठरी मात्रकेँ सील कएल जाएत जतए शराब राखल छल ।",
-      "signals": [
-        "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-299.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20299.pdf"
     },
     {
       "issue": "300",
@@ -1903,32 +1473,6 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20313.pdf"
     },
     {
-      "issue": "318",
-      "publication_date": "2021-03-15",
-      "section": "4",
-      "label": "कर्ताक रंग कर्मक संग (कथा संग्रह) ले. जगदीश प्रसाद मण्डल, लो. डॉ. योगानन्द झा (मैथिली लोक साहित्यक अध्येता)",
-      "signals": [
-        "लोक साहित्य"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-318.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20318.pdf"
-    },
-    {
-      "issue": "318",
-      "publication_date": "2021-03-15",
-      "section": "9",
-      "label": "वर्ण प्रकरण भाष्य भूमिका (व्याकरण, भाग- 1) ले. बाल गोविन्द आर्य उर्फ बाल गोविन्द यादव, लो. प्रो. शशिनाथ झा (कुलपति, कामेश्वर सिंह संस्कृत विश्वविद्यालय दरभंगा)",
-      "signals": [
-        "व्याकरण"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-318.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20318.pdf"
-    },
-    {
       "issue": "322",
       "publication_date": "2021-05-15",
       "section": "2",
@@ -1943,32 +1487,6 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20322.pdf"
     },
     {
-      "issue": "341",
-      "publication_date": "2022-03-01",
-      "section": "1",
-      "label": "मैथिली मानक मे बदलाव आनि संशोधित केने बारहो बरण के शैली के लिखबा बजबा काल मैथिली रूपे मोजर दिअ परत. मिथिला समाज के आमजन तक मैथिली साहित्य के पहुँचाबै पड़त.",
-      "signals": [
-        "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-341.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20341.pdf"
-    },
-    {
-      "issue": "356",
-      "publication_date": "2022-10-15",
-      "section": "2",
-      "label": "९.आशीष अनचिन्हार- व्यंग्य- परंपरावादी भोजन (एक शोध)",
-      "signals": [
-        "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-356.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20356.pdf"
-    },
-    {
       "issue": "356",
       "publication_date": "2022-10-15",
       "section": "2",
@@ -1980,32 +1498,6 @@
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
       "source_path": "search-documents/videha-356.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20356.pdf"
-    },
-    {
-      "issue": "357",
-      "publication_date": "2022-11-01",
-      "section": "1",
-      "label": "शेखर प्रसंग (शोध पत्र)",
-      "signals": [
-        "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-357.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20357.pdf"
-    },
-    {
-      "issue": "368",
-      "publication_date": "2023-04-15",
-      "section": "2",
-      "label": "१२.जितेन्द्र झा, जनकपुर- मिथिला चित्रकला- नेपाल प्रसंग",
-      "signals": [
-        "मिथिला चित्रकला"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-368.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20368.pdf"
     },
     {
       "issue": "368",
@@ -2024,19 +1516,6 @@
       "issue": "374",
       "publication_date": "2023-07-15",
       "section": "2",
-      "label": "१.डॉ दीपेश कुमार ठाकुर- मिथिलाक इतिहासक वैज्ञानिक अध्ययन एवं ओकर समीक्षात्मक विश्लेषण",
-      "signals": [
-        "इतिहास"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-374.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20374.pdf"
-    },
-    {
-      "issue": "374",
-      "publication_date": "2023-07-15",
-      "section": "2",
       "label": "१.डॉ दीपेश कुमार ठाकुर- मिथिलाक इतिहासक वैज्ञानिक अध्ययन एवं ओकर समीक्षात्मक विश्लेषण (पृ. ७-२३)",
       "signals": [
         "इतिहास"
@@ -2045,59 +1524,6 @@
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
       "source_path": "search-documents/videha-374.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20374.pdf"
-    },
-    {
-      "issue": "374",
-      "publication_date": "2023-07-15",
-      "section": "6",
-      "label": "Jha, Arun Kumar (2005) (enमे). Some Aspects of the Cultural History of Mithila: The Janaka Dynasty, the Karnaatas & the Oinwaaras. University Department of History and A.I.H.C. & Archaeology, T.M. Bhagalpur University.",
-      "signals": [
-        "history"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-374.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20374.pdf"
-    },
-    {
-      "issue": "374",
-      "publication_date": "2023-07-15",
-      "section": "7",
-      "label": "Thakur, Upendra (1956) (enमे). History of Mithila: (circa 3000 B.C.-1556 A.D.). Mithila Institute.",
-      "signals": [
-        "history"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-374.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20374.pdf"
-    },
-    {
-      "issue": "374",
-      "publication_date": "2023-07-15",
-      "section": "9",
-      "label": "मिथिला का इतिहास, डाॅ० रामप्रकाश शर्मा, कामेश्वर सिंह संस्कृत वि.वि.दरभंगा, तृतीय संस्करण-2016, पृ०-9.",
-      "signals": [
-        "इतिहास"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-374.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20374.pdf"
-    },
-    {
-      "issue": "383",
-      "publication_date": "2023-12-01",
-      "section": "2",
-      "label": "१.आशीष अनचिन्हार- की अप्रमाणिक आलोचना एवं इतिहास केर लेखन करै छथि तारानंद वियोगी?",
-      "signals": [
-        "आलोचना",
-        "इतिहास"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-383.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20383.pdf"
     },
     {
       "issue": "383",
@@ -2112,19 +1538,6 @@
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
       "source_path": "search-documents/videha-383.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20383.pdf"
-    },
-    {
-      "issue": "384",
-      "publication_date": "2023-12-15",
-      "section": "2",
-      "label": "७.प्रणव झा- पुस्तक समीक्षा : मैथिली वेब पत्रकारिता के इतिहास (लेखक : आशीष अनचिन्हार)",
-      "signals": [
-        "इतिहास"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-384.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20384.pdf"
     },
     {
       "issue": "384",
@@ -2166,62 +1579,10 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20387.pdf"
     },
     {
-      "issue": "388",
-      "publication_date": "2024-02-15",
-      "section": "1",
-      "label": "पंजीकरण कार्ड।",
-      "signals": [
-        "पंजी"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-388.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20388.pdf"
-    },
-    {
-      "issue": "388",
-      "publication_date": "2024-02-15",
-      "section": "5",
-      "label": "ऑनलाइन किसान पंजीकरण करब आवश्यक अछि।",
-      "signals": [
-        "पंजी"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-388.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20388.pdf"
-    },
-    {
-      "issue": "395",
-      "publication_date": "2024-06-01",
-      "section": "2",
-      "label": "१४.मधुकांत झा- नरेन्द्र झा लिखित मिथिलाक आर्थिक संरचनापर प्रकाशित पुस्तक-एक ऐतिहासिक दस्तावेज",
-      "signals": [
-        "ऐतिहासिक"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-395.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20395.pdf"
-    },
-    {
       "issue": "395",
       "publication_date": "2024-06-01",
       "section": "2",
       "label": "१४.मधुकांत झा- नरेन्द्र झा लिखित मिथिलाक आर्थिक संरचनापर प्रकाशित पुस्तक-एक ऐतिहासिक दस्तावेज (पृ. १६९-१७३)",
-      "signals": [
-        "ऐतिहासिक"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-395.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20395.pdf"
-    },
-    {
-      "issue": "395",
-      "publication_date": "2024-06-01",
-      "section": "2",
-      "label": "७.डॉ. धनाकर ठाकुर- श्री नरेन्द्र झा-मिथिलाक आर्थिक पक्ष रखनिहार किन्तु ऐतिहासिक विभ्रम उत्पन्न केनिहार लेखक",
       "signals": [
         "ऐतिहासिक"
       ],
@@ -2247,19 +1608,6 @@
       "issue": "396",
       "publication_date": "2024-06-15",
       "section": "2",
-      "label": "१२.कवि राजीव झा 'एकान्त'-\"हिस्टोरिओग्राफी ऑफ मैथिली लेक्सिकोग्राफी\"केर मनोवैज्ञानिक आ आलोचनात्मक व्याख्या",
-      "signals": [
-        "आलोचना"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-396.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20396.pdf"
-    },
-    {
-      "issue": "396",
-      "publication_date": "2024-06-15",
-      "section": "2",
       "label": "१२.कवि राजीव झा 'एकान्त'-\"हिस्टोरिओग्राफी ऑफ मैथिली लेक्सिकोग्राफी\"केर मनोवैज्ञानिक आ आलोचनात्मक व्याख्या(पृ. १५६-१७४)",
       "signals": [
         "आलोचना"
@@ -2273,36 +1621,9 @@
       "issue": "396",
       "publication_date": "2024-06-15",
       "section": "2",
-      "label": "७.डॉ. धनाकर ठाकुर- ध्वनिविज्ञानी प्रो. डा. रामावतार यादवक अनुसार वर्णरत्नाकरक भाषा मैथिली",
-      "signals": [
-        "ध्वनिविज्ञान"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-396.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20396.pdf"
-    },
-    {
-      "issue": "396",
-      "publication_date": "2024-06-15",
-      "section": "2",
       "label": "७.डॉ. धनाकर ठाकुर- ध्वनिविज्ञानी प्रो. डा. रामावतार यादवक अनुसार वर्णरत्नाकरक भाषा मैथिली(पृ. ११९-१२४)",
       "signals": [
         "ध्वनिविज्ञान"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-396.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20396.pdf"
-    },
-    {
-      "issue": "396",
-      "publication_date": "2024-06-15",
-      "section": "2",
-      "label": "९.डॉ. शिव कुमार मिश्र- प्रोफेसर डा. रामावतार यादव ओ हुनक विलक्षण अनुसंधान तकनीक (मिथिला भारती शोध पत्रिकाक संदर्भमे)",
-      "signals": [
-        "अनुसंधान",
-        "शोध"
       ],
       "status": "manual-boundary-review",
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
@@ -2327,19 +1648,6 @@
       "issue": "400",
       "publication_date": "2024-08-15",
       "section": "1",
-      "label": "३. अंतराष्ट्रीय मैथिली परिषद् केर गठनक प्रमाणिक इतिहास",
-      "signals": [
-        "इतिहास"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-400.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20400.pdf"
-    },
-    {
-      "issue": "400",
-      "publication_date": "2024-08-15",
-      "section": "1",
       "label": "३.अंतराष्ट्रीय मैथिली परिषद् केर गठनक प्रमाणिक इतिहास (पृष्ठ २६-६१)",
       "signals": [
         "इतिहास"
@@ -2348,71 +1656,6 @@
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
       "source_path": "search-documents/videha-400.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20400.pdf"
-    },
-    {
-      "issue": "400",
-      "publication_date": "2024-08-15",
-      "section": "6",
-      "label": "12.1992 जीएमसी छात्रावास नागपुरमे बैसार- अयोध्यामे नव इतिहास -रुद्र अवतार",
-      "signals": [
-        "इतिहास"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-400.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20400.pdf"
-    },
-    {
-      "issue": "405",
-      "publication_date": "2024-11-01",
-      "section": "4",
-      "label": "कल्पना झा- मैथिली साहित्यक परम्परा आ विकास सँ परिचित करबैत अछि मैथिली इतिहासक रेखांकन",
-      "signals": [
-        "इतिहास"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-405.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf"
-    },
-    {
-      "issue": "405",
-      "publication_date": "2024-11-01",
-      "section": "4",
-      "label": "कल्पना झा- मैथिली साहित्यक परम्परा आ विकास सँ परिचित करबैत अछि मैथिली इतिहासक रेखांकन (पृष्ठ ५६-७५)",
-      "signals": [
-        "इतिहास"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-405.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf"
-    },
-    {
-      "issue": "406",
-      "publication_date": "2024-11-15",
-      "section": "8",
-      "label": "डेटा एकीकरण: AI विभिन्न स्रोत सभ (चिकित्सा इतिहास, लैब परिणाम आदि) से जानकारी संकलित करैत अछि आ मरीज के स्थिति के व्यापक दृष्टिकोण प्रदान करैत अछि।",
-      "signals": [
-        "इतिहास"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-406.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20406.pdf"
-    },
-    {
-      "issue": "416",
-      "publication_date": "2025-04-15",
-      "section": "2",
-      "label": "३.प्रणव झा-परमाणु खनिज अन्वेषण एवं अनुसंधान निदेशालय के प्रदर्शनी",
-      "signals": [
-        "अनुसंधान"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-416.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20416.pdf"
     },
     {
       "issue": "416",
@@ -2431,19 +1674,6 @@
       "issue": "428",
       "publication_date": "2025-10-15",
       "section": "1",
-      "label": "८.भैरव लाल दास-पं.भवनाथ झाक शोध दृष्टि",
-      "signals": [
-        "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-428.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf"
-    },
-    {
-      "issue": "428",
-      "publication_date": "2025-10-15",
-      "section": "1",
       "label": "८.भैरव लाल दास-पं.भवनाथ झाक शोध दृष्टि (पृष्ठ १७४-१८२)",
       "signals": [
         "शोध"
@@ -2457,35 +1687,9 @@
       "issue": "438",
       "publication_date": "2026-03-15",
       "section": "2",
-      "label": "५.प्रीति कुमारी-अशिक्षाक शिकार: केवट समाज (शोध आलेख)",
-      "signals": [
-        "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-438.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20438.pdf"
-    },
-    {
-      "issue": "438",
-      "publication_date": "2026-03-15",
-      "section": "2",
       "label": "५.प्रीति कुमारी-अशिक्षाक शिकार: केवट समाज (शोध आलेख) (पृष्ठ ३२-३६)",
       "signals": [
         "शोध"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-438.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20438.pdf"
-    },
-    {
-      "issue": "438",
-      "publication_date": "2026-03-15",
-      "section": "2",
-      "label": "६.गजेन्द्र ठाकुर- संरचनात्मक अस्थिरता आ अर्थक लीला: रमेशक मैथिली कथा-संग्रह 'कथा-समय' क एकटा आलोचना",
-      "signals": [
-        "आलोचना"
       ],
       "status": "manual-boundary-review",
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
@@ -2547,45 +1751,6 @@
     {
       "issue": "441",
       "publication_date": "2026-05-01",
-      "section": "1",
-      "label": "आलोचना-फ्रेमवर्क",
-      "signals": [
-        "आलोचना"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-441.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf"
-    },
-    {
-      "issue": "441",
-      "publication_date": "2026-05-01",
-      "section": "2",
-      "label": "आलोचना सिद्धान्तक परिचय",
-      "signals": [
-        "आलोचना"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-441.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf"
-    },
-    {
-      "issue": "441",
-      "publication_date": "2026-05-01",
-      "section": "2",
-      "label": "१ भारतीय आलोचना सिद्धान्त",
-      "signals": [
-        "आलोचना"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-441.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf"
-    },
-    {
-      "issue": "441",
-      "publication_date": "2026-05-01",
       "section": "2",
       "label": "१०. आशीष अनचिन्हार- इच्छा मृत्यु: स्वतंत्र भारतक पहिल वैध उदाहरण (संशोधित) [पृष्ठ १६७-१६९]",
       "signals": [
@@ -2625,32 +1790,6 @@
     {
       "issue": "441",
       "publication_date": "2026-05-01",
-      "section": "2",
-      "label": "२ पाश्चात्य आलोचना सिद्धान्त",
-      "signals": [
-        "आलोचना"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-441.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf"
-    },
-    {
-      "issue": "441",
-      "publication_date": "2026-05-01",
-      "section": "2",
-      "label": "४ विदेह समानान्तर इतिहास फ्रेमवर्क",
-      "signals": [
-        "इतिहास"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-441.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf"
-    },
-    {
-      "issue": "441",
-      "publication_date": "2026-05-01",
       "section": "4",
       "label": "Gajendra Thakur- A Parallel History of Mithila & Maithili Literature (TOME I-IV VOLUMES- 1-100)",
       "signals": [
@@ -2660,19 +1799,6 @@
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
       "source_path": "search-documents/videha-441.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf"
-    },
-    {
-      "issue": "442",
-      "publication_date": "2026-05-15",
-      "section": "2",
-      "label": "४. डॉ. योगानन्द झा- अभिनव पद्यविधा : इतिहास-काव्य",
-      "signals": [
-        "इतिहास"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-442.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf"
     },
     {
       "issue": "442",
@@ -2704,33 +1830,7 @@
       "issue": "443",
       "publication_date": "2026-06-01",
       "section": "2",
-      "label": "११. अमरेश ठाकुर- नैका बनिजारा उपन्‍यासक आलोचनात्‍मक अध्‍ययन",
-      "signals": [
-        "आलोचना"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-443.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf"
-    },
-    {
-      "issue": "443",
-      "publication_date": "2026-06-01",
-      "section": "2",
       "label": "११. अमरेश ठाकुर- नैका बनिजारा उपन्‍यासक आलोचनात्‍मक अध्‍ययन (पृष्ठ ७१-७६)",
-      "signals": [
-        "आलोचना"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-443.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf"
-    },
-    {
-      "issue": "443",
-      "publication_date": "2026-06-01",
-      "section": "2",
-      "label": "१७. गजेन्द्र ठाकुर- परमेश्वर कापड़िक कथा-खिस्साकआलोचनात्मक समीक्षा",
       "signals": [
         "आलोचना"
       ],
@@ -2756,35 +1856,9 @@
       "issue": "443",
       "publication_date": "2026-06-01",
       "section": "2",
-      "label": "१८. गजेन्द्र ठाकुर- परमेश्वर कापड़ि- पद्य-रचनाक आलोचनात्मक समीक्षा",
-      "signals": [
-        "आलोचना"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-443.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf"
-    },
-    {
-      "issue": "443",
-      "publication_date": "2026-06-01",
-      "section": "2",
       "label": "१८. गजेन्द्र ठाकुर- परमेश्वर कापड़ि- पद्य-रचनाक आलोचनात्मक समीक्षा (पृष्ठ १२७-१३९)",
       "signals": [
         "आलोचना"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-443.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf"
-    },
-    {
-      "issue": "443",
-      "publication_date": "2026-06-01",
-      "section": "2",
-      "label": "४. डॉ. योगानन्द झा- अभिनव पद्यविधा : इतिहास-काव्य",
-      "signals": [
-        "इतिहास"
       ],
       "status": "manual-boundary-review",
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
@@ -2808,19 +1882,6 @@
       "issue": "445",
       "publication_date": "2026-07-01",
       "section": "2",
-      "label": "५. लाल देव कामत पहिल लोक 'उपन्यासक' आलोचनात्मक अध्ययन",
-      "signals": [
-        "आलोचना"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-445.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20445.pdf"
-    },
-    {
-      "issue": "445",
-      "publication_date": "2026-07-01",
-      "section": "2",
       "label": "५. लाल देव कामत पहिल लोक 'उपन्यासक' आलोचनात्मक अध्ययन (पृष्ठ ५१-५३)",
       "signals": [
         "आलोचना"
@@ -2834,36 +1895,8 @@
       "issue": "447",
       "publication_date": "2026-08-01",
       "section": "2",
-      "label": "१६. भामती (वाचस्पति)/ आत्मतत्त्वविवेक (उदयन)/ न्यायकुसुमाञ्जलि (उदयन)/तत्त्वचिन्तामणि (गंगेश)/ (मैथिली अनुवाद): ग्रन्थ-सार आ समालोचनात्मक मूल्याङ्कन [मूल संस्कृत सँ मैथिली अनुवाद: गजेन्द्र ठाकुर]",
-      "signals": [
-        "समालोचना"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-447.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
-    },
-    {
-      "issue": "447",
-      "publication_date": "2026-08-01",
-      "section": "2",
       "label": "१६. भामती (वाचस्पति)/ आत्मतत्त्वविवेक (उदयन)/ न्यायकुसुमाञ्जलि (उदयन)/तत्त्वचिन्तामणि (गंगेश)/ (मैथिली अनुवाद): ग्रन्थ-सार आ समालोचनात्मक मूल्याङ्कन [मूल संस्कृत सँ मैथिली अनुवाद: गजेन्द्र ठाकुर] (पृष्ठ २२२-३३९)",
       "signals": [
-        "समालोचना"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-447.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
-    },
-    {
-      "issue": "447",
-      "publication_date": "2026-08-01",
-      "section": "2",
-      "label": "१८. गजेन्द्र ठाकुर- मैथिलीक एकटा समानान्तर व्याकरण, रचना आ भाषा-विज्ञान (ठेठी-अंगिका आ बज्जिकाकेँ संग लऽ कऽ)- गजेन्द्र ठाकुर] एकीकृत विस्तृत समालोचनात्मक शोध-समीक्षा",
-      "signals": [
-        "व्याकरण",
-        "शोध",
         "समालोचना"
       ],
       "status": "manual-boundary-review",
@@ -2890,35 +1923,9 @@
       "issue": "447",
       "publication_date": "2026-08-01",
       "section": "2",
-      "label": "२५. मिथिलाक पञ्जी–प्रबन्ध वंश, विवाह, दूषण, सामाजिक स्मृति आ आधुनिक पुनर्पाठ",
-      "signals": [
-        "पञ्जी"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-447.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
-    },
-    {
-      "issue": "447",
-      "publication_date": "2026-08-01",
-      "section": "2",
       "label": "२५. मिथिलाक पञ्जी–प्रबन्ध वंश, विवाह, दूषण, सामाजिक स्मृति आ आधुनिक पुनर्पाठ (पृष्ठ ९३५-९८६)",
       "signals": [
         "पञ्जी"
-      ],
-      "status": "manual-boundary-review",
-      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
-      "source_path": "search-documents/videha-447.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
-    },
-    {
-      "issue": "447",
-      "publication_date": "2026-08-01",
-      "section": "2",
-      "label": "६. आचार्य रामानंद मंडल- प्राथमिक शिक्षा मे अंगिका बज्जिका/ नीट छात्र आंदोलन -२०२६/ मिथिला राज्य निर्माण के इतिहास",
-      "signals": [
-        "इतिहास"
       ],
       "status": "manual-boundary-review",
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
