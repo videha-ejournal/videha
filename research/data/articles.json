@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T19:59:17.570594+00:00",
+  "generated": "2026-08-26T20:02:57.227239+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -10,130 +10,22 @@
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 3,
     "audit_queue_held": 31,
-    "top_level_audit_publishable": 69,
-    "top_level_audit_held": 48,
+    "top_level_audit_publishable": 55,
+    "top_level_audit_held": 61,
     "promoted_sections_requested": 37,
     "promoted_sections_publishable": 37,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 109,
-    "stale_generated_pages_removed_before_render": 38,
+    "published_after_all_overrides": 95,
+    "stale_generated_pages_removed_before_render": 109,
     "build_errors": 0
   },
   "articles": [
     {
-      "title": "जामवंत केर वचन सोहाओल।",
-      "english_title": null,
-      "authors": [
-        "आचार्यजीक सुन्दरकाण्डक पारंभ देखू-"
-      ],
-      "publication_date": "2008-01-15",
-      "year": "2008",
-      "issue": "2",
-      "keywords": [],
-      "classification": "History / cultural history article",
-      "url": "https://www.videha.co.in/research/2008/2/जामवंत-केर-वचन-सोहाओल।.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20002.pdf",
-      "path": "2008/2/जामवंत-केर-वचन-सोहाओल।.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
-      "title": "प्रबंध (पृ. 54सँ 55 )",
-      "english_title": null,
-      "authors": [
-        "पंजी"
-      ],
-      "publication_date": "2008-01-15",
-      "year": "2008",
-      "issue": "2",
-      "keywords": [],
-      "classification": "History / cultural history article",
-      "url": "https://www.videha.co.in/research/2008/2/प्रबंध-पृ-54सँ-55.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20002.pdf",
-      "path": "2008/2/प्रबंध-पृ-54सँ-55.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
-      "title": "बोध (पृ. 5सँ 9)",
-      "english_title": null,
-      "authors": [
-        "मायानन्द मिश्रक इतिहास"
-      ],
-      "publication_date": "2008-02-01",
-      "year": "2008",
-      "issue": "3",
-      "keywords": [],
-      "classification": "History / cultural history article",
-      "url": "https://www.videha.co.in/research/2008/3/बोध-पृ-5सँ-9.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20003.pdf",
-      "path": "2008/3/बोध-पृ-5सँ-9.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
-      "title": "प्रथमं शैल पुत्री च/ मंत्रपुत्र/ /पुरोहित/ आ' स्त्री-धन केर संदर्भमे",
-      "english_title": null,
-      "authors": [
-        "मायानन्द मिश्रक इतिहास बोध (आँगा)"
-      ],
-      "publication_date": "2008-04-15",
-      "year": "2008",
-      "issue": "8",
-      "keywords": [],
-      "classification": "History / cultural history article",
-      "url": "https://www.videha.co.in/research/2008/8/प्रथमं-शैल-पुत्री-च-मंत्रपुत्र-पुरोहित-आ-स्त्री-धन-केर-संदर्भमे.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20008.pdf",
-      "path": "2008/8/प्रथमं-शैल-पुत्री-च-मंत्रपुत्र-पुरोहित-आ-स्त्री-धन-केर-संदर्भमे.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
-      "title": "प्रथमं शैल पुत्री च/ मंत्रपुत्र/ /पुरोहित/ आ' स्त्री-धन केर संदर्भमे",
-      "english_title": null,
-      "authors": [
-        "मायानन्द मिश्रक इतिहास बोध (आँगा)"
-      ],
-      "publication_date": "2008-05-01",
-      "year": "2008",
-      "issue": "9",
-      "keywords": [],
-      "classification": "History / cultural history article",
-      "url": "https://www.videha.co.in/research/2008/9/प्रथमं-शैल-पुत्री-च-मंत्रपुत्र-पुरोहित-आ-स्त्री-धन-केर-संदर्भमे.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20009.pdf",
-      "path": "2008/9/प्रथमं-शैल-पुत्री-च-मंत्रपुत्र-पुरोहित-आ-स्त्री-धन-केर-संदर्भमे.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
-      "title": "जे काज अहाँ कए रहल छी तकर चरचा एक दिन मैथिली भाषाक इतिहासमे होएत। आनन्द भए रहल अछि, ई जानि कए जे एतेक गोट मैथिल \"विदेह\" ई जर्नलकेँ पढ़ि रहल छथि।",
-      "english_title": null,
-      "authors": [
-        "श्री प्रो. उदय नारायण सिंह \"नचिकेता\""
-      ],
-      "publication_date": "2008-07-01",
-      "year": "2008",
-      "issue": "13",
-      "keywords": [],
-      "classification": "History / cultural history article",
-      "url": "https://www.videha.co.in/research/2008/13/जे-काज-अहाँ-कए-रहल-छी-तकर-चरचा-एक-दिन-मैथिली-भाषाक-इतिहासमे-हो-e0176984e5.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20013.pdf",
-      "path": "2008/13/जे-काज-अहाँ-कए-रहल-छी-तकर-चरचा-एक-दिन-मैथिली-भाषाक-इतिहासमे-हो-e0176984e5.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
       "title": "इतिहास",
       "english_title": null,
       "authors": [
-        "६. डा. सुरेन्‍द्र लाभ"
+        "डा. सुरेन्‍द्र लाभ"
       ],
       "publication_date": "2009-06-15",
       "year": "2009",
@@ -148,28 +40,10 @@
       "page_end": null
     },
     {
-      "title": "प्रयोग सहित)-गजेन्द्र ठाकुर, नागेन्द्र कुमार झा आ पञ्जीकार विद्यानन्द झा।",
-      "english_title": null,
-      "authors": [
-        "मैथिलीक नूतन वैज्ञानिक कोश (वाक्य"
-      ],
-      "publication_date": "2009-10-01",
-      "year": "2009",
-      "issue": "43",
-      "keywords": [],
-      "classification": "History / cultural history article",
-      "url": "https://www.videha.co.in/research/2009/43/प्रयोग-सहित--गजेन्द्र-ठाकुर-नागेन्द्र-कुमार-झा-आ-पञ्जीकार-वि-10ec2630dc.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20043.pdf",
-      "path": "2009/43/प्रयोग-सहित--गजेन्द्र-ठाकुर-नागेन्द्र-कुमार-झा-आ-पञ्जीकार-वि-10ec2630dc.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
       "title": "मिथिलाक इतिहास",
       "english_title": null,
       "authors": [
-        "१.प्रोफेसर राधाकृष्ण चौधरी"
+        "प्रोफेसर राधाकृष्ण चौधरी"
       ],
       "publication_date": "2009-11-01",
       "year": "2009",
@@ -187,7 +61,7 @@
       "title": "मिथिलाक इतिहास (आगाँ)",
       "english_title": null,
       "authors": [
-        "१.प्रोफेसर राधाकृष्ण चौधरी"
+        "प्रोफेसर राधाकृष्ण चौधरी"
       ],
       "publication_date": "2009-12-01",
       "year": "2009",
@@ -205,7 +79,7 @@
       "title": "मिथिलाक इतिहास (आगाँ)",
       "english_title": null,
       "authors": [
-        "१.प्रोफेसर राधाकृष्ण चौधरी"
+        "प्रोफेसर राधाकृष्ण चौधरी"
       ],
       "publication_date": "2010-01-01",
       "year": "2010",
@@ -223,7 +97,7 @@
       "title": "मिथिलाक इतिहास (आगाँ)",
       "english_title": null,
       "authors": [
-        "१.प्रोफेसर राधाकृष्ण चौधरी"
+        "प्रोफेसर राधाकृष्ण चौधरी"
       ],
       "publication_date": "2010-02-01",
       "year": "2010",
@@ -241,7 +115,7 @@
       "title": "मिथिलाक इतिहास (अध्याय- १५सँ १८)",
       "english_title": null,
       "authors": [
-        "२.प्रोफेसर राधाकृष्ण चौधरी"
+        "प्रोफेसर राधाकृष्ण चौधरी"
       ],
       "publication_date": "2010-02-15",
       "year": "2010",
@@ -259,7 +133,7 @@
       "title": "मिथिलाक इतिहास (अन्तिम खेप)",
       "english_title": null,
       "authors": [
-        "१.प्रोफेसर राधाकृष्ण चौधरी"
+        "प्रोफेसर राधाकृष्ण चौधरी"
       ],
       "publication_date": "2010-03-01",
       "year": "2010",
@@ -277,7 +151,7 @@
       "title": "History of Mithila Painting: An Introduction2. Original Poem in Maithili by Gajendra Thakur Translated into English by Jyoti Jha Chaudhary",
       "english_title": null,
       "authors": [
-        "2.1.Sweta Jha"
+        "Sweta Jha"
       ],
       "publication_date": "2010-09-15",
       "year": "2010",
@@ -295,7 +169,7 @@
       "title": "प्रदेश केर विकास : एक चिन्तन- (बिहार-विकास सन्दर्भ मे आलोचनात्मक अभिव्यक्ति)",
       "english_title": null,
       "authors": [
-        "५.बिपिन कुमार झा"
+        "बिपिन कुमार झा"
       ],
       "publication_date": "2010-12-01",
       "year": "2010",
@@ -313,7 +187,7 @@
       "title": "मिथिला चित्रकला",
       "english_title": null,
       "authors": [
-        "३.ज्योति सुनीत चौधरी"
+        "ज्योति सुनीत चौधरी"
       ],
       "publication_date": "2010-12-01",
       "year": "2010",
@@ -331,7 +205,7 @@
       "title": "विद्यापति २.डॉ0 मेघन प्रसाद- मैथिलीमे अनुवाद-कलाक शास्त्रीयकरणक इतिहास",
       "english_title": null,
       "authors": [
-        "५.१. रवि भूषण पाठक"
+        "रवि भूषण पाठक"
       ],
       "publication_date": "2011-01-15",
       "year": "2011",
@@ -346,28 +220,10 @@
       "page_end": null
     },
     {
-      "title": "शोध-पत्रिका- मैथिलीक लोकार्पण २.मुन्ना जी-अप्पन आंगनमे ठाढ़ आइ हम अपने घरकेँ ताकि रहल छी",
-      "english_title": null,
-      "authors": [
-        "८.१.सुमित आनन्द"
-      ],
-      "publication_date": "2011-02-15",
-      "year": "2011",
-      "issue": "76",
-      "keywords": [],
-      "classification": "Research article",
-      "url": "https://www.videha.co.in/research/2011/76/शोध-पत्रिका--मैथिलीक-लोकार्पण-२-मुन्ना-जी-अप्पन-आंगनमे-ठाढ़-d16ed6b344.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20076.pdf",
-      "path": "2011/76/शोध-पत्रिका--मैथिलीक-लोकार्पण-२-मुन्ना-जी-अप्पन-आंगनमे-ठाढ़-d16ed6b344.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
       "title": "मिथिला चित्रकला (पेटिंग): भूत, वर्त्तमान आ भविष्य",
       "english_title": null,
       "authors": [
-        "५. डॉ. कैलाश कुमार मिश्र"
+        "डॉ. कैलाश कुमार मिश्र"
       ],
       "publication_date": "2011-04-01",
       "year": "2011",
@@ -385,7 +241,7 @@
       "title": "१. बीतल इतिहास २. पाथर",
       "english_title": null,
       "authors": [
-        "१.डॉ. शेफालिका वर्मा"
+        "डॉ. शेफालिका वर्मा"
       ],
       "publication_date": "2011-04-15",
       "year": "2011",
@@ -403,7 +259,7 @@
       "title": "अपने घरमे उपेक्षित मिथिला चित्रकला",
       "english_title": null,
       "authors": [
-        "१. जितेन्द्र झा"
+        "जितेन्द्र झा"
       ],
       "publication_date": "2011-05-01",
       "year": "2011",
@@ -421,7 +277,7 @@
       "title": "मिथिला भाषाक अध्ययन आ डॉ. ग्रिअर्सन कृत मैथिली व्याकरण",
       "english_title": null,
       "authors": [
-        "४.डॉ रमानन्द झा \"रमण\""
+        "डॉ रमानन्द झा \"रमण\""
       ],
       "publication_date": "2011-07-15",
       "year": "2011",
@@ -457,7 +313,7 @@
       "title": "यशोधरा",
       "english_title": null,
       "authors": [
-        "१.कामिनी कामायनी"
+        "कामिनी कामायनी"
       ],
       "publication_date": "2012-01-15",
       "year": "2012",
@@ -475,7 +331,7 @@
       "title": "बिहारक औद्योगिक विकास मे बाधा बनि रहल जमीन आ बिजली/ राशन कार्डक होयत डिजिटलीकरण/ मिथिलांचल मे माछ उत्पादक भरोसा देलनि मुख्यमंत्री, सौराठ मे खुजत मिथिला चित्रकला संस्थान/ जन आंदोलन सँ होयत कोसीक समस्याक समाधान-मेधा पाटेकर",
       "english_title": null,
       "authors": [
-        "१.नवेंदु कुमार झा"
+        "नवेंदु कुमार झा"
       ],
       "publication_date": "2012-02-01",
       "year": "2012",
@@ -490,28 +346,10 @@
       "page_end": null
     },
     {
-      "title": "विद्यावाचस्पति डा. सदानन्द झा-",
-      "english_title": null,
-      "authors": [
-        "भारोपीयभाषासन्दर्भे ध्वनिविमर्शः"
-      ],
-      "publication_date": "2012-02-15",
-      "year": "2012",
-      "issue": "100",
-      "keywords": [],
-      "classification": "Scholarly article",
-      "url": "https://www.videha.co.in/research/2012/100/विद्यावाचस्पति-डा-सदानन्द-झा.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20100.pdf",
-      "path": "2012/100/विद्यावाचस्पति-डा-सदानन्द-झा.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
       "title": "इतिहासहिन इतिहास",
       "english_title": null,
       "authors": [
-        "८.सन्तोष कुमार मिश्र"
+        "सन्तोष कुमार मिश्र"
       ],
       "publication_date": "2012-06-15",
       "year": "2012",
@@ -529,7 +367,7 @@
       "title": "आधुनिकताक समस्या ( आलोचना )",
       "english_title": null,
       "authors": [
-        "४.आशीष अनचिन्हार"
+        "आशीष अनचिन्हार"
       ],
       "publication_date": "2012-07-01",
       "year": "2012",
@@ -544,28 +382,10 @@
       "page_end": null
     },
     {
-      "title": "पूनम मण्डल- महा वि‍द्यालय सांस्‍कृति‍क कार्यक्रम-2013 २.संवाद-सुमित आनन्द- शोध-पत्रिका मैथिली केर लोकार्पण",
-      "english_title": null,
-      "authors": [
-        "६.१.रिपोर्ट"
-      ],
-      "publication_date": "2013-02-01",
-      "year": "2013",
-      "issue": "123",
-      "keywords": [],
-      "classification": "Research article",
-      "url": "https://www.videha.co.in/research/2013/123/पूनम-मण्डल--महा-वि-द्यालय-सांस्-कृति-क-कार्यक्रम-2013-२-संवाद-सु-d6e96b2022.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20123.pdf",
-      "path": "2013/123/पूनम-मण्डल--महा-वि-द्यालय-सांस्-कृति-क-कार्यक्रम-2013-२-संवाद-सु-d6e96b2022.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
       "title": "अभिकलनात्मक/संगनणात्मक (Computational) मैथिली व्याकरण",
       "english_title": null,
       "authors": [
-        "३.डॉ०अरूण कुमार सिंह"
+        "डॉ०अरूण कुमार सिंह"
       ],
       "publication_date": "2013-08-15",
       "year": "2013",
@@ -601,7 +421,7 @@
       "title": "Ancient India- The Sources of the History of Pilgrimage",
       "english_title": null,
       "authors": [
-        "2.Ramnarayan Thakur"
+        "Ramnarayan Thakur"
       ],
       "publication_date": "2014-03-15",
       "year": "2014",
@@ -619,7 +439,7 @@
       "title": "जहिया ओ इतिहास सुनौलक",
       "english_title": null,
       "authors": [
-        "३.कामिनी कामायनी"
+        "कामिनी कामायनी"
       ],
       "publication_date": "2014-03-15",
       "year": "2014",
@@ -637,7 +457,7 @@
       "title": "मैथिली काव्यशास्त्रमे झारू छंदक अवधारणा : स्वरूप आ तत्व निर्धारण (आलोचना)",
       "english_title": null,
       "authors": [
-        "६.आशीष अनचिन्हार"
+        "आशीष अनचिन्हार"
       ],
       "publication_date": "2014-07-01",
       "year": "2014",
@@ -655,7 +475,7 @@
       "title": "संशोधन केर मतलब विनाश नै होइ छै",
       "english_title": null,
       "authors": [
-        "१.आशीष अनचिन्हार"
+        "आशीष अनचिन्हार"
       ],
       "publication_date": "2016-08-15",
       "year": "2016",
@@ -673,7 +493,7 @@
       "title": "इतिहास- सगर राति दीप जरय",
       "english_title": null,
       "authors": [
-        "३.उमेश मण्डल"
+        "उमेश मण्डल"
       ],
       "publication_date": "2016-10-01",
       "year": "2016",
@@ -691,7 +511,7 @@
       "title": "राजस्थान केर मंडोवरमे रावण आ मंदोदरीक विवाह: लोक इतिहास केर मूर्त आ अमूर्त प्रमाण",
       "english_title": null,
       "authors": [
-        "१.डॊ कैलाश कुमार मिश्र"
+        "डॊ कैलाश कुमार मिश्र"
       ],
       "publication_date": "2016-12-15",
       "year": "2016",
@@ -709,7 +529,7 @@
       "title": "मिथिलाक इतिहास भाग-२",
       "english_title": null,
       "authors": [
-        "९.गजेन्द्र ठाकुर"
+        "गजेन्द्र ठाकुर"
       ],
       "publication_date": "2020-11-01",
       "year": "2020",
@@ -727,7 +547,7 @@
       "title": "मैथिली वेब-पत्रकारिताक इतिहास",
       "english_title": null,
       "authors": [
-        "९.आशीष अनचिन्हार"
+        "आशीष अनचिन्हार"
       ],
       "publication_date": "2021-01-01",
       "year": "2021",
@@ -745,7 +565,7 @@
       "title": "कौशिकी जनपदक लोक-संस्कृति- इतिहासक शिकारी",
       "english_title": null,
       "authors": [
-        "१.अरविन्द ठाकुर"
+        "अरविन्द ठाकुर"
       ],
       "publication_date": "2021-05-15",
       "year": "2021",
@@ -763,7 +583,7 @@
       "title": "की अप्रमाणिक आलोचना एवं इतिहास केर लेखन करै छथि तारानंद वियोगी? (पृ. १५-४६)",
       "english_title": null,
       "authors": [
-        "१.आशीष अनचिन्हार"
+        "आशीष अनचिन्हार"
       ],
       "publication_date": "2023-12-01",
       "year": "2023",
@@ -781,7 +601,7 @@
       "title": "पुस्तक समीक्षा : मैथिली वेब पत्रकारिताक इतिहास (लेखक : आशीष अनचिन्हार) (पृ. ९०-९३)",
       "english_title": null,
       "authors": [
-        "७.प्रणव झा"
+        "प्रणव झा"
       ],
       "publication_date": "2023-12-15",
       "year": "2023",
@@ -799,7 +619,7 @@
       "title": "पत्नी/ इतिहास हम पढ़बै/ जातीय बोध!/ दान/ बुद्ध",
       "english_title": null,
       "authors": [
-        "१.आचार्य रामानन्द मण्डल"
+        "आचार्य रामानन्द मण्डल"
       ],
       "publication_date": "2024-02-01",
       "year": "2024",
@@ -817,7 +637,7 @@
       "title": "पत्नी/ इतिहास हम पढ़बै/ जातीय बोध!/ दान/ बुद्ध (पृ. १०५-१११)",
       "english_title": null,
       "authors": [
-        "१.आचार्य रामानन्द मण्डल"
+        "आचार्य रामानन्द मण्डल"
       ],
       "publication_date": "2024-02-01",
       "year": "2024",
@@ -835,7 +655,7 @@
       "title": "नरेन्द्र झा लिखित मिथिलाक आर्थिक संरचनापर प्रकाशित पुस्तक-एक ऐतिहासिक दस्तावेज (पृ. १६९-१७३)",
       "english_title": null,
       "authors": [
-        "१४.मधुकांत झा"
+        "मधुकांत झा"
       ],
       "publication_date": "2024-06-01",
       "year": "2024",
@@ -853,7 +673,7 @@
       "title": "श्री नरेन्द्र झा-मिथिलाक आर्थिक पक्ष रखनिहार किन्तु ऐतिहासिक विभ्रम उत्पन्न केनिहार लेखक (पृ. ६५-७२)",
       "english_title": null,
       "authors": [
-        "७.डॉ. धनाकर ठाकुर"
+        "डॉ. धनाकर ठाकुर"
       ],
       "publication_date": "2024-06-01",
       "year": "2024",
@@ -871,7 +691,7 @@
       "title": "\"हिस्टोरिओग्राफी ऑफ मैथिली लेक्सिकोग्राफी\"केर मनोवैज्ञानिक आ आलोचनात्मक व्याख्या(पृ. १५६-१७४)",
       "english_title": null,
       "authors": [
-        "१२.कवि राजीव झा 'एकान्त'"
+        "कवि राजीव झा 'एकान्त'"
       ],
       "publication_date": "2024-06-15",
       "year": "2024",
@@ -889,7 +709,7 @@
       "title": "ध्वनिविज्ञानी प्रो. डा. रामावतार यादवक अनुसार वर्णरत्नाकरक भाषा मैथिली(पृ. ११९-१२४)",
       "english_title": null,
       "authors": [
-        "७.डॉ. धनाकर ठाकुर"
+        "डॉ. धनाकर ठाकुर"
       ],
       "publication_date": "2024-06-15",
       "year": "2024",
@@ -907,7 +727,7 @@
       "title": "प्रोफेसर डा. रामावतार यादव ओ हुनक विलक्षण अनुसंधान तकनीक (मिथिला भारती शोध पत्रिकाक संदर्भमे)(पृ. १३७-१४४)",
       "english_title": null,
       "authors": [
-        "९.डॉ. शिव कुमार मिश्र"
+        "डॉ. शिव कुमार मिश्र"
       ],
       "publication_date": "2024-06-15",
       "year": "2024",
@@ -918,24 +738,6 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20396.pdf",
       "path": "2024/396/प्रोफेसर-डा-रामावतार-यादव-ओ-हुनक-विलक्षण-अनुसंधान-तकनीक-मिथ-872e74f009.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
-      "title": "१.५.अन्तर्राष्ट्रीय मैथिली परिषद् केर जिला, राज्य आओर ओकर कार्यकर्ता केर विवरण (पृष्ठ ६९-८७)",
-      "english_title": null,
-      "authors": [
-        "१.४.राँचीक पहिल अंतर्राष्ट्रीय मैथिली सम्मेलन केर विवरण हितनाथ झा द्वारा (पृष्ठ ६२-६८)"
-      ],
-      "publication_date": "2024-08-15",
-      "year": "2024",
-      "issue": "400",
-      "keywords": [],
-      "classification": "History / cultural history article",
-      "url": "https://www.videha.co.in/research/2024/400/१-५-अन्तर्राष्ट्रीय-मैथिली-परिषद्-केर-जिला-राज्य-आओर-ओकर-कार-472f0cd89c.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20400.pdf",
-      "path": "2024/400/१-५-अन्तर्राष्ट्रीय-मैथिली-परिषद्-केर-जिला-राज्य-आओर-ओकर-कार-472f0cd89c.htm",
       "page_start": null,
       "page_end": null
     },
@@ -979,7 +781,7 @@
       "title": "परमाणु खनिज अन्वेषण एवं अनुसंधान निदेशालय के प्रदर्शनी (पृष्ठ १८-२९)",
       "english_title": null,
       "authors": [
-        "३.प्रणव झा"
+        "प्रणव झा"
       ],
       "publication_date": "2025-04-15",
       "year": "2025",
@@ -1159,7 +961,7 @@
       "title": "पं.भवनाथ झाक शोध दृष्टि (पृष्ठ १७४-१८२)",
       "english_title": null,
       "authors": [
-        "८.भैरव लाल दास"
+        "भैरव लाल दास"
       ],
       "publication_date": "2025-10-15",
       "year": "2025",
@@ -1231,7 +1033,7 @@
       "title": "अशिक्षाक शिकार: केवट समाज (शोध आलेख) (पृष्ठ ३२-३६)",
       "english_title": null,
       "authors": [
-        "५.प्रीति कुमारी"
+        "प्रीति कुमारी"
       ],
       "publication_date": "2026-03-15",
       "year": "2026",
@@ -1339,7 +1141,7 @@
       "title": "इच्छा मृत्यु: स्वतंत्र भारतक पहिल वैध उदाहरण (संशोधित) [पृष्ठ १६७-१६९]",
       "english_title": null,
       "authors": [
-        "१०. आशीष अनचिन्हार"
+        "आशीष अनचिन्हार"
       ],
       "publication_date": "2026-05-01",
       "year": "2026",
@@ -1357,7 +1159,7 @@
       "title": "महाकवि विद्यापति अनुसंधान [पृष्ठ १७०-१७२]",
       "english_title": null,
       "authors": [
-        "११. आचार्य रामानंद मंडल"
+        "आचार्य रामानंद मंडल"
       ],
       "publication_date": "2026-05-01",
       "year": "2026",
@@ -1390,24 +1192,6 @@
       "page_end": "204"
     },
     {
-      "title": "मैथिली लेल दलित साहित्य समीक्षाशास्त्र-२ [संदर्भ: प्रभास कुमार चौधरीक 'इन्द्रधनुष', अशोकक 'प्रतिलोम' आ रमेशक 'कैलास मंडलक फिलिप्स रेडियो'/ दलित साहित्य समीक्षाशास्त्र, भारतीय समीक्षाशास्त्र, पाश्चात्य समीक्षाशास्त्र, गंगेशक नव्य न्याय आ विदेह समानान्तर इतिहास फ्रेमवर्कक परिप्रेक्ष्यमे] [पृष्ठ १७६-२०४]",
-      "english_title": null,
-      "authors": [
-        "१३. गजेन्द्र ठाकुर"
-      ],
-      "publication_date": "2026-05-01",
-      "year": "2026",
-      "issue": "441",
-      "keywords": [],
-      "classification": "History / cultural history article",
-      "url": "https://www.videha.co.in/research/2026/441/मैथिली-लेल-दलित-साहित्य-समीक्षाशास्त्र-२-संदर्भ-प्रभास-कुम-1b178bdb92.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf",
-      "path": "2026/441/मैथिली-लेल-दलित-साहित्य-समीक्षाशास्त्र-२-संदर्भ-प्रभास-कुम-1b178bdb92.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
       "title": "A Parallel History of Mithila & Maithili Literature (TOME I-IV VOLUMES- 1-100)",
       "english_title": null,
       "authors": [
@@ -1429,7 +1213,7 @@
       "title": "अभिनव पद्यविधा : इतिहास-काव्य (पृष्ठ ३१-३६)",
       "english_title": null,
       "authors": [
-        "४. डॉ. योगानन्द झा"
+        "डॉ. योगानन्द झा"
       ],
       "publication_date": "2026-05-15",
       "year": "2026",
@@ -1537,7 +1321,7 @@
       "title": "अभिनव पद्यविधा : इतिहास-काव्य (पृष्ठ ३५-४१)",
       "english_title": null,
       "authors": [
-        "४. डॉ. योगानन्द झा"
+        "डॉ. योगानन्द झा"
       ],
       "publication_date": "2026-06-01",
       "year": "2026",
@@ -1573,7 +1357,7 @@
       "title": "नैका बनिजारा उपन्‍यासक आलोचनात्‍मक अध्‍ययन (पृष्ठ ७१-७६)",
       "english_title": null,
       "authors": [
-        "११. अमरेश ठाकुर"
+        "अमरेश ठाकुर"
       ],
       "publication_date": "2026-06-01",
       "year": "2026",
@@ -1609,7 +1393,7 @@
       "title": "परमेश्वर कापड़ि- पद्य-रचनाक आलोचनात्मक समीक्षा (पृष्ठ १२७-१३९)",
       "english_title": null,
       "authors": [
-        "१८. गजेन्द्र ठाकुर"
+        "गजेन्द्र ठाकुर"
       ],
       "publication_date": "2026-06-01",
       "year": "2026",
@@ -1804,28 +1588,10 @@
       "page_end": "699"
     },
     {
-      "title": "प्रबन्ध वंश, विवाह, दूषण, सामाजिक स्मृति आ आधुनिक पुनर्पाठ (पृष्ठ ९३५-९८६)",
-      "english_title": null,
-      "authors": [
-        "२५. मिथिलाक पञ्जी"
-      ],
-      "publication_date": "2026-08-01",
-      "year": "2026",
-      "issue": "447",
-      "keywords": [],
-      "classification": "History / cultural history article",
-      "url": "https://www.videha.co.in/research/2026/447/प्रबन्ध-वंश-विवाह-दूषण-सामाजिक-स्मृति-आ-आधुनिक-पुनर्पाठ-पृष-86b03c41bc.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf",
-      "path": "2026/447/प्रबन्ध-वंश-विवाह-दूषण-सामाजिक-स्मृति-आ-आधुनिक-पुनर्पाठ-पृष-86b03c41bc.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
       "title": "प्राथमिक शिक्षा मे अंगिका बज्जिका/ नीट छात्र आंदोलन -२०२६/ मिथिला राज्य निर्माण के इतिहास (पृष्ठ ६९-७१)",
       "english_title": null,
       "authors": [
-        "६. आचार्य रामानंद मंडल"
+        "आचार्य रामानंद मंडल"
       ],
       "publication_date": "2026-08-01",
       "year": "2026",
@@ -1915,7 +1681,7 @@
       "title": "मैथिलीक एकटा समानान्तर व्याकरण, रचना आ भाषा-विज्ञान (ठेठी-अंगिका आ बज्जिकाकेँ संग लऽ कऽ)- गजेन्द्र ठाकुर] एकीकृत विस्तृत समालोचनात्मक शोध-समीक्षा (पृष्ठ ३८३-४४२)",
       "english_title": null,
       "authors": [
-        "१८. गजेन्द्र ठाकुर"
+        "गजेन्द्र ठाकुर"
       ],
       "publication_date": "2026-08-01",
       "year": "2026",
@@ -1946,24 +1712,6 @@
       "path": "2026/447/समग्र-सिंहावलोकन-चतुर्भाणी-दामक-प्रहसनम्-हास्यार्णव-आगमडम-99d9c6ef37.htm",
       "page_start": "181",
       "page_end": "221"
-    },
-    {
-      "title": "२.२२. गजेन्द्र ठाकुर- नाट्य-नवग्रह (पृष्ठ ६५७-६९९)",
-      "english_title": null,
-      "authors": [
-        "२.२१. गजेन्द्र ठाकुर- मैथिली बाल-उपन्यासक समीक्षाशास्त्र (पृष्ठ ५८४-६५६)"
-      ],
-      "publication_date": "2026-08-01",
-      "year": "2026",
-      "issue": "447",
-      "keywords": [],
-      "classification": "Literary criticism article",
-      "url": "https://www.videha.co.in/research/2026/447/२-२२-गजेन्द्र-ठाकुर--नाट्य-नवग्रह-पृष्ठ-६५७-६९९.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf",
-      "path": "2026/447/२-२२-गजेन्द्र-ठाकुर--नाट्य-नवग्रह-पृष्ठ-६५७-६९९.htm",
-      "page_start": null,
-      "page_end": null
     },
     {
       "title": "‘बज्जिका गीत-संगीत’ : समेकित द्विभाषिक बहुआयामी साहित्यिक समीक्षा- डॉ. रामेश्वर प्रसादक कृतिक मैथिली–बज्जिका समानान्तर अनुशीलन",
