@@ -1,22 +1,944 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T19:30:53.566567+00:00",
+  "generated": "2026-08-26T19:59:17.570594+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
+    "audit_queue_publishable": 3,
+    "audit_queue_held": 31,
+    "top_level_audit_publishable": 69,
+    "top_level_audit_held": 48,
     "promoted_sections_requested": 37,
     "promoted_sections_publishable": 37,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 38,
+    "published_after_all_overrides": 109,
     "stale_generated_pages_removed_before_render": 38,
     "build_errors": 0
   },
   "articles": [
+    {
+      "title": "जामवंत केर वचन सोहाओल।",
+      "english_title": null,
+      "authors": [
+        "आचार्यजीक सुन्दरकाण्डक पारंभ देखू-"
+      ],
+      "publication_date": "2008-01-15",
+      "year": "2008",
+      "issue": "2",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2008/2/जामवंत-केर-वचन-सोहाओल।.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20002.pdf",
+      "path": "2008/2/जामवंत-केर-वचन-सोहाओल।.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "प्रबंध (पृ. 54सँ 55 )",
+      "english_title": null,
+      "authors": [
+        "पंजी"
+      ],
+      "publication_date": "2008-01-15",
+      "year": "2008",
+      "issue": "2",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2008/2/प्रबंध-पृ-54सँ-55.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20002.pdf",
+      "path": "2008/2/प्रबंध-पृ-54सँ-55.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "बोध (पृ. 5सँ 9)",
+      "english_title": null,
+      "authors": [
+        "मायानन्द मिश्रक इतिहास"
+      ],
+      "publication_date": "2008-02-01",
+      "year": "2008",
+      "issue": "3",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2008/3/बोध-पृ-5सँ-9.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20003.pdf",
+      "path": "2008/3/बोध-पृ-5सँ-9.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "प्रथमं शैल पुत्री च/ मंत्रपुत्र/ /पुरोहित/ आ' स्त्री-धन केर संदर्भमे",
+      "english_title": null,
+      "authors": [
+        "मायानन्द मिश्रक इतिहास बोध (आँगा)"
+      ],
+      "publication_date": "2008-04-15",
+      "year": "2008",
+      "issue": "8",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2008/8/प्रथमं-शैल-पुत्री-च-मंत्रपुत्र-पुरोहित-आ-स्त्री-धन-केर-संदर्भमे.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20008.pdf",
+      "path": "2008/8/प्रथमं-शैल-पुत्री-च-मंत्रपुत्र-पुरोहित-आ-स्त्री-धन-केर-संदर्भमे.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "प्रथमं शैल पुत्री च/ मंत्रपुत्र/ /पुरोहित/ आ' स्त्री-धन केर संदर्भमे",
+      "english_title": null,
+      "authors": [
+        "मायानन्द मिश्रक इतिहास बोध (आँगा)"
+      ],
+      "publication_date": "2008-05-01",
+      "year": "2008",
+      "issue": "9",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2008/9/प्रथमं-शैल-पुत्री-च-मंत्रपुत्र-पुरोहित-आ-स्त्री-धन-केर-संदर्भमे.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20009.pdf",
+      "path": "2008/9/प्रथमं-शैल-पुत्री-च-मंत्रपुत्र-पुरोहित-आ-स्त्री-धन-केर-संदर्भमे.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जे काज अहाँ कए रहल छी तकर चरचा एक दिन मैथिली भाषाक इतिहासमे होएत। आनन्द भए रहल अछि, ई जानि कए जे एतेक गोट मैथिल \"विदेह\" ई जर्नलकेँ पढ़ि रहल छथि।",
+      "english_title": null,
+      "authors": [
+        "श्री प्रो. उदय नारायण सिंह \"नचिकेता\""
+      ],
+      "publication_date": "2008-07-01",
+      "year": "2008",
+      "issue": "13",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2008/13/जे-काज-अहाँ-कए-रहल-छी-तकर-चरचा-एक-दिन-मैथिली-भाषाक-इतिहासमे-हो-e0176984e5.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20013.pdf",
+      "path": "2008/13/जे-काज-अहाँ-कए-रहल-छी-तकर-चरचा-एक-दिन-मैथिली-भाषाक-इतिहासमे-हो-e0176984e5.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "इतिहास",
+      "english_title": null,
+      "authors": [
+        "६. डा. सुरेन्‍द्र लाभ"
+      ],
+      "publication_date": "2009-06-15",
+      "year": "2009",
+      "issue": "36",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2009/36/इतिहास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20036.pdf",
+      "path": "2009/36/इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "प्रयोग सहित)-गजेन्द्र ठाकुर, नागेन्द्र कुमार झा आ पञ्जीकार विद्यानन्द झा।",
+      "english_title": null,
+      "authors": [
+        "मैथिलीक नूतन वैज्ञानिक कोश (वाक्य"
+      ],
+      "publication_date": "2009-10-01",
+      "year": "2009",
+      "issue": "43",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2009/43/प्रयोग-सहित--गजेन्द्र-ठाकुर-नागेन्द्र-कुमार-झा-आ-पञ्जीकार-वि-10ec2630dc.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20043.pdf",
+      "path": "2009/43/प्रयोग-सहित--गजेन्द्र-ठाकुर-नागेन्द्र-कुमार-झा-आ-पञ्जीकार-वि-10ec2630dc.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक इतिहास",
+      "english_title": null,
+      "authors": [
+        "१.प्रोफेसर राधाकृष्ण चौधरी"
+      ],
+      "publication_date": "2009-11-01",
+      "year": "2009",
+      "issue": "45",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2009/45/मिथिलाक-इतिहास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20045.pdf",
+      "path": "2009/45/मिथिलाक-इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक इतिहास (आगाँ)",
+      "english_title": null,
+      "authors": [
+        "१.प्रोफेसर राधाकृष्ण चौधरी"
+      ],
+      "publication_date": "2009-12-01",
+      "year": "2009",
+      "issue": "47",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2009/47/मिथिलाक-इतिहास-आगाँ.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20047.pdf",
+      "path": "2009/47/मिथिलाक-इतिहास-आगाँ.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक इतिहास (आगाँ)",
+      "english_title": null,
+      "authors": [
+        "१.प्रोफेसर राधाकृष्ण चौधरी"
+      ],
+      "publication_date": "2010-01-01",
+      "year": "2010",
+      "issue": "49",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2010/49/मिथिलाक-इतिहास-आगाँ.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20049.pdf",
+      "path": "2010/49/मिथिलाक-इतिहास-आगाँ.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक इतिहास (आगाँ)",
+      "english_title": null,
+      "authors": [
+        "१.प्रोफेसर राधाकृष्ण चौधरी"
+      ],
+      "publication_date": "2010-02-01",
+      "year": "2010",
+      "issue": "51",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2010/51/मिथिलाक-इतिहास-आगाँ.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20051.pdf",
+      "path": "2010/51/मिथिलाक-इतिहास-आगाँ.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक इतिहास (अध्याय- १५सँ १८)",
+      "english_title": null,
+      "authors": [
+        "२.प्रोफेसर राधाकृष्ण चौधरी"
+      ],
+      "publication_date": "2010-02-15",
+      "year": "2010",
+      "issue": "52",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2010/52/मिथिलाक-इतिहास-अध्याय--१५सँ-१८.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20052.pdf",
+      "path": "2010/52/मिथिलाक-इतिहास-अध्याय--१५सँ-१८.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक इतिहास (अन्तिम खेप)",
+      "english_title": null,
+      "authors": [
+        "१.प्रोफेसर राधाकृष्ण चौधरी"
+      ],
+      "publication_date": "2010-03-01",
+      "year": "2010",
+      "issue": "53",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2010/53/मिथिलाक-इतिहास-अन्तिम-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20053.pdf",
+      "path": "2010/53/मिथिलाक-इतिहास-अन्तिम-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "History of Mithila Painting: An Introduction2. Original Poem in Maithili by Gajendra Thakur Translated into English by Jyoti Jha Chaudhary",
+      "english_title": null,
+      "authors": [
+        "2.1.Sweta Jha"
+      ],
+      "publication_date": "2010-09-15",
+      "year": "2010",
+      "issue": "66",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2010/66/history-of-mithila-painting-an-introduction2-original-poem-in-maithili-by-gajendra-thakur-translated-into-english-by-jyoti-jha-chaudhary.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20066.pdf",
+      "path": "2010/66/history-of-mithila-painting-an-introduction2-original-poem-in-maithili-by-gajendra-thakur-translated-into-english-by-jyoti-jha-chaudhary.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "प्रदेश केर विकास : एक चिन्तन- (बिहार-विकास सन्दर्भ मे आलोचनात्मक अभिव्यक्ति)",
+      "english_title": null,
+      "authors": [
+        "५.बिपिन कुमार झा"
+      ],
+      "publication_date": "2010-12-01",
+      "year": "2010",
+      "issue": "71",
+      "keywords": [],
+      "classification": "Literary criticism article",
+      "url": "https://www.videha.co.in/research/2010/71/प्रदेश-केर-विकास-एक-चिन्तन--बिहार-विकास-सन्दर्भ-मे-आलोचनात्म-a76fe0f2cd.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20071.pdf",
+      "path": "2010/71/प्रदेश-केर-विकास-एक-चिन्तन--बिहार-विकास-सन्दर्भ-मे-आलोचनात्म-a76fe0f2cd.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिला चित्रकला",
+      "english_title": null,
+      "authors": [
+        "३.ज्योति सुनीत चौधरी"
+      ],
+      "publication_date": "2010-12-01",
+      "year": "2010",
+      "issue": "71",
+      "keywords": [],
+      "classification": "Scholarly article",
+      "url": "https://www.videha.co.in/research/2010/71/मिथिला-चित्रकला.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20071.pdf",
+      "path": "2010/71/मिथिला-चित्रकला.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "विद्यापति २.डॉ0 मेघन प्रसाद- मैथिलीमे अनुवाद-कलाक शास्त्रीयकरणक इतिहास",
+      "english_title": null,
+      "authors": [
+        "५.१. रवि भूषण पाठक"
+      ],
+      "publication_date": "2011-01-15",
+      "year": "2011",
+      "issue": "74",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2011/74/विद्यापति-२-डॉ0-मेघन-प्रसाद--मैथिलीमे-अनुवाद-कलाक-शास्त्रीयक-4d2ee65a89.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20074.pdf",
+      "path": "2011/74/विद्यापति-२-डॉ0-मेघन-प्रसाद--मैथिलीमे-अनुवाद-कलाक-शास्त्रीयक-4d2ee65a89.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "शोध-पत्रिका- मैथिलीक लोकार्पण २.मुन्ना जी-अप्पन आंगनमे ठाढ़ आइ हम अपने घरकेँ ताकि रहल छी",
+      "english_title": null,
+      "authors": [
+        "८.१.सुमित आनन्द"
+      ],
+      "publication_date": "2011-02-15",
+      "year": "2011",
+      "issue": "76",
+      "keywords": [],
+      "classification": "Research article",
+      "url": "https://www.videha.co.in/research/2011/76/शोध-पत्रिका--मैथिलीक-लोकार्पण-२-मुन्ना-जी-अप्पन-आंगनमे-ठाढ़-d16ed6b344.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20076.pdf",
+      "path": "2011/76/शोध-पत्रिका--मैथिलीक-लोकार्पण-२-मुन्ना-जी-अप्पन-आंगनमे-ठाढ़-d16ed6b344.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिला चित्रकला (पेटिंग): भूत, वर्त्तमान आ भविष्य",
+      "english_title": null,
+      "authors": [
+        "५. डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2011-04-01",
+      "year": "2011",
+      "issue": "79",
+      "keywords": [],
+      "classification": "Scholarly article",
+      "url": "https://www.videha.co.in/research/2011/79/मिथिला-चित्रकला-पेटिंग-भूत-वर्त्तमान-आ-भविष्य.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20079.pdf",
+      "path": "2011/79/मिथिला-चित्रकला-पेटिंग-भूत-वर्त्तमान-आ-भविष्य.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "१. बीतल इतिहास २. पाथर",
+      "english_title": null,
+      "authors": [
+        "१.डॉ. शेफालिका वर्मा"
+      ],
+      "publication_date": "2011-04-15",
+      "year": "2011",
+      "issue": "80",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2011/80/१-बीतल-इतिहास-२-पाथर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20080.pdf",
+      "path": "2011/80/१-बीतल-इतिहास-२-पाथर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "अपने घरमे उपेक्षित मिथिला चित्रकला",
+      "english_title": null,
+      "authors": [
+        "१. जितेन्द्र झा"
+      ],
+      "publication_date": "2011-05-01",
+      "year": "2011",
+      "issue": "81",
+      "keywords": [],
+      "classification": "Scholarly article",
+      "url": "https://www.videha.co.in/research/2011/81/अपने-घरमे-उपेक्षित-मिथिला-चित्रकला.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20081.pdf",
+      "path": "2011/81/अपने-घरमे-उपेक्षित-मिथिला-चित्रकला.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिला भाषाक अध्ययन आ डॉ. ग्रिअर्सन कृत मैथिली व्याकरण",
+      "english_title": null,
+      "authors": [
+        "४.डॉ रमानन्द झा \"रमण\""
+      ],
+      "publication_date": "2011-07-15",
+      "year": "2011",
+      "issue": "86",
+      "keywords": [],
+      "classification": "Linguistics article",
+      "url": "https://www.videha.co.in/research/2011/86/मिथिला-भाषाक-अध्ययन-आ-डॉ-ग्रिअर्सन-कृत-मैथिली-व्याकरण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20086.pdf",
+      "path": "2011/86/मिथिला-भाषाक-अध्ययन-आ-डॉ-ग्रिअर्सन-कृत-मैथिली-व्याकरण.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक संस्कृति:किछु अप्रिय बिन्दु",
+      "english_title": null,
+      "authors": [
+        "अरविन्द ठाकुर"
+      ],
+      "publication_date": "2011-08-01",
+      "year": "2011",
+      "issue": "87",
+      "keywords": [],
+      "classification": "Culture / art studies article",
+      "url": "https://www.videha.co.in/research/2011/87/मिथिलाक-संस्कृति-किछु-अप्रिय-बिन्दु.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20087.pdf",
+      "path": "2011/87/मिथिलाक-संस्कृति-किछु-अप्रिय-बिन्दु.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "यशोधरा",
+      "english_title": null,
+      "authors": [
+        "१.कामिनी कामायनी"
+      ],
+      "publication_date": "2012-01-15",
+      "year": "2012",
+      "issue": "98",
+      "keywords": [],
+      "classification": "Research article",
+      "url": "https://www.videha.co.in/research/2012/98/यशोधरा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20098.pdf",
+      "path": "2012/98/यशोधरा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "बिहारक औद्योगिक विकास मे बाधा बनि रहल जमीन आ बिजली/ राशन कार्डक होयत डिजिटलीकरण/ मिथिलांचल मे माछ उत्पादक भरोसा देलनि मुख्यमंत्री, सौराठ मे खुजत मिथिला चित्रकला संस्थान/ जन आंदोलन सँ होयत कोसीक समस्याक समाधान-मेधा पाटेकर",
+      "english_title": null,
+      "authors": [
+        "१.नवेंदु कुमार झा"
+      ],
+      "publication_date": "2012-02-01",
+      "year": "2012",
+      "issue": "99",
+      "keywords": [],
+      "classification": "Scholarly article",
+      "url": "https://www.videha.co.in/research/2012/99/बिहारक-औद्योगिक-विकास-मे-बाधा-बनि-रहल-जमीन-आ-बिजली-राशन-कार्-ca79e5a8df.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20099.pdf",
+      "path": "2012/99/बिहारक-औद्योगिक-विकास-मे-बाधा-बनि-रहल-जमीन-आ-बिजली-राशन-कार्-ca79e5a8df.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "विद्यावाचस्पति डा. सदानन्द झा-",
+      "english_title": null,
+      "authors": [
+        "भारोपीयभाषासन्दर्भे ध्वनिविमर्शः"
+      ],
+      "publication_date": "2012-02-15",
+      "year": "2012",
+      "issue": "100",
+      "keywords": [],
+      "classification": "Scholarly article",
+      "url": "https://www.videha.co.in/research/2012/100/विद्यावाचस्पति-डा-सदानन्द-झा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20100.pdf",
+      "path": "2012/100/विद्यावाचस्पति-डा-सदानन्द-झा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "इतिहासहिन इतिहास",
+      "english_title": null,
+      "authors": [
+        "८.सन्तोष कुमार मिश्र"
+      ],
+      "publication_date": "2012-06-15",
+      "year": "2012",
+      "issue": "108",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2012/108/इतिहासहिन-इतिहास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20108.pdf",
+      "path": "2012/108/इतिहासहिन-इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "आधुनिकताक समस्या ( आलोचना )",
+      "english_title": null,
+      "authors": [
+        "४.आशीष अनचिन्हार"
+      ],
+      "publication_date": "2012-07-01",
+      "year": "2012",
+      "issue": "109",
+      "keywords": [],
+      "classification": "Literary criticism article",
+      "url": "https://www.videha.co.in/research/2012/109/आधुनिकताक-समस्या-आलोचना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20109.pdf",
+      "path": "2012/109/आधुनिकताक-समस्या-आलोचना.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पूनम मण्डल- महा वि‍द्यालय सांस्‍कृति‍क कार्यक्रम-2013 २.संवाद-सुमित आनन्द- शोध-पत्रिका मैथिली केर लोकार्पण",
+      "english_title": null,
+      "authors": [
+        "६.१.रिपोर्ट"
+      ],
+      "publication_date": "2013-02-01",
+      "year": "2013",
+      "issue": "123",
+      "keywords": [],
+      "classification": "Research article",
+      "url": "https://www.videha.co.in/research/2013/123/पूनम-मण्डल--महा-वि-द्यालय-सांस्-कृति-क-कार्यक्रम-2013-२-संवाद-सु-d6e96b2022.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20123.pdf",
+      "path": "2013/123/पूनम-मण्डल--महा-वि-द्यालय-सांस्-कृति-क-कार्यक्रम-2013-२-संवाद-सु-d6e96b2022.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "अभिकलनात्मक/संगनणात्मक (Computational) मैथिली व्याकरण",
+      "english_title": null,
+      "authors": [
+        "३.डॉ०अरूण कुमार सिंह"
+      ],
+      "publication_date": "2013-08-15",
+      "year": "2013",
+      "issue": "136",
+      "keywords": [],
+      "classification": "Linguistics article",
+      "url": "https://www.videha.co.in/research/2013/136/अभिकलनात्मक-संगनणात्मक-computational-मैथिली-व्याकरण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20136.pdf",
+      "path": "2013/136/अभिकलनात्मक-संगनणात्मक-computational-मैथिली-व्याकरण.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "भर्तृहरेः भाषाशास्त्राीय योगदानम् / VIDEHA MAITHILI SAMSKRIT EDUCATION (contd.)",
+      "english_title": null,
+      "authors": [
+        "डॉ. अमर जी झा"
+      ],
+      "publication_date": "2013-11-15",
+      "year": "2013",
+      "issue": "142",
+      "keywords": [],
+      "classification": "Linguistics article",
+      "url": "https://www.videha.co.in/research/2013/142/भर्तृहरेः-भाषाशास्त्राीय-योगदानम्-videha-maithili-samskrit-education-contd.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20142.pdf",
+      "path": "2013/142/भर्तृहरेः-भाषाशास्त्राीय-योगदानम्-videha-maithili-samskrit-education-contd.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "Ancient India- The Sources of the History of Pilgrimage",
+      "english_title": null,
+      "authors": [
+        "2.Ramnarayan Thakur"
+      ],
+      "publication_date": "2014-03-15",
+      "year": "2014",
+      "issue": "150",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2014/150/ancient-india--the-sources-of-the-history-of-pilgrimage.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20150.pdf",
+      "path": "2014/150/ancient-india--the-sources-of-the-history-of-pilgrimage.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जहिया ओ इतिहास सुनौलक",
+      "english_title": null,
+      "authors": [
+        "३.कामिनी कामायनी"
+      ],
+      "publication_date": "2014-03-15",
+      "year": "2014",
+      "issue": "150",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2014/150/जहिया-ओ-इतिहास-सुनौलक.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20150.pdf",
+      "path": "2014/150/जहिया-ओ-इतिहास-सुनौलक.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली काव्यशास्त्रमे झारू छंदक अवधारणा : स्वरूप आ तत्व निर्धारण (आलोचना)",
+      "english_title": null,
+      "authors": [
+        "६.आशीष अनचिन्हार"
+      ],
+      "publication_date": "2014-07-01",
+      "year": "2014",
+      "issue": "157",
+      "keywords": [],
+      "classification": "Literary criticism article",
+      "url": "https://www.videha.co.in/research/2014/157/मैथिली-काव्यशास्त्रमे-झारू-छंदक-अवधारणा-स्वरूप-आ-तत्व-निर्-71432a0974.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20157.pdf",
+      "path": "2014/157/मैथिली-काव्यशास्त्रमे-झारू-छंदक-अवधारणा-स्वरूप-आ-तत्व-निर्-71432a0974.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "संशोधन केर मतलब विनाश नै होइ छै",
+      "english_title": null,
+      "authors": [
+        "१.आशीष अनचिन्हार"
+      ],
+      "publication_date": "2016-08-15",
+      "year": "2016",
+      "issue": "208",
+      "keywords": [],
+      "classification": "Research article",
+      "url": "https://www.videha.co.in/research/2016/208/संशोधन-केर-मतलब-विनाश-नै-होइ-छै.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20208.pdf",
+      "path": "2016/208/संशोधन-केर-मतलब-विनाश-नै-होइ-छै.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "इतिहास- सगर राति दीप जरय",
+      "english_title": null,
+      "authors": [
+        "३.उमेश मण्डल"
+      ],
+      "publication_date": "2016-10-01",
+      "year": "2016",
+      "issue": "211",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2016/211/इतिहास--सगर-राति-दीप-जरय.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20211.pdf",
+      "path": "2016/211/इतिहास--सगर-राति-दीप-जरय.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "राजस्थान केर मंडोवरमे रावण आ मंदोदरीक विवाह: लोक इतिहास केर मूर्त आ अमूर्त प्रमाण",
+      "english_title": null,
+      "authors": [
+        "१.डॊ कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2016-12-15",
+      "year": "2016",
+      "issue": "216",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2016/216/राजस्थान-केर-मंडोवरमे-रावण-आ-मंदोदरीक-विवाह-लोक-इतिहास-केर-म-976f0766fa.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20216.pdf",
+      "path": "2016/216/राजस्थान-केर-मंडोवरमे-रावण-आ-मंदोदरीक-विवाह-लोक-इतिहास-केर-म-976f0766fa.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक इतिहास भाग-२",
+      "english_title": null,
+      "authors": [
+        "९.गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2020-11-01",
+      "year": "2020",
+      "issue": "309",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2020/309/मिथिलाक-इतिहास-भाग-२.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20309.pdf",
+      "path": "2020/309/मिथिलाक-इतिहास-भाग-२.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली वेब-पत्रकारिताक इतिहास",
+      "english_title": null,
+      "authors": [
+        "९.आशीष अनचिन्हार"
+      ],
+      "publication_date": "2021-01-01",
+      "year": "2021",
+      "issue": "313",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2021/313/मैथिली-वेब-पत्रकारिताक-इतिहास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20313.pdf",
+      "path": "2021/313/मैथिली-वेब-पत्रकारिताक-इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कौशिकी जनपदक लोक-संस्कृति- इतिहासक शिकारी",
+      "english_title": null,
+      "authors": [
+        "१.अरविन्द ठाकुर"
+      ],
+      "publication_date": "2021-05-15",
+      "year": "2021",
+      "issue": "322",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2021/322/कौशिकी-जनपदक-लोक-संस्कृति--इतिहासक-शिकारी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20322.pdf",
+      "path": "2021/322/कौशिकी-जनपदक-लोक-संस्कृति--इतिहासक-शिकारी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "की अप्रमाणिक आलोचना एवं इतिहास केर लेखन करै छथि तारानंद वियोगी? (पृ. १५-४६)",
+      "english_title": null,
+      "authors": [
+        "१.आशीष अनचिन्हार"
+      ],
+      "publication_date": "2023-12-01",
+      "year": "2023",
+      "issue": "383",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2023/383/की-अप्रमाणिक-आलोचना-एवं-इतिहास-केर-लेखन-करै-छथि-तारानंद-वियो-fc452c0856.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20383.pdf",
+      "path": "2023/383/की-अप्रमाणिक-आलोचना-एवं-इतिहास-केर-लेखन-करै-छथि-तारानंद-वियो-fc452c0856.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पुस्तक समीक्षा : मैथिली वेब पत्रकारिताक इतिहास (लेखक : आशीष अनचिन्हार) (पृ. ९०-९३)",
+      "english_title": null,
+      "authors": [
+        "७.प्रणव झा"
+      ],
+      "publication_date": "2023-12-15",
+      "year": "2023",
+      "issue": "384",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2023/384/पुस्तक-समीक्षा-मैथिली-वेब-पत्रकारिताक-इतिहास-लेखक-आशीष-अनच-d7ee43009b.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20384.pdf",
+      "path": "2023/384/पुस्तक-समीक्षा-मैथिली-वेब-पत्रकारिताक-इतिहास-लेखक-आशीष-अनच-d7ee43009b.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पत्नी/ इतिहास हम पढ़बै/ जातीय बोध!/ दान/ बुद्ध",
+      "english_title": null,
+      "authors": [
+        "१.आचार्य रामानन्द मण्डल"
+      ],
+      "publication_date": "2024-02-01",
+      "year": "2024",
+      "issue": "387",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2024/387/पत्नी-इतिहास-हम-पढ़बै-जातीय-बोध-दान-बुद्ध.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20387.pdf",
+      "path": "2024/387/पत्नी-इतिहास-हम-पढ़बै-जातीय-बोध-दान-बुद्ध.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पत्नी/ इतिहास हम पढ़बै/ जातीय बोध!/ दान/ बुद्ध (पृ. १०५-१११)",
+      "english_title": null,
+      "authors": [
+        "१.आचार्य रामानन्द मण्डल"
+      ],
+      "publication_date": "2024-02-01",
+      "year": "2024",
+      "issue": "387",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2024/387/पत्नी-इतिहास-हम-पढ़बै-जातीय-बोध-दान-बुद्ध-पृ-१०५-१११.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20387.pdf",
+      "path": "2024/387/पत्नी-इतिहास-हम-पढ़बै-जातीय-बोध-दान-बुद्ध-पृ-१०५-१११.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नरेन्द्र झा लिखित मिथिलाक आर्थिक संरचनापर प्रकाशित पुस्तक-एक ऐतिहासिक दस्तावेज (पृ. १६९-१७३)",
+      "english_title": null,
+      "authors": [
+        "१४.मधुकांत झा"
+      ],
+      "publication_date": "2024-06-01",
+      "year": "2024",
+      "issue": "395",
+      "keywords": [],
+      "classification": "Scholarly article",
+      "url": "https://www.videha.co.in/research/2024/395/नरेन्द्र-झा-लिखित-मिथिलाक-आर्थिक-संरचनापर-प्रकाशित-पुस्तक-6eeeb5c3e9.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20395.pdf",
+      "path": "2024/395/नरेन्द्र-झा-लिखित-मिथिलाक-आर्थिक-संरचनापर-प्रकाशित-पुस्तक-6eeeb5c3e9.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "श्री नरेन्द्र झा-मिथिलाक आर्थिक पक्ष रखनिहार किन्तु ऐतिहासिक विभ्रम उत्पन्न केनिहार लेखक (पृ. ६५-७२)",
+      "english_title": null,
+      "authors": [
+        "७.डॉ. धनाकर ठाकुर"
+      ],
+      "publication_date": "2024-06-01",
+      "year": "2024",
+      "issue": "395",
+      "keywords": [],
+      "classification": "Scholarly article",
+      "url": "https://www.videha.co.in/research/2024/395/श्री-नरेन्द्र-झा-मिथिलाक-आर्थिक-पक्ष-रखनिहार-किन्तु-ऐतिहास-6e343d7d80.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20395.pdf",
+      "path": "2024/395/श्री-नरेन्द्र-झा-मिथिलाक-आर्थिक-पक्ष-रखनिहार-किन्तु-ऐतिहास-6e343d7d80.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "\"हिस्टोरिओग्राफी ऑफ मैथिली लेक्सिकोग्राफी\"केर मनोवैज्ञानिक आ आलोचनात्मक व्याख्या(पृ. १५६-१७४)",
+      "english_title": null,
+      "authors": [
+        "१२.कवि राजीव झा 'एकान्त'"
+      ],
+      "publication_date": "2024-06-15",
+      "year": "2024",
+      "issue": "396",
+      "keywords": [],
+      "classification": "Literary criticism article",
+      "url": "https://www.videha.co.in/research/2024/396/हिस्टोरिओग्राफी-ऑफ-मैथिली-लेक्सिकोग्राफी-केर-मनोवैज्ञानि-d97b8c76f3.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20396.pdf",
+      "path": "2024/396/हिस्टोरिओग्राफी-ऑफ-मैथिली-लेक्सिकोग्राफी-केर-मनोवैज्ञानि-d97b8c76f3.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "ध्वनिविज्ञानी प्रो. डा. रामावतार यादवक अनुसार वर्णरत्नाकरक भाषा मैथिली(पृ. ११९-१२४)",
+      "english_title": null,
+      "authors": [
+        "७.डॉ. धनाकर ठाकुर"
+      ],
+      "publication_date": "2024-06-15",
+      "year": "2024",
+      "issue": "396",
+      "keywords": [],
+      "classification": "Scholarly article",
+      "url": "https://www.videha.co.in/research/2024/396/ध्वनिविज्ञानी-प्रो-डा-रामावतार-यादवक-अनुसार-वर्णरत्नाकरक-भ-657c3c2d7e.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20396.pdf",
+      "path": "2024/396/ध्वनिविज्ञानी-प्रो-डा-रामावतार-यादवक-अनुसार-वर्णरत्नाकरक-भ-657c3c2d7e.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "प्रोफेसर डा. रामावतार यादव ओ हुनक विलक्षण अनुसंधान तकनीक (मिथिला भारती शोध पत्रिकाक संदर्भमे)(पृ. १३७-१४४)",
+      "english_title": null,
+      "authors": [
+        "९.डॉ. शिव कुमार मिश्र"
+      ],
+      "publication_date": "2024-06-15",
+      "year": "2024",
+      "issue": "396",
+      "keywords": [],
+      "classification": "Research article",
+      "url": "https://www.videha.co.in/research/2024/396/प्रोफेसर-डा-रामावतार-यादव-ओ-हुनक-विलक्षण-अनुसंधान-तकनीक-मिथ-872e74f009.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20396.pdf",
+      "path": "2024/396/प्रोफेसर-डा-रामावतार-यादव-ओ-हुनक-विलक्षण-अनुसंधान-तकनीक-मिथ-872e74f009.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "१.५.अन्तर्राष्ट्रीय मैथिली परिषद् केर जिला, राज्य आओर ओकर कार्यकर्ता केर विवरण (पृष्ठ ६९-८७)",
+      "english_title": null,
+      "authors": [
+        "१.४.राँचीक पहिल अंतर्राष्ट्रीय मैथिली सम्मेलन केर विवरण हितनाथ झा द्वारा (पृष्ठ ६२-६८)"
+      ],
+      "publication_date": "2024-08-15",
+      "year": "2024",
+      "issue": "400",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2024/400/१-५-अन्तर्राष्ट्रीय-मैथिली-परिषद्-केर-जिला-राज्य-आओर-ओकर-कार-472f0cd89c.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20400.pdf",
+      "path": "2024/400/१-५-अन्तर्राष्ट्रीय-मैथिली-परिषद्-केर-जिला-राज्य-आओर-ओकर-कार-472f0cd89c.htm",
+      "page_start": null,
+      "page_end": null
+    },
     {
       "title": "फैमिली एडॉप्शन प्रोग्राम (FAP): चिकित्सा शिक्षा में नवाचार आ ग्रामीण भारत में स्वास्थ्य सेवाक बढ़ावा",
       "english_title": null,
@@ -52,6 +974,24 @@
       "path": "2024/406/आपातकालीन-चिकित्सा-आ-इंटेंसिव-केयर-में-आर्टिफिशियल-इंटेलिज-badef9d125.htm",
       "page_start": "29",
       "page_end": "36"
+    },
+    {
+      "title": "परमाणु खनिज अन्वेषण एवं अनुसंधान निदेशालय के प्रदर्शनी (पृष्ठ १८-२९)",
+      "english_title": null,
+      "authors": [
+        "३.प्रणव झा"
+      ],
+      "publication_date": "2025-04-15",
+      "year": "2025",
+      "issue": "416",
+      "keywords": [],
+      "classification": "Scholarly article",
+      "url": "https://www.videha.co.in/research/2025/416/परमाणु-खनिज-अन्वेषण-एवं-अनुसंधान-निदेशालय-के-प्रदर्शनी-पृष्ठ-१८-२९.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20416.pdf",
+      "path": "2025/416/परमाणु-खनिज-अन्वेषण-एवं-अनुसंधान-निदेशालय-के-प्रदर्शनी-पृष्ठ-१८-२९.htm",
+      "page_start": null,
+      "page_end": null
     },
     {
       "title": "नारायण चौधरी आ जलकर संरक्षण केर सामाजिक सरोकार",
@@ -216,6 +1156,24 @@
       "page_end": "182"
     },
     {
+      "title": "पं.भवनाथ झाक शोध दृष्टि (पृष्ठ १७४-१८२)",
+      "english_title": null,
+      "authors": [
+        "८.भैरव लाल दास"
+      ],
+      "publication_date": "2025-10-15",
+      "year": "2025",
+      "issue": "428",
+      "keywords": [],
+      "classification": "Research article",
+      "url": "https://www.videha.co.in/research/2025/428/पं-भवनाथ-झाक-शोध-दृष्टि-पृष्ठ-१७४-१८२.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf",
+      "path": "2025/428/पं-भवनाथ-झाक-शोध-दृष्टि-पृष्ठ-१७४-१८२.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "चिकित्सा शिक्षा एवं सेवाक नव क्षितिज: NBEMS द्वारा 'AI in Medical Education' पाठ्यक्रमक शुभारंभ",
       "english_title": null,
       "authors": [
@@ -232,6 +1190,24 @@
       "path": "2026/435/चिकित्सा-शिक्षा-एवं-सेवाक-नव-क्षितिज-nbems-द्वारा-ai-in-medical-education-पाठ्-0b3d70634d.htm",
       "page_start": "42",
       "page_end": "53"
+    },
+    {
+      "title": "A Parallel History of Mithila & Maithili Literature",
+      "english_title": null,
+      "authors": [
+        "Gajendra Thakur"
+      ],
+      "publication_date": "2026-03-15",
+      "year": "2026",
+      "issue": "438",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2026/438/a-parallel-history-of-mithila-maithili-literature.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20438.pdf",
+      "path": "2026/438/a-parallel-history-of-mithila-maithili-literature.htm",
+      "page_start": null,
+      "page_end": null
     },
     {
       "title": "अशिक्षाक शिकार: केवट समाज (शोध आलेख)",
@@ -252,6 +1228,24 @@
       "page_end": "36"
     },
     {
+      "title": "अशिक्षाक शिकार: केवट समाज (शोध आलेख) (पृष्ठ ३२-३६)",
+      "english_title": null,
+      "authors": [
+        "५.प्रीति कुमारी"
+      ],
+      "publication_date": "2026-03-15",
+      "year": "2026",
+      "issue": "438",
+      "keywords": [],
+      "classification": "Research article",
+      "url": "https://www.videha.co.in/research/2026/438/अशिक्षाक-शिकार-केवट-समाज-शोध-आलेख-पृष्ठ-३२-३६.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20438.pdf",
+      "path": "2026/438/अशिक्षाक-शिकार-केवट-समाज-शोध-आलेख-पृष्ठ-३२-३६.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "संरचनात्मक अस्थिरता आ अर्थक लीला: रमेशक मैथिली कथा-संग्रह 'कथा-समय' क एकटा आलोचना",
       "english_title": null,
       "authors": [
@@ -270,6 +1264,24 @@
       "page_end": "49"
     },
     {
+      "title": "A Parallel History of Mithila & Maithili Literature (Part 1-100)",
+      "english_title": null,
+      "authors": [
+        "Gajendra Thakur"
+      ],
+      "publication_date": "2026-04-01",
+      "year": "2026",
+      "issue": "439",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2026/439/a-parallel-history-of-mithila-maithili-literature-part-1-100.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20439.pdf",
+      "path": "2026/439/a-parallel-history-of-mithila-maithili-literature-part-1-100.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "समकालीन मैथिली साहित्यक लोकधर्मी स्वर : राम विलास साहु",
       "english_title": null,
       "authors": [
@@ -286,6 +1298,150 @@
       "path": "2026/439/समकालीन-मैथिली-साहित्यक-लोकधर्मी-स्वर-राम-विलास-साहु.htm",
       "page_start": "120",
       "page_end": "137"
+    },
+    {
+      "title": "A Parallel History of Mithila & Maithili Literature (TOME I-IV VOLUMES- 1-100)",
+      "english_title": null,
+      "authors": [
+        "Gajendra Thakur"
+      ],
+      "publication_date": "2026-04-15",
+      "year": "2026",
+      "issue": "440",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2026/440/a-parallel-history-of-mithila-maithili-literature-tome-i-iv-volumes--1-100.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20440.pdf",
+      "path": "2026/440/a-parallel-history-of-mithila-maithili-literature-tome-i-iv-volumes--1-100.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "A Parallel History of Mithila & Maithili Literature (TOME I-IV VOLUMES- 1-100)",
+      "english_title": null,
+      "authors": [
+        "Gajendra Thakur"
+      ],
+      "publication_date": "2026-05-01",
+      "year": "2026",
+      "issue": "441",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2026/441/a-parallel-history-of-mithila-maithili-literature-tome-i-iv-volumes--1-100.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf",
+      "path": "2026/441/a-parallel-history-of-mithila-maithili-literature-tome-i-iv-volumes--1-100.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "इच्छा मृत्यु: स्वतंत्र भारतक पहिल वैध उदाहरण (संशोधित) [पृष्ठ १६७-१६९]",
+      "english_title": null,
+      "authors": [
+        "१०. आशीष अनचिन्हार"
+      ],
+      "publication_date": "2026-05-01",
+      "year": "2026",
+      "issue": "441",
+      "keywords": [],
+      "classification": "Research article",
+      "url": "https://www.videha.co.in/research/2026/441/इच्छा-मृत्यु-स्वतंत्र-भारतक-पहिल-वैध-उदाहरण-संशोधित-पृष्ठ-१६७-१६९.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf",
+      "path": "2026/441/इच्छा-मृत्यु-स्वतंत्र-भारतक-पहिल-वैध-उदाहरण-संशोधित-पृष्ठ-१६७-१६९.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "महाकवि विद्यापति अनुसंधान [पृष्ठ १७०-१७२]",
+      "english_title": null,
+      "authors": [
+        "११. आचार्य रामानंद मंडल"
+      ],
+      "publication_date": "2026-05-01",
+      "year": "2026",
+      "issue": "441",
+      "keywords": [],
+      "classification": "Scholarly article",
+      "url": "https://www.videha.co.in/research/2026/441/महाकवि-विद्यापति-अनुसंधान-पृष्ठ-१७०-१७२.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf",
+      "path": "2026/441/महाकवि-विद्यापति-अनुसंधान-पृष्ठ-१७०-१७२.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली लेल दलित साहित्य समीक्षाशास्त्र-२ [संदर्भ: प्रभास कुमार चौधरीक 'इन्द्रधनुष', अशोकक 'प्रतिलोम' आ रमेशक 'कैलास मंडलक फिलिप्स रेडियो'/ दलित साहित्य समीक्षाशास्त्र, भारतीय समीक्षाशास्त्र, पाश्चात्य समीक्षाशास्त्र, गंगेशक नव्य न्याय आ विदेह समानान्तर इतिहास फ्रेमवर्कक परिप्रेक्ष्यमे]",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-05-01",
+      "year": "2026",
+      "issue": "441",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2026/441/मैथिली-लेल-दलित-साहित्य-समीक्षाशास्त्र-२-संदर्भ-प्रभास-कुम-89a44d8eb5.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf",
+      "path": "2026/441/मैथिली-लेल-दलित-साहित्य-समीक्षाशास्त्र-२-संदर्भ-प्रभास-कुम-89a44d8eb5.htm",
+      "page_start": "176",
+      "page_end": "204"
+    },
+    {
+      "title": "मैथिली लेल दलित साहित्य समीक्षाशास्त्र-२ [संदर्भ: प्रभास कुमार चौधरीक 'इन्द्रधनुष', अशोकक 'प्रतिलोम' आ रमेशक 'कैलास मंडलक फिलिप्स रेडियो'/ दलित साहित्य समीक्षाशास्त्र, भारतीय समीक्षाशास्त्र, पाश्चात्य समीक्षाशास्त्र, गंगेशक नव्य न्याय आ विदेह समानान्तर इतिहास फ्रेमवर्कक परिप्रेक्ष्यमे] [पृष्ठ १७६-२०४]",
+      "english_title": null,
+      "authors": [
+        "१३. गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-05-01",
+      "year": "2026",
+      "issue": "441",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2026/441/मैथिली-लेल-दलित-साहित्य-समीक्षाशास्त्र-२-संदर्भ-प्रभास-कुम-1b178bdb92.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf",
+      "path": "2026/441/मैथिली-लेल-दलित-साहित्य-समीक्षाशास्त्र-२-संदर्भ-प्रभास-कुम-1b178bdb92.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "A Parallel History of Mithila & Maithili Literature (TOME I-IV VOLUMES- 1-100)",
+      "english_title": null,
+      "authors": [
+        "Gajendra Thakur"
+      ],
+      "publication_date": "2026-05-15",
+      "year": "2026",
+      "issue": "442",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2026/442/a-parallel-history-of-mithila-maithili-literature-tome-i-iv-volumes--1-100.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf",
+      "path": "2026/442/a-parallel-history-of-mithila-maithili-literature-tome-i-iv-volumes--1-100.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "अभिनव पद्यविधा : इतिहास-काव्य (पृष्ठ ३१-३६)",
+      "english_title": null,
+      "authors": [
+        "४. डॉ. योगानन्द झा"
+      ],
+      "publication_date": "2026-05-15",
+      "year": "2026",
+      "issue": "442",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2026/442/अभिनव-पद्यविधा-इतिहास-काव्य-पृष्ठ-३१-३६.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf",
+      "path": "2026/442/अभिनव-पद्यविधा-इतिहास-काव्य-पृष्ठ-३१-३६.htm",
+      "page_start": null,
+      "page_end": null
     },
     {
       "title": "गोपाल झा 'अभिषेक'क 'आउ स्वप्न साझी करी': साहित्यिक अनुशीलन",
@@ -378,6 +1534,24 @@
       "page_end": "91"
     },
     {
+      "title": "अभिनव पद्यविधा : इतिहास-काव्य (पृष्ठ ३५-४१)",
+      "english_title": null,
+      "authors": [
+        "४. डॉ. योगानन्द झा"
+      ],
+      "publication_date": "2026-06-01",
+      "year": "2026",
+      "issue": "443",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2026/443/अभिनव-पद्यविधा-इतिहास-काव्य-पृष्ठ-३५-४१.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf",
+      "path": "2026/443/अभिनव-पद्यविधा-इतिहास-काव्य-पृष्ठ-३५-४१.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "नैका बनिजारा उपन्‍यासक आलोचनात्‍मक अध्‍ययन",
       "english_title": null,
       "authors": [
@@ -396,6 +1570,24 @@
       "page_end": "76"
     },
     {
+      "title": "नैका बनिजारा उपन्‍यासक आलोचनात्‍मक अध्‍ययन (पृष्ठ ७१-७६)",
+      "english_title": null,
+      "authors": [
+        "११. अमरेश ठाकुर"
+      ],
+      "publication_date": "2026-06-01",
+      "year": "2026",
+      "issue": "443",
+      "keywords": [],
+      "classification": "Literary criticism article",
+      "url": "https://www.videha.co.in/research/2026/443/नैका-बनिजारा-उपन्-यासक-आलोचनात्-मक-अध्-ययन-पृष्ठ-७१-७६.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf",
+      "path": "2026/443/नैका-बनिजारा-उपन्-यासक-आलोचनात्-मक-अध्-ययन-पृष्ठ-७१-७६.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "परमेश्वर कापड़ि- पद्य-रचनाक आलोचनात्मक समीक्षा",
       "english_title": null,
       "authors": [
@@ -412,6 +1604,24 @@
       "path": "2026/443/परमेश्वर-कापड़ि--पद्य-रचनाक-आलोचनात्मक-समीक्षा.htm",
       "page_start": "127",
       "page_end": "139"
+    },
+    {
+      "title": "परमेश्वर कापड़ि- पद्य-रचनाक आलोचनात्मक समीक्षा (पृष्ठ १२७-१३९)",
+      "english_title": null,
+      "authors": [
+        "१८. गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-06-01",
+      "year": "2026",
+      "issue": "443",
+      "keywords": [],
+      "classification": "Literary criticism article",
+      "url": "https://www.videha.co.in/research/2026/443/परमेश्वर-कापड़ि--पद्य-रचनाक-आलोचनात्मक-समीक्षा-पृष्ठ-१२७-१३९.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf",
+      "path": "2026/443/परमेश्वर-कापड़ि--पद्य-रचनाक-आलोचनात्मक-समीक्षा-पृष्ठ-१२७-१३९.htm",
+      "page_start": null,
+      "page_end": null
     },
     {
       "title": "परमेश्वर कापड़िक कथा-खिस्साकआलोचनात्मक समीक्षा",
@@ -594,6 +1804,42 @@
       "page_end": "699"
     },
     {
+      "title": "प्रबन्ध वंश, विवाह, दूषण, सामाजिक स्मृति आ आधुनिक पुनर्पाठ (पृष्ठ ९३५-९८६)",
+      "english_title": null,
+      "authors": [
+        "२५. मिथिलाक पञ्जी"
+      ],
+      "publication_date": "2026-08-01",
+      "year": "2026",
+      "issue": "447",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2026/447/प्रबन्ध-वंश-विवाह-दूषण-सामाजिक-स्मृति-आ-आधुनिक-पुनर्पाठ-पृष-86b03c41bc.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf",
+      "path": "2026/447/प्रबन्ध-वंश-विवाह-दूषण-सामाजिक-स्मृति-आ-आधुनिक-पुनर्पाठ-पृष-86b03c41bc.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "प्राथमिक शिक्षा मे अंगिका बज्जिका/ नीट छात्र आंदोलन -२०२६/ मिथिला राज्य निर्माण के इतिहास (पृष्ठ ६९-७१)",
+      "english_title": null,
+      "authors": [
+        "६. आचार्य रामानंद मंडल"
+      ],
+      "publication_date": "2026-08-01",
+      "year": "2026",
+      "issue": "447",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2026/447/प्राथमिक-शिक्षा-मे-अंगिका-बज्जिका-नीट-छात्र-आंदोलन--२०२६-मिथ-3c21a93345.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf",
+      "path": "2026/447/प्राथमिक-शिक्षा-मे-अंगिका-बज्जिका-नीट-छात्र-आंदोलन--२०२६-मिथ-3c21a93345.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "भामती (वाचस्पति)/ आत्मतत्त्वविवेक (उदयन)/ न्यायकुसुमाञ्जलि (उदयन)/ तत्त्वचिन्तामणि (गंगेश): ग्रन्थ-सार आ समालोचनात्मक मूल्याङ्कन",
       "english_title": null,
       "authors": [
@@ -666,6 +1912,24 @@
       "page_end": "442"
     },
     {
+      "title": "मैथिलीक एकटा समानान्तर व्याकरण, रचना आ भाषा-विज्ञान (ठेठी-अंगिका आ बज्जिकाकेँ संग लऽ कऽ)- गजेन्द्र ठाकुर] एकीकृत विस्तृत समालोचनात्मक शोध-समीक्षा (पृष्ठ ३८३-४४२)",
+      "english_title": null,
+      "authors": [
+        "१८. गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-08-01",
+      "year": "2026",
+      "issue": "447",
+      "keywords": [],
+      "classification": "Linguistics article",
+      "url": "https://www.videha.co.in/research/2026/447/मैथिलीक-एकटा-समानान्तर-व्याकरण-रचना-आ-भाषा-विज्ञान-ठेठी-अंग-05c2fbb4fe.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf",
+      "path": "2026/447/मैथिलीक-एकटा-समानान्तर-व्याकरण-रचना-आ-भाषा-विज्ञान-ठेठी-अंग-05c2fbb4fe.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "समग्र सिंहावलोकन-चतुर्भाणी, दामक प्रहसनम्, हास्यार्णव, आगमडम्बरम्, कादम्बरी, भल्लट-क्षेमेन्द्र-नीलकण्ठक व्यंग्य-त्रयी, पलाण्डुमण्डन, उत्तररामचरितम्, अभिज्ञानशाकुन्तलम्, मुद्राराक्षसम्, मृच्छकटिकम्, भगवदज्जुकम् आ मत्तविलास तेरहटा अनूदित पोथीक तुलनात्मक अध्ययन [संस्कृतसँ मैथिली अनुवाद गजेन्द्र ठाकुर]",
       "english_title": null,
       "authors": [
@@ -682,6 +1946,24 @@
       "path": "2026/447/समग्र-सिंहावलोकन-चतुर्भाणी-दामक-प्रहसनम्-हास्यार्णव-आगमडम-99d9c6ef37.htm",
       "page_start": "181",
       "page_end": "221"
+    },
+    {
+      "title": "२.२२. गजेन्द्र ठाकुर- नाट्य-नवग्रह (पृष्ठ ६५७-६९९)",
+      "english_title": null,
+      "authors": [
+        "२.२१. गजेन्द्र ठाकुर- मैथिली बाल-उपन्यासक समीक्षाशास्त्र (पृष्ठ ५८४-६५६)"
+      ],
+      "publication_date": "2026-08-01",
+      "year": "2026",
+      "issue": "447",
+      "keywords": [],
+      "classification": "Literary criticism article",
+      "url": "https://www.videha.co.in/research/2026/447/२-२२-गजेन्द्र-ठाकुर--नाट्य-नवग्रह-पृष्ठ-६५७-६९९.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf",
+      "path": "2026/447/२-२२-गजेन्द्र-ठाकुर--नाट्य-नवग्रह-पृष्ठ-६५७-६९९.htm",
+      "page_start": null,
+      "page_end": null
     },
     {
       "title": "‘बज्जिका गीत-संगीत’ : समेकित द्विभाषिक बहुआयामी साहित्यिक समीक्षा- डॉ. रामेश्वर प्रसादक कृतिक मैथिली–बज्जिका समानान्तर अनुशीलन",

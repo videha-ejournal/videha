@@ -1,16 +1,20 @@
 {
-  "generated": "2026-08-26T19:30:53.566275+00:00",
+  "generated": "2026-08-26T19:59:17.569879+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
+    "audit_queue_publishable": 3,
+    "audit_queue_held": 31,
+    "top_level_audit_publishable": 69,
+    "top_level_audit_held": 48,
     "promoted_sections_requested": 37,
     "promoted_sections_publishable": 37,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 38,
+    "published_after_all_overrides": 109,
     "stale_generated_pages_removed_before_render": 38,
     "build_errors": 0
   },
@@ -36,6 +40,454 @@
       "reasons": [
         "automatic explicit-label false positive: title contains 'शोध पत्रिका', not an article-level 'शोध पत्र' label"
       ]
+    }
+  ],
+  "audit_review": [
+    {
+      "issue": "322",
+      "section": "2.1",
+      "reason": "insufficient-body-for-high-confidence, short-body"
+    },
+    {
+      "issue": "49",
+      "section": "2.1",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "150",
+      "section": "8.2",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "357",
+      "section": "2.22",
+      "reason": "review ledger: exclude_for_now"
+    },
+    {
+      "issue": "343",
+      "section": "2.5",
+      "reason": "review ledger: exclude"
+    },
+    {
+      "issue": "64",
+      "section": "2.3",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "65",
+      "section": "2.1",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "21",
+      "section": "2.7",
+      "reason": "author-title-split-ambiguous, legacy-boundary-oversize"
+    },
+    {
+      "issue": "46",
+      "section": "2.8",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "48",
+      "section": "2.7",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "51",
+      "section": "2.8",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "67",
+      "section": "2.8",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "396",
+      "section": "2.9",
+      "reason": "insufficient-body-for-high-confidence, short-body"
+    },
+    {
+      "issue": "438",
+      "section": "2.5",
+      "reason": "insufficient-body-for-high-confidence, short-body"
+    },
+    {
+      "issue": "22",
+      "section": "2.7",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "24",
+      "section": "2.8",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "25",
+      "section": "2.9",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "31",
+      "section": "2.9",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "53",
+      "section": "2.5",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "66",
+      "section": "2.1",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "72",
+      "section": "2.5",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "73",
+      "section": "2.4",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "110",
+      "section": "2.1",
+      "reason": "insufficient-body-for-high-confidence, short-body"
+    },
+    {
+      "issue": "374",
+      "section": "2.1",
+      "reason": "insufficient-body-for-high-confidence, short-body"
+    },
+    {
+      "issue": "383",
+      "section": "2.1",
+      "reason": "insufficient-body-for-high-confidence, short-body"
+    },
+    {
+      "issue": "44",
+      "section": "2.8",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "59",
+      "section": "2.5",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "61",
+      "section": "2.6",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "74",
+      "section": "2.7",
+      "reason": "legacy-boundary-oversize"
+    },
+    {
+      "issue": "409",
+      "section": "2.7",
+      "reason": "review ledger: exclude"
+    },
+    {
+      "issue": "408",
+      "section": "2.8",
+      "reason": "insufficient-body-for-high-confidence"
+    }
+  ],
+  "top_level_review": [
+    {
+      "issue": "3",
+      "section": "3",
+      "label": "मायानन्द मिश्रक इतिहास-बोध",
+      "body_chars": 3690,
+      "reason": "explicit author/title not recoverable"
+    },
+    {
+      "issue": "10",
+      "section": "2",
+      "label": "शोध लेख: मायानन्द मिश्रक इतिहास बोध (आगाँ)",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "11",
+      "section": "2",
+      "label": "शोध लेख: मायानन्द मिश्रक इतिहास बोध (आगाँ)",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "12",
+      "section": "1",
+      "label": "श्री प्रो. उदय नारायण सिंह \"नचिकेता\"- जे काज अहाँ कए रहल छी तकर चरचा एक दिन मैथिली भाषाक इतिहासमे होएत। आनन्द भए रहल अछि, ई जानि कए जे एतेक गोट मैथिल \"विदेह\" ई जर्नलकेँ पढ़ि रहल छथि।",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "12",
+      "section": "2",
+      "label": "शोध लेख: मायानन्द मिश्रक इतिहास बोध (आगाँ)",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "13",
+      "section": "2",
+      "label": "शोध लेख: मायानन्द मिश्रक इतिहास बोध (आगाँ)",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "16",
+      "section": "1",
+      "label": "श्री प्रो. उदय नारायण सिंह \"नचिकेता\"- जे काज अहाँ कए रहल छी तकर चरचा एक दिन मैथिली भाषाक इतिहासमे होएत। आनन्द भए रहल अछि, ई जानि कए जे एतेक गोट मैथिल \"विदेह\" ई जर्नलकेँ पढ़ि रहल छथि।",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "18",
+      "section": "1",
+      "label": "श्री प्रो. उदय नारायण सिंह \"नचिकेता\"- जे काज अहाँ कए रहल छी तकर चरचा एक दिन मैथिली भाषाक इतिहासमे होएत। आनन्द भए रहल अछि, ई जानि कए जे एतेक गोट मैथिल \"विदेह\" ई जर्नलकेँ पढ़ि रहल छथि।",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "19",
+      "section": "1",
+      "label": "श्री प्रो. उदय नारायण सिंह \"नचिकेता\"- जे काज अहाँ कए रहल छी तकर चरचा एक दिन मैथिली भाषाक इतिहासमे होएत। आनन्द भए रहल अछि, ई जानि कए जे एतेक गोट मैथिल \"विदेह\" ई जर्नलकेँ पढ़ि रहल छथि।",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "19",
+      "section": "4",
+      "label": "४.शोध लेख-स्व. राजकमल चौधरी पर (देवशंकर नवीन द्वारा)",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "20",
+      "section": "1",
+      "label": "श्री प्रो. उदय नारायण सिंह \"नचिकेता\"- जे काज अहाँ कए रहल छी तकर चरचा एक दिन मैथिली भाषाक इतिहासमे होएत। आनन्द भए रहल अछि, ई जानि कए जे एतेक गोट मैथिल \"विदेह\" ई जर्नलकेँ पढ़ि रहल छथि।",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "21",
+      "section": "1",
+      "label": "श्री प्रो. उदय नारायण सिंह \"नचिकेता\"- जे काज अहाँ कए रहल छी तकर चरचा एक दिन मैथिली भाषाक इतिहासमे होएत। आनन्द भए रहल अछि, ई जानि कए जे एतेक गोट मैथिल \"विदेह\" ई जर्नलकेँ पढ़ि रहल छथि।",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "21",
+      "section": "2",
+      "label": "श्री डॉ. गंगेश गुंजन- एहि विदेह-कर्ममे लागि रहल अहाँक सम्वेदनशील मन, मैथिलीक प्रति समर्पित मेहनतिक अमृत रंग, इतिहास मे एक टा विशिष्ट फराक अध्याय आरंभ करत, हमरा विश्वास अछि। अशेष शुभकामना आ बधाइक सङ्ग, सस्नेह|",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "22",
+      "section": "1",
+      "label": "श्री प्रो. उदय नारायण सिंह \"नचिकेता\"- जे काज अहाँ कए रहल छी तकर चरचा एक दिन मैथिली भाषाक इतिहासमे होएत। आनन्द भए रहल अछि, ई जानि कए जे एतेक गोट मैथिल \"विदेह\" ई जर्नलकेँ पढ़ि रहल छथि।",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "22",
+      "section": "2",
+      "label": "श्री डॉ. गंगेश गुंजन- एहि विदेह-कर्ममे लागि रहल अहाँक सम्वेदनशील मन, मैथिलीक प्रति समर्पित मेहनतिक अमृत रंग, इतिहास मे एक टा विशिष्ट फराक अध्याय आरंभ करत, हमरा विश्वास अछि। अशेष शुभकामना आ बधाइक सङ्ग, सस्नेह|",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "24",
+      "section": "1",
+      "label": "श्री प्रो. उदय नारायण सिंह \"नचिकेता\"- जे काज अहाँ कए रहल छी तकर चरचा एक दिन मैथिली भाषाक इतिहासमे होएत। आनन्द भए रहल अछि, ई जानि कए जे एतेक गोट मैथिल \"विदेह\" ई जर्नलकेँ पढ़ि रहल छथि।",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "24",
+      "section": "2",
+      "label": "श्री डॉ. गंगेश गुंजन- एहि विदेह-कर्ममे लागि रहल अहाँक सम्वेदनशील मन, मैथिलीक प्रति समर्पित मेहनतिक अमृत रंग, इतिहास मे एक टा विशिष्ट फराक अध्याय आरंभ करत, हमरा विश्वास अछि। अशेष शुभकामना आ बधाइक सङ्ग, सस्नेह|",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "25",
+      "section": "1",
+      "label": "श्री प्रो. उदय नारायण सिंह \"नचिकेता\"- जे काज अहाँ कए रहल छी तकर चरचा एक दिन मैथिली भाषाक इतिहासमे होएत। आनन्द भए रहल अछि, ई जानि कए जे एतेक गोट मैथिल \"विदेह\" ई जर्नलकेँ पढ़ि रहल छथि।",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "25",
+      "section": "2",
+      "label": "श्री डॉ. गंगेश गुंजन- एहि विदेह-कर्ममे लागि रहल अहाँक सम्वेदनशील मन, मैथिलीक प्रति समर्पित मेहनतिक अमृत रंग, इतिहास मे एक टा विशिष्ट फराक अध्याय आरंभ करत, हमरा विश्वास अछि। अशेष शुभकामना आ बधाइक सङ्ग, सस्नेह|",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "26",
+      "section": "1",
+      "label": "श्री प्रो. उदय नारायण सिंह \"नचिकेता\"- जे काज अहाँ कए रहल छी तकर चरचा एक दिन मैथिली भाषाक इतिहासमे होएत। आनन्द भए रहल अछि, ई जानि कए जे एतेक गोट मैथिल \"विदेह\" ई जर्नलकेँ पढ़ि रहल छथि।",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "26",
+      "section": "2",
+      "label": "श्री डॉ. गंगेश गुंजन- एहि विदेह-कर्ममे लागि रहल अहाँक सम्वेदनशील मन, मैथिलीक प्रति समर्पित मेहनतिक अमृत रंग, इतिहास मे एक टा विशिष्ट फराक अध्याय आरंभ करत, हमरा विश्वास अछि। अशेष शुभकामना आ बधाइक सङ्ग, सस्नेह|",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "28",
+      "section": "1",
+      "label": "श्री प्रो. उदय नारायण सिंह \"नचिकेता\"- जे काज अहाँ कए रहल छी तकर चरचा एक दिन मैथिली भाषाक इतिहासमे होएत। आनन्द भए रहल अछि, ई जानि कए जे एतेक गोट मैथिल \"विदेह\" ई जर्नलकेँ पढ़ि रहल छथि।",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "28",
+      "section": "2",
+      "label": "श्री डॉ. गंगेश गुंजन- एहि विदेह-कर्ममे लागि रहल अहाँक सम्वेदनशील मन, मैथिलीक प्रति समर्पित मेहनतिक अमृत रंग, इतिहास मे एक टा विशिष्ट फराक अध्याय आरंभ करत, हमरा विश्वास अछि। अशेष शुभकामना आ बधाइक सङ्ग, सस्नेह|",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "28",
+      "section": "6",
+      "label": "भाषापाक रचना-लेखन - पञ्जी डाटाबेस (आगाँ), [मानक मैथिली], [विदेहक मैथिली-अंग्रेजी आ अंग्रेजी मैथिली कोष (इंटरनेटपर पहिल बेर सर्च-डिक्शनरी) एम.एस. एस.क्यू.एल. सर्वर आधारित -Based on ms-sql server Maithili-English and English-Maithili Dictionary.]",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "29",
+      "section": "1",
+      "label": "श्री प्रो. उदय नारायण सिंह \"नचिकेता\"- जे काज अहाँ कए रहल छी तकर चरचा एक दिन मैथिली भाषाक इतिहासमे होएत। आनन्द भए रहल अछि, ई जानि कए जे एतेक गोट मैथिल \"विदेह\" ई जर्नलकेँ पढ़ि रहल छथि।",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "29",
+      "section": "2",
+      "label": "श्री डॉ. गंगेश गुंजन- एहि विदेह-कर्ममे लागि रहल अहाँक सम्वेदनशील मन, मैथिलीक प्रति समर्पित मेहनतिक अमृत रंग, इतिहास मे एक टा विशिष्ट फराक अध्याय आरंभ करत, हमरा विश्वास अछि। अशेष शुभकामना आ बधाइक सङ्ग, सस्नेह|",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "29",
+      "section": "5",
+      "label": "भाषापाक रचना-लेखन - पञ्जी डाटाबेस (आगाँ), [मानक मैथिली], [विदेहक मैथिली-अंग्रेजी आ अंग्रेजी मैथिली कोष (इंटरनेटपर पहिल बेर सर्च-डिक्शनरी) एम.एस. एस.क्यू.एल. सर्वर आधारित -Based on ms-sql server Maithili-English and English-Maithili Dictionary.]",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "30",
+      "section": "7",
+      "label": "भाषापाक रचना-लेखन - पञ्जी डाटाबेस (आगाँ), [मानक मैथिली], [विदेहक मैथिली-अंग्रेजी आ अंग्रेजी मैथिली कोष (इंटरनेटपर पहिल बेर सर्च-डिक्शनरी) एम.एस. एस.क्यू.एल. सर्वर आधारित -Based on ms-sql server Maithili-English and English-Maithili Dictionary.]",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "31",
+      "section": "5",
+      "label": "भाषापाक रचना-लेखन - पञ्जी डाटाबेस (आगाँ), [मानक मैथिली], [विदेहक मैथिली-अंग्रेजी आ अंग्रेजी मैथिली कोष (इंटरनेटपर पहिल बेर सर्च-डिक्शनरी) एम.एस. एस.क्यू.एल. सर्वर आधारित -Based on ms-sql server Maithili-English and English-Maithili Dictionary.]",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "32",
+      "section": "5",
+      "label": "भाषापाक रचना-लेखन - पञ्जी डाटाबेस (आगाँ), [मानक मैथिली], [विदेहक मैथिली-अंग्रेजी आ अंग्रेजी मैथिली कोष (इंटरनेटपर पहिल बेर सर्च-डिक्शनरी) एम.एस. एस.क्यू.एल. सर्वर आधारित -Based on ms-sql server Maithili-English and English-Maithili Dictionary.]",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "33",
+      "section": "6",
+      "label": "भाषापाक रचना-लेखन - पञ्जी डाटाबेस (आगाँ), [मानक मैथिली], [विदेहक मैथिली-अंग्रेजी आ अंग्रेजी मैथिली कोष (इंटरनेटपर पहिल बेर सर्च-डिक्शनरी) एम.एस. एस.क्यू.एल. सर्वर आधारित -Based on ms-sql server Maithili-English and English-Maithili Dictionary.]",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "36",
+      "section": "6",
+      "label": "भाषापाक रचना-लेखन - पञ्जी डाटाबेस (आगाँ), [मानक मैथिली], [विदेहक मैथिली-अंग्रेजी आ अंग्रेजी मैथिली कोष (इंटरनेटपर पहिल बेर सर्च-डिक्शनरी) एम.एस. एस.क्यू.एल. सर्वर आधारित -Based on ms-sql server Maithili-English and English-Maithili Dictionary.]",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "37",
+      "section": "5",
+      "label": "भाषापाक रचना-लेखन - पञ्जी डाटाबेस (आगाँ), [मानक मैथिली], [विदेहक मैथिली-अंग्रेजी आ अंग्रेजी मैथिली कोष (इंटरनेटपर पहिल बेर सर्च-डिक्शनरी) एम.एस. एस.क्यू.एल. सर्वर आधारित -Based on ms-sql server Maithili-English and English-Maithili Dictionary.]",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "39",
+      "section": "7",
+      "label": "भाषापाक रचना-लेखन - पञ्जी डाटाबेस (आगाँ), [मानक मैथिली], [विदेहक मैथिली-अंग्रेजी आ अंग्रेजी मैथिली कोष (इंटरनेटपर पहिल बेर सर्च-डिक्शनरी) एम.एस. एस.क्यू.एल. सर्वर आधारित -Based on ms-sql server Maithili-English and English-Maithili Dictionary.]",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "40",
+      "section": "7",
+      "label": "भाषापाक रचना-लेखन - पञ्जी डाटाबेस (आगाँ), [मानक मैथिली], [विदेहक मैथिली-अंग्रेजी आ अंग्रेजी मैथिली कोष (इंटरनेटपर पहिल बेर सर्च-डिक्शनरी) एम.एस. एस.क्यू.एल. सर्वर आधारित -Based on ms-sql server Maithili-English and English-Maithili Dictionary.]",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "41",
+      "section": "6",
+      "label": "भाषापाक रचना-लेखन - पञ्जी डाटाबेस (आगाँ), [मानक मैथिली], [विदेहक मैथिली-अंग्रेजी आ अंग्रेजी मैथिली कोष (इंटरनेटपर पहिल बेर सर्च-डिक्शनरी) एम.एस. एस.क्यू.एल. सर्वर आधारित -Based on ms-sql server Maithili-English and English-Maithili Dictionary.]",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "46",
+      "section": "2",
+      "label": "१.प्रोफेसर राधाकृष्ण चौधरी-मिथिलाक इतिहास",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "48",
+      "section": "2",
+      "label": "१.प्रोफेसर राधाकृष्ण चौधरी-मिथिलाक इतिहास (आगाँ)",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "92",
+      "section": "2",
+      "label": "३.चन्द्रेश-यर्थाथक अनुभुतिमे ऐतिहासिक दिनः झिझिया नृत्य महोत्सव",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "165",
+      "section": "3",
+      "label": "नेपाल विद्यापति मैथिलि अनुसन्धान पुरस्कार— डा. वासुदेव लाल दास— पुरस्कार राशि रु. १ लाख ।",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "166",
+      "section": "3",
+      "label": "नेपाल विद्यापति मैथिली अनुसन्धान पुरस्कार— डा. वासुदेव लाल दास— पुरस्कार राशि रु. १ लाख ।",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "167",
+      "section": "3",
+      "label": "नेपाल विद्यापति मैथिली अनुसन्धान पुरस्कार— डा. वासुदेव लाल दास— पुरस्कार राशि रु. १ लाख ।",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "168",
+      "section": "3",
+      "label": "नेपाल विद्यापति मैथिली अनुसन्धान पुरस्कार— डा. वासुदेव लाल दास— पुरस्कार राशि रु. १ लाख ।",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "195",
+      "section": "2",
+      "label": "३.आशीष अनचिन्हार- गाम के अधिकारी तोहे बड़का भैया हो (आलोचना)",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "284",
+      "section": "1",
+      "label": "भागेसर, 2. झमेलिया, 3. यशोधर, 4. राजदेव, 5. श्याम, 6. कृष्णानन्द, 7. बालगोविन्द, 8. राधेश्याम, 9. घटकभाय, 10. रूपलाल, 11. गरीबलाल, 12. धीरजलाल, 13. पान-सातबच्‍चा, 14. सुशीला, 15. दायरानी,16. घटकभाइपत्नी, 17. सुनीता",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "307",
+      "section": "3",
+      "label": "6.GAJENDRA THAKUR- Language editing by Astha Thakur A PARALLEL HISTORY OF MAITHILI LITERATURE-ERA BEFORE AND AFTER- LITERARY SCENCE IN MAITHILI AFTER THE ARRIVAL OF JAGDISH PRASAD MANDAL",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "368",
+      "section": "2",
+      "label": "१२.जितेन्द्र झा, जनकपुर- मिथिला चित्रकला- नेपाल प्रसंग (पृ. ७४-७९)",
+      "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "374",
+      "section": "2",
+      "label": "१.डॉ दीपेश कुमार ठाकुर- मिथिलाक इतिहासक वैज्ञानिक अध्ययन एवं ओकर समीक्षात्मक विश्लेषण (पृ. ७-२३)",
+      "reason": "bounded body not recovered"
     }
   ],
   "promotion_review": [],
