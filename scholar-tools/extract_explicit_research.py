@@ -15,14 +15,16 @@ EXPLICIT_TERMS = (
 )
 # Videha's TOC typography changed over time. Recent issues commonly use
 # “(पृष्ठ 12-18)”; older issues use “(पृ. 12-18)” or “[पृ. 12-18]”.
-# Treat these as equivalent page-range markers while keeping article-level
-# boundaries conservative.
 TOC_RE = re.compile(
     r"(?m)^\s*([0-9०-९]+\.[0-9०-९]+)\.\s*(.*?)\s*"
     r"(?:\(\s*(?:पृष्ठ|पृ\.?)|\[\s*(?:pages?|पृष्ठ|पृ\.?))\s*([0-9०-९]+)"
     r"(?:\s*[-–—]\s*([0-9०-९]+))?\s*(?:\)|\])\s*$",
     re.I,
 )
+# Still older issues may list simple article entries without any page range.
+# This fallback is intentionally narrow: only standalone x.y entries are
+# accepted. Composite labels such as 2.2.1....2.... are rejected below.
+TOC_SIMPLE_RE = re.compile(r"(?m)^\s*([0-9०-९]+\.[0-9०-९]+)\.\s*(.+?)\s*$")
 
 
 class SourceParser(HTMLParser):
@@ -132,17 +134,69 @@ def source_pdf(parser: SourceParser, issue: str) -> str:
     return f"https://archive.org/download/VidehaAndSadeha/Videha%20{issue}.pdf"
 
 
-def parse_toc_entries(text: str) -> tuple[list[dict], int]:
-    """Parse the first page-number TOC and return a floor below that TOC."""
+def _marker(text: str) -> int:
     marker = text.find("ऐ अंकमे अछि")
     if marker < 0:
         marker = text.find("अनुक्रम")
-    if marker < 0:
-        marker = 0
+    return max(marker, 0)
+
+
+def _simple_toc(text: str, marker: int, window_end: int) -> tuple[list[dict], int]:
+    prelim = list(TOC_SIMPLE_RE.finditer(text, marker, window_end))
+    if not prelim:
+        return [], marker
+    # Find the first plausible standalone Author-Title entry, excluding composite
+    # sublists whose label starts with another numeric marker (e.g. 1.Author...).
+    usable = []
+    for m in prelim:
+        label = re.sub(r"\s+", " ", m.group(2)).strip()
+        if re.match(r"^[0-9०-९]+\s*\.", label):
+            continue
+        author, title = split_author_title(label)
+        if author and title:
+            usable.append(m)
+    if not usable:
+        return [], marker
+
+    first_sec = usable[0].group(1)
+    sec_re = re.compile(rf"(?m)^\s*{re.escape(first_sec)}\.\s*")
+    repeats = list(sec_re.finditer(text, usable[0].end(), min(len(text), window_end + 100000)))
+    body_floor = repeats[0].start() if repeats else max(m.end() for m in usable)
+
+    seen: set[str] = set()
+    toc: list[dict] = []
+    for m in usable:
+        if m.start() >= body_floor:
+            continue
+        section, label = m.groups()
+        sec_latin = latin_digits(section)
+        if sec_latin in seen:
+            continue
+        seen.add(sec_latin)
+        author, title = split_author_title(label)
+        if not author or not title:
+            continue
+        toc.append({
+            "section": sec_latin,
+            "section_source": section,
+            "label": label.strip(),
+            "author": author,
+            "title": title,
+            "page_start": "",
+            "page_end": "",
+            "toc_start": m.start(),
+            "toc_end": m.end(),
+        })
+    return toc, body_floor
+
+
+def parse_toc_entries(text: str) -> tuple[list[dict], int]:
+    """Parse Videha TOCs across current and legacy page-range conventions."""
+    marker = _marker(text)
     window_end = min(len(text), marker + 140000)
     prelim = list(TOC_RE.finditer(text, marker, window_end))
     if not prelim:
-        return [], marker
+        return _simple_toc(text, marker, window_end)
 
     first_sec = prelim[0].group(1)
     sec_re = re.compile(rf"(?m)^\s*{re.escape(first_sec)}\.\s*")
@@ -210,9 +264,7 @@ def clean_body(segment: str, section: str, author: str, title: str) -> str:
 
 def body_to_html(body: str) -> str:
     paras = [p.strip() for p in re.split(r"\n\s*\n", body) if p.strip()]
-    return "".join(
-        f"<p>{html.escape(p, quote=False).replace(chr(10), '<br>')}</p>" for p in paras
-    )
+    return "".join(f"<p>{html.escape(p, quote=False).replace(chr(10), '<br>')}</p>" for p in paras)
 
 
 def _section_occurrences(text: str, section_source: str, floor: int) -> list[re.Match]:
@@ -235,7 +287,6 @@ def locate_article_body(text: str, toc: list[dict], idx: int, body_floor: int) -
     occurrences = _section_occurrences(text, item["section_source"], body_floor)
     if not occurrences:
         return None
-
     scored: list[tuple[int, int, int]] = []
     author = item.get("author") or ""
     title = item.get("title") or ""
@@ -257,7 +308,6 @@ def locate_article_body(text: str, toc: list[dict], idx: int, body_floor: int) -
         if re.search(r"(?m)^\s*[0-9०-९]+\.[0-9०-९]+\.\s*", segment[120:700]):
             score -= 12000
         scored.append((score, start, end))
-
     if not scored:
         return None
     scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
@@ -295,7 +345,6 @@ def extract_issue(path: Path, root: Path | None = None) -> tuple[list[dict], lis
         return [], []
     source_path = path.relative_to(root).as_posix() if root else path.as_posix()
     published, review = [], []
-
     for idx, item in enumerate(toc):
         title = item.get("title") or ""
         if not explicit(title):
@@ -346,10 +395,7 @@ def extract_explicit_records(root: Path) -> tuple[list[dict], list[dict], dict]:
             records.extend(pub)
             review.extend(rev)
         except Exception as e:
-            review.append({
-                "source_path": path.relative_to(root).as_posix(), "status": "review",
-                "reasons": [f"extractor exception: {e}"],
-            })
+            review.append({"source_path": path.relative_to(root).as_posix(), "status": "review", "reasons": [f"extractor exception: {e}"]})
     dedup: dict[tuple, dict] = {}
     for r in records:
         dedup[(str(r.get("issue")), r.get("title"), tuple(r.get("authors") or []))] = r
