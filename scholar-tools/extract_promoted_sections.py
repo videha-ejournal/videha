@@ -43,6 +43,12 @@ def load_promoted(root: Path) -> tuple[list[dict], list[dict]]:
         issue = str(int(str(spec.get("issue") or "0")))
         section = str(spec.get("section") or "").strip()
         classification = str(spec.get("classification") or "Scholarly article").strip()
+        try:
+            min_body_chars = int(spec.get("min_body_chars", 1800))
+        except (TypeError, ValueError):
+            min_body_chars = 1800
+        min_body_chars = max(1, min_body_chars)
+
         path = _issue_path(root, issue)
         if not path:
             review.append({"issue": issue, "section": section, "reason": "issue file not found"})
@@ -70,14 +76,15 @@ def load_promoted(root: Path) -> tuple[list[dict], list[dict]]:
 
         body = article_body(text, toc, idx, floor)
         compact = len(re.sub(r"\s+", "", body))
-        if compact < 1800:
+        if compact < min_body_chars:
             review.append({
                 "issue": issue,
                 "section": section,
                 "author": author,
                 "title": title,
                 "body_chars": compact,
-                "reason": "body below 1800-character publication threshold",
+                "min_body_chars": min_body_chars,
+                "reason": f"body below {min_body_chars}-character publication threshold",
             })
             continue
 
