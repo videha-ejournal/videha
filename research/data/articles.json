@@ -1,16 +1,16 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T14:34:18.437436+00:00",
+  "generated": "2026-08-26T14:40:14.211080+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
-    "promoted_sections_requested": 14,
-    "promoted_sections_publishable": 14,
-    "promoted_sections_review": 0,
+    "promoted_sections_requested": 19,
+    "promoted_sections_publishable": 18,
+    "promoted_sections_review": 1,
     "curated_manifests": 1,
-    "published_after_all_overrides": 15,
+    "published_after_all_overrides": 19,
     "build_errors": 0
   },
   "articles": [
@@ -123,6 +123,24 @@
       "page_end": "43"
     },
     {
+      "title": "पं.भवनाथ झाक पाण्डुलिपिसँ संपादित पोथीक अद्यतन सूचना",
+      "english_title": null,
+      "authors": [
+        "डा.विनयानन्द झा"
+      ],
+      "publication_date": "2025-10-15",
+      "year": "2025",
+      "issue": "428",
+      "keywords": [],
+      "classification": "Bibliographic survey; manuscript editing; Sanskrit textual scholarship",
+      "url": "https://www.videha.co.in/research/2025/428/पं-भवनाथ-झाक-पाण्डुलिपिसँ-संपादित-पोथीक-अद्यतन-सूचना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf",
+      "path": "2025/428/पं-भवनाथ-झाक-पाण्डुलिपिसँ-संपादित-पोथीक-अद्यतन-सूचना.htm",
+      "page_start": "149",
+      "page_end": "163"
+    },
+    {
       "title": "पं.भवनाथ झाक शोध दृष्टि",
       "english_title": null,
       "authors": [
@@ -177,6 +195,24 @@
       "page_end": "137"
     },
     {
+      "title": "गोपाल झा 'अभिषेक'क 'आउ स्वप्न साझी करी': साहित्यिक अनुशीलन",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-05-15",
+      "year": "2026",
+      "issue": "442",
+      "keywords": [],
+      "classification": "Poetry criticism; comparative poetics; literary theory",
+      "url": "https://www.videha.co.in/research/2026/442/गोपाल-झा-अभिषेक-क-आउ-स्वप्न-साझी-करी-साहित्यिक-अनुशीलन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf",
+      "path": "2026/442/गोपाल-झा-अभिषेक-क-आउ-स्वप्न-साझी-करी-साहित्यिक-अनुशीलन.htm",
+      "page_start": "107",
+      "page_end": "113"
+    },
+    {
       "title": "डिजिटल दुनियाँ मे सायबर हाइजिन",
       "english_title": null,
       "authors": [
@@ -195,6 +231,24 @@
       "page_end": "30"
     },
     {
+      "title": "दीयरि: एक समग्र साहित्यिक मूल्यांकन [रा. ना. सुधाकरक मैथिली कथा-संग्रहक बहुआयामी समीक्षा]",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-05-15",
+      "year": "2026",
+      "issue": "442",
+      "keywords": [],
+      "classification": "Literary criticism; narrative studies; comparative critical theory",
+      "url": "https://www.videha.co.in/research/2026/442/दीयरि-एक-समग्र-साहित्यिक-मूल्यांकन-रा-ना-सुधाकरक-मैथिली-कथा-e3e191b256.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf",
+      "path": "2026/442/दीयरि-एक-समग्र-साहित्यिक-मूल्यांकन-रा-ना-सुधाकरक-मैथिली-कथा-e3e191b256.htm",
+      "page_start": "92",
+      "page_end": "106"
+    },
+    {
       "title": "मैथिली लेल एकटा नारी केन्द्रित समीक्षाशास्त्र [क्वीर-फेमिनिज्म सहित] [सन्दर्भ- कामिनीक \"खण्ड-खण्ड मे बँटैत स्त्री\" आ शान्ति लक्ष्मी चौधरीक\"लेस्बियन कॉन्टिन्युअम\"]",
       "english_title": null,
       "authors": [
@@ -211,6 +265,24 @@
       "path": "2026/442/मैथिली-लेल-एकटा-नारी-केन्द्रित-समीक्षाशास्त्र-क्वीर-फेमिनि-3c77e53545.htm",
       "page_start": "114",
       "page_end": "173"
+    },
+    {
+      "title": "मैथिली साहित्यमे उपन्यासक महत्व",
+      "english_title": null,
+      "authors": [
+        "अमरेश ठाकुर"
+      ],
+      "publication_date": "2026-05-15",
+      "year": "2026",
+      "issue": "442",
+      "keywords": [],
+      "classification": "Literary history; Maithili novel studies; academic criticism",
+      "url": "https://www.videha.co.in/research/2026/442/मैथिली-साहित्यमे-उपन्यासक-महत्व.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf",
+      "path": "2026/442/मैथिली-साहित्यमे-उपन्यासक-महत्व.htm",
+      "page_start": "87",
+      "page_end": "91"
     },
     {
       "title": "नैका बनिजारा उपन्‍यासक आलोचनात्‍मक अध्‍ययन",

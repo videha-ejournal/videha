@@ -1,17 +1,26 @@
 {
-  "generated": "2026-08-26T14:34:18.437279+00:00",
+  "generated": "2026-08-26T14:40:14.210943+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
-    "promoted_sections_requested": 14,
-    "promoted_sections_publishable": 14,
-    "promoted_sections_review": 0,
+    "promoted_sections_requested": 19,
+    "promoted_sections_publishable": 18,
+    "promoted_sections_review": 1,
     "curated_manifests": 1,
-    "published_after_all_overrides": 15,
+    "published_after_all_overrides": 19,
     "build_errors": 0
   },
   "explicit_review": [],
-  "promotion_review": [],
+  "promotion_review": [
+    {
+      "issue": "428",
+      "section": "1.4",
+      "author": "डा.श्री कृष्ण 'जुगनू'",
+      "title": "अगस्त्य संहिता- तीस बर्खक प्रतीक्षा",
+      "body_chars": 1798,
+      "reason": "body below 1800-character publication threshold"
+    }
+  ],
   "build_errors": []
 }
