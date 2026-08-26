@@ -32,7 +32,8 @@
   {
     "issue": "428",
     "section": "1.4",
-    "classification": "Textual criticism; manuscript studies; Agastya Samhita interpolation analysis"
+    "classification": "Textual criticism; manuscript studies; Agastya Samhita interpolation analysis",
+    "min_body_chars": 1500
   },
   {
     "issue": "428",
