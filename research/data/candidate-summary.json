@@ -1,0 +1,1801 @@
+{
+  "issue_files_scanned": 447,
+  "article_entries_inventoried": 546,
+  "scholar_candidates": 106,
+  "classification_counts": {
+    "criticism": 4,
+    "culture-art": 2,
+    "history": 1,
+    "linguistics+criticism+academic-review": 1,
+    "literary-history": 47,
+    "references-present": 50,
+    "research-explicit": 1
+  },
+  "strong_title_based_with_body": 55,
+  "strong_candidates": [
+    {
+      "issue": "423",
+      "publication_date": "2025-08-01",
+      "section": "2.5",
+      "author": "डॉ वी एन झा",
+      "title": "इसरो - स्पेसX के एक्सिओम-४ मिशन के तकनीकी विश्लेषण",
+      "page_start": "32",
+      "page_end": "43",
+      "body_chars": 11457,
+      "classification": "criticism",
+      "signals": [
+        "विश्लेषण"
+      ],
+      "source_path": "search-documents/videha-423.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20423.pdf"
+    },
+    {
+      "issue": "443",
+      "publication_date": "2026-06-01",
+      "section": "2.11",
+      "author": "अमरेश ठाकुर",
+      "title": "नैका बनिजारा उपन्‍यासक आलोचनात्‍मक अध्‍ययन",
+      "page_start": "71",
+      "page_end": "76",
+      "body_chars": 13879,
+      "classification": "criticism",
+      "signals": [
+        "आलोचना"
+      ],
+      "source_path": "search-documents/videha-443.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf"
+    },
+    {
+      "issue": "447",
+      "publication_date": "2026-08-01",
+      "section": "2.16",
+      "author": "भामती (वाचस्पति)/ आत्मतत्त्वविवेक (उदयन)/ न्यायकुसुमाञ्जलि (उदयन)/तत्त्वचिन्तामणि (गंगेश)/ (मैथिली अनुवाद): ग्रन्थ",
+      "title": "सार आ समालोचनात्मक मूल्याङ्कन [मूल संस्कृत सँ मैथिली अनुवाद: गजेन्द्र ठाकुर]",
+      "page_start": "222",
+      "page_end": "339",
+      "body_chars": 201705,
+      "classification": "criticism",
+      "signals": [
+        "bibliography",
+        "ग्रन्थसूची",
+        "सन्दर्भ",
+        "समालोचना"
+      ],
+      "source_path": "search-documents/videha-447.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
+    },
+    {
+      "issue": "447",
+      "publication_date": "2026-08-01",
+      "section": "2.3",
+      "author": "अभिनंदिनी कुमारी",
+      "title": "एकैसम शताब्दीक पहिल औपन्यासिक कृति - ‘पथिक पिआसल’क तात्विक विश्लेषण",
+      "page_start": "39",
+      "page_end": "51",
+      "body_chars": 13876,
+      "classification": "criticism",
+      "signals": [
+        "तात्विक विश्लेषण",
+        "विश्लेषण",
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-447.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
+    },
+    {
+      "issue": "419",
+      "publication_date": "2025-06-01",
+      "section": "2.9",
+      "author": "अजित कुमार झा",
+      "title": "मिथिलाक सांस्कृतिक धरोहर केँ रक्षक: नारायण चौधरी",
+      "page_start": "72",
+      "page_end": "77",
+      "body_chars": 6116,
+      "classification": "culture-art",
+      "signals": [
+        "सांस्कृतिक"
+      ],
+      "source_path": "search-documents/videha-419.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20419.pdf"
+    },
+    {
+      "issue": "447",
+      "publication_date": "2026-08-01",
+      "section": "2.6",
+      "author": "आचार्य रामानंद मंडल",
+      "title": "प्राथमिक शिक्षा मे अंगिका बज्जिका/ नीट छात्र आंदोलन -२०२६/ मिथिला राज्य निर्माण के इतिहास",
+      "page_start": "69",
+      "page_end": "71",
+      "body_chars": 4471,
+      "classification": "history",
+      "signals": [
+        "इतिहास"
+      ],
+      "source_path": "search-documents/videha-447.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
+    },
+    {
+      "issue": "447",
+      "publication_date": "2026-08-01",
+      "section": "2.18",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "मैथिलीक एकटा समानान्तर व्याकरण, रचना आ भाषा-विज्ञान (ठेठी-अंगिका आ बज्जिकाकेँ संग लऽ कऽ)- गजेन्द्र ठाकुर] एकीकृत विस्तृत समालोचनात्मक शोध-समीक्षा",
+      "page_start": "383",
+      "page_end": "442",
+      "body_chars": 124644,
+      "classification": "linguistics+criticism+academic-review",
+      "signals": [
+        "bibliography",
+        "references",
+        "भाषा-विज्ञान",
+        "व्याकरण",
+        "शोध-समीक्षा",
+        "संदर्भ",
+        "सन्दर्भ",
+        "समालोचना"
+      ],
+      "source_path": "search-documents/videha-447.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
+    },
+    {
+      "issue": "402",
+      "publication_date": "2024-09-15",
+      "section": "2.6",
+      "author": "संतोष कुमार राय 'बटोही'",
+      "title": "मैथिली साहित्य मे समालोचक केँ कमी",
+      "page_start": "62",
+      "page_end": "65",
+      "body_chars": 3857,
+      "classification": "literary-history",
+      "signals": [
+        "साहित्य मे"
+      ],
+      "source_path": "search-documents/videha-402.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20402.pdf"
+    },
+    {
+      "issue": "410",
+      "publication_date": "2025-01-15",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-२",
+      "page_start": "3",
+      "page_end": "8",
+      "body_chars": 5636,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-410.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20410.pdf"
+    },
+    {
+      "issue": "411",
+      "publication_date": "2025-02-01",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-३",
+      "page_start": "4",
+      "page_end": "13",
+      "body_chars": 9631,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-411.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20411.pdf"
+    },
+    {
+      "issue": "412",
+      "publication_date": "2025-02-15",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-४",
+      "page_start": "3",
+      "page_end": "7",
+      "body_chars": 4563,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-412.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20412.pdf"
+    },
+    {
+      "issue": "413",
+      "publication_date": "2025-03-01",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-५",
+      "page_start": "3",
+      "page_end": "7",
+      "body_chars": 4678,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-413.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20413.pdf"
+    },
+    {
+      "issue": "414",
+      "publication_date": "2025-03-15",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-६",
+      "page_start": "6",
+      "page_end": "11",
+      "body_chars": 6707,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-414.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20414.pdf"
+    },
+    {
+      "issue": "416",
+      "publication_date": "2025-04-15",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-७",
+      "page_start": "2",
+      "page_end": "9",
+      "body_chars": 8777,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-416.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20416.pdf"
+    },
+    {
+      "issue": "417",
+      "publication_date": "2025-05-01",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-८",
+      "page_start": "5",
+      "page_end": "12",
+      "body_chars": 9283,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "संदर्भ",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-417.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20417.pdf"
+    },
+    {
+      "issue": "418",
+      "publication_date": "2025-05-15",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-९",
+      "page_start": "3",
+      "page_end": "6",
+      "body_chars": 4545,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "संदर्भ",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-418.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20418.pdf"
+    },
+    {
+      "issue": "420",
+      "publication_date": "2025-06-15",
+      "section": "2.1",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान",
+      "page_start": "5",
+      "page_end": "8",
+      "body_chars": 2800,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-420.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20420.pdf"
+    },
+    {
+      "issue": "421",
+      "publication_date": "2025-07-01",
+      "section": "2.1",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-२",
+      "page_start": "4",
+      "page_end": "10",
+      "body_chars": 10220,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-421.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20421.pdf"
+    },
+    {
+      "issue": "422",
+      "publication_date": "2025-07-15",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान -३",
+      "page_start": "10",
+      "page_end": "21",
+      "body_chars": 7089,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "संदर्भ",
+        "सन्दर्भ",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-422.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20422.pdf"
+    },
+    {
+      "issue": "423",
+      "publication_date": "2025-08-01",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान -४",
+      "page_start": "12",
+      "page_end": "17",
+      "body_chars": 5404,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "सन्दर्भ",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-423.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20423.pdf"
+    },
+    {
+      "issue": "425",
+      "publication_date": "2025-09-01",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-५",
+      "page_start": "15",
+      "page_end": "24",
+      "body_chars": 10978,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "सन्दर्भ",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-425.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20425.pdf"
+    },
+    {
+      "issue": "426",
+      "publication_date": "2025-09-15",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-६",
+      "page_start": "7",
+      "page_end": "16",
+      "body_chars": 9915,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "सन्दर्भ",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-426.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20426.pdf"
+    },
+    {
+      "issue": "429",
+      "publication_date": "2025-11-01",
+      "section": "1.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -16",
+      "page_start": "2",
+      "page_end": "7",
+      "body_chars": 5312,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-429.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20429.pdf"
+    },
+    {
+      "issue": "429",
+      "publication_date": "2025-11-01",
+      "section": "1.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-08",
+      "page_start": "8",
+      "page_end": "16",
+      "body_chars": 7404,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "सन्दर्भ",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-429.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20429.pdf"
+    },
+    {
+      "issue": "431",
+      "publication_date": "2025-12-01",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -18",
+      "page_start": "3",
+      "page_end": "10",
+      "body_chars": 5875,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "संदर्भ",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-431.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20431.pdf"
+    },
+    {
+      "issue": "431",
+      "publication_date": "2025-12-01",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-10",
+      "page_start": "11",
+      "page_end": "27",
+      "body_chars": 13936,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-431.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20431.pdf"
+    },
+    {
+      "issue": "432",
+      "publication_date": "2025-12-15",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -19",
+      "page_start": "2",
+      "page_end": "10",
+      "body_chars": 7554,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-432.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20432.pdf"
+    },
+    {
+      "issue": "432",
+      "publication_date": "2025-12-15",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-11",
+      "page_start": "11",
+      "page_end": "22",
+      "body_chars": 12068,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "सन्दर्भ",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-432.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20432.pdf"
+    },
+    {
+      "issue": "433",
+      "publication_date": "2026-01-01",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -२०",
+      "page_start": "2",
+      "page_end": "6",
+      "body_chars": 3380,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "सन्दर्भ",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-433.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20433.pdf"
+    },
+    {
+      "issue": "433",
+      "publication_date": "2026-01-01",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१२",
+      "page_start": "7",
+      "page_end": "24",
+      "body_chars": 19725,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-433.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20433.pdf"
+    },
+    {
+      "issue": "434",
+      "publication_date": "2026-01-15",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -२१",
+      "page_start": "4",
+      "page_end": "11",
+      "body_chars": 6488,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "संदर्भ",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-434.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20434.pdf"
+    },
+    {
+      "issue": "434",
+      "publication_date": "2026-01-15",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१३",
+      "page_start": "12",
+      "page_end": "26",
+      "body_chars": 13186,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-434.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20434.pdf"
+    },
+    {
+      "issue": "435",
+      "publication_date": "2026-02-01",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -२२",
+      "page_start": "3",
+      "page_end": "16",
+      "body_chars": 9776,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "सन्दर्भ",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-435.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20435.pdf"
+    },
+    {
+      "issue": "435",
+      "publication_date": "2026-02-01",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१४",
+      "page_start": "17",
+      "page_end": "33",
+      "body_chars": 14781,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-435.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20435.pdf"
+    },
+    {
+      "issue": "436",
+      "publication_date": "2026-02-15",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -२३",
+      "page_start": "3",
+      "page_end": "7",
+      "body_chars": 3687,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-436.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20436.pdf"
+    },
+    {
+      "issue": "436",
+      "publication_date": "2026-02-15",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१५",
+      "page_start": "8",
+      "page_end": "18",
+      "body_chars": 7938,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "सन्दर्भ",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-436.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20436.pdf"
+    },
+    {
+      "issue": "437",
+      "publication_date": "2026-03-01",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -२४",
+      "page_start": "3",
+      "page_end": "11",
+      "body_chars": 10451,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-437.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20437.pdf"
+    },
+    {
+      "issue": "437",
+      "publication_date": "2026-03-01",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१६",
+      "page_start": "12",
+      "page_end": "17",
+      "body_chars": 4533,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-437.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20437.pdf"
+    },
+    {
+      "issue": "438",
+      "publication_date": "2026-03-15",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -२५",
+      "page_start": "6",
+      "page_end": "9",
+      "body_chars": 4367,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-438.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20438.pdf"
+    },
+    {
+      "issue": "438",
+      "publication_date": "2026-03-15",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१७",
+      "page_start": "10",
+      "page_end": "21",
+      "body_chars": 7665,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "सन्दर्भ",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-438.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20438.pdf"
+    },
+    {
+      "issue": "439",
+      "publication_date": "2026-04-01",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार'एवं हुनक परिवारक योगदान-१",
+      "page_start": "5",
+      "page_end": "11",
+      "body_chars": 7291,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-439.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20439.pdf"
+    },
+    {
+      "issue": "439",
+      "publication_date": "2026-04-01",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१८",
+      "page_start": "12",
+      "page_end": "36",
+      "body_chars": 14538,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-439.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20439.pdf"
+    },
+    {
+      "issue": "442",
+      "publication_date": "2026-05-15",
+      "section": "2.1",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-२१",
+      "page_start": "16",
+      "page_end": "20",
+      "body_chars": 11581,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-442.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf"
+    },
+    {
+      "issue": "443",
+      "publication_date": "2026-06-01",
+      "section": "2.1",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-२२",
+      "page_start": "21",
+      "page_end": "26",
+      "body_chars": 9655,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-443.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf"
+    },
+    {
+      "issue": "443",
+      "publication_date": "2026-06-01",
+      "section": "2.2",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार'एवं हुनक परिवारक योगदान-३",
+      "page_start": "27",
+      "page_end": "30",
+      "body_chars": 6850,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-443.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf"
+    },
+    {
+      "issue": "444",
+      "publication_date": "2026-06-15",
+      "section": "2.1",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-२३",
+      "page_start": "14",
+      "page_end": "21",
+      "body_chars": 12699,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-444.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20444.pdf"
+    },
+    {
+      "issue": "444",
+      "publication_date": "2026-06-15",
+      "section": "2.2",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार'एवं हुनक परिवारक योगदान-४",
+      "page_start": "22",
+      "page_end": "25",
+      "body_chars": 5956,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-444.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20444.pdf"
+    },
+    {
+      "issue": "445",
+      "publication_date": "2026-07-01",
+      "section": "2.1",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-२४",
+      "page_start": "30",
+      "page_end": "38",
+      "body_chars": 17592,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-445.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20445.pdf"
+    },
+    {
+      "issue": "445",
+      "publication_date": "2026-07-01",
+      "section": "2.2",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार'एवं हुनक परिवारक योगदान-५",
+      "page_start": "39",
+      "page_end": "44",
+      "body_chars": 12458,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "सन्दर्भ",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-445.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20445.pdf"
+    },
+    {
+      "issue": "446",
+      "publication_date": "2026-07-15",
+      "section": "2.1",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-२५",
+      "page_start": "94",
+      "page_end": "98",
+      "body_chars": 5504,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-446.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20446.pdf"
+    },
+    {
+      "issue": "446",
+      "publication_date": "2026-07-15",
+      "section": "2.2",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार'एवं हुनक परिवारक योगदान-६",
+      "page_start": "99",
+      "page_end": "104",
+      "body_chars": 10804,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-446.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20446.pdf"
+    },
+    {
+      "issue": "446",
+      "publication_date": "2026-07-15",
+      "section": "2.3",
+      "author": "अरविन्द ठाकुर",
+      "title": "मैथिली साहित्यमे बलेन्द्र नारायण ठाकुर ‘विप्लव’ एवं हुनक परिवारक योगदान-१",
+      "page_start": "105",
+      "page_end": "298",
+      "body_chars": 131333,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "सन्दर्भ",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-446.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20446.pdf"
+    },
+    {
+      "issue": "447",
+      "publication_date": "2026-08-01",
+      "section": "2.1",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-२६",
+      "page_start": "27",
+      "page_end": "32",
+      "body_chars": 8223,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-447.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
+    },
+    {
+      "issue": "447",
+      "publication_date": "2026-08-01",
+      "section": "2.2",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार'एवं हुनक परिवारक योगदान-७",
+      "page_start": "33",
+      "page_end": "38",
+      "body_chars": 9721,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "सन्दर्भ",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-447.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
+    },
+    {
+      "issue": "438",
+      "publication_date": "2026-03-15",
+      "section": "2.5",
+      "author": "प्रीति कुमारी",
+      "title": "अशिक्षाक शिकार: केवट समाज (शोध आलेख)",
+      "page_start": "32",
+      "page_end": "36",
+      "body_chars": 5763,
+      "classification": "research-explicit",
+      "signals": [
+        "शोध आलेख"
+      ],
+      "source_path": "search-documents/videha-438.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20438.pdf"
+    }
+  ],
+  "weak_or_body_missing_candidates": [
+    {
+      "issue": "447",
+      "publication_date": "2026-08-01",
+      "section": "2.19",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "डॉ. अमरेन्द्रक ‘अंगिका बाल-साहित्य’- लोकस्मृतिसँ आधुनिक बाल-सृजन धरि : चतुर्आयामी समग्र समीक्षा (मैथिली–ठेठी-अंगिका समानान्तर अनुशीलन)",
+      "page_start": "443",
+      "page_end": "525",
+      "body_chars": 185719,
+      "classification": "references-present",
+      "signals": [
+        "bibliography",
+        "ग्रन्थसूची",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-447.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
+    },
+    {
+      "issue": "447",
+      "publication_date": "2026-08-01",
+      "section": "2.24",
+      "author": "गङ्गेश उपाध्याय जीवन, तर्कशास्त्र, तत्त्वचिन्तामणि आ नव्य",
+      "title": "न्याय परम्परामे विरासत",
+      "page_start": "839",
+      "page_end": "934",
+      "body_chars": 173991,
+      "classification": "references-present",
+      "signals": [
+        "ग्रन्थसूची",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-447.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
+    },
+    {
+      "issue": "400",
+      "publication_date": "2024-08-15",
+      "section": "1.13",
+      "author": "अंतराष्ट्रीय मैथिली परिषद्क मिथिला जागरण यात्रा 101",
+      "title": "200",
+      "page_start": "1119",
+      "page_end": "1360",
+      "body_chars": 166784,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-400.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20400.pdf"
+    },
+    {
+      "issue": "400",
+      "publication_date": "2024-08-15",
+      "section": "1.14",
+      "author": "अंतराष्ट्रीय मैथिली परिषद्क मिथिला जागरण यात्रा 201",
+      "title": "286",
+      "page_start": "1361",
+      "page_end": "1611",
+      "body_chars": 160805,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-400.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20400.pdf"
+    },
+    {
+      "issue": "447",
+      "publication_date": "2026-08-01",
+      "section": "2.25",
+      "author": "मिथिलाक पञ्जी",
+      "title": "प्रबन्ध वंश, विवाह, दूषण, सामाजिक स्मृति आ आधुनिक पुनर्पाठ",
+      "page_start": "935",
+      "page_end": "986",
+      "body_chars": 85457,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-447.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
+    },
+    {
+      "issue": "443",
+      "publication_date": "2026-06-01",
+      "section": "2.22",
+      "author": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग",
+      "title": "३) सन्दर्भ- कुणाल-कृत “चालिस चोर आ गोनू झा उर्फ ज्ञान झाक खिस्सा”",
+      "page_start": "169",
+      "page_end": "191",
+      "body_chars": 49562,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-443.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf"
+    },
+    {
+      "issue": "447",
+      "publication_date": "2026-08-01",
+      "section": "2.22",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "नाट्य-नवग्रह",
+      "page_start": "657",
+      "page_end": "699",
+      "body_chars": 47412,
+      "classification": "references-present",
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-447.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
+    },
+    {
+      "issue": "444",
+      "publication_date": "2026-06-15",
+      "section": "2.6",
+      "author": "लाल देव कामत",
+      "title": "स्वस्थ आयु लेल योग",
+      "page_start": "36",
+      "page_end": "37",
+      "body_chars": 28945,
+      "classification": "references-present",
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-444.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20444.pdf"
+    },
+    {
+      "issue": "401",
+      "publication_date": "2024-09-01",
+      "section": "2.7",
+      "author": "प्रणव झा",
+      "title": "इंटर/बारहमा के बाद जीवविज्ञानक विद्यार्थी के करियर विकल्प",
+      "page_start": "39",
+      "page_end": "65",
+      "body_chars": 26762,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-401.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20401.pdf"
+    },
+    {
+      "issue": "443",
+      "publication_date": "2026-06-01",
+      "section": "2.8",
+      "author": "बद्रीनाथ राय ’अमात्य’",
+      "title": "श्राद्ध",
+      "page_start": "57",
+      "page_end": "66",
+      "body_chars": 26335,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-443.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf"
+    },
+    {
+      "issue": "439",
+      "publication_date": "2026-04-01",
+      "section": "2.14",
+      "author": "डॉ. उमेश मण्डल",
+      "title": "समकालीन मैथिली साहित्यक लोकधर्मी स्वर : राम विलास साहु",
+      "page_start": "120",
+      "page_end": "137",
+      "body_chars": 25113,
+      "classification": "references-present",
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-439.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20439.pdf"
+    },
+    {
+      "issue": "442",
+      "publication_date": "2026-05-15",
+      "section": "2.14",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "मैथिली लेल एकटा नारी केन्द्रित समीक्षाशास्त्र [क्वीर-फेमिनिज्म सहित] [सन्दर्भ- कामिनीक \"खण्ड-खण्ड मे बँटैत स्त्री\" आ शान्ति लक्ष्मी चौधरीक\"लेस्बियन कॉन्टिन्युअम\"]",
+      "page_start": "114",
+      "page_end": "173",
+      "body_chars": 23115,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-442.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf"
+    },
+    {
+      "issue": "443",
+      "publication_date": "2026-06-01",
+      "section": "2.19",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "परमेश्वर कापड़िक रचना-संसार- विस्तृत मैथिली साहित्यिक समीक्षा",
+      "page_start": "140",
+      "page_end": "148",
+      "body_chars": 18969,
+      "classification": "references-present",
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-443.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf"
+    },
+    {
+      "issue": "420",
+      "publication_date": "2025-06-15",
+      "section": "2.4",
+      "author": "लालदेव कामत",
+      "title": "एवमस्तके निहितार्थ/ अहर्निश मैथिली साहित्य सेवक डॉ०तारानंद वियोगी",
+      "page_start": "14",
+      "page_end": "28",
+      "body_chars": 17141,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-420.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20420.pdf"
+    },
+    {
+      "issue": "446",
+      "publication_date": "2026-07-15",
+      "section": "2.11",
+      "author": "प्रणव कुमार झा",
+      "title": "लोकतंत्रक माने आ मतलब",
+      "page_start": "326",
+      "page_end": "334",
+      "body_chars": 16459,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-446.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20446.pdf"
+    },
+    {
+      "issue": "444",
+      "publication_date": "2026-06-15",
+      "section": "2.7",
+      "author": "आचार्य रामानंद मंडल",
+      "title": "धनाकर ठाकुर संवाद [सन्दर्भ -मिथिला राज्य आ महाकवि विद्यापति]",
+      "page_start": "38",
+      "page_end": "49",
+      "body_chars": 16425,
+      "classification": "references-present",
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-444.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20444.pdf"
+    },
+    {
+      "issue": "439",
+      "publication_date": "2026-04-01",
+      "section": "2.13",
+      "author": "रमेशक कविता",
+      "title": "समय : विस्तारक उन्माद आ संकोचक विवेकक बीच- एकटा समग्र मूल्यांकन",
+      "page_start": "103",
+      "page_end": "119",
+      "body_chars": 14500,
+      "classification": "references-present",
+      "signals": [
+        "references",
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-439.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20439.pdf"
+    },
+    {
+      "issue": "442",
+      "publication_date": "2026-05-15",
+      "section": "2.13",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "गोपाल झा 'अभिषेक'क 'आउ स्वप्न साझी करी': साहित्यिक अनुशीलन",
+      "page_start": "107",
+      "page_end": "113",
+      "body_chars": 13948,
+      "classification": "references-present",
+      "signals": [
+        "works cited"
+      ],
+      "source_path": "search-documents/videha-442.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf"
+    },
+    {
+      "issue": "425",
+      "publication_date": "2025-09-01",
+      "section": "2.8",
+      "author": "प्रणव कुमार झा",
+      "title": "भारत मे क्रिटिकल केयर कार्यबल: एनबीईएमएस के भूमिका आ भविष्य",
+      "page_start": "41",
+      "page_end": "49",
+      "body_chars": 13475,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-425.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20425.pdf"
+    },
+    {
+      "issue": "423",
+      "publication_date": "2025-08-01",
+      "section": "2.4",
+      "author": "प्रणव कुमार झा",
+      "title": "बिहार मे यूनिवर्सल हेल्थ कवरेज (UHC): नियमन आ कार्यान्वयन",
+      "page_start": "20",
+      "page_end": "31",
+      "body_chars": 13123,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-423.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20423.pdf"
+    },
+    {
+      "issue": "428",
+      "publication_date": "2025-10-15",
+      "section": "1.7",
+      "author": "पंडित भवनाथ झा मिथिलाक जीवित मानव धरोहर",
+      "title": "डॉ. कैलाश कुमार मिश्र",
+      "page_start": "164",
+      "page_end": "173",
+      "body_chars": 12614,
+      "classification": "references-present",
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-428.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf"
+    },
+    {
+      "issue": "442",
+      "publication_date": "2026-05-15",
+      "section": "2.3",
+      "author": "प्रणव कुमार झा",
+      "title": "डिजिटल दुनियाँ मे सायबर हाइजिन",
+      "page_start": "24",
+      "page_end": "30",
+      "body_chars": 12583,
+      "classification": "references-present",
+      "signals": [
+        "references",
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-442.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf"
+    },
+    {
+      "issue": "443",
+      "publication_date": "2026-06-01",
+      "section": "2.6",
+      "author": "लाल देव कामत",
+      "title": "सूर्य पुत्र वा सुतपूत एक धनुर्धर : कनीन पुत कर्ण/ अरे त्तोरी के ! ...... धत् तोरी के?",
+      "page_start": "47",
+      "page_end": "52",
+      "body_chars": 12059,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-443.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf"
+    },
+    {
+      "issue": "419",
+      "publication_date": "2025-06-01",
+      "section": "2.6",
+      "author": "प्रणव झा",
+      "title": "मिथिला मे पोखरिक अतिक्रमण आ \"तालाब बचाओ अभियान\"",
+      "page_start": "53",
+      "page_end": "64",
+      "body_chars": 11932,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-419.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20419.pdf"
+    },
+    {
+      "issue": "408",
+      "publication_date": "2024-12-15",
+      "section": "2.4",
+      "author": "अजय कुमार झा तिरहुतिया",
+      "title": "मिथिला विकास परिषद: किछु सहेजल संस्मरण",
+      "page_start": "62",
+      "page_end": "76",
+      "body_chars": 11482,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-408.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20408.pdf"
+    },
+    {
+      "issue": "428",
+      "publication_date": "2025-10-15",
+      "section": "1.5",
+      "author": "Vijay Deo Jha",
+      "title": "Pandit with MacBook and manuscripts",
+      "page_start": "139",
+      "page_end": "148",
+      "body_chars": 11225,
+      "classification": "references-present",
+      "signals": [
+        "references"
+      ],
+      "source_path": "search-documents/videha-428.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf"
+    },
+    {
+      "issue": "428",
+      "publication_date": "2025-10-15",
+      "section": "1.8",
+      "author": "भैरव लाल दास",
+      "title": "पं.भवनाथ झाक शोध दृष्टि",
+      "page_start": "174",
+      "page_end": "182",
+      "body_chars": 11151,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-428.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf"
+    },
+    {
+      "issue": "433",
+      "publication_date": "2026-01-01",
+      "section": "2.4",
+      "author": "ग्रुप कॅप्टन (डॉ) वी एन झा",
+      "title": "जोशीमठ में भू-धसान आ ओकर मानवीय पक्ष",
+      "page_start": "37",
+      "page_end": "48",
+      "body_chars": 9931,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-433.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20433.pdf"
+    },
+    {
+      "issue": "435",
+      "publication_date": "2026-02-01",
+      "section": "2.7",
+      "author": "प्रीति कुमारी",
+      "title": "श्री लालदेव कामत जीक व्यक्तित्व आ कृतित्व",
+      "page_start": "72",
+      "page_end": "81",
+      "body_chars": 9869,
+      "classification": "references-present",
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-435.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20435.pdf"
+    },
+    {
+      "issue": "409",
+      "publication_date": "2025-01-01",
+      "section": "2.7",
+      "author": "आचार्य रामानंद मंडल",
+      "title": "विजातीय बिआह",
+      "page_start": "43",
+      "page_end": "46",
+      "body_chars": 9666,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-409.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20409.pdf"
+    },
+    {
+      "issue": "409",
+      "publication_date": "2025-01-01",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "विद्याव्यसनी-कर्मयोगी-समाजसेवी: उपेन्द्र नाथ झा 'व्यास' (16 जुलाइ,1917-30 मइ,2002)",
+      "page_start": "4",
+      "page_end": "17",
+      "body_chars": 9475,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-409.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20409.pdf"
+    },
+    {
+      "issue": "438",
+      "publication_date": "2026-03-15",
+      "section": "2.4",
+      "author": "मयंक कुमार झा",
+      "title": "एआई युग मे मैथिली",
+      "page_start": "24",
+      "page_end": "31",
+      "body_chars": 8998,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-438.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20438.pdf"
+    },
+    {
+      "issue": "442",
+      "publication_date": "2026-05-15",
+      "section": "2.6",
+      "author": "लाल देव कामत",
+      "title": "सेतुषाम: एक अनुशीलन",
+      "page_start": "39",
+      "page_end": "42",
+      "body_chars": 8988,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-442.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf"
+    },
+    {
+      "issue": "419",
+      "publication_date": "2025-06-01",
+      "section": "2.10",
+      "author": "डॉ. कैलाश कुमार मिश्र",
+      "title": "नारायण चौधरी आ जलकर संरक्षण केर सामाजिक सरोकार",
+      "page_start": "78",
+      "page_end": "85",
+      "body_chars": 8689,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-419.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20419.pdf"
+    },
+    {
+      "issue": "428",
+      "publication_date": "2025-10-15",
+      "section": "1.14",
+      "author": "पण्डित भवनाथ झा",
+      "title": "हितनाथ झा",
+      "page_start": "213",
+      "page_end": "220",
+      "body_chars": 8585,
+      "classification": "references-present",
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-428.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf"
+    },
+    {
+      "issue": "422",
+      "publication_date": "2025-07-15",
+      "section": "2.4",
+      "author": "प्रणव कुमार झा",
+      "title": "स्नातकोत्तर चिकित्सा प्रशिक्षण(PGME) मे हेल्थ इकोनॉमिक्स",
+      "page_start": "26",
+      "page_end": "34",
+      "body_chars": 7993,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-422.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20422.pdf"
+    },
+    {
+      "issue": "443",
+      "publication_date": "2026-06-01",
+      "section": "2.3",
+      "author": "प्रणव कुमार झा",
+      "title": "पुस्तक पाठकीय: ‘सेतुषाम’ लोक आ वेदक दार्शनिक सेतु",
+      "page_start": "31",
+      "page_end": "34",
+      "body_chars": 7416,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-443.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf"
+    },
+    {
+      "issue": "406",
+      "publication_date": "2024-11-15",
+      "section": "2.2",
+      "author": "प्रणव झा",
+      "title": "आपातकालीन चिकित्सा आ इंटेंसिव केयर में आर्टिफिशियल इंटेलिजेंस आ मशीन लर्निंग",
+      "page_start": "29",
+      "page_end": "36",
+      "body_chars": 6993,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-406.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20406.pdf"
+    },
+    {
+      "issue": "429",
+      "publication_date": "2025-11-01",
+      "section": "1.5",
+      "author": "लालदेव कामत",
+      "title": "चन्द्रहास : पोथी चर्चा",
+      "page_start": "26",
+      "page_end": "31",
+      "body_chars": 6394,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-429.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20429.pdf"
+    },
+    {
+      "issue": "431",
+      "publication_date": "2025-12-01",
+      "section": "2.4",
+      "author": "परमानन्द लाल कर्ण",
+      "title": "बुढ़ापाक जिनगी",
+      "page_start": "30",
+      "page_end": "40",
+      "body_chars": 5958,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-431.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20431.pdf"
+    },
+    {
+      "issue": "402",
+      "publication_date": "2024-09-15",
+      "section": "2.7",
+      "author": "प्रणव झा",
+      "title": "फैमिली एडॉप्शन प्रोग्राम (FAP): चिकित्सा शिक्षा में नवाचार आ ग्रामीण भारत में स्वास्थ्य सेवाक बढ़ावा",
+      "page_start": "66",
+      "page_end": "70",
+      "body_chars": 5450,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-402.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20402.pdf"
+    },
+    {
+      "issue": "434",
+      "publication_date": "2026-01-15",
+      "section": "2.3",
+      "author": "लालदेव कामत",
+      "title": "अक्षय पात्रके रचनाकार",
+      "page_start": "27",
+      "page_end": "33",
+      "body_chars": 5354,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-434.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20434.pdf"
+    },
+    {
+      "issue": "426",
+      "publication_date": "2025-09-15",
+      "section": "2.6",
+      "author": "लाल देव कामत",
+      "title": "विश्व शांति : पोथी चर्चा",
+      "page_start": "36",
+      "page_end": "40",
+      "body_chars": 4551,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-426.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20426.pdf"
+    },
+    {
+      "issue": "445",
+      "publication_date": "2026-07-01",
+      "section": "2.4",
+      "author": "लाल देव कामत",
+      "title": "कलंक : एक पोथी चर्चा",
+      "page_start": "48",
+      "page_end": "50",
+      "body_chars": 4550,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-445.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20445.pdf"
+    },
+    {
+      "issue": "411",
+      "publication_date": "2025-02-01",
+      "section": "2.6",
+      "author": "आचार्य रामानंद मंडल",
+      "title": "मैथिली मानकीकरण/ महाकुंभ",
+      "page_start": "30",
+      "page_end": "34",
+      "body_chars": 4329,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-411.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20411.pdf"
+    },
+    {
+      "issue": "411",
+      "publication_date": "2025-02-01",
+      "section": "2.4",
+      "author": "लाल देव कामत",
+      "title": "कोय बोलतै रे !",
+      "page_start": "24",
+      "page_end": "27",
+      "body_chars": 3865,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-411.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20411.pdf"
+    },
+    {
+      "issue": "445",
+      "publication_date": "2026-07-01",
+      "section": "2.6",
+      "author": "लाल देव कामत",
+      "title": "पाठकीयता 'हमर ई मोन कहैए'",
+      "page_start": "54",
+      "page_end": "56",
+      "body_chars": 3038,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-445.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20445.pdf"
+    },
+    {
+      "issue": "428",
+      "publication_date": "2025-10-15",
+      "section": "1.4",
+      "author": "डा.श्री कृष्ण 'जुगनू'",
+      "title": "अगस्त्य संहिता- तीस बर्खक प्रतीक्षा",
+      "page_start": "136",
+      "page_end": "138",
+      "body_chars": 2187,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-428.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf"
+    },
+    {
+      "issue": "406",
+      "publication_date": "2024-11-15",
+      "section": "2.6",
+      "author": "प्रणव झा",
+      "title": "सत्यनिष्ठाक संस्कृति",
+      "page_start": "48",
+      "page_end": "49",
+      "body_chars": 1671,
+      "classification": "culture-art",
+      "signals": [
+        "संस्कृति"
+      ],
+      "source_path": "search-documents/videha-406.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20406.pdf"
+    },
+    {
+      "issue": "408",
+      "publication_date": "2024-12-15",
+      "section": "2.8",
+      "author": "आशीष अनचिन्हार",
+      "title": "मिथिला विकास परिषद्, कोलकाता (हमरा नजरिमे)",
+      "page_start": "94",
+      "page_end": "100",
+      "body_chars": 1540,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-408.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20408.pdf"
+    },
+    {
+      "issue": "412",
+      "publication_date": "2025-02-15",
+      "section": "2.5",
+      "author": "आशीष अनचिन्हार",
+      "title": "साहित्य अकादमीमे नैतिकता-संदर्भ मैथिली प्रभाग-विशेष संदर्भ नचिकेताजीक कार्यकाल",
+      "page_start": "23",
+      "page_end": "25",
+      "body_chars": 921,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-412.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20412.pdf"
+    }
+  ]
+}
