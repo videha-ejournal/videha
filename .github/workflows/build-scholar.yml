@@ -49,6 +49,8 @@ jobs:
         run: python scholar-tools/build_section_catalogue.py
       - name: Harden Scholar candidate rankings
         run: python scholar-tools/harden_section_catalogue.py
+      - name: Discover legacy top-level scholarly sections
+        run: python scholar-tools/build_top_level_candidates.py
       - name: Validate Scholar metadata
         run: python scholar-tools/validate_scholar.py
       - name: Commit generated research layer
