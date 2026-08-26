@@ -10,6 +10,7 @@ from pathlib import Path
 import build_research as base
 from extract_explicit_research import extract_explicit_records
 from extract_promoted_sections import load_promoted
+from extract_audit_sections import load_audit_records
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "research"
@@ -31,12 +32,7 @@ def is_false_explicit_label(title: str) -> bool:
 
 
 def clean_generated_article_pages() -> int:
-    """Remove prior generated HTML pages so reclassified records cannot stay crawlable.
-
-    Only the numeric research/YYYY/ISSUE/*.htm namespace is cleaned. The research
-    index, data files, sitemap, PDFs and non-numeric integration assets are untouched.
-    Current valid pages are recreated immediately by render_article().
-    """
+    """Remove prior generated HTML pages so reclassified records cannot stay crawlable."""
     removed = 0
     for path in RESEARCH.glob("[0-9][0-9][0-9][0-9]/*/*.htm"):
         if path.is_file():
@@ -53,12 +49,15 @@ def main() -> None:
     false_explicit = [r for r in raw_auto_records if is_false_explicit_label(str(r.get("title") or ""))]
     auto_records = [r for r in raw_auto_records if not is_false_explicit_label(str(r.get("title") or ""))]
     promoted_records, promotion_review = load_promoted(ROOT)
+    audit_records, audit_review = load_audit_records()
     curated = base.load_curated()
 
-    # Deterministic explicit extraction is followed by an editor-controlled
-    # retrospective whitelist. Hand-curated manifests always override either one.
+    # Merge priority: deterministic explicit -> hardened audit queue -> editor whitelist
+    # -> hand-curated manifests. Later layers override earlier duplicates.
     merged: dict[tuple[str, str], dict] = {}
     for rec in auto_records:
+        merged[record_key(rec)] = rec
+    for rec in audit_records:
         merged[record_key(rec)] = rec
     for rec in promoted_records:
         merged[record_key(rec)] = rec
@@ -90,6 +89,8 @@ def main() -> None:
     extraction_summary["explicit_articles_detected_raw"] = len(raw_auto_records)
     extraction_summary["explicit_false_positive_filtered"] = len(false_explicit)
     extraction_summary["explicit_articles_publishable"] = len(auto_records)
+    extraction_summary["audit_queue_publishable"] = len(audit_records)
+    extraction_summary["audit_queue_held"] = len(audit_review)
     extraction_summary["promoted_sections_requested"] = len(promoted_records) + len(promotion_review)
     extraction_summary["promoted_sections_publishable"] = len(promoted_records)
     extraction_summary["promoted_sections_review"] = len(promotion_review)
@@ -109,6 +110,7 @@ def main() -> None:
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(),
         "summary": extraction_summary,
         "explicit_review": explicit_review + false_explicit_review,
+        "audit_review": audit_review,
         "promotion_review": promotion_review,
         "build_errors": build_errors,
     }
@@ -132,6 +134,8 @@ def main() -> None:
         "Videha Scholar full-corpus build: "
         f"{extraction_summary['issue_files_scanned']} issue HTML files scanned; "
         f"{len(articles)} published articles; "
+        f"{len(audit_records)} hardened audit-queue articles published; "
+        f"{len(audit_review)} audit items held by integrity guards; "
         f"{len(explicit_review) + len(false_explicit_review)} explicit items held for review; "
         f"{len(promoted_records)} editor-approved retrospective sections resolved; "
         f"{len(promotion_review)} promoted sections held for review; "
