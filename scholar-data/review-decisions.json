@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "purpose": "Manual conservative review decisions for borderline Videha Scholar candidates. This file is an audit ledger only; it does not publish articles.",
+  "reviewed_on": "2026-08-26",
+  "decisions": [
+    {
+      "issue": "447",
+      "section": "2.24",
+      "title": "गङ्गेश उपाध्याय जीवन, तर्कशास्त्र, तत्त्वचिन्तामणि आ नव्य-न्याय परम्परामे विरासत",
+      "decision": "hold",
+      "reason": "Strong scholarly article with abstract-like summary, technical analysis and bibliography, but no explicit article byline was found in the issue text. Do not infer authorship for citation_author."
+    },
+    {
+      "issue": "447",
+      "section": "2.25",
+      "title": "मिथिलाक पञ्जी–प्रबन्ध वंश, विवाह, दूषण, सामाजिक स्मृति आ आधुनिक पुनर्पाठ",
+      "decision": "hold",
+      "reason": "Explicitly labelled समेकित शोध-आलेख and strongly relevant to genealogy, sociology and social memory, but no explicit article byline was found in the issue text. Do not infer authorship for citation_author."
+    },
+    {
+      "issue": "446",
+      "section": "2.11",
+      "title": "लोकतंत्रक माने आ मतलब",
+      "author": "प्रणव कुमार झा",
+      "decision": "exclude_for_now",
+      "reason": "Civic/political exposition with a single NCERT textbook reference; below the conservative scholarly threshold for the dedicated Scholar layer."
+    },
+    {
+      "issue": "438",
+      "section": "2.4",
+      "title": "एआई युग मे मैथिली",
+      "author": "मयंक कुमार झा",
+      "decision": "exclude_for_now",
+      "reason": "Useful technology-and-language essay, but the author explicitly presents it as a non-specialist roadmap and the scholarly apparatus is insufficient for the conservative Scholar layer."
+    },
+    {
+      "issue": "433",
+      "section": "2.4",
+      "title": "जोशीमठ में भू-धसान आ ओकर मानवीय पक्ष",
+      "author": "ग्रुप कॅप्टन (डॉ) वी एन झा",
+      "decision": "exclude_for_now",
+      "reason": "Contains technical geohazard discussion, but also unsupported political attribution; not suitable for the curated scholarly layer without editorial revision."
+    },
+    {
+      "issue": "409",
+      "section": "2.7",
+      "title": "विजातीय बिआह",
+      "author": "आचार्य रामानंद मंडल",
+      "decision": "exclude",
+      "reason": "Narrative/fictional treatment rather than a sociological research article."
+    },
+    {
+      "issue": "443",
+      "title": "श्राद्ध",
+      "author": "बद्रीनाथ राय ’अमात्य’",
+      "decision": "exclude",
+      "reason": "Literary first-person narrative rather than ethnographic research."
+    },
+    {
+      "issue": "442",
+      "section": "2.6",
+      "title": "सेतुषाम: एक अनुशीलन",
+      "author": "लाल देव कामत",
+      "decision": "exclude_for_now",
+      "reason": "Primarily descriptive book discussion; below the priority threshold for scholarly literary criticism."
+    },
+    {
+      "issue": "428",
+      "section": "1.4",
+      "title": "अगस्त्य संहिता- तीस बर्खक प्रतीक्षा",
+      "author": "डा.श्री कृष्ण 'जुगनू'",
+      "decision": "retain",
+      "reason": "Short but substantive textual-source investigation concerning manuscript evidence, dating and possible interpolation; appropriate for the scholarly layer."
+    }
+  ]
+}
