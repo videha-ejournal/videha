@@ -1,7 +1,7 @@
 {
   "issue_files_scanned": 447,
-  "candidate_sections": 127,
-  "high_confidence_review": 4,
+  "candidate_sections": 126,
+  "high_confidence_review": 1,
   "rows": [
     {
       "issue": "322",
@@ -19,6 +19,7 @@
         "संस्कृति"
       ],
       "negative_signals": [
+        "insufficient-body-for-high-confidence",
         "short-body"
       ],
       "status": "review",
@@ -44,8 +45,10 @@
         "संदर्भ",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
-      "status": "high-confidence-review",
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
+      "status": "review",
       "body_chars": 481561,
       "source_path": "search-documents/videha-049.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20049.pdf"
@@ -67,8 +70,10 @@
         "संदर्भ",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
-      "status": "high-confidence-review",
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
+      "status": "review",
       "body_chars": 1122212,
       "source_path": "search-documents/videha-150.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20150.pdf"
@@ -89,7 +94,7 @@
         "सांस्कृतिक"
       ],
       "negative_signals": [],
-      "status": "high-confidence-review",
+      "status": "review",
       "body_chars": 5574,
       "source_path": "search-documents/videha-357.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20357.pdf"
@@ -109,8 +114,10 @@
         "अनुसन्धान",
         "संस्कृति"
       ],
-      "negative_signals": [],
-      "status": "high-confidence-review",
+      "negative_signals": [
+        "non-scholarly-title"
+      ],
+      "status": "exclude",
       "body_chars": 32184,
       "source_path": "search-documents/videha-343.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20343.pdf"
@@ -153,7 +160,9 @@
         "संदर्भ",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 145903,
       "source_path": "search-documents/videha-064.html",
@@ -176,7 +185,9 @@
         "शोध",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 182909,
       "source_path": "search-documents/videha-065.html",
@@ -242,7 +253,10 @@
         "विश्वविद्यालय",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "author-title-split-ambiguous",
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 140760,
       "source_path": "search-documents/videha-021.html",
@@ -286,7 +300,9 @@
         "विश्वविद्यालय",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "author-title-split-ambiguous"
+      ],
       "status": "review",
       "body_chars": 109560,
       "source_path": "search-documents/videha-030.html",
@@ -613,7 +629,9 @@
         "शोध",
         "संदर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 387693,
       "source_path": "search-documents/videha-046.html",
@@ -635,7 +653,9 @@
         "संदर्भ",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 411747,
       "source_path": "search-documents/videha-048.html",
@@ -656,7 +676,9 @@
         "पद्धति",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 122243,
       "source_path": "search-documents/videha-051.html",
@@ -699,7 +721,9 @@
         "संदर्भ",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 212575,
       "source_path": "search-documents/videha-067.html",
@@ -801,6 +825,7 @@
         "शोध पत्र"
       ],
       "negative_signals": [
+        "insufficient-body-for-high-confidence",
         "short-body"
       ],
       "status": "review",
@@ -822,6 +847,7 @@
         "शोध आलेख"
       ],
       "negative_signals": [
+        "insufficient-body-for-high-confidence",
         "short-body"
       ],
       "status": "review",
@@ -843,7 +869,7 @@
         "इतिहास"
       ],
       "negative_signals": [],
-      "status": "review",
+      "status": "high-confidence-review",
       "body_chars": 1893,
       "source_path": "search-documents/videha-441.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf"
@@ -863,7 +889,9 @@
         "संदर्भ",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 136139,
       "source_path": "search-documents/videha-022.html",
@@ -883,7 +911,9 @@
         "विश्वविद्यालय",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 163481,
       "source_path": "search-documents/videha-024.html",
@@ -904,7 +934,9 @@
         "संदर्भ",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 291154,
       "source_path": "search-documents/videha-025.html",
@@ -925,7 +957,9 @@
         "शोध",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 123999,
       "source_path": "search-documents/videha-030.html",
@@ -946,7 +980,9 @@
         "संदर्भ",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 126485,
       "source_path": "search-documents/videha-031.html",
@@ -1127,7 +1163,9 @@
         "संदर्भ",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 210078,
       "source_path": "search-documents/videha-053.html",
@@ -1247,7 +1285,9 @@
         "विश्वविद्यालय",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 152987,
       "source_path": "search-documents/videha-066.html",
@@ -1328,7 +1368,9 @@
         "संदर्भ",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 141561,
       "source_path": "search-documents/videha-072.html",
@@ -1348,7 +1390,9 @@
         "अध्ययन",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 200594,
       "source_path": "search-documents/videha-073.html",
@@ -1530,6 +1574,7 @@
         "संस्कृति"
       ],
       "negative_signals": [
+        "insufficient-body-for-high-confidence",
         "short-body"
       ],
       "status": "review",
@@ -1552,6 +1597,7 @@
         "विश्लेषण"
       ],
       "negative_signals": [
+        "insufficient-body-for-high-confidence",
         "short-body"
       ],
       "status": "review",
@@ -1574,6 +1620,7 @@
         "इतिहास"
       ],
       "negative_signals": [
+        "insufficient-body-for-high-confidence",
         "short-body"
       ],
       "status": "review",
@@ -1597,6 +1644,7 @@
         "समालोचना"
       ],
       "negative_signals": [
+        "insufficient-body-for-high-confidence",
         "short-body"
       ],
       "status": "review",
@@ -1655,7 +1703,9 @@
       "signals": [
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 198286,
       "source_path": "search-documents/videha-031.html",
@@ -1789,7 +1839,9 @@
         "संदर्भ",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 154474,
       "source_path": "search-documents/videha-044.html",
@@ -1848,7 +1900,9 @@
         "संदर्भ",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 210179,
       "source_path": "search-documents/videha-049.html",
@@ -1981,7 +2035,9 @@
       "signals": [
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 178161,
       "source_path": "search-documents/videha-059.html",
@@ -2000,7 +2056,9 @@
       "signals": [
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 127222,
       "source_path": "search-documents/videha-061.html",
@@ -2038,7 +2096,9 @@
       "signals": [
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 129205,
       "source_path": "search-documents/videha-071.html",
@@ -2077,7 +2137,9 @@
         "संदर्भ",
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 312109,
       "source_path": "search-documents/videha-074.html",
@@ -2229,7 +2291,9 @@
       "signals": [
         "references"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "legacy-boundary-oversize"
+      ],
       "status": "review",
       "body_chars": 418957,
       "source_path": "search-documents/videha-308.html",
@@ -2554,7 +2618,9 @@
       "signals": [
         "संदर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "insufficient-body-for-high-confidence"
+      ],
       "status": "review",
       "body_chars": 1540,
       "source_path": "search-documents/videha-408.html",
@@ -2573,11 +2639,15 @@
       "signals": [
         "सन्दर्भ"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "insufficient-body-for-high-confidence"
+      ],
       "status": "review",
       "body_chars": 1324,
       "source_path": "search-documents/videha-442.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf"
     }
-  ]
+  ],
+  "excluded_by_hardening": 1,
+  "legacy_boundary_oversize": 26
 }
