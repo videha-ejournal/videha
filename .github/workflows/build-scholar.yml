@@ -29,6 +29,8 @@ jobs:
           python-version: '3.12'
       - name: Build full research corpus
         run: python scholar-tools/build_all_research.py
+      - name: Build article-level scholarly catalogue
+        run: python scholar-tools/build_section_catalogue.py
       - name: Validate Scholar metadata
         run: python scholar-tools/validate_scholar.py
       - name: Commit generated research layer
