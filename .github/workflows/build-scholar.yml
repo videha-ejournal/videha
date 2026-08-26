@@ -38,6 +38,8 @@ jobs:
           python-version: '3.12'
       - name: Build full research corpus
         run: python scholar-tools/build_all_research.py
+      - name: Diagnose article boundaries
+        run: python scholar-tools/diagnose_boundaries.py
       - name: Build complete article inventory
         run: python scholar-tools/build_article_inventory.py
       - name: Build article-level scholarly catalogue
