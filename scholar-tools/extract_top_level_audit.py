@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
 """Resolve legacy top-level Videha scholarly audit rows into article records.
 
-Top-level legacy TOCs are heterogeneous. This resolver publishes only when:
-- a non-generic scholarly label is present;
-- author/title are explicit in the label or in the immediate body heading;
-- a bounded body between this heading and the next top-level heading is recoverable;
-- body length and metadata pass integrity guards.
-Anything else stays in the hold report. No authorship is inferred across issues.
+Only explicit, name-like heading bylines are accepted. Ambiguous category labels,
+serial headings without authors, and dash collisions remain in review. No author is
+inferred from surrounding issues or prose.
 """
 from __future__ import annotations
 
@@ -19,8 +16,15 @@ from extract_explicit_research import SourceParser, body_to_html, parse_issue_da
 
 ROOT = Path(__file__).resolve().parents[1]
 DEV = str.maketrans("०१२३४५६७८९", "0123456789")
-GENERIC = re.compile(r"^\s*(?:शोध\s*लेख|आलोचना|समालोचना|इतिहास|समीक्षा)\s*[:.]?\s*$", re.I)
+GENERIC = re.compile(r"^\s*(?:शोध\s*लेख|शोध\s*आलेख|आलोचना|समालोचना|इतिहास|समीक्षा)\s*[:.]?\s*$", re.I)
 NEGATIVE = ["कथा", "कहानी", "उपन्यास", "नाटक", "प्रहसन", "कविता", "गजल", "गीत", "व्यंग्य", "साक्षात्कार", "समाचार", "सम्पादकीय", "संपादकीय"]
+AUTHOR_BAD = [
+    "इतिहास", "शोध", "पंजी", "पञ्जी", "प्रबंध", "भाषा", "मैथिली", "साहित्य",
+    "संस्कृति", "समीक्षा", "आलोचना", "समालोचना", "बोध", "प्रयोग", "संहिता",
+    "लेख", "अंक", "पृष्ठ", "पृ.", "संदर्भ", "सन्दर्भ", "वचन", "भाग", "शीर्षक",
+    "केर", "क ", "आगाँ", "आँगा",
+]
+TITLE_SENTENCE_BAD = ["अहाँ", "हमरा", "हम ", "छी", "अछि", "रहल छी", "देखू", "कहलहुँ"]
 
 
 def norm(s: str) -> str:
@@ -36,39 +40,63 @@ def issue_path(issue: str) -> Path | None:
     return None
 
 
-def split_author_title(label: str) -> tuple[str | None, str | None]:
-    label = norm(label)
-    # Strip leading category marker without treating it as author.
-    label = re.sub(r"^(?:शोध\s*लेख|शोध\s*आलेख|आलोचना|समालोचना|समीक्षा)\s*[:.-]\s*", "", label, flags=re.I)
-    for sep in (" - ", "-", "–", "—"):
-        if sep in label:
-            left, right = [norm(x) for x in label.split(sep, 1)]
-            if 2 <= len(left) <= 100 and 5 <= len(right) <= 420 and len(left.split()) <= 14:
-                if not re.search(r"[।!?]", left):
-                    return left, right
-    return None, None
+def clean_author(s: str) -> str:
+    s = norm(s)
+    s = re.sub(r"^[०-९0-9]+\s*[.)-]?\s*", "", s)
+    return s.strip(" :-–—")
 
 
 def sane_author(s: str | None) -> bool:
     if not s:
         return False
-    s = norm(s)
-    return 2 <= len(s) <= 100 and len(s.split()) <= 14 and not re.search(r"[।!?]", s)
+    s = clean_author(s)
+    words = s.split()
+    if len(s) < 3 or len(s) > 90 or len(words) < 2 or len(words) > 10:
+        return False
+    low = s.lower()
+    if any(x.lower() in low for x in AUTHOR_BAD):
+        return False
+    if re.search(r"[।!?/\\]", s) or re.search(r"https?://|www\.", low):
+        return False
+    # A byline should predominantly be name/title tokens, not a full clause.
+    if len(re.findall(r"[,;:]", s)) > 1:
+        return False
+    return True
 
 
 def sane_title(s: str | None) -> bool:
     if not s:
         return False
     s = norm(s)
-    if len(s) < 5 or len(s) > 420:
+    if len(s) < 5 or len(s) > 240:
         return False
     low = s.lower()
-    return not any(x.lower() in low for x in NEGATIVE)
+    if any(x.lower() in low for x in NEGATIVE):
+        return False
+    if any(x.lower() in low for x in TITLE_SENTENCE_BAD) and len(s) > 80:
+        return False
+    return True
+
+
+def split_author_title(label: str) -> tuple[str | None, str | None]:
+    label = norm(label)
+    label = re.sub(r"^(?:शोध\s*लेख|शोध\s*आलेख|आलोचना|समालोचना|समीक्षा)\s*[:.-]\s*", "", label, flags=re.I)
+    # Prefer spaced separators. A bare hyphen is common inside titles and is used
+    # only when the left side independently passes the strict byline test.
+    candidates = []
+    for pat in (r"\s+[–—-]\s+", r"-"):
+        m = re.search(pat, label)
+        if m:
+            candidates.append((label[:m.start()], label[m.end():]))
+    for left, right in candidates:
+        left, right = clean_author(left), norm(right)
+        if sane_author(left) and sane_title(right):
+            return left, right
+    return None, None
 
 
 def body_segment(text: str, section: str, label: str) -> tuple[str, int] | None:
     sec_pat = re.escape(section)
-    # Find exact/sufficient label occurrences; the last viable occurrence is normally body.
     label_key = norm(label)[:80]
     starts = []
     for m in re.finditer(rf"(?m)^\s*{sec_pat}\s*\.\s*(.+?)\s*$", text):
@@ -76,11 +104,8 @@ def body_segment(text: str, section: str, label: str) -> tuple[str, int] | None:
         if label_key and (label_key in line or line[:80] in label_key):
             starts.append(m)
     if not starts:
-        # Some body headings omit the numeric prefix; use exact label occurrence after the TOC.
         for m in re.finditer(re.escape(norm(label)), text):
             starts.append(m)
-    if not starts:
-        return None
     top_re = re.compile(r"(?m)^\s*[1-9१-९]\s*\.\s+.+$")
     best = None
     for m in starts:
@@ -89,22 +114,9 @@ def body_segment(text: str, section: str, label: str) -> tuple[str, int] | None:
         end = nxt.start() if nxt else len(text)
         seg = text[start:end].strip()
         compact = len(re.sub(r"\s+", "", seg))
-        if 1800 <= compact <= 180000:
-            if best is None or compact > best[1]:
-                best = (seg, compact)
+        if 1800 <= compact <= 180000 and (best is None or compact > best[1]):
+            best = (seg, compact)
     return best
-
-
-def immediate_byline(body: str, label: str) -> tuple[str | None, str | None]:
-    lines = [norm(x) for x in body.splitlines() if norm(x)][:12]
-    cleaned_label = norm(label)
-    # Common body pattern: author on one line, title on next/repeated line.
-    for i, line in enumerate(lines[:8]):
-        if sane_author(line):
-            next_line = lines[i + 1] if i + 1 < len(lines) else ""
-            if sane_title(next_line) and (next_line in cleaned_label or cleaned_label in next_line or len(next_line) > 15):
-                return line, next_line
-    return None, None
 
 
 def class_label(signals: list[str]) -> str:
@@ -127,13 +139,13 @@ def load_top_level_records() -> tuple[list[dict], list[dict]]:
     if not p.exists():
         return [], [{"reason": "top-level audit catalogue missing"}]
     rows = json.loads(p.read_text(encoding="utf-8")).get("rows", [])
-    records, review = [], []
+    records, review, published_keys = [], [], set()
     seen = set()
     for row in rows:
         issue = str(int(str(row.get("issue") or "0")))
         section = str(row.get("section") or "").translate(DEV).strip()
         label = norm(str(row.get("label") or ""))
-        if not label or GENERIC.match(label) or len(label) > 420:
+        if not label or GENERIC.match(label) or len(label) > 320:
             continue
         low = label.lower()
         if any(x.lower() in low for x in NEGATIVE):
@@ -142,6 +154,10 @@ def load_top_level_records() -> tuple[list[dict], list[dict]]:
         if key in seen:
             continue
         seen.add(key)
+        author, title = split_author_title(label)
+        if not sane_author(author) or not sane_title(title):
+            review.append({"issue": issue, "section": section, "label": label, "reason": "explicit name-like author/title not recoverable from heading"})
+            continue
         path = issue_path(issue)
         if not path:
             review.append({"issue": issue, "section": section, "label": label, "reason": "issue source missing"})
@@ -158,30 +174,25 @@ def load_top_level_records() -> tuple[list[dict], list[dict]]:
             review.append({"issue": issue, "section": section, "label": label, "reason": "bounded body not recovered"})
             continue
         body, compact = resolved
-        author, title = split_author_title(label)
-        if not sane_author(author) or not sane_title(title):
-            body_author, body_title = immediate_byline(body, label)
-            author = author if sane_author(author) else body_author
-            title = title if sane_title(title) else body_title
-        if not sane_author(author) or not sane_title(title):
-            review.append({"issue": issue, "section": section, "label": label, "body_chars": compact, "reason": "explicit author/title not recoverable"})
-            continue
         date = parse_issue_date(text, issue)
         if not date:
             review.append({"issue": issue, "section": section, "label": label, "reason": "publication date not recovered"})
             continue
-        rec_key = (issue, norm(title).lower())
-        if rec_key in {(r["issue"], norm(r["title"]).lower()) for r in records}:
+        title = norm(title)
+        author = clean_author(author or "")
+        rec_key = (issue, title.lower())
+        if rec_key in published_keys:
             continue
+        published_keys.add(rec_key)
         records.append({
-            "title": norm(title),
-            "authors": [norm(author)],
+            "title": title,
+            "authors": [author],
             "publication_date": date,
             "year": date[:4],
             "issue": issue,
             "classification": class_label(list(row.get("signals") or [])),
             "language": "mai",
-            "slug": slugify(norm(title)),
+            "slug": slugify(title),
             "page_start": None,
             "page_end": None,
             "source_url": source_pdf(parser, issue),
