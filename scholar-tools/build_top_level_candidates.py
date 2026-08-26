@@ -13,7 +13,9 @@ import json
 import re
 from pathlib import Path
 
-from extract_explicit_research import SourceParser, issue_files, parse_issue_date, source_pdf
+from extract_explicit_research import (
+    SourceParser, issue_files, parse_issue_date, parse_toc_entries, source_pdf,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "research" / "data" / "top-level-section-candidates.json"
@@ -57,9 +59,19 @@ def main() -> None:
         if marker < 0:
             marker = text.find("अनुक्रम")
         marker = max(marker, 0)
-        # TOCs occur near the front. Limiting the discovery window avoids treating
-        # numbered headings deep inside article bodies as issue-level sections.
-        window = text[marker:min(len(text), marker + 50000)]
+
+        # Reuse the ordinary article parser's detected body floor. This confines
+        # top-level discovery to the issue TOC instead of a broad character window,
+        # preventing numbered statements inside article bodies from being surfaced.
+        _, body_floor = parse_toc_entries(text)
+        if body_floor > marker:
+            end = min(len(text), body_floor)
+        else:
+            # If no ordinary x.y TOC can establish a floor, keep a small discovery
+            # window rather than scanning deep into article prose.
+            end = min(len(text), marker + 12000)
+        window = text[marker:end]
+
         seen = set()
         for mt in TOP_RE.finditer(window):
             sec = mt.group(1).translate(DEV)
