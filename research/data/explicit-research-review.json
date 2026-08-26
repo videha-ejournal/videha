@@ -1,14 +1,14 @@
 {
-  "generated": "2026-08-26T14:28:25.033509+00:00",
+  "generated": "2026-08-26T14:34:18.437279+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
-    "promoted_sections_requested": 11,
-    "promoted_sections_publishable": 11,
+    "promoted_sections_requested": 14,
+    "promoted_sections_publishable": 14,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 12,
+    "published_after_all_overrides": 15,
     "build_errors": 0
   },
   "explicit_review": [],

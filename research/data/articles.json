@@ -1,16 +1,16 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T14:28:25.033636+00:00",
+  "generated": "2026-08-26T14:34:18.437436+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
-    "promoted_sections_requested": 11,
-    "promoted_sections_publishable": 11,
+    "promoted_sections_requested": 14,
+    "promoted_sections_publishable": 14,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 12,
+    "published_after_all_overrides": 15,
     "build_errors": 0
   },
   "articles": [
@@ -69,6 +69,24 @@
       "page_end": "85"
     },
     {
+      "title": "मिथिला मे पोखरिक अतिक्रमण आ \"तालाब बचाओ अभियान\"",
+      "english_title": null,
+      "authors": [
+        "प्रणव झा"
+      ],
+      "publication_date": "2025-06-01",
+      "year": "2025",
+      "issue": "419",
+      "keywords": [],
+      "classification": "Environmental studies; pond encroachment; water conservation in Mithila",
+      "url": "https://www.videha.co.in/research/2025/419/मिथिला-मे-पोखरिक-अतिक्रमण-आ-तालाब-बचाओ-अभियान.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20419.pdf",
+      "path": "2025/419/मिथिला-मे-पोखरिक-अतिक्रमण-आ-तालाब-बचाओ-अभियान.htm",
+      "page_start": "53",
+      "page_end": "64"
+    },
+    {
       "title": "स्नातकोत्तर चिकित्सा प्रशिक्षण(PGME) मे हेल्थ इकोनॉमिक्स",
       "english_title": null,
       "authors": [
@@ -105,6 +123,24 @@
       "page_end": "43"
     },
     {
+      "title": "पं.भवनाथ झाक शोध दृष्टि",
+      "english_title": null,
+      "authors": [
+        "भैरव लाल दास"
+      ],
+      "publication_date": "2025-10-15",
+      "year": "2025",
+      "issue": "428",
+      "keywords": [],
+      "classification": "Research methodology; epigraphy; manuscript studies; Mithila historiography",
+      "url": "https://www.videha.co.in/research/2025/428/पं-भवनाथ-झाक-शोध-दृष्टि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf",
+      "path": "2025/428/पं-भवनाथ-झाक-शोध-दृष्टि.htm",
+      "page_start": "174",
+      "page_end": "182"
+    },
+    {
       "title": "अशिक्षाक शिकार: केवट समाज (शोध आलेख)",
       "english_title": null,
       "authors": [
@@ -139,6 +175,24 @@
       "path": "2026/439/समकालीन-मैथिली-साहित्यक-लोकधर्मी-स्वर-राम-विलास-साहु.htm",
       "page_start": "120",
       "page_end": "137"
+    },
+    {
+      "title": "डिजिटल दुनियाँ मे सायबर हाइजिन",
+      "english_title": null,
+      "authors": [
+        "प्रणव कुमार झा"
+      ],
+      "publication_date": "2026-05-15",
+      "year": "2026",
+      "issue": "442",
+      "keywords": [],
+      "classification": "Cyber security; digital hygiene; public safety review",
+      "url": "https://www.videha.co.in/research/2026/442/डिजिटल-दुनियाँ-मे-सायबर-हाइजिन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf",
+      "path": "2026/442/डिजिटल-दुनियाँ-मे-सायबर-हाइजिन.htm",
+      "page_start": "24",
+      "page_end": "30"
     },
     {
       "title": "मैथिली लेल एकटा नारी केन्द्रित समीक्षाशास्त्र [क्वीर-फेमिनिज्म सहित] [सन्दर्भ- कामिनीक \"खण्ड-खण्ड मे बँटैत स्त्री\" आ शान्ति लक्ष्मी चौधरीक\"लेस्बियन कॉन्टिन्युअम\"]",
