@@ -1,19 +1,37 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T16:30:13.259748+00:00",
+  "generated": "2026-08-26T16:51:55.374964+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
-    "explicit_articles_publishable": 1,
+    "explicit_articles_publishable": 2,
     "explicit_articles_review": 0,
     "promoted_sections_requested": 37,
     "promoted_sections_publishable": 37,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 38,
+    "published_after_all_overrides": 39,
     "build_errors": 0
   },
   "articles": [
+    {
+      "title": "प्रोफेसर डा. रामावतार यादव ओ हुनक विलक्षण अनुसंधान तकनीक (मिथिला भारती शोध पत्रिकाक संदर्भमे)",
+      "english_title": null,
+      "authors": [
+        "डॉ. शिव कुमार मिश्र"
+      ],
+      "publication_date": "2024-06-15",
+      "year": "2024",
+      "issue": "396",
+      "keywords": [],
+      "classification": "Research article (source-labelled शोध आलेख)",
+      "url": "https://www.videha.co.in/research/2024/396/प्रोफेसर-डा-रामावतार-यादव-ओ-हुनक-विलक्षण-अनुसंधान-तकनीक.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20396.pdf",
+      "path": "2024/396/प्रोफेसर-डा-रामावतार-यादव-ओ-हुनक-विलक्षण-अनुसंधान-तकनीक.htm",
+      "page_start": "137",
+      "page_end": "144"
+    },
     {
       "title": "फैमिली एडॉप्शन प्रोग्राम (FAP): चिकित्सा शिक्षा में नवाचार आ ग्रामीण भारत में स्वास्थ्य सेवाक बढ़ावा",
       "english_title": null,

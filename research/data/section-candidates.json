@@ -1,8 +1,207 @@
 {
   "issue_files_scanned": 447,
-  "candidate_sections": 14,
-  "high_confidence_review": 0,
+  "candidate_sections": 33,
+  "high_confidence_review": 1,
   "rows": [
+    {
+      "issue": "357",
+      "publication_date": "2022-11-01",
+      "section": "2.22",
+      "author": "प्रदीप पुष्प",
+      "title": "मैथिल नारीक सांस्कृतिक- साहित्यिक स्वर - प्रेमलता मिश्र प्रेम",
+      "page_start": "113",
+      "page_end": "116",
+      "content_class": "culture-art",
+      "score": 130,
+      "signals": [
+        "शोध",
+        "संदर्भ",
+        "सांस्कृतिक"
+      ],
+      "negative_signals": [],
+      "status": "high-confidence-review",
+      "body_chars": 5574,
+      "source_path": "search-documents/videha-357.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20357.pdf"
+    },
+    {
+      "issue": "441",
+      "publication_date": "2026-05-01",
+      "section": "3.8",
+      "author": "राजदेव मंडल",
+      "title": "खाली पन्ना/ भीतरिया कानब",
+      "page_start": "247",
+      "page_end": "248",
+      "content_class": "other",
+      "score": 90,
+      "signals": [
+        "research",
+        "पद्धति",
+        "विश्वविद्यालय",
+        "शोध",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 109370,
+      "source_path": "search-documents/videha-441.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf"
+    },
+    {
+      "issue": "360",
+      "publication_date": "2022-12-15",
+      "section": "2.17",
+      "author": "जगदानन्द झा 'मनु'",
+      "title": "अनमोल झा जीक पोथी 'टेकनोलजी'क समीक्षा",
+      "page_start": "139",
+      "page_end": "142",
+      "content_class": "other",
+      "score": 84,
+      "signals": [
+        "अध्ययन",
+        "पद्धति",
+        "परिकल्पना",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 32650,
+      "source_path": "search-documents/videha-360.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20360.pdf"
+    },
+    {
+      "issue": "371",
+      "publication_date": "2023-06-01",
+      "section": "2.13",
+      "author": "प्रवीण कुमार झा",
+      "title": "जनहित परिप्रेक्ष्य मे",
+      "page_start": "70",
+      "page_end": "71",
+      "content_class": "other",
+      "score": 84,
+      "signals": [
+        "अध्ययन",
+        "पद्धति",
+        "शोध",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 11532,
+      "source_path": "search-documents/videha-371.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20371.pdf"
+    },
+    {
+      "issue": "382",
+      "publication_date": "2023-11-15",
+      "section": "2.19",
+      "author": "आशीष अनचिन्हार",
+      "title": "लक्ष्मण झा 'सागर' हमरा नजरिमे",
+      "page_start": "133",
+      "page_end": "137",
+      "content_class": "other",
+      "score": 84,
+      "signals": [
+        "अध्ययन",
+        "पद्धति",
+        "शोध",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 91555,
+      "source_path": "search-documents/videha-382.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20382.pdf"
+    },
+    {
+      "issue": "395",
+      "publication_date": "2024-06-01",
+      "section": "2.17",
+      "author": "आशीष अनचिन्हार",
+      "title": "कुपोषित मैथिली भाषा-साहित्य लेल एकटा अनिवार्य पौष्टिक तत्व: नरेन्द्र झा",
+      "page_start": "195",
+      "page_end": "201",
+      "content_class": "other",
+      "score": 84,
+      "signals": [
+        "अध्ययन",
+        "पद्धति",
+        "शोध",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 14832,
+      "source_path": "search-documents/videha-395.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20395.pdf"
+    },
+    {
+      "issue": "396",
+      "publication_date": "2024-06-15",
+      "section": "2.15",
+      "author": "आशीष अनचिन्हार",
+      "title": "विशिष्ट आलेख संचयन केर सामान्य परिचय",
+      "page_start": "191",
+      "page_end": "199",
+      "content_class": "other",
+      "score": 84,
+      "signals": [
+        "अध्ययन",
+        "पद्धति",
+        "शोध",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 15377,
+      "source_path": "search-documents/videha-396.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20396.pdf"
+    },
+    {
+      "issue": "376",
+      "publication_date": "2023-08-15",
+      "section": "3.3",
+      "author": "राज किशोर मिश्र",
+      "title": "सांस्कृतिक क्षरण",
+      "page_start": "108",
+      "page_end": "110",
+      "content_class": "culture-art",
+      "score": 70,
+      "signals": [
+        "सांस्कृतिक"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 2569,
+      "source_path": "search-documents/videha-376.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20376.pdf"
+    },
+    {
+      "issue": "396",
+      "publication_date": "2024-06-15",
+      "section": "2.9",
+      "author": "डॉ. शिव कुमार मिश्र",
+      "title": "प्रोफेसर डा. रामावतार यादव ओ हुनक विलक्षण अनुसंधान तकनीक (मिथिला भारती शोध पत्रिकाक संदर्भमे)",
+      "page_start": "137",
+      "page_end": "144",
+      "content_class": "research-article",
+      "score": 70,
+      "signals": [
+        "शोध पत्र"
+      ],
+      "negative_signals": [
+        "short-body"
+      ],
+      "status": "review",
+      "body_chars": 0,
+      "source_path": "search-documents/videha-396.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20396.pdf"
+    },
     {
       "issue": "438",
       "publication_date": "2026-03-15",
@@ -25,6 +224,65 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20438.pdf"
     },
     {
+      "issue": "441",
+      "publication_date": "2026-05-01",
+      "section": "2.13",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "मैथिली लेल दलित साहित्य समीक्षाशास्त्र-२ [संदर्भ: प्रभास कुमार चौधरीक 'इन्द्रधनुष', अशोकक 'प्रतिलोम' आ रमेशक 'कैलास मंडलक फिलिप्स रेडियो'/ दलित साहित्य समीक्षाशास्त्र, भारतीय समीक्षाशास्त्र, पाश्चात्य समीक्षाशास्त्र, गंगेशक नव्य न्याय आ विदेह समानान्तर इतिहास फ्रेमवर्कक परिप्रेक्ष्यमे]",
+      "page_start": "176",
+      "page_end": "204",
+      "content_class": "history",
+      "score": 70,
+      "signals": [
+        "इतिहास"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 1893,
+      "source_path": "search-documents/videha-441.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf"
+    },
+    {
+      "issue": "353",
+      "publication_date": "2022-09-01",
+      "section": "2.1",
+      "author": "पाठक हमर पोथी किए पढ़थि",
+      "title": "गजेन्द्र ठाकुर",
+      "page_start": "8",
+      "page_end": "64",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "शोध",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 31797,
+      "source_path": "search-documents/videha-353.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20353.pdf"
+    },
+    {
+      "issue": "383",
+      "publication_date": "2023-12-01",
+      "section": "2.10",
+      "author": "रबीन्द्र नारायण मिश्र",
+      "title": "ठेहा परक मौलाएल गाछ (धारावाहिक)",
+      "page_start": "103",
+      "page_end": "122",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "अध्ययन",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 32497,
+      "source_path": "search-documents/videha-383.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20383.pdf"
+    },
+    {
       "issue": "442",
       "publication_date": "2026-05-15",
       "section": "3.6",
@@ -43,6 +301,50 @@
       "body_chars": 36656,
       "source_path": "search-documents/videha-442.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf"
+    },
+    {
+      "issue": "374",
+      "publication_date": "2023-07-15",
+      "section": "2.1",
+      "author": "डॉ दीपेश कुमार ठाकुर",
+      "title": "मिथिलाक इतिहासक वैज्ञानिक अध्ययन एवं ओकर समीक्षात्मक विश्लेषण",
+      "page_start": "7",
+      "page_end": "23",
+      "content_class": "history",
+      "score": 65,
+      "signals": [
+        "इतिहास",
+        "विश्लेषण"
+      ],
+      "negative_signals": [
+        "short-body"
+      ],
+      "status": "review",
+      "body_chars": 0,
+      "source_path": "search-documents/videha-374.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20374.pdf"
+    },
+    {
+      "issue": "383",
+      "publication_date": "2023-12-01",
+      "section": "2.1",
+      "author": "आशीष अनचिन्हार",
+      "title": "की अप्रमाणिक आलोचना एवं इतिहास केर लेखन करै छथि तारानंद वियोगी?",
+      "page_start": "15",
+      "page_end": "46",
+      "content_class": "history",
+      "score": 65,
+      "signals": [
+        "आलोचना",
+        "इतिहास"
+      ],
+      "negative_signals": [
+        "short-body"
+      ],
+      "status": "review",
+      "body_chars": 0,
+      "source_path": "search-documents/videha-383.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20383.pdf"
     },
     {
       "issue": "447",
@@ -66,6 +368,64 @@
       "body_chars": 0,
       "source_path": "search-documents/videha-447.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
+    },
+    {
+      "issue": "358",
+      "publication_date": "2022-11-15",
+      "section": "2.22",
+      "author": "श्रीधरम",
+      "title": "शरदिन्दु कुमार चौधरीक साहित्य : 'स्वारथ लागि करहिं सब प्रीती'",
+      "page_start": "125",
+      "page_end": "134",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "शोध",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 4615,
+      "source_path": "search-documents/videha-358.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20358.pdf"
+    },
+    {
+      "issue": "363",
+      "publication_date": "2023-02-01",
+      "section": "2.19",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "लालदासक मिथिला रामायण मे कुण्डलिया आ सम्पादक बा प्रूफरीडरक अज्ञानतावश ओइमे छन्दोभङ्ग",
+      "page_start": "181",
+      "page_end": "190",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 25267,
+      "source_path": "search-documents/videha-363.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20363.pdf"
+    },
+    {
+      "issue": "378",
+      "publication_date": "2023-09-15",
+      "section": "3.4",
+      "author": "रामानन्द मण्डल",
+      "title": "हम उदारवादी रे/ नदी/ डोमिन",
+      "page_start": "99",
+      "page_end": "105",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 12771,
+      "source_path": "search-documents/videha-378.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20378.pdf"
     },
     {
       "issue": "400",
@@ -238,6 +598,44 @@
       "body_chars": 5707,
       "source_path": "search-documents/videha-446.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20446.pdf"
+    },
+    {
+      "issue": "356",
+      "publication_date": "2022-10-15",
+      "section": "4.1",
+      "author": "डा. दीपिका",
+      "title": "चम्पूसाहित्ययशो विलासः (तृतीयोच्छवासः)",
+      "page_start": "168",
+      "page_end": "171",
+      "content_class": "other",
+      "score": 40,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 1984,
+      "source_path": "search-documents/videha-356.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20356.pdf"
+    },
+    {
+      "issue": "359",
+      "publication_date": "2022-12-01",
+      "section": "4.1",
+      "author": "डा. दीपिका",
+      "title": "चम्पूसाहित्ययशो विलासः (षष्ठोच्छवासः)",
+      "page_start": "245",
+      "page_end": "248",
+      "content_class": "other",
+      "score": 40,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 2358,
+      "source_path": "search-documents/videha-359.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20359.pdf"
     },
     {
       "issue": "408",
