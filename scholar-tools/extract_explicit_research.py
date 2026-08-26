@@ -78,8 +78,8 @@ def derived_issue_date(issue: str) -> str | None:
 
 
 def parse_issue_date(text: str, issue: str) -> str | None:
-    # The issue number itself is the most reliable date key because the generated
-    # archive pages contain many historical dates unrelated to publication.
+    # Generated archive pages contain many historical dates unrelated to publication.
+    # The continuous fortnightly issue number is therefore the most reliable date key.
     return derived_issue_date(issue)
 
 
@@ -113,11 +113,11 @@ def source_pdf(parser: SourceParser, issue: str) -> str:
 
 
 def parse_toc_entries(text: str) -> tuple[list[dict], int]:
-    """Parse the first page-number TOC and return the actual article-body floor.
+    """Parse the first page-number TOC and return a floor below that TOC.
 
-    Many generated issue pages contain two TOCs: first a page-number list, then a
-    link-only list. Therefore the first section heading normally occurs twice after
-    the page-number TOC; the second occurrence is the real first article heading.
+    Generated search pages can contain a second link-only TOC before the real body.
+    Body selection is therefore performed separately by scoring every later section
+    occurrence rather than assuming the first occurrence after this floor is real.
     """
     marker = text.find("ऐ अंकमे अछि")
     if marker < 0:
@@ -132,16 +132,9 @@ def parse_toc_entries(text: str) -> tuple[list[dict], int]:
     first_sec = prelim[0].group(1)
     sec_re = re.compile(rf"(?m)^\s*{re.escape(first_sec)}\.\s*")
     repeats = list(sec_re.finditer(text, prelim[0].end(), min(len(text), window_end + 100000)))
-    if len(repeats) >= 2:
-        body_floor = repeats[1].start()
-    elif repeats:
-        body_floor = repeats[0].start()
-    else:
-        body_floor = max(m.end() for m in prelim)
+    body_floor = repeats[0].start() if repeats else max(m.end() for m in prelim)
 
     toc_matches = [m for m in prelim if m.start() < body_floor]
-    # If a later page-number list slipped into the window, keep only the first
-    # occurrence of each section number before the body.
     seen: set[str] = set()
     toc: list[dict] = []
     for m in toc_matches:
@@ -169,7 +162,7 @@ def clean_body(segment: str, section: str, author: str, title: str) -> str:
     lines = [x.strip() for x in segment.splitlines()]
     while lines and not lines[0]:
         lines.pop(0)
-    for _ in range(6):
+    for _ in range(8):
         if not lines:
             break
         x = re.sub(r"\s+", " ", lines[0]).strip()
@@ -207,20 +200,74 @@ def body_to_html(body: str) -> str:
     )
 
 
+def _section_occurrences(text: str, section_source: str, floor: int) -> list[re.Match]:
+    pat = re.compile(rf"(?m)^\s*{re.escape(section_source)}\.\s*")
+    return list(pat.finditer(text, floor))
+
+
+def _next_section_position(text: str, toc: list[dict], idx: int, start: int) -> int:
+    positions: list[int] = []
+    for nxt in toc[idx + 1:]:
+        pat = re.compile(rf"(?m)^\s*{re.escape(nxt['section_source'])}\.\s*")
+        m = pat.search(text, start + 1)
+        if m:
+            positions.append(m.start())
+    return min(positions) if positions else len(text)
+
+
+def locate_article_body(text: str, toc: list[dict], idx: int, body_floor: int) -> tuple[int, int] | None:
+    """Choose the substantive occurrence of a repeated section heading.
+
+    Search-document pages may repeat every section in a link-only contents block.
+    Those occurrences are followed almost immediately by another section heading.
+    A real article occurrence is instead followed by substantial prose. We score
+    every occurrence after the page-number TOC and select the strongest candidate.
+    """
+    item = toc[idx]
+    occurrences = _section_occurrences(text, item["section_source"], body_floor)
+    if not occurrences:
+        return None
+
+    scored: list[tuple[int, int, int]] = []
+    author = item.get("author") or ""
+    title = item.get("title") or ""
+    for m in occurrences:
+        start = m.start()
+        end = _next_section_position(text, toc, idx, start)
+        if end <= start:
+            continue
+        segment = text[start:end]
+        compact = len(re.sub(r"\s+", "", segment))
+        head = re.sub(r"\s+", " ", segment[:1600])
+        # Link-only TOCs have tiny spans to the next numbered entry. Real article
+        # bodies normally contain hundreds or thousands of characters.
+        score = min(compact, 20000)
+        if compact < 500:
+            score -= 20000
+        if title and title[:40] in head:
+            score += 5000
+        if author and author in head:
+            score += 2500
+        # A second numbered section very near the start is strong TOC evidence.
+        if re.search(r"(?m)^\s*[0-9०-९]+\.[0-9०-९]+\.\s*", segment[120:700]):
+            score -= 12000
+        scored.append((score, start, end))
+
+    if not scored:
+        return None
+    scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    score, start, end = scored[0]
+    if score < 0:
+        return None
+    return start, end
+
+
 def article_body(text: str, toc: list[dict], idx: int, body_floor: int) -> str:
     item = toc[idx]
-    sm = re.compile(rf"(?m)^\s*{re.escape(item['section_source'])}\.\s*").search(text, body_floor)
-    if not sm:
+    bounds = locate_article_body(text, toc, idx, body_floor)
+    if not bounds or not item.get("author") or not item.get("title"):
         return ""
-    start = sm.start()
-    end = len(text)
-    for nxt in toc[idx + 1:]:
-        nm = re.compile(rf"(?m)^\s*{re.escape(nxt['section_source'])}\.\s*").search(text, start + 1)
-        if nm:
-            end = nm.start()
-            break
-    if not item.get("author") or not item.get("title"):
-        return ""
+    start, end = bounds
     return clean_body(text[start:end], item["section_source"], item["author"], item["title"])
 
 
