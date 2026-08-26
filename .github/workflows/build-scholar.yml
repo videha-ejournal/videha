@@ -5,10 +5,12 @@ on:
   push:
     branches: [main]
     paths:
+      - '.github/workflows/build-scholar.yml'
       - 'scholar-data/articles/**'
       - 'scholar-tools/**'
       - 'templates/scholar-article.html'
       - 'search-documents/videha-*.html'
+      - 'search-documents/videha-*.htm'
 
 permissions:
   contents: write
@@ -36,6 +38,8 @@ jobs:
           python-version: '3.12'
       - name: Build full research corpus
         run: python scholar-tools/build_all_research.py
+      - name: Build complete article inventory
+        run: python scholar-tools/build_article_inventory.py
       - name: Build article-level scholarly catalogue
         run: python scholar-tools/build_section_catalogue.py
       - name: Validate Scholar metadata
