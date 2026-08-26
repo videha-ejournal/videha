@@ -2,8 +2,8 @@
 """Build Videha's additive Google-Scholar-facing research layer.
 
 Legacy issue pages are *classified* but never blindly republished as a single
-article.  Article pages are generated only from curated JSON records under
-scholar-data/articles/.  This prevents a multi-author issue page from being
+article. Article pages are generated only from curated JSON records under
+scholar-data/articles/. This prevents a multi-author issue page from being
 misrepresented as one paper while still producing a retrospective candidate
 queue automatically.
 """
@@ -109,19 +109,59 @@ def render_article(rec):
     citation_authors="\n".join(f'<meta name="citation_author" content="{esc_attr(a)}">' for a in authors)
     vol=rec.get("volume"); citation_volume=f'<meta name="citation_volume" content="{esc_attr(vol)}">' if vol else ""
     citation_pdf=f'<meta name="citation_pdf_url" content="{CFG["research_base"]}/{pdf_rel}">' if pdf_path.exists() else ""
-    abstract=rec.get("abstract_html") or "<p>Abstract forthcoming.</p>"; abstract_text=norm(re.sub(r"<[^>]+>"," ",abstract))
-    jsonld={"@context":"https://schema.org","@type":"ScholarlyArticle","headline":rec["title"],"author":[{"@type":"Person","name":a} for a in authors],"datePublished":rec["publication_date"],"isPartOf":{"@type":"Periodical","name":CFG["journal_title"],"issn":CFG["issn"]},"url":canonical,"inLanguage":rec.get("language","mai"),"keywords":rec.get("keywords",[]),"sameAs":rec["source_url"]}
+
+    page_start=norm(str(rec.get("page_start") or "")); page_end=norm(str(rec.get("page_end") or ""))
+    citation_pages=""
+    page_range_visible=""
+    page_range_citation=""
+    if page_start:
+        citation_pages += f'<meta name="citation_firstpage" content="{esc_attr(page_start)}">'
+    if page_end:
+        citation_pages += ("\n" if citation_pages else "") + f'<meta name="citation_lastpage" content="{esc_attr(page_end)}">'
+    if page_start and page_end:
+        page_range_visible=f" · पृष्ठ {html.escape(page_start)}–{html.escape(page_end)}"
+        page_range_citation=f", pp. {page_start}–{page_end}"
+    elif page_start:
+        page_range_visible=f" · पृष्ठ {html.escape(page_start)}"
+        page_range_citation=f", p. {page_start}"
+
+    abstract=rec.get("abstract_html") or ""
+    abstract_text=norm(re.sub(r"<[^>]+>"," ",abstract))
+    abstract_section=f'<section class="abstract"><h2>सारांश / Abstract</h2>{abstract}</section>' if abstract_text else ""
+    description_meta=f'<meta name="description" content="{esc_attr(abstract_text[:500])}">' if abstract_text else ""
+
+    kw=rec.get("keywords",[])
+    keywords=", ".join(kw) if isinstance(kw,list) else str(kw or "")
+    keywords=norm(keywords)
+    keywords_section=f'<section class="keywords"><strong>Keywords:</strong> {html.escape(keywords)}</section>' if keywords else ""
+
+    refs=rec.get("references_html") or ""
+    refs_text=norm(re.sub(r"<[^>]+>"," ",refs))
+    references_section=f'<section class="references"><h2>सन्दर्भ / References</h2>{refs}</section>' if refs_text else ""
+
+    jsonld={"@context":"https://schema.org","@type":"ScholarlyArticle","headline":rec["title"],"author":[{"@type":"Person","name":a} for a in authors],"datePublished":rec["publication_date"],"isPartOf":{"@type":"Periodical","name":CFG["journal_title"],"issn":CFG["issn"]},"url":canonical,"inLanguage":rec.get("language","mai"),"sameAs":rec["source_url"]}
+    if kw: jsonld["keywords"]=kw
+    if abstract_text: jsonld["abstract"]=abstract_text
+    if page_start and page_end: jsonld["pagination"]=f"{page_start}-{page_end}"
     if pdf_path.exists(): jsonld["encoding"]={"@type":"MediaObject","contentUrl":f"{CFG['research_base']}/{pdf_rel}","encodingFormat":"application/pdf"}
-    keywords=rec.get("keywords",[]); keywords=", ".join(keywords) if isinstance(keywords,list) else str(keywords)
-    refs=rec.get("references_html") or "<p>References are included in the article text where supplied by the author.</p>"
+
     english_title=rec.get("english_title"); english_title=f"<p><strong>English title:</strong> {html.escape(english_title)}</p>" if english_title else ""
-    standard=f"{'; '.join(authors)}. “{rec['title']}.” {CFG['journal_title']}, issue {issue}, {rec['publication_date']}. {canonical}"
+    standard=f"{'; '.join(authors)}. “{rec['title']}.” {CFG['journal_title']}, issue {issue}{page_range_citation}, {rec['publication_date']}. {canonical}"
     pdf_link=f' · <a href="{CFG["research_base"]}/{pdf_rel}">PDF</a>' if pdf_path.exists() else ""
-    vals={"TITLE":html.escape(rec["title"]),"TITLE_ATTR":esc_attr(rec["title"]),"CANONICAL_URL":canonical,"CITATION_AUTHORS":citation_authors,"DATE":esc_attr(rec["publication_date"]),"ISSUE":esc_attr(issue),"CITATION_VOLUME":citation_volume,"CITATION_PDF":citation_pdf,"ABSTRACT_ATTR":esc_attr(abstract_text[:500]),"JSON_LD":json.dumps(jsonld,ensure_ascii=False).replace("</","<\\/"),"AUTHORS_VISIBLE":html.escape(", ".join(authors)),"DATE_VISIBLE":html.escape(str(rec["publication_date"])),"ENGLISH_TITLE":english_title,"ABSTRACT":abstract,"KEYWORDS":html.escape(keywords),"FULL_TEXT":rec["full_text_html"],"REFERENCES":refs,"STANDARD_CITATION":html.escape(standard),"SOURCE_URL":esc_attr(rec["source_url"]),"PDF_LINK":pdf_link}
+    vals={
+        "TITLE":html.escape(rec["title"]),"TITLE_ATTR":esc_attr(rec["title"]),"CANONICAL_URL":canonical,
+        "CITATION_AUTHORS":citation_authors,"DATE":esc_attr(rec["publication_date"]),"ISSUE":esc_attr(issue),
+        "CITATION_VOLUME":citation_volume,"CITATION_PAGES":citation_pages,"CITATION_PDF":citation_pdf,
+        "DESCRIPTION_META":description_meta,"JSON_LD":json.dumps(jsonld,ensure_ascii=False).replace("</","<\\/"),
+        "AUTHORS_VISIBLE":html.escape(", ".join(authors)),"DATE_VISIBLE":html.escape(str(rec["publication_date"])),
+        "PAGE_RANGE_VISIBLE":page_range_visible,"ENGLISH_TITLE":english_title,"ABSTRACT_SECTION":abstract_section,
+        "KEYWORDS_SECTION":keywords_section,"FULL_TEXT":rec["full_text_html"],"REFERENCES_SECTION":references_section,
+        "STANDARD_CITATION":html.escape(standard),"SOURCE_URL":esc_attr(rec["source_url"]),"PDF_LINK":pdf_link
+    }
     page=TEMPLATE
     for k,v in vals.items(): page=page.replace("{{"+k+"}}",str(v))
     out=RESEARCH/rel; out.parent.mkdir(parents=True,exist_ok=True); out.write_text(page,encoding="utf-8")
-    return {"title":rec["title"],"english_title":rec.get("english_title"),"authors":authors,"publication_date":rec["publication_date"],"year":year,"issue":issue,"keywords":rec.get("keywords",[]),"classification":rec.get("classification","research article"),"url":canonical,"pdf_url":f"{CFG['research_base']}/{pdf_rel}" if pdf_path.exists() else None,"source_url":rec["source_url"],"path":rel}
+    return {"title":rec["title"],"english_title":rec.get("english_title"),"authors":authors,"publication_date":rec["publication_date"],"year":year,"issue":issue,"keywords":rec.get("keywords",[]),"classification":rec.get("classification","research article"),"url":canonical,"pdf_url":f"{CFG['research_base']}/{pdf_rel}" if pdf_path.exists() else None,"source_url":rec["source_url"],"path":rel,"page_start":page_start or None,"page_end":page_end or None}
 
 def write_index(articles,candidates):
     cards=[]
