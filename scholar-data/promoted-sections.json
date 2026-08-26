@@ -5,6 +5,16 @@
     "classification": "Technical analysis"
   },
   {
+    "issue": "439",
+    "section": "2.14",
+    "classification": "Literary criticism; contemporary Maithili literature"
+  },
+  {
+    "issue": "442",
+    "section": "2.14",
+    "classification": "Literary criticism; feminist and queer-feminist theory"
+  },
+  {
     "issue": "443",
     "section": "2.11",
     "classification": "Literary criticism"
@@ -18,5 +28,10 @@
     "issue": "447",
     "section": "2.18",
     "classification": "Linguistics; criticism; academic research review"
+  },
+  {
+    "issue": "447",
+    "section": "2.19",
+    "classification": "Literary criticism; Angika children’s literature; comparative research review"
   }
 ]
