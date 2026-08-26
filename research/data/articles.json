@@ -1,8 +1,25 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T12:31:46.192878+00:00",
-  "articles": [],
+  "generated": "2026-08-26T13:10:27.510771+00:00",
+  "articles": [
+    {
+      "title": "अशिक्षाक शिकार: केवट समाज (शोध आलेख)",
+      "english_title": null,
+      "authors": [
+        "प्रीति कुमारी"
+      ],
+      "publication_date": "2026-03-15",
+      "year": "2026",
+      "issue": "438",
+      "keywords": [],
+      "classification": "Research article (source-labelled शोध आलेख)",
+      "url": "https://www.videha.co.in/research/2026/438/ashikshak-shikar-kevat-samaj.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20438.pdf",
+      "path": "2026/438/ashikshak-shikar-kevat-samaj.htm"
+    }
+  ],
   "candidates": [
     {
       "source_path": "search-documents/videha-447.html",
