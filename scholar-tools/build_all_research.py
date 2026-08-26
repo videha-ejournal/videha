@@ -9,6 +9,7 @@ from pathlib import Path
 
 import build_research as base
 from extract_explicit_research import extract_explicit_records
+from extract_promoted_sections import load_promoted
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "research"
@@ -28,20 +29,30 @@ def main() -> None:
     DATA.mkdir(parents=True, exist_ok=True)
 
     candidates = base.scan_legacy()
-    auto_records, review, extraction_summary = extract_explicit_records(ROOT)
+    auto_records, explicit_review, extraction_summary = extract_explicit_records(ROOT)
+    promoted_records, promotion_review = load_promoted(ROOT)
     curated = base.load_curated()
 
-    # Start with deterministic corpus extraction; hand-curated manifests override
-    # an auto record with the same issue/title so editorial corrections always win.
+    # Deterministic explicit extraction is followed by an editor-controlled
+    # retrospective whitelist. Hand-curated manifests always override either one.
     merged: dict[tuple[str, str], dict] = {}
     for rec in auto_records:
+        merged[record_key(rec)] = rec
+    for rec in promoted_records:
         merged[record_key(rec)] = rec
     for rec in curated:
         merged[record_key(rec)] = rec
 
     articles = []
     build_errors = []
-    for rec in sorted(merged.values(), key=lambda r: (str(r.get("publication_date") or ""), str(r.get("issue") or ""), str(r.get("title") or ""))):
+    for rec in sorted(
+        merged.values(),
+        key=lambda r: (
+            str(r.get("publication_date") or ""),
+            str(r.get("issue") or ""),
+            str(r.get("title") or ""),
+        ),
+    ):
         try:
             articles.append(base.render_article(rec))
         except Exception as exc:
@@ -53,14 +64,18 @@ def main() -> None:
                 "error": str(exc),
             })
 
+    extraction_summary["promoted_sections_requested"] = len(promoted_records) + len(promotion_review)
+    extraction_summary["promoted_sections_publishable"] = len(promoted_records)
+    extraction_summary["promoted_sections_review"] = len(promotion_review)
     extraction_summary["curated_manifests"] = len(curated)
-    extraction_summary["published_after_curated_override"] = len(articles)
+    extraction_summary["published_after_all_overrides"] = len(articles)
     extraction_summary["build_errors"] = len(build_errors)
 
     review_payload = {
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(),
         "summary": extraction_summary,
-        "review": review,
+        "explicit_review": explicit_review,
+        "promotion_review": promotion_review,
         "build_errors": build_errors,
     }
     (DATA / "explicit-research-review.json").write_text(
@@ -83,7 +98,9 @@ def main() -> None:
         "Videha Scholar full-corpus build: "
         f"{extraction_summary['issue_files_scanned']} issue HTML files scanned; "
         f"{len(articles)} published articles; "
-        f"{len(review)} explicit items held for review; "
+        f"{len(explicit_review)} explicit items held for review; "
+        f"{len(promoted_records)} editor-approved retrospective sections resolved; "
+        f"{len(promotion_review)} promoted sections held for review; "
         f"{len(candidates)} broader retrospective candidates"
     )
     if build_errors:
