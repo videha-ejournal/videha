@@ -2,8 +2,8 @@
 """Resolve legacy top-level Videha scholarly audit rows into article records.
 
 Only explicit, name-like heading bylines are accepted. Ambiguous category labels,
-serial headings without authors, and dash collisions remain in review. No author is
-inferred from surrounding issues or prose.
+serial headings without authors, composite multi-item headings, and dash collisions
+remain in review. No author is inferred from surrounding issues or prose.
 """
 from __future__ import annotations
 
@@ -25,6 +25,7 @@ AUTHOR_BAD = [
     "केर", "क ", "आगाँ", "आँगा",
 ]
 TITLE_SENTENCE_BAD = ["अहाँ", "हमरा", "हम ", "छी", "अछि", "रहल छी", "देखू", "कहलहुँ"]
+LIST_MARKER = re.compile(r"(?:^|\s)[०-९0-9]{1,2}\s*[.)]\s*")
 
 
 def norm(s: str) -> str:
@@ -58,7 +59,6 @@ def sane_author(s: str | None) -> bool:
         return False
     if re.search(r"[।!?/\\]", s) or re.search(r"https?://|www\.", low):
         return False
-    # A byline should predominantly be name/title tokens, not a full clause.
     if len(re.findall(r"[,;:]", s)) > 1:
         return False
     return True
@@ -75,14 +75,19 @@ def sane_title(s: str | None) -> bool:
         return False
     if any(x.lower() in low for x in TITLE_SENTENCE_BAD) and len(s) > 80:
         return False
+    # Old TOCs sometimes concatenate several entries into one line. Reject titles
+    # containing two or more numbered list markers rather than publishing a bundle.
+    if len(LIST_MARKER.findall(s)) >= 2:
+        return False
+    # Also reject embedded second-item markers common in OCR-joined headings.
+    if re.search(r"(?:^|\s)[२2]\s*[.)]\s*", s) and re.search(r"(?:^|\s)[१1]\s*[.)]\s*", s):
+        return False
     return True
 
 
 def split_author_title(label: str) -> tuple[str | None, str | None]:
     label = norm(label)
     label = re.sub(r"^(?:शोध\s*लेख|शोध\s*आलेख|आलोचना|समालोचना|समीक्षा)\s*[:.-]\s*", "", label, flags=re.I)
-    # Prefer spaced separators. A bare hyphen is common inside titles and is used
-    # only when the left side independently passes the strict byline test.
     candidates = []
     for pat in (r"\s+[–—-]\s+", r"-"):
         m = re.search(pat, label)
