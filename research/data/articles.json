@@ -1,16 +1,16 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T14:08:33.886640+00:00",
+  "generated": "2026-08-26T14:17:56.492408+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
-    "promoted_sections_requested": 4,
-    "promoted_sections_publishable": 4,
+    "promoted_sections_requested": 7,
+    "promoted_sections_publishable": 7,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 5,
+    "published_after_all_overrides": 8,
     "build_errors": 0
   },
   "articles": [
@@ -51,6 +51,42 @@
       "page_end": "36"
     },
     {
+      "title": "समकालीन मैथिली साहित्यक लोकधर्मी स्वर : राम विलास साहु",
+      "english_title": null,
+      "authors": [
+        "डॉ. उमेश मण्डल"
+      ],
+      "publication_date": "2026-04-01",
+      "year": "2026",
+      "issue": "439",
+      "keywords": [],
+      "classification": "Literary criticism; contemporary Maithili literature",
+      "url": "https://www.videha.co.in/research/2026/439/समकालीन-मैथिली-साहित्यक-लोकधर्मी-स्वर-राम-विलास-साहु.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20439.pdf",
+      "path": "2026/439/समकालीन-मैथिली-साहित्यक-लोकधर्मी-स्वर-राम-विलास-साहु.htm",
+      "page_start": "120",
+      "page_end": "137"
+    },
+    {
+      "title": "मैथिली लेल एकटा नारी केन्द्रित समीक्षाशास्त्र [क्वीर-फेमिनिज्म सहित] [सन्दर्भ- कामिनीक \"खण्ड-खण्ड मे बँटैत स्त्री\" आ शान्ति लक्ष्मी चौधरीक\"लेस्बियन कॉन्टिन्युअम\"]",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-05-15",
+      "year": "2026",
+      "issue": "442",
+      "keywords": [],
+      "classification": "Literary criticism; feminist and queer-feminist theory",
+      "url": "https://www.videha.co.in/research/2026/442/मैथिली-लेल-एकटा-नारी-केन्द्रित-समीक्षाशास्त्र-क्वीर-फेमिनि-3c77e53545.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf",
+      "path": "2026/442/मैथिली-लेल-एकटा-नारी-केन्द्रित-समीक्षाशास्त्र-क्वीर-फेमिनि-3c77e53545.htm",
+      "page_start": "114",
+      "page_end": "173"
+    },
+    {
       "title": "नैका बनिजारा उपन्‍यासक आलोचनात्‍मक अध्‍ययन",
       "english_title": null,
       "authors": [
@@ -85,6 +121,24 @@
       "path": "2026/447/एकैसम-शताब्दीक-पहिल-औपन्यासिक-कृति---पथिक-पिआसल-क-तात्विक-विश्लेषण.htm",
       "page_start": "39",
       "page_end": "51"
+    },
+    {
+      "title": "डॉ. अमरेन्द्रक ‘अंगिका बाल-साहित्य’- लोकस्मृतिसँ आधुनिक बाल-सृजन धरि : चतुर्आयामी समग्र समीक्षा (मैथिली–ठेठी-अंगिका समानान्तर अनुशीलन)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-08-01",
+      "year": "2026",
+      "issue": "447",
+      "keywords": [],
+      "classification": "Literary criticism; Angika children’s literature; comparative research review",
+      "url": "https://www.videha.co.in/research/2026/447/डॉ-अमरेन्द्रक-अंगिका-बाल-साहित्य---लोकस्मृतिसँ-आधुनिक-बाल-सृ-bfd90f8749.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf",
+      "path": "2026/447/डॉ-अमरेन्द्रक-अंगिका-बाल-साहित्य---लोकस्मृतिसँ-आधुनिक-बाल-सृ-bfd90f8749.htm",
+      "page_start": "443",
+      "page_end": "525"
     },
     {
       "title": "मैथिलीक एकटा समानान्तर व्याकरण, रचना आ भाषा-विज्ञान (ठेठी-अंगिका आ बज्जिकाकेँ संग लऽ कऽ)- गजेन्द्र ठाकुर] एकीकृत विस्तृत समालोचनात्मक शोध-समीक्षा",
