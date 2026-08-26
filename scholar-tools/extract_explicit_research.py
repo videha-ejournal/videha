@@ -13,9 +13,13 @@ EXPLICIT_TERMS = (
     "शोध आलेख", "शोध-आलेख", "शोधपत्र", "शोध पत्र",
     "research paper", "research article",
 )
+# Videha's TOC typography changed over time. Recent issues commonly use
+# “(पृष्ठ 12-18)”; older issues use “(पृ. 12-18)” or “[पृ. 12-18]”.
+# Treat these as equivalent page-range markers while keeping article-level
+# boundaries conservative.
 TOC_RE = re.compile(
     r"(?m)^\s*([0-9०-९]+\.[0-9०-९]+)\.\s*(.*?)\s*"
-    r"(?:\(\s*पृष्ठ|\[\s*pages?)\s*([0-9०-९]+)"
+    r"(?:\(\s*(?:पृष्ठ|पृ\.?)|\[\s*(?:pages?|पृष्ठ|पृ\.?))\s*([0-9०-९]+)"
     r"(?:\s*[-–—]\s*([0-9०-९]+))?\s*(?:\)|\])\s*$",
     re.I,
 )
@@ -98,8 +102,6 @@ def slugify(s: str) -> str:
     """Readable, deterministic slug that is safe under 255-byte filename limits."""
     original = re.sub(r"\s+", " ", s or "").strip().lower()
     slug = re.sub(r"[^\w\u0900-\u097f-]+", "-", original, flags=re.UNICODE).strip("-") or "article"
-    # Keep the complete readable slug when it is already comfortably safe. Otherwise
-    # retain a readable UTF-8 prefix and add a stable hash to avoid truncation collisions.
     if len(slug.encode("utf-8")) <= 180:
         return slug
     digest = hashlib.sha1(original.encode("utf-8")).hexdigest()[:10]
