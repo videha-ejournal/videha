@@ -1,0 +1,29 @@
+{
+  "generated": "2026-08-26T13:32:24.953371+00:00",
+  "summary": {
+    "issue_files_scanned": 447,
+    "explicit_articles_publishable": 0,
+    "explicit_articles_review": 1,
+    "curated_manifests": 1,
+    "published_after_curated_override": 1,
+    "build_errors": 0
+  },
+  "review": [
+    {
+      "issue": "438",
+      "source_path": "/home/runner/work/videha/videha/search-documents/videha-438.html",
+      "section": "2.5",
+      "author": "प्रीति कुमारी",
+      "title": "अशिक्षाक शिकार: केवट समाज (शोध आलेख)",
+      "publication_date": "2008-01-01",
+      "page_start": "32",
+      "page_end": "36",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20438.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    }
+  ],
+  "build_errors": []
+}

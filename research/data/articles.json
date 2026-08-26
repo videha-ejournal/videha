@@ -1,7 +1,15 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T13:26:21.180186+00:00",
+  "generated": "2026-08-26T13:32:24.953534+00:00",
+  "extraction_summary": {
+    "issue_files_scanned": 447,
+    "explicit_articles_publishable": 0,
+    "explicit_articles_review": 1,
+    "curated_manifests": 1,
+    "published_after_curated_override": 1,
+    "build_errors": 0
+  },
   "articles": [
     {
       "title": "अशिक्षाक शिकार: केवट समाज (शोध आलेख)",
