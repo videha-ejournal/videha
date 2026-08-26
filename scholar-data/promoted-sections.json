@@ -87,6 +87,18 @@
   },
   {
     "issue": "447",
+    "section": "2.15",
+    "classification": "Comparative Sanskrit literature; translation studies; literary criticism"
+  },
+  {
+    "issue": "447",
+    "section": "2.16",
+    "classification": "Indian philosophy; Navya-Nyaya; textual and comparative philosophical criticism",
+    "author_override": "गजेन्द्र ठाकुर",
+    "title_override": "भामती (वाचस्पति)/ आत्मतत्त्वविवेक (उदयन)/ न्यायकुसुमाञ्जलि (उदयन)/ तत्त्वचिन्तामणि (गंगेश): ग्रन्थ-सार आ समालोचनात्मक मूल्याङ्कन"
+  },
+  {
+    "issue": "447",
     "section": "2.18",
     "classification": "Linguistics; criticism; academic research review"
   },
@@ -94,5 +106,15 @@
     "issue": "447",
     "section": "2.19",
     "classification": "Literary criticism; Angika children’s literature; comparative research review"
+  },
+  {
+    "issue": "447",
+    "section": "2.20",
+    "classification": "Bajjika studies; folk music; comparative literary and cultural criticism"
+  },
+  {
+    "issue": "447",
+    "section": "2.21",
+    "classification": "Children’s literature studies; Maithili novel criticism; comparative literary theory"
   }
 ]
