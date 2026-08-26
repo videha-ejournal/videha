@@ -1,8 +1,78 @@
 {
   "issue_files_scanned": 447,
-  "candidate_sections": 33,
-  "high_confidence_review": 1,
+  "candidate_sections": 127,
+  "high_confidence_review": 4,
   "rows": [
+    {
+      "issue": "322",
+      "publication_date": "2021-05-15",
+      "section": "2.1",
+      "author": "अरविन्द ठाकुर",
+      "title": "कौशिकी जनपदक लोक-संस्कृति- इतिहासक शिकारी",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "history",
+      "score": 160,
+      "signals": [
+        "इतिहास",
+        "लोक-संस्कृति",
+        "संस्कृति"
+      ],
+      "negative_signals": [
+        "short-body"
+      ],
+      "status": "review",
+      "body_chars": 0,
+      "source_path": "search-documents/videha-322.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20322.pdf"
+    },
+    {
+      "issue": "49",
+      "publication_date": "2010-01-01",
+      "section": "2.1",
+      "author": "प्रोफेसर राधाकृष्ण चौधरी",
+      "title": "मिथिलाक इतिहास (आगाँ)",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "history",
+      "score": 154,
+      "signals": [
+        "अध्ययन",
+        "इतिहास",
+        "पद्धति",
+        "विश्वविद्यालय",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "high-confidence-review",
+      "body_chars": 481561,
+      "source_path": "search-documents/videha-049.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20049.pdf"
+    },
+    {
+      "issue": "150",
+      "publication_date": "2014-03-15",
+      "section": "8.2",
+      "author": "Ramnarayan Thakur",
+      "title": "Ancient India- The Sources of the History of Pilgrimage",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "history",
+      "score": 138,
+      "signals": [
+        "history",
+        "references",
+        "research",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "high-confidence-review",
+      "body_chars": 1122212,
+      "source_path": "search-documents/videha-150.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20150.pdf"
+    },
     {
       "issue": "357",
       "publication_date": "2022-11-01",
@@ -23,6 +93,114 @@
       "body_chars": 5574,
       "source_path": "search-documents/videha-357.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20357.pdf"
+    },
+    {
+      "issue": "343",
+      "publication_date": "2022-04-01",
+      "section": "2.5",
+      "author": "संतोष कुमार राय 'बटोही'",
+      "title": "बकरी संस्कृति (व्यंग्य रचना)",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "culture-art",
+      "score": 106,
+      "signals": [
+        "अध्ययन",
+        "अनुसन्धान",
+        "संस्कृति"
+      ],
+      "negative_signals": [],
+      "status": "high-confidence-review",
+      "body_chars": 32184,
+      "source_path": "search-documents/videha-343.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20343.pdf"
+    },
+    {
+      "issue": "87",
+      "publication_date": "2011-08-01",
+      "section": "2.7",
+      "author": "अरविन्द ठाकुर",
+      "title": "मिथिलाक संस्कृति:किछु अप्रिय बिन्दु",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "culture-art",
+      "score": 98,
+      "signals": [
+        "विश्वविद्यालय",
+        "संस्कृति"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 7496,
+      "source_path": "search-documents/videha-087.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20087.pdf"
+    },
+    {
+      "issue": "64",
+      "publication_date": "2010-08-15",
+      "section": "2.3",
+      "author": "धीरेन्द्र प्रेमर्षि",
+      "title": "मधुश्रावणी: मिथिलाक पारम्परिक हनिमून",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 90,
+      "signals": [
+        "research",
+        "अध्ययन",
+        "अनुसंधान",
+        "विश्वविद्यालय",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 145903,
+      "source_path": "search-documents/videha-064.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20064.pdf"
+    },
+    {
+      "issue": "65",
+      "publication_date": "2010-09-01",
+      "section": "2.1",
+      "author": "शम्भु कुमार सिंह",
+      "title": "“मैथिली साहित्यक काल-निर्धारण” यू. पी. एस. सी. परीक्षार्थीक हेतु उपयोगी",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 90,
+      "signals": [
+        "अध्ययन",
+        "पद्धति",
+        "विश्वविद्यालय",
+        "शोध",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 182909,
+      "source_path": "search-documents/videha-065.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20065.pdf"
+    },
+    {
+      "issue": "79",
+      "publication_date": "2011-04-01",
+      "section": "2.5",
+      "author": "डॉ. कैलाश कुमार मिश्र",
+      "title": "मिथिला चित्रकला (पेटिंग): भूत, वर्त्तमान आ भविष्य",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "culture-art",
+      "score": 90,
+      "signals": [
+        "चित्रकला",
+        "मिथिला चित्रकला"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 66873,
+      "source_path": "search-documents/videha-079.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20079.pdf"
     },
     {
       "issue": "441",
@@ -47,6 +225,94 @@
       "body_chars": 109370,
       "source_path": "search-documents/videha-441.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf"
+    },
+    {
+      "issue": "21",
+      "publication_date": "2008-11-01",
+      "section": "2.7",
+      "author": "चौकपर आणविक समझौता:",
+      "title": "कृपानन्द झा",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 84,
+      "signals": [
+        "अध्ययन",
+        "अनुसन्धान",
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 140760,
+      "source_path": "search-documents/videha-021.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20021.pdf"
+    },
+    {
+      "issue": "22",
+      "publication_date": "2008-11-15",
+      "section": "3.4",
+      "author": "टेम्स नदीमे नौकाविहार",
+      "title": "ज्योति",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 84,
+      "signals": [
+        "परिकल्पना",
+        "विश्वविद्यालय",
+        "शोध",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 65421,
+      "source_path": "search-documents/videha-022.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20022.pdf"
+    },
+    {
+      "issue": "30",
+      "publication_date": "2009-03-15",
+      "section": "2.6",
+      "author": "होलीपर विशेष",
+      "title": "विद्या मिश्र",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 84,
+      "signals": [
+        "अध्ययन",
+        "पद्धति",
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 109560,
+      "source_path": "search-documents/videha-030.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20030.pdf"
+    },
+    {
+      "issue": "35",
+      "publication_date": "2009-06-01",
+      "section": "3.8",
+      "author": "ज्योति",
+      "title": "टाइम मशीन",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 84,
+      "signals": [
+        "पद्धति",
+        "विश्वविद्यालय",
+        "शोध",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 67196,
+      "source_path": "search-documents/videha-035.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20035.pdf"
     },
     {
       "issue": "360",
@@ -163,6 +429,346 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20396.pdf"
     },
     {
+      "issue": "19",
+      "publication_date": "2008-10-01",
+      "section": "4.6",
+      "author": "दैनिकी",
+      "title": "ज्योति /",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "अध्ययन",
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 60497,
+      "source_path": "search-documents/videha-019.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20019.pdf"
+    },
+    {
+      "issue": "19",
+      "publication_date": "2008-10-01",
+      "section": "5.3",
+      "author": "महाकाव्य",
+      "title": "बुद्ध चरित",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "विश्वविद्यालय",
+        "शोध",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 75630,
+      "source_path": "search-documents/videha-019.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20019.pdf"
+    },
+    {
+      "issue": "20",
+      "publication_date": "2008-10-15",
+      "section": "5.6",
+      "author": "महेश मिश्र \"विभूतिक\" कविता गङ्गा",
+      "title": "स्तुति",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "विश्वविद्यालय",
+        "शोध",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 54029,
+      "source_path": "search-documents/videha-020.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20020.pdf"
+    },
+    {
+      "issue": "22",
+      "publication_date": "2008-11-15",
+      "section": "7.2",
+      "author": "The Comet",
+      "title": "English translation of Gajendra Thakur's Maithili Novel Sahasrabadhani by jyoti",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "research",
+        "अध्ययन",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 17040,
+      "source_path": "search-documents/videha-022.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20022.pdf"
+    },
+    {
+      "issue": "26",
+      "publication_date": "2009-01-15",
+      "section": "3.2",
+      "author": "श्री गंगेश गुंजनक",
+      "title": "राधा (आठम खेप)",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "विश्वविद्यालय",
+        "शोध",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 51869,
+      "source_path": "search-documents/videha-026.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20026.pdf"
+    },
+    {
+      "issue": "29",
+      "publication_date": "2009-03-01",
+      "section": "3.6",
+      "author": "सुबोध ठाकुर",
+      "title": "हम गामेमे रहबइ",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "विश्वविद्यालय",
+        "शोध",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 56693,
+      "source_path": "search-documents/videha-029.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20029.pdf"
+    },
+    {
+      "issue": "36",
+      "publication_date": "2009-06-15",
+      "section": "3.8",
+      "author": "ज्योति",
+      "title": "जीवन सोपान",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "पद्धति",
+        "शोध",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 52149,
+      "source_path": "search-documents/videha-036.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20036.pdf"
+    },
+    {
+      "issue": "36",
+      "publication_date": "2009-06-15",
+      "section": "2.8",
+      "author": "फील्ड",
+      "title": "वर्कपर आधारित खिस्सा सीत-बसंत",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "अध्ययन",
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 74563,
+      "source_path": "search-documents/videha-036.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20036.pdf"
+    },
+    {
+      "issue": "46",
+      "publication_date": "2009-11-15",
+      "section": "2.8",
+      "author": "रामभरोस कापड़ि ‘भ्रमर’",
+      "title": "साझा प्रकाशनमे विद्यापति",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "अध्ययन",
+        "शोध",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 387693,
+      "source_path": "search-documents/videha-046.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20046.pdf"
+    },
+    {
+      "issue": "48",
+      "publication_date": "2009-12-15",
+      "section": "2.7",
+      "author": "मैथिलीक युगद्रष्‍टा",
+      "title": "निमिष झा",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "अध्ययन",
+        "शोध",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 411747,
+      "source_path": "search-documents/videha-048.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20048.pdf"
+    },
+    {
+      "issue": "51",
+      "publication_date": "2010-02-01",
+      "section": "2.8",
+      "author": "रामभरोस कापडि भ्रमर",
+      "title": "एहि बेर सातम् अन्‍तराष्‍ट्रिय मैथिली सम्‍मेलन काठमाण्‍डूमे हयत",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "अध्ययन",
+        "पद्धति",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 122243,
+      "source_path": "search-documents/videha-051.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20051.pdf"
+    },
+    {
+      "issue": "64",
+      "publication_date": "2010-08-15",
+      "section": "3.6",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "चारिटा पद्य",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "विश्वविद्यालय",
+        "शोध",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 88069,
+      "source_path": "search-documents/videha-064.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20064.pdf"
+    },
+    {
+      "issue": "67",
+      "publication_date": "2010-10-01",
+      "section": "2.8",
+      "author": "रामभरोस कापड़ि \"भ्रमर\"",
+      "title": "राजविराजमे मैथिली लोक संस्‍कृति संगोष्‍ठी सम्‍पन्‍न, सुजीत कुमार झा- संस्‍मरण- मोबाइलक घण्‍टी जेना रुकिय नहि रहल छल",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "पद्धति",
+        "विश्वविद्यालय",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 212575,
+      "source_path": "search-documents/videha-067.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20067.pdf"
+    },
+    {
+      "issue": "72",
+      "publication_date": "2010-12-15",
+      "section": "3.8",
+      "author": "गंगेश गुंजन",
+      "title": "राधा- २७ म खेप",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "अनुसंधान",
+        "शोध",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 90595,
+      "source_path": "search-documents/videha-072.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20072.pdf"
+    },
+    {
+      "issue": "76",
+      "publication_date": "2011-02-15",
+      "section": "8.2",
+      "author": "Maithili Novel Sahasrashirsha by Gajendra Thakur re",
+      "title": "written in English by the author himself",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "research",
+        "पद्धति",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 59989,
+      "source_path": "search-documents/videha-076.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20076.pdf"
+    },
+    {
+      "issue": "165",
+      "publication_date": "2014-11-01",
+      "section": "2.4",
+      "author": "जगदीश प्रसाद मण्डल",
+      "title": "समधीन",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "अध्ययन",
+        "पद्धति",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 29998,
+      "source_path": "search-documents/videha-165.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20165.pdf"
+    },
+    {
       "issue": "376",
       "publication_date": "2023-08-15",
       "section": "3.3",
@@ -243,6 +849,592 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf"
     },
     {
+      "issue": "22",
+      "publication_date": "2008-11-15",
+      "section": "2.7",
+      "author": "रिपोर्ताज",
+      "title": "1.अन्तराष्ट्रिय मैथिली सम्मेलन आ नेपाल रामभरोस कापडि ‘भ्रमर’ 2. नवेन्दु कुमार झा 3. नेपाल चिन्हएबाक अभियान - जितेन्द्र झा",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 136139,
+      "source_path": "search-documents/videha-022.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20022.pdf"
+    },
+    {
+      "issue": "24",
+      "publication_date": "2008-12-15",
+      "section": "2.8",
+      "author": "धीरेन्द्र प्रेमर्षि",
+      "title": "नव भोर जोहैत मिथिला",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 163481,
+      "source_path": "search-documents/videha-024.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20024.pdf"
+    },
+    {
+      "issue": "25",
+      "publication_date": "2009-01-01",
+      "section": "2.9",
+      "author": "भानस भात",
+      "title": "नीलिमा",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 291154,
+      "source_path": "search-documents/videha-025.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20025.pdf"
+    },
+    {
+      "issue": "30",
+      "publication_date": "2009-03-15",
+      "section": "3.3",
+      "author": "ज्योति",
+      "title": "एक हेरायल सखी",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "references",
+        "शोध",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 123999,
+      "source_path": "search-documents/videha-030.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20030.pdf"
+    },
+    {
+      "issue": "31",
+      "publication_date": "2009-04-01",
+      "section": "2.9",
+      "author": "गजेन्द्र ठाकुरक मैथिली",
+      "title": "अंग्रेजी शब्दकोशपर- उदय नारायण सिंह \"नचिकेता\"",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 126485,
+      "source_path": "search-documents/videha-031.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20031.pdf"
+    },
+    {
+      "issue": "33",
+      "publication_date": "2009-05-01",
+      "section": "3.6",
+      "author": "ज्योति",
+      "title": "महावतक हाथी",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 66633,
+      "source_path": "search-documents/videha-033.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20033.pdf"
+    },
+    {
+      "issue": "34",
+      "publication_date": "2009-05-15",
+      "section": "3.6",
+      "author": "ज्योति",
+      "title": "हम एक बालक मध्य वर्गके",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 64756,
+      "source_path": "search-documents/videha-034.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20034.pdf"
+    },
+    {
+      "issue": "39",
+      "publication_date": "2009-08-01",
+      "section": "3.9",
+      "author": "दयाकान्त",
+      "title": "पाँच लाख बौआक दाम",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "पद्धति",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 81221,
+      "source_path": "search-documents/videha-039.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20039.pdf"
+    },
+    {
+      "issue": "40",
+      "publication_date": "2009-08-15",
+      "section": "3.9",
+      "author": "रूपेश",
+      "title": "जय हिन्द जय-जय मिथिला",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 94920,
+      "source_path": "search-documents/videha-040.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20040.pdf"
+    },
+    {
+      "issue": "41",
+      "publication_date": "2009-09-01",
+      "section": "3.8",
+      "author": "कल्पना शरण",
+      "title": "प्रतीक्षा सँ परिणाम तक-३",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 72466,
+      "source_path": "search-documents/videha-041.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20041.pdf"
+    },
+    {
+      "issue": "45",
+      "publication_date": "2009-11-01",
+      "section": "3.8",
+      "author": "दयाकान्त",
+      "title": "ई बुढिया अछि हक्कल डइन",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "अनुसंधान",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 63352,
+      "source_path": "search-documents/videha-045.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20045.pdf"
+    },
+    {
+      "issue": "45",
+      "publication_date": "2009-11-01",
+      "section": "2.8",
+      "author": "बिपिन झा",
+      "title": "ये बान्धवाऽबान्धवा वा।",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "अध्ययन",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 87948,
+      "source_path": "search-documents/videha-045.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20045.pdf"
+    },
+    {
+      "issue": "46",
+      "publication_date": "2009-11-15",
+      "section": "3.8",
+      "author": "शेफालिका वर्मा",
+      "title": "बाजी",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 81151,
+      "source_path": "search-documents/videha-046.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20046.pdf"
+    },
+    {
+      "issue": "53",
+      "publication_date": "2010-03-01",
+      "section": "2.5",
+      "author": "कथा",
+      "title": "ऋषि बशिष्ठ-पूत कमाल",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "अध्ययन",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 210078,
+      "source_path": "search-documents/videha-053.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20053.pdf"
+    },
+    {
+      "issue": "60",
+      "publication_date": "2010-06-15",
+      "section": "3.2",
+      "author": "कामोद झा",
+      "title": "केओ नई २.लालबाबु कर्ण-जन्मभूमि ३.मनोज झा मुक्ति-देखावटी छोडिदे",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 31916,
+      "source_path": "search-documents/videha-060.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20060.pdf"
+    },
+    {
+      "issue": "62",
+      "publication_date": "2010-07-15",
+      "section": "3.8",
+      "author": "कृष्ण कुमार राय ‘किशन’",
+      "title": "हाकिम भऽ गेलाह",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 87186,
+      "source_path": "search-documents/videha-062.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20062.pdf"
+    },
+    {
+      "issue": "63",
+      "publication_date": "2010-08-01",
+      "section": "3.1",
+      "author": "कालीकांत झा \"बुच\"1934",
+      "title": "2009-आगाँ",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 93124,
+      "source_path": "search-documents/videha-063.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20063.pdf"
+    },
+    {
+      "issue": "65",
+      "publication_date": "2010-09-01",
+      "section": "3.3",
+      "author": "ज्योति सुनीत चौधरी",
+      "title": "पोखरिक कमल",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "परिकल्पना",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 48125,
+      "source_path": "search-documents/videha-065.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20065.pdf"
+    },
+    {
+      "issue": "66",
+      "publication_date": "2010-09-15",
+      "section": "3.8",
+      "author": "किशन कारीग़र",
+      "title": "नबकनियाँ",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "शोध",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 61610,
+      "source_path": "search-documents/videha-066.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20066.pdf"
+    },
+    {
+      "issue": "66",
+      "publication_date": "2010-09-15",
+      "section": "2.1",
+      "author": "शम्भु कुमार सिंह",
+      "title": "“मैथिलीक प्रमुख उपभाषाक क्षेत्र आ ओकर प्रमुख विशेषता” यू. पी. एस. सी. परीक्षार्थीक हेतु उपयोगी",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 152987,
+      "source_path": "search-documents/videha-066.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20066.pdf"
+    },
+    {
+      "issue": "68",
+      "publication_date": "2010-10-15",
+      "section": "3.7",
+      "author": "गंगेश गुंजन",
+      "title": "(ग़ज़ल जेकाँ किछु:मैथिली मे)",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 82747,
+      "source_path": "search-documents/videha-068.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20068.pdf"
+    },
+    {
+      "issue": "70",
+      "publication_date": "2010-11-15",
+      "section": "8.2",
+      "author": "Maithili Short",
+      "title": "story “shabdashastram” by Gajendra Thakur re-written in English by the author himself",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "research",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 67461,
+      "source_path": "search-documents/videha-070.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20070.pdf"
+    },
+    {
+      "issue": "70",
+      "publication_date": "2010-11-15",
+      "section": "2.7",
+      "author": "ज्योति सुनीत चौधरी",
+      "title": "नानीक खिस्सा:",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "अनुसन्धान",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 90833,
+      "source_path": "search-documents/videha-070.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20070.pdf"
+    },
+    {
+      "issue": "72",
+      "publication_date": "2010-12-15",
+      "section": "2.5",
+      "author": "१धीरेन्‍द्र कुमार",
+      "title": "एकांकी- जरैत मोमबत्ती २ डॉ. शेफालिका वर्मा- एकांकी- एकटा आर महाभिनिष्क्रमण",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "शोध",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 141561,
+      "source_path": "search-documents/videha-072.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20072.pdf"
+    },
+    {
+      "issue": "73",
+      "publication_date": "2011-01-01",
+      "section": "2.4",
+      "author": "हम पुछैत छी",
+      "title": "मुन्नाजी- १.जगदीश प्रसाद मंडल, २.राजदेव मंडल, ३. कुमार शैलेन्द्र आ ४.अमरनाथ सँ मुन्नाजी पुछैत छथि ढेर रास गप",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "अध्ययन",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 200594,
+      "source_path": "search-documents/videha-073.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20073.pdf"
+    },
+    {
+      "issue": "74",
+      "publication_date": "2011-01-15",
+      "section": "3.8",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "कटिहारी",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 80653,
+      "source_path": "search-documents/videha-074.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20074.pdf"
+    },
+    {
+      "issue": "75",
+      "publication_date": "2011-02-01",
+      "section": "8.2",
+      "author": "Maithili Short",
+      "title": "story “Sidha Mahavir” by Gajendra Thakur re-written in English by the author himself",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "research",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 71284,
+      "source_path": "search-documents/videha-075.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20075.pdf"
+    },
+    {
+      "issue": "99",
+      "publication_date": "2012-02-01",
+      "section": "2.5",
+      "author": "खुशबू झा",
+      "title": "हमरा नजरिमे सुजीतक रिपोर्टर डायरी",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 6587,
+      "source_path": "search-documents/videha-099.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20099.pdf"
+    },
+    {
+      "issue": "322",
+      "publication_date": "2021-05-15",
+      "section": "2.5",
+      "author": "नन्द विलास राय",
+      "title": "जान-मे-जान आएल",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "पद्धति",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 38822,
+      "source_path": "search-documents/videha-322.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20322.pdf"
+    },
+    {
       "issue": "353",
       "publication_date": "2022-09-01",
       "section": "2.1",
@@ -283,6 +1475,27 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20383.pdf"
     },
     {
+      "issue": "440",
+      "publication_date": "2026-04-15",
+      "section": "2.12",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "मैथिली लेल दलित साहित्य समीक्षाशास्त्र (पृष्ठ- ९४-१००)",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "शोध",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 5250,
+      "source_path": "search-documents/videha-440.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20440.pdf"
+    },
+    {
       "issue": "442",
       "publication_date": "2026-05-15",
       "section": "3.6",
@@ -301,6 +1514,28 @@
       "body_chars": 36656,
       "source_path": "search-documents/videha-442.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf"
+    },
+    {
+      "issue": "110",
+      "publication_date": "2012-07-15",
+      "section": "2.1",
+      "author": "राम भरोस कापडि भ्रमर",
+      "title": "मैथिली लोक संस्कृति संगोष्ठी अन्तरगत लोकनायक सलहेसःचर्चा–परिचर्चा कार्यक्रम सम्पन्न",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "culture-art",
+      "score": 65,
+      "signals": [
+        "संगोष्ठी",
+        "संस्कृति"
+      ],
+      "negative_signals": [
+        "short-body"
+      ],
+      "status": "review",
+      "body_chars": 0,
+      "source_path": "search-documents/videha-110.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20110.pdf"
     },
     {
       "issue": "374",
@@ -368,6 +1603,637 @@
       "body_chars": 0,
       "source_path": "search-documents/videha-447.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
+    },
+    {
+      "issue": "26",
+      "publication_date": "2009-01-15",
+      "section": "2.6",
+      "author": "सुशांत झा",
+      "title": "हमर सपना केर मिथिला",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 71548,
+      "source_path": "search-documents/videha-026.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20026.pdf"
+    },
+    {
+      "issue": "28",
+      "publication_date": "2009-02-15",
+      "section": "3.3",
+      "author": "पंकज पराशर",
+      "title": "रावलपिंडी",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 90055,
+      "source_path": "search-documents/videha-028.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20028.pdf"
+    },
+    {
+      "issue": "31",
+      "publication_date": "2009-04-01",
+      "section": "3.6",
+      "author": "सुबोध ठाकुर",
+      "title": "केना होएत मिथिलाक जीर्णोद्धार",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 198286,
+      "source_path": "search-documents/videha-031.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20031.pdf"
+    },
+    {
+      "issue": "32",
+      "publication_date": "2009-04-15",
+      "section": "3.6",
+      "author": "ज्योति",
+      "title": "कलमक टाेह",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 88201,
+      "source_path": "search-documents/videha-032.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20032.pdf"
+    },
+    {
+      "issue": "37",
+      "publication_date": "2009-07-01",
+      "section": "3.8",
+      "author": "ज्योति",
+      "title": "पहिल फुहार",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 56486,
+      "source_path": "search-documents/videha-037.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20037.pdf"
+    },
+    {
+      "issue": "41",
+      "publication_date": "2009-09-01",
+      "section": "2.8",
+      "author": "प्रकाश झा",
+      "title": "रंगदृष्टि; दिल्ली",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 46604,
+      "source_path": "search-documents/videha-041.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20041.pdf"
+    },
+    {
+      "issue": "42",
+      "publication_date": "2009-09-15",
+      "section": "3.8",
+      "author": "कल्पना शरण",
+      "title": "प्रतीक्षा सँ परिणाम तक-४",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 47992,
+      "source_path": "search-documents/videha-042.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20042.pdf"
+    },
+    {
+      "issue": "42",
+      "publication_date": "2009-09-15",
+      "section": "2.8",
+      "author": "अमरेन्द्र यादव",
+      "title": "रिपोर्ट",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 44271,
+      "source_path": "search-documents/videha-042.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20042.pdf"
+    },
+    {
+      "issue": "44",
+      "publication_date": "2009-10-15",
+      "section": "3.7",
+      "author": "रूपेश कुमार झा ’त्योंथ'",
+      "title": "खेली सप्पत जा भुइयाँ थान",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 75986,
+      "source_path": "search-documents/videha-044.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20044.pdf"
+    },
+    {
+      "issue": "44",
+      "publication_date": "2009-10-15",
+      "section": "2.8",
+      "author": "सामाजिक परिवर्तनक संदर्भमे मैथिलीक दशा ओ दिशा",
+      "title": "गोपाल प्रसाद",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 154474,
+      "source_path": "search-documents/videha-044.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20044.pdf"
+    },
+    {
+      "issue": "47",
+      "publication_date": "2009-12-01",
+      "section": "3.4",
+      "author": "कल्पना शरण",
+      "title": "शीतल बयार",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 113916,
+      "source_path": "search-documents/videha-047.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20047.pdf"
+    },
+    {
+      "issue": "48",
+      "publication_date": "2009-12-15",
+      "section": "3.6",
+      "author": "शेफालिका",
+      "title": "तीनटा पद्य",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 115299,
+      "source_path": "search-documents/videha-048.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20048.pdf"
+    },
+    {
+      "issue": "49",
+      "publication_date": "2010-01-01",
+      "section": "3.1",
+      "author": "कालीकांत झा \"बुच\" 1934",
+      "title": "2009- आगाँ",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "bibliography",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 210179,
+      "source_path": "search-documents/videha-049.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20049.pdf"
+    },
+    {
+      "issue": "50",
+      "publication_date": "2010-01-15",
+      "section": "3.7",
+      "author": "शिव कुमार झा",
+      "title": "किछु पद्य",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 75715,
+      "source_path": "search-documents/videha-050.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20050.pdf"
+    },
+    {
+      "issue": "51",
+      "publication_date": "2010-02-01",
+      "section": "3.3",
+      "author": "शिव कुमार झा",
+      "title": "किछु पद्य",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 60643,
+      "source_path": "search-documents/videha-051.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20051.pdf"
+    },
+    {
+      "issue": "55",
+      "publication_date": "2010-04-01",
+      "section": "3.5",
+      "author": "गंगेश गुंजन:अपन",
+      "title": "अपन राधा २१म खेप",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 94572,
+      "source_path": "search-documents/videha-055.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20055.pdf"
+    },
+    {
+      "issue": "56",
+      "publication_date": "2010-04-15",
+      "section": "3.7",
+      "author": "श्यामल सुमन",
+      "title": "कहू कि फूसि बजय छी?",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 57634,
+      "source_path": "search-documents/videha-056.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20056.pdf"
+    },
+    {
+      "issue": "58",
+      "publication_date": "2010-05-15",
+      "section": "2.8",
+      "author": "राजेश्वर नेपाली",
+      "title": "कवि पं. प्रतापनारायण झा कें छठम पुण्यतिथि पर हार्दिक श्रद्धाञ्जलि",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 107903,
+      "source_path": "search-documents/videha-058.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20058.pdf"
+    },
+    {
+      "issue": "59",
+      "publication_date": "2010-06-01",
+      "section": "3.2",
+      "author": "गंगेश गुंजन:अपन",
+      "title": "अपन राधा २४म खेप",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 75826,
+      "source_path": "search-documents/videha-059.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20059.pdf"
+    },
+    {
+      "issue": "59",
+      "publication_date": "2010-06-01",
+      "section": "2.5",
+      "author": "प्रेमशंकर सिंह",
+      "title": "हरिमोहन झाक रचनाक परवर्त्ती",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 178161,
+      "source_path": "search-documents/videha-059.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20059.pdf"
+    },
+    {
+      "issue": "61",
+      "publication_date": "2010-07-01",
+      "section": "2.6",
+      "author": "जितेन्द्र झा",
+      "title": "1.काठमाण्डूमेँ कोहबर घर : वर ने कनिञा तैइयो बढिञा 2.परम्पराके निरन्तरतामेँ प्रवास बाधक नहि",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 127222,
+      "source_path": "search-documents/videha-061.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20061.pdf"
+    },
+    {
+      "issue": "67",
+      "publication_date": "2010-10-01",
+      "section": "3.8",
+      "author": "सतीश चन्द्र झा",
+      "title": "चुनाव",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 87216,
+      "source_path": "search-documents/videha-067.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20067.pdf"
+    },
+    {
+      "issue": "71",
+      "publication_date": "2010-12-01",
+      "section": "3.8",
+      "author": "गंगेश गुंजन",
+      "title": "राधा- २६ म खेप",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 129205,
+      "source_path": "search-documents/videha-071.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20071.pdf"
+    },
+    {
+      "issue": "73",
+      "publication_date": "2011-01-01",
+      "section": "3.8",
+      "author": "गंगेश गुंजन",
+      "title": "राधा- २८ म खेप",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 74378,
+      "source_path": "search-documents/videha-073.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20073.pdf"
+    },
+    {
+      "issue": "74",
+      "publication_date": "2011-01-15",
+      "section": "2.7",
+      "author": "१मुन्नाजी",
+      "title": "अझुको क्षणकेँ अंगीकार करैछ “क्षणिका” २. धनाकर ठाकुर- जगदीश प्रसाद मंडलक “ गामक जि‍नगी‍” ३.उमेश मंडल मैथि‍ली उपन्‍यास साहि‍त्‍यमे संवेदनाक स्‍वर",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 312109,
+      "source_path": "search-documents/videha-074.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20074.pdf"
+    },
+    {
+      "issue": "77",
+      "publication_date": "2011-03-01",
+      "section": "8.2",
+      "author": "DR. SHEFALIKA VERMA",
+      "title": "DISCRIMINATION AGAINST WOMEN",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 17251,
+      "source_path": "search-documents/videha-077.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20077.pdf"
+    },
+    {
+      "issue": "78",
+      "publication_date": "2011-03-15",
+      "section": "2.8",
+      "author": "डॉ. रमण झा",
+      "title": "फोंका-एक विहगावलोकन",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 41538,
+      "source_path": "search-documents/videha-078.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20078.pdf"
+    },
+    {
+      "issue": "80",
+      "publication_date": "2011-04-15",
+      "section": "2.4",
+      "author": "सन्तोष कुमार मिश्र",
+      "title": "एकटा पत्र",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 28167,
+      "source_path": "search-documents/videha-080.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20080.pdf"
+    },
+    {
+      "issue": "119",
+      "publication_date": "2012-12-01",
+      "section": "2.7",
+      "author": "नवेंदु कुमार झा",
+      "title": "मिथिला आ मैथिली बॅटबाक भऽ रहल साजिश/ ई गवर्नेंस दिस सरकार बढ़ौलक डेग",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 19235,
+      "source_path": "search-documents/videha-119.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20119.pdf"
+    },
+    {
+      "issue": "198",
+      "publication_date": "2016-03-15",
+      "section": "2.4",
+      "author": "किछु विहनि कथा १. राम विलास साहु",
+      "title": "जाति २. लक्ष्‍मी दास- पक धरम ३. ललन कुमार कामत- बाबाक लोटा",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 13369,
+      "source_path": "search-documents/videha-198.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20198.pdf"
+    },
+    {
+      "issue": "200",
+      "publication_date": "2016-04-15",
+      "section": "3.4",
+      "author": "राम लोचन ठाकुर",
+      "title": "रमानंद रेणु के मन पाड़ैत",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 7908,
+      "source_path": "search-documents/videha-200.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20200.pdf"
+    },
+    {
+      "issue": "224",
+      "publication_date": "2017-04-15",
+      "section": "2.4",
+      "author": "मैथिली लघुकथा १. पुरुषक नहि विश्वासे",
+      "title": "डॉ. कैलाश कुमार मिश्र २.प्रणव झा- अरजल जमीन",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 21336,
+      "source_path": "search-documents/videha-224.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20224.pdf"
+    },
+    {
+      "issue": "308",
+      "publication_date": "2020-10-15",
+      "section": "3.14",
+      "author": "डा िजयाउर रहमान जाफरी",
+      "title": "आजाद ग़ज़ल",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "references"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 418957,
+      "source_path": "search-documents/videha-308.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20308.pdf"
     },
     {
       "issue": "358",
@@ -543,6 +2409,25 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20435.pdf"
     },
     {
+      "issue": "195",
+      "publication_date": "2016-02-01",
+      "section": "2.3",
+      "author": "आशीष अनचिन्हार",
+      "title": "गाम के अधिकारी तोहे बड़का भैया हो (आलोचना)",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "literary-criticism",
+      "score": 57,
+      "signals": [
+        "आलोचना"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 4335,
+      "source_path": "search-documents/videha-195.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20195.pdf"
+    },
+    {
       "issue": "426",
       "publication_date": "2025-09-15",
       "section": "2.6",
@@ -598,6 +2483,25 @@
       "body_chars": 5707,
       "source_path": "search-documents/videha-446.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20446.pdf"
+    },
+    {
+      "issue": "221",
+      "publication_date": "2017-03-01",
+      "section": "3.5",
+      "author": "पल्लवी मण्डल",
+      "title": "अपना ले अपनहि लड़ए पड़त",
+      "page_start": "",
+      "page_end": "",
+      "content_class": "other",
+      "score": 40,
+      "signals": [
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 1959,
+      "source_path": "search-documents/videha-221.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20221.pdf"
     },
     {
       "issue": "356",
