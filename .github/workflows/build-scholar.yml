@@ -8,6 +8,7 @@ on:
       - 'scholar-data/articles/**'
       - 'scholar-tools/**'
       - 'templates/scholar-article.html'
+      - 'search-documents/videha-*.html'
 
 permissions:
   contents: write
@@ -26,8 +27,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Build research corpus
-        run: python scholar-tools/build_research.py
+      - name: Build full research corpus
+        run: python scholar-tools/build_all_research.py
       - name: Validate Scholar metadata
         run: python scholar-tools/validate_scholar.py
       - name: Commit generated research layer
@@ -39,5 +40,10 @@ jobs:
             echo "No generated changes"
           else
             git commit -m "Update Videha Scholar research index [skip actions]"
-            git push
+            for attempt in 1 2 3; do
+              git pull --rebase origin main && git push && exit 0
+              echo "Push attempt $attempt failed; retrying after refresh"
+              sleep 2
+            done
+            exit 1
           fi
