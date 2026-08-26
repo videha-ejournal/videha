@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T20:02:57.227239+00:00",
+  "generated": "2026-08-26T20:06:30.146011+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -10,14 +10,14 @@
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 3,
     "audit_queue_held": 31,
-    "top_level_audit_publishable": 55,
-    "top_level_audit_held": 61,
+    "top_level_audit_publishable": 54,
+    "top_level_audit_held": 62,
     "promoted_sections_requested": 37,
     "promoted_sections_publishable": 37,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 95,
-    "stale_generated_pages_removed_before_render": 109,
+    "published_after_all_overrides": 94,
+    "stale_generated_pages_removed_before_render": 95,
     "build_errors": 0
   },
   "articles": [
@@ -234,24 +234,6 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20079.pdf",
       "path": "2011/79/मिथिला-चित्रकला-पेटिंग-भूत-वर्त्तमान-आ-भविष्य.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
-      "title": "१. बीतल इतिहास २. पाथर",
-      "english_title": null,
-      "authors": [
-        "डॉ. शेफालिका वर्मा"
-      ],
-      "publication_date": "2011-04-15",
-      "year": "2011",
-      "issue": "80",
-      "keywords": [],
-      "classification": "History / cultural history article",
-      "url": "https://www.videha.co.in/research/2011/80/१-बीतल-इतिहास-२-पाथर.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20080.pdf",
-      "path": "2011/80/१-बीतल-इतिहास-२-पाथर.htm",
       "page_start": null,
       "page_end": null
     },

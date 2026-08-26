@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26T20:02:57.226436+00:00",
+  "generated": "2026-08-26T20:06:30.145154+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -8,14 +8,14 @@
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 3,
     "audit_queue_held": 31,
-    "top_level_audit_publishable": 55,
-    "top_level_audit_held": 61,
+    "top_level_audit_publishable": 54,
+    "top_level_audit_held": 62,
     "promoted_sections_requested": 37,
     "promoted_sections_publishable": 37,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 95,
-    "stale_generated_pages_removed_before_render": 109,
+    "published_after_all_overrides": 94,
+    "stale_generated_pages_removed_before_render": 95,
     "build_errors": 0
   },
   "explicit_review": [
@@ -474,6 +474,12 @@
       "issue": "76",
       "section": "2",
       "label": "८.१.सुमित आनन्द- शोध-पत्रिका- मैथिलीक लोकार्पण २.मुन्ना जी-अप्पन आंगनमे ठाढ़ आइ हम अपने घरकेँ ताकि रहल छी",
+      "reason": "explicit name-like author/title not recoverable from heading"
+    },
+    {
+      "issue": "80",
+      "section": "3",
+      "label": "१.डॉ. शेफालिका वर्मा-१. बीतल इतिहास २. पाथर",
       "reason": "explicit name-like author/title not recoverable from heading"
     },
     {
