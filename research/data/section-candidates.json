@@ -1,8 +1,159 @@
 {
   "issue_files_scanned": 447,
-  "candidate_sections": 14,
+  "candidate_sections": 32,
   "high_confidence_review": 0,
   "rows": [
+    {
+      "issue": "416",
+      "publication_date": "2025-04-15",
+      "section": "2.3",
+      "author": "प्रणव झा",
+      "title": "परमाणु खनिज अन्वेषण एवं अनुसंधान निदेशालय के प्रदर्शनी",
+      "page_start": "18",
+      "page_end": "29",
+      "content_class": "other",
+      "score": 90,
+      "signals": [
+        "research",
+        "अध्ययन",
+        "अनुसंधान",
+        "शोध",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 10576,
+      "source_path": "search-documents/videha-416.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20416.pdf"
+    },
+    {
+      "issue": "422",
+      "publication_date": "2025-07-15",
+      "section": "2.4",
+      "author": "प्रणव कुमार झा",
+      "title": "स्नातकोत्तर चिकित्सा प्रशिक्षण(PGME) मे हेल्थ इकोनॉमिक्स",
+      "page_start": "26",
+      "page_end": "34",
+      "content_class": "other",
+      "score": 84,
+      "signals": [
+        "research",
+        "अध्ययन",
+        "पद्धति",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 7993,
+      "source_path": "search-documents/videha-422.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20422.pdf"
+    },
+    {
+      "issue": "423",
+      "publication_date": "2025-08-01",
+      "section": "2.5",
+      "author": "डॉ वी एन झा",
+      "title": "इसरो - स्पेसX के एक्सिओम-४ मिशन के तकनीकी विश्लेषण",
+      "page_start": "32",
+      "page_end": "43",
+      "content_class": "literary-criticism",
+      "score": 81,
+      "signals": [
+        "अनुसंधान",
+        "पद्धति",
+        "विश्लेषण"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 11457,
+      "source_path": "search-documents/videha-423.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20423.pdf"
+    },
+    {
+      "issue": "421",
+      "publication_date": "2025-07-01",
+      "section": "2.6",
+      "author": "लालदेव कामत",
+      "title": "आर्यावर्तके कौटिल्य'क दृष्टि ओ कूटनीति",
+      "page_start": "28",
+      "page_end": "33",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "अध्ययन",
+        "शोध",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 7399,
+      "source_path": "search-documents/videha-421.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20421.pdf"
+    },
+    {
+      "issue": "422",
+      "publication_date": "2025-07-15",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान -३",
+      "page_start": "10",
+      "page_end": "21",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "अध्ययन",
+        "शोध",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 7089,
+      "source_path": "search-documents/videha-422.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20422.pdf"
+    },
+    {
+      "issue": "430",
+      "publication_date": "2025-11-15",
+      "section": "1.7",
+      "author": "ग्रुप कॅप्टन (डॉ) वी एन झा",
+      "title": "श्राद्ध कर्म के लौकिक व अलौकिक महत्त्व",
+      "page_start": "56",
+      "page_end": "66",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "अध्ययन",
+        "शोध",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 10026,
+      "source_path": "search-documents/videha-430.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20430.pdf"
+    },
+    {
+      "issue": "433",
+      "publication_date": "2026-01-01",
+      "section": "2.4",
+      "author": "ग्रुप कॅप्टन (डॉ) वी एन झा",
+      "title": "जोशीमठ में भू-धसान आ ओकर मानवीय पक्ष",
+      "page_start": "37",
+      "page_end": "48",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "अनुसन्धान",
+        "शोध",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 9931,
+      "source_path": "search-documents/videha-433.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20433.pdf"
+    },
     {
       "issue": "438",
       "publication_date": "2026-03-15",
@@ -23,6 +174,148 @@
       "body_chars": 0,
       "source_path": "search-documents/videha-438.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20438.pdf"
+    },
+    {
+      "issue": "408",
+      "publication_date": "2024-12-15",
+      "section": "2.4",
+      "author": "अजय कुमार झा तिरहुतिया",
+      "title": "मिथिला विकास परिषद: किछु सहेजल संस्मरण",
+      "page_start": "62",
+      "page_end": "76",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "परिकल्पना",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 11482,
+      "source_path": "search-documents/videha-408.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20408.pdf"
+    },
+    {
+      "issue": "411",
+      "publication_date": "2025-02-01",
+      "section": "2.6",
+      "author": "आचार्य रामानंद मंडल",
+      "title": "मैथिली मानकीकरण/ महाकुंभ",
+      "page_start": "30",
+      "page_end": "34",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "अध्ययन",
+        "शोध",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 4329,
+      "source_path": "search-documents/videha-411.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20411.pdf"
+    },
+    {
+      "issue": "412",
+      "publication_date": "2025-02-15",
+      "section": "2.10",
+      "author": "डॉ विद्या नाथ झा",
+      "title": "स्वर्ग केहेन ? नर्क केहेन ?",
+      "page_start": "37",
+      "page_end": "46",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "references",
+        "परिकल्पना",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 11257,
+      "source_path": "search-documents/videha-412.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20412.pdf"
+    },
+    {
+      "issue": "420",
+      "publication_date": "2025-06-15",
+      "section": "2.4",
+      "author": "लालदेव कामत",
+      "title": "एवमस्तके निहितार्थ/ अहर्निश मैथिली साहित्य सेवक डॉ०तारानंद वियोगी",
+      "page_start": "14",
+      "page_end": "28",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "अध्ययन",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 17141,
+      "source_path": "search-documents/videha-420.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20420.pdf"
+    },
+    {
+      "issue": "425",
+      "publication_date": "2025-09-01",
+      "section": "2.8",
+      "author": "प्रणव कुमार झा",
+      "title": "भारत मे क्रिटिकल केयर कार्यबल: एनबीईएमएस के भूमिका आ भविष्य",
+      "page_start": "41",
+      "page_end": "49",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 11127,
+      "source_path": "search-documents/videha-425.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20425.pdf"
+    },
+    {
+      "issue": "425",
+      "publication_date": "2025-09-01",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-५",
+      "page_start": "15",
+      "page_end": "24",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 10978,
+      "source_path": "search-documents/videha-425.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20425.pdf"
+    },
+    {
+      "issue": "426",
+      "publication_date": "2025-09-15",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-६",
+      "page_start": "7",
+      "page_end": "16",
+      "content_class": "other",
+      "score": 68,
+      "signals": [
+        "विश्वविद्यालय",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 9915,
+      "source_path": "search-documents/videha-426.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20426.pdf"
     },
     {
       "issue": "442",
@@ -106,13 +399,33 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20400.pdf"
     },
     {
+      "issue": "408",
+      "publication_date": "2024-12-15",
+      "section": "2.8",
+      "author": "आशीष अनचिन्हार",
+      "title": "मिथिला विकास परिषद्, कोलकाता (हमरा नजरिमे)",
+      "page_start": "94",
+      "page_end": "100",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "शोध",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 4433,
+      "source_path": "search-documents/videha-408.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20408.pdf"
+    },
+    {
       "issue": "409",
       "publication_date": "2025-01-01",
-      "section": "2.7",
-      "author": "आचार्य रामानंद मंडल",
-      "title": "विजातीय बिआह",
-      "page_start": "43",
-      "page_end": "46",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "विद्याव्यसनी-कर्मयोगी-समाजसेवी: उपेन्द्र नाथ झा 'व्यास' (16 जुलाइ,1917-30 मइ,2002)",
+      "page_start": "4",
+      "page_end": "17",
       "content_class": "other",
       "score": 60,
       "signals": [
@@ -120,18 +433,18 @@
       ],
       "negative_signals": [],
       "status": "review",
-      "body_chars": 9666,
+      "body_chars": 9475,
       "source_path": "search-documents/videha-409.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20409.pdf"
     },
     {
-      "issue": "425",
-      "publication_date": "2025-09-01",
-      "section": "2.8",
+      "issue": "423",
+      "publication_date": "2025-08-01",
+      "section": "2.4",
       "author": "प्रणव कुमार झा",
-      "title": "भारत मे क्रिटिकल केयर कार्यबल: एनबीईएमएस के भूमिका आ भविष्य",
-      "page_start": "41",
-      "page_end": "49",
+      "title": "बिहार मे यूनिवर्सल हेल्थ कवरेज (UHC): नियमन आ कार्यान्वयन",
+      "page_start": "20",
+      "page_end": "31",
       "content_class": "other",
       "score": 60,
       "signals": [
@@ -139,9 +452,47 @@
       ],
       "negative_signals": [],
       "status": "review",
-      "body_chars": 13475,
-      "source_path": "search-documents/videha-425.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20425.pdf"
+      "body_chars": 13123,
+      "source_path": "search-documents/videha-423.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20423.pdf"
+    },
+    {
+      "issue": "429",
+      "publication_date": "2025-11-01",
+      "section": "1.5",
+      "author": "लालदेव कामत",
+      "title": "चन्द्रहास : पोथी चर्चा",
+      "page_start": "26",
+      "page_end": "31",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 6394,
+      "source_path": "search-documents/videha-429.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20429.pdf"
+    },
+    {
+      "issue": "429",
+      "publication_date": "2025-11-01",
+      "section": "1.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-08",
+      "page_start": "8",
+      "page_end": "16",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 7404,
+      "source_path": "search-documents/videha-429.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20429.pdf"
     },
     {
       "issue": "431",
@@ -164,8 +515,27 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20431.pdf"
     },
     {
+      "issue": "432",
+      "publication_date": "2025-12-15",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-11",
+      "page_start": "11",
+      "page_end": "22",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 12068,
+      "source_path": "search-documents/videha-432.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20432.pdf"
+    },
+    {
       "issue": "435",
-      "publication_date": null,
+      "publication_date": "2026-02-01",
       "section": "2.7",
       "author": "प्रीति कुमारी",
       "title": "श्री लालदेव कामत जीक व्यक्तित्व आ कृतित्व",
@@ -183,13 +553,13 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20435.pdf"
     },
     {
-      "issue": "426",
-      "publication_date": "2025-09-15",
-      "section": "2.6",
+      "issue": "411",
+      "publication_date": "2025-02-01",
+      "section": "2.4",
       "author": "लाल देव कामत",
-      "title": "विश्व शांति : पोथी चर्चा",
-      "page_start": "36",
-      "page_end": "40",
+      "title": "कोय बोलतै रे !",
+      "page_start": "24",
+      "page_end": "27",
       "content_class": "other",
       "score": 52,
       "signals": [
@@ -197,18 +567,18 @@
       ],
       "negative_signals": [],
       "status": "review",
-      "body_chars": 4551,
-      "source_path": "search-documents/videha-426.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20426.pdf"
+      "body_chars": 3865,
+      "source_path": "search-documents/videha-411.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20411.pdf"
     },
     {
-      "issue": "433",
-      "publication_date": "2026-01-05",
-      "section": "2.6",
-      "author": "रबीन्द्र नारायण मिश्र",
-      "title": "बाबाक दरबारमे",
-      "page_start": "60",
-      "page_end": "110",
+      "issue": "423",
+      "publication_date": "2025-08-01",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान -४",
+      "page_start": "12",
+      "page_end": "17",
       "content_class": "other",
       "score": 52,
       "signals": [
@@ -216,7 +586,26 @@
       ],
       "negative_signals": [],
       "status": "review",
-      "body_chars": 3473,
+      "body_chars": 5404,
+      "source_path": "search-documents/videha-423.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20423.pdf"
+    },
+    {
+      "issue": "433",
+      "publication_date": "2026-01-01",
+      "section": "2.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -२०",
+      "page_start": "2",
+      "page_end": "6",
+      "content_class": "other",
+      "score": 52,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 3380,
       "source_path": "search-documents/videha-433.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20433.pdf"
     },
@@ -238,25 +627,6 @@
       "body_chars": 5707,
       "source_path": "search-documents/videha-446.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20446.pdf"
-    },
-    {
-      "issue": "408",
-      "publication_date": "2024-12-15",
-      "section": "2.8",
-      "author": "आशीष अनचिन्हार",
-      "title": "मिथिला विकास परिषद्, कोलकाता (हमरा नजरिमे)",
-      "page_start": "94",
-      "page_end": "100",
-      "content_class": "other",
-      "score": 40,
-      "signals": [
-        "संदर्भ"
-      ],
-      "negative_signals": [],
-      "status": "review",
-      "body_chars": 1540,
-      "source_path": "search-documents/videha-408.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20408.pdf"
     },
     {
       "issue": "442",
