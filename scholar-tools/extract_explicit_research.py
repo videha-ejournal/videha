@@ -2,6 +2,7 @@
 """Conservatively extract explicitly labelled research articles from Videha issues."""
 from __future__ import annotations
 
+import hashlib
 import html
 import re
 from html.parser import HTMLParser
@@ -78,15 +79,32 @@ def derived_issue_date(issue: str) -> str | None:
 
 
 def parse_issue_date(text: str, issue: str) -> str | None:
-    # Generated archive pages contain many historical dates unrelated to publication.
-    # The continuous fortnightly issue number is therefore the most reliable date key.
     return derived_issue_date(issue)
 
 
+def _truncate_utf8(s: str, max_bytes: int) -> str:
+    out: list[str] = []
+    used = 0
+    for ch in s:
+        n = len(ch.encode("utf-8"))
+        if used + n > max_bytes:
+            break
+        out.append(ch)
+        used += n
+    return "".join(out).rstrip("-")
+
+
 def slugify(s: str) -> str:
-    s = re.sub(r"\s+", " ", s or "").strip().lower()
-    s = re.sub(r"[^\w\u0900-\u097f-]+", "-", s, flags=re.UNICODE)
-    return s.strip("-")[:100] or "article"
+    """Readable, deterministic slug that is safe under 255-byte filename limits."""
+    original = re.sub(r"\s+", " ", s or "").strip().lower()
+    slug = re.sub(r"[^\w\u0900-\u097f-]+", "-", original, flags=re.UNICODE).strip("-") or "article"
+    # Keep the complete readable slug when it is already comfortably safe. Otherwise
+    # retain a readable UTF-8 prefix and add a stable hash to avoid truncation collisions.
+    if len(slug.encode("utf-8")) <= 180:
+        return slug
+    digest = hashlib.sha1(original.encode("utf-8")).hexdigest()[:10]
+    prefix = _truncate_utf8(slug, 160)
+    return f"{prefix}-{digest}" if prefix else f"article-{digest}"
 
 
 def split_author_title(label: str) -> tuple[str | None, str | None]:
@@ -113,12 +131,7 @@ def source_pdf(parser: SourceParser, issue: str) -> str:
 
 
 def parse_toc_entries(text: str) -> tuple[list[dict], int]:
-    """Parse the first page-number TOC and return a floor below that TOC.
-
-    Generated search pages can contain a second link-only TOC before the real body.
-    Body selection is therefore performed separately by scoring every later section
-    occurrence rather than assuming the first occurrence after this floor is real.
-    """
+    """Parse the first page-number TOC and return a floor below that TOC."""
     marker = text.find("ऐ अंकमे अछि")
     if marker < 0:
         marker = text.find("अनुक्रम")
@@ -216,13 +229,6 @@ def _next_section_position(text: str, toc: list[dict], idx: int, start: int) -> 
 
 
 def locate_article_body(text: str, toc: list[dict], idx: int, body_floor: int) -> tuple[int, int] | None:
-    """Choose the substantive occurrence of a repeated section heading.
-
-    Search-document pages may repeat every section in a link-only contents block.
-    Those occurrences are followed almost immediately by another section heading.
-    A real article occurrence is instead followed by substantial prose. We score
-    every occurrence after the page-number TOC and select the strongest candidate.
-    """
     item = toc[idx]
     occurrences = _section_occurrences(text, item["section_source"], body_floor)
     if not occurrences:
@@ -239,8 +245,6 @@ def locate_article_body(text: str, toc: list[dict], idx: int, body_floor: int) -
         segment = text[start:end]
         compact = len(re.sub(r"\s+", "", segment))
         head = re.sub(r"\s+", " ", segment[:1600])
-        # Link-only TOCs have tiny spans to the next numbered entry. Real article
-        # bodies normally contain hundreds or thousands of characters.
         score = min(compact, 20000)
         if compact < 500:
             score -= 20000
@@ -248,7 +252,6 @@ def locate_article_body(text: str, toc: list[dict], idx: int, body_floor: int) -
             score += 5000
         if author and author in head:
             score += 2500
-        # A second numbered section very near the start is strong TOC evidence.
         if re.search(r"(?m)^\s*[0-9०-९]+\.[0-9०-९]+\.\s*", segment[120:700]):
             score -= 12000
         scored.append((score, start, end))
