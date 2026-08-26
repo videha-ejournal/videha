@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T13:10:27.510771+00:00",
+  "generated": "2026-08-26T13:26:21.180186+00:00",
   "articles": [
     {
       "title": "अशिक्षाक शिकार: केवट समाज (शोध आलेख)",
@@ -17,7 +17,9 @@
       "url": "https://www.videha.co.in/research/2026/438/ashikshak-shikar-kevat-samaj.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20438.pdf",
-      "path": "2026/438/ashikshak-shikar-kevat-samaj.htm"
+      "path": "2026/438/ashikshak-shikar-kevat-samaj.htm",
+      "page_start": "32",
+      "page_end": "36"
     }
   ],
   "candidates": [
