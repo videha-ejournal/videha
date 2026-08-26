@@ -4,6 +4,8 @@
 The whitelist in scholar-data/promoted-sections.json is editorially controlled.
 This module never guesses promotions: it only resolves those exact issue/section
 pairs, and it rejects records whose source metadata/body cannot be recovered.
+Explicit title/author overrides are allowed only when the editor has verified the
+source heading and the automatic TOC parser cannot represent it correctly.
 """
 from __future__ import annotations
 
@@ -68,8 +70,10 @@ def load_promoted(root: Path) -> tuple[list[dict], list[dict]]:
             continue
 
         item = toc[idx]
-        author = item.get("author")
-        title = item.get("title")
+        author_override = str(spec.get("author_override") or "").strip()
+        title_override = str(spec.get("title_override") or "").strip()
+        author = author_override or item.get("author")
+        title = title_override or item.get("title")
         if not author or not title:
             review.append({"issue": issue, "section": section, "reason": "author/title could not be recovered"})
             continue
@@ -109,6 +113,7 @@ def load_promoted(root: Path) -> tuple[list[dict], list[dict]]:
             "_auto_source": path.relative_to(root).as_posix(),
             "_auto_section": section,
             "_promotion": "editor-approved retrospective section",
+            "_metadata_override": bool(author_override or title_override),
         })
 
     return records, review
