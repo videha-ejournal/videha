@@ -5,9 +5,10 @@
 User-agent: *
 Allow: /
 
-# Point every search engine to the sitemap so all pages
+# Point every search engine to the sitemaps so all pages
 # (including the 100 Parallel-History PART pages) are discovered
 # and made searchable. The VIDEHA-KIDS / BAL / KISHOR learning tools
 # live on videha-ejournal.github.io and are indexed via their own
 # sitemap on that host (see its robots.txt).
 Sitemap: https://www.videha.co.in/sitemap.xml
+Sitemap: https://www.videha.co.in/research/sitemap.php
