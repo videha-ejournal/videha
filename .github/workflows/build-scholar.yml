@@ -1,0 +1,43 @@
+name: Build Videha Scholar Research Index
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scholar-data/articles/**'
+      - 'scholar-tools/**'
+      - 'templates/scholar-article.html'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: videha-scholar-build
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build research corpus
+        run: python scholar-tools/build_research.py
+      - name: Validate Scholar metadata
+        run: python scholar-tools/validate_scholar.py
+      - name: Commit generated research layer
+        run: |
+          git config user.name "videha-scholar-bot"
+          git config user.email "videha-scholar-bot@users.noreply.github.com"
+          git add research/
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Update Videha Scholar research index [skip actions]"
+            git push
+          fi
