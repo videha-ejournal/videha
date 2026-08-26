@@ -75,12 +75,11 @@ def sane_title(s: str | None) -> bool:
         return False
     if any(x.lower() in low for x in TITLE_SENTENCE_BAD) and len(s) > 80:
         return False
-    # Old TOCs sometimes concatenate several entries into one line. Reject titles
-    # containing two or more numbered list markers rather than publishing a bundle.
     if len(LIST_MARKER.findall(s)) >= 2:
         return False
-    # Also reject embedded second-item markers common in OCR-joined headings.
-    if re.search(r"(?:^|\s)[२2]\s*[.)]\s*", s) and re.search(r"(?:^|\s)[१1]\s*[.)]\s*", s):
+    # OCR-joined TOC entries often preserve the next item marker as "2."/"२."
+    # even without a preceding space (e.g. Introduction2. Original Poem...).
+    if re.search(r"[२2]\s*\.\s*", s):
         return False
     return True
 
