@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "purpose": "Manual conservative review decisions for borderline Videha Scholar candidates. This file is an audit ledger only; it does not publish articles.",
-  "reviewed_on": "2026-08-26",
+  "reviewed_on": "2026-08-27",
   "decisions": [
     {
       "issue": "447",
@@ -71,6 +71,46 @@
       "author": "डा.श्री कृष्ण 'जुगनू'",
       "decision": "retain",
       "reason": "Short but substantive textual-source investigation concerning manuscript evidence, dating and possible interpolation; appropriate for the scholarly layer."
+    },
+    {
+      "issue": "396",
+      "section": "2.11",
+      "title": "प्रोफेसर डा. रामावतार यादव ओ हुनक विलक्षण अनुसंधान तकनीक (मिथिला भारती शोध पत्रिकाक संदर्भमे)",
+      "author": "डॉ. शिव कुमार मिश्र",
+      "decision": "exclude_from_auto_explicit",
+      "reason": "The phrase शोध पत्रिकाक means 'of the research journal'; it is not an article-level शोध पत्र label. The item must not be auto-published merely by substring matching."
+    },
+    {
+      "issue": "357",
+      "section": "2.22",
+      "title": "मैथिल नारीक सांस्कृतिक- साहित्यिक स्वर - प्रेमलता मिश्र प्रेम",
+      "author": "प्रदीप पुष्प",
+      "decision": "exclude_for_now",
+      "reason": "Biographical/literary appreciation. It mentions a शोध ग्रंथ by the subject but does not itself present a referenced research study."
+    },
+    {
+      "issue": "343",
+      "section": "2.5",
+      "title": "बकरी संस्कृति (व्यंग्य रचना)",
+      "author": "संतोष कुमार राय 'बटोही'",
+      "decision": "exclude",
+      "reason": "Explicitly a satirical composition; the word संस्कृति must not make it a Scholar candidate."
+    },
+    {
+      "issue": "49",
+      "section": "2.1",
+      "title": "मिथिलाक इतिहास (आगाँ)",
+      "author": "प्रोफेसर राधाकृष्ण चौधरी",
+      "decision": "hold_boundary",
+      "reason": "Scholarly historical material, but the no-page legacy extraction currently produces an implausibly oversized body, so the article boundary must not be treated as publication-ready."
+    },
+    {
+      "issue": "150",
+      "section": "8.2",
+      "title": "Ancient India- The Sources of the History of Pilgrimage",
+      "author": "Ramnarayan Thakur",
+      "decision": "hold_boundary",
+      "reason": "Strong scholarly history title with reference signals, but the legacy extraction body is implausibly oversized; retain for manual boundary recovery rather than publication."
     }
   ]
 }
