@@ -25,11 +25,18 @@ def record_key(rec: dict) -> tuple[str, str]:
     return str(rec.get("issue") or ""), norm_title(str(rec.get("title") or ""))
 
 
+def is_false_explicit_label(title: str) -> bool:
+    """Reject substring collisions such as 'शोध पत्रिका' ≠ 'शोध पत्र'."""
+    return bool(re.search(r"शोध\s*[-–—]?\s*पत्रिका", title or "", re.I))
+
+
 def main() -> None:
     DATA.mkdir(parents=True, exist_ok=True)
 
     candidates = base.scan_legacy()
-    auto_records, explicit_review, extraction_summary = extract_explicit_records(ROOT)
+    raw_auto_records, explicit_review, extraction_summary = extract_explicit_records(ROOT)
+    false_explicit = [r for r in raw_auto_records if is_false_explicit_label(str(r.get("title") or ""))]
+    auto_records = [r for r in raw_auto_records if not is_false_explicit_label(str(r.get("title") or ""))]
     promoted_records, promotion_review = load_promoted(ROOT)
     curated = base.load_curated()
 
@@ -64,6 +71,9 @@ def main() -> None:
                 "error": str(exc),
             })
 
+    extraction_summary["explicit_articles_detected_raw"] = len(raw_auto_records)
+    extraction_summary["explicit_false_positive_filtered"] = len(false_explicit)
+    extraction_summary["explicit_articles_publishable"] = len(auto_records)
     extraction_summary["promoted_sections_requested"] = len(promoted_records) + len(promotion_review)
     extraction_summary["promoted_sections_publishable"] = len(promoted_records)
     extraction_summary["promoted_sections_review"] = len(promotion_review)
@@ -71,10 +81,17 @@ def main() -> None:
     extraction_summary["published_after_all_overrides"] = len(articles)
     extraction_summary["build_errors"] = len(build_errors)
 
+    false_explicit_review = []
+    for rec in false_explicit:
+        held = dict(rec)
+        held["status"] = "review"
+        held["reasons"] = ["automatic explicit-label false positive: title contains 'शोध पत्रिका', not an article-level 'शोध पत्र' label"]
+        false_explicit_review.append(held)
+
     review_payload = {
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(),
         "summary": extraction_summary,
-        "explicit_review": explicit_review,
+        "explicit_review": explicit_review + false_explicit_review,
         "promotion_review": promotion_review,
         "build_errors": build_errors,
     }
@@ -98,7 +115,7 @@ def main() -> None:
         "Videha Scholar full-corpus build: "
         f"{extraction_summary['issue_files_scanned']} issue HTML files scanned; "
         f"{len(articles)} published articles; "
-        f"{len(explicit_review)} explicit items held for review; "
+        f"{len(explicit_review) + len(false_explicit_review)} explicit items held for review; "
         f"{len(promoted_records)} editor-approved retrospective sections resolved; "
         f"{len(promotion_review)} promoted sections held for review; "
         f"{len(candidates)} broader retrospective candidates"
