@@ -1,16 +1,16 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T14:40:14.211080+00:00",
+  "generated": "2026-08-26T14:43:46.804730+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
     "promoted_sections_requested": 19,
-    "promoted_sections_publishable": 18,
-    "promoted_sections_review": 1,
+    "promoted_sections_publishable": 19,
+    "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 19,
+    "published_after_all_overrides": 20,
     "build_errors": 0
   },
   "articles": [
@@ -121,6 +121,24 @@
       "path": "2025/423/इसरो---स्पेसx-के-एक्सिओम-४-मिशन-के-तकनीकी-विश्लेषण.htm",
       "page_start": "32",
       "page_end": "43"
+    },
+    {
+      "title": "अगस्त्य संहिता- तीस बर्खक प्रतीक्षा",
+      "english_title": null,
+      "authors": [
+        "डा.श्री कृष्ण 'जुगनू'"
+      ],
+      "publication_date": "2025-10-15",
+      "year": "2025",
+      "issue": "428",
+      "keywords": [],
+      "classification": "Textual criticism; manuscript studies; Agastya Samhita interpolation analysis",
+      "url": "https://www.videha.co.in/research/2025/428/अगस्त्य-संहिता--तीस-बर्खक-प्रतीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf",
+      "path": "2025/428/अगस्त्य-संहिता--तीस-बर्खक-प्रतीक्षा.htm",
+      "page_start": "136",
+      "page_end": "138"
     },
     {
       "title": "पं.भवनाथ झाक पाण्डुलिपिसँ संपादित पोथीक अद्यतन सूचना",
