@@ -30,6 +30,21 @@ def is_false_explicit_label(title: str) -> bool:
     return bool(re.search(r"शोध\s*[-–—]?\s*पत्रिका", title or "", re.I))
 
 
+def clean_generated_article_pages() -> int:
+    """Remove prior generated HTML pages so reclassified records cannot stay crawlable.
+
+    Only the numeric research/YYYY/ISSUE/*.htm namespace is cleaned. The research
+    index, data files, sitemap, PDFs and non-numeric integration assets are untouched.
+    Current valid pages are recreated immediately by render_article().
+    """
+    removed = 0
+    for path in RESEARCH.glob("[0-9][0-9][0-9][0-9]/*/*.htm"):
+        if path.is_file():
+            path.unlink()
+            removed += 1
+    return removed
+
+
 def main() -> None:
     DATA.mkdir(parents=True, exist_ok=True)
 
@@ -50,6 +65,7 @@ def main() -> None:
     for rec in curated:
         merged[record_key(rec)] = rec
 
+    stale_pages_removed = clean_generated_article_pages()
     articles = []
     build_errors = []
     for rec in sorted(
@@ -79,6 +95,7 @@ def main() -> None:
     extraction_summary["promoted_sections_review"] = len(promotion_review)
     extraction_summary["curated_manifests"] = len(curated)
     extraction_summary["published_after_all_overrides"] = len(articles)
+    extraction_summary["stale_generated_pages_removed_before_render"] = stale_pages_removed
     extraction_summary["build_errors"] = len(build_errors)
 
     false_explicit_review = []
@@ -118,7 +135,8 @@ def main() -> None:
         f"{len(explicit_review) + len(false_explicit_review)} explicit items held for review; "
         f"{len(promoted_records)} editor-approved retrospective sections resolved; "
         f"{len(promotion_review)} promoted sections held for review; "
-        f"{len(candidates)} broader retrospective candidates"
+        f"{len(candidates)} broader retrospective candidates; "
+        f"{stale_pages_removed} prior generated pages cleaned before rendering"
     )
     if build_errors:
         print(f"WARNING: {len(build_errors)} records failed rendering; see research/data/explicit-research-review.json")
