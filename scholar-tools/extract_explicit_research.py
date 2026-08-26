@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Extract only high-confidence, explicitly labelled research articles from Videha issue HTML.
+"""Conservatively extract explicitly labelled research articles from Videha issue HTML.
 
-The source corpus is search-documents/videha-*.html. This module is intentionally
-conservative: it publishes only records where issue/date, author/title, page range,
-and body boundaries can all be recovered. Ambiguous items are returned for review.
+The source corpus lives under search-documents/. Automatic publication occurs only
+when issue date, author/title, page range, article boundary and substantial body
+text are all recoverable. Anything ambiguous is held for review.
 """
 from __future__ import annotations
 
@@ -14,18 +14,26 @@ from pathlib import Path
 
 DEV = str.maketrans("०१२३४५६७८९", "0123456789")
 MONTHS = {
-    "जनवरी": 1, "जनवरी": 1, "फरवरी": 2, "फ़रवरी": 2, "मार्च": 3,
+    "जनवरी": 1, "फरवरी": 2, "फ़रवरी": 2, "मार्च": 3,
     "अप्रैल": 4, "अप्रेल": 4, "मई": 5, "जून": 6, "जुलाई": 7,
     "अगस्त": 8, "सितम्बर": 9, "सितंबर": 9, "अक्टूबर": 10,
     "नवम्बर": 11, "नवंबर": 11, "दिसम्बर": 12, "दिसंबर": 12,
 }
-EXPLICIT_TERMS = ("शोध आलेख", "शोध-आलेख", "शोधपत्र", "शोध पत्र", "research paper", "research article")
+EXPLICIT_TERMS = (
+    "शोध आलेख", "शोध-आलेख", "शोधपत्र", "शोध पत्र",
+    "research paper", "research article",
+)
 TOC_RE = re.compile(
-    r"(?m)^\s*([0-9०-९]+\.[0-9०-९]+)\.\s*(.*?)\s*\(\s*पृष्ठ\s*([0-9०-९]+)(?:\s*[-–—]\s*([0-9०-९]+))?\s*\)\s*$",
+    r"(?m)^\s*([0-9०-९]+\.[0-9०-९]+)\.\s*(.*?)\s*"
+    r"(?:\(\s*पृष्ठ|\[\s*pages?)\s*([0-9०-९]+)"
+    r"(?:\s*[-–—]\s*([0-9०-९]+))?\s*(?:\)|\])\s*$",
     re.I,
 )
 DATE_RE = re.compile(
-    r"([0-9०-९]{1,2})\s+(जनवरी|फरवरी|फ़रवरी|मार्च|अप्रैल|अप्रेल|मई|जून|जुलाई|अगस्त|सितम्बर|सितंबर|अक्टूबर|नवम्बर|नवंबर|दिसम्बर|दिसंबर)\s+([0-9०-९]{4})",
+    r"([0-9०-९]{1,2})\s+"
+    r"(जनवरी|फरवरी|फ़रवरी|मार्च|अप्रैल|अप्रेल|मई|जून|जुलाई|अगस्त|"
+    r"सितम्बर|सितंबर|अक्टूबर|नवम्बर|नवंबर|दिसम्बर|दिसंबर)\s+"
+    r"([0-9०-९]{4})",
     re.I,
 )
 
@@ -78,14 +86,46 @@ def slugify(s: str) -> str:
     return s.strip("-")[:100] or "article"
 
 
-def parse_date(text: str) -> str | None:
-    # Restrict to the issue-front matter where possible; early occurrences are safest.
-    for m in DATE_RE.finditer(text[:30000]):
-        d = int(latin_digits(m.group(1)))
-        y = int(latin_digits(m.group(3)))
-        month = MONTHS.get(m.group(2))
-        if month and 1 <= d <= 31 and 2000 <= y <= 2100:
-            return f"{y:04d}-{month:02d}-{d:02d}"
+def _iso_date(m: re.Match) -> str | None:
+    d = int(latin_digits(m.group(1)))
+    y = int(latin_digits(m.group(3)))
+    month = MONTHS.get(m.group(2))
+    if month and 1 <= d <= 31 and 2000 <= y <= 2100:
+        return f"{y:04d}-{month:02d}-{d:02d}"
+    return None
+
+
+def parse_issue_date(text: str, issue: str) -> str | None:
+    """Recover the issue publication date, not dates from the standardized history header."""
+    target = str(int(latin_digits(issue)))
+    front = text[:120000]
+
+    # Best evidence: the same line names this issue and carries a date.
+    for line in front.splitlines():
+        line_ascii = latin_digits(line)
+        if not re.search(rf"(?<!\d){re.escape(target)}(?!\d)", line_ascii):
+            continue
+        if not ("अंक" in line or re.search(r"\b(?:VIDEHA|issue)\b", line, re.I)):
+            continue
+        m = DATE_RE.search(line)
+        if m:
+            iso = _iso_date(m)
+            if iso:
+                return iso
+
+    # Second-best evidence: date very near an issue-number expression.
+    for m in DATE_RE.finditer(front):
+        lo = max(0, m.start() - 180)
+        hi = min(len(front), m.end() + 180)
+        nearby = latin_digits(front[lo:hi])
+        patterns = [
+            rf"(?:अंक|issue|VIDEHA)\D{{0,45}}{re.escape(target)}(?!\d)",
+            rf"(?<!\d){re.escape(target)}\D{{0,45}}(?:अंक|issue)",
+        ]
+        if any(re.search(p, nearby, re.I) for p in patterns):
+            iso = _iso_date(m)
+            if iso:
+                return iso
     return None
 
 
@@ -112,13 +152,51 @@ def source_pdf(parser: SourceParser, issue: str) -> str:
     return f"https://archive.org/download/VidehaAndSadeha/Videha%20{issue}.pdf"
 
 
+def parse_toc_entries(text: str) -> tuple[list[dict], int]:
+    """Return the issue-front TOC only and the position where article bodies begin."""
+    marker = text.find("ऐ अंकमे अछि")
+    if marker < 0:
+        marker = text.find("अनुक्रम")
+    if marker < 0:
+        marker = 0
+
+    window_end = min(len(text), marker + 120000)
+    preliminary = list(TOC_RE.finditer(text, marker, window_end))
+    if not preliminary:
+        return [], marker
+
+    # The first TOC section repeats when the actual article body starts. Stop there,
+    # so numbered/page-like material much later in a large issue cannot pollute the TOC.
+    first_sec = preliminary[0].group(1)
+    first_body_re = re.compile(rf"(?m)^\s*{re.escape(first_sec)}\.\s*")
+    first_body = first_body_re.search(text, preliminary[0].end())
+    body_floor = first_body.start() if first_body else max(m.end() for m in preliminary)
+
+    matches = [m for m in preliminary if m.start() < body_floor]
+    toc: list[dict] = []
+    for m in matches:
+        section, label, p1, p2 = m.groups()
+        author, title = split_author_title(label)
+        toc.append({
+            "section": latin_digits(section),
+            "section_source": section,
+            "label": label.strip(),
+            "author": author,
+            "title": title,
+            "page_start": latin_digits(p1),
+            "page_end": latin_digits(p2 or p1),
+            "toc_start": m.start(),
+            "toc_end": m.end(),
+        })
+    return toc, body_floor
+
+
 def clean_body(segment: str, section: str, author: str, title: str) -> str:
     lines = [x.strip() for x in segment.splitlines()]
     while lines and not lines[0]:
         lines.pop(0)
 
-    # Drop heading/author/title repetition at the body start only.
-    for _ in range(4):
+    for _ in range(5):
         if not lines:
             break
         x = re.sub(r"\s+", " ", lines[0]).strip()
@@ -133,7 +211,6 @@ def clean_body(segment: str, section: str, author: str, title: str) -> str:
             continue
         break
 
-    # Editorial response invitation is not part of the article.
     cut = None
     for i, line in enumerate(lines):
         if re.search(r"अपन\s+मंतव्य", line):
@@ -142,7 +219,6 @@ def clean_body(segment: str, section: str, author: str, title: str) -> str:
     if cut is not None:
         lines = lines[:cut]
 
-    # Trim excess blank lines while preserving paragraph breaks.
     out: list[str] = []
     blank = False
     for line in lines:
@@ -158,8 +234,6 @@ def clean_body(segment: str, section: str, author: str, title: str) -> str:
 
 def body_to_html(body: str) -> str:
     paras = [p.strip() for p in re.split(r"\n\s*\n", body) if p.strip()]
-    if not paras:
-        return ""
     chunks = []
     for p in paras:
         safe = html.escape(p, quote=False).replace("\n", "<br>")
@@ -167,7 +241,7 @@ def body_to_html(body: str) -> str:
     return "".join(chunks)
 
 
-def extract_issue(path: Path) -> tuple[list[dict], list[dict]]:
+def extract_issue(path: Path, root: Path | None = None) -> tuple[list[dict], list[dict]]:
     m_issue = re.search(r"videha-(\d{1,4})\.html?$", path.name, re.I)
     if not m_issue:
         return [], []
@@ -179,55 +253,36 @@ def extract_issue(path: Path) -> tuple[list[dict], list[dict]]:
     except Exception:
         pass
     text = parser.text()
-    date = parse_date(text)
+    date = parse_issue_date(text, issue)
     pdf = source_pdf(parser, issue)
-
-    toc = []
-    for m in TOC_RE.finditer(text):
-        section, label, p1, p2 = m.groups()
-        author, title = split_author_title(label)
-        toc.append({
-            "section": latin_digits(section),
-            "section_source": section,
-            "label": label.strip(),
-            "author": author,
-            "title": title,
-            "page_start": latin_digits(p1),
-            "page_end": latin_digits(p2 or p1),
-            "toc_start": m.start(),
-            "toc_end": m.end(),
-        })
+    toc, body_floor = parse_toc_entries(text)
     if not toc:
         return [], []
 
-    # First TOC block should precede article bodies. Using its last explicit entry as a floor
-    # avoids accidentally treating the contents list itself as the article body.
-    toc_floor = max(x["toc_end"] for x in toc)
     published: list[dict] = []
     review: list[dict] = []
+    source_path = path.relative_to(root).as_posix() if root else path.as_posix()
 
     for idx, item in enumerate(toc):
         title = item.get("title") or ""
         if not explicit(title):
             continue
-        reasons = []
+        reasons: list[str] = []
         if not date:
             reasons.append("publication date not recovered")
         if not item.get("author") or not title:
             reasons.append("author/title split failed")
 
-        sec_src = re.escape(item["section_source"])
-        body_marker = re.compile(rf"(?m)^\s*{sec_src}\.\s*")
-        starts = [m.start() for m in body_marker.finditer(text, toc_floor)]
-        body_start = starts[0] if starts else None
+        body_marker = re.compile(rf"(?m)^\s*{re.escape(item['section_source'])}\.\s*")
+        bm = body_marker.search(text, body_floor)
+        body_start = bm.start() if bm else None
         if body_start is None:
             reasons.append("article body heading not found after contents")
 
         body_end = None
         if body_start is not None:
             for nxt in toc[idx + 1:]:
-                nxt_re = re.compile(rf"(?m)^\s*{re.escape(nxt['section_source'])}\.\s*")
-                nm = nxt_re.search(text, body_start + 1)
+                nm = re.compile(rf"(?m)^\s*{re.escape(nxt['section_source'])}\.\s*").search(text, body_start + 1)
                 if nm:
                     body_end = nm.start()
                     break
@@ -239,13 +294,12 @@ def extract_issue(path: Path) -> tuple[list[dict], list[dict]]:
             body = clean_body(text[body_start:body_end], item["section_source"], item["author"], title)
             if len(re.sub(r"\s+", "", body)) < 800:
                 reasons.append("article body too short for safe publication")
-            # Guard against a failed boundary that swallowed a following top-level item.
             if re.search(r"(?m)^\s*[0-9०-९]+\.[0-9०-९]+\.\s*", body[200:]):
                 reasons.append("possible next-article heading inside extracted body")
 
         base = {
             "issue": issue,
-            "source_path": path.as_posix(),
+            "source_path": source_path,
             "section": item["section"],
             "author": item.get("author"),
             "title": title or item["label"],
@@ -273,34 +327,42 @@ def extract_issue(path: Path) -> tuple[list[dict], list[dict]]:
             "page_end": item["page_end"],
             "source_url": pdf,
             "full_text_html": body_to_html(body),
-            "_auto_source": path.as_posix(),
+            "_auto_source": source_path,
             "_auto_section": item["section"],
         })
 
     return published, review
 
 
+def issue_files(docs: Path) -> list[Path]:
+    files = set(docs.glob("videha-*.html")) | set(docs.glob("videha-*.htm"))
+    return sorted(files, key=lambda p: p.name.lower())
+
+
 def extract_explicit_records(root: Path) -> tuple[list[dict], list[dict], dict]:
     docs = root / "search-documents"
     records: list[dict] = []
     review: list[dict] = []
-    issue_files = sorted(docs.glob("videha-*.html")) if docs.exists() else []
-    for path in issue_files:
+    files = issue_files(docs) if docs.exists() else []
+    for path in files:
         try:
-            pub, rev = extract_issue(path)
+            pub, rev = extract_issue(path, root=root)
             records.extend(pub)
             review.extend(rev)
         except Exception as e:
-            review.append({"source_path": path.as_posix(), "status": "review", "reasons": [f"extractor exception: {e}"]})
+            review.append({
+                "source_path": path.relative_to(root).as_posix(),
+                "status": "review",
+                "reasons": [f"extractor exception: {e}"],
+            })
 
-    # De-duplicate by issue/title/author. A repeated source copy should never create duplicate Scholar URLs.
     dedup: dict[tuple, dict] = {}
     for r in records:
         key = (str(r.get("issue")), r.get("title"), tuple(r.get("authors") or []))
         dedup[key] = r
     records = sorted(dedup.values(), key=lambda r: (r["publication_date"], int(r["issue"]), r["title"]))
     summary = {
-        "issue_files_scanned": len(issue_files),
+        "issue_files_scanned": len(files),
         "explicit_articles_publishable": len(records),
         "explicit_articles_review": len(review),
     }
