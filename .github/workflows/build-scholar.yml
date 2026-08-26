@@ -42,6 +42,8 @@ jobs:
         run: python scholar-tools/diagnose_boundaries.py
       - name: Build complete article inventory
         run: python scholar-tools/build_article_inventory.py
+      - name: Summarize Scholar candidate strength
+        run: python scholar-tools/summarize_inventory.py
       - name: Build article-level scholarly catalogue
         run: python scholar-tools/build_section_catalogue.py
       - name: Validate Scholar metadata
