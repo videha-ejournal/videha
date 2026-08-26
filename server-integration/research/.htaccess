@@ -1,0 +1,12 @@
+Options -Indexes
+RewriteEngine On
+
+# Stable Scholar-facing URLs on videha.co.in; content is fetched from GitHub.
+RewriteRule ^$ index.php [L,QSA]
+RewriteRule ^sitemap\.xml$ index.php?path=sitemap.xml [L,QSA]
+RewriteRule ^([0-9]{4}/[^/]+/.+\.(?:htm|html|pdf))$ index.php?path=$1 [L,QSA,NE]
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
