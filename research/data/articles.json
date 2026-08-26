@@ -1,16 +1,16 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T14:48:53.899400+00:00",
+  "generated": "2026-08-26T14:52:39.141585+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
-    "promoted_sections_requested": 23,
-    "promoted_sections_publishable": 23,
+    "promoted_sections_requested": 24,
+    "promoted_sections_publishable": 24,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 24,
+    "published_after_all_overrides": 25,
     "build_errors": 0
   },
   "articles": [
@@ -355,6 +355,24 @@
       "path": "2026/447/डॉ-अमरेन्द्रक-अंगिका-बाल-साहित्य---लोकस्मृतिसँ-आधुनिक-बाल-सृ-bfd90f8749.htm",
       "page_start": "443",
       "page_end": "525"
+    },
+    {
+      "title": "नाट्य-नवग्रह",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-08-01",
+      "year": "2026",
+      "issue": "447",
+      "keywords": [],
+      "classification": "Drama studies; comparative theatre theory; Maithili dramatic criticism",
+      "url": "https://www.videha.co.in/research/2026/447/नाट्य-नवग्रह.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf",
+      "path": "2026/447/नाट्य-नवग्रह.htm",
+      "page_start": "657",
+      "page_end": "699"
     },
     {
       "title": "भामती (वाचस्पति)/ आत्मतत्त्वविवेक (उदयन)/ न्यायकुसुमाञ्जलि (उदयन)/ तत्त्वचिन्तामणि (गंगेश): ग्रन्थ-सार आ समालोचनात्मक मूल्याङ्कन",
