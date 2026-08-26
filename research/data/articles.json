@@ -1,19 +1,91 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T14:17:56.492408+00:00",
+  "generated": "2026-08-26T14:28:25.033636+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
-    "promoted_sections_requested": 7,
-    "promoted_sections_publishable": 7,
+    "promoted_sections_requested": 11,
+    "promoted_sections_publishable": 11,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 8,
+    "published_after_all_overrides": 12,
     "build_errors": 0
   },
   "articles": [
+    {
+      "title": "फैमिली एडॉप्शन प्रोग्राम (FAP): चिकित्सा शिक्षा में नवाचार आ ग्रामीण भारत में स्वास्थ्य सेवाक बढ़ावा",
+      "english_title": null,
+      "authors": [
+        "प्रणव झा"
+      ],
+      "publication_date": "2024-09-15",
+      "year": "2024",
+      "issue": "402",
+      "keywords": [],
+      "classification": "Medical education; community health; Family Adoption Programme review",
+      "url": "https://www.videha.co.in/research/2024/402/फैमिली-एडॉप्शन-प्रोग्राम-fap-चिकित्सा-शिक्षा-में-नवाचार-आ-ग्र-ff111abbf3.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20402.pdf",
+      "path": "2024/402/फैमिली-एडॉप्शन-प्रोग्राम-fap-चिकित्सा-शिक्षा-में-नवाचार-आ-ग्र-ff111abbf3.htm",
+      "page_start": "66",
+      "page_end": "70"
+    },
+    {
+      "title": "आपातकालीन चिकित्सा आ इंटेंसिव केयर में आर्टिफिशियल इंटेलिजेंस आ मशीन लर्निंग",
+      "english_title": null,
+      "authors": [
+        "प्रणव झा"
+      ],
+      "publication_date": "2024-11-15",
+      "year": "2024",
+      "issue": "406",
+      "keywords": [],
+      "classification": "Emergency medicine; artificial intelligence; machine learning review",
+      "url": "https://www.videha.co.in/research/2024/406/आपातकालीन-चिकित्सा-आ-इंटेंसिव-केयर-में-आर्टिफिशियल-इंटेलिज-badef9d125.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20406.pdf",
+      "path": "2024/406/आपातकालीन-चिकित्सा-आ-इंटेंसिव-केयर-में-आर्टिफिशियल-इंटेलिज-badef9d125.htm",
+      "page_start": "29",
+      "page_end": "36"
+    },
+    {
+      "title": "नारायण चौधरी आ जलकर संरक्षण केर सामाजिक सरोकार",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2025-06-01",
+      "year": "2025",
+      "issue": "419",
+      "keywords": [],
+      "classification": "Environmental sociology; water conservation; Mithila cultural ecology",
+      "url": "https://www.videha.co.in/research/2025/419/नारायण-चौधरी-आ-जलकर-संरक्षण-केर-सामाजिक-सरोकार.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20419.pdf",
+      "path": "2025/419/नारायण-चौधरी-आ-जलकर-संरक्षण-केर-सामाजिक-सरोकार.htm",
+      "page_start": "78",
+      "page_end": "85"
+    },
+    {
+      "title": "स्नातकोत्तर चिकित्सा प्रशिक्षण(PGME) मे हेल्थ इकोनॉमिक्स",
+      "english_title": null,
+      "authors": [
+        "प्रणव कुमार झा"
+      ],
+      "publication_date": "2025-07-15",
+      "year": "2025",
+      "issue": "422",
+      "keywords": [],
+      "classification": "Medical education; health economics; postgraduate training review",
+      "url": "https://www.videha.co.in/research/2025/422/स्नातकोत्तर-चिकित्सा-प्रशिक्षण-pgme-मे-हेल्थ-इकोनॉमिक्स.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20422.pdf",
+      "path": "2025/422/स्नातकोत्तर-चिकित्सा-प्रशिक्षण-pgme-मे-हेल्थ-इकोनॉमिक्स.htm",
+      "page_start": "26",
+      "page_end": "34"
+    },
     {
       "title": "इसरो - स्पेसX के एक्सिओम-४ मिशन के तकनीकी विश्लेषण",
       "english_title": null,
