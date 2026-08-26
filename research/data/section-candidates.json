@@ -1,0 +1,380 @@
+{
+  "issue_files_scanned": 447,
+  "candidate_sections": 19,
+  "high_confidence_review": 0,
+  "rows": [
+    {
+      "issue": "430",
+      "publication_date": "2008-01-01",
+      "section": "1.7",
+      "author": "ग्रुप कॅप्टन (डॉ) वी एन झा",
+      "title": "श्राद्ध कर्म के लौकिक व अलौकिक महत्त्व",
+      "page_start": "56",
+      "page_end": "66",
+      "content_class": "other",
+      "score": 76,
+      "signals": [
+        "अध्ययन",
+        "शोध",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 10026,
+      "source_path": "search-documents/videha-430.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20430.pdf"
+    },
+    {
+      "issue": "438",
+      "publication_date": "2008-01-01",
+      "section": "2.5",
+      "author": "प्रीति कुमारी",
+      "title": "अशिक्षाक शिकार: केवट समाज (शोध आलेख)",
+      "page_start": "32",
+      "page_end": "36",
+      "content_class": "research-article",
+      "score": 70,
+      "signals": [
+        "शोध आलेख"
+      ],
+      "negative_signals": [
+        "short-body"
+      ],
+      "status": "review",
+      "body_chars": 0,
+      "source_path": "search-documents/videha-438.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20438.pdf"
+    },
+    {
+      "issue": "447",
+      "publication_date": "2008-01-01",
+      "section": "2.18",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "मैथिलीक एकटा समानान्तर व्याकरण, रचना आ भाषा-विज्ञान (ठेठी-अंगिका आ बज्जिकाकेँ संग लऽ कऽ)- गजेन्द्र ठाकुर] एकीकृत विस्तृत समालोचनात्मक शोध-समीक्षा",
+      "page_start": "383",
+      "page_end": "442",
+      "content_class": "linguistics",
+      "score": 65,
+      "signals": [
+        "व्याकरण",
+        "समालोचना"
+      ],
+      "negative_signals": [
+        "short-body"
+      ],
+      "status": "review",
+      "body_chars": 0,
+      "source_path": "search-documents/videha-447.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
+    },
+    {
+      "issue": "400",
+      "publication_date": "2024-08-15",
+      "section": "1.13",
+      "author": "अंतराष्ट्रीय मैथिली परिषद्क मिथिला जागरण यात्रा 101",
+      "title": "200",
+      "page_start": "1119",
+      "page_end": "1360",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 166784,
+      "source_path": "search-documents/videha-400.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20400.pdf"
+    },
+    {
+      "issue": "400",
+      "publication_date": "2024-08-15",
+      "section": "1.14",
+      "author": "अंतराष्ट्रीय मैथिली परिषद्क मिथिला जागरण यात्रा 201",
+      "title": "286",
+      "page_start": "1361",
+      "page_end": "1611",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 160805,
+      "source_path": "search-documents/videha-400.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20400.pdf"
+    },
+    {
+      "issue": "401",
+      "publication_date": "2024-09-01",
+      "section": "2.12",
+      "author": "रबीन्द्र नारायण मिश्र",
+      "title": "सीमाक ओहि पार (धारावाहिक उपन्यास)",
+      "page_start": "82",
+      "page_end": "95",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 9470,
+      "source_path": "search-documents/videha-401.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20401.pdf"
+    },
+    {
+      "issue": "409",
+      "publication_date": "2025-01-01",
+      "section": "2.7",
+      "author": "आचार्य रामानंद मंडल",
+      "title": "विजातीय बिआह",
+      "page_start": "43",
+      "page_end": "46",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 9666,
+      "source_path": "search-documents/videha-409.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20409.pdf"
+    },
+    {
+      "issue": "425",
+      "publication_date": "2008-01-01",
+      "section": "2.8",
+      "author": "प्रणव कुमार झा",
+      "title": "भारत मे क्रिटिकल केयर कार्यबल: एनबीईएमएस के भूमिका आ भविष्य",
+      "page_start": "41",
+      "page_end": "49",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 13475,
+      "source_path": "search-documents/videha-425.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20425.pdf"
+    },
+    {
+      "issue": "431",
+      "publication_date": "2008-01-01",
+      "section": "2.4",
+      "author": "परमानन्द लाल कर्ण",
+      "title": "बुढ़ापाक जिनगी",
+      "page_start": "30",
+      "page_end": "40",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "अध्ययन",
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 5958,
+      "source_path": "search-documents/videha-431.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20431.pdf"
+    },
+    {
+      "issue": "435",
+      "publication_date": "2008-01-01",
+      "section": "2.7",
+      "author": "प्रीति कुमारी",
+      "title": "श्री लालदेव कामत जीक व्यक्तित्व आ कृतित्व",
+      "page_start": "72",
+      "page_end": "81",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 9869,
+      "source_path": "search-documents/videha-435.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20435.pdf"
+    },
+    {
+      "issue": "442",
+      "publication_date": "2008-01-01",
+      "section": "3.6",
+      "author": "प्रणव कुमार झा",
+      "title": "आदमी",
+      "page_start": "192",
+      "page_end": "193",
+      "content_class": "other",
+      "score": 60,
+      "signals": [
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 36656,
+      "source_path": "search-documents/videha-442.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf"
+    },
+    {
+      "issue": "426",
+      "publication_date": "2008-01-01",
+      "section": "2.6",
+      "author": "लाल देव कामत",
+      "title": "विश्व शांति : पोथी चर्चा",
+      "page_start": "36",
+      "page_end": "40",
+      "content_class": "other",
+      "score": 52,
+      "signals": [
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 4551,
+      "source_path": "search-documents/videha-426.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20426.pdf"
+    },
+    {
+      "issue": "433",
+      "publication_date": "2008-01-01",
+      "section": "2.6",
+      "author": "रबीन्द्र नारायण मिश्र",
+      "title": "बाबाक दरबारमे",
+      "page_start": "60",
+      "page_end": "110",
+      "content_class": "other",
+      "score": 52,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 3473,
+      "source_path": "search-documents/videha-433.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20433.pdf"
+    },
+    {
+      "issue": "446",
+      "publication_date": "2008-01-01",
+      "section": "2.19",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "आगमडम्बरम् जयन्त भट्ट (नैयायिक)- मूल संस्कृतसँ मैथिली अनुवाद गजेन्द्र ठाकुर",
+      "page_start": "1116",
+      "page_end": "1177",
+      "content_class": "other",
+      "score": 52,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 5707,
+      "source_path": "search-documents/videha-446.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20446.pdf"
+    },
+    {
+      "issue": "400",
+      "publication_date": "2024-08-15",
+      "section": "1.18",
+      "author": "साप्ताहिक ई",
+      "title": "गोष्ठीक सूची",
+      "page_start": "1874",
+      "page_end": "1897",
+      "content_class": "other",
+      "score": 44,
+      "signals": [
+        "अनुसंधान",
+        "पद्धति",
+        "विश्वविद्यालय"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 12783,
+      "source_path": "search-documents/videha-400.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20400.pdf"
+    },
+    {
+      "issue": "408",
+      "publication_date": "2024-12-15",
+      "section": "2.8",
+      "author": "आशीष अनचिन्हार",
+      "title": "मिथिला विकास परिषद्, कोलकाता (हमरा नजरिमे)",
+      "page_start": "94",
+      "page_end": "100",
+      "content_class": "other",
+      "score": 40,
+      "signals": [
+        "संदर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 1540,
+      "source_path": "search-documents/videha-408.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20408.pdf"
+    },
+    {
+      "issue": "442",
+      "publication_date": "2008-01-01",
+      "section": "3.3",
+      "author": "अशोक कुमार ठाकुर",
+      "title": "रीत भेल कतेक नीच यौ",
+      "page_start": "183",
+      "page_end": "185",
+      "content_class": "other",
+      "score": 40,
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 1324,
+      "source_path": "search-documents/videha-442.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf"
+    },
+    {
+      "issue": "406",
+      "publication_date": "2024-11-15",
+      "section": "2.10",
+      "author": "आशीष अनचिन्हार",
+      "title": "डा. रामदेव झा, चंद्रनाथ मिश्र अमर एवं उदयनारायण सिंह नचिकेता",
+      "page_start": "57",
+      "page_end": "59",
+      "content_class": "other",
+      "score": 36,
+      "signals": [
+        "अध्ययन",
+        "विश्वविद्यालय"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 8542,
+      "source_path": "search-documents/videha-406.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20406.pdf"
+    },
+    {
+      "issue": "428",
+      "publication_date": "2008-01-01",
+      "section": "1.19",
+      "author": "आशीष अनचिन्हार",
+      "title": "भारतीय ज्ञान परंपरामे भवनाथ झाजीक महत्व",
+      "page_start": "245",
+      "page_end": "249",
+      "content_class": "other",
+      "score": 36,
+      "signals": [
+        "अध्ययन",
+        "शोध"
+      ],
+      "negative_signals": [],
+      "status": "review",
+      "body_chars": 22393,
+      "source_path": "search-documents/videha-428.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf"
+    }
+  ]
+}

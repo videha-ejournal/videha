@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T13:33:51.817265+00:00",
+  "generated": "2026-08-26T13:37:45.704874+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 0,
@@ -780,123 +780,6 @@
         "thesaurus",
         "कोश",
         "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
-      "source_path": "photogallery/photo00016475/real.htm",
-      "source_url": "https://www.videha.co.in/photogallery/photo00016475/real.htm",
-      "page_title": "This is the page",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 750,
-      "matched_terms": [
-        "अनुसंधान",
-        "अनुसन्धान",
-        "आलोचना",
-        "इतिहास",
-        "पंजी",
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "भाषाविज्ञान",
-        "मिथिला चित्रकला",
-        "लोक साहित्य",
-        "व्याकरण",
-        "शोध आलेख",
-        "संदर्भ",
-        "सन्दर्भ",
-        "समालोचना"
-      ],
-      "excluded_terms": [
-        "कथा",
-        "कविता",
-        "घोषणा",
-        "नाटक",
-        "लघुकथा",
-        "समाचार",
-        "साक्षात्कार"
-      ],
-      "special_terms": [
-        "कोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
-      "source_path": "photogallery/photo00016475/real_p.htm",
-      "source_url": "https://www.videha.co.in/photogallery/photo00016475/real_p.htm",
-      "page_title": "This is the page",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 750,
-      "matched_terms": [
-        "अनुसंधान",
-        "अनुसन्धान",
-        "आलोचना",
-        "इतिहास",
-        "पंजी",
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "भाषाविज्ञान",
-        "मिथिला चित्रकला",
-        "लोक साहित्य",
-        "व्याकरण",
-        "शोध आलेख",
-        "संदर्भ",
-        "सन्दर्भ",
-        "समालोचना"
-      ],
-      "excluded_terms": [
-        "कथा",
-        "कविता",
-        "घोषणा",
-        "नाटक",
-        "लघुकथा",
-        "समाचार",
-        "साक्षात्कार"
-      ],
-      "special_terms": [
-        "कोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
-      "source_path": "photogallery/photo00016475/real_x.htm",
-      "source_url": "https://www.videha.co.in/photogallery/photo00016475/real_x.htm",
-      "page_title": "real_x",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 750,
-      "matched_terms": [
-        "अनुसंधान",
-        "अनुसन्धान",
-        "आलोचना",
-        "इतिहास",
-        "पंजी",
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "भाषाविज्ञान",
-        "मिथिला चित्रकला",
-        "लोक साहित्य",
-        "व्याकरण",
-        "शोध आलेख",
-        "संदर्भ",
-        "सन्दर्भ",
-        "समालोचना"
-      ],
-      "excluded_terms": [
-        "कथा",
-        "कविता",
-        "घोषणा",
-        "नाटक",
-        "लघुकथा",
-        "समाचार",
-        "साक्षात्कार"
-      ],
-      "special_terms": [
-        "कोश"
       ],
       "treatment": "different-discovery-strategy",
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
