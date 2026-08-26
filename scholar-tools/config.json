@@ -1,0 +1,15 @@
+{
+  "journal_title": "Videha — First Maithili Fortnightly eJournal",
+  "journal_title_maithili": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+  "issn": "2229-547X",
+  "site_url": "https://www.videha.co.in",
+  "research_base": "https://www.videha.co.in/research",
+  "auto_publish_min_score": 100,
+  "minimum_text_chars": 1800,
+  "explicit_research_terms": ["शोध आलेख", "शोध-आलेख", "अनुसन्धान", "अनुसंधान", "अन्वेषण"],
+  "priority_terms": ["भाषाविज्ञान", "भाषा विज्ञान", "व्याकरण", "इतिहास", "सांस्कृतिक इतिहास", "लोक साहित्य", "लोक-साहित्य", "लोकसंस्कृति", "लोक-संस्कृति", "नृविज्ञान", "ethnography", "folklore", "पञ्जी", "पंजी", "मिथिला चित्रकला"],
+  "secondary_terms": ["आलोचना", "समालोचना", "समीक्षा आलेख", "seminar paper", "conference paper", "critical edition"],
+  "reference_terms": ["सन्दर्भ", "संदर्भ", "ग्रन्थसूची", "ग्रंथसूची", "bibliography", "references", "works cited"],
+  "exclude_terms": ["कविता", "कथा", "लघुकथा", "नाटक", "साक्षात्कार", "भेंटवार्ता", "समाचार", "घोषणा", "quiz", "प्रश्नोत्तरी", "ई-लर्निङ्ग", "e-learning"],
+  "book_database_terms": ["dictionary", "thesaurus", "शब्दकोश", "कोश", "wordnet"]
+}
