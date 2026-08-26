@@ -1,16 +1,16 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T14:57:36.211101+00:00",
+  "generated": "2026-08-26T15:01:41.118369+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
-    "promoted_sections_requested": 25,
-    "promoted_sections_publishable": 25,
+    "promoted_sections_requested": 31,
+    "promoted_sections_publishable": 31,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 26,
+    "published_after_all_overrides": 32,
     "build_errors": 0
   },
   "articles": [
@@ -337,6 +337,114 @@
       "path": "2026/443/नैका-बनिजारा-उपन्-यासक-आलोचनात्-मक-अध्-ययन.htm",
       "page_start": "71",
       "page_end": "76"
+    },
+    {
+      "title": "परमेश्वर कापड़ि- पद्य-रचनाक आलोचनात्मक समीक्षा",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-06-01",
+      "year": "2026",
+      "issue": "443",
+      "keywords": [],
+      "classification": "Poetry criticism; rasa-dhvani-vakrokti aesthetics; Navya-Nyaya; Maithili literary history",
+      "url": "https://www.videha.co.in/research/2026/443/परमेश्वर-कापड़ि--पद्य-रचनाक-आलोचनात्मक-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf",
+      "path": "2026/443/परमेश्वर-कापड़ि--पद्य-रचनाक-आलोचनात्मक-समीक्षा.htm",
+      "page_start": "127",
+      "page_end": "139"
+    },
+    {
+      "title": "परमेश्वर कापड़िक कथा-खिस्साकआलोचनात्मक समीक्षा",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-06-01",
+      "year": "2026",
+      "issue": "443",
+      "keywords": [],
+      "classification": "Narrative criticism; rasa-dhvani-vakrokti aesthetics; Navya-Nyaya; Maithili literary history",
+      "url": "https://www.videha.co.in/research/2026/443/परमेश्वर-कापड़िक-कथा-खिस्साकआलोचनात्मक-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf",
+      "path": "2026/443/परमेश्वर-कापड़िक-कथा-खिस्साकआलोचनात्मक-समीक्षा.htm",
+      "page_start": "118",
+      "page_end": "126"
+    },
+    {
+      "title": "परमेश्वर कापड़िक रचना-संसार- विस्तृत मैथिली साहित्यिक समीक्षा",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-06-01",
+      "year": "2026",
+      "issue": "443",
+      "keywords": [],
+      "classification": "Literary criticism; comparative aesthetics; Navya-Nyaya; Maithili literary history",
+      "url": "https://www.videha.co.in/research/2026/443/परमेश्वर-कापड़िक-रचना-संसार--विस्तृत-मैथिली-साहित्यिक-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf",
+      "path": "2026/443/परमेश्वर-कापड़िक-रचना-संसार--विस्तृत-मैथिली-साहित्यिक-समीक्षा.htm",
+      "page_start": "140",
+      "page_end": "148"
+    },
+    {
+      "title": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग-१) सन्दर्भ- परमेश्वर कापड़ि- नाटक 'रेङ–रेङ'",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-06-01",
+      "year": "2026",
+      "issue": "443",
+      "keywords": [],
+      "classification": "Drama studies; comparative theatre theory; Maithili dramatic criticism",
+      "url": "https://www.videha.co.in/research/2026/443/मैथिली-नाट्यमंच-नाटक-लेल-एकटा-समीक्षा-सिद्धान्त-भाग-१-सन्दर-1f30574894.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf",
+      "path": "2026/443/मैथिली-नाट्यमंच-नाटक-लेल-एकटा-समीक्षा-सिद्धान्त-भाग-१-सन्दर-1f30574894.htm",
+      "page_start": "149",
+      "page_end": "157"
+    },
+    {
+      "title": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग-२) सन्दर्भ- परमेश्वर कापड़ि- नाटक 'गहन उगरास'",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-06-01",
+      "year": "2026",
+      "issue": "443",
+      "keywords": [],
+      "classification": "Drama studies; comparative theatre theory; Maithili dramatic criticism",
+      "url": "https://www.videha.co.in/research/2026/443/मैथिली-नाट्यमंच-नाटक-लेल-एकटा-समीक्षा-सिद्धान्त-भाग-२-सन्दर-fbc16ce862.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf",
+      "path": "2026/443/मैथिली-नाट्यमंच-नाटक-लेल-एकटा-समीक्षा-सिद्धान्त-भाग-२-सन्दर-fbc16ce862.htm",
+      "page_start": "158",
+      "page_end": "168"
+    },
+    {
+      "title": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग-३): कुणाल-कृत ‘चालिस चोर आ गोनू झा उर्फ ज्ञान झाक खिस्सा’",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-06-01",
+      "year": "2026",
+      "issue": "443",
+      "keywords": [],
+      "classification": "Drama studies; comparative theatre theory; Maithili dramatic criticism",
+      "url": "https://www.videha.co.in/research/2026/443/मैथिली-नाट्यमंच-नाटक-लेल-एकटा-समीक्षा-सिद्धान्त-भाग-३-कुणाल-6a22c2f093.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf",
+      "path": "2026/443/मैथिली-नाट्यमंच-नाटक-लेल-एकटा-समीक्षा-सिद्धान्त-भाग-३-कुणाल-6a22c2f093.htm",
+      "page_start": "169",
+      "page_end": "191"
     },
     {
       "title": "एकैसम शताब्दीक पहिल औपन्यासिक कृति - ‘पथिक पिआसल’क तात्विक विश्लेषण",
