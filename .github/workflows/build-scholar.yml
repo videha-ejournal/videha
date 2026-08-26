@@ -6,7 +6,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/build-scholar.yml'
-      - 'scholar-data/articles/**'
+      - 'scholar-data/**'
       - 'scholar-tools/**'
       - 'templates/scholar-article.html'
       - 'search-documents/videha-*.html'
