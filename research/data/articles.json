@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T20:06:30.146011+00:00",
+  "generated": "2026-08-26T20:12:44.877453+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -10,14 +10,14 @@
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 3,
     "audit_queue_held": 31,
-    "top_level_audit_publishable": 54,
-    "top_level_audit_held": 62,
+    "top_level_audit_publishable": 52,
+    "top_level_audit_held": 64,
     "promoted_sections_requested": 37,
     "promoted_sections_publishable": 37,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 94,
-    "stale_generated_pages_removed_before_render": 95,
+    "published_after_all_overrides": 92,
+    "stale_generated_pages_removed_before_render": 94,
     "build_errors": 0
   },
   "articles": [
@@ -148,24 +148,6 @@
       "page_end": null
     },
     {
-      "title": "History of Mithila Painting: An Introduction2. Original Poem in Maithili by Gajendra Thakur Translated into English by Jyoti Jha Chaudhary",
-      "english_title": null,
-      "authors": [
-        "Sweta Jha"
-      ],
-      "publication_date": "2010-09-15",
-      "year": "2010",
-      "issue": "66",
-      "keywords": [],
-      "classification": "History / cultural history article",
-      "url": "https://www.videha.co.in/research/2010/66/history-of-mithila-painting-an-introduction2-original-poem-in-maithili-by-gajendra-thakur-translated-into-english-by-jyoti-jha-chaudhary.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20066.pdf",
-      "path": "2010/66/history-of-mithila-painting-an-introduction2-original-poem-in-maithili-by-gajendra-thakur-translated-into-english-by-jyoti-jha-chaudhary.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
       "title": "प्रदेश केर विकास : एक चिन्तन- (बिहार-विकास सन्दर्भ मे आलोचनात्मक अभिव्यक्ति)",
       "english_title": null,
       "authors": [
@@ -198,24 +180,6 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20071.pdf",
       "path": "2010/71/मिथिला-चित्रकला.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
-      "title": "विद्यापति २.डॉ0 मेघन प्रसाद- मैथिलीमे अनुवाद-कलाक शास्त्रीयकरणक इतिहास",
-      "english_title": null,
-      "authors": [
-        "रवि भूषण पाठक"
-      ],
-      "publication_date": "2011-01-15",
-      "year": "2011",
-      "issue": "74",
-      "keywords": [],
-      "classification": "History / cultural history article",
-      "url": "https://www.videha.co.in/research/2011/74/विद्यापति-२-डॉ0-मेघन-प्रसाद--मैथिलीमे-अनुवाद-कलाक-शास्त्रीयक-4d2ee65a89.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20074.pdf",
-      "path": "2011/74/विद्यापति-२-डॉ0-मेघन-प्रसाद--मैथिलीमे-अनुवाद-कलाक-शास्त्रीयक-4d2ee65a89.htm",
       "page_start": null,
       "page_end": null
     },

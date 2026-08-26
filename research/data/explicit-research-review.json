@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26T20:06:30.145154+00:00",
+  "generated": "2026-08-26T20:12:44.876641+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -8,14 +8,14 @@
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 3,
     "audit_queue_held": 31,
-    "top_level_audit_publishable": 54,
-    "top_level_audit_held": 62,
+    "top_level_audit_publishable": 52,
+    "top_level_audit_held": 64,
     "promoted_sections_requested": 37,
     "promoted_sections_publishable": 37,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 94,
-    "stale_generated_pages_removed_before_render": 95,
+    "published_after_all_overrides": 92,
+    "stale_generated_pages_removed_before_render": 94,
     "build_errors": 0
   },
   "explicit_review": [
@@ -469,6 +469,18 @@
       "section": "2",
       "label": "१.प्रोफेसर राधाकृष्ण चौधरी-मिथिलाक इतिहास (आगाँ)",
       "reason": "bounded body not recovered"
+    },
+    {
+      "issue": "66",
+      "section": "8",
+      "label": "2.1.Sweta Jha -History of Mithila Painting: An Introduction2. Original Poem in Maithili by Gajendra Thakur Translated into English by Jyoti Jha Chaudhary",
+      "reason": "explicit name-like author/title not recoverable from heading"
+    },
+    {
+      "issue": "74",
+      "section": "2",
+      "label": "५.१. रवि भूषण पाठक- विद्यापति २.डॉ0 मेघन प्रसाद- मैथिलीमे अनुवाद-कलाक शास्त्रीयकरणक इतिहास",
+      "reason": "explicit name-like author/title not recoverable from heading"
     },
     {
       "issue": "76",
