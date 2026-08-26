@@ -1,16 +1,37 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T14:00:51.335902+00:00",
+  "generated": "2026-08-26T14:04:35.225482+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
+    "promoted_sections_requested": 4,
+    "promoted_sections_publishable": 4,
+    "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_curated_override": 1,
-    "build_errors": 0
+    "published_after_all_overrides": 4,
+    "build_errors": 1
   },
   "articles": [
+    {
+      "title": "इसरो - स्पेसX के एक्सिओम-४ मिशन के तकनीकी विश्लेषण",
+      "english_title": null,
+      "authors": [
+        "डॉ वी एन झा"
+      ],
+      "publication_date": "2025-08-01",
+      "year": "2025",
+      "issue": "423",
+      "keywords": [],
+      "classification": "Technical analysis",
+      "url": "https://www.videha.co.in/research/2025/423/इसरो---स्पेसx-के-एक्सिओम-४-मिशन-के-तकनीकी-विश्लेषण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20423.pdf",
+      "path": "2025/423/इसरो---स्पेसx-के-एक्सिओम-४-मिशन-के-तकनीकी-विश्लेषण.htm",
+      "page_start": "32",
+      "page_end": "43"
+    },
     {
       "title": "अशिक्षाक शिकार: केवट समाज (शोध आलेख)",
       "english_title": null,
@@ -28,6 +49,42 @@
       "path": "2026/438/ashikshak-shikar-kevat-samaj.htm",
       "page_start": "32",
       "page_end": "36"
+    },
+    {
+      "title": "नैका बनिजारा उपन्‍यासक आलोचनात्‍मक अध्‍ययन",
+      "english_title": null,
+      "authors": [
+        "अमरेश ठाकुर"
+      ],
+      "publication_date": "2026-06-01",
+      "year": "2026",
+      "issue": "443",
+      "keywords": [],
+      "classification": "Literary criticism",
+      "url": "https://www.videha.co.in/research/2026/443/नैका-बनिजारा-उपन्-यासक-आलोचनात्-मक-अध्-ययन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf",
+      "path": "2026/443/नैका-बनिजारा-उपन्-यासक-आलोचनात्-मक-अध्-ययन.htm",
+      "page_start": "71",
+      "page_end": "76"
+    },
+    {
+      "title": "एकैसम शताब्दीक पहिल औपन्यासिक कृति - ‘पथिक पिआसल’क तात्विक विश्लेषण",
+      "english_title": null,
+      "authors": [
+        "अभिनंदिनी कुमारी"
+      ],
+      "publication_date": "2026-08-01",
+      "year": "2026",
+      "issue": "447",
+      "keywords": [],
+      "classification": "Literary criticism",
+      "url": "https://www.videha.co.in/research/2026/447/एकैसम-शताब्दीक-पहिल-औपन्यासिक-कृति---पथिक-पिआसल-क-तात्विक-विश्लेषण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf",
+      "path": "2026/447/एकैसम-शताब्दीक-पहिल-औपन्यासिक-कृति---पथिक-पिआसल-क-तात्विक-विश्लेषण.htm",
+      "page_start": "39",
+      "page_end": "51"
     }
   ],
   "candidates": [

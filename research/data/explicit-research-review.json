@@ -1,13 +1,25 @@
 {
-  "generated": "2026-08-26T14:00:51.335723+00:00",
+  "generated": "2026-08-26T14:04:35.225342+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
+    "promoted_sections_requested": 4,
+    "promoted_sections_publishable": 4,
+    "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_curated_override": 1,
-    "build_errors": 0
+    "published_after_all_overrides": 4,
+    "build_errors": 1
   },
-  "review": [],
-  "build_errors": []
+  "explicit_review": [],
+  "promotion_review": [],
+  "build_errors": [
+    {
+      "manifest": null,
+      "auto_source": "search-documents/videha-447.html",
+      "issue": "447",
+      "title": "मैथिलीक एकटा समानान्तर व्याकरण, रचना आ भाषा-विज्ञान (ठेठी-अंगिका आ बज्जिकाकेँ संग लऽ कऽ)- गजेन्द्र ठाकुर] एकीकृत विस्तृत समालोचनात्मक शोध-समीक्षा",
+      "error": "[Errno 36] File name too long: '/home/runner/work/videha/videha/research/2026/447/मैथिलीक-एकटा-समानान्तर-व्याकरण-रचना-आ-भाषा-विज्ञान-ठेठी-अंगिका-आ-बज्जिकाकेँ-संग-लऽ-कऽ---गजेन्द्र-ठाक.pdf'"
+    }
+  ]
 }
