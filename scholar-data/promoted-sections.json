@@ -31,6 +31,16 @@
   },
   {
     "issue": "428",
+    "section": "1.4",
+    "classification": "Textual criticism; manuscript studies; Agastya Samhita interpolation analysis"
+  },
+  {
+    "issue": "428",
+    "section": "1.6",
+    "classification": "Bibliographic survey; manuscript editing; Sanskrit textual scholarship"
+  },
+  {
+    "issue": "428",
     "section": "1.8",
     "classification": "Research methodology; epigraphy; manuscript studies; Mithila historiography"
   },
@@ -43,6 +53,21 @@
     "issue": "442",
     "section": "2.3",
     "classification": "Cyber security; digital hygiene; public safety review"
+  },
+  {
+    "issue": "442",
+    "section": "2.11",
+    "classification": "Literary history; Maithili novel studies; academic criticism"
+  },
+  {
+    "issue": "442",
+    "section": "2.12",
+    "classification": "Literary criticism; narrative studies; comparative critical theory"
+  },
+  {
+    "issue": "442",
+    "section": "2.13",
+    "classification": "Poetry criticism; comparative poetics; literary theory"
   },
   {
     "issue": "442",
