@@ -1,16 +1,16 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T14:43:46.804730+00:00",
+  "generated": "2026-08-26T14:48:53.899400+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
-    "promoted_sections_requested": 19,
-    "promoted_sections_publishable": 19,
+    "promoted_sections_requested": 23,
+    "promoted_sections_publishable": 23,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 20,
+    "published_after_all_overrides": 24,
     "build_errors": 0
   },
   "articles": [
@@ -357,6 +357,42 @@
       "page_end": "525"
     },
     {
+      "title": "भामती (वाचस्पति)/ आत्मतत्त्वविवेक (उदयन)/ न्यायकुसुमाञ्जलि (उदयन)/ तत्त्वचिन्तामणि (गंगेश): ग्रन्थ-सार आ समालोचनात्मक मूल्याङ्कन",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-08-01",
+      "year": "2026",
+      "issue": "447",
+      "keywords": [],
+      "classification": "Indian philosophy; Navya-Nyaya; textual and comparative philosophical criticism",
+      "url": "https://www.videha.co.in/research/2026/447/भामती-वाचस्पति-आत्मतत्त्वविवेक-उदयन-न्यायकुसुमाञ्जलि-उदय-9a1b934507.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf",
+      "path": "2026/447/भामती-वाचस्पति-आत्मतत्त्वविवेक-उदयन-न्यायकुसुमाञ्जलि-उदय-9a1b934507.htm",
+      "page_start": "222",
+      "page_end": "339"
+    },
+    {
+      "title": "मैथिली बाल-उपन्यासक समीक्षाशास्त्र",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-08-01",
+      "year": "2026",
+      "issue": "447",
+      "keywords": [],
+      "classification": "Children’s literature studies; Maithili novel criticism; comparative literary theory",
+      "url": "https://www.videha.co.in/research/2026/447/मैथिली-बाल-उपन्यासक-समीक्षाशास्त्र.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf",
+      "path": "2026/447/मैथिली-बाल-उपन्यासक-समीक्षाशास्त्र.htm",
+      "page_start": "584",
+      "page_end": "656"
+    },
+    {
       "title": "मैथिलीक एकटा समानान्तर व्याकरण, रचना आ भाषा-विज्ञान (ठेठी-अंगिका आ बज्जिकाकेँ संग लऽ कऽ)- गजेन्द्र ठाकुर] एकीकृत विस्तृत समालोचनात्मक शोध-समीक्षा",
       "english_title": null,
       "authors": [
@@ -373,6 +409,42 @@
       "path": "2026/447/मैथिलीक-एकटा-समानान्तर-व्याकरण-रचना-आ-भाषा-विज्ञान-ठेठी-अंग-3f90ef14df.htm",
       "page_start": "383",
       "page_end": "442"
+    },
+    {
+      "title": "समग्र सिंहावलोकन-चतुर्भाणी, दामक प्रहसनम्, हास्यार्णव, आगमडम्बरम्, कादम्बरी, भल्लट-क्षेमेन्द्र-नीलकण्ठक व्यंग्य-त्रयी, पलाण्डुमण्डन, उत्तररामचरितम्, अभिज्ञानशाकुन्तलम्, मुद्राराक्षसम्, मृच्छकटिकम्, भगवदज्जुकम् आ मत्तविलास तेरहटा अनूदित पोथीक तुलनात्मक अध्ययन [संस्कृतसँ मैथिली अनुवाद गजेन्द्र ठाकुर]",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-08-01",
+      "year": "2026",
+      "issue": "447",
+      "keywords": [],
+      "classification": "Comparative Sanskrit literature; translation studies; literary criticism",
+      "url": "https://www.videha.co.in/research/2026/447/समग्र-सिंहावलोकन-चतुर्भाणी-दामक-प्रहसनम्-हास्यार्णव-आगमडम-99d9c6ef37.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf",
+      "path": "2026/447/समग्र-सिंहावलोकन-चतुर्भाणी-दामक-प्रहसनम्-हास्यार्णव-आगमडम-99d9c6ef37.htm",
+      "page_start": "181",
+      "page_end": "221"
+    },
+    {
+      "title": "‘बज्जिका गीत-संगीत’ : समेकित द्विभाषिक बहुआयामी साहित्यिक समीक्षा- डॉ. रामेश्वर प्रसादक कृतिक मैथिली–बज्जिका समानान्तर अनुशीलन",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-08-01",
+      "year": "2026",
+      "issue": "447",
+      "keywords": [],
+      "classification": "Bajjika studies; folk music; comparative literary and cultural criticism",
+      "url": "https://www.videha.co.in/research/2026/447/बज्जिका-गीत-संगीत-समेकित-द्विभाषिक-बहुआयामी-साहित्यिक-समीक-54c5fee255.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf",
+      "path": "2026/447/बज्जिका-गीत-संगीत-समेकित-द्विभाषिक-बहुआयामी-साहित्यिक-समीक-54c5fee255.htm",
+      "page_start": "526",
+      "page_end": "583"
     }
   ],
   "candidates": [
