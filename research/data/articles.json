@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-27T01:08:51.630890+00:00",
+  "generated": "2026-08-27T05:13:59.412223+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -13,13 +13,13 @@
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
-    "sadeha_discovered_held": 5,
-    "promoted_sections_requested": 37,
-    "promoted_sections_publishable": 37,
+    "sadeha_discovered_held": 1,
+    "promoted_sections_requested": 38,
+    "promoted_sections_publishable": 38,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 92,
-    "stale_generated_pages_removed_before_render": 93,
+    "published_after_all_overrides": 93,
+    "stale_generated_pages_removed_before_render": 92,
     "build_errors": 0
   },
   "articles": [
@@ -146,6 +146,24 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20053.pdf",
       "path": "2010/53/मिथिलाक-इतिहास-अन्तिम-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हरिमोहन झाक रचनाक परवर्त्ती",
+      "english_title": null,
+      "authors": [
+        "प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2010-06-01",
+      "year": "2010",
+      "issue": "59",
+      "keywords": [],
+      "classification": "Literary criticism; Maithili literary history; Harimohan Jha influence studies",
+      "url": "https://www.videha.co.in/research/2010/59/हरिमोहन-झाक-रचनाक-परवर्त्ती.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20059.pdf",
+      "path": "2010/59/हरिमोहन-झाक-रचनाक-परवर्त्ती.htm",
       "page_start": null,
       "page_end": null
     },
