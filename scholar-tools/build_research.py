@@ -150,6 +150,7 @@ def render_article(rec):
     pdf_link=f' · <a href="{CFG["research_base"]}/{pdf_rel}">PDF</a>' if pdf_path.exists() else ""
     vals={
         "TITLE":html.escape(rec["title"]),"TITLE_ATTR":esc_attr(rec["title"]),"CANONICAL_URL":canonical,
+        "LANGUAGE":esc_attr(rec.get("language","mai")),
         "CITATION_AUTHORS":citation_authors,"DATE":esc_attr(rec["publication_date"]),"ISSUE":esc_attr(issue),
         "CITATION_VOLUME":citation_volume,"CITATION_PAGES":citation_pages,"CITATION_PDF":citation_pdf,
         "DESCRIPTION_META":description_meta,"JSON_LD":json.dumps(jsonld,ensure_ascii=False).replace("</","<\\/"),
@@ -161,7 +162,7 @@ def render_article(rec):
     page=TEMPLATE
     for k,v in vals.items(): page=page.replace("{{"+k+"}}",str(v))
     out=RESEARCH/rel; out.parent.mkdir(parents=True,exist_ok=True); out.write_text(page,encoding="utf-8")
-    return {"title":rec["title"],"english_title":rec.get("english_title"),"authors":authors,"publication_date":rec["publication_date"],"year":year,"issue":issue,"keywords":rec.get("keywords",[]),"classification":rec.get("classification","research article"),"url":canonical,"pdf_url":f"{CFG['research_base']}/{pdf_rel}" if pdf_path.exists() else None,"source_url":rec["source_url"],"path":rel,"page_start":page_start or None,"page_end":page_end or None}
+    return {"title":rec["title"],"english_title":rec.get("english_title"),"authors":authors,"publication_date":rec["publication_date"],"year":year,"issue":issue,"language":rec.get("language","mai"),"keywords":rec.get("keywords",[]),"classification":rec.get("classification","research article"),"url":canonical,"pdf_url":f"{CFG['research_base']}/{pdf_rel}" if pdf_path.exists() else None,"source_url":rec["source_url"],"path":rel,"page_start":page_start or None,"page_end":page_end or None}
 
 def write_index(articles,candidates):
     cards=[]
