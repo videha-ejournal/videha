@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Extract editor-approved retrospective Videha sections into Scholar records.
 
-The whitelist in scholar-data/promoted-sections.json is editorially controlled.
-This module never guesses promotions: it only resolves those exact issue/section
-pairs, and it rejects records whose source metadata/body cannot be recovered.
-Explicit title/author overrides are allowed only when the editor has verified the
-source heading and the automatic TOC parser cannot represent it correctly.
+The whitelists in scholar-data/promoted-sections.json and
+scholar-data/sadeha-promoted-sections.json are editorially controlled. This module
+never guesses promotions: it only resolves those exact issue/section pairs, and it
+rejects records whose source metadata/body cannot be recovered. Sadeha remains
+*discovery evidence* only; rendered citation identity always comes from the original
+Videha issue.
 """
 from __future__ import annotations
 
@@ -26,18 +27,35 @@ from extract_explicit_research import (
 
 def _issue_path(root: Path, issue: str) -> Path | None:
     docs = root / "search-documents"
-    for suffix in (".html", ".htm"):
-        p = docs / f"videha-{int(issue)}{suffix}"
+    for name in (f"videha-{int(issue):03d}.html", f"videha-{int(issue)}.html", f"videha-{int(issue)}.htm"):
+        p = docs / name
         if p.exists():
             return p
     return None
 
 
+def _load_specs(root: Path) -> list[dict]:
+    specs: list[dict] = []
+    for filename, source in (
+        ("promoted-sections.json", "editor-approved retrospective section"),
+        ("sadeha-promoted-sections.json", "editor-approved Sadeha rediscovery"),
+    ):
+        path = root / "scholar-data" / filename
+        if not path.exists():
+            continue
+        data = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(data, list):
+            continue
+        for row in data:
+            if isinstance(row, dict):
+                rec = dict(row)
+                rec["_promotion_source"] = source
+                specs.append(rec)
+    return specs
+
+
 def load_promoted(root: Path) -> tuple[list[dict], list[dict]]:
-    cfg_path = root / "scholar-data" / "promoted-sections.json"
-    if not cfg_path.exists():
-        return [], []
-    specs = json.loads(cfg_path.read_text(encoding="utf-8"))
+    specs = _load_specs(root)
     records: list[dict] = []
     review: list[dict] = []
 
@@ -112,7 +130,8 @@ def load_promoted(root: Path) -> tuple[list[dict], list[dict]]:
             "full_text_html": body_to_html(body),
             "_auto_source": path.relative_to(root).as_posix(),
             "_auto_section": section,
-            "_promotion": "editor-approved retrospective section",
+            "_promotion": spec.get("_promotion_source") or "editor-approved retrospective section",
+            "_sadeha_evidence": spec.get("sadeha_evidence"),
             "_metadata_override": bool(author_override or title_override),
         })
 
