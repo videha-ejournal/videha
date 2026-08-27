@@ -2,6 +2,7 @@
 """Static smoke tests for the author publication-certificate widget."""
 
 from pathlib import Path
+import json
 import struct
 import sys
 
@@ -9,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PAGE = ROOT / "publication-certificate.html"
 CSS = ROOT / "assets" / "css" / "videha-certificate.css"
 JS = ROOT / "assets" / "js" / "videha-certificate.js"
+PUBLICATIONS = ROOT / "data" / "videha-author-publications.json"
 QR = [ROOT / "assets" / "img" / "qr-videha-primary.png", ROOT / "assets" / "img" / "qr-videha-github.png"]
 
 
@@ -31,12 +33,22 @@ def main():
         require(required in html, f"Certificate page is missing {required}")
     for required in ["@media print", "size:A4 landscape", ".vpc-qr-card"]:
         require(required in css, f"Certificate CSS is missing {required}")
-    for required in ["PF_CANDIDATES", "KNOWLEDGE_CANDIDATES", "filters:{publication", "canonicalRecord", "window.print()", "self-cert"]:
+    for required in ["PF_CANDIDATES", "PUBLICATION_CANDIDATES", "verifiedWork", "workTitle", "selectionStillMatches", "canonicalRecord", "window.print()", "self-cert"]:
         require(required.lower() in js.lower(), f"Certificate JavaScript is missing {required}")
+    publications = json.loads(PUBLICATIONS.read_text(encoding="utf-8"))
+    records = publications.get("records", [])
+    require(publications.get("count") == len(records), "Author-publication count does not match its records")
+    require(len(records) >= 3000, f"Author-publication index is unexpectedly small: {len(records)}")
+    require(all(r.get("author") and r.get("title") and r.get("issue") for r in records), "An author-publication record is incomplete")
+    keys = {(r["publication"], r["issue"], r.get("version", ""), r["author"], r["title"]) for r in records}
+    require(len(keys) == len(records), "Author-publication index contains duplicate records")
+    require(any("कैलाश कुमार मिश्र" in r["author"] for r in records), "Expected Kailash Kumar Mishra records are missing")
+    require(any("गजेन्द्र ठाकुर" in r["author"] for r in records), "Expected Gajendra Thakur records are missing")
+    require(any(r.get("researchUrl", "").startswith("https://www.videha.co.in/research/") for r in records), "Validated Scholar article URLs were not merged")
     for path in QR:
         width, height = png_size(path)
         require(width == height and width >= 400, f"QR image is too small: {path.name} {width}x{height}")
-    print("Publication-certificate widget validation passed: page, print CSS, archive lookup, declaration, and both QR assets present.")
+    print(f"Publication-certificate validation passed: {len(records)} author-work records, exact-match UI, manual fallback, print CSS, and QR assets.")
 
 
 if __name__ == "__main__":

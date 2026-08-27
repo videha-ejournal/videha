@@ -8,7 +8,9 @@ on:
       - 'data/videha-archive-manifest.json'
       - 'data/videha-deployment.json'
       - 'data/videha-knowledge-graph.json'
+      - 'data/videha-author-publications.json'
       - 'data/videha-archive-facets.json'
+      - 'research/data/article-inventory.json'
   workflow_dispatch:
 
 permissions:
@@ -31,6 +33,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+
+      - name: Refresh article-level author and title inventory
+        run: python3 scholar-tools/build_article_inventory.py
 
       - name: Refresh Videha digital archive manifests
         run: python3 tools/build-videha-digital.py
@@ -63,7 +68,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pagefind data/videha-archive-manifest.json data/videha-knowledge-graph.json data/videha-deployment.json data/videha-archive-facets.json
+          git add pagefind data/videha-archive-manifest.json data/videha-knowledge-graph.json data/videha-author-publications.json data/videha-deployment.json data/videha-archive-facets.json research/data/article-inventory.json
           if git diff --cached --quiet; then
             echo "Search index unchanged."
           else

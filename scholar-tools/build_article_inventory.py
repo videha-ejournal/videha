@@ -64,11 +64,11 @@ def classify(title: str, body: str, section: str) -> tuple[str, list[str], bool]
     return "unclassified", [], False
 
 
-def scan_issue(path: Path) -> list[dict]:
+def scan_issue(path: Path, issue_override: str | None = None) -> list[dict]:
     m = re.search(r"videha-(\d{1,4})\.html?$", path.name, re.I)
-    if not m:
+    if not m and not issue_override:
         return []
-    issue = str(int(m.group(1)))
+    issue = str(int(issue_override or m.group(1)))
     raw = path.read_text(encoding="utf-8", errors="ignore")
     parser = SourceParser()
     try:
@@ -104,6 +104,24 @@ def scan_issue(path: Path) -> list[dict]:
     return rows
 
 
+def current_index_issue(path: Path) -> str | None:
+    """Return the live index.htm issue so forthcoming issues enter the inventory immediately."""
+    if not path.exists():
+        return None
+    raw = path.read_text(encoding="utf-8", errors="ignore")
+    trans = str.maketrans("०१२३४५६७८९", "0123456789")
+    patterns = [
+        r'issue-number-square[^>]*>\s*([०-९0-9]{1,4})\s*<',
+        r'विदेह\s+अंक\s*([०-९0-9]{1,4})',
+        r'Current\s+Issue\s*[:#-]?\s*([०-९0-9]{1,4})',
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, raw, re.I | re.S)
+        if match:
+            return str(int(match.group(1).translate(trans)))
+    return None
+
+
 def main() -> None:
     files = issue_files(ROOT / "search-documents")
     rows: list[dict] = []
@@ -113,10 +131,20 @@ def main() -> None:
             rows.extend(scan_issue(path))
         except Exception as exc:
             errors.append({"source_path": path.relative_to(ROOT).as_posix(), "error": str(exc)})
+    live_issue = current_index_issue(ROOT / "index.htm")
+    archived_issues = {str(int(r["issue"])) for r in rows}
+    live_included = bool(live_issue and live_issue not in archived_issues)
+    if live_included:
+        try:
+            rows.extend(scan_issue(ROOT / "index.htm", live_issue))
+        except Exception as exc:
+            errors.append({"source_path": "index.htm", "error": str(exc)})
     rows.sort(key=lambda r: (int(r["issue"]), r["section"]))
     candidates = [r for r in rows if r["scholar_candidate"]]
     payload = {
         "issue_files_scanned": len(files),
+        "current_index_issue": live_issue,
+        "current_index_included": live_included,
         "article_entries_inventoried": len(rows),
         "scholar_candidates": len(candidates),
         "parse_errors": errors,

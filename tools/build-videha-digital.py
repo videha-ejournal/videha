@@ -135,6 +135,55 @@ cats=collections.Counter((e.get('c') or 'other') for e in entries)
 knowledge={'generated':now,'authors':authors,'categories':dict(cats),'note':'High-precision navigational author/name labels automatically extracted from numbered Videha TOC lines; not an authority-controlled identity file.','archive':{'videha':maxv,'currentIssue':cur,'sadehaDocuments':sadeha}}
 (DATA/'videha-knowledge-graph.json').write_text(json.dumps(knowledge,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
 
+# Article-level author/title relationships for the publication-certificate finder.
+# The inventory is rebuilt from every archived issue and the live index.htm before
+# this script runs in CI. Validated Scholar pages are merged as preferred direct URLs.
+def publication_key(issue,author,title):
+    def norm(value):
+        value=str(value or '').casefold().replace('\u200c','').replace('\u200d','')
+        return re.sub(r'[^\w\u0900-\u097f]+',' ',value,flags=re.UNICODE).strip()
+    return (str(int(issue)) if str(issue).isdigit() else str(issue),norm(author),norm(title))
+
+publication_records=[]; publication_seen={}
+inventory_path=ROOT/'research'/'data'/'article-inventory.json'
+if inventory_path.exists():
+    try:
+      inventory=json.loads(inventory_path.read_text(encoding='utf-8'))
+      for row in inventory.get('rows',[]):
+        issue=str(row.get('issue') or '').strip(); author=clean(row.get('author')); work=clean(row.get('title'))
+        if not issue.isdigit() or not author or not work:continue
+        source_path=str(row.get('source_path') or f"search-documents/videha-{int(issue):03d}.html")
+        archive_url=PRIMARY if source_path=='index.htm' else GITHUB+source_path
+        record={'publication':'VIDEHA','issue':int(issue),'version':'','author':author,'title':work,'section':str(row.get('section') or ''),'archiveUrl':archive_url}
+        source_url=str(row.get('source_url') or '').strip()
+        if source_url:record['sourceUrl']=source_url
+        key=publication_key(issue,author,work)
+        if key in publication_seen:continue
+        publication_seen[key]=len(publication_records);publication_records.append(record)
+    except Exception as exc:print('warning: article inventory skipped:',exc)
+
+scholar_path=ROOT/'research'/'data'/'articles.json'
+if scholar_path.exists():
+    try:
+      scholar=json.loads(scholar_path.read_text(encoding='utf-8'))
+      for article in scholar.get('articles',scholar if isinstance(scholar,list) else []):
+        issue=str(article.get('issue') or '').strip();work=clean(article.get('title'));research_url=str(article.get('url') or '').strip()
+        for author in article.get('authors') or []:
+          author=clean(author);key=publication_key(issue,author,work)
+          if not issue.isdigit() or not author or not work:continue
+          if key in publication_seen:
+            if research_url:publication_records[publication_seen[key]]['researchUrl']=research_url
+          else:
+            record={'publication':'VIDEHA','issue':int(issue),'version':'','author':author,'title':work,'section':'','archiveUrl':GITHUB+f"search-documents/videha-{int(issue):03d}.html"}
+            if research_url:record['researchUrl']=research_url
+            source_url=str(article.get('source_url') or '').strip()
+            if source_url:record['sourceUrl']=source_url
+            publication_seen[key]=len(publication_records);publication_records.append(record)
+    except Exception as exc:print('warning: Scholar publication merge skipped:',exc)
+publication_records.sort(key=lambda x:(x['author'].casefold(),-x['issue'],x['title'].casefold()))
+publication_index={'generated':now,'count':len(publication_records),'source':'Automatically rebuilt from archived issue TOCs, the live current issue, and validated Videha Scholar metadata. Historical parsing may be incomplete; manual self-certification remains available.','records':publication_records}
+(DATA/'videha-author-publications.json').write_text(json.dumps(publication_index,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+
 deploy={'generated':now,'strategy':{'videha.co.in':{'role':'canonical lightweight publication site','exclude':['pagefind/**','search-documents/**','.github/**','tools/**'],'ordinarySearchResults':'https://www.videha.co.in/<same-path>','historicalSearchResults':GITHUB+'search-documents/<file>'},'github':{'role':'full static archive/search/studio fallback','include':'full package','ordinarySearchResults':GITHUB+'<same-path>','historicalSearchResults':GITHUB+'search-documents/<file>'}},'currentIssue':cur,'historicalThrough':maxv}
 (DATA/'videha-deployment.json').write_text(json.dumps(deploy,ensure_ascii=False,indent=2),encoding='utf-8')
-print('current',cur,'historical',maxv,'sadeha docs',sadeha,'pages',len(entries),'author labels',len(authors))
+print('current',cur,'historical',maxv,'sadeha docs',sadeha,'pages',len(entries),'author labels',len(authors),'author-publications',len(publication_records))
