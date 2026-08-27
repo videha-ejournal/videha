@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27T01:03:34.112115+00:00",
+  "generated": "2026-08-27T01:08:51.630206+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -10,13 +10,13 @@
     "audit_queue_held": 31,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
-    "sadeha_discovered_publishable": 3,
-    "sadeha_discovered_held": 2,
+    "sadeha_discovered_publishable": 0,
+    "sadeha_discovered_held": 5,
     "promoted_sections_requested": 37,
     "promoted_sections_publishable": 37,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 93,
+    "published_after_all_overrides": 92,
     "stale_generated_pages_removed_before_render": 93,
     "build_errors": 0
   },
@@ -589,6 +589,13 @@
   ],
   "sadeha_review": [
     {
+      "issue": "79",
+      "section": "2.5",
+      "author": "डॉ. कैलाश कुमार मिश्र",
+      "title": "मिथिला चित्रकला (पेटिंग): भूत, वर्त्तमान आ भविष्य",
+      "reason": "extracted body begins with unrelated material before the expected author/title heading"
+    },
+    {
       "issue": "81",
       "section": "2.1",
       "author": "जितेन्द्र झा",
@@ -596,11 +603,25 @@
       "reason": "source body heading does not align with expected section/author/title"
     },
     {
+      "issue": "87",
+      "section": "2.7",
+      "author": "अरविन्द ठाकुर",
+      "title": "मिथिलाक संस्कृति:किछु अप्रिय बिन्दु",
+      "reason": "extracted body begins with unrelated material before the expected author/title heading"
+    },
+    {
       "issue": "99",
       "section": "2.1",
       "author": "नवेंदु कुमार झा",
       "title": "बिहारक औद्योगिक विकास मे बाधा बनि रहल जमीन आ बिजली/ राशन कार्डक होयत डिजिटलीकरण/ मिथिलांचल मे माछ उत्पादक भरोसा देलनि मुख्यमंत्री, सौराठ मे खुजत मिथिला चित्रकला संस्थान/ जन आंदोलन सँ होयत कोसीक समस्याक समाधान-मेधा पाटेकर",
       "reason": "multi-topic / slash-joined headline is not a standalone scholarly article"
+    },
+    {
+      "issue": "195",
+      "section": "2.3",
+      "author": "आशीष अनचिन्हार",
+      "title": "गाम के अधिकारी तोहे बड़का भैया हो (आलोचना)",
+      "reason": "extracted body begins with unrelated material before the expected author/title heading"
     }
   ],
   "promotion_review": [],
