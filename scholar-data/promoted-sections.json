@@ -188,5 +188,135 @@
     "issue": "447",
     "section": "2.22",
     "classification": "Drama studies; comparative theatre theory; Maithili dramatic criticism"
+  },
+  {
+    "issue": "112",
+    "section": "2.1",
+    "classification": "Maithili ghazal studies; rhyme theory; phonology; prosody"
+  },
+  {
+    "issue": "113",
+    "section": "2.1",
+    "classification": "Maithili ghazal studies; rhyme and metre; phonology; prosody"
+  },
+  {
+    "issue": "301",
+    "section": "2.4",
+    "author_override": "आशीष अनचिन्हार",
+    "title_override": "मिथिला-मैथिलीक प्रारंभिक Apps",
+    "classification": "Digital humanities; Maithili computing; mobile applications; digital history",
+    "body_source": "search-documents/videha-301.html",
+    "manual_body_start": "मिथिला-मैथिलीक प्रारंभिक Apps\nApp शब्द application",
+    "manual_body_end": "ऐ रचनापर अपन मंतव्य"
+  },
+  {
+    "issue": "303",
+    "section": "2.4",
+    "author_override": "आशीष अनचिन्हार",
+    "title_override": "यूट्यूब आ मैथिली",
+    "classification": "Digital media studies; Maithili web journalism; YouTube history",
+    "body_source": "search-documents/videha-303.html",
+    "manual_body_start": "यूट्यूब आ मैथिली\nफरवरी 2005मे",
+    "manual_body_end": "पाठकीय:"
+  },
+  {
+    "issue": "305",
+    "section": "2.4",
+    "author_override": "आशीष अनचिन्हार",
+    "title_override": "मैथिलीमे इंटरनेट",
+    "classification": "Digital humanities; Maithili internet history; web journalism",
+    "body_source": "search-documents/videha-305.html",
+    "manual_body_start": "मैथिलीमे इंटरनेटसँ हमर मतलब",
+    "manual_body_end": "ऐ रचनापर अपन मंतव्य"
+  },
+  {
+    "issue": "437",
+    "section": "2.6",
+    "classification": "Maithili ghazal criticism; genre theory; prosody"
+  },
+  {
+    "issue": "309",
+    "section": "2.17",
+    "author_override": "मुन्नाजी",
+    "title_override": "बीहनि कथा: मानकीकरण ओ तुलनात्मक पक्ष",
+    "classification": "Bihani Katha studies; genre theory; comparative short-fiction studies",
+    "body_source": "search-documents/videha-309.html",
+    "manual_body_start": "बीहनि कथा-- मानकीकरण ओ तुलनात्मक पक्ष\nमैथिली कथा साहित्य",
+    "manual_body_end": "नारी शब्दक विवेचना\n:: डॉ. अपर्णा"
+  },
+  {
+    "issue": "318",
+    "section": "2.6",
+    "author_override": "मुन्नाजी",
+    "title_override": "बीहनि कथाक दशा-दिशा",
+    "classification": "Bihani Katha studies; genre definition; literary history and criticism",
+    "body_source": "search-documents/videha-318.html",
+    "manual_body_start": "बीहनि कथाक दशा- दिशा\n-----------------------------------",
+    "manual_body_end": "मूल नेपाली कथाकार:रचना शर्मा"
+  },
+  {
+    "issue": "320",
+    "section": "3.2",
+    "author_override": "मुन्नाजी",
+    "title_override": "आधुनिक विश्वकथाक बाट पर जाइत बीहनि कथा",
+    "classification": "Bihani Katha studies; world short fiction; comparative genre studies",
+    "body_source": "search-documents/videha-320.html",
+    "manual_body_start": "आधुनिक विश्वकथाक बाट पर जाइत -- बीहनि कथा",
+    "manual_body_end": "ज्ञानवर्द्धन कंठ\nउषा मैडमक विदागरी"
+  },
+  {
+    "issue": "334",
+    "section": "2.5",
+    "author_override": "मुन्नाजी",
+    "title_override": "बीहनि कथाक विकासमे रचनाकारक योगदान",
+    "classification": "Bihani Katha studies; literary history; authorship and genre development",
+    "body_source": "search-documents/videha-334.html",
+    "manual_body_start": "बीहनि कथाक विकास मे रचनाकारक योगदान\nखगता सृजनक आधार",
+    "manual_body_end": "संतोष कुमार राय 'बटोही'\nमंगरौना"
+  },
+  {
+    "issue": "401",
+    "section": "2.11",
+    "classification": "Bihani Katha studies; genre debate; Maithili literary criticism"
+  },
+  {
+    "issue": "402",
+    "section": "2.4",
+    "classification": "Bihani Katha studies; editorial history; criticism and genre development"
+  },
+  {
+    "issue": "428",
+    "section": "1.9",
+    "classification": "Bihani Katha studies; genre poetics; classical literary theory"
+  },
+  {
+    "issue": "440",
+    "section": "2.12",
+    "author_override": "गजेन्द्र ठाकुर",
+    "title_override": "मैथिली लेल दलित साहित्य समीक्षाशास्त्र",
+    "classification": "Dalit literary criticism; Maithili critical theory; comparative literature",
+    "body_source": "search-documents/videha-440.html",
+    "manual_body_start": "मैथिली लेल दलित साहित्य समीक्षाशास्त्र\n\nमैथिलीमे अनूदित गुजराती",
+    "manual_body_end": "\nपद्य\n३.१.स्व. कालीकान्त झा बूच"
+  },
+  {
+    "issue": "445",
+    "section": "2.12",
+    "author_override": "गजेन्द्र ठाकुर",
+    "title_override": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग-५): कुणाल-कृत कुसमा-सलहेस",
+    "classification": "Drama studies; folk theatre; comparative theatre theory; Dalit and subaltern criticism",
+    "body_source": "search-documents/videha-445.html",
+    "manual_body_start": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग-५) सन्दर्भ- कुणाल-कृत कुसमा-सलहेस\nकुणाल-कृत नाट्य-समीक्षा शृंखला",
+    "manual_body_end": "पद्य Poetry"
+  },
+  {
+    "issue": "446",
+    "section": "2.20",
+    "author_override": "गजेन्द्र ठाकुर",
+    "title_override": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग-६): कुणाल-कृत प्रेम-प्रतिज्ञा उर्फ श्रुवावतीक जय!",
+    "classification": "Drama studies; feminist theatre criticism; comparative theatre theory",
+    "body_source": "search-documents/videha-446.html",
+    "manual_body_start": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग-६) सन्दर्भ- कुणाल-कृत प्रेम-प्रतिज्ञा उर्फ श्रुवावतीक जय!\nकुणाल-कृत नाट्य-समीक्षा शृंखला",
+    "manual_body_end": "पद्य Poetry"
   }
 ]
