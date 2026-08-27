@@ -3,8 +3,9 @@
 
 Sadeha acts only as discovery evidence. Before a rediscovered original is published,
 the original Videha article body must itself align with the expected source heading:
-section + author + title. This prevents old TOC/body ambiguities from pairing correct
-metadata with a neighboring article's text.
+section + author + title, and the cleaned body must not begin with neighboring TOC
+entries or unrelated prose before that heading. This prevents old TOC/body ambiguities
+from pairing correct metadata with a neighboring article's text.
 """
 from __future__ import annotations
 
@@ -31,13 +32,11 @@ def key(s: str) -> str:
 
 
 def heading_aligned(raw_segment: str, section: str, author: str, title: str) -> bool:
-    """Require source heading metadata near the start of the selected body segment."""
+    """Require source heading metadata near the start of the selected raw segment."""
     head = raw_segment[:3200]
     hkey = key(head)
     akey = key(author)
     tkey = key(title)
-    # A substantial title prefix is enough to tolerate historical punctuation/OCR spacing,
-    # but it must be accompanied by the author in the same heading window.
     title_probe = tkey[: min(len(tkey), 36)]
     author_probe = akey[: min(len(akey), 28)]
     section_seen = bool(re.search(rf"(?m)^\s*{re.escape(section)}\s*\.\s*", head))
@@ -47,8 +46,41 @@ def heading_aligned(raw_segment: str, section: str, author: str, title: str) -> 
     )
 
 
+def body_prefix_consistent(body: str, author: str, title: str) -> bool:
+    """Reject a body if unrelated material precedes the expected article heading.
+
+    Old issues can contain a TOC occurrence with correct metadata followed by the text
+    of a different article. A publishable rediscovery must therefore expose the author
+    and title again very near the beginning of the cleaned body, before any other
+    numbered section marker or substantial unrelated prose.
+    """
+    prefix = body[:1800]
+    pkey = key(prefix)
+    akey = key(author)[: min(len(key(author)), 28)]
+    tkey = key(title)[: min(len(key(title)), 36)]
+    if len(akey) < 3 or len(tkey) < 10:
+        return False
+    apos = pkey.find(akey)
+    tpos = pkey.find(tkey)
+    if apos < 0 or tpos < 0:
+        return False
+    # Heading should occur in the opening portion, not after a neighboring article.
+    first = min(apos, tpos)
+    if first > 700:
+        return False
+    # Another numbered article/section before our heading is decisive evidence that
+    # the extracted body starts in the wrong place.
+    visible_before = prefix[: max(0, min(len(prefix), 900))]
+    # Approximate position in visible text by taking the leading half when normalized
+    # position is small; we only need a conservative rejection signal here.
+    if re.search(r"(?m)^\s*[०-९0-9]+(?:\.[०-९0-9]+)+\s*\.\s*", visible_before):
+        heading_line = re.search(re.escape(author), visible_before)
+        if not heading_line or heading_line.start() > 120:
+            return False
+    return True
+
+
 def multi_topic_title(title: str) -> bool:
-    # Slash-joined news digests and bundled headlines are not article-level scholarship.
     return title.count("/") >= 2 or title.count("|") >= 2
 
 
@@ -100,6 +132,12 @@ def load_sadeha_records() -> tuple[list[dict], list[dict]]:
             continue
 
         body = article_body(text, toc, idx, floor)
+        if not body_prefix_consistent(body, author, title):
+            review.append({
+                "issue": issue, "section": section, "author": author, "title": title,
+                "reason": "extracted body begins with unrelated material before the expected author/title heading",
+            })
+            continue
         compact = len(re.sub(r"\s+", "", body))
         if compact < 1800 or compact > 180000:
             review.append({"issue": issue, "section": section, "body_chars": compact, "reason": "body outside safe range"})
