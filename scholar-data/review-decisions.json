@@ -151,6 +151,22 @@
       "author": "Dr Ram Ashish Singh",
       "decision": "exclude",
       "reason": "Creative verse rather than an English-language village study; the title must not trigger scholarly admission."
+    },
+    {
+      "issue": "424",
+      "section": "special.10",
+      "title": "शिवशंकर श्रीनिवास आ मैथिली कथालोचन",
+      "author": "अशोक",
+      "decision": "exclude_for_now",
+      "reason": "The recoverable item is only about 220 compact characters; its scholarly-sounding title is not enough for article-level publication."
+    },
+    {
+      "issue": "189",
+      "section": "2.2.6",
+      "title": "अन्हारक रखवार",
+      "author": "योगेन्द्र पाठक ‘वियोगी’",
+      "decision": "exclude_for_now",
+      "reason": "The separately recoverable critical note is only 691 compact characters and remains below the conservative article threshold."
     }
   ]
 }

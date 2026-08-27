@@ -449,5 +449,346 @@
     "section": "2.4",
     "classification": "Environmental history; water studies; Mithila cultural ecology",
     "language": "en"
+  },
+  {
+    "issue": "111",
+    "section": "2.5",
+    "classification": "Bihani Katha studies; children's literature; genre criticism"
+  },
+  {
+    "issue": "126",
+    "section": "2.8",
+    "classification": "Children's theatre; Maithili drama criticism; genre development"
+  },
+  {
+    "issue": "142",
+    "section": "2.7",
+    "classification": "Maithili ghazal criticism; literary history; genre studies"
+  },
+  {
+    "issue": "358",
+    "section": "2.4",
+    "classification": "Maithili language history; language activism; intellectual biography"
+  },
+  {
+    "issue": "358",
+    "section": "2.16",
+    "classification": "Maithili literary history; authorship studies; critical reception"
+  },
+  {
+    "issue": "358",
+    "section": "3.11",
+    "classification": "Maithili ghazal criticism; prosody; genre theory"
+  },
+  {
+    "issue": "368",
+    "section": "2.2",
+    "classification": "Modern art criticism; visual culture; aesthetics"
+  },
+  {
+    "issue": "368",
+    "section": "2.3",
+    "classification": "Art criticism; aesthetics; representation and obscenity"
+  },
+  {
+    "issue": "368",
+    "section": "2.8",
+    "classification": "Mithila folk art; art history; visual culture"
+  },
+  {
+    "issue": "368",
+    "section": "2.12",
+    "classification": "Mithila painting; Nepal studies; transregional art history"
+  },
+  {
+    "issue": "369",
+    "section": "2.6",
+    "classification": "Maithili short-fiction criticism; close reading; contemporary literature"
+  },
+  {
+    "issue": "369",
+    "section": "2.12",
+    "classification": "Maithili short-fiction criticism; narrative theory; metacriticism"
+  },
+  {
+    "issue": "369",
+    "section": "2.17",
+    "classification": "Maithili short-fiction criticism; author studies; literary history"
+  },
+  {
+    "issue": "369",
+    "section": "2.18",
+    "classification": "Maithili prose criticism; nonfiction studies; author studies"
+  },
+  {
+    "issue": "369",
+    "section": "2.22",
+    "classification": "Maithili short-fiction criticism; realism; narrative studies"
+  },
+  {
+    "issue": "371",
+    "section": "2.4",
+    "classification": "Social movement studies; Mithila regional politics; student organizations"
+  },
+  {
+    "issue": "371",
+    "section": "2.6",
+    "classification": "Organizational sociology; social movements; Mithila civic institutions"
+  },
+  {
+    "issue": "371",
+    "section": "2.10",
+    "classification": "Social movement studies; leadership; organizational assessment"
+  },
+  {
+    "issue": "382",
+    "section": "2.13",
+    "classification": "Maithili literary criticism; poetry studies; author reception"
+  },
+  {
+    "issue": "382",
+    "section": "2.15",
+    "classification": "Maithili poetry criticism; social interpretation; close reading"
+  },
+  {
+    "issue": "395",
+    "section": "2.13",
+    "classification": "Mithila economic history; regional economics; book criticism"
+  },
+  {
+    "issue": "395",
+    "section": "2.16",
+    "classification": "Political economy; corruption studies; Mithila regional economics"
+  },
+  {
+    "issue": "396",
+    "section": "2.6",
+    "classification": "Historical linguistics; Indo-European studies; philosophy of language"
+  },
+  {
+    "issue": "396",
+    "section": "2.7",
+    "classification": "Phonology; Maithili historical linguistics; Varnaratnakara studies"
+  },
+  {
+    "issue": "396",
+    "section": "2.9",
+    "classification": "Linguistic research methodology; Maithili periodical studies; intellectual history"
+  },
+  {
+    "issue": "396",
+    "section": "2.12",
+    "classification": "Maithili lexicography; historiography; psychology of language; critical analysis"
+  },
+  {
+    "issue": "21",
+    "section": "2.2",
+    "author_override": "धीरेन्द्र प्रेमर्षि",
+    "title_override": "मैथिलीमे गजल आ एकर संरचना",
+    "classification": "Maithili ghazal studies; genre history; poetics and structure",
+    "body_source": "search-documents/videha-021.html",
+    "manual_body_start": "मैथिलीमे गजल आ एकर संरचना\nधीरेन्द्र प्रेमर्षि",
+    "manual_body_end": "महेन्द्र मलंगिया प्रकाश झापर"
+  },
+  {
+    "issue": "72",
+    "section": "2.4",
+    "author_override": "प्रकाश चन्द्र",
+    "title_override": "प्रयोग एकांकीक रंगमंचीय प्रयोग",
+    "classification": "Performance studies; Maithili theatre criticism; stagecraft and direction",
+    "body_source": "search-documents/videha-072.html",
+    "manual_body_start": "प्रकाश चन्द्र\nप्रयोग एकांकीक रंगमंचीय प्रयोग",
+    "manual_body_end": "१धीरेन्‍द्र कुमार- एकांकी- जरैत मोमबत्ती"
+  },
+  {
+    "issue": "217",
+    "section": "2.1",
+    "author_override": "दिनेश यादव",
+    "title_override": "नेपाल मे मैथिली गीत-संगीतक अवस्था",
+    "classification": "Music studies; Nepal Maithili culture; cultural industries",
+    "body_source": "search-documents/videha-217.html",
+    "manual_body_start": "दिनेश यादव\nनेपाल मे“मैथिली गीत-संगीतक अवस्था”",
+    "manual_body_end": "प्रदीप पुष्प"
+  },
+  {
+    "issue": "217",
+    "section": "3.2",
+    "author_override": "मनीष झा बौआभाइ",
+    "title_override": "वर्तमान मैथिली गीत-संगीत हमरा नजरिसँ",
+    "classification": "Contemporary music studies; Maithili cultural history; media criticism",
+    "body_source": "search-documents/videha-217.html",
+    "manual_body_start": "मनीष झा बौआभाइ\nवर्तमान मैथिली गीत-संगीत हमरा नजरिसँ",
+    "manual_body_end": "जगदीश चंद्र ठाकुर अनिल"
+  },
+  {
+    "issue": "405",
+    "section": "special.4",
+    "author_override": "कल्पना झा",
+    "title_override": "मैथिली साहित्यक परम्परा आ विकास सँ परिचित करबैत अछि मैथिली इतिहासक रेखांकन",
+    "classification": "Maithili literary historiography; book criticism; history of literature",
+    "body_source": "search-documents/videha-405.html",
+    "manual_body_start": "४.कल्पना झा- मैथिली साहित्यक परम्परा आ विकास सँ परिचित करबैत अछि मैथिली इतिहासक रेखांकन",
+    "manual_body_end": "५.आशीष अनचिन्हार- स्थानवर्णना, नगरवर्णना, ग्रामवर्णना"
+  },
+  {
+    "issue": "405",
+    "section": "special.8",
+    "author_override": "डॉ. कैलाश कुमार मिश्र",
+    "title_override": "सारस्वत परिचायिका: कोइलख",
+    "classification": "Village studies; cultural history; Mithila local historiography",
+    "body_source": "search-documents/videha-405.html",
+    "manual_body_start": "८.डॉ कैलाश कुमार मिश्र-सारस्वत परिचायिका-कोइलख",
+    "manual_body_end": "९.पंडित भवनाथ झा-कोइलख"
+  },
+  {
+    "issue": "405",
+    "section": "special.10",
+    "author_override": "सियाराम झा ‘सरस’",
+    "title_override": "कोइलख: ग्राम गाथाक विलक्षण अभिलेख",
+    "classification": "Village studies; local history; documentary literature",
+    "min_body_chars": 1200,
+    "body_source": "search-documents/videha-405.html",
+    "manual_body_start": "१०.श्री सियाराम झा 'सरस ''कोइलख'- ग्राम गाथाक विलक्षण अभिलेख",
+    "manual_body_end": "११.प्रो. महेशलाल दास –कोइलख"
+  },
+  {
+    "issue": "405",
+    "section": "special.22",
+    "author_override": "आभा झा",
+    "title_override": "समृद्धि दिशि बढ़ैत बाल-साहित्यमे राजापोता बलगरक मजगूत हस्तक्षेप",
+    "classification": "Maithili children's literature; poetry criticism; genre development",
+    "body_source": "search-documents/videha-405.html",
+    "manual_body_start": "२२.आभा झा-समृद्धि दिशि बढ़ैत बाल-साहित्यमे राजापोता बलगरक मजगूत हस्तक्षेप",
+    "manual_body_end": "२३.लक्ष्मण झा सागर- मिथिला मैथिलीक हितैषी हितनाथ झाजी"
+  },
+  {
+    "issue": "424",
+    "section": "special.3",
+    "author_override": "कल्पना झा",
+    "title_override": "सिनुरहार: एखनहुँ प्रासंगिक",
+    "classification": "Maithili short-fiction criticism; social relevance; close reading",
+    "body_source": "search-documents/videha-424.html",
+    "manual_body_start": "३.कल्पना झा-सिनुरहार-एखनहुँ प्रासंगिक",
+    "manual_body_end": "४.डा. धनाकर ठाकुर- 'असमंजसी मध्यममार्गी 'कथाशिल्पी शिवशंकर श्रीनिवास'"
+  },
+  {
+    "issue": "424",
+    "section": "special.5",
+    "author_override": "डॉ. कैलाश कुमार मिश्र",
+    "title_override": "सिनुरहार: शिवशंकर श्रीनिवासक कथा",
+    "classification": "Maithili short-fiction criticism; ethnographic reading; social narrative",
+    "body_source": "search-documents/videha-424.html",
+    "manual_body_start": "५.डॉ. कैलाश कुमार मिश्र-सिनुरहार-'शिवशंकर श्रीनिवास'क कथा",
+    "manual_body_end": "६.चंदना दत्त-श्री शिवशंकर श्रीनिवास"
+  },
+  {
+    "issue": "424",
+    "section": "special.7",
+    "author_override": "डॉ. आभा झा",
+    "title_override": "चयनित कथाक मादें किछु गप",
+    "classification": "Maithili short-fiction criticism; selected stories; narrative studies",
+    "body_source": "search-documents/videha-424.html",
+    "manual_body_start": "७.डॉ. आभा झा-चयनित -कथाक मादें किछु गप",
+    "manual_body_end": "८.नवीन कुमार झा 'शरद'-मिथिलाक माटि-पानिक कथाकार शिवशंकर श्रीनिवास"
+  },
+  {
+    "issue": "424",
+    "section": "special.12",
+    "author_override": "देवशंकर नवीन",
+    "title_override": "उठ जाग मोसाफिर भोर भयो: निसभेर नीनमे सूतल समाजक पहरू कथाकार",
+    "classification": "Maithili short-fiction criticism; society and literature; author studies",
+    "body_source": "search-documents/videha-424.html",
+    "manual_body_start": "१२.देवशंकर नवीन-उठ जाग मोसाफिर भोर भयो (निसभेर नीनमे सूतल समाज'क पहरू कथाकार)",
+    "manual_body_end": "१३.दिलीप कुमार झा-माटि वस्तुए सएह छैक"
+  },
+  {
+    "issue": "189",
+    "section": "2.2.1",
+    "author_override": "ओमप्रकाश झा",
+    "title_override": "बहुरूपिया रचनामे",
+    "classification": "Maithili literary criticism; ghazal studies; close reading",
+    "body_source": "search-documents/videha-189.html",
+    "manual_body_start": "बहुरूपिया रचनामे",
+    "manual_body_end": "अन्हारक विरोध मे अरविन्द ठाकुर"
+  },
+  {
+    "issue": "189",
+    "section": "2.2.2",
+    "author_override": "आशीष चमन",
+    "title_override": "अन्हारक विरोध मे अरविन्द ठाकुर",
+    "classification": "Maithili short-fiction criticism; author studies; social realism",
+    "body_source": "search-documents/videha-189.html",
+    "manual_body_start": "अन्हारक विरोध मे अरविन्द ठाकुर",
+    "manual_body_end": "अन्हारक विरोधमे: एक दृष्टि"
+  },
+  {
+    "issue": "189",
+    "section": "2.2.3",
+    "author_override": "डा. योगानन्द झा",
+    "title_override": "अन्हारक विरोधमे: एक दृष्टि",
+    "classification": "Maithili short-fiction criticism; critical interpretation; social realism",
+    "body_source": "search-documents/videha-189.html",
+    "manual_body_start": "अन्हारक विरोधमे: एक दृष्टि",
+    "manual_body_end": "बहुरुपिया प्रदेश मे : एक दृष्टि"
+  },
+  {
+    "issue": "189",
+    "section": "2.2.4",
+    "author_override": "राम चैतन्य धीरज",
+    "title_override": "बहुरुपिया प्रदेश मे: एक दृष्टि",
+    "classification": "Maithili ghazal criticism; philosophy and literature; political economy",
+    "body_source": "search-documents/videha-189.html",
+    "manual_body_start": "बहुरुपिया प्रदेश मे : एक दृष्टि",
+    "manual_body_end": "अरविन्दजीक आजाद गजल"
+  },
+  {
+    "issue": "189",
+    "section": "2.2.5",
+    "author_override": "जगदीश चन्द्र ठाकुर ‘अनिल’",
+    "title_override": "अरविन्दजीक आजाद गजल",
+    "classification": "Maithili ghazal criticism; free-verse ghazal; genre theory",
+    "body_source": "search-documents/videha-189.html",
+    "manual_body_start": "अरविन्दजीक आजाद गजल",
+    "manual_body_end": "अन्हारक रखवार"
+  },
+  {
+    "issue": "189",
+    "section": "2.2.7",
+    "author_override": "अरविन्द मिश्र नीरज",
+    "title_override": "अरविन्द ठाकुर: व्यक्तित्व आ कृतित्व",
+    "classification": "Maithili author studies; literary biography; critical reception",
+    "body_source": "search-documents/videha-189.html",
+    "manual_body_start": "अरविन्द ठाकुर : व्यक्तित्व आ कृतित्व",
+    "manual_body_end": "स्खलनक प्रतिरोधमे -अन्हारक विरोधमे"
+  },
+  {
+    "issue": "189",
+    "section": "2.2.8",
+    "author_override": "परमानन्द प्रभाकर",
+    "title_override": "स्खलनक प्रतिरोधमे: अन्हारक विरोधमे",
+    "classification": "Maithili short-fiction criticism; resistance literature; social analysis",
+    "body_source": "search-documents/videha-189.html",
+    "manual_body_start": "स्खलनक प्रतिरोधमे -अन्हारक विरोधमे",
+    "manual_body_end": "सामंती सभहँक विरुद्ध तैयार कवि"
+  },
+  {
+    "issue": "189",
+    "section": "2.2.9",
+    "author_override": "अरविंद श्रीवास्तव",
+    "title_override": "सामंती सभहँक विरुद्ध तैयार कवि",
+    "classification": "Political poetry; anti-feudal criticism; Maithili literary studies",
+    "body_source": "search-documents/videha-189.html",
+    "manual_body_start": "सामंती सभहँक विरुद्ध तैयार कवि",
+    "manual_body_end": "परती टूटि गेलै"
+  },
+  {
+    "issue": "189",
+    "section": "2.2.10",
+    "author_override": "मुन्नाजी",
+    "title_override": "परती टूटि गेलै",
+    "classification": "Maithili literary criticism; author studies; social change",
+    "body_source": "search-documents/videha-189.html",
+    "manual_body_start": "परती टूटि गेलै",
+    "manual_body_end": "संस्मरण खण्ड"
   }
 ]
