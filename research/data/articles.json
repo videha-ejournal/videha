@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-27T06:51:41.638136+00:00",
+  "generated": "2026-08-27T07:14:40.256955+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 43,
-    "promoted_sections_publishable": 43,
-    "promoted_sections_review": 0,
+    "promoted_sections_requested": 49,
+    "promoted_sections_publishable": 47,
+    "promoted_sections_review": 2,
     "curated_manifests": 1,
-    "published_after_all_overrides": 97,
+    "published_after_all_overrides": 101,
     "stale_generated_pages_removed_before_render": 97,
     "build_errors": 0
   },
@@ -546,6 +546,24 @@
       "page_end": null
     },
     {
+      "title": "मैथिली संस्कृति केर अवयव",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2016-11-15",
+      "year": "2016",
+      "issue": "214",
+      "keywords": [],
+      "classification": "Cultural anthropology; material culture; Mithila cultural systems",
+      "url": "https://www.videha.co.in/research/2016/214/मैथिली-संस्कृति-केर-अवयव.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20214.pdf",
+      "path": "2016/214/मैथिली-संस्कृति-केर-अवयव.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "राजस्थान केर मंडोवरमे रावण आ मंदोदरीक विवाह: लोक इतिहास केर मूर्त आ अमूर्त प्रमाण",
       "english_title": null,
       "authors": [
@@ -560,6 +578,42 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20216.pdf",
       "path": "2016/216/राजस्थान-केर-मंडोवरमे-रावण-आ-मंदोदरीक-विवाह-लोक-इतिहास-केर-म-976f0766fa.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "महाराजा पंहिबा: मणिपुर केर गरीब नबाज़",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2017-01-15",
+      "year": "2017",
+      "issue": "218",
+      "keywords": [],
+      "classification": "Historical studies; Manipur; religious and cultural history; biographical history",
+      "url": "https://www.videha.co.in/research/2017/218/महाराजा-पंहिबा-मणिपुर-केर-गरीब-नबाज़.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20218.pdf",
+      "path": "2017/218/महाराजा-पंहिबा-मणिपुर-केर-गरीब-नबाज़.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिलानी केर उपराग राम सँ आ समाज सँ: सीता दाई केर वेदना",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2017-04-15",
+      "year": "2017",
+      "issue": "224",
+      "keywords": [],
+      "classification": "Gender studies; folklore; Maithili folk-song analysis; Sita traditions",
+      "url": "https://www.videha.co.in/research/2017/224/मैथिलानी-केर-उपराग-राम-सँ-आ-समाज-सँ-सीता-दाई-केर-वेदना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20224.pdf",
+      "path": "2017/224/मैथिलानी-केर-उपराग-राम-सँ-आ-समाज-सँ-सीता-दाई-केर-वेदना.htm",
       "page_start": null,
       "page_end": null
     },
@@ -596,6 +650,24 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20313.pdf",
       "path": "2021/313/मैथिली-वेब-पत्रकारिताक-इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "रामलोचन ठाकुरक मैथिली लोककथा: एक विवेचना",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2021-04-01",
+      "year": "2021",
+      "issue": "319",
+      "keywords": [],
+      "classification": "Literary criticism; folklore studies; Maithili diaspora; oral narrative",
+      "url": "https://www.videha.co.in/research/2021/319/रामलोचन-ठाकुरक-मैथिली-लोककथा-एक-विवेचना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20319.pdf",
+      "path": "2021/319/रामलोचन-ठाकुरक-मैथिली-लोककथा-एक-विवेचना.htm",
       "page_start": null,
       "page_end": null
     },
