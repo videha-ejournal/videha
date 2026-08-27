@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-08-27",
+  "purpose": "Final editorial decisions for high-precision Sadeha-confirmed legacy Title–Author reversals.",
+  "decisions": [
+    {"issue":"21","section":"2.2","decision":"promote","reason":"Source confirms धीरेन्द्र प्रेमर्षि as author; sustained technical discussion of Maithili ghazal history, form and structure."},
+    {"issue":"21","section":"2.3","decision":"exclude","reason":"The source is Mahendra Malangia's first-person theatrical profile/experience essay on actor Prakash Chandra Jha, not a research article."},
+    {"issue":"26","section":"2.3","decision":"exclude","reason":"Complete Maithili play by Vibha Rani; creative work."},
+    {"issue":"30","section":"2.3","decision":"exclude","reason":"Continuation/complete Maithili play by Vibha Rani; creative work."},
+    {"issue":"35","section":"2.8","decision":"promote","reason":"Source confirms Gajendra Thakur; substantial analysis of the Lorik oral epic's narrative, society and culture, suitable for folklore/ethnography discovery."},
+    {"issue":"43","section":"2.6","decision":"promote","reason":"Source confirms Jagdish Prasad Mandal; sustained study of samskara, ritual, social history and folk-song traditions with classical and historical discussion."},
+    {"issue":"44","section":"2.8","decision":"exclude_for_now","reason":"Social-change essay on Maithili is predominantly argumentative/opinion writing and lacks sufficient scholarly apparatus for the conservative Scholar layer."},
+    {"issue":"47","section":"2.7","decision":"exclude","reason":"Article explicitly presents a condensed extract from a Sahitya Akademi biography of Vidyapati; not independent research."},
+    {"issue":"198","section":"2.2","decision":"exclude","reason":"Bihani-katha creative piece, not scholarship."},
+    {"issue":"199","section":"2.2","decision":"exclude","reason":"Bihani-katha creative piece, not scholarship."},
+    {"issue":"319","section":"2.12","decision":"promote","reason":"Source confirms Shivshankar Srinivas; sustained literary-critical study of Ramlochan Thakur's Betalkatha, satire, political critique and narrative technique."},
+    {"issue":"319","section":"2.23","decision":"exclude","reason":"Commemorative/profile article on Ramlochan Thakur, not research criticism."},
+    {"issue":"319","section":"2.27","decision":"promote","reason":"Source confirms Dr Kailash Kumar Mishra; substantial folklore/ethnography and oral-tradition analysis of Ramlochan Thakur's Maithili Lokkatha, including fieldwork/auto-anthropology methodology."}
+  ]
+}
