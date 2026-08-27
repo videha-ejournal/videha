@@ -5,6 +5,11 @@ Sadeha volumes are thematic/parallel compilations and often reprint Videha mater
 This script treats all search-documents/sadeha-*.html files as discovery evidence,
 not as competing citation identities. Exact/high-confidence author+title matches are
 mapped back to the original Videha issue/section metadata.
+
+For automatic Scholar publication, Sadeha evidence must confirm a *positive scholarly
+class*. A generic body-only `references-present` signal is retained for review but is
+never sufficient by itself; this prevents reportage, announcements, interviews and
+creative prose with incidental reference words from becoming Scholar pages.
 """
 from __future__ import annotations
 
@@ -13,7 +18,7 @@ import re
 from pathlib import Path
 
 from extract_explicit_research import SourceParser
-from extract_audit_sections import APPROVED_CLASSES, decision_map, sane_author, sane_title
+from extract_audit_sections import decision_map, sane_author, sane_title
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "research" / "data" / "sadeha-crossmap.json"
@@ -21,6 +26,11 @@ INV = ROOT / "research" / "data" / "article-inventory.json"
 ARTICLES = ROOT / "research" / "data" / "articles.json"
 
 PUNCT = re.compile(r"[\s\-–—:;,.()\[\]{}'\"’‘“”।!?/\\|]+")
+SAFE_AUTO_CLASSES = {
+    "research-explicit", "linguistics", "literary-history", "history",
+    "folklore-ethnography", "culture-art", "criticism", "academic-review",
+    "conference-seminar", "critical-edition",
+}
 
 
 def norm(s: str) -> str:
@@ -66,7 +76,6 @@ def main() -> None:
     matches = []
     matched_rows: set[tuple[str, str, str]] = set()
 
-    # Require enough title substance to avoid common-word collisions.
     candidates = []
     for row in inv:
         title = str(row.get("title") or "")
@@ -82,7 +91,6 @@ def main() -> None:
             pos = body.find(nt)
             if pos < 0:
                 continue
-            # Strong match requires byline near title; otherwise retain as title-only review evidence.
             lo, hi = max(0, pos - 2500), min(len(body), pos + len(nt) + 2500)
             nearby = body[lo:hi]
             strength = "author-title" if na in nearby else "title-only"
@@ -96,23 +104,31 @@ def main() -> None:
             base_cls = cls.split("+")[0]
             decision = decisions.get((issue, section), "")
             already = (issue, nt) in published
-            publishable = (
+            base_integrity = (
                 strength == "author-title"
                 and bool(row.get("scholar_candidate"))
-                and (base_cls in APPROVED_CLASSES or cls in APPROVED_CLASSES)
                 and 1800 <= int(row.get("body_chars") or 0) <= 180000
                 and not decision.startswith("exclude") and decision != "hold"
                 and not already
             )
+            publishable = base_integrity and base_cls in SAFE_AUTO_CLASSES
+            reviewable = base_integrity and not publishable
             matches.append({
                 "sadeha_source": doc["path"], "match_strength": strength,
                 "issue": issue, "section": section, "author": row.get("author"),
                 "title": row.get("title"), "classification": cls,
                 "body_chars": row.get("body_chars"), "already_published": already,
-                "review_decision": decision or None, "publishable_discovery": publishable,
+                "review_decision": decision or None,
+                "publishable_discovery": publishable,
+                "reviewable_discovery": reviewable,
+                "eligibility_note": (
+                    "positive scholarly class confirmed by Sadeha author+title match"
+                    if publishable else
+                    "Sadeha match retained for editorial review; generic references-present signal alone is insufficient"
+                    if reviewable else None
+                ),
             })
 
-    # Prefer strongest evidence when an original appears in multiple Sadeha volumes.
     best: dict[tuple[str, str, str], dict] = {}
     for m in matches:
         k = (m["issue"], m["section"], norm(str(m["title"])))
@@ -121,6 +137,7 @@ def main() -> None:
             best[k] = m
     uniq = sorted(best.values(), key=lambda x: (int(x["issue"] or 0), x["section"], str(x["title"])))
     publishable = [x for x in uniq if x["publishable_discovery"]]
+    reviewable = [x for x in uniq if x.get("reviewable_discovery")]
     payload = {
         "sadeha_html_sources": len(files),
         "source_files": [{"path": d["path"], "text_chars": d["chars"]} for d in docs],
@@ -130,14 +147,16 @@ def main() -> None:
         "title_only_matches": sum(1 for x in uniq if x["match_strength"] == "title-only"),
         "already_published_matches": sum(1 for x in uniq if x["already_published"]),
         "new_scholarly_discoveries_publishable": len(publishable),
+        "new_matches_requiring_editorial_review": len(reviewable),
         "publishable": publishable,
+        "reviewable": reviewable,
         "matches": uniq,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(
         f"Sadeha deep map: {len(files)} HTML sources; {len(uniq)} unique Videha article matches; "
-        f"{len(publishable)} new scholarly originals eligible for Scholar publication"
+        f"{len(publishable)} positive-class Scholar discoveries; {len(reviewable)} review-only matches"
     )
 
 
