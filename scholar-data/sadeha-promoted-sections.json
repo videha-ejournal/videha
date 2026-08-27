@@ -65,5 +65,77 @@
     "manual_body_end": "यायावरी\nहॉफलोंग",
     "sadeha_evidence": "search-documents/sadeha-010.html",
     "reason": "Sadeha 10 supplies a clean, complete copy of the already validated article, replacing the legacy boundary extraction that began with unrelated neighboring material."
+  },
+  {
+    "issue": "213",
+    "section": "2.1",
+    "author_override": "डॉ. कैलाश कुमार मिश्र",
+    "title_override": "छागरक बलिप्रदानपर चिन्तन: परम्परामे परिवर्तनक औचित्य",
+    "classification": "Cultural anthropology; ritual studies; animal sacrifice; social reform",
+    "body_source": "search-documents/videha-213.html",
+    "manual_body_start": "छागरक बलिप्रदानपर चिन्‍तन : परम्परामे परिवर्तनक औचित्‍य",
+    "manual_body_end": "प्रणव कुमार झा\nलघु कथा",
+    "sadeha_evidence": "search-documents/sadeha-019.html",
+    "reason": "Full text reviewed after a Sadeha title match. The article critically examines animal sacrifice as a changing Mithila ritual, distinguishes humane from harmful traditions, and discusses community-led alternatives."
+  },
+  {
+    "issue": "214",
+    "section": "2.1",
+    "author_override": "डॉ. कैलाश कुमार मिश्र",
+    "title_override": "मैथिली संस्कृति केर अवयव",
+    "classification": "Cultural anthropology; material culture; Mithila cultural systems",
+    "body_source": "search-documents/videha-214.html",
+    "manual_body_start": "मैथिली संस्कृति केर अवयव\nमैथिली संस्कृति के समग्रता",
+    "manual_body_end": "सत्य नारायण झा\nलघुकथा",
+    "sadeha_evidence": "search-documents/sadeha-019.html",
+    "reason": "Full text reviewed after a Sadeha title match. This is a structured cultural-anthropological account of the interdependent material, ritual, linguistic, artistic and social components of Mithila culture."
+  },
+  {
+    "issue": "215",
+    "section": "2.1",
+    "author_override": "डॉ. कैलाश कुमार मिश्र",
+    "title_override": "मैथिली लोक परम्परामे नाथ जोगी राजा भरथरी आ गोपीचंद",
+    "classification": "Folklore studies; oral tradition; Nath tradition; cultural anthropology",
+    "body_source": "search-documents/videha-215.html",
+    "manual_body_start": "मैथिली लोक परम्परामे नाथ जोगी राजा भरथरी आ गोपीचंद\nलोक गाथाक परिवेश",
+    "manual_body_end": "जिनगीक जीत\nउपन्‍यास",
+    "sadeha_evidence": "search-documents/sadeha-019.html",
+    "reason": "Full text reviewed after a Sadeha title match. The study documents family-transmitted oral knowledge and analyses the Nath, Bhartrihari and Gopichand narrative tradition in Mithila."
+  },
+  {
+    "issue": "218",
+    "section": "2.2",
+    "author_override": "डॉ. कैलाश कुमार मिश्र",
+    "title_override": "महाराजा पंहिबा: मणिपुर केर गरीब नबाज़",
+    "classification": "Historical studies; Manipur; religious and cultural history; biographical history",
+    "body_source": "search-documents/videha-218.html",
+    "manual_body_start": "महाराजा पंहिबा: मणिपुर केर ग़रीब नबाज़\nअजमेर केर हजरत",
+    "manual_body_end": "रबीन्‍द्र नारायण मिश्र\nवरिष्‍ठ नागरिक",
+    "sadeha_evidence": "search-documents/sadeha-029.html",
+    "reason": "Sadeha supplied an author-title match and the original Videha body was inspected. The article reconstructs Maharaja Pamheiba's reign, religious change and contested legacy in Manipuri history."
+  },
+  {
+    "issue": "224",
+    "section": "2.1",
+    "author_override": "डॉ. कैलाश कुमार मिश्र",
+    "title_override": "मैथिलानी केर उपराग राम सँ आ समाज सँ: सीता दाई केर वेदना",
+    "classification": "Gender studies; folklore; Maithili folk-song analysis; Sita traditions",
+    "body_source": "search-documents/videha-224.html",
+    "manual_body_start": "मैथिलानी केर उपराग राम सं आ समाज सं: सीता दाई केर वेदना",
+    "manual_body_end": "रवि भूषण पाठक\nऔझका डायरी",
+    "sadeha_evidence": "search-documents/sadeha-020.html",
+    "reason": "Full text reviewed after a Sadeha author-title match. The article interprets women's Ram-Sita songs as gendered cultural memory and a vehicle for criticism of family and social power."
+  },
+  {
+    "issue": "319",
+    "section": "2.27",
+    "author_override": "डॉ. कैलाश कुमार मिश्र",
+    "title_override": "रामलोचन ठाकुरक मैथिली लोककथा: एक विवेचना",
+    "classification": "Literary criticism; folklore studies; Maithili diaspora; oral narrative",
+    "body_source": "search-documents/videha-319.html",
+    "manual_body_start": "रामलोचन ठाकुरक मैथिली लोककथा: एक विवेचना\nकोलकाता मिथिलासँ बाहर",
+    "manual_body_end": "मैथिली कविताक विद्रोही स्वर रामलोचन ठाकुर",
+    "sadeha_evidence": "search-documents/sadeha-024.html",
+    "reason": "The Sadeha cross-map exposed reversed legacy author-title metadata. Full-text review confirms a substantive critical study of Ramlochan Thakur's folk narratives, diaspora setting, oral memory and language."
   }
 ]

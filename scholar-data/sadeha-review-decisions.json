@@ -19,6 +19,7 @@
     {"issue":"99","section":"2.5","decision":"exclude_for_now","reason":"Personal discussion of a reporter diary; below the academic-review threshold."},
     {"issue":"119","section":"2.7","decision":"exclude","reason":"Slash-joined multi-topic reportage/political news item, not a standalone scholarly article."},
     {"issue":"195","section":"2.3","decision":"exclude_for_now","reason":"Polemical criticism of a folk-song reading; the reviewed text does not establish sufficient scholarly apparatus for the conservative Scholar layer."},
+    {"issue":"219","section":"2.2","decision":"exclude_for_now","reason":"Thoughtful discussion of who may write about women, but it remains a general reflective essay rather than a sustained research study; do not admit from the Sadeha match alone."},
     {"issue":"313","section":"2.15","decision":"exclude_for_now","reason":"Later republication of the North Cachar Yayavari material; retain the original 2008 Videha installments as the canonical Scholar records and avoid duplication."},
     {"issue":"360","section":"2.17","decision":"exclude_for_now","reason":"Ordinary book review of 'टेकनोलजी'; below the academic review-essay threshold."},
     {"issue":"371","section":"2.8","decision":"exclude_for_now","reason":"Organizational/current-affairs piece about Mithila Student Union; not demonstrated as research."}
