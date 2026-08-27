@@ -1,16 +1,11 @@
 #!/usr/bin/env python3
 """Deep-map every Sadeha search HTML source to original Videha article records.
 
-Sadeha volumes are thematic/parallel compilations and often reprint Videha material.
-This script treats all search-documents/sadeha-*.html files as discovery evidence,
-not as competing citation identities. Exact/high-confidence author+title matches are
-mapped back to the original Videha issue/section metadata.
-
-For automatic Scholar publication, Sadeha evidence must confirm a *positive scholarly
-class*. A generic body-only `references-present` signal is retained for review but is
-never sufficient by itself. Previous generated HTML state is diagnostic only: final
-deduplication happens in build_all_research.py so stale pages can never suppress a
-legitimate rediscovery after cleanup.
+Sadeha is discovery evidence, not a competing citation identity. High-confidence
+matches map back to the original Videha issue/section. Generic references-present
+matches remain review-only unless an explicit Sadeha editorial decision has already
+resolved them. This report also distinguishes safe matches already represented in the
+Scholar corpus from genuinely new discoveries.
 """
 from __future__ import annotations
 
@@ -25,6 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "research" / "data" / "sadeha-crossmap.json"
 INV = ROOT / "research" / "data" / "article-inventory.json"
 ARTICLES = ROOT / "research" / "data" / "articles.json"
+SADEHA_DECISIONS = ROOT / "scholar-data" / "sadeha-review-decisions.json"
 
 PUNCT = re.compile(r"[\s\-–—:;,.()\[\]{}'\"’‘“”।!?/\\|]+")
 SAFE_AUTO_CLASSES = {
@@ -53,11 +49,23 @@ def read_text(path: Path) -> str:
 
 
 def previous_generated_keys() -> set[tuple[str, str]]:
-    """Diagnostic only; do not use this to suppress current-run publication."""
     if not ARTICLES.exists():
         return set()
     data = json.loads(ARTICLES.read_text(encoding="utf-8"))
     return {(str(x.get("issue") or ""), norm(str(x.get("title") or ""))) for x in data.get("articles", [])}
+
+
+def sadeha_decision_map() -> dict[tuple[str, str], dict]:
+    if not SADEHA_DECISIONS.exists():
+        return {}
+    data = json.loads(SADEHA_DECISIONS.read_text(encoding="utf-8"))
+    out = {}
+    for row in data.get("decisions", []):
+        issue = str(int(str(row.get("issue") or "0")))
+        section = str(row.get("section") or "").strip()
+        if section:
+            out[(issue, section)] = row
+    return out
 
 
 def main() -> None:
@@ -74,6 +82,7 @@ def main() -> None:
         docs.append({"path": path.relative_to(ROOT).as_posix(), "chars": len(text), "norm": norm(text)})
 
     decisions = decision_map()
+    sadeha_decisions = sadeha_decision_map()
     previous = previous_generated_keys()
     matches = []
     matched_rows: set[tuple[str, str, str]] = set()
@@ -105,6 +114,8 @@ def main() -> None:
             cls = str(row.get("classification") or "")
             base_cls = cls.split("+")[0]
             decision = decisions.get((issue, section), "")
+            sdec = sadeha_decisions.get((issue, section), {})
+            sdecision = str(sdec.get("decision") or "").lower()
             was_previous = (issue, nt) in previous
             base_integrity = (
                 strength == "author-title"
@@ -112,8 +123,23 @@ def main() -> None:
                 and 1800 <= int(row.get("body_chars") or 0) <= 180000
                 and not decision.startswith("exclude") and decision != "hold"
             )
-            publishable = base_integrity and base_cls in SAFE_AUTO_CLASSES
-            reviewable = base_integrity and not publishable
+            auto_publishable = base_integrity and base_cls in SAFE_AUTO_CLASSES
+            editorially_resolved = bool(sdecision)
+            reviewable = base_integrity and not auto_publishable and not editorially_resolved
+            if sdecision.startswith("exclude") or sdecision == "hold":
+                auto_publishable = False
+                reviewable = False
+            note = None
+            if sdecision == "promote":
+                note = "Editorially promoted after Sadeha-led full-text review; canonical publication is handled by the Sadeha promotion whitelist."
+                auto_publishable = False
+                reviewable = False
+            elif sdecision:
+                note = f"Sadeha editorial decision: {sdecision}. {sdec.get('reason','')}".strip()
+            elif auto_publishable:
+                note = "positive scholarly class confirmed by Sadeha author+title match"
+            elif reviewable:
+                note = "Sadeha match retained for editorial review; generic references-present signal alone is insufficient"
             matches.append({
                 "sadeha_source": doc["path"], "match_strength": strength,
                 "issue": issue, "section": section, "author": row.get("author"),
@@ -121,14 +147,10 @@ def main() -> None:
                 "body_chars": row.get("body_chars"),
                 "was_in_previous_generated_build": was_previous,
                 "review_decision": decision or None,
-                "publishable_discovery": publishable,
+                "sadeha_editorial_decision": sdecision or None,
+                "publishable_discovery": auto_publishable,
                 "reviewable_discovery": reviewable,
-                "eligibility_note": (
-                    "positive scholarly class confirmed by Sadeha author+title match"
-                    if publishable else
-                    "Sadeha match retained for editorial review; generic references-present signal alone is insufficient"
-                    if reviewable else None
-                ),
+                "eligibility_note": note,
             })
 
     best: dict[tuple[str, str, str], dict] = {}
@@ -138,8 +160,11 @@ def main() -> None:
         if cur is None or (cur["match_strength"] == "title-only" and m["match_strength"] == "author-title"):
             best[k] = m
     uniq = sorted(best.values(), key=lambda x: (int(x["issue"] or 0), x["section"], str(x["title"])))
-    publishable = [x for x in uniq if x["publishable_discovery"]]
+    publishable_all = [x for x in uniq if x["publishable_discovery"]]
+    publishable_new = [x for x in publishable_all if not x["was_in_previous_generated_build"]]
     reviewable = [x for x in uniq if x.get("reviewable_discovery")]
+    editorial_promotions = [x for x in uniq if x.get("sadeha_editorial_decision") == "promote"]
+    editorial_exclusions = [x for x in uniq if str(x.get("sadeha_editorial_decision") or "").startswith("exclude")]
     payload = {
         "sadeha_html_sources": len(files),
         "source_files": [{"path": d["path"], "text_chars": d["chars"]} for d in docs],
@@ -148,9 +173,14 @@ def main() -> None:
         "author_title_matches": sum(1 for x in uniq if x["match_strength"] == "author-title"),
         "title_only_matches": sum(1 for x in uniq if x["match_strength"] == "title-only"),
         "matches_seen_in_previous_generated_build": sum(1 for x in uniq if x["was_in_previous_generated_build"]),
-        "new_scholarly_discoveries_publishable": len(publishable),
+        "safe_auto_matches_total": len(publishable_all),
+        "new_scholarly_discoveries_publishable": len(publishable_new),
         "new_matches_requiring_editorial_review": len(reviewable),
-        "publishable": publishable,
+        "editorial_promotions": len(editorial_promotions),
+        "editorial_exclusions_or_deferrals": len(editorial_exclusions),
+        "publishable": publishable_new,
+        "safe_auto_matches_already_represented": [x for x in publishable_all if x["was_in_previous_generated_build"]],
+        "editorial_promoted": editorial_promotions,
         "reviewable": reviewable,
         "matches": uniq,
     }
@@ -158,7 +188,8 @@ def main() -> None:
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(
         f"Sadeha deep map: {len(files)} HTML sources; {len(uniq)} unique Videha article matches; "
-        f"{len(publishable)} positive-class Scholar discoveries; {len(reviewable)} review-only matches"
+        f"{len(publishable_new)} genuinely new safe-auto discoveries; {len(editorial_promotions)} editorial promotions; "
+        f"{len(reviewable)} unresolved review-only matches"
     )
 
 
