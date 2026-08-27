@@ -158,205 +158,11 @@
   "unique_videha_articles_matched": 495,
   "author_title_matches": 379,
   "title_only_matches": 116,
-  "already_published_matches": 19,
-  "new_scholarly_discoveries_publishable": 15,
-  "publishable": [
-    {
-      "sadeha_source": "search-documents/sadeha-030.html",
-      "match_strength": "author-title",
-      "issue": "24",
-      "section": "2.8",
-      "author": "धीरेन्द्र प्रेमर्षि",
-      "title": "नव भोर जोहैत मिथिला",
-      "classification": "references-present",
-      "body_chars": 163481,
-      "already_published": false,
-      "review_decision": null,
-      "publishable_discovery": true
-    },
-    {
-      "sadeha_source": "search-documents/sadeha-001.html",
-      "match_strength": "author-title",
-      "issue": "26",
-      "section": "2.4",
-      "author": "रिपोर्ताज",
-      "title": "नवेन्दु कुमार झा",
-      "classification": "references-present",
-      "body_chars": 18845,
-      "already_published": false,
-      "review_decision": null,
-      "publishable_discovery": true
-    },
-    {
-      "sadeha_source": "search-documents/sadeha-030.html",
-      "match_strength": "author-title",
-      "issue": "26",
-      "section": "2.6",
-      "author": "सुशांत झा",
-      "title": "हमर सपना केर मिथिला",
-      "classification": "references-present",
-      "body_chars": 71548,
-      "already_published": false,
-      "review_decision": null,
-      "publishable_discovery": true
-    },
-    {
-      "sadeha_source": "search-documents/sadeha-030.html",
-      "match_strength": "author-title",
-      "issue": "36",
-      "section": "2.8",
-      "author": "फील्ड",
-      "title": "वर्कपर आधारित खिस्सा सीत-बसंत",
-      "classification": "references-present",
-      "body_chars": 74563,
-      "already_published": false,
-      "review_decision": null,
-      "publishable_discovery": true
-    },
-    {
-      "sadeha_source": "search-documents/sadeha-030.html",
-      "match_strength": "author-title",
-      "issue": "45",
-      "section": "2.8",
-      "author": "बिपिन झा",
-      "title": "ये बान्धवाऽबान्धवा वा।",
-      "classification": "references-present",
-      "body_chars": 87948,
-      "already_published": false,
-      "review_decision": null,
-      "publishable_discovery": true
-    },
-    {
-      "sadeha_source": "search-documents/sadeha-034.html",
-      "match_strength": "author-title",
-      "issue": "51",
-      "section": "2.8",
-      "author": "रामभरोस कापडि भ्रमर",
-      "title": "एहि बेर सातम् अन्‍तराष्‍ट्रिय मैथिली सम्‍मेलन काठमाण्‍डूमे हयत",
-      "classification": "references-present",
-      "body_chars": 122243,
-      "already_published": false,
-      "review_decision": null,
-      "publishable_discovery": true
-    },
-    {
-      "sadeha_source": "search-documents/sadeha-030.html",
-      "match_strength": "author-title",
-      "issue": "58",
-      "section": "2.8",
-      "author": "राजेश्वर नेपाली",
-      "title": "कवि पं. प्रतापनारायण झा कें छठम पुण्यतिथि पर हार्दिक श्रद्धाञ्जलि",
-      "classification": "references-present",
-      "body_chars": 107903,
-      "already_published": false,
-      "review_decision": null,
-      "publishable_discovery": true
-    },
-    {
-      "sadeha_source": "search-documents/sadeha-034.html",
-      "match_strength": "author-title",
-      "issue": "59",
-      "section": "2.5",
-      "author": "प्रेमशंकर सिंह",
-      "title": "हरिमोहन झाक रचनाक परवर्त्ती",
-      "classification": "references-present",
-      "body_chars": 178161,
-      "already_published": false,
-      "review_decision": null,
-      "publishable_discovery": true
-    },
-    {
-      "sadeha_source": "search-documents/sadeha-030.html",
-      "match_strength": "author-title",
-      "issue": "64",
-      "section": "2.3",
-      "author": "धीरेन्द्र प्रेमर्षि",
-      "title": "मधुश्रावणी: मिथिलाक पारम्परिक हनिमून",
-      "classification": "references-present",
-      "body_chars": 145903,
-      "already_published": false,
-      "review_decision": null,
-      "publishable_discovery": true
-    },
-    {
-      "sadeha_source": "search-documents/sadeha-033.html",
-      "match_strength": "author-title",
-      "issue": "95",
-      "section": "2.2",
-      "author": "हम पुछैत छी",
-      "title": "बृषेश चन्द्र लालजी सँ मुन्नाजी पुछैत छथि ढेर रास गप",
-      "classification": "references-present",
-      "body_chars": 174739,
-      "already_published": false,
-      "review_decision": null,
-      "publishable_discovery": true
-    },
-    {
-      "sadeha_source": "search-documents/sadeha-010.html",
-      "match_strength": "author-title",
-      "issue": "99",
-      "section": "2.5",
-      "author": "खुशबू झा",
-      "title": "हमरा नजरिमे सुजीतक रिपोर्टर डायरी",
-      "classification": "references-present",
-      "body_chars": 6587,
-      "already_published": false,
-      "review_decision": null,
-      "publishable_discovery": true
-    },
-    {
-      "sadeha_source": "search-documents/sadeha-036.html",
-      "match_strength": "author-title",
-      "issue": "119",
-      "section": "2.7",
-      "author": "नवेंदु कुमार झा",
-      "title": "मिथिला आ मैथिली बॅटबाक भऽ रहल साजिश/ ई गवर्नेंस दिस सरकार बढ़ौलक डेग",
-      "classification": "references-present",
-      "body_chars": 19235,
-      "already_published": false,
-      "review_decision": null,
-      "publishable_discovery": true
-    },
-    {
-      "sadeha_source": "search-documents/sadeha-018.html",
-      "match_strength": "author-title",
-      "issue": "195",
-      "section": "2.3",
-      "author": "आशीष अनचिन्हार",
-      "title": "गाम के अधिकारी तोहे बड़का भैया हो (आलोचना)",
-      "classification": "criticism",
-      "body_chars": 4335,
-      "already_published": false,
-      "review_decision": null,
-      "publishable_discovery": true
-    },
-    {
-      "sadeha_source": "search-documents/sadeha-016.html",
-      "match_strength": "author-title",
-      "issue": "360",
-      "section": "2.17",
-      "author": "जगदानन्द झा 'मनु'",
-      "title": "अनमोल झा जीक पोथी 'टेकनोलजी'क समीक्षा",
-      "classification": "references-present",
-      "body_chars": 32650,
-      "already_published": false,
-      "review_decision": null,
-      "publishable_discovery": true
-    },
-    {
-      "sadeha_source": "search-documents/sadeha-020.html",
-      "match_strength": "author-title",
-      "issue": "371",
-      "section": "2.8",
-      "author": "प्रणव झा",
-      "title": "मिथिला स्टूडेंट यूनियन",
-      "classification": "references-present",
-      "body_chars": 6942,
-      "already_published": false,
-      "review_decision": null,
-      "publishable_discovery": true
-    }
-  ],
+  "already_published_matches": 35,
+  "new_scholarly_discoveries_publishable": 0,
+  "new_matches_requiring_editorial_review": 0,
+  "publishable": [],
+  "reviewable": [],
   "matches": [
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -369,7 +175,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-015.html",
@@ -382,7 +190,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -395,7 +205,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -408,7 +220,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -421,7 +235,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -434,7 +250,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -445,9 +263,11 @@
       "title": "नव भोर जोहैत मिथिला",
       "classification": "references-present",
       "body_chars": 163481,
-      "already_published": false,
+      "already_published": true,
       "review_decision": null,
-      "publishable_discovery": true
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -460,7 +280,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -473,7 +295,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-002.html",
@@ -486,7 +310,9 @@
       "body_chars": 4583,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -499,7 +325,9 @@
       "body_chars": 24205,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -510,9 +338,11 @@
       "title": "नवेन्दु कुमार झा",
       "classification": "references-present",
       "body_chars": 18845,
-      "already_published": false,
+      "already_published": true,
       "review_decision": null,
-      "publishable_discovery": true
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -523,9 +353,11 @@
       "title": "हमर सपना केर मिथिला",
       "classification": "references-present",
       "body_chars": 71548,
-      "already_published": false,
+      "already_published": true,
       "review_decision": null,
-      "publishable_discovery": true
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -538,7 +370,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -551,7 +385,9 @@
       "body_chars": 34660,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-003.html",
@@ -564,7 +400,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-033.html",
@@ -577,7 +415,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-003.html",
@@ -590,7 +430,9 @@
       "body_chars": 56693,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -603,7 +445,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -616,7 +460,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-002.html",
@@ -629,7 +475,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -642,7 +490,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-031.html",
@@ -655,7 +505,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -668,7 +520,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-033.html",
@@ -681,7 +535,9 @@
       "body_chars": 198286,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-033.html",
@@ -694,7 +550,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -707,7 +565,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-005-version-1.html",
@@ -720,7 +580,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -733,7 +595,9 @@
       "body_chars": 74827,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -746,7 +610,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -759,7 +625,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-006.html",
@@ -772,7 +640,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-002.html",
@@ -785,7 +655,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -796,9 +668,11 @@
       "title": "वर्कपर आधारित खिस्सा सीत-बसंत",
       "classification": "references-present",
       "body_chars": 74563,
-      "already_published": false,
+      "already_published": true,
       "review_decision": null,
-      "publishable_discovery": true
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-008.html",
@@ -811,7 +685,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-013.html",
@@ -824,7 +700,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -837,7 +715,9 @@
       "body_chars": 102002,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -850,7 +730,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-007.html",
@@ -863,7 +745,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -876,7 +760,9 @@
       "body_chars": 39537,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -889,7 +775,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-003.html",
@@ -902,7 +790,9 @@
       "body_chars": 81221,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -915,7 +805,9 @@
       "body_chars": 94920,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-002.html",
@@ -928,7 +820,9 @@
       "body_chars": 46604,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -941,7 +835,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -954,7 +850,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-031.html",
@@ -967,7 +865,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-004.html",
@@ -980,7 +880,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -993,7 +895,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -1006,7 +910,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -1019,7 +925,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -1032,7 +940,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-002.html",
@@ -1045,7 +955,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -1058,7 +970,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -1071,7 +985,9 @@
       "body_chars": 0,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -1082,9 +998,11 @@
       "title": "ये बान्धवाऽबान्धवा वा।",
       "classification": "references-present",
       "body_chars": 87948,
-      "already_published": false,
+      "already_published": true,
       "review_decision": null,
-      "publishable_discovery": true
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -1097,7 +1015,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -1110,7 +1030,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -1123,7 +1045,9 @@
       "body_chars": 63352,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -1136,7 +1060,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -1149,7 +1075,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-002.html",
@@ -1162,7 +1090,9 @@
       "body_chars": 387693,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -1175,7 +1105,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -1188,7 +1120,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-002.html",
@@ -1201,7 +1135,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -1214,7 +1150,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -1227,7 +1165,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -1240,7 +1180,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -1251,9 +1193,11 @@
       "title": "एहि बेर सातम् अन्‍तराष्‍ट्रिय मैथिली सम्‍मेलन काठमाण्‍डूमे हयत",
       "classification": "references-present",
       "body_chars": 122243,
-      "already_published": false,
+      "already_published": true,
       "review_decision": null,
-      "publishable_discovery": true
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-002.html",
@@ -1266,7 +1210,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-032.html",
@@ -1279,7 +1225,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1292,7 +1240,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-032.html",
@@ -1305,7 +1255,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-007.html",
@@ -1318,7 +1270,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-009.html",
@@ -1331,7 +1285,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-007.html",
@@ -1344,7 +1300,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-010.html",
@@ -1357,7 +1315,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1370,7 +1330,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1383,7 +1345,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1396,7 +1360,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-032.html",
@@ -1409,7 +1375,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-007.html",
@@ -1422,7 +1390,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1435,7 +1405,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-032.html",
@@ -1448,7 +1420,9 @@
       "body_chars": 94572,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1461,7 +1435,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1474,7 +1450,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-032.html",
@@ -1487,7 +1465,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1500,7 +1480,9 @@
       "body_chars": 57634,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-007.html",
@@ -1513,7 +1495,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1526,7 +1510,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-033.html",
@@ -1539,7 +1525,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -1550,9 +1538,11 @@
       "title": "कवि पं. प्रतापनारायण झा कें छठम पुण्यतिथि पर हार्दिक श्रद्धाञ्जलि",
       "classification": "references-present",
       "body_chars": 107903,
-      "already_published": false,
+      "already_published": true,
       "review_decision": null,
-      "publishable_discovery": true
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -1563,9 +1553,11 @@
       "title": "हरिमोहन झाक रचनाक परवर्त्ती",
       "classification": "references-present",
       "body_chars": 178161,
-      "already_published": false,
+      "already_published": true,
       "review_decision": null,
-      "publishable_discovery": true
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-010.html",
@@ -1578,7 +1570,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1591,7 +1585,9 @@
       "body_chars": 247412,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -1604,7 +1600,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-032.html",
@@ -1617,7 +1615,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1630,7 +1630,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -1643,7 +1645,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1656,7 +1660,9 @@
       "body_chars": 87186,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-010.html",
@@ -1669,7 +1675,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -1680,9 +1688,11 @@
       "title": "मधुश्रावणी: मिथिलाक पारम्परिक हनिमून",
       "classification": "references-present",
       "body_chars": 145903,
-      "already_published": false,
+      "already_published": true,
       "review_decision": null,
-      "publishable_discovery": true
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1695,7 +1705,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-026.html",
@@ -1708,7 +1720,9 @@
       "body_chars": 182909,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-010.html",
@@ -1721,7 +1735,9 @@
       "body_chars": 31030,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-007.html",
@@ -1734,7 +1750,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1747,7 +1765,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-010.html",
@@ -1760,7 +1780,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-007.html",
@@ -1773,7 +1795,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-010.html",
@@ -1786,7 +1810,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1799,7 +1825,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1812,7 +1840,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-010.html",
@@ -1825,7 +1855,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1838,7 +1870,9 @@
       "body_chars": 0,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1851,7 +1885,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-005-version-1.html",
@@ -1864,7 +1900,9 @@
       "body_chars": 0,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -1877,7 +1915,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-009.html",
@@ -1890,7 +1930,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-010.html",
@@ -1903,7 +1945,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -1916,7 +1960,9 @@
       "body_chars": 78981,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -1929,7 +1975,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-007.html",
@@ -1942,7 +1990,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -1955,7 +2005,9 @@
       "body_chars": 5699,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -1968,7 +2020,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -1981,7 +2035,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -1994,7 +2050,9 @@
       "body_chars": 41538,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -2007,7 +2065,9 @@
       "body_chars": 76169,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2020,7 +2080,9 @@
       "body_chars": 38165,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-029.html",
@@ -2033,7 +2095,9 @@
       "body_chars": 66873,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -2046,7 +2110,9 @@
       "body_chars": 9521,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2059,7 +2125,9 @@
       "body_chars": 5699,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-007.html",
@@ -2072,7 +2140,9 @@
       "body_chars": 32361,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -2085,7 +2155,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-034.html",
@@ -2098,7 +2170,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2111,7 +2185,9 @@
       "body_chars": 38479,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2124,7 +2200,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2137,7 +2215,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2150,7 +2230,9 @@
       "body_chars": 21734,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -2163,7 +2245,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2176,7 +2260,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2189,7 +2275,9 @@
       "body_chars": 31976,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2202,7 +2290,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-007.html",
@@ -2215,7 +2305,9 @@
       "body_chars": 7592,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2228,7 +2320,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-007.html",
@@ -2241,7 +2335,9 @@
       "body_chars": 987,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-010.html",
@@ -2254,7 +2350,9 @@
       "body_chars": 5699,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2267,7 +2365,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-010.html",
@@ -2280,7 +2380,9 @@
       "body_chars": 5699,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-027.html",
@@ -2293,7 +2395,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2306,7 +2410,9 @@
       "body_chars": 0,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2319,7 +2425,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-011.html",
@@ -2332,7 +2440,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2345,7 +2455,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2358,7 +2470,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-011.html",
@@ -2371,7 +2485,9 @@
       "body_chars": 7496,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2384,7 +2500,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -2397,7 +2515,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2410,7 +2530,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -2423,7 +2545,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2436,7 +2560,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-029.html",
@@ -2449,7 +2575,9 @@
       "body_chars": 12993,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -2462,7 +2590,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-033.html",
@@ -2475,7 +2605,9 @@
       "body_chars": 40720,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-010.html",
@@ -2488,7 +2620,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2501,7 +2635,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-009.html",
@@ -2514,7 +2650,9 @@
       "body_chars": 41285,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -2527,7 +2665,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-010.html",
@@ -2540,7 +2680,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -2553,7 +2695,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-033.html",
@@ -2564,9 +2708,11 @@
       "title": "बृषेश चन्द्र लालजी सँ मुन्नाजी पुछैत छथि ढेर रास गप",
       "classification": "references-present",
       "body_chars": 174739,
-      "already_published": false,
+      "already_published": true,
       "review_decision": null,
-      "publishable_discovery": true
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2579,7 +2725,9 @@
       "body_chars": 37803,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2592,7 +2740,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2605,7 +2755,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2618,7 +2770,9 @@
       "body_chars": 7160,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2631,7 +2785,9 @@
       "body_chars": 38046,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-010.html",
@@ -2642,9 +2798,11 @@
       "title": "हमरा नजरिमे सुजीतक रिपोर्टर डायरी",
       "classification": "references-present",
       "body_chars": 6587,
-      "already_published": false,
+      "already_published": true,
       "review_decision": null,
-      "publishable_discovery": true
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-026.html",
@@ -2657,7 +2815,9 @@
       "body_chars": 5699,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2670,7 +2830,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -2683,7 +2845,9 @@
       "body_chars": 5290,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2696,7 +2860,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-007.html",
@@ -2709,7 +2875,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -2722,7 +2890,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-009.html",
@@ -2735,7 +2905,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-011.html",
@@ -2748,7 +2920,9 @@
       "body_chars": 2310,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-033.html",
@@ -2761,7 +2935,9 @@
       "body_chars": 10398,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-029.html",
@@ -2774,7 +2950,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-011.html",
@@ -2787,7 +2965,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-008.html",
@@ -2800,7 +2980,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2813,7 +2995,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-026.html",
@@ -2826,7 +3010,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -2839,7 +3025,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-011.html",
@@ -2852,7 +3040,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-010.html",
@@ -2865,7 +3055,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2878,7 +3070,9 @@
       "body_chars": 991,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -2891,7 +3085,9 @@
       "body_chars": 0,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-031.html",
@@ -2904,7 +3100,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2917,7 +3115,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-011.html",
@@ -2930,7 +3130,9 @@
       "body_chars": 13477,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-011.html",
@@ -2943,7 +3145,9 @@
       "body_chars": 5699,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-011.html",
@@ -2956,7 +3160,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -2969,7 +3175,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-012.html",
@@ -2982,7 +3190,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-012.html",
@@ -2995,7 +3205,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-012.html",
@@ -3008,7 +3220,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-008.html",
@@ -3021,7 +3235,9 @@
       "body_chars": 48101,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -3034,7 +3250,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-008.html",
@@ -3047,7 +3265,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-012.html",
@@ -3060,7 +3280,9 @@
       "body_chars": 5699,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-012.html",
@@ -3073,7 +3295,9 @@
       "body_chars": 32206,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-013.html",
@@ -3086,7 +3310,9 @@
       "body_chars": 5699,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-013.html",
@@ -3099,7 +3325,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-013.html",
@@ -3112,7 +3340,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-013.html",
@@ -3125,7 +3355,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-030.html",
@@ -3138,7 +3370,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-013.html",
@@ -3151,7 +3385,9 @@
       "body_chars": 14834,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-013.html",
@@ -3164,7 +3400,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -3175,9 +3413,11 @@
       "title": "मिथिला आ मैथिली बॅटबाक भऽ रहल साजिश/ ई गवर्नेंस दिस सरकार बढ़ौलक डेग",
       "classification": "references-present",
       "body_chars": 19235,
-      "already_published": false,
+      "already_published": true,
       "review_decision": null,
-      "publishable_discovery": true
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-013.html",
@@ -3190,7 +3430,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-013.html",
@@ -3203,7 +3445,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-013.html",
@@ -3216,7 +3460,9 @@
       "body_chars": 1639,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-013.html",
@@ -3229,7 +3475,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-014.html",
@@ -3242,7 +3490,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-014.html",
@@ -3255,7 +3505,9 @@
       "body_chars": 1199,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-014.html",
@@ -3268,7 +3520,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-014.html",
@@ -3281,7 +3535,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-014.html",
@@ -3294,7 +3550,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-014.html",
@@ -3307,7 +3565,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-014.html",
@@ -3320,7 +3580,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-014.html",
@@ -3333,7 +3595,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-014.html",
@@ -3346,7 +3610,9 @@
       "body_chars": 9684,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-015.html",
@@ -3359,7 +3625,9 @@
       "body_chars": 0,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-015.html",
@@ -3372,7 +3640,9 @@
       "body_chars": 13006,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-015.html",
@@ -3385,7 +3655,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-015.html",
@@ -3398,7 +3670,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -3411,7 +3685,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -3424,7 +3700,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -3437,7 +3715,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -3450,7 +3730,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -3463,7 +3745,9 @@
       "body_chars": 4664,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -3476,7 +3760,9 @@
       "body_chars": 0,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -3489,7 +3775,9 @@
       "body_chars": 5694,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -3502,7 +3790,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -3515,7 +3805,9 @@
       "body_chars": 0,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -3528,7 +3820,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -3541,7 +3835,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -3554,7 +3850,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -3567,7 +3865,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -3580,7 +3880,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -3593,7 +3895,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-019.html",
@@ -3606,7 +3910,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -3619,7 +3925,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-017.html",
@@ -3632,7 +3940,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-017.html",
@@ -3645,7 +3955,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-017.html",
@@ -3658,7 +3970,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-017.html",
@@ -3671,7 +3985,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-017.html",
@@ -3684,7 +4000,9 @@
       "body_chars": 7885,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-017.html",
@@ -3697,7 +4015,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-017.html",
@@ -3710,7 +4030,9 @@
       "body_chars": 1562,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -3723,7 +4045,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-017.html",
@@ -3736,7 +4060,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-007.html",
@@ -3749,7 +4075,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-014.html",
@@ -3762,7 +4090,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-018.html",
@@ -3775,7 +4105,9 @@
       "body_chars": 13839,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -3788,7 +4120,9 @@
       "body_chars": 702,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-018.html",
@@ -3801,7 +4135,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-018.html",
@@ -3812,9 +4148,11 @@
       "title": "गाम के अधिकारी तोहे बड़का भैया हो (आलोचना)",
       "classification": "criticism",
       "body_chars": 4335,
-      "already_published": false,
+      "already_published": true,
       "review_decision": null,
-      "publishable_discovery": true
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-018.html",
@@ -3827,7 +4165,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-018.html",
@@ -3840,7 +4180,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-018.html",
@@ -3853,7 +4195,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-018.html",
@@ -3866,7 +4210,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-018.html",
@@ -3879,7 +4225,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-018.html",
@@ -3892,7 +4240,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-018.html",
@@ -3905,7 +4255,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-018.html",
@@ -3918,7 +4270,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-018.html",
@@ -3931,7 +4285,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-018.html",
@@ -3944,7 +4300,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-018.html",
@@ -3957,7 +4315,9 @@
       "body_chars": 7908,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-019.html",
@@ -3970,7 +4330,9 @@
       "body_chars": 583,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-019.html",
@@ -3983,7 +4345,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-019.html",
@@ -3996,7 +4360,9 @@
       "body_chars": 1216,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-019.html",
@@ -4009,7 +4375,9 @@
       "body_chars": 0,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-019.html",
@@ -4022,7 +4390,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-019.html",
@@ -4035,7 +4405,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-019.html",
@@ -4048,7 +4420,9 @@
       "body_chars": 0,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-019.html",
@@ -4061,7 +4435,9 @@
       "body_chars": 26361,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-011.html",
@@ -4074,7 +4450,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-019.html",
@@ -4087,7 +4465,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-019.html",
@@ -4100,7 +4480,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-019.html",
@@ -4113,7 +4495,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-019.html",
@@ -4126,7 +4510,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-019.html",
@@ -4139,7 +4525,9 @@
       "body_chars": 0,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-019.html",
@@ -4152,7 +4540,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -4165,7 +4555,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -4178,7 +4570,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -4191,7 +4585,9 @@
       "body_chars": 9909,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-029.html",
@@ -4204,7 +4600,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-002.html",
@@ -4217,7 +4615,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -4230,7 +4630,9 @@
       "body_chars": 1079,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -4243,7 +4645,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -4256,7 +4660,9 @@
       "body_chars": 974,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -4269,7 +4675,9 @@
       "body_chars": 1959,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -4282,7 +4690,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -4295,7 +4705,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -4308,7 +4720,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -4321,7 +4735,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -4334,7 +4750,9 @@
       "body_chars": 47888,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -4347,7 +4765,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -4360,7 +4780,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -4373,7 +4795,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -4386,7 +4810,9 @@
       "body_chars": 1254,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -4399,7 +4825,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-003.html",
@@ -4412,7 +4840,9 @@
       "body_chars": 128137,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-021.html",
@@ -4425,7 +4855,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-022.html",
@@ -4438,7 +4870,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-021.html",
@@ -4451,7 +4885,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-022.html",
@@ -4464,7 +4900,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4477,7 +4915,9 @@
       "body_chars": 10346,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4490,7 +4930,9 @@
       "body_chars": 3816,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4503,7 +4945,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4516,7 +4960,9 @@
       "body_chars": 981,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4529,7 +4975,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4542,7 +4990,9 @@
       "body_chars": 5507,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4555,7 +5005,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4568,7 +5020,9 @@
       "body_chars": 939,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4581,7 +5035,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4594,7 +5050,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4607,7 +5065,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4620,7 +5080,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4633,7 +5095,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4646,7 +5110,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4659,7 +5125,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-007.html",
@@ -4672,7 +5140,9 @@
       "body_chars": 0,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4685,7 +5155,9 @@
       "body_chars": 9542,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4698,7 +5170,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4711,7 +5185,9 @@
       "body_chars": 771,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4724,7 +5200,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -4737,7 +5215,9 @@
       "body_chars": 4955,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4750,7 +5230,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4763,7 +5245,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4776,7 +5260,9 @@
       "body_chars": 627,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4789,7 +5275,9 @@
       "body_chars": 1183,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-008.html",
@@ -4802,7 +5290,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4815,7 +5305,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -4828,7 +5320,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4841,7 +5335,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -4854,7 +5350,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4867,7 +5365,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4880,7 +5380,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4893,7 +5395,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -4906,7 +5410,9 @@
       "body_chars": 8310,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4919,7 +5425,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4932,7 +5440,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4945,7 +5455,9 @@
       "body_chars": 0,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4958,7 +5470,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4971,7 +5485,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -4984,7 +5500,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-008.html",
@@ -4997,7 +5515,9 @@
       "body_chars": 552,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -5010,7 +5530,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -5023,7 +5545,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-022.html",
@@ -5036,7 +5560,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -5049,7 +5575,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -5062,7 +5590,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -5075,7 +5605,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -5088,7 +5620,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -5101,7 +5635,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -5114,7 +5650,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -5127,7 +5665,9 @@
       "body_chars": 661,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-022.html",
@@ -5140,7 +5680,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -5153,7 +5695,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -5166,7 +5710,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -5179,7 +5725,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -5192,7 +5740,9 @@
       "body_chars": 518,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -5205,7 +5755,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -5218,7 +5770,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -5231,7 +5785,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -5244,7 +5800,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5257,7 +5815,9 @@
       "body_chars": 8350,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5270,7 +5830,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5283,7 +5845,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5296,7 +5860,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5309,7 +5875,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5322,7 +5890,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5335,7 +5905,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5348,7 +5920,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5361,7 +5935,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5374,7 +5950,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5387,7 +5965,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5400,7 +5980,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5413,7 +5995,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5426,7 +6010,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5439,7 +6025,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5452,7 +6040,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5465,7 +6055,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5478,7 +6070,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5491,7 +6085,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5504,7 +6100,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5517,7 +6115,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5530,7 +6130,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5543,7 +6145,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5556,7 +6160,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5569,7 +6175,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5582,7 +6190,9 @@
       "body_chars": 1661,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5595,7 +6205,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5608,7 +6220,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5621,7 +6235,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5634,7 +6250,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5647,7 +6265,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5660,7 +6280,9 @@
       "body_chars": 1411,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5673,7 +6295,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5686,7 +6310,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5699,7 +6325,9 @@
       "body_chars": 0,
       "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5712,7 +6340,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5725,7 +6355,9 @@
       "body_chars": 5432,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5738,7 +6370,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -5751,7 +6385,9 @@
       "body_chars": 2444,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5764,7 +6400,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5777,7 +6415,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5790,7 +6430,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5803,7 +6445,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5816,7 +6460,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5829,7 +6475,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5842,7 +6490,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5855,7 +6505,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5868,7 +6520,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5881,7 +6535,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5894,7 +6550,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5907,7 +6565,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5920,7 +6580,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5933,7 +6595,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5946,7 +6610,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5959,7 +6625,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5972,7 +6640,9 @@
       "body_chars": 1279,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5985,7 +6655,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -5998,7 +6670,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6011,7 +6685,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6024,7 +6700,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6037,7 +6715,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6050,7 +6730,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6063,7 +6745,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6076,7 +6760,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6089,7 +6775,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6102,7 +6790,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6115,7 +6805,9 @@
       "body_chars": 890,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6128,7 +6820,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6141,7 +6835,9 @@
       "body_chars": 453,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6154,7 +6850,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6167,7 +6865,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6180,7 +6880,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6193,7 +6895,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6206,7 +6910,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6219,7 +6925,9 @@
       "body_chars": 5620,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6232,7 +6940,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6245,7 +6955,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6258,7 +6970,9 @@
       "body_chars": 607,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6271,7 +6985,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6284,7 +7000,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6297,7 +7015,9 @@
       "body_chars": 746,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6310,7 +7030,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6323,7 +7045,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-019.html",
@@ -6336,7 +7060,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6349,7 +7075,9 @@
       "body_chars": 935,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6362,7 +7090,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6375,7 +7105,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6388,7 +7120,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6401,7 +7135,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6414,7 +7150,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6427,7 +7165,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -6440,7 +7180,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -6453,7 +7195,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -6466,7 +7210,9 @@
       "body_chars": 31797,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -6479,7 +7225,9 @@
       "body_chars": 3630,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -6492,7 +7240,9 @@
       "body_chars": 5176,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -6505,7 +7255,9 @@
       "body_chars": 69091,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -6516,9 +7268,11 @@
       "title": "अनमोल झा जीक पोथी 'टेकनोलजी'क समीक्षा",
       "classification": "references-present",
       "body_chars": 32650,
-      "already_published": false,
+      "already_published": true,
       "review_decision": null,
-      "publishable_discovery": true
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -6531,7 +7285,9 @@
       "body_chars": 3331,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -6544,7 +7300,9 @@
       "body_chars": 2415,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -6557,7 +7315,9 @@
       "body_chars": 4847,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6570,7 +7330,9 @@
       "body_chars": 1581,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -6581,9 +7343,11 @@
       "title": "मिथिला स्टूडेंट यूनियन",
       "classification": "unclassified",
       "body_chars": 5842,
-      "already_published": false,
+      "already_published": true,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-020.html",
@@ -6594,9 +7358,11 @@
       "title": "मिथिला स्टूडेंट यूनियन",
       "classification": "references-present",
       "body_chars": 6942,
-      "already_published": false,
+      "already_published": true,
       "review_decision": null,
-      "publishable_discovery": true
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-033.html",
@@ -6609,7 +7375,9 @@
       "body_chars": 565,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-002.html",
@@ -6622,7 +7390,9 @@
       "body_chars": 1454,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-025.html",
@@ -6635,7 +7405,9 @@
       "body_chars": 4057,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-016.html",
@@ -6648,7 +7420,9 @@
       "body_chars": 969,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-002.html",
@@ -6661,7 +7435,9 @@
       "body_chars": 4483,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-002.html",
@@ -6674,7 +7450,9 @@
       "body_chars": 8701,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -6687,7 +7465,9 @@
       "body_chars": 17750,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-024.html",
@@ -6700,7 +7480,9 @@
       "body_chars": 0,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-002.html",
@@ -6713,7 +7495,9 @@
       "body_chars": 5587,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-019.html",
@@ -6726,7 +7510,9 @@
       "body_chars": 1142,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",
@@ -6739,7 +7525,9 @@
       "body_chars": 7313,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-001.html",
@@ -6752,7 +7540,9 @@
       "body_chars": 12614,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-021.html",
@@ -6765,7 +7555,9 @@
       "body_chars": 30101,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-023.html",
@@ -6778,7 +7570,9 @@
       "body_chars": 2795,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-021.html",
@@ -6791,7 +7585,9 @@
       "body_chars": 1281,
       "already_published": false,
       "review_decision": null,
-      "publishable_discovery": false
+      "publishable_discovery": false,
+      "reviewable_discovery": false,
+      "eligibility_note": null
     }
   ]
 }
