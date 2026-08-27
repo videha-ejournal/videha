@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-27T00:52:33.338856+00:00",
+  "generated": "2026-08-27T00:56:57.795319+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,14 +12,14 @@
     "audit_queue_held": 31,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
-    "sadeha_discovered_publishable": 0,
+    "sadeha_discovered_publishable": 5,
     "sadeha_discovered_held": 0,
     "promoted_sections_requested": 37,
     "promoted_sections_publishable": 37,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 92,
-    "stale_generated_pages_removed_before_render": 107,
+    "published_after_all_overrides": 93,
+    "stale_generated_pages_removed_before_render": 92,
     "build_errors": 0
   },
   "articles": [
@@ -195,7 +195,7 @@
       "year": "2011",
       "issue": "79",
       "keywords": [],
-      "classification": "Scholarly article",
+      "classification": "Culture / art studies article",
       "url": "https://www.videha.co.in/research/2011/79/मिथिला-चित्रकला-पेटिंग-भूत-वर्त्तमान-आ-भविष्य.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20079.pdf",
@@ -213,7 +213,7 @@
       "year": "2011",
       "issue": "81",
       "keywords": [],
-      "classification": "Scholarly article",
+      "classification": "Culture / art studies article",
       "url": "https://www.videha.co.in/research/2011/81/अपने-घरमे-उपेक्षित-मिथिला-चित्रकला.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20081.pdf",
@@ -285,7 +285,7 @@
       "year": "2012",
       "issue": "99",
       "keywords": [],
-      "classification": "Scholarly article",
+      "classification": "Culture / art studies article",
       "url": "https://www.videha.co.in/research/2012/99/बिहारक-औद्योगिक-विकास-मे-बाधा-बनि-रहल-जमीन-आ-बिजली-राशन-कार्-ca79e5a8df.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20099.pdf",
@@ -416,6 +416,24 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20157.pdf",
       "path": "2014/157/मैथिली-काव्यशास्त्रमे-झारू-छंदक-अवधारणा-स्वरूप-आ-तत्व-निर्-71432a0974.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गाम के अधिकारी तोहे बड़का भैया हो (आलोचना)",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2016-02-01",
+      "year": "2016",
+      "issue": "195",
+      "keywords": [],
+      "classification": "Literary criticism article",
+      "url": "https://www.videha.co.in/research/2016/195/गाम-के-अधिकारी-तोहे-बड़का-भैया-हो-आलोचना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20195.pdf",
+      "path": "2016/195/गाम-के-अधिकारी-तोहे-बड़का-भैया-हो-आलोचना.htm",
       "page_start": null,
       "page_end": null
     },
