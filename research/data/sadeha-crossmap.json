@@ -159,29 +159,12 @@
   "author_title_matches": 379,
   "title_only_matches": 116,
   "matches_seen_in_previous_generated_build": 20,
-  "safe_auto_matches_total": 5,
-  "new_scholarly_discoveries_publishable": 1,
+  "safe_auto_matches_total": 4,
+  "new_scholarly_discoveries_publishable": 0,
   "new_matches_requiring_editorial_review": 0,
   "editorial_promotions": 1,
-  "editorial_exclusions_or_deferrals": 13,
-  "publishable": [
-    {
-      "sadeha_source": "search-documents/sadeha-018.html",
-      "match_strength": "author-title",
-      "issue": "195",
-      "section": "2.3",
-      "author": "आशीष अनचिन्हार",
-      "title": "गाम के अधिकारी तोहे बड़का भैया हो (आलोचना)",
-      "classification": "criticism",
-      "body_chars": 4335,
-      "was_in_previous_generated_build": false,
-      "review_decision": null,
-      "sadeha_editorial_decision": null,
-      "publishable_discovery": true,
-      "reviewable_discovery": false,
-      "eligibility_note": "positive scholarly class confirmed by Sadeha author+title match"
-    }
-  ],
+  "editorial_exclusions_or_deferrals": 14,
+  "publishable": [],
   "safe_auto_matches_already_represented": [
     {
       "sadeha_source": "search-documents/sadeha-029.html",
@@ -4519,10 +4502,10 @@
       "body_chars": 4335,
       "was_in_previous_generated_build": false,
       "review_decision": null,
-      "sadeha_editorial_decision": null,
-      "publishable_discovery": true,
+      "sadeha_editorial_decision": "exclude_for_now",
+      "publishable_discovery": false,
       "reviewable_discovery": false,
-      "eligibility_note": "positive scholarly class confirmed by Sadeha author+title match"
+      "eligibility_note": "Sadeha editorial decision: exclude_for_now. Polemical criticism of a folk-song reading; the reviewed text does not establish sufficient scholarly apparatus for the conservative Scholar layer."
     },
     {
       "sadeha_source": "search-documents/sadeha-018.html",

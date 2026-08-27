@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27T05:18:55.126520+00:00",
+  "generated": "2026-08-27T06:25:20.135547+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -11,7 +11,7 @@
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
-    "sadeha_discovered_held": 1,
+    "sadeha_discovered_held": 0,
     "promoted_sections_requested": 38,
     "promoted_sections_publishable": 38,
     "promoted_sections_review": 0,
@@ -587,15 +587,7 @@
       "reason": "explicit name-like author/title not recoverable from heading"
     }
   ],
-  "sadeha_review": [
-    {
-      "issue": "195",
-      "section": "2.3",
-      "author": "आशीष अनचिन्हार",
-      "title": "गाम के अधिकारी तोहे बड़का भैया हो (आलोचना)",
-      "reason": "extracted body begins with unrelated material before the expected author/title heading"
-    }
-  ],
+  "sadeha_review": [],
   "promotion_review": [],
   "build_errors": []
 }
