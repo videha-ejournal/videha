@@ -8,8 +8,9 @@ mapped back to the original Videha issue/section metadata.
 
 For automatic Scholar publication, Sadeha evidence must confirm a *positive scholarly
 class*. A generic body-only `references-present` signal is retained for review but is
-never sufficient by itself; this prevents reportage, announcements, interviews and
-creative prose with incidental reference words from becoming Scholar pages.
+never sufficient by itself. Previous generated HTML state is diagnostic only: final
+deduplication happens in build_all_research.py so stale pages can never suppress a
+legitimate rediscovery after cleanup.
 """
 from __future__ import annotations
 
@@ -51,7 +52,8 @@ def read_text(path: Path) -> str:
     return p.text()
 
 
-def existing_keys() -> set[tuple[str, str]]:
+def previous_generated_keys() -> set[tuple[str, str]]:
+    """Diagnostic only; do not use this to suppress current-run publication."""
     if not ARTICLES.exists():
         return set()
     data = json.loads(ARTICLES.read_text(encoding="utf-8"))
@@ -72,7 +74,7 @@ def main() -> None:
         docs.append({"path": path.relative_to(ROOT).as_posix(), "chars": len(text), "norm": norm(text)})
 
     decisions = decision_map()
-    published = existing_keys()
+    previous = previous_generated_keys()
     matches = []
     matched_rows: set[tuple[str, str, str]] = set()
 
@@ -103,13 +105,12 @@ def main() -> None:
             cls = str(row.get("classification") or "")
             base_cls = cls.split("+")[0]
             decision = decisions.get((issue, section), "")
-            already = (issue, nt) in published
+            was_previous = (issue, nt) in previous
             base_integrity = (
                 strength == "author-title"
                 and bool(row.get("scholar_candidate"))
                 and 1800 <= int(row.get("body_chars") or 0) <= 180000
                 and not decision.startswith("exclude") and decision != "hold"
-                and not already
             )
             publishable = base_integrity and base_cls in SAFE_AUTO_CLASSES
             reviewable = base_integrity and not publishable
@@ -117,7 +118,8 @@ def main() -> None:
                 "sadeha_source": doc["path"], "match_strength": strength,
                 "issue": issue, "section": section, "author": row.get("author"),
                 "title": row.get("title"), "classification": cls,
-                "body_chars": row.get("body_chars"), "already_published": already,
+                "body_chars": row.get("body_chars"),
+                "was_in_previous_generated_build": was_previous,
                 "review_decision": decision or None,
                 "publishable_discovery": publishable,
                 "reviewable_discovery": reviewable,
@@ -145,7 +147,7 @@ def main() -> None:
         "unique_videha_articles_matched": len(uniq),
         "author_title_matches": sum(1 for x in uniq if x["match_strength"] == "author-title"),
         "title_only_matches": sum(1 for x in uniq if x["match_strength"] == "title-only"),
-        "already_published_matches": sum(1 for x in uniq if x["already_published"]),
+        "matches_seen_in_previous_generated_build": sum(1 for x in uniq if x["was_in_previous_generated_build"]),
         "new_scholarly_discoveries_publishable": len(publishable),
         "new_matches_requiring_editorial_review": len(reviewable),
         "publishable": publishable,
