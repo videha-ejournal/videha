@@ -63,6 +63,7 @@ def load_promoted(root: Path) -> tuple[list[dict], list[dict]]:
         issue = str(int(str(spec.get("issue") or "0")))
         section = str(spec.get("section") or "").strip()
         classification = str(spec.get("classification") or "Scholarly article").strip()
+        language = str(spec.get("language") or "mai").strip()
         try:
             min_body_chars = int(spec.get("min_body_chars", 1800))
         except (TypeError, ValueError):
@@ -147,7 +148,7 @@ def load_promoted(root: Path) -> tuple[list[dict], list[dict]]:
             "year": date[:4],
             "issue": issue,
             "classification": classification,
-            "language": "mai",
+            "language": language,
             "slug": slugify(title),
             "page_start": item.get("page_start"),
             "page_end": item.get("page_end"),

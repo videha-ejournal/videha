@@ -117,8 +117,40 @@
       "section": "8.2",
       "title": "Ancient India- The Sources of the History of Pilgrimage",
       "author": "Ramnarayan Thakur",
-      "decision": "hold_boundary",
-      "reason": "Strong scholarly history title with reference signals, but the legacy extraction body is implausibly oversized; retain for manual boundary recovery rather than publication."
+      "decision": "retain",
+      "reason": "The complete English article boundary was manually recovered from its title through the bibliography, stopping before the following book-length item."
+    },
+    {
+      "issue": "50",
+      "section": "8.1",
+      "title": "Indo-Nepal Relations: A Personal Reflection",
+      "author": "Sindhu Poudyal",
+      "decision": "exclude_for_now",
+      "reason": "Explicitly framed as a personal reflection rather than a research study; English language alone is not sufficient for Scholar admission."
+    },
+    {
+      "issue": "150",
+      "section": "8.3",
+      "title": "The Political and Cultural Heritage of Mithila",
+      "author": "Radhakrishna Choudhary",
+      "decision": "route_to_book_discovery",
+      "reason": "A book-length work rather than an independently bounded journal article; keep outside the article-level Scholar corpus."
+    },
+    {
+      "issue": "428",
+      "section": "1.5",
+      "title": "Pandit with MacBook and manuscripts",
+      "author": "Vijay Deo Jha",
+      "decision": "exclude_for_now",
+      "reason": "A journalistic profile of a manuscript scholar, not itself a research article."
+    },
+    {
+      "issue": "431",
+      "section": "3.2",
+      "title": "Glimpses of Rural Life",
+      "author": "Dr Ram Ashish Singh",
+      "decision": "exclude",
+      "reason": "Creative verse rather than an English-language village study; the title must not trigger scholarly admission."
     }
   ]
 }

@@ -318,5 +318,136 @@
     "body_source": "search-documents/videha-446.html",
     "manual_body_start": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग-६) सन्दर्भ- कुणाल-कृत प्रेम-प्रतिज्ञा उर्फ श्रुवावतीक जय!\nकुणाल-कृत नाट्य-समीक्षा शृंखला",
     "manual_body_end": "पद्य Poetry"
+  },
+  {
+    "issue": "30",
+    "section": "8.1",
+    "author_override": "Udaya Narayana Singh",
+    "title_override": "On English-Maithili Dictionary by Gajendra Thakur",
+    "classification": "Lexicography; Maithili language studies; translation studies; digital dictionaries",
+    "language": "en",
+    "body_source": "search-documents/videha-030.html",
+    "manual_body_start": "ON ENGLISH_MAITHILI DICTIONARY BY GAJENDRA THAKUR-\nPROFESSOR UDAYA NARAYANA SINGH",
+    "manual_body_end": "CENTRAL INSTITUTE OF INDIAN LANGUAGES (CIIL)"
+  },
+  {
+    "issue": "46",
+    "section": "2.4",
+    "author_override": "बिपिन झा",
+    "title_override": "स्वातन्त्रोत्तरयुगीन संस्कृत साहित्यक संवर्द्धन मे मिथिलाक भूमिका",
+    "classification": "Sanskrit literary history; Mithila studies; post-independence literature",
+    "body_source": "search-documents/videha-046.html",
+    "manual_body_start": "बिपिन झा\nस्वातन्त्रोत्तरयुगीन संस्कृत साहित्यक संवर्द्धन मे मिथिलाक भूमिका।",
+    "manual_body_end": "कुसुम ठाकुर\nप्रत्यावर्तन (आगाँ)"
+  },
+  {
+    "issue": "68",
+    "section": "2.6",
+    "author_override": "विपिन झा",
+    "title_override": "समसामयिक सन्दर्भ मे गाँधीविचारक महत्ता",
+    "classification": "Gandhian studies; political thought; contemporary social philosophy",
+    "body_source": "search-documents/videha-068.html",
+    "manual_body_start": "विपिन झा*\nसमसामयिक सन्दर्भ मे गाँधीविचारक महत्ता",
+    "manual_body_end": "१.भवनाथ झा- दूटा विहनि कथा (लघुकथा)"
+  },
+  {
+    "issue": "71",
+    "section": "2.5",
+    "author_override": "बिपिन कुमार झा",
+    "title_override": "प्रदेश केर विकास: बिहार-विकास सन्दर्भ मे आलोचनात्मक अभिव्यक्ति",
+    "classification": "Development studies; Bihar public policy; regional planning",
+    "body_source": "search-documents/videha-071.html",
+    "manual_body_start": "बिपिन कुमार झा\nप्रदेश केर विकास : एक चिन्तन",
+    "manual_body_end": "वि‍रेन्‍द्र कुमार यादव\nकथा"
+  },
+  {
+    "issue": "77",
+    "section": "8.2",
+    "author_override": "Shefalika Verma",
+    "title_override": "Discrimination Against Women",
+    "classification": "Women's studies; human rights; gender discrimination; law and society",
+    "language": "en",
+    "body_source": "search-documents/videha-077.html",
+    "manual_body_start": "DR. SHEFALIKA VERMA\nDISCRIMINATION AGAINST WOMEN",
+    "manual_body_end": "ऐ रचनापर अपन मंतव्य"
+  },
+  {
+    "issue": "100",
+    "section": "2.3",
+    "author_override": "राजेन्द्र कुमार प्रधान",
+    "title_override": "२१म शताब्दीक पहिल दशकक मैथिली उपन्यासमे राजनीतिक चेतना",
+    "classification": "Maithili literary criticism; novel studies; political consciousness",
+    "body_source": "search-documents/videha-100.html",
+    "manual_body_start": "२१म शताब्दीक पहिल दशकक मैथिली उपन्यासमे राजनीतिक चेतना- राजेन्‍द्र कुमार प्रधान",
+    "manual_body_end": "ऐ रचनापर अपन मंतव्य"
+  },
+  {
+    "issue": "100",
+    "section": "8",
+    "author_override": "विद्यावाचस्पति डा. सदानन्द झा",
+    "title_override": "भारोपीयभाषासन्दर्भे ध्वनिविमर्शः",
+    "classification": "Sanskrit linguistics; Indo-European phonology; computational linguistics",
+    "language": "sa",
+    "min_body_chars": 1000,
+    "body_source": "search-documents/videha-100.html",
+    "manual_body_start": "भारोपीयभाषासन्दर्भे ध्वनिविमर्शः\nविद्यावाचस्पति डा. सदानन्द झा",
+    "manual_body_end": "अत्र विस्तारभयात् सर्वेषां विवरणं नोपस्थाप्य विरम्यते।"
+  },
+  {
+    "issue": "114",
+    "section": "2.3",
+    "author_override": "शिवकुमार झा ‘टिल्लू’",
+    "title_override": "मैथिली उपन्यास साहित्यक विकासमे हरिमोहन झाक योगदान",
+    "classification": "Maithili literary history; novel criticism; Harimohan Jha studies",
+    "body_source": "search-documents/videha-114.html",
+    "manual_body_start": "शि‍वकुमार झा ‘टि‍ल्‍लू’\nमैथि‍ली उपन्‍यास साहि‍त्‍यक वि‍कासमे हरि‍मोहन झाक योगदान",
+    "manual_body_end": "रचनापर अपन मंतव्य"
+  },
+  {
+    "issue": "136",
+    "section": "2.3",
+    "author_override": "डॉ. अरुण कुमार सिंह",
+    "title_override": "अभिकलनात्मक/संगणनात्मक (Computational) मैथिली व्याकरण",
+    "classification": "Computational linguistics; Maithili grammar; language technology",
+    "body_source": "search-documents/videha-136.html",
+    "manual_body_start": "डॉ०अरूण कुमार सिंह, जे० आर० पी०- मैथिली भारतीय भाषाओँ का भाषावैज्ञानिक सांख्यिकी संकाय, भारतीय भाषा संस्थान, मैसूर (कर्नाटक)\nअभिकलनात्मक/संगनणात्मक (Computational) मैथिली व्याकरण",
+    "manual_body_end": "ऐ रचनापर अपन मंतव्य"
+  },
+  {
+    "issue": "150",
+    "section": "8.2",
+    "author_override": "Ramnarayan Thakur",
+    "title_override": "Ancient India- The Sources of the History of Pilgrimage",
+    "classification": "Ancient Indian history; pilgrimage studies; historiography; primary sources",
+    "language": "en",
+    "body_source": "search-documents/videha-150.html",
+    "manual_body_start": "Ancient India\nThe Sources of the History of Pilgrimage",
+    "manual_body_end": "THE POLITICAL AND CULTURAL HERITAGE OF MITHILA"
+  },
+  {
+    "issue": "312",
+    "section": "4.5",
+    "author_override": "अनुपम रैना",
+    "title_override": "यात्रीक पद्यमे मिथिला-समाज",
+    "classification": "Maithili literary criticism; poetry studies; sociology of literature",
+    "body_source": "search-documents/videha-312.html",
+    "manual_body_start": "अनुपम रैना\nयात्रीक पद्यमे मिथिला-समाज",
+    "manual_body_end": "अपन मंतव्य editorial.staff.videha@gmail.com पर पठाउ।"
+  },
+  {
+    "issue": "312",
+    "section": "4.6",
+    "author_override": "अनुपम रैना",
+    "title_override": "यात्रीक गद्य-साहित्यमे मिथिला समाज",
+    "classification": "Maithili literary criticism; prose studies; sociology of literature",
+    "body_source": "search-documents/videha-312.html",
+    "manual_body_start": "अनुपम रैना\nयात्रीक गद्य-साहित्यमे मिथिला समाज",
+    "manual_body_end": "अपन मंतव्य editorial.staff.videha@gmail.com पर पठाउ।"
+  },
+  {
+    "issue": "419",
+    "section": "2.4",
+    "classification": "Environmental history; water studies; Mithila cultural ecology",
+    "language": "en"
   }
 ]
