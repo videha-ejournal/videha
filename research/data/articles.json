@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-26T20:12:44.877453+00:00",
+  "generated": "2026-08-27T00:48:18.475877+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,15 +12,71 @@
     "audit_queue_held": 31,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
+    "sadeha_discovered_publishable": 15,
+    "sadeha_discovered_held": 0,
     "promoted_sections_requested": 37,
     "promoted_sections_publishable": 37,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 92,
-    "stale_generated_pages_removed_before_render": 94,
+    "published_after_all_overrides": 107,
+    "stale_generated_pages_removed_before_render": 92,
     "build_errors": 0
   },
   "articles": [
+    {
+      "title": "नव भोर जोहैत मिथिला",
+      "english_title": null,
+      "authors": [
+        "धीरेन्द्र प्रेमर्षि"
+      ],
+      "publication_date": "2008-12-15",
+      "year": "2008",
+      "issue": "24",
+      "keywords": [],
+      "classification": "Referenced scholarly article",
+      "url": "https://www.videha.co.in/research/2008/24/नव-भोर-जोहैत-मिथिला.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20024.pdf",
+      "path": "2008/24/नव-भोर-जोहैत-मिथिला.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नवेन्दु कुमार झा",
+      "english_title": null,
+      "authors": [
+        "रिपोर्ताज"
+      ],
+      "publication_date": "2009-01-15",
+      "year": "2009",
+      "issue": "26",
+      "keywords": [],
+      "classification": "Referenced scholarly article",
+      "url": "https://www.videha.co.in/research/2009/26/नवेन्दु-कुमार-झा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20026.pdf",
+      "path": "2009/26/नवेन्दु-कुमार-झा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हमर सपना केर मिथिला",
+      "english_title": null,
+      "authors": [
+        "सुशांत झा"
+      ],
+      "publication_date": "2009-01-15",
+      "year": "2009",
+      "issue": "26",
+      "keywords": [],
+      "classification": "Referenced scholarly article",
+      "url": "https://www.videha.co.in/research/2009/26/हमर-सपना-केर-मिथिला.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20026.pdf",
+      "path": "2009/26/हमर-सपना-केर-मिथिला.htm",
+      "page_start": null,
+      "page_end": null
+    },
     {
       "title": "इतिहास",
       "english_title": null,
@@ -40,6 +96,24 @@
       "page_end": null
     },
     {
+      "title": "वर्कपर आधारित खिस्सा सीत-बसंत",
+      "english_title": null,
+      "authors": [
+        "फील्ड"
+      ],
+      "publication_date": "2009-06-15",
+      "year": "2009",
+      "issue": "36",
+      "keywords": [],
+      "classification": "Referenced scholarly article",
+      "url": "https://www.videha.co.in/research/2009/36/वर्कपर-आधारित-खिस्सा-सीत-बसंत.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20036.pdf",
+      "path": "2009/36/वर्कपर-आधारित-खिस्सा-सीत-बसंत.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मिथिलाक इतिहास",
       "english_title": null,
       "authors": [
@@ -54,6 +128,24 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20045.pdf",
       "path": "2009/45/मिथिलाक-इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "ये बान्धवाऽबान्धवा वा।",
+      "english_title": null,
+      "authors": [
+        "बिपिन झा"
+      ],
+      "publication_date": "2009-11-01",
+      "year": "2009",
+      "issue": "45",
+      "keywords": [],
+      "classification": "Referenced scholarly article",
+      "url": "https://www.videha.co.in/research/2009/45/ये-बान्धवाऽबान्धवा-वा।.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20045.pdf",
+      "path": "2009/45/ये-बान्धवाऽबान्धवा-वा।.htm",
       "page_start": null,
       "page_end": null
     },
@@ -90,6 +182,24 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20049.pdf",
       "path": "2010/49/मिथिलाक-इतिहास-आगाँ.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "एहि बेर सातम् अन्‍तराष्‍ट्रिय मैथिली सम्‍मेलन काठमाण्‍डूमे हयत",
+      "english_title": null,
+      "authors": [
+        "रामभरोस कापडि भ्रमर"
+      ],
+      "publication_date": "2010-02-01",
+      "year": "2010",
+      "issue": "51",
+      "keywords": [],
+      "classification": "Referenced scholarly article",
+      "url": "https://www.videha.co.in/research/2010/51/एहि-बेर-सातम्-अन्-तराष्-ट्रिय-मैथिली-सम्-मेलन-काठमाण्-डूमे-हयत.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20051.pdf",
+      "path": "2010/51/एहि-बेर-सातम्-अन्-तराष्-ट्रिय-मैथिली-सम्-मेलन-काठमाण्-डूमे-हयत.htm",
       "page_start": null,
       "page_end": null
     },
@@ -144,6 +254,60 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20053.pdf",
       "path": "2010/53/मिथिलाक-इतिहास-अन्तिम-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कवि पं. प्रतापनारायण झा कें छठम पुण्यतिथि पर हार्दिक श्रद्धाञ्जलि",
+      "english_title": null,
+      "authors": [
+        "राजेश्वर नेपाली"
+      ],
+      "publication_date": "2010-05-15",
+      "year": "2010",
+      "issue": "58",
+      "keywords": [],
+      "classification": "Referenced scholarly article",
+      "url": "https://www.videha.co.in/research/2010/58/कवि-पं-प्रतापनारायण-झा-कें-छठम-पुण्यतिथि-पर-हार्दिक-श्रद्धाञ्जलि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20058.pdf",
+      "path": "2010/58/कवि-पं-प्रतापनारायण-झा-कें-छठम-पुण्यतिथि-पर-हार्दिक-श्रद्धाञ्जलि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हरिमोहन झाक रचनाक परवर्त्ती",
+      "english_title": null,
+      "authors": [
+        "प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2010-06-01",
+      "year": "2010",
+      "issue": "59",
+      "keywords": [],
+      "classification": "Referenced scholarly article",
+      "url": "https://www.videha.co.in/research/2010/59/हरिमोहन-झाक-रचनाक-परवर्त्ती.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20059.pdf",
+      "path": "2010/59/हरिमोहन-झाक-रचनाक-परवर्त्ती.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मधुश्रावणी: मिथिलाक पारम्परिक हनिमून",
+      "english_title": null,
+      "authors": [
+        "धीरेन्द्र प्रेमर्षि"
+      ],
+      "publication_date": "2010-08-15",
+      "year": "2010",
+      "issue": "64",
+      "keywords": [],
+      "classification": "Referenced scholarly article",
+      "url": "https://www.videha.co.in/research/2010/64/मधुश्रावणी-मिथिलाक-पारम्परिक-हनिमून.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20064.pdf",
+      "path": "2010/64/मधुश्रावणी-मिथिलाक-पारम्परिक-हनिमून.htm",
       "page_start": null,
       "page_end": null
     },
@@ -256,6 +420,24 @@
       "page_end": null
     },
     {
+      "title": "बृषेश चन्द्र लालजी सँ मुन्नाजी पुछैत छथि ढेर रास गप",
+      "english_title": null,
+      "authors": [
+        "हम पुछैत छी"
+      ],
+      "publication_date": "2011-12-01",
+      "year": "2011",
+      "issue": "95",
+      "keywords": [],
+      "classification": "Referenced scholarly article",
+      "url": "https://www.videha.co.in/research/2011/95/बृषेश-चन्द्र-लालजी-सँ-मुन्नाजी-पुछैत-छथि-ढेर-रास-गप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20095.pdf",
+      "path": "2011/95/बृषेश-चन्द्र-लालजी-सँ-मुन्नाजी-पुछैत-छथि-ढेर-रास-गप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "यशोधरा",
       "english_title": null,
       "authors": [
@@ -292,6 +474,24 @@
       "page_end": null
     },
     {
+      "title": "हमरा नजरिमे सुजीतक रिपोर्टर डायरी",
+      "english_title": null,
+      "authors": [
+        "खुशबू झा"
+      ],
+      "publication_date": "2012-02-01",
+      "year": "2012",
+      "issue": "99",
+      "keywords": [],
+      "classification": "Referenced scholarly article",
+      "url": "https://www.videha.co.in/research/2012/99/हमरा-नजरिमे-सुजीतक-रिपोर्टर-डायरी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20099.pdf",
+      "path": "2012/99/हमरा-नजरिमे-सुजीतक-रिपोर्टर-डायरी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "इतिहासहिन इतिहास",
       "english_title": null,
       "authors": [
@@ -324,6 +524,24 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20109.pdf",
       "path": "2012/109/आधुनिकताक-समस्या-आलोचना.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिला आ मैथिली बॅटबाक भऽ रहल साजिश/ ई गवर्नेंस दिस सरकार बढ़ौलक डेग",
+      "english_title": null,
+      "authors": [
+        "नवेंदु कुमार झा"
+      ],
+      "publication_date": "2012-12-01",
+      "year": "2012",
+      "issue": "119",
+      "keywords": [],
+      "classification": "Referenced scholarly article",
+      "url": "https://www.videha.co.in/research/2012/119/मिथिला-आ-मैथिली-बॅटबाक-भऽ-रहल-साजिश-ई-गवर्नेंस-दिस-सरकार-बढ़ौलक-डेग.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20119.pdf",
+      "path": "2012/119/मिथिला-आ-मैथिली-बॅटबाक-भऽ-रहल-साजिश-ई-गवर्नेंस-दिस-सरकार-बढ़ौलक-डेग.htm",
       "page_start": null,
       "page_end": null
     },
@@ -414,6 +632,24 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20157.pdf",
       "path": "2014/157/मैथिली-काव्यशास्त्रमे-झारू-छंदक-अवधारणा-स्वरूप-आ-तत्व-निर्-71432a0974.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गाम के अधिकारी तोहे बड़का भैया हो (आलोचना)",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2016-02-01",
+      "year": "2016",
+      "issue": "195",
+      "keywords": [],
+      "classification": "Literary criticism article",
+      "url": "https://www.videha.co.in/research/2016/195/गाम-के-अधिकारी-तोहे-बड़का-भैया-हो-आलोचना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20195.pdf",
+      "path": "2016/195/गाम-के-अधिकारी-तोहे-बड़का-भैया-हो-आलोचना.htm",
       "page_start": null,
       "page_end": null
     },
@@ -524,6 +760,42 @@
       "path": "2021/322/कौशिकी-जनपदक-लोक-संस्कृति--इतिहासक-शिकारी.htm",
       "page_start": null,
       "page_end": null
+    },
+    {
+      "title": "अनमोल झा जीक पोथी 'टेकनोलजी'क समीक्षा",
+      "english_title": null,
+      "authors": [
+        "जगदानन्द झा 'मनु'"
+      ],
+      "publication_date": "2022-12-15",
+      "year": "2022",
+      "issue": "360",
+      "keywords": [],
+      "classification": "Referenced scholarly article",
+      "url": "https://www.videha.co.in/research/2022/360/अनमोल-झा-जीक-पोथी-टेकनोलजी-क-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20360.pdf",
+      "path": "2022/360/अनमोल-झा-जीक-पोथी-टेकनोलजी-क-समीक्षा.htm",
+      "page_start": "139",
+      "page_end": "142"
+    },
+    {
+      "title": "मिथिला स्टूडेंट यूनियन",
+      "english_title": null,
+      "authors": [
+        "प्रणव झा"
+      ],
+      "publication_date": "2023-06-01",
+      "year": "2023",
+      "issue": "371",
+      "keywords": [],
+      "classification": "Referenced scholarly article",
+      "url": "https://www.videha.co.in/research/2023/371/मिथिला-स्टूडेंट-यूनियन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20371.pdf",
+      "path": "2023/371/मिथिला-स्टूडेंट-यूनियन.htm",
+      "page_start": "52",
+      "page_end": "56"
     },
     {
       "title": "की अप्रमाणिक आलोचना एवं इतिहास केर लेखन करै छथि तारानंद वियोगी? (पृ. १५-४६)",
