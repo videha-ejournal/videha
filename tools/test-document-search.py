@@ -15,6 +15,7 @@ OUTPUT = ROOT / "search-documents"
 AUDIT = ROOT / "document-search-audit.json"
 FIXTURE = ROOT / "data" / "document-search-smoke.json"
 TRANSLATOR = ROOT / "assets" / "js" / "videha-translate.js"
+ACCESS = ROOT / "assets" / "js" / "videha-access.js"
 INDEX = ROOT / "index.htm"
 FORBIDDEN = re.compile(r"TEXT\s+NOT\s+EXTRACTABLE|OCR\s+NEEDED", re.IGNORECASE)
 
@@ -86,7 +87,11 @@ def main() -> int:
     language_count = len(re.findall(r"\[\s*'[A-Za-z-]+'\s*,\s*'", language_block))
     require(language_count == 41, f"Expected 41 translator languages, found {language_count}")
     require("data-videha-translate-standalone" in translator_js, "Translator lacks archive-page standalone mode")
-    require('assets/js/videha-translate.js?v=20260827' in INDEX.read_text(encoding="utf-8"), "index.htm does not load the current 41-language translator")
+    index_html = INDEX.read_text(encoding="utf-8")
+    access_js = ACCESS.read_text(encoding="utf-8")
+    require('assets/js/videha-translate.js?v=20260827' in index_html, "index.htm does not load the current 41-language translator")
+    require('assets/js/videha-access.js?v=20260827' in index_html, "index.htm does not load the current assistive-technology panel")
+    require("../../script-converter.html" in access_js, "Assistive panel does not resolve the Braille converter from archive pages")
     for path in actual_paths:
         raw = path.read_text(encoding="utf-8")
         total_bytes += path.stat().st_size
@@ -99,6 +104,11 @@ def main() -> int:
         require("<main data-pagefind-body>" in raw, f"Missing Pagefind body in {path.name}")
         require('../assets/js/videha-translate.js?v=20260827' in raw, f"Missing 41-language translator in {path.name}")
         require('data-videha-translate-standalone' in raw, f"Missing standalone translator hook in {path.name}")
+        require('../assets/js/videha-tts.js?v=20260818-hostfix2' in raw, f"Missing Listen script in {path.name}")
+        require('../assets/js/videha-access.js?v=20260827' in raw, f"Missing assistive-technology script in {path.name}")
+        require(raw.count('id="videha-tts-toggle"') == 1, f"Missing or duplicate Listen control in {path.name}")
+        require(raw.count('id="videha-tts-stop"') == 1, f"Missing or duplicate Stop control in {path.name}")
+        require(raw.count('id="videha-tts-status"') == 1, f"Missing or duplicate speech status in {path.name}")
         require(not FORBIDDEN.search(raw), f"Forbidden public placeholder in {path.name}")
         if "version" in path.name:
             version = path.stem[-1]
@@ -125,7 +135,7 @@ def main() -> int:
         f"{stats['canonical_pdfs']} pages "
         f"({stats['videha_pdfs']} VIDEHA + {stats['sadeha_pdfs']} SADEHA), "
         f"{stats['paired_documents']} paired, {stats['pdf_only_documents']} PDF-only, "
-        f"{stats['ocr_characters']} unique OCR characters; 41-language translator present."
+        f"{stats['ocr_characters']} unique OCR characters; Listen, 41-language translation, and assistive controls present."
     )
     return 0
 

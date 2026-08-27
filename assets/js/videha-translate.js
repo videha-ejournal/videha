@@ -103,6 +103,13 @@
       '.videha-ai-standalone{display:flex;align-items:center;flex-wrap:wrap;gap:8px;' +
         'margin:0 0 16px;padding:10px 12px;border:1px solid #d8cfc0;border-radius:8px;' +
         'background:#faf6ee;position:relative;z-index:20;}' +
+      '.videha-ai-standalone .videha-tts-btn{display:inline-flex;align-items:center;gap:6px;' +
+        'padding:6px 12px;border:1px solid #c49a3c;border-radius:20px;cursor:pointer;' +
+        'background:#faf6ee;color:#8b1a1a;font:600 14px/1.4 "Noto Sans Devanagari","Mangal",sans-serif;}' +
+      '.videha-ai-standalone .videha-tts-btn:hover,.videha-ai-standalone .videha-tts-btn:focus-visible{' +
+        'background:#8b1a1a;color:#faf6ee;border-color:#8b1a1a;}' +
+      '.videha-ai-standalone .videha-sr-only{position:absolute;width:1px;height:1px;margin:-1px;' +
+        'padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;}' +
       '.videha-ai-standalone .videha-ai-btn{margin-left:0;}' +
       '@media (max-width:600px){.videha-ai-lab-mai{display:none;}' +
         '.videha-ai-btn{font-size:13px;padding:5px 10px;}}';

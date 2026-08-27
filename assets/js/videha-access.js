@@ -25,6 +25,10 @@
   'use strict';
 
   var KEY = 'videhaA11yPrefs';
+  var accessScript = document.currentScript;
+  var converterUrl = accessScript && accessScript.src
+    ? new URL('../../script-converter.html', accessScript.src).href
+    : new URL('script-converter.html', document.baseURI).href;
 
   var defaults = {
     scale: 100,      /* font size % : 80–200 */
@@ -662,8 +666,8 @@
     /* ===== ब्रेल · Braille ===== */
     section(panel, 'ब्रेल · Braille');
     var br = tbtn('खोलू', 'विदेहक देवनागरी-ब्रेल परिवर्तक खोलू · Open the Videha Devanagari–Braille converter', function () {
-      var w = window.open('script-converter.html', '_blank', 'noopener');
-      if (!w) location.href = 'script-converter.html';
+      var w = window.open(converterUrl, '_blank', 'noopener');
+      if (!w) location.href = converterUrl;
     });
     panel.appendChild(segRow('देवनागरी ↔ ब्रेल परिवर्तक', [br]));
 
