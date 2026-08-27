@@ -12,6 +12,7 @@ from extract_explicit_research import extract_explicit_records
 from extract_promoted_sections import load_promoted
 from extract_audit_sections import load_audit_records
 from extract_top_level_audit import load_top_level_records
+from extract_sadeha_discovered import load_sadeha_records
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "research"
@@ -48,12 +49,14 @@ def main() -> None:
     auto_records = [r for r in raw_auto_records if not is_false_explicit_label(str(r.get("title") or ""))]
     audit_records, audit_review = load_audit_records()
     top_records, top_review = load_top_level_records()
+    sadeha_records, sadeha_review = load_sadeha_records()
     promoted_records, promotion_review = load_promoted(ROOT)
     curated = base.load_curated()
 
-    # Merge priority: explicit -> resolved audit queues -> editor whitelist -> curated.
+    # Merge priority: explicit -> resolved audit queues -> Sadeha rediscoveries ->
+    # editor whitelist -> curated. Later layers override duplicate bibliographic keys.
     merged: dict[tuple[str, str], dict] = {}
-    for layer in (auto_records, audit_records, top_records, promoted_records, curated):
+    for layer in (auto_records, audit_records, top_records, sadeha_records, promoted_records, curated):
         for rec in layer:
             merged[record_key(rec)] = rec
 
@@ -76,6 +79,8 @@ def main() -> None:
         "audit_queue_held": len(audit_review),
         "top_level_audit_publishable": len(top_records),
         "top_level_audit_held": len(top_review),
+        "sadeha_discovered_publishable": len(sadeha_records),
+        "sadeha_discovered_held": len(sadeha_review),
         "promoted_sections_requested": len(promoted_records) + len(promotion_review),
         "promoted_sections_publishable": len(promoted_records),
         "promoted_sections_review": len(promotion_review),
@@ -98,6 +103,7 @@ def main() -> None:
         "explicit_review": explicit_review + false_explicit_review,
         "audit_review": audit_review,
         "top_level_review": top_review,
+        "sadeha_review": sadeha_review,
         "promotion_review": promotion_review,
         "build_errors": build_errors,
     }
@@ -116,7 +122,8 @@ def main() -> None:
         "Videha Scholar full-corpus build: "
         f"{extraction_summary['issue_files_scanned']} issues; {len(articles)} published HTML articles; "
         f"{len(audit_records)} section-audit pages; {len(top_records)} top-level-audit pages; "
-        f"{len(audit_review) + len(top_review)} audit items held by integrity guards; "
+        f"{len(sadeha_records)} Sadeha-discovered pages; "
+        f"{len(audit_review) + len(top_review) + len(sadeha_review)} audit items held by integrity guards; "
         f"{len(promoted_records)} editor-approved sections; {len(build_errors)} build errors"
     )
 
