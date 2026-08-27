@@ -6,6 +6,7 @@
     "title_override": "मैथिलीमे गजल आ एकर संरचना",
     "classification": "Linguistics; poetics; Maithili ghazal structure",
     "legacy_title_author_order": true,
+    "body_end_marker": "प्रकाश चन्द्र झा : मैथिली रंगकर्ममे थ्री-इन-वन",
     "sadeha_evidence": "search-documents/sadeha-001.html"
   },
   {
@@ -24,6 +25,7 @@
     "title_override": "संस्कार गीत/ लोक गीत नाद",
     "classification": "Folklore; ritual studies; folk-song and cultural history",
     "legacy_title_author_order": true,
+    "body_end_marker": "सेमीफाइनलमे धाराशायी भेल राजग",
     "sadeha_evidence": "search-documents/sadeha-002.html"
   },
   {
@@ -33,6 +35,7 @@
     "title_override": "रामलोचन ठाकुरक 'बेतालकथा'",
     "classification": "Literary criticism; satire studies; Maithili prose",
     "legacy_title_author_order": true,
+    "body_end_marker": "एखनो माँगि रहलए उत्तर",
     "sadeha_evidence": "search-documents/sadeha-024.html"
   },
   {
@@ -42,6 +45,7 @@
     "title_override": "रामलोचन ठाकुरक मैथिली लोककथा: एक विवेचना",
     "classification": "Folklore; ethnography; oral tradition; literary criticism",
     "legacy_title_author_order": true,
+    "body_end_marker": "मैथिली कविताक विद्रोही स्वर रामलोचन ठाकुर",
     "sadeha_evidence": "search-documents/sadeha-024.html"
   }
 ]
