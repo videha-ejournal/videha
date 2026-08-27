@@ -1,4 +1,4 @@
-# Videha Scholar workflow — expanded 2026-08-26 for audit-queue publication
+# Videha Scholar workflow — expanded 2026-08-27 for Sadeha deep-dive discovery
 name: Build Videha Scholar Research Index
 
 on:
@@ -12,6 +12,7 @@ on:
       - 'templates/scholar-article.html'
       - 'search-documents/videha-*.html'
       - 'search-documents/videha-*.htm'
+      - 'search-documents/sadeha-*.html'
 
 permissions:
   contents: write
@@ -49,7 +50,9 @@ jobs:
         run: python scholar-tools/harden_section_catalogue.py
       - name: Discover legacy top-level scholarly sections
         run: python scholar-tools/build_top_level_candidates.py
-      - name: Build full research corpus including hardened audit queue
+      - name: Deep-map 38 Sadeha HTML sources to original Videha articles
+        run: python scholar-tools/build_sadeha_crossmap.py
+      - name: Build full research corpus including audit queues and Sadeha discoveries
         run: python scholar-tools/build_all_research.py
       - name: Validate Scholar metadata
         run: python scholar-tools/validate_scholar.py
