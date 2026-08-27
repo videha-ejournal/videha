@@ -1,0 +1,47 @@
+[
+  {
+    "issue": "21",
+    "section": "2.2",
+    "author_override": "धीरेन्द्र प्रेमर्षि",
+    "title_override": "मैथिलीमे गजल आ एकर संरचना",
+    "classification": "Linguistics; poetics; Maithili ghazal structure",
+    "legacy_title_author_order": true,
+    "sadeha_evidence": "search-documents/sadeha-001.html"
+  },
+  {
+    "issue": "35",
+    "section": "2.8",
+    "author_override": "गजेन्द्र ठाकुर",
+    "title_override": "लोरिक गाथामे समाज ओ संस्कृति",
+    "classification": "Folklore; ethnography; Lorik legend; social and cultural analysis",
+    "legacy_title_author_order": true,
+    "sadeha_evidence": "search-documents/sadeha-030.html"
+  },
+  {
+    "issue": "43",
+    "section": "2.6",
+    "author_override": "जगदीश प्रसाद मंडल",
+    "title_override": "संस्कार गीत/ लोक गीत नाद",
+    "classification": "Folklore; ritual studies; folk-song and cultural history",
+    "legacy_title_author_order": true,
+    "sadeha_evidence": "search-documents/sadeha-002.html"
+  },
+  {
+    "issue": "319",
+    "section": "2.12",
+    "author_override": "शिवशंकर श्रीनिवास",
+    "title_override": "रामलोचन ठाकुरक 'बेतालकथा'",
+    "classification": "Literary criticism; satire studies; Maithili prose",
+    "legacy_title_author_order": true,
+    "sadeha_evidence": "search-documents/sadeha-024.html"
+  },
+  {
+    "issue": "319",
+    "section": "2.27",
+    "author_override": "डॉ कैलाश कुमार मिश्र",
+    "title_override": "रामलोचन ठाकुरक मैथिली लोककथा: एक विवेचना",
+    "classification": "Folklore; ethnography; oral tradition; literary criticism",
+    "legacy_title_author_order": true,
+    "sadeha_evidence": "search-documents/sadeha-024.html"
+  }
+]
