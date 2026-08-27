@@ -163,7 +163,7 @@
   "new_scholarly_discoveries_publishable": 0,
   "new_matches_requiring_editorial_review": 0,
   "editorial_promotions": 1,
-  "editorial_exclusions_or_deferrals": 14,
+  "editorial_exclusions_or_deferrals": 15,
   "publishable": [],
   "safe_auto_matches_already_represented": [
     {
@@ -2150,10 +2150,10 @@
       "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
-      "sadeha_editorial_decision": null,
+      "sadeha_editorial_decision": "exclude_for_now",
       "publishable_discovery": false,
       "reviewable_discovery": false,
-      "eligibility_note": null
+      "eligibility_note": "Sadeha editorial decision: exclude_for_now. Religious travelogue rather than a sufficiently demonstrated research or ethnographic study."
     },
     {
       "sadeha_source": "search-documents/sadeha-035.html",

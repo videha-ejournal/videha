@@ -3,6 +3,7 @@
   "reviewed_on": "2026-08-27",
   "purpose": "Editorial decisions for Sadeha-discovered Videha originals. Sadeha is discovery evidence only; canonical Scholar identity remains the original Videha article.",
   "decisions": [
+    {"issue":"21","section":"2.5","decision":"exclude_for_now","reason":"Continuation is listed in the issue contents but a clean original article body is not recoverable; do not create a duplicate or reconstructed Scholar page automatically."},
     {"issue":"24","section":"2.8","decision":"exclude_for_now","reason":"General cultural/social essay; generic reference signal alone is insufficient for Scholar publication."},
     {"issue":"26","section":"2.4","decision":"exclude","reason":"Malformed reportage metadata: author parsed as 'रिपोर्ताज'; not a scholarly article record."},
     {"issue":"26","section":"2.6","decision":"exclude_for_now","reason":"Vision/opinion essay rather than a documented research study."},
@@ -12,10 +13,13 @@
     {"issue":"58","section":"2.8","decision":"exclude","reason":"Commemorative tribute, not a research article."},
     {"issue":"59","section":"2.5","decision":"promote","reason":"Sustained literary-historical criticism tracing Harimohan Jha's influence across later Maithili novelists, storytellers and poets; full original Videha body inspected."},
     {"issue":"64","section":"2.3","decision":"exclude_for_now","reason":"Substantial cultural interpretation of Madhushravani, but relies heavily on speculative scientific assertions and lacks a sufficiently formal scholarly apparatus for the conservative Scholar layer."},
+    {"issue":"76","section":"2.1","decision":"exclude_for_now","reason":"Religious travelogue rather than a sufficiently demonstrated research or ethnographic study."},
+    {"issue":"82","section":"2.1","decision":"exclude_for_now","reason":"Continuation of a religious travelogue; below the conservative scholarly threshold."},
     {"issue":"95","section":"2.2","decision":"exclude","reason":"Interview/conversation; metadata itself reflects interview framing."},
     {"issue":"99","section":"2.5","decision":"exclude_for_now","reason":"Personal discussion of a reporter diary; below the academic-review threshold."},
     {"issue":"119","section":"2.7","decision":"exclude","reason":"Slash-joined multi-topic reportage/political news item, not a standalone scholarly article."},
     {"issue":"195","section":"2.3","decision":"exclude_for_now","reason":"Polemical criticism of a folk-song reading; the reviewed text does not establish sufficient scholarly apparatus for the conservative Scholar layer."},
+    {"issue":"313","section":"2.15","decision":"exclude_for_now","reason":"Later republication of the North Cachar Yayavari material; retain the original 2008 Videha installments as the canonical Scholar records and avoid duplication."},
     {"issue":"360","section":"2.17","decision":"exclude_for_now","reason":"Ordinary book review of 'टेकनोलजी'; below the academic review-essay threshold."},
     {"issue":"371","section":"2.8","decision":"exclude_for_now","reason":"Organizational/current-affairs piece about Mithila Student Union; not demonstrated as research."}
   ]

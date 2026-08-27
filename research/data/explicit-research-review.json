@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27T06:29:46.489440+00:00",
+  "generated": "2026-08-27T06:42:52.289710+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,11 +12,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 38,
-    "promoted_sections_publishable": 38,
+    "promoted_sections_requested": 43,
+    "promoted_sections_publishable": 43,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 93,
+    "published_after_all_overrides": 97,
     "stale_generated_pages_removed_before_render": 93,
     "build_errors": 0
   },

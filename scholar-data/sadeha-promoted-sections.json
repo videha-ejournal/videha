@@ -5,5 +5,65 @@
     "classification": "Literary criticism; Maithili literary history; Harimohan Jha influence studies",
     "sadeha_evidence": "search-documents/sadeha-034.html",
     "reason": "Sadeha rediscovery led to full-text editorial review. The original Videha article by Premshankar Singh is a sustained work-by-work study of Harimohan Jha's influence on later Maithili novelists, storytellers and poets."
+  },
+  {
+    "issue": "17",
+    "section": "4.yayavari-1",
+    "author_override": "डॉ. कैलाश कुमार मिश्र",
+    "title_override": "नॉर्थ कछार हिल्स: धरतीक नुकाएल स्वर्ग (पहिल खेप)",
+    "classification": "Anthropology; ethnographic field report; cultural heritage; North Cachar Hills",
+    "body_source": "search-documents/videha-017.html",
+    "manual_body_start": "नॉर्थ कछार हिल्स: धरतीक नुकाएल स्वर्ग –डॉ कैलाश कुमार मिश्र",
+    "manual_body_end": "सहस्रबाढ़नि-गजेन्द्र ठाकुर",
+    "sadeha_evidence": "search-documents/sadeha-010.html",
+    "reason": "Sadeha 10 review identified the Yayavari field-study series; the original Videha issue 17 text documents North Cachar cultural-heritage fieldwork and community context."
+  },
+  {
+    "issue": "18",
+    "section": "4.yayavari-2",
+    "author_override": "डॉ. कैलाश कुमार मिश्र",
+    "title_override": "नॉर्थ कछार हिल्स: धरतीक नुकाएल स्वर्ग (दोसर खेप)",
+    "classification": "Anthropology; ethnographic field report; tribal communities; North Cachar Hills",
+    "body_source": "search-documents/videha-018.html",
+    "manual_body_start": "हमर एक बंगाली मानवशास्त्री मित्र छथि।",
+    "manual_body_end": "सहस्रबाढ़नि-गजेन्द्र ठाकुर",
+    "sadeha_evidence": "search-documents/sadeha-010.html",
+    "reason": "The second North Cachar installment records field observations, workshops, women participants, tribal cultural practices and heritage preservation."
+  },
+  {
+    "issue": "19",
+    "section": "4.5",
+    "author_override": "डॉ. कैलाश कुमार मिश्र",
+    "title_override": "लोअर दिवांग घाटी: इदु-मिसमी जनजातिक अनुपम संसार (पहिल खेप)",
+    "classification": "Anthropology; Idu-Mishmi ethnography; field documentation; Arunachal Pradesh",
+    "body_source": "search-documents/videha-019.html",
+    "manual_body_start": "लोअर दिवांग घाटी: इदु-मिसमी जनजातिक अनुपम संसार",
+    "manual_body_end": "२. ज्योतिकेँ",
+    "sadeha_evidence": "search-documents/sadeha-010.html",
+    "reason": "The original Videha installment states an explicit documentation programme covering Idu-Mishmi life cycle, housing, festivals, dress, marriage, agriculture, gender relations, games, language and culture."
+  },
+  {
+    "issue": "74",
+    "section": "2.1",
+    "author_override": "डॉ. कैलाश कुमार मिश्र",
+    "title_override": "संगाईप्राऊ: नागा पूर्वजक स्मरणक धरोहर",
+    "classification": "Village studies; Kabui Naga ethnography; oral history; gender and livelihoods",
+    "body_source": "search-documents/videha-074.html",
+    "manual_body_start": "संगाईप्राऊ : नागा पूर्वजक स्‍मरणक धरोहर",
+    "manual_body_end": "राजदेव मंडल\nउपन्‍यास\nहमर टोल",
+    "sadeha_evidence": "search-documents/sadeha-010.html",
+    "reason": "Full original Videha text inspected: a field-based village study using elder testimony and observations of settlement history, clans, religion, livelihoods, women, alcohol economy, material culture and ancestral memory."
+  },
+  {
+    "issue": "79",
+    "section": "2.5",
+    "author_override": "डॉ. कैलाश कुमार मिश्र",
+    "title_override": "मिथिला चित्रकला (पेटिंग): भूत, वर्त्तमान आ भविष्य",
+    "classification": "Art history; Mithila painting; women and material culture; cultural preservation",
+    "body_source": "search-documents/sadeha-010.html",
+    "manual_body_start": "मिथिला चित्रकला (पेटिंग): भूत, वर्त्तमान आ भविष्य",
+    "manual_body_end": "यायावरी\nहॉफलोंग",
+    "sadeha_evidence": "search-documents/sadeha-010.html",
+    "reason": "Sadeha 10 supplies a clean, complete copy of the already validated article, replacing the legacy boundary extraction that began with unrelated neighboring material."
   }
 ]

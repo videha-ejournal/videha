@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-27T06:29:46.490263+00:00",
+  "generated": "2026-08-27T06:42:52.291009+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,15 +14,69 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 38,
-    "promoted_sections_publishable": 38,
+    "promoted_sections_requested": 43,
+    "promoted_sections_publishable": 43,
     "promoted_sections_review": 0,
     "curated_manifests": 1,
-    "published_after_all_overrides": 93,
+    "published_after_all_overrides": 97,
     "stale_generated_pages_removed_before_render": 93,
     "build_errors": 0
   },
   "articles": [
+    {
+      "title": "नॉर्थ कछार हिल्स: धरतीक नुकाएल स्वर्ग (पहिल खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2008-09-01",
+      "year": "2008",
+      "issue": "17",
+      "keywords": [],
+      "classification": "Anthropology; ethnographic field report; cultural heritage; North Cachar Hills",
+      "url": "https://www.videha.co.in/research/2008/17/नॉर्थ-कछार-हिल्स-धरतीक-नुकाएल-स्वर्ग-पहिल-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20017.pdf",
+      "path": "2008/17/नॉर्थ-कछार-हिल्स-धरतीक-नुकाएल-स्वर्ग-पहिल-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नॉर्थ कछार हिल्स: धरतीक नुकाएल स्वर्ग (दोसर खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2008-09-15",
+      "year": "2008",
+      "issue": "18",
+      "keywords": [],
+      "classification": "Anthropology; ethnographic field report; tribal communities; North Cachar Hills",
+      "url": "https://www.videha.co.in/research/2008/18/नॉर्थ-कछार-हिल्स-धरतीक-नुकाएल-स्वर्ग-दोसर-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20018.pdf",
+      "path": "2008/18/नॉर्थ-कछार-हिल्स-धरतीक-नुकाएल-स्वर्ग-दोसर-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "लोअर दिवांग घाटी: इदु-मिसमी जनजातिक अनुपम संसार (पहिल खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2008-10-01",
+      "year": "2008",
+      "issue": "19",
+      "keywords": [],
+      "classification": "Anthropology; Idu-Mishmi ethnography; field documentation; Arunachal Pradesh",
+      "url": "https://www.videha.co.in/research/2008/19/लोअर-दिवांग-घाटी-इदु-मिसमी-जनजातिक-अनुपम-संसार-पहिल-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20019.pdf",
+      "path": "2008/19/लोअर-दिवांग-घाटी-इदु-मिसमी-जनजातिक-अनुपम-संसार-पहिल-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
     {
       "title": "इतिहास",
       "english_title": null,
@@ -204,6 +258,24 @@
       "page_end": null
     },
     {
+      "title": "संगाईप्राऊ: नागा पूर्वजक स्मरणक धरोहर",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2011-01-15",
+      "year": "2011",
+      "issue": "74",
+      "keywords": [],
+      "classification": "Village studies; Kabui Naga ethnography; oral history; gender and livelihoods",
+      "url": "https://www.videha.co.in/research/2011/74/संगाईप्राऊ-नागा-पूर्वजक-स्मरणक-धरोहर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20074.pdf",
+      "path": "2011/74/संगाईप्राऊ-नागा-पूर्वजक-स्मरणक-धरोहर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मिथिला चित्रकला (पेटिंग): भूत, वर्त्तमान आ भविष्य",
       "english_title": null,
       "authors": [
@@ -213,7 +285,7 @@
       "year": "2011",
       "issue": "79",
       "keywords": [],
-      "classification": "Scholarly article",
+      "classification": "Art history; Mithila painting; women and material culture; cultural preservation",
       "url": "https://www.videha.co.in/research/2011/79/मिथिला-चित्रकला-पेटिंग-भूत-वर्त्तमान-आ-भविष्य.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20079.pdf",

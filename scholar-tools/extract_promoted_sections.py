@@ -80,23 +80,48 @@ def load_promoted(root: Path) -> tuple[list[dict], list[dict]]:
             parser.feed(raw)
         except Exception:
             pass
-        text = parser.text()
-        toc, floor = parse_toc_entries(text)
-        idx = next((i for i, x in enumerate(toc) if x.get("section") == section), None)
-        if idx is None:
-            review.append({"issue": issue, "section": section, "reason": "section not found in issue TOC"})
-            continue
-
-        item = toc[idx]
         author_override = str(spec.get("author_override") or "").strip()
         title_override = str(spec.get("title_override") or "").strip()
-        author = author_override or item.get("author")
-        title = title_override or item.get("title")
+        text = parser.text()
+        manual_start = str(spec.get("manual_body_start") or "")
+        manual_end = str(spec.get("manual_body_end") or "")
+        if manual_start:
+            body_source = root / str(spec.get("body_source") or path.relative_to(root))
+            if not body_source.exists():
+                review.append({"issue": issue, "section": section, "reason": "manual body source not found"})
+                continue
+            body_parser = SourceParser()
+            try:
+                body_parser.feed(body_source.read_text(encoding="utf-8", errors="ignore"))
+            except Exception:
+                pass
+            body_text = body_parser.text()
+            start = body_text.rfind(manual_start)
+            if start < 0:
+                review.append({"issue": issue, "section": section, "reason": "manual body start marker not found"})
+                continue
+            end = body_text.find(manual_end, start + len(manual_start)) if manual_end else len(body_text)
+            if end < 0:
+                review.append({"issue": issue, "section": section, "reason": "manual body end marker not found"})
+                continue
+            author = author_override
+            title = title_override
+            item = {"page_start": None, "page_end": None}
+            body = body_text[start:end].strip()
+        else:
+            toc, floor = parse_toc_entries(text)
+            idx = next((i for i, x in enumerate(toc) if x.get("section") == section), None)
+            if idx is None:
+                review.append({"issue": issue, "section": section, "reason": "section not found in issue TOC"})
+                continue
+            item = toc[idx]
+            author = author_override or item.get("author")
+            title = title_override or item.get("title")
+            body = article_body(text, toc, idx, floor)
         if not author or not title:
             review.append({"issue": issue, "section": section, "reason": "author/title could not be recovered"})
             continue
 
-        body = article_body(text, toc, idx, floor)
         compact = len(re.sub(r"\s+", "", body))
         if compact < min_body_chars:
             review.append({
