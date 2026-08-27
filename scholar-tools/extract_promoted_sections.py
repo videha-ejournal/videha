@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 """Extract editor-approved retrospective Videha sections into Scholar records.
 
-The whitelists in scholar-data/promoted-sections.json and
-scholar-data/sadeha-promoted-sections.json are editorially controlled. This module
-never guesses promotions: it only resolves those exact issue/section pairs, and it
-rejects records whose source metadata/body cannot be recovered. Sadeha remains
-*discovery evidence* only; rendered citation identity always comes from the original
-Videha issue.
+All whitelists are editorially controlled. Sadeha remains discovery evidence only:
+rendered citation identity and full text always come from the original Videha issue.
+A narrowly scoped legacy Title–Author mode supports individually verified old TOCs;
+it requires explicit author/title overrides and, where normal article-body recovery
+fails, a verified next-heading boundary supplied in the promotion record.
 """
 from __future__ import annotations
 
@@ -18,6 +17,7 @@ from extract_explicit_research import (
     SourceParser,
     article_body,
     body_to_html,
+    clean_body,
     parse_issue_date,
     parse_toc_entries,
     slugify,
@@ -39,6 +39,7 @@ def _load_specs(root: Path) -> list[dict]:
     for filename, source in (
         ("promoted-sections.json", "editor-approved retrospective section"),
         ("sadeha-promoted-sections.json", "editor-approved Sadeha rediscovery"),
+        ("sadeha-swapped-promotions.json", "editor-approved Sadeha legacy metadata recovery"),
     ):
         path = root / "scholar-data" / filename
         if not path.exists():
@@ -52,6 +53,28 @@ def _load_specs(root: Path) -> list[dict]:
                 rec["_promotion_source"] = source
                 specs.append(rec)
     return specs
+
+
+def _legacy_heading_body(text: str, floor: int, title: str, author: str, end_marker: str | None) -> str:
+    """Recover one editor-verified old Title–Author record by explicit heading markers."""
+    starts = [m.start() for m in re.finditer(re.escape(title), text[floor:])]
+    starts = [floor + s for s in starts]
+    best = ""
+    for start in starts:
+        # TOC duplicates are usually short; require body-like material after the heading.
+        search_from = start + len(title)
+        if end_marker:
+            end = text.find(end_marker, search_from + 500)
+            if end < 0:
+                continue
+        else:
+            # Existing parser may already know the correct body for some reversed TOCs.
+            end = min(len(text), start + 180000)
+        segment = clean_body(text[start:end], "", author, title)
+        compact = len(re.sub(r"\s+", "", segment))
+        if 1800 <= compact <= 180000 and compact > len(re.sub(r"\s+", "", best)):
+            best = segment
+    return best
 
 
 def load_promoted(root: Path) -> tuple[list[dict], list[dict]]:
@@ -98,7 +121,11 @@ def load_promoted(root: Path) -> tuple[list[dict], list[dict]]:
 
         body = article_body(text, toc, idx, floor)
         compact = len(re.sub(r"\s+", "", body))
-        if compact < min_body_chars:
+        legacy = bool(spec.get("legacy_title_author_order"))
+        if legacy and compact < min_body_chars:
+            body = _legacy_heading_body(text, floor, title, author, str(spec.get("body_end_marker") or "").strip() or None)
+            compact = len(re.sub(r"\s+", "", body))
+        if compact < min_body_chars or compact > 180000:
             review.append({
                 "issue": issue,
                 "section": section,
@@ -106,7 +133,7 @@ def load_promoted(root: Path) -> tuple[list[dict], list[dict]]:
                 "title": title,
                 "body_chars": compact,
                 "min_body_chars": min_body_chars,
-                "reason": f"body below {min_body_chars}-character publication threshold",
+                "reason": f"body outside {min_body_chars}–180000 character publication range",
             })
             continue
 
@@ -133,6 +160,7 @@ def load_promoted(root: Path) -> tuple[list[dict], list[dict]]:
             "_promotion": spec.get("_promotion_source") or "editor-approved retrospective section",
             "_sadeha_evidence": spec.get("sadeha_evidence"),
             "_metadata_override": bool(author_override or title_override),
+            "_legacy_title_author_recovery": legacy,
         })
 
     return records, review
