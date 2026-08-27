@@ -10,6 +10,11 @@
 (function () {
   'use strict';
 
+  /* Archive/search pages opt into a compact self-hosted toolbar. Capture the
+     executing script now because document.currentScript is null inside init(). */
+  var scriptElement = document.currentScript;
+  var standalone = !!(scriptElement && scriptElement.hasAttribute('data-videha-translate-standalone'));
+
   /* Group 1 — the same 23 languages as the Videha 23-language
      transliterator (new_page_101.htm), all supported by the free
      Google AI translator. Group 2 — major world languages. */
@@ -95,6 +100,10 @@
         'color:#fff;cursor:pointer;font-size:13px;font-weight:700;font-family:inherit;}' +
       '.videha-ai-go:hover,.videha-ai-go:focus-visible{background:#6B1212;}' +
       '.videha-ai-note{margin:9px 0 0;font-size:11.5px;color:#6a5a3a;line-height:1.55;}' +
+      '.videha-ai-standalone{display:flex;align-items:center;flex-wrap:wrap;gap:8px;' +
+        'margin:0 0 16px;padding:10px 12px;border:1px solid #d8cfc0;border-radius:8px;' +
+        'background:#faf6ee;position:relative;z-index:20;}' +
+      '.videha-ai-standalone .videha-ai-btn{margin-left:0;}' +
       '@media (max-width:600px){.videha-ai-lab-mai{display:none;}' +
         '.videha-ai-btn{font-size:13px;padding:5px 10px;}}';
     var st = document.createElement('style');
@@ -116,8 +125,9 @@
     } else {
       /* Local preview (file://) — point to the live website copy */
       host = LIVE_HOST;
-      var base = location.pathname.split('/').pop() || 'index.htm';
-      path = '/' + base;
+      var localPath = location.pathname.replace(/\\/g, '/');
+      var archiveAt = localPath.lastIndexOf('/search-documents/');
+      path = archiveAt >= 0 ? localPath.slice(archiveAt) : '/' + (localPath.split('/').pop() || 'index.htm');
     }
     var gHost = host.replace(/-/g, '--').replace(/\./g, '-') + '.translate.goog';
     var sep = path.indexOf('?') === -1 ? '?' : '&';
@@ -217,6 +227,15 @@
 
   function init() {
     var bar = document.querySelector('.videha-a11y-bar');
+    if (!bar && standalone) {
+      bar = document.createElement('div');
+      bar.className = 'videha-a11y-bar videha-ai-standalone';
+      bar.setAttribute('aria-label', 'Page translation');
+      bar.setAttribute('data-pagefind-ignore', 'all');
+      var header = document.querySelector('header');
+      if (header) header.appendChild(bar);
+      else document.body.insertBefore(bar, document.body.firstChild);
+    }
     if (!bar || document.getElementById('videha-ai-translate')) return;
     injectStyles();
 

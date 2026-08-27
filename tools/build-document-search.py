@@ -372,6 +372,7 @@ def render_html(key, pdf: Path, text: str, source_names, extraction_note: str):
 {body}
 </main>
 <footer data-pagefind-ignore="all"><p>Search transcription built from paired local source files: {html.escape(', '.join(source_names))}. {html.escape(extraction_note)}</p></footer>
+<script src="../assets/js/videha-translate.js?v=20260827" data-videha-translate-standalone></script>
 </body></html>'''
 
 

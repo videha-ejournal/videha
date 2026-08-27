@@ -14,6 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "search-documents"
 AUDIT = ROOT / "document-search-audit.json"
 FIXTURE = ROOT / "data" / "document-search-smoke.json"
+TRANSLATOR = ROOT / "assets" / "js" / "videha-translate.js"
+INDEX = ROOT / "index.htm"
 FORBIDDEN = re.compile(r"TEXT\s+NOT\s+EXTRACTABLE|OCR\s+NEEDED", re.IGNORECASE)
 
 
@@ -79,6 +81,12 @@ def main() -> int:
     require(not audit["unpaired_sources"] and stats["unpaired_source_files"] == 0, "Unpaired source files are present")
 
     total_bytes = 0
+    translator_js = TRANSLATOR.read_text(encoding="utf-8")
+    language_block = translator_js.split("var LANG_GROUPS =", 1)[1].split("var LIVE_HOST", 1)[0]
+    language_count = len(re.findall(r"\[\s*'[A-Za-z-]+'\s*,\s*'", language_block))
+    require(language_count == 41, f"Expected 41 translator languages, found {language_count}")
+    require("data-videha-translate-standalone" in translator_js, "Translator lacks archive-page standalone mode")
+    require('assets/js/videha-translate.js?v=20260827' in INDEX.read_text(encoding="utf-8"), "index.htm does not load the current 41-language translator")
     for path in actual_paths:
         raw = path.read_text(encoding="utf-8")
         total_bytes += path.stat().st_size
@@ -89,6 +97,8 @@ def main() -> int:
         require('data-pagefind-filter="issue[content]"' in raw, f"Missing issue filter in {path.name}")
         require('data-pagefind-filter="videha_type[content]" content="Archive document"' in raw, f"Missing archive type filter in {path.name}")
         require("<main data-pagefind-body>" in raw, f"Missing Pagefind body in {path.name}")
+        require('../assets/js/videha-translate.js?v=20260827' in raw, f"Missing 41-language translator in {path.name}")
+        require('data-videha-translate-standalone' in raw, f"Missing standalone translator hook in {path.name}")
         require(not FORBIDDEN.search(raw), f"Forbidden public placeholder in {path.name}")
         if "version" in path.name:
             version = path.stem[-1]
@@ -115,7 +125,7 @@ def main() -> int:
         f"{stats['canonical_pdfs']} pages "
         f"({stats['videha_pdfs']} VIDEHA + {stats['sadeha_pdfs']} SADEHA), "
         f"{stats['paired_documents']} paired, {stats['pdf_only_documents']} PDF-only, "
-        f"{stats['ocr_characters']} unique OCR characters."
+        f"{stats['ocr_characters']} unique OCR characters; 41-language translator present."
     )
     return 0
 
