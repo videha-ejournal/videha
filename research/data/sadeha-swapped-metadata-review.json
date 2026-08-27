@@ -1,6 +1,6 @@
 {
   "sadeha_html_sources": 38,
-  "probable_swapped_metadata_records": 65,
+  "probable_swapped_metadata_records": 13,
   "publication_effect": "none; review-only",
   "rows": [
     {
@@ -13,7 +13,7 @@
       "sadeha_evidence": "search-documents/sadeha-001.html",
       "body_chars_current_parse": 0,
       "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
+      "note": "High-precision probable legacy Title–Author reversal; verify original Videha heading/body before any metadata override or Scholar publication."
     },
     {
       "issue": "21",
@@ -25,7 +25,7 @@
       "sadeha_evidence": "search-documents/sadeha-001.html",
       "body_chars_current_parse": 0,
       "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
+      "note": "High-precision probable legacy Title–Author reversal; verify original Videha heading/body before any metadata override or Scholar publication."
     },
     {
       "issue": "26",
@@ -37,7 +37,7 @@
       "sadeha_evidence": "search-documents/sadeha-001.html",
       "body_chars_current_parse": 24205,
       "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
+      "note": "High-precision probable legacy Title–Author reversal; verify original Videha heading/body before any metadata override or Scholar publication."
     },
     {
       "issue": "30",
@@ -49,7 +49,7 @@
       "sadeha_evidence": "search-documents/sadeha-001.html",
       "body_chars_current_parse": 0,
       "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
+      "note": "High-precision probable legacy Title–Author reversal; verify original Videha heading/body before any metadata override or Scholar publication."
     },
     {
       "issue": "35",
@@ -61,19 +61,7 @@
       "sadeha_evidence": "search-documents/sadeha-030.html",
       "body_chars_current_parse": 74827,
       "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "35",
-      "section": "3.3",
-      "parsed_author": "बड़का सड़क छह लेन बला",
-      "parsed_title": "गजेन्द्र ठाकुर",
-      "proposed_author_for_review": "गजेन्द्र ठाकुर",
-      "proposed_title_for_review": "बड़का सड़क छह लेन बला",
-      "sadeha_evidence": "search-documents/sadeha-033.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
+      "note": "High-precision probable legacy Title–Author reversal; verify original Videha heading/body before any metadata override or Scholar publication."
     },
     {
       "issue": "43",
@@ -85,7 +73,7 @@
       "sadeha_evidence": "search-documents/sadeha-002.html",
       "body_chars_current_parse": 0,
       "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
+      "note": "High-precision probable legacy Title–Author reversal; verify original Videha heading/body before any metadata override or Scholar publication."
     },
     {
       "issue": "44",
@@ -97,7 +85,7 @@
       "sadeha_evidence": "search-documents/sadeha-030.html",
       "body_chars_current_parse": 154474,
       "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
+      "note": "High-precision probable legacy Title–Author reversal; verify original Videha heading/body before any metadata override or Scholar publication."
     },
     {
       "issue": "47",
@@ -109,223 +97,7 @@
       "sadeha_evidence": "search-documents/sadeha-030.html",
       "body_chars_current_parse": 0,
       "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "53",
-      "section": "2.3",
-      "parsed_author": "होरीके परिवर्तित रुप जनकपुरमे महामूर्ख सम्मेलन",
-      "parsed_title": "सुजीतकुमार झा",
-      "proposed_author_for_review": "सुजीतकुमार झा",
-      "proposed_title_for_review": "होरीके परिवर्तित रुप जनकपुरमे महामूर्ख सम्मेलन",
-      "sadeha_evidence": "search-documents/sadeha-035.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "76",
-      "section": "2.1",
-      "parsed_author": "डॉ. कैलाश कुमार मि‍श्र",
-      "parsed_title": "भावमय, भोगमय, योगमय बृन्‍दावन",
-      "proposed_author_for_review": "भावमय, भोगमय, योगमय बृन्‍दावन",
-      "proposed_title_for_review": "डॉ. कैलाश कुमार मि‍श्र",
-      "sadeha_evidence": "search-documents/sadeha-010.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "86",
-      "section": "2.1",
-      "parsed_author": "डॉ. राजीव कुमार वर्मा",
-      "parsed_title": "कारी घटा बरसैत मेघ",
-      "proposed_author_for_review": "कारी घटा बरसैत मेघ",
-      "proposed_title_for_review": "डॉ. राजीव कुमार वर्मा",
-      "sadeha_evidence": "search-documents/sadeha-010.html",
-      "body_chars_current_parse": 5699,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "117",
-      "section": "2.5",
-      "parsed_author": "डॉ. कैलाश कुमार मि‍श्र",
-      "parsed_title": "मेवाड़ आ मालवाक सांझी लोककला : एक परि‍चय",
-      "proposed_author_for_review": "मेवाड़ आ मालवाक सांझी लोककला : एक परि‍चय",
-      "proposed_title_for_review": "डॉ. कैलाश कुमार मि‍श्र",
-      "sadeha_evidence": "search-documents/sadeha-013.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "118",
-      "section": "3.5",
-      "parsed_author": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "parsed_title": "बाल गीत",
-      "proposed_author_for_review": "बाल गीत",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "sadeha_evidence": "search-documents/sadeha-012.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "127",
-      "section": "3.1",
-      "parsed_author": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "parsed_title": "गजल १-२",
-      "proposed_author_for_review": "गजल १-२",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "sadeha_evidence": "search-documents/sadeha-007.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "128",
-      "section": "3.1",
-      "parsed_author": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "parsed_title": "गजल १-२",
-      "proposed_author_for_review": "गजल १-२",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "sadeha_evidence": "search-documents/sadeha-007.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "129",
-      "section": "3.1",
-      "parsed_author": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "parsed_title": "गजल १-४",
-      "proposed_author_for_review": "गजल १-४",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "sadeha_evidence": "search-documents/sadeha-007.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "131",
-      "section": "3.1",
-      "parsed_author": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "parsed_title": "गजल १-४",
-      "proposed_author_for_review": "गजल १-४",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "sadeha_evidence": "search-documents/sadeha-007.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "133",
-      "section": "3.1",
-      "parsed_author": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "parsed_title": "गजल १-४",
-      "proposed_author_for_review": "गजल १-४",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "sadeha_evidence": "search-documents/sadeha-007.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "136",
-      "section": "3.1",
-      "parsed_author": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "parsed_title": "गजल १-४",
-      "proposed_author_for_review": "गजल १-४",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "sadeha_evidence": "search-documents/sadeha-007.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "165",
-      "section": "2.2",
-      "parsed_author": "डॉ. शिव कुमार प्रसाद",
-      "parsed_title": "सखारी-पेटारी केर तानी-भरनी",
-      "proposed_author_for_review": "सखारी-पेटारी केर तानी-भरनी",
-      "proposed_title_for_review": "डॉ. शिव कुमार प्रसाद",
-      "sadeha_evidence": "search-documents/sadeha-016.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "167",
-      "section": "2.1",
-      "parsed_author": "डाॅ. कीर्ति नाथ झा",
-      "parsed_title": "शेफाली, फुलपरासवाली आ हम",
-      "proposed_author_for_review": "शेफाली, फुलपरासवाली आ हम",
-      "proposed_title_for_review": "डाॅ. कीर्ति नाथ झा",
-      "sadeha_evidence": "search-documents/sadeha-019.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "189",
-      "section": "3.2",
-      "parsed_author": "किछु विहनि कथा",
-      "parsed_title": "अरविन्द ठाकुर",
-      "proposed_author_for_review": "अरविन्द ठाकुर",
-      "proposed_title_for_review": "किछु विहनि कथा",
-      "sadeha_evidence": "search-documents/sadeha-017.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "190",
-      "section": "3.3",
-      "parsed_author": "डॉ॰ शशिधर कुमर “विदेह”",
-      "parsed_title": "किछु कविता",
-      "proposed_author_for_review": "किछु कविता",
-      "proposed_title_for_review": "डॉ॰ शशिधर कुमर “विदेह”",
-      "sadeha_evidence": "search-documents/sadeha-017.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "191",
-      "section": "3.3",
-      "parsed_author": "की भेटल आ की हेरा गेल",
-      "parsed_title": "जगदीश चन्द्र ठाकुर ’अनिल’",
-      "proposed_author_for_review": "जगदीश चन्द्र ठाकुर ’अनिल’",
-      "proposed_title_for_review": "की भेटल आ की हेरा गेल",
-      "sadeha_evidence": "search-documents/sadeha-014.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "193",
-      "section": "3.2",
-      "parsed_author": "डॉ॰ शशिधर कुमर “विदेह”",
-      "parsed_title": "६ टा कविता",
-      "proposed_author_for_review": "६ टा कविता",
-      "proposed_title_for_review": "डॉ॰ शशिधर कुमर “विदेह”",
-      "sadeha_evidence": "search-documents/sadeha-020.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "195",
-      "section": "3.1",
-      "parsed_author": "डॉ॰ शशिधर कुमर “विदेह”",
-      "parsed_title": "दू टा गीत",
-      "proposed_author_for_review": "दू टा गीत",
-      "proposed_title_for_review": "डॉ॰ शशिधर कुमर “विदेह”",
-      "sadeha_evidence": "search-documents/sadeha-009.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
+      "note": "High-precision probable legacy Title–Author reversal; verify original Videha heading/body before any metadata override or Scholar publication."
     },
     {
       "issue": "198",
@@ -337,19 +109,7 @@
       "sadeha_evidence": "search-documents/sadeha-018.html",
       "body_chars_current_parse": 0,
       "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "198",
-      "section": "3.3",
-      "parsed_author": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "parsed_title": "चारि टा गजल",
-      "proposed_author_for_review": "चारि टा गजल",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "sadeha_evidence": "search-documents/sadeha-013.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
+      "note": "High-precision probable legacy Title–Author reversal; verify original Videha heading/body before any metadata override or Scholar publication."
     },
     {
       "issue": "199",
@@ -361,295 +121,7 @@
       "sadeha_evidence": "search-documents/sadeha-018.html",
       "body_chars_current_parse": 0,
       "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "199",
-      "section": "3.3",
-      "parsed_author": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "parsed_title": "चारि टा गजल",
-      "proposed_author_for_review": "चारि टा गजल",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "sadeha_evidence": "search-documents/sadeha-013.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "208",
-      "section": "3.4",
-      "parsed_author": "जगदीश चन्द्र ठाकुर अनिल",
-      "parsed_title": "२ टा गजल",
-      "proposed_author_for_review": "२ टा गजल",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर अनिल",
-      "sadeha_evidence": "search-documents/sadeha-025.html",
-      "body_chars_current_parse": 3935,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "210",
-      "section": "3.4",
-      "parsed_author": "जगदीश चन्द्र ठाकुर अनिल",
-      "parsed_title": "५ टा गजल",
-      "proposed_author_for_review": "५ टा गजल",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर अनिल",
-      "sadeha_evidence": "search-documents/sadeha-023.html",
-      "body_chars_current_parse": 558,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "211",
-      "section": "2.4",
-      "parsed_author": "उमेश मण्डल आ पुनम मण्‍डल",
-      "parsed_title": "समाद- सगर राति दीप जरय",
-      "proposed_author_for_review": "समाद- सगर राति दीप जरय",
-      "proposed_title_for_review": "उमेश मण्डल आ पुनम मण्‍डल",
-      "sadeha_evidence": "search-documents/sadeha-019.html",
-      "body_chars_current_parse": 26361,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "215",
-      "section": "3.1",
-      "parsed_author": "पंकज चतुर्वेदीजीक किछु डायरी आ हुनक कविता (अनुवाद",
-      "parsed_title": "भावानुवाद आशीष अनचिन्हार द्वारा)",
-      "proposed_author_for_review": "भावानुवाद आशीष अनचिन्हार द्वारा)",
-      "proposed_title_for_review": "पंकज चतुर्वेदीजीक किछु डायरी आ हुनक कविता (अनुवाद",
-      "sadeha_evidence": "search-documents/sadeha-019.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "216",
-      "section": "3.3",
-      "parsed_author": "राजेश मोहन झा \"गुंजन\"",
-      "parsed_title": "बिनु राधाक ब्रज",
-      "proposed_author_for_review": "बिनु राधाक ब्रज",
-      "proposed_title_for_review": "राजेश मोहन झा \"गुंजन\"",
-      "sadeha_evidence": "search-documents/sadeha-019.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "217",
-      "section": "3.4",
-      "parsed_author": "जगदीश चंद्र ठाकुर अनिल",
-      "parsed_title": "महाकवि चन्दा झा कृत रामायणक सुन्दरकाण्डक एलबम",
-      "proposed_author_for_review": "महाकवि चन्दा झा कृत रामायणक सुन्दरकाण्डक एलबम",
-      "proposed_title_for_review": "जगदीश चंद्र ठाकुर अनिल",
-      "sadeha_evidence": "search-documents/sadeha-020.html",
-      "body_chars_current_parse": 9909,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "218",
-      "section": "3.2",
-      "parsed_author": "डा जियाउर रहमान जाफर",
-      "parsed_title": "आजाद गजल",
-      "proposed_author_for_review": "आजाद गजल",
-      "proposed_title_for_review": "डा जियाउर रहमान जाफर",
-      "sadeha_evidence": "search-documents/sadeha-020.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "219",
-      "section": "3.3",
-      "parsed_author": "डॉ॰ शशिधर कुमर “विदेह”",
-      "parsed_title": "४ टा कविता",
-      "proposed_author_for_review": "४ टा कविता",
-      "proposed_title_for_review": "डॉ॰ शशिधर कुमर “विदेह”",
-      "sadeha_evidence": "search-documents/sadeha-020.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "219",
-      "section": "3.4",
-      "parsed_author": "राजेश मोहन झा 'गुंजन'",
-      "parsed_title": "सरस्वती वंदना",
-      "proposed_author_for_review": "सरस्वती वंदना",
-      "proposed_title_for_review": "राजेश मोहन झा 'गुंजन'",
-      "sadeha_evidence": "search-documents/sadeha-020.html",
-      "body_chars_current_parse": 974,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "220",
-      "section": "3.3",
-      "parsed_author": "राजेश मोहन झा ' गुंजन'",
-      "parsed_title": "वसंत गीत",
-      "proposed_author_for_review": "वसंत गीत",
-      "proposed_title_for_review": "राजेश मोहन झा ' गुंजन'",
-      "sadeha_evidence": "search-documents/sadeha-020.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "221",
-      "section": "3.2",
-      "parsed_author": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "parsed_title": "२ टा गजल",
-      "proposed_author_for_review": "२ टा गजल",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "sadeha_evidence": "search-documents/sadeha-025.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "222",
-      "section": "3.2",
-      "parsed_author": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "parsed_title": "प्रेम चालीसा",
-      "proposed_author_for_review": "प्रेम चालीसा",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "sadeha_evidence": "search-documents/sadeha-020.html",
-      "body_chars_current_parse": 1063,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "223",
-      "section": "3.2",
-      "parsed_author": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "parsed_title": "२ टा गजल",
-      "proposed_author_for_review": "२ टा गजल",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "sadeha_evidence": "search-documents/sadeha-025.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "224",
-      "section": "3.2",
-      "parsed_author": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "parsed_title": "२ टा गजल",
-      "proposed_author_for_review": "२ टा गजल",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "sadeha_evidence": "search-documents/sadeha-025.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "224",
-      "section": "3.3",
-      "parsed_author": "राजेश मोहन झा 'गुंजन'",
-      "parsed_title": "ममताक अनुभूति-(जूड़शीतल पर विशेष)",
-      "proposed_author_for_review": "ममताक अनुभूति-(जूड़शीतल पर विशेष)",
-      "proposed_title_for_review": "राजेश मोहन झा 'गुंजन'",
-      "sadeha_evidence": "search-documents/sadeha-020.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "229",
-      "section": "3.3",
-      "parsed_author": "राजेश मोहन झा 'गुंजन'",
-      "parsed_title": "शिव भजन",
-      "proposed_author_for_review": "शिव भजन",
-      "proposed_title_for_review": "राजेश मोहन झा 'गुंजन'",
-      "sadeha_evidence": "search-documents/sadeha-020.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "230",
-      "section": "3.4",
-      "parsed_author": "राजेश मोहन झा 'गुंजन'",
-      "parsed_title": "धन रूप आ गुण (दहेजक पसाही)",
-      "proposed_author_for_review": "धन रूप आ गुण (दहेजक पसाही)",
-      "proposed_title_for_review": "राजेश मोहन झा 'गुंजन'",
-      "sadeha_evidence": "search-documents/sadeha-020.html",
-      "body_chars_current_parse": 1254,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "231",
-      "section": "3.4",
-      "parsed_author": "राजेश मोहन झा 'गुंजन'",
-      "parsed_title": "काटि गेल जुट्टी (हास्य रस)",
-      "proposed_author_for_review": "काटि गेल जुट्टी (हास्य रस)",
-      "proposed_title_for_review": "राजेश मोहन झा 'गुंजन'",
-      "sadeha_evidence": "search-documents/sadeha-020.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "311",
-      "section": "3.6",
-      "parsed_author": "डा जियाउर रहमान जाफरी",
-      "parsed_title": "आजाद गजल",
-      "proposed_author_for_review": "आजाद गजल",
-      "proposed_title_for_review": "डा जियाउर रहमान जाफरी",
-      "sadeha_evidence": "search-documents/sadeha-020.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "313",
-      "section": "3.1",
-      "parsed_author": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "parsed_title": "२ टा बाल गजल",
-      "proposed_author_for_review": "२ टा बाल गजल",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "sadeha_evidence": "search-documents/sadeha-023.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "314",
-      "section": "3.1",
-      "parsed_author": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "parsed_title": "२ टा गजल",
-      "proposed_author_for_review": "२ टा गजल",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "sadeha_evidence": "search-documents/sadeha-025.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "317",
-      "section": "4.7",
-      "parsed_author": "प्रा. डा. कपिल लामिछाने",
-      "parsed_title": "सौन्दर्य आ समानता",
-      "proposed_author_for_review": "सौन्दर्य आ समानता",
-      "proposed_title_for_review": "प्रा. डा. कपिल लामिछाने",
-      "sadeha_evidence": "search-documents/sadeha-024.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "319",
-      "section": "2.10",
-      "parsed_author": "सत्यक एकपेरिया पर काव्य वितान",
-      "parsed_title": "आमोद झा",
-      "proposed_author_for_review": "आमोद झा",
-      "proposed_title_for_review": "सत्यक एकपेरिया पर काव्य वितान",
-      "sadeha_evidence": "search-documents/sadeha-024.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
+      "note": "High-precision probable legacy Title–Author reversal; verify original Videha heading/body before any metadata override or Scholar publication."
     },
     {
       "issue": "319",
@@ -661,31 +133,7 @@
       "sadeha_evidence": "search-documents/sadeha-024.html",
       "body_chars_current_parse": 0,
       "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "319",
-      "section": "2.15",
-      "parsed_author": "हमरा नजरिमे: श्री रामलोचन ठाकुर",
-      "parsed_title": "नबोनारायण मिश्र",
-      "proposed_author_for_review": "नबोनारायण मिश्र",
-      "proposed_title_for_review": "हमरा नजरिमे: श्री रामलोचन ठाकुर",
-      "sadeha_evidence": "search-documents/sadeha-024.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "319",
-      "section": "2.21",
-      "parsed_author": "एक सुच्चा कविः रामलोचन ठाकुर",
-      "parsed_title": "केदार कानन",
-      "proposed_author_for_review": "केदार कानन",
-      "proposed_title_for_review": "एक सुच्चा कविः रामलोचन ठाकुर",
-      "sadeha_evidence": "search-documents/sadeha-024.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
+      "note": "High-precision probable legacy Title–Author reversal; verify original Videha heading/body before any metadata override or Scholar publication."
     },
     {
       "issue": "319",
@@ -697,7 +145,7 @@
       "sadeha_evidence": "search-documents/sadeha-024.html",
       "body_chars_current_parse": 0,
       "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
+      "note": "High-precision probable legacy Title–Author reversal; verify original Videha heading/body before any metadata override or Scholar publication."
     },
     {
       "issue": "319",
@@ -709,79 +157,7 @@
       "sadeha_evidence": "search-documents/sadeha-024.html",
       "body_chars_current_parse": 0,
       "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "319",
-      "section": "2.28",
-      "parsed_author": "मैथिली कविताक विद्रोही स्वर रामलोचन ठाकुर",
-      "parsed_title": "रमण कुमार सिंह",
-      "proposed_author_for_review": "रमण कुमार सिंह",
-      "proposed_title_for_review": "मैथिली कविताक विद्रोही स्वर रामलोचन ठाकुर",
-      "sadeha_evidence": "search-documents/sadeha-024.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "319",
-      "section": "2.4",
-      "parsed_author": "रामलोचन ठाकुर जीक अनुवाद",
-      "parsed_title": "अमरकान्त लाल",
-      "proposed_author_for_review": "अमरकान्त लाल",
-      "proposed_title_for_review": "रामलोचन ठाकुर जीक अनुवाद",
-      "sadeha_evidence": "search-documents/sadeha-024.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "319",
-      "section": "2.6",
-      "parsed_author": "एकटा खाँटी मैथिल : रामलोचन ठाकुर आ हुनकर काव्य संसार",
-      "parsed_title": "शैलेन्द्र मिश्र",
-      "proposed_author_for_review": "शैलेन्द्र मिश्र",
-      "proposed_title_for_review": "एकटा खाँटी मैथिल : रामलोचन ठाकुर आ हुनकर काव्य संसार",
-      "sadeha_evidence": "search-documents/sadeha-024.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "320",
-      "section": "2.6",
-      "parsed_author": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "parsed_title": "राम लोचन ठाकुर प्रसंग",
-      "proposed_author_for_review": "राम लोचन ठाकुर प्रसंग",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "sadeha_evidence": "search-documents/sadeha-024.html",
-      "body_chars_current_parse": 1411,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "348",
-      "section": "2.8",
-      "parsed_author": "डॉ. कैलाश कुमार मिश्र",
-      "parsed_title": "रवीन्द्रनाथ ठाकुर, हुनक रचना आ जनमानस केर उदासीनता",
-      "proposed_author_for_review": "रवीन्द्रनाथ ठाकुर, हुनक रचना आ जनमानस केर उदासीनता",
-      "proposed_title_for_review": "डॉ. कैलाश कुमार मिश्र",
-      "sadeha_evidence": "search-documents/sadeha-025.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
-    },
-    {
-      "issue": "348",
-      "section": "2.9",
-      "parsed_author": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "parsed_title": "भरि नगरीमे शोर",
-      "proposed_author_for_review": "भरि नगरीमे शोर",
-      "proposed_title_for_review": "जगदीश चन्द्र ठाकुर ‘अनिल’",
-      "sadeha_evidence": "search-documents/sadeha-025.html",
-      "body_chars_current_parse": 0,
-      "status": "editorial-review-only",
-      "note": "Probable legacy Title–Author reversal; verify the original Videha heading/body before any metadata override or Scholar publication."
+      "note": "High-precision probable legacy Title–Author reversal; verify original Videha heading/body before any metadata override or Scholar publication."
     }
   ]
 }
