@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T18:39:07.421074+00:00",
+  "generated": "2026-08-28T18:58:33.573570+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -9,16 +9,16 @@
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 3,
-    "audit_queue_held": 23,
+    "audit_queue_held": 22,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 430,
-    "promoted_sections_publishable": 402,
+    "promoted_sections_requested": 449,
+    "promoted_sections_publishable": 421,
     "promoted_sections_review": 28,
     "curated_manifests": 1,
-    "published_after_all_overrides": 454,
+    "published_after_all_overrides": 473,
     "stale_generated_pages_removed_before_render": 454,
     "build_errors": 0
   },
@@ -1867,6 +1867,25 @@
       "page_end": null
     },
     {
+      "title": "गजेन्द्र ठाकुरक मैथिली-अंग्रेजी शब्दकोशपर",
+      "english_title": null,
+      "authors": [
+        "प्रोफेसर उदय नारायण सिंह ‘नचिकेता’"
+      ],
+      "publication_date": "2009-04-01",
+      "year": "2009",
+      "issue": "31",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Lexicography; Maithili language studies; dictionary criticism",
+      "url": "https://www.videha.co.in/research/2009/31/गजेन्द्र-ठाकुरक-मैथिली-अंग्रेजी-शब्दकोशपर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20031.pdf",
+      "path": "2009/31/गजेन्द्र-ठाकुरक-मैथिली-अंग्रेजी-शब्दकोशपर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मिथिलांचलक दलित समाजमे लोकगाथा: मैथिली लोकगाथामे दीनाभद्री",
       "english_title": null,
       "authors": [
@@ -1882,6 +1901,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20031.pdf",
       "path": "2009/31/मिथिलांचलक-दलित-समाजमे-लोकगाथा-मैथिली-लोकगाथामे-दीनाभद्री.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पन्द्रहम लोकसभा: छोट आ क्षेत्रीय दलक भूमिका",
+      "english_title": null,
+      "authors": [
+        "नवेन्दु कुमार झा"
+      ],
+      "publication_date": "2009-04-15",
+      "year": "2009",
+      "issue": "32",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Political analysis; coalition politics; Indian general election",
+      "url": "https://www.videha.co.in/research/2009/32/पन्द्रहम-लोकसभा-छोट-आ-क्षेत्रीय-दलक-भूमिका.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20032.pdf",
+      "path": "2009/32/पन्द्रहम-लोकसभा-छोट-आ-क्षेत्रीय-दलक-भूमिका.htm",
       "page_start": null,
       "page_end": null
     },
@@ -1905,6 +1943,63 @@
       "page_end": null
     },
     {
+      "title": "संचार एवं साहित्य क्षेत्रमे समावेशी स्वरूपक अपेक्षा",
+      "english_title": null,
+      "authors": [
+        "रामभरोस कापड़ि ‘भ्रमर’"
+      ],
+      "publication_date": "2009-05-01",
+      "year": "2009",
+      "issue": "33",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Media studies; literary institutions; linguistic inclusion; Nepal studies",
+      "url": "https://www.videha.co.in/research/2009/33/संचार-एवं-साहित्य-क्षेत्रमे-समावेशी-स्वरूपक-अपेक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20033.pdf",
+      "path": "2009/33/संचार-एवं-साहित्य-क्षेत्रमे-समावेशी-स्वरूपक-अपेक्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "भाषा आ प्रौद्योगिकी: अन्तर्जालपर मैथिली लेखन आ ई-प्रकाशन",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2009-05-15",
+      "year": "2009",
+      "issue": "34",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili digital humanities; web publishing; language technology",
+      "url": "https://www.videha.co.in/research/2009/34/भाषा-आ-प्रौद्योगिकी-अन्तर्जालपर-मैथिली-लेखन-आ-ई-प्रकाशन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20034.pdf",
+      "path": "2009/34/भाषा-आ-प्रौद्योगिकी-अन्तर्जालपर-मैथिली-लेखन-आ-ई-प्रकाशन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मातृभाषा: बम्बईमे ‘विदेह’ पत्रिका आ मैथिली फिल्मक संस्मरण",
+      "english_title": null,
+      "authors": [
+        "डॉ. कल्पना मणिकान्त मिश्र"
+      ],
+      "publication_date": "2009-05-15",
+      "year": "2009",
+      "issue": "34",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili print culture; media history; autobiographical memoir",
+      "url": "https://www.videha.co.in/research/2009/34/मातृभाषा-बम्बईमे-विदेह-पत्रिका-आ-मैथिली-फिल्मक-संस्मरण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20034.pdf",
+      "path": "2009/34/मातृभाषा-बम्बईमे-विदेह-पत्रिका-आ-मैथिली-फिल्मक-संस्मरण.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "हास्य-व्यंग्य सम्राट प्रोफेसर हरिमोहन झा",
       "english_title": null,
       "authors": [
@@ -1920,6 +2015,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20034.pdf",
       "path": "2009/34/हास्य-व्यंग्य-सम्राट-प्रोफेसर-हरिमोहन-झा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "‘बनैत-बिगड़ैत’: सुभाषचन्द्र यादवक कथा-संग्रहक समीक्षा",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2009-05-15",
+      "year": "2009",
+      "issue": "34",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili book review; short-story criticism; Subhash Chandra Yadav studies",
+      "url": "https://www.videha.co.in/research/2009/34/बनैत-बिगड़ैत-सुभाषचन्द्र-यादवक-कथा-संग्रहक-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20034.pdf",
+      "path": "2009/34/बनैत-बिगड़ैत-सुभाषचन्द्र-यादवक-कथा-संग्रहक-समीक्षा.htm",
       "page_start": null,
       "page_end": null
     },
@@ -1943,6 +2057,101 @@
       "page_end": null
     },
     {
+      "title": "माध्यमिक परीक्षा परिणाम २००९: सोझाँ आयल ग्रामीण प्रतिभा",
+      "english_title": null,
+      "authors": [
+        "नवेन्दु कुमार झा"
+      ],
+      "publication_date": "2009-06-01",
+      "year": "2009",
+      "issue": "35",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Education studies; rural education; Bihar examination analysis",
+      "url": "https://www.videha.co.in/research/2009/35/माध्यमिक-परीक्षा-परिणाम-२००९-सोझाँ-आयल-ग्रामीण-प्रतिभा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20035.pdf",
+      "path": "2009/35/माध्यमिक-परीक्षा-परिणाम-२००९-सोझाँ-आयल-ग्रामीण-प्रतिभा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "लोरिक गाथामे समाज ओ संस्कृति",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2009-06-01",
+      "year": "2009",
+      "issue": "35",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Folklore studies; oral epic; social and cultural anthropology",
+      "url": "https://www.videha.co.in/research/2009/35/लोरिक-गाथामे-समाज-ओ-संस्कृति.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20035.pdf",
+      "path": "2009/35/लोरिक-गाथामे-समाज-ओ-संस्कृति.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "विकासक पक्षमे जनादेश: बाहुबल आ परिवारवादपर चोट",
+      "english_title": null,
+      "authors": [
+        "नवेन्दु कुमार झा"
+      ],
+      "publication_date": "2009-06-01",
+      "year": "2009",
+      "issue": "35",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Political analysis; Bihar politics; electoral studies",
+      "url": "https://www.videha.co.in/research/2009/35/विकासक-पक्षमे-जनादेश-बाहुबल-आ-परिवारवादपर-चोट.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20035.pdf",
+      "path": "2009/35/विकासक-पक्षमे-जनादेश-बाहुबल-आ-परिवारवादपर-चोट.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सगर राति दीप जरए: ६६म आयोजनक दस्तावेज",
+      "english_title": null,
+      "authors": [
+        "मिथिलेश कुमार झा"
+      ],
+      "publication_date": "2009-06-01",
+      "year": "2009",
+      "issue": "35",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; short-story movement; institutional documentation",
+      "url": "https://www.videha.co.in/research/2009/35/सगर-राति-दीप-जरए-६६म-आयोजनक-दस्तावेज.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20035.pdf",
+      "path": "2009/35/सगर-राति-दीप-जरए-६६म-आयोजनक-दस्तावेज.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "आचार्य पंकज: संताल परगनाक साहित्यिक इतिहास",
+      "english_title": null,
+      "authors": [
+        "डॉ. अमरनाथ झा"
+      ],
+      "publication_date": "2009-06-15",
+      "year": "2009",
+      "issue": "36",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Intellectual biography; Hindi literary history; regional cultural history",
+      "url": "https://www.videha.co.in/research/2009/36/आचार्य-पंकज-संताल-परगनाक-साहित्यिक-इतिहास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20036.pdf",
+      "path": "2009/36/आचार्य-पंकज-संताल-परगनाक-साहित्यिक-इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "इतिहास",
       "english_title": null,
       "authors": [
@@ -1958,6 +2167,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20036.pdf",
       "path": "2009/36/इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गजेन्द्र ठाकुरक ‘कुरुक्षेत्रम् अन्तर्मनक’ पर",
+      "english_title": null,
+      "authors": [
+        "प्रोफेसर उदय नारायण सिंह ‘नचिकेता’"
+      ],
+      "publication_date": "2009-06-15",
+      "year": "2009",
+      "issue": "36",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; collected-works review; digital literature",
+      "url": "https://www.videha.co.in/research/2009/36/गजेन्द्र-ठाकुरक-कुरुक्षेत्रम्-अन्तर्मनक-पर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20036.pdf",
+      "path": "2009/36/गजेन्द्र-ठाकुरक-कुरुक्षेत्रम्-अन्तर्मनक-पर.htm",
       "page_start": null,
       "page_end": null
     },
@@ -1981,6 +2209,63 @@
       "page_end": null
     },
     {
+      "title": "फील्ड-वर्कपर आधारित खिस्सा सीत-बसंत",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर; केशव महतो"
+      ],
+      "publication_date": "2009-06-15",
+      "year": "2009",
+      "issue": "36",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Folklore studies; fieldwork; oral narrative; comparative tale variants",
+      "url": "https://www.videha.co.in/research/2009/36/फील्ड-वर्कपर-आधारित-खिस्सा-सीत-बसंत.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20036.pdf",
+      "path": "2009/36/फील्ड-वर्कपर-आधारित-खिस्सा-सीत-बसंत.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "विष्णु प्रभाकरजी सादगीक प्रतिमूर्ति छलाह",
+      "english_title": null,
+      "authors": [
+        "डॉ. अमरनाथ झा"
+      ],
+      "publication_date": "2009-06-15",
+      "year": "2009",
+      "issue": "36",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Intellectual biography; Hindi literary history; personal memoir",
+      "url": "https://www.videha.co.in/research/2009/36/विष्णु-प्रभाकरजी-सादगीक-प्रतिमूर्ति-छलाह.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20036.pdf",
+      "path": "2009/36/विष्णु-प्रभाकरजी-सादगीक-प्रतिमूर्ति-छलाह.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हाँ, ई तँ कहियो नहि देखने रही",
+      "english_title": null,
+      "authors": [
+        "डॉ. अमरनाथ झा"
+      ],
+      "publication_date": "2009-06-15",
+      "year": "2009",
+      "issue": "36",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Political analysis; Indian electoral history; democratic participation",
+      "url": "https://www.videha.co.in/research/2009/36/हाँ-ई-तँ-कहियो-नहि-देखने-रही.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20036.pdf",
+      "path": "2009/36/हाँ-ई-तँ-कहियो-नहि-देखने-रही.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "लोकगाथा ओ मणिपद्म",
       "english_title": null,
       "authors": [
@@ -1996,6 +2281,82 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20037.pdf",
       "path": "2009/37/लोकगाथा-ओ-मणिपद्म.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "आशाक किरण: विद्युतीय संचारमाध्यममे मैथिली",
+      "english_title": null,
+      "authors": [
+        "जितेन्द्र झा"
+      ],
+      "publication_date": "2009-07-15",
+      "year": "2009",
+      "issue": "38",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili media studies; television history; language preservation",
+      "url": "https://www.videha.co.in/research/2009/38/आशाक-किरण-विद्युतीय-संचारमाध्यममे-मैथिली.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20038.pdf",
+      "path": "2009/38/आशाक-किरण-विद्युतीय-संचारमाध्यममे-मैथिली.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली भाषा-संस्कृतिक रक्षाक लेल संस्थाक आवश्यकता",
+      "english_title": null,
+      "authors": [
+        "सुशान्त झा"
+      ],
+      "publication_date": "2009-07-15",
+      "year": "2009",
+      "issue": "38",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Language preservation; cultural institutions; digital media archiving",
+      "url": "https://www.videha.co.in/research/2009/38/मैथिली-भाषा-संस्कृतिक-रक्षाक-लेल-संस्थाक-आवश्यकता.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20038.pdf",
+      "path": "2009/38/मैथिली-भाषा-संस्कृतिक-रक्षाक-लेल-संस्थाक-आवश्यकता.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "रेलवेक श्वेतपत्रकेँ लऽ कऽ चलि रहल वाक्-युद्ध",
+      "english_title": null,
+      "authors": [
+        "नवेन्दु कुमार झा"
+      ],
+      "publication_date": "2009-07-15",
+      "year": "2009",
+      "issue": "38",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Political analysis; Indian Railways policy; Bihar politics",
+      "url": "https://www.videha.co.in/research/2009/38/रेलवेक-श्वेतपत्रकेँ-लऽ-कऽ-चलि-रहल-वाक्-युद्ध.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20038.pdf",
+      "path": "2009/38/रेलवेक-श्वेतपत्रकेँ-लऽ-कऽ-चलि-रहल-वाक्-युद्ध.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "‘हुगली ऊपर बहैत गंगा’: संवेदनशील मोनकेँ छुबैत कथा-संग्रह",
+      "english_title": null,
+      "authors": [
+        "चन्द्रेश"
+      ],
+      "publication_date": "2009-07-15",
+      "year": "2009",
+      "issue": "38",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili book review; short-story criticism; Ram Bharos Kapari Bhramar studies",
+      "url": "https://www.videha.co.in/research/2009/38/हुगली-ऊपर-बहैत-गंगा-संवेदनशील-मोनकेँ-छुबैत-कथा-संग्रह.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20038.pdf",
+      "path": "2009/38/हुगली-ऊपर-बहैत-गंगा-संवेदनशील-मोनकेँ-छुबैत-कथा-संग्रह.htm",
       "page_start": null,
       "page_end": null
     },
