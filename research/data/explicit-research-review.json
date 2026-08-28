@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T22:16:54.810887+00:00",
+  "generated": "2026-08-28T22:26:58.161089+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,12 +12,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 552,
-    "promoted_sections_publishable": 508,
-    "promoted_sections_review": 44,
+    "promoted_sections_requested": 569,
+    "promoted_sections_publishable": 522,
+    "promoted_sections_review": 47,
     "curated_manifests": 1,
-    "published_after_all_overrides": 550,
-    "stale_generated_pages_removed_before_render": 550,
+    "published_after_all_overrides": 564,
+    "stale_generated_pages_removed_before_render": 563,
     "build_errors": 0
   },
   "explicit_review": [
@@ -876,6 +876,33 @@
       "author": "डा. रमानन्द झा ‘रमण’",
       "title": "अनुवाद",
       "body_chars": 103,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "111",
+      "section": "2.4",
+      "author": "श्री राज",
+      "title": "यात्रीक कवितामे गाम",
+      "body_chars": 30,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "116",
+      "section": "2.6",
+      "author": "पूनम मण्डल",
+      "title": "आकाशवाणी दरभंगाक जातिवादी प्रवृत्तिक विरोधमे विदेह विचार गोष्ठी",
+      "body_chars": 1397,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "120",
+      "section": "2.1",
+      "author": "आशीष अनचिन्हार",
+      "title": "माहिया",
+      "body_chars": 222,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     }

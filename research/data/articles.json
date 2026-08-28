@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T22:16:54.812066+00:00",
+  "generated": "2026-08-28T22:26:58.162355+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 552,
-    "promoted_sections_publishable": 508,
-    "promoted_sections_review": 44,
+    "promoted_sections_requested": 569,
+    "promoted_sections_publishable": 522,
+    "promoted_sections_review": 47,
     "curated_manifests": 1,
-    "published_after_all_overrides": 550,
-    "stale_generated_pages_removed_before_render": 550,
+    "published_after_all_overrides": 564,
+    "stale_generated_pages_removed_before_render": 563,
     "build_errors": 0
   },
   "articles": [
@@ -4755,6 +4755,25 @@
       "page_end": null
     },
     {
+      "title": "विस्मित होइत हमर लोक संस्कृति",
+      "english_title": null,
+      "authors": [
+        "बलराम साहु"
+      ],
+      "publication_date": "2012-08-15",
+      "year": "2012",
+      "issue": "112",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila folklore; cultural change; social anthropology",
+      "url": "https://www.videha.co.in/research/2012/112/विस्मित-होइत-हमर-लोक-संस्कृति.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20112.pdf",
+      "path": "2012/112/विस्मित-होइत-हमर-लोक-संस्कृति.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "काफिया आ बहर",
       "english_title": null,
       "authors": [
@@ -4774,6 +4793,25 @@
       "page_end": null
     },
     {
+      "title": "मातृभाषाक माध्यमसँ उच्चशिक्षा",
+      "english_title": null,
+      "authors": [
+        "डॉ. अरुण कुमार सिंह"
+      ],
+      "publication_date": "2012-09-01",
+      "year": "2012",
+      "issue": "113",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Higher education; mother-tongue policy; Maithili sociolinguistics",
+      "url": "https://www.videha.co.in/research/2012/113/मातृभाषाक-माध्यमसँ-उच्चशिक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20113.pdf",
+      "path": "2012/113/मातृभाषाक-माध्यमसँ-उच्चशिक्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मैथिली उपन्यास साहित्यक विकासमे हरिमोहन झाक योगदान",
       "english_title": null,
       "authors": [
@@ -4789,6 +4827,234 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20114.pdf",
       "path": "2012/114/मैथिली-उपन्यास-साहित्यक-विकासमे-हरिमोहन-झाक-योगदान.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सुजीतक सम्पूर्ण कथा एकटा नया स्वाद देलक",
+      "english_title": null,
+      "authors": [
+        "विजय मस्त"
+      ],
+      "publication_date": "2012-10-01",
+      "year": "2012",
+      "issue": "115",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili short-story criticism; Sujit Kumar Jha studies; contemporary literature",
+      "url": "https://www.videha.co.in/research/2012/115/सुजीतक-सम्पूर्ण-कथा-एकटा-नया-स्वाद-देलक.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20115.pdf",
+      "path": "2012/115/सुजीतक-सम्पूर्ण-कथा-एकटा-नया-स्वाद-देलक.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "स्वातन्त्र्योत्तर मैथिली कथामे सामाजिक समरसता",
+      "english_title": null,
+      "authors": [
+        "डॉ. अरुण कुमार सिंह"
+      ],
+      "publication_date": "2012-10-01",
+      "year": "2012",
+      "issue": "115",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; social harmony; post-independence fiction",
+      "url": "https://www.videha.co.in/research/2012/115/स्वातन्त्र्योत्तर-मैथिली-कथामे-सामाजिक-समरसता.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20115.pdf",
+      "path": "2012/115/स्वातन्त्र्योत्तर-मैथिली-कथामे-सामाजिक-समरसता.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नेना लेल सुन्दर चित्रकथा",
+      "english_title": null,
+      "authors": [
+        "दुर्गानन्द मण्डल"
+      ],
+      "publication_date": "2012-10-15",
+      "year": "2012",
+      "issue": "116",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Children’s literature studies; illustrated books; Maithili pedagogy",
+      "url": "https://www.videha.co.in/research/2012/116/नेना-लेल-सुन्दर-चित्रकथा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20116.pdf",
+      "path": "2012/116/नेना-लेल-सुन्दर-चित्रकथा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली कथा-संग्रह ‘जिद्दी’ पढ़लापर",
+      "english_title": null,
+      "authors": [
+        "खुशबू झा"
+      ],
+      "publication_date": "2012-10-15",
+      "year": "2012",
+      "issue": "116",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili book review; short-story criticism; contemporary literature",
+      "url": "https://www.videha.co.in/research/2012/116/मैथिली-कथा-संग्रह-जिद्दी-पढ़लापर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20116.pdf",
+      "path": "2012/116/मैथिली-कथा-संग्रह-जिद्दी-पढ़लापर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मेवाड़ आ मालवाक सांझी लोककला: एक परिचय",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2012-11-01",
+      "year": "2012",
+      "issue": "117",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Folk-art studies; visual anthropology; Mewar and Malwa culture",
+      "url": "https://www.videha.co.in/research/2012/117/मेवाड़-आ-मालवाक-सांझी-लोककला-एक-परिचय.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20117.pdf",
+      "path": "2012/117/मेवाड़-आ-मालवाक-सांझी-लोककला-एक-परिचय.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "यात्रा प्रसंग: ह्वेन सांगसँ चीनमे भेंटघांट",
+      "english_title": null,
+      "authors": [
+        "रामभरोस कापड़ि ‘भ्रमर’"
+      ],
+      "publication_date": "2012-11-01",
+      "year": "2012",
+      "issue": "117",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Travel studies; cultural history; China–India intellectual encounters",
+      "url": "https://www.videha.co.in/research/2012/117/यात्रा-प्रसंग-ह्वेन-सांगसँ-चीनमे-भेंटघांट.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20117.pdf",
+      "path": "2012/117/यात्रा-प्रसंग-ह्वेन-सांगसँ-चीनमे-भेंटघांट.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "विद्यापति: किछु प्रचलित कुप्रचारक निराकरण—भाग ३",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2012-11-01",
+      "year": "2012",
+      "issue": "117",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Vidyapati studies; textual historiography; Maithili literary history",
+      "url": "https://www.videha.co.in/research/2012/117/विद्यापति-किछु-प्रचलित-कुप्रचारक-निराकरण-भाग-३.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20117.pdf",
+      "path": "2012/117/विद्यापति-किछु-प्रचलित-कुप्रचारक-निराकरण-भाग-३.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कलकत्ता विश्वविद्यालयमे मैथिली: राजा टंकनाथ चौधरी",
+      "english_title": null,
+      "authors": [
+        "डा. रमानन्द झा ‘रमण’"
+      ],
+      "publication_date": "2012-11-15",
+      "year": "2012",
+      "issue": "118",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili education history; Calcutta University; intellectual biography",
+      "url": "https://www.videha.co.in/research/2012/118/कलकत्ता-विश्वविद्यालयमे-मैथिली-राजा-टंकनाथ-चौधरी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20118.pdf",
+      "path": "2012/118/कलकत्ता-विश्वविद्यालयमे-मैथिली-राजा-टंकनाथ-चौधरी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डल: एकटा बायोग्राफी",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2012-11-15",
+      "year": "2012",
+      "issue": "118",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary biography; Jagdish Prasad Mandal studies; literary history",
+      "url": "https://www.videha.co.in/research/2012/118/जगदीश-प्रसाद-मण्डल-एकटा-बायोग्राफी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20118.pdf",
+      "path": "2012/118/जगदीश-प्रसाद-मण्डल-एकटा-बायोग्राफी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मूर्दा: श्रृंगार, संघर्ष आ द्वन्द्व",
+      "english_title": null,
+      "authors": [
+        "महेन्द्र मलंगिया"
+      ],
+      "publication_date": "2012-12-01",
+      "year": "2012",
+      "issue": "119",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre criticism; dramatic conflict; literary aesthetics",
+      "url": "https://www.videha.co.in/research/2012/119/मूर्दा-श्रृंगार-संघर्ष-आ-द्वन्द्व.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20119.pdf",
+      "path": "2012/119/मूर्दा-श्रृंगार-संघर्ष-आ-द्वन्द्व.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "लघु-दीर्घ निर्णय—भाग १",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2012-12-01",
+      "year": "2012",
+      "issue": "119",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili prosody; ghazal metrics; literary theory",
+      "url": "https://www.videha.co.in/research/2012/119/लघु-दीर्घ-निर्णय-भाग-१.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20119.pdf",
+      "path": "2012/119/लघु-दीर्घ-निर्णय-भाग-१.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "दोसर चरणक पहिल सगर राति दीप जरय: डिजिटल फॉर्ममे ३७ पोथीक लोकार्पण",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2012-12-15",
+      "year": "2012",
+      "issue": "120",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary institutions; digital publishing history; event documentation",
+      "url": "https://www.videha.co.in/research/2012/120/दोसर-चरणक-पहिल-सगर-राति-दीप-जरय-डिजिटल-फॉर्ममे-३७-पोथीक-लोकार्पण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20120.pdf",
+      "path": "2012/120/दोसर-चरणक-पहिल-सगर-राति-दीप-जरय-डिजिटल-फॉर्ममे-३७-पोथीक-लोकार्पण.htm",
       "page_start": null,
       "page_end": null
     },
