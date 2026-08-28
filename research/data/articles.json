@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T22:03:07.284831+00:00",
+  "generated": "2026-08-28T22:09:23.827228+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -9,17 +9,17 @@
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 1,
-    "audit_queue_held": 18,
+    "audit_queue_held": 17,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 533,
-    "promoted_sections_publishable": 490,
-    "promoted_sections_review": 43,
+    "promoted_sections_requested": 552,
+    "promoted_sections_publishable": 508,
+    "promoted_sections_review": 44,
     "curated_manifests": 1,
-    "published_after_all_overrides": 532,
-    "stale_generated_pages_removed_before_render": 530,
+    "published_after_all_overrides": 550,
+    "stale_generated_pages_removed_before_render": 547,
     "build_errors": 0
   },
   "articles": [
@@ -4337,6 +4337,196 @@
       "page_end": null
     },
     {
+      "title": "मैथिली कथा साहित्यक विकासमे राजकमलक योगदान",
+      "english_title": null,
+      "authors": [
+        "शिवकुमार झा ‘टिल्लू’"
+      ],
+      "publication_date": "2012-03-01",
+      "year": "2012",
+      "issue": "101",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; Rajkamal Chaudhary studies; short-story criticism",
+      "url": "https://www.videha.co.in/research/2012/101/मैथिली-कथा-साहित्यक-विकासमे-राजकमलक-योगदान.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20101.pdf",
+      "path": "2012/101/मैथिली-कथा-साहित्यक-विकासमे-राजकमलक-योगदान.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "विदेह नाट्य उत्सव 2012",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2012-03-01",
+      "year": "2012",
+      "issue": "101",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre history; performance institutions; festival documentation",
+      "url": "https://www.videha.co.in/research/2012/101/विदेह-नाट्य-उत्सव-2012.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20101.pdf",
+      "path": "2012/101/विदेह-नाट्य-उत्सव-2012.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "इन्द्रधनुषी अकासमे सामाजिक विमर्श",
+      "english_title": null,
+      "authors": [
+        "शिवकुमार झा ‘टिल्लू’"
+      ],
+      "publication_date": "2012-03-15",
+      "year": "2012",
+      "issue": "102",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; social discourse; contemporary fiction",
+      "url": "https://www.videha.co.in/research/2012/102/इन्द्रधनुषी-अकासमे-सामाजिक-विमर्श.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20102.pdf",
+      "path": "2012/102/इन्द्रधनुषी-अकासमे-सामाजिक-विमर्श.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक लोक देवता",
+      "english_title": null,
+      "authors": [
+        "शिवकुमार झा ‘टिल्लू’"
+      ],
+      "publication_date": "2012-03-15",
+      "year": "2012",
+      "issue": "102",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila folklore; folk religion; cultural anthropology",
+      "url": "https://www.videha.co.in/research/2012/102/मिथिलाक-लोक-देवता.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20102.pdf",
+      "path": "2012/102/मिथिलाक-लोक-देवता.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली कथा साहित्यक विकासमे राजकमलक योगदान—आगाँ",
+      "english_title": null,
+      "authors": [
+        "शिवकुमार झा ‘टिल्लू’"
+      ],
+      "publication_date": "2012-03-15",
+      "year": "2012",
+      "issue": "102",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; Rajkamal Chaudhary studies; short-story criticism",
+      "url": "https://www.videha.co.in/research/2012/102/मैथिली-कथा-साहित्यक-विकासमे-राजकमलक-योगदान-आगाँ.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20102.pdf",
+      "path": "2012/102/मैथिली-कथा-साहित्यक-विकासमे-राजकमलक-योगदान-आगाँ.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "इंद्रधनुषी अकास",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2012-04-15",
+      "year": "2012",
+      "issue": "104",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; social anthropology; contemporary fiction",
+      "url": "https://www.videha.co.in/research/2012/104/इंद्रधनुषी-अकास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20104.pdf",
+      "path": "2012/104/इंद्रधनुषी-अकास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पाग, मिथिला आ जातिवादक राजनीति",
+      "english_title": null,
+      "authors": [
+        "अतुलेश्वर"
+      ],
+      "publication_date": "2012-05-01",
+      "year": "2012",
+      "issue": "105",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Caste studies; Mithila identity; political symbolism",
+      "url": "https://www.videha.co.in/research/2012/105/पाग-मिथिला-आ-जातिवादक-राजनीति.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20105.pdf",
+      "path": "2012/105/पाग-मिथिला-आ-जातिवादक-राजनीति.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "बिदापत नाच",
+      "english_title": null,
+      "authors": [
+        "मधुपनाथ झा"
+      ],
+      "publication_date": "2012-05-01",
+      "year": "2012",
+      "issue": "105",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila folk theatre; performance anthropology; Vidapat dance tradition",
+      "url": "https://www.videha.co.in/research/2012/105/बिदापत-नाच.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20105.pdf",
+      "path": "2012/105/बिदापत-नाच.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिला राज्य आन्दोलन आ शहीद रञ्जु झा",
+      "english_title": null,
+      "authors": [
+        "अतुलेश्वर"
+      ],
+      "publication_date": "2012-05-15",
+      "year": "2012",
+      "issue": "106",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila statehood movement; political history; social movements",
+      "url": "https://www.videha.co.in/research/2012/106/मिथिला-राज्य-आन्दोलन-आ-शहीद-रञ्जु-झा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20106.pdf",
+      "path": "2012/106/मिथिला-राज्य-आन्दोलन-आ-शहीद-रञ्जु-झा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "भाषा जातिगत सम्पत्ति नहि अपितु सामाजिक",
+      "english_title": null,
+      "authors": [
+        "डा. अरुण कुमार सिंह"
+      ],
+      "publication_date": "2012-06-01",
+      "year": "2012",
+      "issue": "107",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Sociolinguistics; language and society; Maithili language policy",
+      "url": "https://www.videha.co.in/research/2012/107/भाषा-जातिगत-सम्पत्ति-नहि-अपितु-सामाजिक.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20107.pdf",
+      "path": "2012/107/भाषा-जातिगत-सम्पत्ति-नहि-अपितु-सामाजिक.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "इतिहासहिन इतिहास",
       "english_title": null,
       "authors": [
@@ -4356,6 +4546,63 @@
       "page_end": null
     },
     {
+      "title": "टैगोर साहित्य पुरस्कारक बहन्ने",
+      "english_title": null,
+      "authors": [
+        "दुर्गानन्द मण्डल"
+      ],
+      "publication_date": "2012-06-15",
+      "year": "2012",
+      "issue": "108",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Literary institutions; award criticism; Maithili literary sociology",
+      "url": "https://www.videha.co.in/research/2012/108/टैगोर-साहित्य-पुरस्कारक-बहन्ने.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20108.pdf",
+      "path": "2012/108/टैगोर-साहित्य-पुरस्कारक-बहन्ने.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "भीड़तंत्र बनाम भ्रष्टतंत्र",
+      "english_title": null,
+      "authors": [
+        "चंदन कुमार झा"
+      ],
+      "publication_date": "2012-06-15",
+      "year": "2012",
+      "issue": "108",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Political sociology; corruption studies; democratic institutions",
+      "url": "https://www.videha.co.in/research/2012/108/भीड़तंत्र-बनाम-भ्रष्टतंत्र.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20108.pdf",
+      "path": "2012/108/भीड़तंत्र-बनाम-भ्रष्टतंत्र.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "आधुनिकताक समस्या",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2012-07-01",
+      "year": "2012",
+      "issue": "109",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Modernity studies; Maithili literary criticism; cultural theory",
+      "url": "https://www.videha.co.in/research/2012/109/आधुनिकताक-समस्या.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20109.pdf",
+      "path": "2012/109/आधुनिकताक-समस्या.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "आधुनिकताक समस्या ( आलोचना )",
       "english_title": null,
       "authors": [
@@ -4371,6 +4618,101 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20109.pdf",
       "path": "2012/109/आधुनिकताक-समस्या-आलोचना.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जीवन-संघर्ष: समीक्षा",
+      "english_title": null,
+      "authors": [
+        "दुर्गानन्द मण्डल"
+      ],
+      "publication_date": "2012-07-01",
+      "year": "2012",
+      "issue": "109",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; novel review; social realism",
+      "url": "https://www.videha.co.in/research/2012/109/जीवन-संघर्ष-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20109.pdf",
+      "path": "2012/109/जीवन-संघर्ष-समीक्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "उजड़ैत गाम: बसैत शहर?",
+      "english_title": null,
+      "authors": [
+        "डा. अरुण कुमार सिंह"
+      ],
+      "publication_date": "2012-07-15",
+      "year": "2012",
+      "issue": "110",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Rural sociology; urbanization; migration and village studies",
+      "url": "https://www.videha.co.in/research/2012/110/उजड़ैत-गाम-बसैत-शहर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20110.pdf",
+      "path": "2012/110/उजड़ैत-गाम-बसैत-शहर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिला-मैथिली आंदोलन",
+      "english_title": null,
+      "authors": [
+        "चंदन कुमार झा"
+      ],
+      "publication_date": "2012-07-15",
+      "year": "2012",
+      "issue": "110",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Language movement; Mithila regional politics; social history",
+      "url": "https://www.videha.co.in/research/2012/110/मिथिला-मैथिली-आंदोलन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20110.pdf",
+      "path": "2012/110/मिथिला-मैथिली-आंदोलन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली गजलकार परिचय श्रृंखला",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2012-07-15",
+      "year": "2012",
+      "issue": "110",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili ghazal studies; literary history; author bibliography",
+      "url": "https://www.videha.co.in/research/2012/110/मैथिली-गजलकार-परिचय-श्रृंखला.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20110.pdf",
+      "path": "2012/110/मैथिली-गजलकार-परिचय-श्रृंखला.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली लोक संस्कृति संगोष्ठी अन्तर्गत लोकनायक सलहेस: चर्चा-परिचर्चा",
+      "english_title": null,
+      "authors": [
+        "रामभरोस कापड़ि ‘भ्रमर’"
+      ],
+      "publication_date": "2012-07-15",
+      "year": "2012",
+      "issue": "110",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Salhesh studies; Mithila folklore; symposium documentation",
+      "url": "https://www.videha.co.in/research/2012/110/मैथिली-लोक-संस्कृति-संगोष्ठी-अन्तर्गत-लोकनायक-सलहेस-चर्चा-21b80f86c3.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20110.pdf",
+      "path": "2012/110/मैथिली-लोक-संस्कृति-संगोष्ठी-अन्तर्गत-लोकनायक-सलहेस-चर्चा-21b80f86c3.htm",
       "page_start": null,
       "page_end": null
     },

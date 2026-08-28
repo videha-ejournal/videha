@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T22:03:07.283234+00:00",
+  "generated": "2026-08-28T22:09:23.826189+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -7,17 +7,17 @@
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 1,
-    "audit_queue_held": 18,
+    "audit_queue_held": 17,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 533,
-    "promoted_sections_publishable": 490,
-    "promoted_sections_review": 43,
+    "promoted_sections_requested": 552,
+    "promoted_sections_publishable": 508,
+    "promoted_sections_review": 44,
     "curated_manifests": 1,
-    "published_after_all_overrides": 532,
-    "stale_generated_pages_removed_before_render": 530,
+    "published_after_all_overrides": 550,
+    "stale_generated_pages_removed_before_render": 547,
     "build_errors": 0
   },
   "explicit_review": [
@@ -104,11 +104,6 @@
       "issue": "73",
       "section": "2.4",
       "reason": "legacy-boundary-oversize"
-    },
-    {
-      "issue": "110",
-      "section": "2.1",
-      "reason": "insufficient-body-for-high-confidence, short-body"
     },
     {
       "issue": "383",
@@ -872,6 +867,15 @@
       "author": "दुर्गानन्द मण्डल",
       "title": "मौलाइल गाछक फूल: पोथी समीक्षा",
       "body_chars": 771,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "101",
+      "section": "2.5",
+      "author": "डा. रमानन्द झा ‘रमण’",
+      "title": "अनुवाद",
+      "body_chars": 103,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     }
