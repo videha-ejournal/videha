@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T12:55:19.813769+00:00",
+  "generated": "2026-08-28T13:00:14.801843+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 311,
-    "promoted_sections_publishable": 300,
+    "promoted_sections_requested": 318,
+    "promoted_sections_publishable": 307,
     "promoted_sections_review": 11,
     "curated_manifests": 1,
-    "published_after_all_overrides": 352,
-    "stale_generated_pages_removed_before_render": 345,
+    "published_after_all_overrides": 359,
+    "stale_generated_pages_removed_before_render": 352,
     "build_errors": 0
   },
   "articles": [
@@ -5002,6 +5002,25 @@
       "page_end": "25"
     },
     {
+      "title": "Pandit with MacBook and manuscripts",
+      "english_title": null,
+      "authors": [
+        "Vijay Deo Jha"
+      ],
+      "publication_date": "2025-10-15",
+      "year": "2025",
+      "issue": "428",
+      "language": "en",
+      "keywords": [],
+      "classification": "Sanskrit and manuscript studies; digital humanities; intellectual biography",
+      "url": "https://www.videha.co.in/research/2025/428/pandit-with-macbook-and-manuscripts.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf",
+      "path": "2025/428/pandit-with-macbook-and-manuscripts.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "अगस्त्य संहिता- तीस बर्खक प्रतीक्षा",
       "english_title": null,
       "authors": [
@@ -5038,6 +5057,25 @@
       "path": "2025/428/कान्तासम्मिततयोपदेशयुजे.htm",
       "page_start": "194",
       "page_end": "201"
+    },
+    {
+      "title": "नेपथ्य मे रहनिहार मिथिलाक एकटा अदम्य सेवक ओ प्रहरी: पंडित भवनाथ झा",
+      "english_title": null,
+      "authors": [
+        "डा. शैलेन्द्र मिश्र"
+      ],
+      "publication_date": "2025-10-15",
+      "year": "2025",
+      "issue": "428",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila intellectual history; cultural guardianship; scholarly biography",
+      "url": "https://www.videha.co.in/research/2025/428/नेपथ्य-मे-रहनिहार-मिथिलाक-एकटा-अदम्य-सेवक-ओ-प्रहरी-पंडित-भवनाथ-झा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf",
+      "path": "2025/428/नेपथ्य-मे-रहनिहार-मिथिलाक-एकटा-अदम्य-सेवक-ओ-प्रहरी-पंडित-भवनाथ-झा.htm",
+      "page_start": null,
+      "page_end": null
     },
     {
       "title": "पं.भवनाथ झाक पाण्डुलिपिसँ संपादित पोथीक अद्यतन सूचना",
@@ -5097,6 +5135,25 @@
       "page_end": null
     },
     {
+      "title": "पंडित भवनाथ झा मिथिलाक जीवित मानव धरोहर",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2025-10-15",
+      "year": "2025",
+      "issue": "428",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila intellectual history; manuscript studies; cultural heritage",
+      "url": "https://www.videha.co.in/research/2025/428/पंडित-भवनाथ-झा-मिथिलाक-जीवित-मानव-धरोहर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf",
+      "path": "2025/428/पंडित-भवनाथ-झा-मिथिलाक-जीवित-मानव-धरोहर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "बीहनि कथाक शास्त्रीय पक्षक निर्धारक- श्री भवनाथ झा",
       "english_title": null,
       "authors": [
@@ -5114,6 +5171,82 @@
       "path": "2025/428/बीहनि-कथाक-शास्त्रीय-पक्षक-निर्धारक--श्री-भवनाथ-झा.htm",
       "page_start": "183",
       "page_end": "187"
+    },
+    {
+      "title": "भारतीय ज्ञान परंपरामे भवनाथ झाजीक महत्व",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2025-10-15",
+      "year": "2025",
+      "issue": "428",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Indian knowledge systems; Mithila intellectual history; manuscript studies",
+      "url": "https://www.videha.co.in/research/2025/428/भारतीय-ज्ञान-परंपरामे-भवनाथ-झाजीक-महत्व.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf",
+      "path": "2025/428/भारतीय-ज्ञान-परंपरामे-भवनाथ-झाजीक-महत्व.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "संग्रहणीय व्यक्तित्व पं.भवनाथ झा",
+      "english_title": null,
+      "authors": [
+        "डॉ. धनाकर ठाकुर"
+      ],
+      "publication_date": "2025-10-15",
+      "year": "2025",
+      "issue": "428",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila intellectual history; author studies; cultural biography",
+      "url": "https://www.videha.co.in/research/2025/428/संग्रहणीय-व्यक्तित्व-पं-भवनाथ-झा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf",
+      "path": "2025/428/संग्रहणीय-व्यक्तित्व-पं-भवनाथ-झा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सरलताक आवरण मे निहित विद्याक विराट रूप",
+      "english_title": null,
+      "authors": [
+        "मुरारी कुमार झा"
+      ],
+      "publication_date": "2025-10-15",
+      "year": "2025",
+      "issue": "428",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila intellectual history; scholarly biography; manuscript studies",
+      "url": "https://www.videha.co.in/research/2025/428/सरलताक-आवरण-मे-निहित-विद्याक-विराट-रूप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf",
+      "path": "2025/428/सरलताक-आवरण-मे-निहित-विद्याक-विराट-रूप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हितनाथ झा",
+      "english_title": null,
+      "authors": [
+        "पण्डित भवनाथ झा"
+      ],
+      "publication_date": "2025-10-15",
+      "year": "2025",
+      "issue": "428",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; author studies; intellectual biography",
+      "url": "https://www.videha.co.in/research/2025/428/हितनाथ-झा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf",
+      "path": "2025/428/हितनाथ-झा.htm",
+      "page_start": null,
+      "page_end": null
     },
     {
       "title": "माटिक सुवास",
