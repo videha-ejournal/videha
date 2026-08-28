@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T18:04:18.071428+00:00",
+  "generated": "2026-08-28T18:14:57.069359+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,12 +12,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 358,
-    "promoted_sections_publishable": 339,
-    "promoted_sections_review": 19,
+    "promoted_sections_requested": 400,
+    "promoted_sections_publishable": 372,
+    "promoted_sections_review": 28,
     "curated_manifests": 1,
-    "published_after_all_overrides": 391,
-    "stale_generated_pages_removed_before_render": 391,
+    "published_after_all_overrides": 424,
+    "stale_generated_pages_removed_before_render": 422,
     "build_errors": 0
   },
   "explicit_review": [
@@ -727,6 +727,87 @@
       "author": "गजेन्द्र ठाकुर",
       "title": "Videha, Mithila, Tirbhukti, Tirhut (continuation 4)",
       "body_chars": 1471,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "12",
+      "section": "10.1",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "रामाश्रय झा ‘रामरंग’: जीवन आ कृति (क्रमशः 2)",
+      "body_chars": 943,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "13",
+      "section": "10.1",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "रामाश्रय झा ‘रामरंग’: जीवन आ कृति (क्रमशः 3)",
+      "body_chars": 1250,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "14",
+      "section": "10.1",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "रामाश्रय झा ‘रामरंग’: जीवन आ कृति (क्रमशः 4)",
+      "body_chars": 719,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "15",
+      "section": "10.1",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "रामाश्रय झा ‘रामरंग’: जीवन आ कृति (क्रमशः 5)",
+      "body_chars": 716,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "12",
+      "section": "12.1",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "पञ्जी प्रबंध (क्रमशः 2)",
+      "body_chars": 1773,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "13",
+      "section": "12.1",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "पञ्जी प्रबंध (क्रमशः 3)",
+      "body_chars": 1052,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "14",
+      "section": "12.1",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "पञ्जी प्रबंध (क्रमशः 4)",
+      "body_chars": 1480,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "16",
+      "section": "4.5",
+      "author": "जितमोहन झा",
+      "title": "थम्हने राखू ई डोरी: वृद्ध-बुजुर्गक सामाजिक स्थिति",
+      "body_chars": 1472,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "20",
+      "section": "4.3.1",
+      "author": "महाप्रकाश",
+      "title": "सुभाषचन्द्र यादवक कथा-साहित्य",
+      "body_chars": 1005,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     }

@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T18:04:18.072360+00:00",
+  "generated": "2026-08-28T18:14:57.070681+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 358,
-    "promoted_sections_publishable": 339,
-    "promoted_sections_review": 19,
+    "promoted_sections_requested": 400,
+    "promoted_sections_publishable": 372,
+    "promoted_sections_review": 28,
     "curated_manifests": 1,
-    "published_after_all_overrides": 391,
-    "stale_generated_pages_removed_before_render": 391,
+    "published_after_all_overrides": 424,
+    "stale_generated_pages_removed_before_render": 422,
     "build_errors": 0
   },
   "articles": [
@@ -309,6 +309,310 @@
       "page_end": null
     },
     {
+      "title": "Videha, Mithila, Tirbhukti, Tirhut (continuation 5)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-06-01",
+      "year": "2008",
+      "issue": "11",
+      "language": "mai",
+      "keywords": [],
+      "classification": "English-language Mithila history; ancient history; historical geography",
+      "url": "https://www.videha.co.in/research/2008/11/videha-mithila-tirbhukti-tirhut-continuation-5.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20011.pdf",
+      "path": "2008/11/videha-mithila-tirbhukti-tirhut-continuation-5.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पञ्जी प्रबंध: मूल-गोत्र आ पञ्जी परम्परा",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-06-01",
+      "year": "2008",
+      "issue": "11",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Genealogical studies; Panji manuscripts; Mithila social history",
+      "url": "https://www.videha.co.in/research/2008/11/पञ्जी-प्रबंध-मूल-गोत्र-आ-पञ्जी-परम्परा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20011.pdf",
+      "path": "2008/11/पञ्जी-प्रबंध-मूल-गोत्र-आ-पञ्जी-परम्परा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मायानन्द मिश्रक इतिहास-बोध (क्रमशः 9)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-06-01",
+      "year": "2008",
+      "issue": "11",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; historical fiction; Mayanand Mishra studies",
+      "url": "https://www.videha.co.in/research/2008/11/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-9.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20011.pdf",
+      "path": "2008/11/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-9.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "रामाश्रय झा ‘रामरंग’: जीवन आ कृति",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-06-01",
+      "year": "2008",
+      "issue": "11",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili musicology; musician biography; Ramashray Jha studies",
+      "url": "https://www.videha.co.in/research/2008/11/रामाश्रय-झा-रामरंग-जीवन-आ-कृति.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20011.pdf",
+      "path": "2008/11/रामाश्रय-झा-रामरंग-जीवन-आ-कृति.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "Videha, Mithila, Tirbhukti, Tirhut (continuation 6)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-06-15",
+      "year": "2008",
+      "issue": "12",
+      "language": "mai",
+      "keywords": [],
+      "classification": "English-language Mithila history; archaeology; economic history",
+      "url": "https://www.videha.co.in/research/2008/12/videha-mithila-tirbhukti-tirhut-continuation-6.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20012.pdf",
+      "path": "2008/12/videha-mithila-tirbhukti-tirhut-continuation-6.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "डिस्कवरी ऑफ मिथिला: पुरातात्त्विक आ ऐतिहासिक स्थल",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-06-15",
+      "year": "2008",
+      "issue": "12",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Archaeology; epigraphy; historical geography of Mithila",
+      "url": "https://www.videha.co.in/research/2008/12/डिस्कवरी-ऑफ-मिथिला-पुरातात्त्विक-आ-ऐतिहासिक-स्थल.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20012.pdf",
+      "path": "2008/12/डिस्कवरी-ऑफ-मिथिला-पुरातात्त्विक-आ-ऐतिहासिक-स्थल.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मायानन्द मिश्रक इतिहास-बोध (क्रमशः 10)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-06-15",
+      "year": "2008",
+      "issue": "12",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; historical fiction; Mayanand Mishra studies",
+      "url": "https://www.videha.co.in/research/2008/12/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-10.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20012.pdf",
+      "path": "2008/12/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-10.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "Videha, Mithila, Tirbhukti, Tirhut (continuation 7)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-07-01",
+      "year": "2008",
+      "issue": "13",
+      "language": "mai",
+      "keywords": [],
+      "classification": "English-language Mithila history; medieval history; administrative history",
+      "url": "https://www.videha.co.in/research/2008/13/videha-mithila-tirbhukti-tirhut-continuation-7.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20013.pdf",
+      "path": "2008/13/videha-mithila-tirbhukti-tirhut-continuation-7.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पंचदेवोपासक भूमि मिथिला (पहिल खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. प्रफुल्ल कुमार सिंह ‘मौन’"
+      ],
+      "publication_date": "2008-07-01",
+      "year": "2008",
+      "issue": "13",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Religious studies; cultural geography; Mithila sacred traditions",
+      "url": "https://www.videha.co.in/research/2008/13/पंचदेवोपासक-भूमि-मिथिला-पहिल-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20013.pdf",
+      "path": "2008/13/पंचदेवोपासक-भूमि-मिथिला-पहिल-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पोथी समीक्षा: समयकेँ अकानैत",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-07-01",
+      "year": "2008",
+      "issue": "13",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili book review; poetry criticism; Pankaj Parashar studies",
+      "url": "https://www.videha.co.in/research/2008/13/पोथी-समीक्षा-समयकेँ-अकानैत.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20013.pdf",
+      "path": "2008/13/पोथी-समीक्षा-समयकेँ-अकानैत.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मायानन्द मिश्रक इतिहास-बोध (क्रमशः 11)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-07-01",
+      "year": "2008",
+      "issue": "13",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; historical fiction; Mayanand Mishra studies",
+      "url": "https://www.videha.co.in/research/2008/13/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-11.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20013.pdf",
+      "path": "2008/13/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-11.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "Videha, Mithila, Tirbhukti, Tirhut (continuation 8)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-07-15",
+      "year": "2008",
+      "issue": "14",
+      "language": "mai",
+      "keywords": [],
+      "classification": "English-language Mithila history; Karnata dynasty; cultural history",
+      "url": "https://www.videha.co.in/research/2008/14/videha-mithila-tirbhukti-tirhut-continuation-8.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20014.pdf",
+      "path": "2008/14/videha-mithila-tirbhukti-tirhut-continuation-8.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पंचदेवोपासक भूमि मिथिला (दोसर खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. प्रफुल्ल कुमार सिंह ‘मौन’"
+      ],
+      "publication_date": "2008-07-15",
+      "year": "2008",
+      "issue": "14",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Religious studies; cultural geography; Mithila sacred traditions",
+      "url": "https://www.videha.co.in/research/2008/14/पंचदेवोपासक-भूमि-मिथिला-दोसर-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20014.pdf",
+      "path": "2008/14/पंचदेवोपासक-भूमि-मिथिला-दोसर-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पोथी समीक्षा: समयकेँ अकानैत (क्रमशः)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-07-15",
+      "year": "2008",
+      "issue": "14",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili book review; poetry criticism; Pankaj Parashar studies",
+      "url": "https://www.videha.co.in/research/2008/14/पोथी-समीक्षा-समयकेँ-अकानैत-क्रमशः.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20014.pdf",
+      "path": "2008/14/पोथी-समीक्षा-समयकेँ-अकानैत-क्रमशः.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मायानन्द मिश्रक इतिहास-बोध (क्रमशः 12)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-07-15",
+      "year": "2008",
+      "issue": "14",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; historical fiction; Mayanand Mishra studies",
+      "url": "https://www.videha.co.in/research/2008/14/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-12.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20014.pdf",
+      "path": "2008/14/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-12.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "Goa Is Parashuram’s Mithila: Maithils in Goa",
+      "english_title": null,
+      "authors": [
+        "अजय ठाकुर"
+      ],
+      "publication_date": "2008-08-01",
+      "year": "2008",
+      "issue": "15",
+      "language": "mai",
+      "keywords": [],
+      "classification": "English-language diaspora studies; migration; Maithil community in Goa",
+      "url": "https://www.videha.co.in/research/2008/15/goa-is-parashuram-s-mithila-maithils-in-goa.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20015.pdf",
+      "path": "2008/15/goa-is-parashuram-s-mithila-maithils-in-goa.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "पंचदेवोपासक भूमि मिथिला",
       "english_title": null,
       "authors": [
@@ -347,6 +651,25 @@
       "page_end": null
     },
     {
+      "title": "मायानन्द मिश्रक इतिहास-बोध (समापन)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-08-01",
+      "year": "2008",
+      "issue": "15",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; historical fiction; Mayanand Mishra studies",
+      "url": "https://www.videha.co.in/research/2008/15/मायानन्द-मिश्रक-इतिहास-बोध-समापन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20015.pdf",
+      "path": "2008/15/मायानन्द-मिश्रक-इतिहास-बोध-समापन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "सन्त साहेब रामदास",
       "english_title": null,
       "authors": [
@@ -366,6 +689,44 @@
       "page_end": null
     },
     {
+      "title": "आजुक समयमे कम्प्युटर शिक्षाक महत्व",
+      "english_title": null,
+      "authors": [
+        "ज्योति प्रकाश लाल"
+      ],
+      "publication_date": "2008-08-15",
+      "year": "2008",
+      "issue": "16",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Computer education; information technology; digital literacy",
+      "url": "https://www.videha.co.in/research/2008/16/आजुक-समयमे-कम्प्युटर-शिक्षाक-महत्व.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20016.pdf",
+      "path": "2008/16/आजुक-समयमे-कम्प्युटर-शिक्षाक-महत्व.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "की बलिराज गढ़ मिथिलाक प्राचीन राजधानी अछि?",
+      "english_title": null,
+      "authors": [
+        "सुशान्त झा"
+      ],
+      "publication_date": "2008-08-15",
+      "year": "2008",
+      "issue": "16",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Archaeology; historical geography; Balirajgarh studies",
+      "url": "https://www.videha.co.in/research/2008/16/की-बलिराज-गढ़-मिथिलाक-प्राचीन-राजधानी-अछि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20016.pdf",
+      "path": "2008/16/की-बलिराज-गढ़-मिथिलाक-प्राचीन-राजधानी-अछि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "बीसम शताब्दी मैथिली साहित्यक स्वर्णिम युग (अंक १६ मे प्रकाशित खेप)",
       "english_title": null,
       "authors": [
@@ -381,6 +742,44 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20016.pdf",
       "path": "2008/16/बीसम-शताब्दी-मैथिली-साहित्यक-स्वर्णिम-युग-अंक-१६-मे-प्रकाशित-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हरिमोहन झा समग्र (पहिल खेप)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-08-15",
+      "year": "2008",
+      "issue": "16",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; bibliography; Harimohan Jha studies",
+      "url": "https://www.videha.co.in/research/2008/16/हरिमोहन-झा-समग्र-पहिल-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20016.pdf",
+      "path": "2008/16/हरिमोहन-झा-समग्र-पहिल-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कन्या भ्रूण हत्या: प्रकृतिक संग खिलवाड़",
+      "english_title": null,
+      "authors": [
+        "जितमोहन झा"
+      ],
+      "publication_date": "2008-09-01",
+      "year": "2008",
+      "issue": "17",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Gender studies; reproductive ethics; social reform",
+      "url": "https://www.videha.co.in/research/2008/17/कन्या-भ्रूण-हत्या-प्रकृतिक-संग-खिलवाड़.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20017.pdf",
+      "path": "2008/17/कन्या-भ्रूण-हत्या-प्रकृतिक-संग-खिलवाड़.htm",
       "page_start": null,
       "page_end": null
     },
@@ -419,6 +818,63 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20017.pdf",
       "path": "2008/17/बीसम-शताब्दी-मैथिली-साहित्यक-स्वर्णिम-युग-अंक-१७-मे-प्रकाशित-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलांचलक शाक्त क्षेत्र",
+      "english_title": null,
+      "authors": [
+        "डॉ. प्रफुल्ल कुमार सिंह ‘मौन’"
+      ],
+      "publication_date": "2008-09-01",
+      "year": "2008",
+      "issue": "17",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Religious studies; Shakta traditions; sacred geography of Mithila",
+      "url": "https://www.videha.co.in/research/2008/17/मिथिलांचलक-शाक्त-क्षेत्र.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20017.pdf",
+      "path": "2008/17/मिथिलांचलक-शाक्त-क्षेत्र.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हरिमोहन झा समग्र (दोसर खेप)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-09-01",
+      "year": "2008",
+      "issue": "17",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; bibliography; Harimohan Jha studies",
+      "url": "https://www.videha.co.in/research/2008/17/हरिमोहन-झा-समग्र-दोसर-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20017.pdf",
+      "path": "2008/17/हरिमोहन-झा-समग्र-दोसर-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "अदद्दी पेनकें मजगुत करबाक आवश्यकता",
+      "english_title": null,
+      "authors": [
+        "डॉ. देवशंकर नवीन"
+      ],
+      "publication_date": "2008-09-15",
+      "year": "2008",
+      "issue": "18",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili book review; cultural criticism; contemporary literature",
+      "url": "https://www.videha.co.in/research/2008/18/अदद्दी-पेनकें-मजगुत-करबाक-आवश्यकता.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20018.pdf",
+      "path": "2008/18/अदद्दी-पेनकें-मजगुत-करबाक-आवश्यकता.htm",
       "page_start": null,
       "page_end": null
     },
@@ -480,6 +936,44 @@
       "page_end": null
     },
     {
+      "title": "मैथिली समस्याक टोह लैत कथा-संकलन: उदाहरण",
+      "english_title": null,
+      "authors": [
+        "कमलानन्द झा"
+      ],
+      "publication_date": "2008-09-15",
+      "year": "2008",
+      "issue": "18",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili book review; short-story criticism; contemporary literature",
+      "url": "https://www.videha.co.in/research/2008/18/मैथिली-समस्याक-टोह-लैत-कथा-संकलन-उदाहरण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20018.pdf",
+      "path": "2008/18/मैथिली-समस्याक-टोह-लैत-कथा-संकलन-उदाहरण.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "स्व. राजकमल चौधरी पर शोध लेख (पहिल खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. देवशंकर नवीन"
+      ],
+      "publication_date": "2008-09-15",
+      "year": "2008",
+      "issue": "18",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; Rajkamal Choudhary studies; novel studies",
+      "url": "https://www.videha.co.in/research/2008/18/स्व-राजकमल-चौधरी-पर-शोध-लेख-पहिल-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20018.pdf",
+      "path": "2008/18/स्व-राजकमल-चौधरी-पर-शोध-लेख-पहिल-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "जीवन झाक नाटकक सामाजिक विवर्तन (अंक १९ मे प्रकाशित खेप)",
       "english_title": null,
       "authors": [
@@ -499,6 +993,25 @@
       "page_end": null
     },
     {
+      "title": "मिथिलांचलक गाणपत्य क्षेत्र",
+      "english_title": null,
+      "authors": [
+        "डॉ. प्रफुल्ल कुमार सिंह ‘मौन’"
+      ],
+      "publication_date": "2008-10-01",
+      "year": "2008",
+      "issue": "19",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Religious studies; Ganapatya traditions; sacred geography of Mithila",
+      "url": "https://www.videha.co.in/research/2008/19/मिथिलांचलक-गाणपत्य-क्षेत्र.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20019.pdf",
+      "path": "2008/19/मिथिलांचलक-गाणपत्य-क्षेत्र.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "लोअर दिवांग घाटी: इदु-मिसमी जनजातिक अनुपम संसार (पहिल खेप)",
       "english_title": null,
       "authors": [
@@ -514,6 +1027,120 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20019.pdf",
       "path": "2008/19/लोअर-दिवांग-घाटी-इदु-मिसमी-जनजातिक-अनुपम-संसार-पहिल-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "स्व. राजकमल चौधरी पर शोध लेख (दोसर खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. देवशंकर नवीन"
+      ],
+      "publication_date": "2008-10-01",
+      "year": "2008",
+      "issue": "19",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; Rajkamal Choudhary studies; novel studies",
+      "url": "https://www.videha.co.in/research/2008/19/स्व-राजकमल-चौधरी-पर-शोध-लेख-दोसर-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20019.pdf",
+      "path": "2008/19/स्व-राजकमल-चौधरी-पर-शोध-लेख-दोसर-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कोना बचत मिथिलाक स्मिता?",
+      "english_title": null,
+      "authors": [
+        "ओमप्रकाश झा"
+      ],
+      "publication_date": "2008-10-15",
+      "year": "2008",
+      "issue": "20",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Cultural studies; regional identity; Mithila development",
+      "url": "https://www.videha.co.in/research/2008/20/कोना-बचत-मिथिलाक-स्मिता.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20020.pdf",
+      "path": "2008/20/कोना-बचत-मिथिलाक-स्मिता.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलांचलक शैव क्षेत्र",
+      "english_title": null,
+      "authors": [
+        "डॉ. प्रफुल्ल कुमार सिंह ‘मौन’"
+      ],
+      "publication_date": "2008-10-15",
+      "year": "2008",
+      "issue": "20",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Religious studies; Shaiva traditions; sacred geography of Mithila",
+      "url": "https://www.videha.co.in/research/2008/20/मिथिलांचलक-शैव-क्षेत्र.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20020.pdf",
+      "path": "2008/20/मिथिलांचलक-शैव-क्षेत्र.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "रिस्क आ मैथिल",
+      "english_title": null,
+      "authors": [
+        "ब्रज कुमार कर्ण"
+      ],
+      "publication_date": "2008-10-15",
+      "year": "2008",
+      "issue": "20",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Economic sociology; entrepreneurship; Mithila development studies",
+      "url": "https://www.videha.co.in/research/2008/20/रिस्क-आ-मैथिल.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20020.pdf",
+      "path": "2008/20/रिस्क-आ-मैथिल.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "स्व. राजकमल चौधरी पर शोध लेख (तेसर खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. देवशंकर नवीन"
+      ],
+      "publication_date": "2008-10-15",
+      "year": "2008",
+      "issue": "20",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; Rajkamal Choudhary studies; novel studies",
+      "url": "https://www.videha.co.in/research/2008/20/स्व-राजकमल-चौधरी-पर-शोध-लेख-तेसर-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20020.pdf",
+      "path": "2008/20/स्व-राजकमल-चौधरी-पर-शोध-लेख-तेसर-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "स्वरक माला गँथती अंशु",
+      "english_title": null,
+      "authors": [
+        "जितेन्द्र झा"
+      ],
+      "publication_date": "2008-10-15",
+      "year": "2008",
+      "issue": "20",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili cultural criticism; music studies; emerging artist profile",
+      "url": "https://www.videha.co.in/research/2008/20/स्वरक-माला-गँथती-अंशु.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20020.pdf",
+      "path": "2008/20/स्वरक-माला-गँथती-अंशु.htm",
       "page_start": null,
       "page_end": null
     },
