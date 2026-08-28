@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T11:21:16.848876+00:00",
+  "generated": "2026-08-28T11:25:07.148072+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 177,
-    "promoted_sections_publishable": 168,
+    "promoted_sections_requested": 182,
+    "promoted_sections_publishable": 173,
     "promoted_sections_review": 9,
     "curated_manifests": 1,
-    "published_after_all_overrides": 221,
-    "stale_generated_pages_removed_before_render": 218,
+    "published_after_all_overrides": 226,
+    "stale_generated_pages_removed_before_render": 221,
     "build_errors": 0
   },
   "articles": [
@@ -309,6 +309,63 @@
       "page_end": null
     },
     {
+      "title": "मणिपद्मक संस्मरण-संसार",
+      "english_title": null,
+      "authors": [
+        "प्रोफेसर प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2009-05-01",
+      "year": "2009",
+      "issue": "33",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili memoir criticism; Manipadma studies; travel literature",
+      "url": "https://www.videha.co.in/research/2009/33/मणिपद्मक-संस्मरण-संसार.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20033.pdf",
+      "path": "2009/33/मणिपद्मक-संस्मरण-संसार.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हास्य-व्यंग्य सम्राट प्रोफेसर हरिमोहन झा",
+      "english_title": null,
+      "authors": [
+        "प्रोफेसर प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2009-05-15",
+      "year": "2009",
+      "issue": "34",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; humour and satire; Harimohan Jha studies",
+      "url": "https://www.videha.co.in/research/2009/34/हास्य-व्यंग्य-सम्राट-प्रोफेसर-हरिमोहन-झा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20034.pdf",
+      "path": "2009/34/हास्य-व्यंग्य-सम्राट-प्रोफेसर-हरिमोहन-झा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "चेतना समिति ओ नाट्यमंच (पहिल भाग)",
+      "english_title": null,
+      "authors": [
+        "प्रोफेसर प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2009-06-01",
+      "year": "2009",
+      "issue": "35",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre history; institutional history; performance studies",
+      "url": "https://www.videha.co.in/research/2009/35/चेतना-समिति-ओ-नाट्यमंच-पहिल-भाग.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20035.pdf",
+      "path": "2009/35/चेतना-समिति-ओ-नाट्यमंच-पहिल-भाग.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "इतिहास",
       "english_title": null,
       "authors": [
@@ -324,6 +381,44 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20036.pdf",
       "path": "2009/36/इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "चेतना समिति ओ नाट्यमंच (दोसर भाग)",
+      "english_title": null,
+      "authors": [
+        "प्रोफेसर प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2009-06-15",
+      "year": "2009",
+      "issue": "36",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre history; institutional chronology; performance studies",
+      "url": "https://www.videha.co.in/research/2009/36/चेतना-समिति-ओ-नाट्यमंच-दोसर-भाग.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20036.pdf",
+      "path": "2009/36/चेतना-समिति-ओ-नाट्यमंच-दोसर-भाग.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "लोकगाथा ओ मणिपद्म",
+      "english_title": null,
+      "authors": [
+        "प्रोफेसर प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2009-07-01",
+      "year": "2009",
+      "issue": "37",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Folklore studies; Mithila oral epics; Manipadma studies",
+      "url": "https://www.videha.co.in/research/2009/37/लोकगाथा-ओ-मणिपद्म.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20037.pdf",
+      "path": "2009/37/लोकगाथा-ओ-मणिपद्म.htm",
       "page_start": null,
       "page_end": null
     },
