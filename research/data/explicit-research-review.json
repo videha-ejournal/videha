@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T22:42:41.031573+00:00",
+  "generated": "2026-08-28T23:07:26.431813+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,12 +12,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 569,
-    "promoted_sections_publishable": 522,
-    "promoted_sections_review": 47,
+    "promoted_sections_requested": 582,
+    "promoted_sections_publishable": 531,
+    "promoted_sections_review": 51,
     "curated_manifests": 1,
-    "published_after_all_overrides": 564,
-    "stale_generated_pages_removed_before_render": 564,
+    "published_after_all_overrides": 573,
+    "stale_generated_pages_removed_before_render": 571,
     "build_errors": 0
   },
   "explicit_review": [
@@ -903,6 +903,42 @@
       "author": "आशीष अनचिन्हार",
       "title": "माहिया",
       "body_chars": 222,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "125",
+      "section": "2.1",
+      "author": "उमेश मण्डल",
+      "title": "जगदीश प्रसाद मण्डलक रचना संसार: संक्षिप्त परिचय",
+      "body_chars": 699,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "125",
+      "section": "2.7",
+      "author": "उमेश मण्डल",
+      "title": "विदेह नाट्य उत्सव २०१३",
+      "body_chars": 31,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "125",
+      "section": "2.8",
+      "author": "सुमित आनन्द",
+      "title": "प्रो. हरिमोहन झाक पुण्यतिथि",
+      "body_chars": 760,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "126",
+      "section": "2.1",
+      "author": "आशीष अनचिन्हार",
+      "title": "भक्ति गजल",
+      "body_chars": 304,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     }

@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T22:42:41.032324+00:00",
+  "generated": "2026-08-28T23:07:26.433058+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 569,
-    "promoted_sections_publishable": 522,
-    "promoted_sections_review": 47,
+    "promoted_sections_requested": 582,
+    "promoted_sections_publishable": 531,
+    "promoted_sections_review": 51,
     "curated_manifests": 1,
-    "published_after_all_overrides": 564,
-    "stale_generated_pages_removed_before_render": 564,
+    "published_after_all_overrides": 573,
+    "stale_generated_pages_removed_before_render": 571,
     "build_errors": 0
   },
   "articles": [
@@ -5059,6 +5059,101 @@
       "page_end": null
     },
     {
+      "title": "गाममे विज्ञानकेँ लोकप्रिय बनबऽमे लागल छथि मानस बिहार",
+      "english_title": null,
+      "authors": [
+        "नवेन्दु कुमार झा"
+      ],
+      "publication_date": "2013-01-01",
+      "year": "2013",
+      "issue": "121",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Science communication; rural education; Bihar development studies",
+      "url": "https://www.videha.co.in/research/2013/121/गाममे-विज्ञानकेँ-लोकप्रिय-बनबऽमे-लागल-छथि-मानस-बिहार.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20121.pdf",
+      "path": "2013/121/गाममे-विज्ञानकेँ-लोकप्रिय-बनबऽमे-लागल-छथि-मानस-बिहार.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डल: एकटा बायोग्राफी—आगाँ",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2013-01-01",
+      "year": "2013",
+      "issue": "121",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary biography; Jagdish Prasad Mandal studies; literary history",
+      "url": "https://www.videha.co.in/research/2013/121/जगदीश-प्रसाद-मण्डल-एकटा-बायोग्राफी-आगाँ.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20121.pdf",
+      "path": "2013/121/जगदीश-प्रसाद-मण्डल-एकटा-बायोग्राफी-आगाँ.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक खाँटी संस्कृतिक संकलन",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2013-01-01",
+      "year": "2013",
+      "issue": "121",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila cultural studies; heritage documentation; folklore preservation",
+      "url": "https://www.videha.co.in/research/2013/121/मिथिलाक-खाँटी-संस्कृतिक-संकलन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20121.pdf",
+      "path": "2013/121/मिथिलाक-खाँटी-संस्कृतिक-संकलन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नारीक चरित्र सभसँ रंगल कथासंग्रह ‘जिद्दी’",
+      "english_title": null,
+      "authors": [
+        "प्रसून सिंह"
+      ],
+      "publication_date": "2013-01-15",
+      "year": "2013",
+      "issue": "122",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili feminist criticism; short-story collection review; gender representation",
+      "url": "https://www.videha.co.in/research/2013/122/नारीक-चरित्र-सभसँ-रंगल-कथासंग्रह-जिद्दी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20122.pdf",
+      "path": "2013/122/नारीक-चरित्र-सभसँ-रंगल-कथासंग्रह-जिद्दी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गजलक लेल: समीक्षा",
+      "english_title": null,
+      "authors": [
+        "ओम प्रकाश"
+      ],
+      "publication_date": "2013-03-01",
+      "year": "2013",
+      "issue": "125",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili ghazal criticism; poetics; literary review",
+      "url": "https://www.videha.co.in/research/2013/125/गजलक-लेल-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20125.pdf",
+      "path": "2013/125/गजलक-लेल-समीक्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मैथिली बालनाटक सीमा विस्तार करैत — ‘चौआरि’",
       "english_title": null,
       "authors": [
@@ -5074,6 +5169,82 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20126.pdf",
       "path": "2013/126/मैथिली-बालनाटक-सीमा-विस्तार-करैत-चौआरि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "रायपुरक मिथिला महोत्सव: उत्साहक बाढ़ि आ मनीष झा",
+      "english_title": null,
+      "authors": [
+        "रामभरोस कापड़ि ‘भ्रमर’"
+      ],
+      "publication_date": "2013-03-15",
+      "year": "2013",
+      "issue": "126",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila diaspora studies; festival documentation; cultural institutions",
+      "url": "https://www.videha.co.in/research/2013/126/रायपुरक-मिथिला-महोत्सव-उत्साहक-बाढ़ि-आ-मनीष-झा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20126.pdf",
+      "path": "2013/126/रायपुरक-मिथिला-महोत्सव-उत्साहक-बाढ़ि-आ-मनीष-झा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "राजनन्दनक आत्मालाप",
+      "english_title": null,
+      "authors": [
+        "शारदानन्द दास ‘परिमल’"
+      ],
+      "publication_date": "2013-04-01",
+      "year": "2013",
+      "issue": "127",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; Rajnandan Lal Das studies; intellectual biography",
+      "url": "https://www.videha.co.in/research/2013/127/राजनन्दनक-आत्मालाप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20127.pdf",
+      "path": "2013/127/राजनन्दनक-आत्मालाप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "बाँटल गेल मैथिली: बरत मिथिला",
+      "english_title": null,
+      "authors": [
+        "नवेन्दु कुमार झा"
+      ],
+      "publication_date": "2013-04-15",
+      "year": "2013",
+      "issue": "128",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili language politics; regional identity; sociolinguistics",
+      "url": "https://www.videha.co.in/research/2013/128/बाँटल-गेल-मैथिली-बरत-मिथिला.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20128.pdf",
+      "path": "2013/128/बाँटल-गेल-मैथिली-बरत-मिथिला.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली अकादमी द्वारा निर्धारित मैथिली लेखन-शैली",
+      "english_title": null,
+      "authors": [
+        "मैथिली अकादमी, पटना"
+      ],
+      "publication_date": "2013-05-15",
+      "year": "2013",
+      "issue": "130",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili orthography; language standardization; writing-style guide",
+      "url": "https://www.videha.co.in/research/2013/130/मैथिली-अकादमी-द्वारा-निर्धारित-मैथिली-लेखन-शैली.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20130.pdf",
+      "path": "2013/130/मैथिली-अकादमी-द्वारा-निर्धारित-मैथिली-लेखन-शैली.htm",
       "page_start": null,
       "page_end": null
     },
