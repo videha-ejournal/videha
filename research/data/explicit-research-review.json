@@ -1,22 +1,22 @@
 {
-  "generated": "2026-08-28T20:34:41.130169+00:00",
+  "generated": "2026-08-28T21:37:59.769838+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
-    "audit_queue_publishable": 2,
+    "audit_queue_publishable": 1,
     "audit_queue_held": 18,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 505,
-    "promoted_sections_publishable": 468,
-    "promoted_sections_review": 37,
+    "promoted_sections_requested": 524,
+    "promoted_sections_publishable": 482,
+    "promoted_sections_review": 42,
     "curated_manifests": 1,
-    "published_after_all_overrides": 513,
+    "published_after_all_overrides": 524,
     "stale_generated_pages_removed_before_render": 513,
     "build_errors": 0
   },
@@ -832,6 +832,39 @@
       "body_chars": 73,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "82",
+      "section": "2.5",
+      "author": "बिपिन झा",
+      "title": "प्रकृति परिक्रमा: ग्रन्थ समीक्षा",
+      "body_chars": 1276,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "83",
+      "section": "2.5",
+      "reason": "manual body end marker not found"
+    },
+    {
+      "issue": "83",
+      "section": "2.6",
+      "author": "आशीष अनचिन्हार",
+      "title": "बेचन ठाकुरजीक नाटक ‘बेटीक अपमान’",
+      "body_chars": 101,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "84",
+      "section": "2.2",
+      "reason": "manual body end marker not found"
+    },
+    {
+      "issue": "84",
+      "section": "2.5",
+      "reason": "manual body end marker not found"
     }
   ],
   "build_errors": []

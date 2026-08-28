@@ -1,24 +1,24 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T20:34:41.130905+00:00",
+  "generated": "2026-08-28T21:37:59.771113+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
-    "audit_queue_publishable": 2,
+    "audit_queue_publishable": 1,
     "audit_queue_held": 18,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 505,
-    "promoted_sections_publishable": 468,
-    "promoted_sections_review": 37,
+    "promoted_sections_requested": 524,
+    "promoted_sections_publishable": 482,
+    "promoted_sections_review": 42,
     "curated_manifests": 1,
-    "published_after_all_overrides": 513,
+    "published_after_all_overrides": 524,
     "stale_generated_pages_removed_before_render": 513,
     "build_errors": 0
   },
@@ -3834,7 +3834,7 @@
       "issue": "81",
       "language": "mai",
       "keywords": [],
-      "classification": "Scholarly article",
+      "classification": "Mithila painting studies; art history; cultural preservation",
       "url": "https://www.videha.co.in/research/2011/81/अपने-घरमे-उपेक्षित-मिथिला-चित्रकला.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20081.pdf",
@@ -3843,17 +3843,55 @@
       "page_end": null
     },
     {
-      "title": "मिथिला भाषाक अध्ययन आ डॉ. ग्रिअर्सन कृत मैथिली व्याकरण",
+      "title": "बेचन ठाकुरजीक नाटक छीनरदेवी",
       "english_title": null,
       "authors": [
-        "डॉ रमानन्द झा \"रमण\""
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2011-05-15",
+      "year": "2011",
+      "issue": "82",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre criticism; gender representation; dramatic literature",
+      "url": "https://www.videha.co.in/research/2011/82/बेचन-ठाकुरजीक-नाटक-छीनरदेवी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20082.pdf",
+      "path": "2011/82/बेचन-ठाकुरजीक-नाटक-छीनरदेवी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "निराला: देह विदेह",
+      "english_title": null,
+      "authors": [
+        "रवि भूषण पाठक"
       ],
       "publication_date": "2011-07-15",
       "year": "2011",
       "issue": "86",
       "language": "mai",
       "keywords": [],
-      "classification": "Linguistics article",
+      "classification": "Hindi literary criticism; Nirala studies; intellectual biography",
+      "url": "https://www.videha.co.in/research/2011/86/निराला-देह-विदेह.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20086.pdf",
+      "path": "2011/86/निराला-देह-विदेह.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिला भाषाक अध्ययन आ डॉ. ग्रिअर्सन कृत मैथिली व्याकरण",
+      "english_title": null,
+      "authors": [
+        "डॉ. रमानन्द झा ‘रमण’"
+      ],
+      "publication_date": "2011-07-15",
+      "year": "2011",
+      "issue": "86",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili linguistics; Grierson studies; grammar history",
       "url": "https://www.videha.co.in/research/2011/86/मिथिला-भाषाक-अध्ययन-आ-डॉ-ग्रिअर्सन-कृत-मैथिली-व्याकरण.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20086.pdf",
@@ -3862,7 +3900,45 @@
       "page_end": null
     },
     {
-      "title": "मिथिलाक संस्कृति:किछु अप्रिय बिन्दु",
+      "title": "Maithili WordNet: आवश्यकता, कार्यान्वयन आ तद्गत समस्याक समीक्षा",
+      "english_title": null,
+      "authors": [
+        "बिपिन झा"
+      ],
+      "publication_date": "2011-08-01",
+      "year": "2011",
+      "issue": "87",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Computational linguistics; Maithili WordNet; language technology",
+      "url": "https://www.videha.co.in/research/2011/87/maithili-wordnet-आवश्यकता-कार्यान्वयन-आ-तद्गत-समस्याक-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20087.pdf",
+      "path": "2011/87/maithili-wordnet-आवश्यकता-कार्यान्वयन-आ-तद्गत-समस्याक-समीक्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कथा किरणमे यथार्थबोध ओ नारी विमर्श",
+      "english_title": null,
+      "authors": [
+        "शिवकुमार झा ‘टिल्लू’"
+      ],
+      "publication_date": "2011-08-01",
+      "year": "2011",
+      "issue": "87",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili feminist criticism; short-story studies; literary realism",
+      "url": "https://www.videha.co.in/research/2011/87/कथा-किरणमे-यथार्थबोध-ओ-नारी-विमर्श.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20087.pdf",
+      "path": "2011/87/कथा-किरणमे-यथार्थबोध-ओ-नारी-विमर्श.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक संस्कृति: किछु अप्रिय बिन्दु",
       "english_title": null,
       "authors": [
         "अरविन्द ठाकुर"
@@ -3872,11 +3948,106 @@
       "issue": "87",
       "language": "mai",
       "keywords": [],
-      "classification": "Culture / art studies article",
+      "classification": "Mithila cultural criticism; social anthropology; regional studies",
       "url": "https://www.videha.co.in/research/2011/87/मिथिलाक-संस्कृति-किछु-अप्रिय-बिन्दु.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20087.pdf",
       "path": "2011/87/मिथिलाक-संस्कृति-किछु-अप्रिय-बिन्दु.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिल नारि केर समस्याक समाधान",
+      "english_title": null,
+      "authors": [
+        "शांतिलक्ष्मी चौधरी"
+      ],
+      "publication_date": "2011-09-01",
+      "year": "2011",
+      "issue": "89",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili feminist studies; women’s rights; social reform",
+      "url": "https://www.videha.co.in/research/2011/89/मैथिल-नारि-केर-समस्याक-समाधान.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20089.pdf",
+      "path": "2011/89/मैथिल-नारि-केर-समस्याक-समाधान.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "विमलक गजल आ सुजितक कथा",
+      "english_title": null,
+      "authors": [
+        "जितेन्द्र झा"
+      ],
+      "publication_date": "2011-09-01",
+      "year": "2011",
+      "issue": "89",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; ghazal studies; short-story criticism",
+      "url": "https://www.videha.co.in/research/2011/89/विमलक-गजल-आ-सुजितक-कथा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20089.pdf",
+      "path": "2011/89/विमलक-गजल-आ-सुजितक-कथा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "श्रोत्रिय समाजमे रक्तबीजक जन्म",
+      "english_title": null,
+      "authors": [
+        "बिपिन झा"
+      ],
+      "publication_date": "2011-09-01",
+      "year": "2011",
+      "issue": "89",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Caste studies; Mithila social history; social criticism",
+      "url": "https://www.videha.co.in/research/2011/89/श्रोत्रिय-समाजमे-रक्तबीजक-जन्म.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20089.pdf",
+      "path": "2011/89/श्रोत्रिय-समाजमे-रक्तबीजक-जन्म.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गामक जिनगीक समीक्षा",
+      "english_title": null,
+      "authors": [
+        "रवि भूषण पाठक"
+      ],
+      "publication_date": "2011-09-15",
+      "year": "2011",
+      "issue": "90",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; village studies; social realism",
+      "url": "https://www.videha.co.in/research/2011/90/गामक-जिनगीक-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20090.pdf",
+      "path": "2011/90/गामक-जिनगीक-समीक्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नव-नियोजित शिक्षिका आ शिक्षक: मिथिलामे बदलैत स्त्री-पुरुख सम्बन्ध-जाल",
+      "english_title": null,
+      "authors": [
+        "शांतिलक्ष्मी चौधरी"
+      ],
+      "publication_date": "2011-09-15",
+      "year": "2011",
+      "issue": "90",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Gender studies; education sociology; changing social relations in Mithila",
+      "url": "https://www.videha.co.in/research/2011/90/नव-नियोजित-शिक्षिका-आ-शिक्षक-मिथिलामे-बदलैत-स्त्री-पुरुख-सम-6278411430.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20090.pdf",
+      "path": "2011/90/नव-नियोजित-शिक्षिका-आ-शिक्षक-मिथिलामे-बदलैत-स्त्री-पुरुख-सम-6278411430.htm",
       "page_start": null,
       "page_end": null
     },
@@ -3896,6 +4067,44 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20090.pdf",
       "path": "2011/90/नव-नियोजित-शिक्षिका-आओर-शिक्षक-मिथिला-मे-बदलैत-स्त्री-आ-पुरु-2d7992da4c.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पजुआरिडीह टोलमे रंगमंच",
+      "english_title": null,
+      "authors": [
+        "मिथिलेश कुमार झा"
+      ],
+      "publication_date": "2011-09-15",
+      "year": "2011",
+      "issue": "90",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre history; village performance; cultural institutions",
+      "url": "https://www.videha.co.in/research/2011/90/पजुआरिडीह-टोलमे-रंगमंच.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20090.pdf",
+      "path": "2011/90/पजुआरिडीह-टोलमे-रंगमंच.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "रचनात्मक विमर्शक अयनामे ‘चिड़ै’",
+      "english_title": null,
+      "authors": [
+        "चन्द्रेश"
+      ],
+      "publication_date": "2011-09-15",
+      "year": "2011",
+      "issue": "90",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; poetry studies; textual interpretation",
+      "url": "https://www.videha.co.in/research/2011/90/रचनात्मक-विमर्शक-अयनामे-चिड़ै.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20090.pdf",
+      "path": "2011/90/रचनात्मक-विमर्शक-अयनामे-चिड़ै.htm",
       "page_start": null,
       "page_end": null
     },
