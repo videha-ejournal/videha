@@ -154,13 +154,6 @@
   },
   {
     "issue": "447",
-    "section": "2.16",
-    "classification": "Indian philosophy; Navya-Nyaya; textual and comparative philosophical criticism",
-    "author_override": "गजेन्द्र ठाकुर",
-    "title_override": "भामती (वाचस्पति)/ आत्मतत्त्वविवेक (उदयन)/ न्यायकुसुमाञ्जलि (उदयन)/ तत्त्वचिन्तामणि (गंगेश): ग्रन्थ-सार आ समालोचनात्मक मूल्याङ्कन"
-  },
-  {
-    "issue": "447",
     "section": "2.17",
     "classification": "Literary criticism; Indian and Western literary theory; trilogy and narrative studies"
   },
@@ -1177,17 +1170,6 @@
     "manual_body_end": "२.२.परमानन्द लाल कर्ण- गीता माहात्म्य"
   },
   {
-    "issue": "100",
-    "section": "8",
-    "author_override": "विद्यावाचस्पति डॉ. सदानन्द झा",
-    "title_override": "भारोपीयभाषासन्दर्भे ध्वनिविमर्शः",
-    "classification": "Historical linguistics; Indo-European phonology; Sanskrit scholarship",
-    "language": "sa",
-    "body_source": "search-documents/videha-100.html",
-    "manual_body_start": "भारोपीयभाषासन्दर्भे ध्वनिविमर्शः",
-    "manual_body_end": "Festivals of Mithila"
-  },
-  {
     "issue": "447",
     "section": "2.16",
     "author_override": "गजेन्द्र ठाकुर",
@@ -1399,5 +1381,625 @@
     "body_source": "search-documents/videha-018.html",
     "manual_body_start": "२.जीवन झाक नाटकक सामाजिक विवर्तन",
     "manual_body_end": "१.स्व. राजकमल चौधरी"
+  },
+  {
+    "issue": "65",
+    "section": "2.1",
+    "classification": "Maithili literary history; periodization; curriculum and pedagogy"
+  },
+  {
+    "issue": "66",
+    "section": "2.1",
+    "classification": "Maithili dialectology; linguistic geography; regional language variation"
+  },
+  {
+    "issue": "78",
+    "section": "2.2",
+    "classification": "Maithili short-fiction criticism; village studies; social realism"
+  },
+  {
+    "issue": "78",
+    "section": "2.8",
+    "classification": "Maithili fiction criticism; close reading; book review"
+  },
+  {
+    "issue": "329",
+    "section": "2.4",
+    "classification": "Maithili sociolinguistics; language politics; caste and literary criticism"
+  },
+  {
+    "issue": "333",
+    "section": "2.22",
+    "author_override": "अरविन्द ठाकुर",
+    "title_override": "“चित्रा-विचित्रा” सं प्रदर्शित होइत मैथिल प्रिमिटिविज्म",
+    "classification": "Maithili literary criticism; primitivism; cultural representation",
+    "body_source": "search-documents/videha-333.html",
+    "manual_body_start": "“चित्रा-विचित्रा” सं प्रदर्शित होइत मैथिल प्रिमिटिविज्म",
+    "manual_body_end": "विभूति संग प्रतिभूति"
+  },
+  {
+    "issue": "352",
+    "section": "2.13",
+    "author_override": "हितनाथ झा",
+    "title_override": "ह्रास होइत सभ्यता संस्कृतिक इतिवृत्तिक अयना : अयना",
+    "classification": "Maithili fiction criticism; cultural history; civilization studies",
+    "body_source": "search-documents/videha-352.html",
+    "manual_body_start": "ह्रास होइत सभ्यता संस्कृतिक इतिवृत्तिक अयना",
+    "manual_body_end": "अपरिचितसँ परिचितिक यात्राः केदारनाथ चौधरी"
+  },
+  {
+    "issue": "352",
+    "section": "2.18",
+    "author_override": "प्रदीप बिहारी",
+    "title_override": "मुख्य पात्रक गौण व्यथा : अबारा नहितन",
+    "classification": "Maithili fiction criticism; character studies; narrative analysis",
+    "body_source": "search-documents/videha-352.html",
+    "manual_body_start": "मुख्य पात्रक गौण व्यथा : अबारा नहितन",
+    "manual_body_end": "मधुबाला नहि नहि लालदाय"
+  },
+  {
+    "issue": "352",
+    "section": "2.20",
+    "author_override": "अरविन्द ठाकुर",
+    "title_override": "विलक्षणकेँ व्याख्यायित करब: अबारा नहितन",
+    "classification": "Maithili fiction criticism; narrative theory; close reading",
+    "body_source": "search-documents/videha-352.html",
+    "manual_body_start": "विलक्षणकेँ व्याख्यायित करब: अबारा नहितन",
+    "manual_body_end": "मैथिली उपन्यासक 'केदारनाथ युग'"
+  },
+  {
+    "issue": "358",
+    "section": "2.10",
+    "classification": "Maithili literary history; intellectual biography; critical reception"
+  },
+  {
+    "issue": "358",
+    "section": "2.14",
+    "classification": "Maithili literary history; intellectual biography; critical reception"
+  },
+  {
+    "issue": "358",
+    "section": "2.22",
+    "classification": "Maithili literary criticism; authorship studies; social interpretation"
+  },
+  {
+    "issue": "368",
+    "section": "3.1",
+    "classification": "Mithila village studies; toponymy; cultural and social history"
+  },
+  {
+    "issue": "369",
+    "section": "2.4",
+    "classification": "Maithili literary criticism; authorship studies; critical method"
+  },
+  {
+    "issue": "369",
+    "section": "2.10",
+    "classification": "Maithili satire criticism; book review; contemporary literature"
+  },
+  {
+    "issue": "369",
+    "section": "2.19",
+    "classification": "Maithili short-fiction criticism; author studies; literary reception"
+  },
+  {
+    "issue": "395",
+    "section": "2.3",
+    "classification": "Maithili criticism; book review; historiography and research method"
+  },
+  {
+    "issue": "398",
+    "section": "2.4",
+    "classification": "Mithila material culture; Tirhuta heritage; historical reconstruction"
+  },
+  {
+    "issue": "409",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "410",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "411",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "412",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "413",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "414",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "416",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "417",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "418",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "419",
+    "section": "2.7",
+    "classification": "Mithila environmental studies; water conservation; regional development"
+  },
+  {
+    "issue": "420",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "421",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "422",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "423",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "425",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "426",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "427",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "429",
+    "section": "1.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "429",
+    "section": "1.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "431",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "431",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "432",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "432",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "433",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "433",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "434",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "434",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "435",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "435",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "436",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "436",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "437",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "437",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "438",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "438",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "439",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "439",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "440",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "440",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "441",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "442",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "443",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "443",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "444",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "444",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "445",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "445",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "446",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "446",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "446",
+    "section": "2.3",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "447",
+    "section": "2.1",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "447",
+    "section": "2.2",
+    "classification": "Maithili literary history; intellectual biography; family contribution studies"
+  },
+  {
+    "issue": "64",
+    "section": "2.1",
+    "author_override": "डॉ. शंभु कुमार सिंह",
+    "title_override": "मैथिली साहित्यक आदिकाल",
+    "classification": "Maithili literary history; early-period historiography; curriculum and pedagogy",
+    "body_source": "search-documents/videha-064.html",
+    "manual_body_start": "मैथिली साहित्यक आदिकाल\nमानव समुदाय",
+    "manual_body_end": "यू.पी.एस.सी.-३"
+  },
+  {
+    "issue": "67",
+    "section": "2.1",
+    "author_override": "डॉ. शंभु कुमार सिंह",
+    "title_override": "यू.पी.एस.सी. (मैथिली) प्रथम पत्रक परीक्षार्थी हेतु उपयोगी संकलन",
+    "classification": "Maithili literary history; language and literature survey; curriculum and pedagogy",
+    "body_source": "search-documents/videha-067.html",
+    "manual_body_start": "“यू.पी.एस.सी. (मैथिली) प्रथम पत्रक परीक्षार्थी हेतु उपयोगी संकलन”\nसंकलनकर्ता",
+    "manual_body_end": "१.मैथिली लघुकथाक सशक्त हस्ताक्षर"
+  },
+  {
+    "issue": "67",
+    "section": "2.2.2",
+    "author_override": "देवशंकर नवीन",
+    "title_override": "लघुकथा लेखनमे अवरोधक तत्व",
+    "classification": "Maithili short-fiction theory; microfiction criticism; genre studies",
+    "body_source": "search-documents/videha-067.html",
+    "manual_body_start": "देवशंकर नवीन\nलघुकथा लेखनमे अवरोधक तत्व",
+    "manual_body_end": "३\nपेटार-खलील जिब्रान"
+  },
+  {
+    "issue": "355",
+    "section": "2.8",
+    "classification": "Maithili literary criticism; theme theory; metacriticism"
+  },
+  {
+    "issue": "368",
+    "section": "2.4",
+    "classification": "Modern art criticism; visual culture; illustration and literary interpretation"
+  },
+  {
+    "issue": "68",
+    "section": "2.1",
+    "author_override": "विनीत उत्पल",
+    "title_override": "की अछि दिल्लीक जी.बी. रोडक कोठाक सत",
+    "classification": "Investigative social reportage; sex-work studies; urban sociology",
+    "body_source": "search-documents/videha-068.html",
+    "manual_body_start": "विनीत उत्पल\nकी अछि दिल्लीक जी.बी. रोडक कोठाक सत",
+    "manual_body_end": "गजेन्द्र ठाकुर\nपिता-स्वर्गीय कृपानन्द ठाकुर"
+  },
+  {
+    "issue": "307",
+    "section": "2.8",
+    "author_override": "डॉ. चित्रलेखा",
+    "title_override": "मिथिलाक नामकरण एवं प्रादूर्भाव",
+    "classification": "Mithila history; historical geography; regional-name traditions",
+    "body_source": "search-documents/videha-307.html",
+    "manual_body_start": "डॉ. चित्रलेखा\nमिथिलाक नामकरण एवं प्रादूर्भाव",
+    "manual_body_end": "डॉ. अर्पणा\nपुष्कर काण्डक विशेषता"
+  },
+  {
+    "issue": "307",
+    "section": "2.9",
+    "author_override": "डॉ. अर्पणा",
+    "title_override": "पुष्कर काण्डक विशेषता",
+    "classification": "Maithili Ramayana criticism; Shakta studies; Sita studies",
+    "body_source": "search-documents/videha-307.html",
+    "manual_body_start": "डॉ. अर्पणा\nपुष्कर काण्डक विशेषता",
+    "manual_body_end": "डॉ. अर्पणा\nरमेश्वर चरित मिथिला रामायणमे"
+  },
+  {
+    "issue": "307",
+    "section": "2.10",
+    "author_override": "डॉ. अर्पणा",
+    "title_override": "रमेश्वर चरित मिथिला रामायणमे ‘कौशल्या’",
+    "classification": "Maithili Ramayana criticism; women characters; comparative epic studies",
+    "body_source": "search-documents/videha-307.html",
+    "manual_body_start": "डॉ. अर्पणा\nरमेश्वर चरित मिथिला रामायणमे",
+    "manual_body_end": "एडिटर्स चोइस सीरीज"
+  },
+  {
+    "issue": "308",
+    "section": "2.3",
+    "author_override": "डॉ. ललन कुमार झा",
+    "title_override": "म. म. राजनाथ मिश्र ओ तिथि निर्णय : एक अध्ययन",
+    "classification": "Dharmashastra studies; Mithila intellectual history; calendrical traditions",
+    "body_source": "search-documents/sadeha-023.html",
+    "manual_body_start": "म. म. राजनाथ मिश्र ओ तिथि निर्णय : एक अध्ययन",
+    "manual_body_end": "पं. कुशेश्वर कुमर ओ पर्व निर्णय: एक समीक्षण"
+  },
+  {
+    "issue": "308",
+    "section": "2.6",
+    "author_override": "डॉ. ललन कुमार झा",
+    "title_override": "पं. तेजनाथ झा ओ संस्कार : एक समीक्षा",
+    "classification": "Dharmashastra studies; ritual and samskara studies; textual criticism",
+    "body_source": "search-documents/sadeha-023.html",
+    "manual_body_start": "पं. तेजनाथ झा ओ संस्कार : एक समीक्षा",
+    "manual_body_end": "म. म. राजनाथ मिश्र ओ तिथि निर्णय : एक अध्ययन"
+  },
+  {
+    "issue": "308",
+    "section": "2.8",
+    "author_override": "डॉ. चित्रलेखा",
+    "title_override": "मिथिलामे पावनि-तिहार",
+    "classification": "Mithila festival studies; ritual culture; folklore",
+    "body_source": "search-documents/sadeha-023.html",
+    "manual_body_start": "मिथिलामे पावनि-तिहार",
+    "manual_body_end": "मिथिलाक परिचय"
+  },
+  {
+    "issue": "308",
+    "section": "2.9",
+    "author_override": "डॉ. चित्रलेखा",
+    "title_override": "मिथिलामे गीत नादक महत्व",
+    "classification": "Mithila folk-music studies; oral culture; ritual performance",
+    "body_source": "search-documents/sadeha-023.html",
+    "manual_body_start": "मिथिलामे गीत नादक महत्व",
+    "manual_body_end": "मिथिलामे पावनि-तिहार"
+  },
+  {
+    "issue": "308",
+    "section": "2.11",
+    "author_override": "डॉ. अर्पणा",
+    "title_override": "नारी शब्दक लेल किछु प्रमुख शब्दक विवेचना",
+    "classification": "Gender terminology; Sanskrit and Maithili lexicology; women's studies",
+    "body_source": "search-documents/sadeha-023.html",
+    "manual_body_start": "नारी शब्दक लेल किछु प्रमुख शब्दक विवेचना",
+    "manual_body_end": "रमेश्वर चरित मिथिला रामायणमे ‘कौशल्या’"
+  },
+  {
+    "issue": "308",
+    "section": "2.18",
+    "author_override": "डॉ. ललन कुमार झा",
+    "title_override": "म.म. उमापति ओ शुद्धि निर्णय",
+    "classification": "Dharmashastra studies; purification rites; Mithila intellectual history",
+    "body_source": "search-documents/sadeha-023.html",
+    "manual_body_start": "म.म. उमापति ओ शुद्धि निर्णय",
+    "manual_body_end": "पुत्र ओ पितृकर्म"
+  },
+  {
+    "issue": "308",
+    "section": "2.20",
+    "author_override": "डॉ. ललन कुमार झा",
+    "title_override": "पं. कुशेश्वर कुमर ओ पर्व निर्णय: एक समीक्षण",
+    "classification": "Dharmashastra studies; festival calendrics; textual criticism",
+    "body_source": "search-documents/sadeha-023.html",
+    "manual_body_start": "पं. कुशेश्वर कुमर ओ पर्व निर्णय: एक समीक्षण",
+    "manual_body_end": "म.म. उमापति ओ शुद्धि निर्णय"
+  },
+  {
+    "issue": "308",
+    "section": "2.23",
+    "author_override": "डॉ. ललन कुमार झा",
+    "title_override": "पुत्र ओ पितृकर्म",
+    "classification": "Dharmashastra studies; kinship and ancestor rites; social history",
+    "body_source": "search-documents/sadeha-023.html",
+    "manual_body_start": "पुत्र ओ पितृकर्म",
+    "manual_body_end": "नन्द विलास राय\nसरस्वती पूजाक परसाद"
+  },
+  {
+    "issue": "308",
+    "section": "2.24",
+    "author_override": "डॉ. चित्रलेखा",
+    "title_override": "मिथिलाक परिचय",
+    "classification": "Mithila regional studies; historical geography; cultural history",
+    "body_source": "search-documents/sadeha-023.html",
+    "manual_body_start": "मिथिलाक परिचय",
+    "manual_body_end": "मिथिलाक भाषा एवं साहित्य"
+  },
+  {
+    "issue": "308",
+    "section": "2.25",
+    "author_override": "डॉ. चित्रलेखा",
+    "title_override": "मिथिलाक भाषा एवं साहित्य",
+    "classification": "Maithili language history; literary history; Mithila cultural studies",
+    "body_source": "search-documents/sadeha-023.html",
+    "manual_body_start": "मिथिलाक भाषा एवं साहित्य",
+    "manual_body_end": "मिथिलाक नामकरण एवं प्रादूर्भाव"
+  },
+  {
+    "issue": "230",
+    "section": "2.4",
+    "classification": "Mithila folk music; performance ethnography; oral tradition documentation"
+  },
+  {
+    "issue": "313",
+    "section": "2.10",
+    "author_override": "उमेश मण्डल",
+    "title_override": "मैथिलीमे ई-पत्रकारिता",
+    "classification": "Maithili web journalism; digital humanities; media history",
+    "body_source": "search-documents/videha-313.html",
+    "manual_body_start": "उमेश मण्डल\nमैथिलीमे ई-पत्रकारिता",
+    "manual_body_end": "गजेन्द्र ठाकुर\nभाषा आ प्रौद्योगिकी"
+  },
+  {
+    "issue": "439",
+    "section": "2.17",
+    "classification": "Maithili literary institutions; cultural participation; regional literary history"
+  },
+  {
+    "issue": "440",
+    "section": "2.4",
+    "classification": "Maithili literary criticism; folk consciousness; dialogic poetics"
+  },
+  {
+    "issue": "440",
+    "section": "2.8",
+    "classification": "Maithili short-fiction criticism; social change; humanistic studies"
+  },
+  {
+    "issue": "357",
+    "section": "2.13",
+    "classification": "Maithili theatre history; literary profile; Premalata Mishra studies"
+  },
+  {
+    "issue": "369",
+    "section": "2.5",
+    "classification": "Maithili short-fiction criticism; narrative ethics; close reading"
+  },
+  {
+    "issue": "398",
+    "section": "2.6",
+    "classification": "Maithili language and culture; diaspora studies; cultural transmission"
+  },
+  {
+    "issue": "425",
+    "section": "2.5",
+    "classification": "Maithili poetry criticism; feminist poetics; close reading"
+  },
+  {
+    "issue": "426",
+    "section": "2.4",
+    "classification": "Maithili literary criticism; classical reception; character studies"
+  },
+  {
+    "issue": "427",
+    "section": "2.4",
+    "classification": "Maithili fiction criticism; affect studies; narrative analysis"
+  },
+  {
+    "issue": "428",
+    "section": "1.11",
+    "classification": "Maithili poetics; Sanskrit literary theory; didactic aesthetics"
+  },
+  {
+    "issue": "429",
+    "section": "1.3",
+    "classification": "Maithili literary criticism; regional identity; cultural memory"
   }
 ]

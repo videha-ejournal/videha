@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T11:36:11.818895+00:00",
+  "generated": "2026-08-28T12:09:32.614928+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -7,17 +7,17 @@
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 3,
-    "audit_queue_held": 27,
+    "audit_queue_held": 25,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 186,
-    "promoted_sections_publishable": 177,
-    "promoted_sections_review": 9,
+    "promoted_sections_requested": 286,
+    "promoted_sections_publishable": 275,
+    "promoted_sections_review": 11,
     "curated_manifests": 1,
-    "published_after_all_overrides": 230,
-    "stale_generated_pages_removed_before_render": 226,
+    "published_after_all_overrides": 328,
+    "stale_generated_pages_removed_before_render": 327,
     "build_errors": 0
   },
   "explicit_review": [
@@ -64,11 +64,6 @@
       "issue": "343",
       "section": "2.5",
       "reason": "review ledger: exclude"
-    },
-    {
-      "issue": "65",
-      "section": "2.1",
-      "reason": "legacy-boundary-oversize"
     },
     {
       "issue": "21",
@@ -123,11 +118,6 @@
     {
       "issue": "53",
       "section": "2.5",
-      "reason": "legacy-boundary-oversize"
-    },
-    {
-      "issue": "66",
-      "section": "2.1",
       "reason": "legacy-boundary-oversize"
     },
     {
@@ -633,20 +623,38 @@
       "reason": "body below 1800-character publication threshold"
     },
     {
-      "issue": "100",
-      "section": "8",
-      "author": "विद्यावाचस्पति डॉ. सदानन्द झा",
-      "title": "भारोपीयभाषासन्दर्भे ध्वनिविमर्शः",
-      "body_chars": 1785,
-      "min_body_chars": 1800,
-      "reason": "body below 1800-character publication threshold"
-    },
-    {
       "issue": "20",
       "section": "4.4.1",
       "author": "डॉ. प्रेमशंकर सिंह",
       "title": "जीवन झाक नाटकक सामाजिक विवर्तन (अंक २० मे प्रकाशित खेप)",
       "body_chars": 1592,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "352",
+      "section": "2.20",
+      "author": "अरविन्द ठाकुर",
+      "title": "विलक्षणकेँ व्याख्यायित करब: अबारा नहितन",
+      "body_chars": 66,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "441",
+      "section": "2.1",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-२०",
+      "body_chars": 1540,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "308",
+      "section": "2.8",
+      "author": "डॉ. चित्रलेखा",
+      "title": "मिथिलामे पावनि-तिहार",
+      "body_chars": 1147,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     }

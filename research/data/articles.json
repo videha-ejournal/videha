@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T11:36:11.819805+00:00",
+  "generated": "2026-08-28T12:09:32.615850+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -9,17 +9,17 @@
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 3,
-    "audit_queue_held": 27,
+    "audit_queue_held": 25,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 186,
-    "promoted_sections_publishable": 177,
-    "promoted_sections_review": 9,
+    "promoted_sections_requested": 286,
+    "promoted_sections_publishable": 275,
+    "promoted_sections_review": 11,
     "curated_manifests": 1,
-    "published_after_all_overrides": 230,
-    "stale_generated_pages_removed_before_render": 226,
+    "published_after_all_overrides": 328,
+    "stale_generated_pages_removed_before_render": 327,
     "build_errors": 0
   },
   "articles": [
@@ -746,6 +746,120 @@
       "page_end": null
     },
     {
+      "title": "मैथिली साहित्यक आदिकाल",
+      "english_title": null,
+      "authors": [
+        "डॉ. शंभु कुमार सिंह"
+      ],
+      "publication_date": "2010-08-15",
+      "year": "2010",
+      "issue": "64",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; early-period historiography; curriculum and pedagogy",
+      "url": "https://www.videha.co.in/research/2010/64/मैथिली-साहित्यक-आदिकाल.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20064.pdf",
+      "path": "2010/64/मैथिली-साहित्यक-आदिकाल.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "“मैथिली साहित्यक काल-निर्धारण” यू. पी. एस. सी. परीक्षार्थीक हेतु उपयोगी",
+      "english_title": null,
+      "authors": [
+        "शम्भु कुमार सिंह"
+      ],
+      "publication_date": "2010-09-01",
+      "year": "2010",
+      "issue": "65",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; periodization; curriculum and pedagogy",
+      "url": "https://www.videha.co.in/research/2010/65/मैथिली-साहित्यक-काल-निर्धारण-यू-पी-एस-सी-परीक्षार्थीक-हेतु-उपयोगी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20065.pdf",
+      "path": "2010/65/मैथिली-साहित्यक-काल-निर्धारण-यू-पी-एस-सी-परीक्षार्थीक-हेतु-उपयोगी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "“मैथिलीक प्रमुख उपभाषाक क्षेत्र आ ओकर प्रमुख विशेषता” यू. पी. एस. सी. परीक्षार्थीक हेतु उपयोगी",
+      "english_title": null,
+      "authors": [
+        "शम्भु कुमार सिंह"
+      ],
+      "publication_date": "2010-09-15",
+      "year": "2010",
+      "issue": "66",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili dialectology; linguistic geography; regional language variation",
+      "url": "https://www.videha.co.in/research/2010/66/मैथिलीक-प्रमुख-उपभाषाक-क्षेत्र-आ-ओकर-प्रमुख-विशेषता-यू-पी-एस-1b4ae2025a.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20066.pdf",
+      "path": "2010/66/मैथिलीक-प्रमुख-उपभाषाक-क्षेत्र-आ-ओकर-प्रमुख-विशेषता-यू-पी-एस-1b4ae2025a.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "यू.पी.एस.सी. (मैथिली) प्रथम पत्रक परीक्षार्थी हेतु उपयोगी संकलन",
+      "english_title": null,
+      "authors": [
+        "डॉ. शंभु कुमार सिंह"
+      ],
+      "publication_date": "2010-10-01",
+      "year": "2010",
+      "issue": "67",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; language and literature survey; curriculum and pedagogy",
+      "url": "https://www.videha.co.in/research/2010/67/यू-पी-एस-सी-मैथिली-प्रथम-पत्रक-परीक्षार्थी-हेतु-उपयोगी-संकलन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20067.pdf",
+      "path": "2010/67/यू-पी-एस-सी-मैथिली-प्रथम-पत्रक-परीक्षार्थी-हेतु-उपयोगी-संकलन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "लघुकथा लेखनमे अवरोधक तत्व",
+      "english_title": null,
+      "authors": [
+        "देवशंकर नवीन"
+      ],
+      "publication_date": "2010-10-01",
+      "year": "2010",
+      "issue": "67",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili short-fiction theory; microfiction criticism; genre studies",
+      "url": "https://www.videha.co.in/research/2010/67/लघुकथा-लेखनमे-अवरोधक-तत्व.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20067.pdf",
+      "path": "2010/67/लघुकथा-लेखनमे-अवरोधक-तत्व.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "की अछि दिल्लीक जी.बी. रोडक कोठाक सत",
+      "english_title": null,
+      "authors": [
+        "विनीत उत्पल"
+      ],
+      "publication_date": "2010-10-15",
+      "year": "2010",
+      "issue": "68",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Investigative social reportage; sex-work studies; urban sociology",
+      "url": "https://www.videha.co.in/research/2010/68/की-अछि-दिल्लीक-जी-बी-रोडक-कोठाक-सत.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20068.pdf",
+      "path": "2010/68/की-अछि-दिल्लीक-जी-बी-रोडक-कोठाक-सत.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "समसामयिक सन्दर्भ मे गाँधीविचारक महत्ता",
       "english_title": null,
       "authors": [
@@ -932,6 +1046,44 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20077.pdf",
       "path": "2011/77/discrimination-against-women.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "फोंका-एक विहगावलोकन",
+      "english_title": null,
+      "authors": [
+        "डॉ. रमण झा"
+      ],
+      "publication_date": "2011-03-15",
+      "year": "2011",
+      "issue": "78",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili fiction criticism; close reading; book review",
+      "url": "https://www.videha.co.in/research/2011/78/फोंका-एक-विहगावलोकन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20078.pdf",
+      "path": "2011/78/फोंका-एक-विहगावलोकन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथि‍ली कथाक वि‍कासमे गामक जि‍नगीक योगदान-",
+      "english_title": null,
+      "authors": [
+        "शिव कुमार झा \"टिल्लू\""
+      ],
+      "publication_date": "2011-03-15",
+      "year": "2011",
+      "issue": "78",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili short-fiction criticism; village studies; social realism",
+      "url": "https://www.videha.co.in/research/2011/78/मैथि-ली-कथाक-वि-कासमे-गामक-जि-नगीक-योगदान.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20078.pdf",
+      "path": "2011/78/मैथि-ली-कथाक-वि-कासमे-गामक-जि-नगीक-योगदान.htm",
       "page_start": null,
       "page_end": null
     },
@@ -2000,6 +2152,25 @@
       "page_end": null
     },
     {
+      "title": "मि‍थि‍लाक लोक संगीत/ लोक कला भगैत गबैया",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2017-07-15",
+      "year": "2017",
+      "issue": "230",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila folk music; performance ethnography; oral tradition documentation",
+      "url": "https://www.videha.co.in/research/2017/230/मि-थि-लाक-लोक-संगीत-लोक-कला-भगैत-गबैया.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20230.pdf",
+      "path": "2017/230/मि-थि-लाक-लोक-संगीत-लोक-कला-भगैत-गबैया.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "इच्छा पत्र",
       "english_title": null,
       "authors": [
@@ -2171,6 +2342,234 @@
       "page_end": null
     },
     {
+      "title": "पुष्कर काण्डक विशेषता",
+      "english_title": null,
+      "authors": [
+        "डॉ. अर्पणा"
+      ],
+      "publication_date": "2020-10-01",
+      "year": "2020",
+      "issue": "307",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili Ramayana criticism; Shakta studies; Sita studies",
+      "url": "https://www.videha.co.in/research/2020/307/पुष्कर-काण्डक-विशेषता.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20307.pdf",
+      "path": "2020/307/पुष्कर-काण्डक-विशेषता.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक नामकरण एवं प्रादूर्भाव",
+      "english_title": null,
+      "authors": [
+        "डॉ. चित्रलेखा"
+      ],
+      "publication_date": "2020-10-01",
+      "year": "2020",
+      "issue": "307",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila history; historical geography; regional-name traditions",
+      "url": "https://www.videha.co.in/research/2020/307/मिथिलाक-नामकरण-एवं-प्रादूर्भाव.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20307.pdf",
+      "path": "2020/307/मिथिलाक-नामकरण-एवं-प्रादूर्भाव.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "रमेश्वर चरित मिथिला रामायणमे ‘कौशल्या’",
+      "english_title": null,
+      "authors": [
+        "डॉ. अर्पणा"
+      ],
+      "publication_date": "2020-10-01",
+      "year": "2020",
+      "issue": "307",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili Ramayana criticism; women characters; comparative epic studies",
+      "url": "https://www.videha.co.in/research/2020/307/रमेश्वर-चरित-मिथिला-रामायणमे-कौशल्या.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20307.pdf",
+      "path": "2020/307/रमेश्वर-चरित-मिथिला-रामायणमे-कौशल्या.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नारी शब्दक लेल किछु प्रमुख शब्दक विवेचना",
+      "english_title": null,
+      "authors": [
+        "डॉ. अर्पणा"
+      ],
+      "publication_date": "2020-10-15",
+      "year": "2020",
+      "issue": "308",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Gender terminology; Sanskrit and Maithili lexicology; women's studies",
+      "url": "https://www.videha.co.in/research/2020/308/नारी-शब्दक-लेल-किछु-प्रमुख-शब्दक-विवेचना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20308.pdf",
+      "path": "2020/308/नारी-शब्दक-लेल-किछु-प्रमुख-शब्दक-विवेचना.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पं. कुशेश्वर कुमर ओ पर्व निर्णय: एक समीक्षण",
+      "english_title": null,
+      "authors": [
+        "डॉ. ललन कुमार झा"
+      ],
+      "publication_date": "2020-10-15",
+      "year": "2020",
+      "issue": "308",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Dharmashastra studies; festival calendrics; textual criticism",
+      "url": "https://www.videha.co.in/research/2020/308/पं-कुशेश्वर-कुमर-ओ-पर्व-निर्णय-एक-समीक्षण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20308.pdf",
+      "path": "2020/308/पं-कुशेश्वर-कुमर-ओ-पर्व-निर्णय-एक-समीक्षण.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पं. तेजनाथ झा ओ संस्कार : एक समीक्षा",
+      "english_title": null,
+      "authors": [
+        "डॉ. ललन कुमार झा"
+      ],
+      "publication_date": "2020-10-15",
+      "year": "2020",
+      "issue": "308",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Dharmashastra studies; ritual and samskara studies; textual criticism",
+      "url": "https://www.videha.co.in/research/2020/308/पं-तेजनाथ-झा-ओ-संस्कार-एक-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20308.pdf",
+      "path": "2020/308/पं-तेजनाथ-झा-ओ-संस्कार-एक-समीक्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पुत्र ओ पितृकर्म",
+      "english_title": null,
+      "authors": [
+        "डॉ. ललन कुमार झा"
+      ],
+      "publication_date": "2020-10-15",
+      "year": "2020",
+      "issue": "308",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Dharmashastra studies; kinship and ancestor rites; social history",
+      "url": "https://www.videha.co.in/research/2020/308/पुत्र-ओ-पितृकर्म.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20308.pdf",
+      "path": "2020/308/पुत्र-ओ-पितृकर्म.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "म. म. राजनाथ मिश्र ओ तिथि निर्णय : एक अध्ययन",
+      "english_title": null,
+      "authors": [
+        "डॉ. ललन कुमार झा"
+      ],
+      "publication_date": "2020-10-15",
+      "year": "2020",
+      "issue": "308",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Dharmashastra studies; Mithila intellectual history; calendrical traditions",
+      "url": "https://www.videha.co.in/research/2020/308/म-म-राजनाथ-मिश्र-ओ-तिथि-निर्णय-एक-अध्ययन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20308.pdf",
+      "path": "2020/308/म-म-राजनाथ-मिश्र-ओ-तिथि-निर्णय-एक-अध्ययन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "म.म. उमापति ओ शुद्धि निर्णय",
+      "english_title": null,
+      "authors": [
+        "डॉ. ललन कुमार झा"
+      ],
+      "publication_date": "2020-10-15",
+      "year": "2020",
+      "issue": "308",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Dharmashastra studies; purification rites; Mithila intellectual history",
+      "url": "https://www.videha.co.in/research/2020/308/म-म-उमापति-ओ-शुद्धि-निर्णय.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20308.pdf",
+      "path": "2020/308/म-म-उमापति-ओ-शुद्धि-निर्णय.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक परिचय",
+      "english_title": null,
+      "authors": [
+        "डॉ. चित्रलेखा"
+      ],
+      "publication_date": "2020-10-15",
+      "year": "2020",
+      "issue": "308",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila regional studies; historical geography; cultural history",
+      "url": "https://www.videha.co.in/research/2020/308/मिथिलाक-परिचय.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20308.pdf",
+      "path": "2020/308/मिथिलाक-परिचय.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक भाषा एवं साहित्य",
+      "english_title": null,
+      "authors": [
+        "डॉ. चित्रलेखा"
+      ],
+      "publication_date": "2020-10-15",
+      "year": "2020",
+      "issue": "308",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili language history; literary history; Mithila cultural studies",
+      "url": "https://www.videha.co.in/research/2020/308/मिथिलाक-भाषा-एवं-साहित्य.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20308.pdf",
+      "path": "2020/308/मिथिलाक-भाषा-एवं-साहित्य.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलामे गीत नादक महत्व",
+      "english_title": null,
+      "authors": [
+        "डॉ. चित्रलेखा"
+      ],
+      "publication_date": "2020-10-15",
+      "year": "2020",
+      "issue": "308",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila folk-music studies; oral culture; ritual performance",
+      "url": "https://www.videha.co.in/research/2020/308/मिथिलामे-गीत-नादक-महत्व.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20308.pdf",
+      "path": "2020/308/मिथिलामे-गीत-नादक-महत्व.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "बीहनि कथा: मानकीकरण ओ तुलनात्मक पक्ष",
       "english_title": null,
       "authors": [
@@ -2285,6 +2684,25 @@
       "page_end": null
     },
     {
+      "title": "मैथिलीमे ई-पत्रकारिता",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2021-01-01",
+      "year": "2021",
+      "issue": "313",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili web journalism; digital humanities; media history",
+      "url": "https://www.videha.co.in/research/2021/313/मैथिलीमे-ई-पत्रकारिता.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20313.pdf",
+      "path": "2021/313/मैथिलीमे-ई-पत्रकारिता.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "बीहनि कथाक दशा-दिशा",
       "english_title": null,
       "authors": [
@@ -2361,6 +2779,44 @@
       "page_end": null
     },
     {
+      "title": "पचपनियां बनाम बभनियां मैथिली:प्रतिरोधक स्खलित स्वर",
+      "english_title": null,
+      "authors": [
+        "अरविन्द ठाकुर"
+      ],
+      "publication_date": "2021-09-01",
+      "year": "2021",
+      "issue": "329",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili sociolinguistics; language politics; caste and literary criticism",
+      "url": "https://www.videha.co.in/research/2021/329/पचपनियां-बनाम-बभनियां-मैथिली-प्रतिरोधक-स्खलित-स्वर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20329.pdf",
+      "path": "2021/329/पचपनियां-बनाम-बभनियां-मैथिली-प्रतिरोधक-स्खलित-स्वर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "“चित्रा-विचित्रा” सं प्रदर्शित होइत मैथिल प्रिमिटिविज्म",
+      "english_title": null,
+      "authors": [
+        "अरविन्द ठाकुर"
+      ],
+      "publication_date": "2021-11-01",
+      "year": "2021",
+      "issue": "333",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; primitivism; cultural representation",
+      "url": "https://www.videha.co.in/research/2021/333/चित्रा-विचित्रा-सं-प्रदर्शित-होइत-मैथिल-प्रिमिटिविज्म.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20333.pdf",
+      "path": "2021/333/चित्रा-विचित्रा-सं-प्रदर्शित-होइत-मैथिल-प्रिमिटिविज्म.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "बीहनि कथाक विकासमे रचनाकारक योगदान",
       "english_title": null,
       "authors": [
@@ -2397,6 +2853,101 @@
       "path": "2022/352/अजगुत-अफ्रीका-अफ्रीका-डायरी.htm",
       "page_start": null,
       "page_end": null
+    },
+    {
+      "title": "मुख्य पात्रक गौण व्यथा : अबारा नहितन",
+      "english_title": null,
+      "authors": [
+        "प्रदीप बिहारी"
+      ],
+      "publication_date": "2022-08-15",
+      "year": "2022",
+      "issue": "352",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili fiction criticism; character studies; narrative analysis",
+      "url": "https://www.videha.co.in/research/2022/352/मुख्य-पात्रक-गौण-व्यथा-अबारा-नहितन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20352.pdf",
+      "path": "2022/352/मुख्य-पात्रक-गौण-व्यथा-अबारा-नहितन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "ह्रास होइत सभ्यता संस्कृतिक इतिवृत्तिक अयना : अयना",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2022-08-15",
+      "year": "2022",
+      "issue": "352",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili fiction criticism; cultural history; civilization studies",
+      "url": "https://www.videha.co.in/research/2022/352/ह्रास-होइत-सभ्यता-संस्कृतिक-इतिवृत्तिक-अयना-अयना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20352.pdf",
+      "path": "2022/352/ह्रास-होइत-सभ्यता-संस्कृतिक-इतिवृत्तिक-अयना-अयना.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "थीमक खोज",
+      "english_title": null,
+      "authors": [
+        "शंभु कुमार सिंह"
+      ],
+      "publication_date": "2022-10-01",
+      "year": "2022",
+      "issue": "355",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; theme theory; metacriticism",
+      "url": "https://www.videha.co.in/research/2022/355/थीमक-खोज.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20355.pdf",
+      "path": "2022/355/थीमक-खोज.htm",
+      "page_start": "42",
+      "page_end": "47"
+    },
+    {
+      "title": "रंगकर्मी प्रेमलता मिश्रक साहित्यिक छवि- ओ दिन ओ पल",
+      "english_title": null,
+      "authors": [
+        "आभा झा"
+      ],
+      "publication_date": "2022-11-01",
+      "year": "2022",
+      "issue": "357",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre history; literary profile; Premalata Mishra studies",
+      "url": "https://www.videha.co.in/research/2022/357/रंगकर्मी-प्रेमलता-मिश्रक-साहित्यिक-छवि--ओ-दिन-ओ-पल.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20357.pdf",
+      "path": "2022/357/रंगकर्मी-प्रेमलता-मिश्रक-साहित्यिक-छवि--ओ-दिन-ओ-पल.htm",
+      "page_start": "60",
+      "page_end": "66"
+    },
+    {
+      "title": "जेहने मधुर तेहने दृढ़",
+      "english_title": null,
+      "authors": [
+        "शिवशंकर श्रीनिवास"
+      ],
+      "publication_date": "2022-11-15",
+      "year": "2022",
+      "issue": "358",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; critical reception",
+      "url": "https://www.videha.co.in/research/2022/358/जेहने-मधुर-तेहने-दृढ़.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20358.pdf",
+      "path": "2022/358/जेहने-मधुर-तेहने-दृढ़.htm",
+      "page_start": "74",
+      "page_end": "78"
     },
     {
       "title": "बिना बहर आ काफिया गजल कोना भेलै",
@@ -2456,6 +3007,44 @@
       "page_end": "87"
     },
     {
+      "title": "शरदिन्दु कुमार चौधरीक साहित्य : 'स्वारथ लागि करहिं सब प्रीती'",
+      "english_title": null,
+      "authors": [
+        "श्रीधरम"
+      ],
+      "publication_date": "2022-11-15",
+      "year": "2022",
+      "issue": "358",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; authorship studies; social interpretation",
+      "url": "https://www.videha.co.in/research/2022/358/शरदिन्दु-कुमार-चौधरीक-साहित्य-स्वारथ-लागि-करहिं-सब-प्रीती.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20358.pdf",
+      "path": "2022/358/शरदिन्दु-कुमार-चौधरीक-साहित्य-स्वारथ-लागि-करहिं-सब-प्रीती.htm",
+      "page_start": "125",
+      "page_end": "134"
+    },
+    {
+      "title": "शरदिन्दु चौधरी हेबाक माने",
+      "english_title": null,
+      "authors": [
+        "गौरीनाथ"
+      ],
+      "publication_date": "2022-11-15",
+      "year": "2022",
+      "issue": "358",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; critical reception",
+      "url": "https://www.videha.co.in/research/2022/358/शरदिन्दु-चौधरी-हेबाक-माने.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20358.pdf",
+      "path": "2022/358/शरदिन्दु-चौधरी-हेबाक-माने.htm",
+      "page_start": "51",
+      "page_end": "55"
+    },
+    {
       "title": "आधुनिकताक परिवेश मे आधुनिक चित्रकला",
       "english_title": null,
       "authors": [
@@ -2511,6 +3100,44 @@
       "path": "2023/368/कामसूत्र-के-बिना-कोनो-चित्र-शैली-नहि-छैक--लोककला-के-साक्षात-व-850d42a3f9.htm",
       "page_start": "56",
       "page_end": "59"
+    },
+    {
+      "title": "कुमार पवनक प्रसिद्ध कथा 'पइठ' क संग प्रकाशित संजू दासक कलाकृतिक सम्बन्धमे",
+      "english_title": null,
+      "authors": [
+        "गौरीनाथ"
+      ],
+      "publication_date": "2023-04-15",
+      "year": "2023",
+      "issue": "368",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Modern art criticism; visual culture; illustration and literary interpretation",
+      "url": "https://www.videha.co.in/research/2023/368/कुमार-पवनक-प्रसिद्ध-कथा-पइठ-क-संग-प्रकाशित-संजू-दासक-कलाकृति-be43403b4e.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20368.pdf",
+      "path": "2023/368/कुमार-पवनक-प्रसिद्ध-कथा-पइठ-क-संग-प्रकाशित-संजू-दासक-कलाकृति-be43403b4e.htm",
+      "page_start": "23",
+      "page_end": "25"
+    },
+    {
+      "title": "गामक नामकरण: एक परिशीलन",
+      "english_title": null,
+      "authors": [
+        "डॉ. उदयनाथ झा 'अशोक'"
+      ],
+      "publication_date": "2023-04-15",
+      "year": "2023",
+      "issue": "368",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila village studies; toponymy; cultural and social history",
+      "url": "https://www.videha.co.in/research/2023/368/गामक-नामकरण-एक-परिशीलन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20368.pdf",
+      "path": "2023/368/गामक-नामकरण-एक-परिशीलन.htm",
+      "page_start": "105",
+      "page_end": "117"
     },
     {
       "title": "मिथिला चित्रकला- नेपाल प्रसंग",
@@ -2570,6 +3197,25 @@
       "page_end": "129"
     },
     {
+      "title": "कथाकार अशोकक व्यंग्य संग्रह: नीक दिनक बायस्कोप",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2023-05-01",
+      "year": "2023",
+      "issue": "369",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili satire criticism; book review; contemporary literature",
+      "url": "https://www.videha.co.in/research/2023/369/कथाकार-अशोकक-व्यंग्य-संग्रह-नीक-दिनक-बायस्कोप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20369.pdf",
+      "path": "2023/369/कथाकार-अशोकक-व्यंग्य-संग्रह-नीक-दिनक-बायस्कोप.htm",
+      "page_start": "62",
+      "page_end": "65"
+    },
+    {
       "title": "कथेतर गद्यक लेखक अशोक",
       "english_title": null,
       "authors": [
@@ -2606,6 +3252,63 @@
       "path": "2023/369/गतिशील-यथार्थक-कथाकार-अशोक-किछु-टिपौत.htm",
       "page_start": "146",
       "page_end": "155"
+    },
+    {
+      "title": "ठाँहि-पठाहिँ बाजब/लिखब सहज नहि",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2023-05-01",
+      "year": "2023",
+      "issue": "369",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; authorship studies; critical method",
+      "url": "https://www.videha.co.in/research/2023/369/ठाँहि-पठाहिँ-बाजब-लिखब-सहज-नहि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20369.pdf",
+      "path": "2023/369/ठाँहि-पठाहिँ-बाजब-लिखब-सहज-नहि.htm",
+      "page_start": "25",
+      "page_end": "28"
+    },
+    {
+      "title": "डैडीगाम- मध्यमार्गक अन्वेषणक कथा",
+      "english_title": null,
+      "authors": [
+        "आभा झा"
+      ],
+      "publication_date": "2023-05-01",
+      "year": "2023",
+      "issue": "369",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili short-fiction criticism; narrative ethics; close reading",
+      "url": "https://www.videha.co.in/research/2023/369/डैडीगाम--मध्यमार्गक-अन्वेषणक-कथा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20369.pdf",
+      "path": "2023/369/डैडीगाम--मध्यमार्गक-अन्वेषणक-कथा.htm",
+      "page_start": "29",
+      "page_end": "33"
+    },
+    {
+      "title": "मातबर कथाकार",
+      "english_title": null,
+      "authors": [
+        "प्रदीप बिहारी"
+      ],
+      "publication_date": "2023-05-01",
+      "year": "2023",
+      "issue": "369",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili short-fiction criticism; author studies; literary reception",
+      "url": "https://www.videha.co.in/research/2023/369/मातबर-कथाकार.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20369.pdf",
+      "path": "2023/369/मातबर-कथाकार.htm",
+      "page_start": "135",
+      "page_end": "140"
     },
     {
       "title": "मैथिल आँखिक वैश्विक कथाकार छथि कथाकार अशोक ['मातबर' कथा संग्रहक पुनर्पाठ']",
@@ -2817,6 +3520,25 @@
       "page_end": null
     },
     {
+      "title": "\"अनुशीलन\"क अनुशीलन आवश्यक",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2024-06-01",
+      "year": "2024",
+      "issue": "395",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili criticism; book review; historiography and research method",
+      "url": "https://www.videha.co.in/research/2024/395/अनुशीलन-क-अनुशीलन-आवश्यक.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20395.pdf",
+      "path": "2024/395/अनुशीलन-क-अनुशीलन-आवश्यक.htm",
+      "page_start": "35",
+      "page_end": "43"
+    },
+    {
       "title": "अर्थतंत्र ओ भ्रष्टाचार: नरेन्द्र झा केर पोथी सँ विषय वस्तु आ व्यक्ति केर व्यक्तित्व पर चिंतन",
       "english_title": null,
       "authors": [
@@ -3026,6 +3748,44 @@
       "page_end": "118"
     },
     {
+      "title": "भाषा आ संस्कृतिक वैश्विक प्रसार लेल दत्तचित्त ठाकुर परिवार",
+      "english_title": null,
+      "authors": [
+        "आभा झा"
+      ],
+      "publication_date": "2024-07-15",
+      "year": "2024",
+      "issue": "398",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili language and culture; diaspora studies; cultural transmission",
+      "url": "https://www.videha.co.in/research/2024/398/भाषा-आ-संस्कृतिक-वैश्विक-प्रसार-लेल-दत्तचित्त-ठाकुर-परिवार.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20398.pdf",
+      "path": "2024/398/भाषा-आ-संस्कृतिक-वैश्विक-प्रसार-लेल-दत्तचित्त-ठाकुर-परिवार.htm",
+      "page_start": "49",
+      "page_end": "53"
+    },
+    {
+      "title": "३२म- ३५म शताब्दीक मैथिलीक नेंओक साक्षी कोबर घर तैयार",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2024-07-15",
+      "year": "2024",
+      "issue": "398",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila material culture; Tirhuta heritage; historical reconstruction",
+      "url": "https://www.videha.co.in/research/2024/398/३२म--३५म-शताब्दीक-मैथिलीक-नेंओक-साक्षी-कोबर-घर-तैयार.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20398.pdf",
+      "path": "2024/398/३२म--३५म-शताब्दीक-मैथिलीक-नेंओक-साक्षी-कोबर-घर-तैयार.htm",
+      "page_start": "37",
+      "page_end": "41"
+    },
+    {
       "title": "बीहनि कथाकें विवादक नै संवादक खगता छै",
       "english_title": null,
       "authors": [
@@ -3178,6 +3938,120 @@
       "page_end": "36"
     },
     {
+      "title": "विद्याव्यसनी-कर्मयोगी-समाजसेवी: उपेन्द्र नाथ झा 'व्यास' (16 जुलाइ,1917-30 मइ,2002)",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2025-01-01",
+      "year": "2025",
+      "issue": "409",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/409/विद्याव्यसनी-कर्मयोगी-समाजसेवी-उपेन्द्र-नाथ-झा-व्यास-16-जुला-1af71b412b.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20409.pdf",
+      "path": "2025/409/विद्याव्यसनी-कर्मयोगी-समाजसेवी-उपेन्द्र-नाथ-झा-व्यास-16-जुला-1af71b412b.htm",
+      "page_start": "4",
+      "page_end": "17"
+    },
+    {
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-२",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2025-01-15",
+      "year": "2025",
+      "issue": "410",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/410/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-२.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20410.pdf",
+      "path": "2025/410/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-२.htm",
+      "page_start": "3",
+      "page_end": "8"
+    },
+    {
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-३",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2025-02-01",
+      "year": "2025",
+      "issue": "411",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/411/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-३.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20411.pdf",
+      "path": "2025/411/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-३.htm",
+      "page_start": "4",
+      "page_end": "13"
+    },
+    {
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-४",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2025-02-15",
+      "year": "2025",
+      "issue": "412",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/412/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-४.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20412.pdf",
+      "path": "2025/412/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-४.htm",
+      "page_start": "3",
+      "page_end": "7"
+    },
+    {
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-५",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2025-03-01",
+      "year": "2025",
+      "issue": "413",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/413/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-५.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20413.pdf",
+      "path": "2025/413/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-५.htm",
+      "page_start": "3",
+      "page_end": "7"
+    },
+    {
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-६",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2025-03-15",
+      "year": "2025",
+      "issue": "414",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/414/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-६.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20414.pdf",
+      "path": "2025/414/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-६.htm",
+      "page_start": "6",
+      "page_end": "11"
+    },
+    {
       "title": "परमाणु खनिज अन्वेषण एवं अनुसंधान निदेशालय के प्रदर्शनी (पृष्ठ १८-२९)",
       "english_title": null,
       "authors": [
@@ -3197,6 +4071,63 @@
       "page_end": null
     },
     {
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-७",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2025-04-15",
+      "year": "2025",
+      "issue": "416",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/416/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-७.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20416.pdf",
+      "path": "2025/416/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-७.htm",
+      "page_start": "2",
+      "page_end": "9"
+    },
+    {
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-८",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2025-05-01",
+      "year": "2025",
+      "issue": "417",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/417/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-८.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20417.pdf",
+      "path": "2025/417/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-८.htm",
+      "page_start": "5",
+      "page_end": "12"
+    },
+    {
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-९",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2025-05-15",
+      "year": "2025",
+      "issue": "418",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/418/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-९.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20418.pdf",
+      "path": "2025/418/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-९.htm",
+      "page_start": "3",
+      "page_end": "6"
+    },
+    {
       "title": "Water Rich Mithila then, Water Crisis in Mithila Now!",
       "english_title": null,
       "authors": [
@@ -3214,6 +4145,25 @@
       "path": "2025/419/water-rich-mithila-then-water-crisis-in-mithila-now.htm",
       "page_start": "35",
       "page_end": "44"
+    },
+    {
+      "title": "जलसंरक्षण आ नारायणजी चौधरी",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2025-06-01",
+      "year": "2025",
+      "issue": "419",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila environmental studies; water conservation; regional development",
+      "url": "https://www.videha.co.in/research/2025/419/जलसंरक्षण-आ-नारायणजी-चौधरी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20419.pdf",
+      "path": "2025/419/जलसंरक्षण-आ-नारायणजी-चौधरी.htm",
+      "page_start": "65",
+      "page_end": "69"
     },
     {
       "title": "नारायण चौधरी आ जलकर संरक्षण केर सामाजिक सरोकार",
@@ -3252,6 +4202,63 @@
       "path": "2025/419/मिथिला-मे-पोखरिक-अतिक्रमण-आ-तालाब-बचाओ-अभियान.htm",
       "page_start": "53",
       "page_end": "64"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2025-06-15",
+      "year": "2025",
+      "issue": "420",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/420/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20420.pdf",
+      "path": "2025/420/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान.htm",
+      "page_start": "5",
+      "page_end": "8"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-२",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2025-07-01",
+      "year": "2025",
+      "issue": "421",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/421/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20421.pdf",
+      "path": "2025/421/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२.htm",
+      "page_start": "4",
+      "page_end": "10"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान -३",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2025-07-15",
+      "year": "2025",
+      "issue": "422",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/422/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान--३.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20422.pdf",
+      "path": "2025/422/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान--३.htm",
+      "page_start": "10",
+      "page_end": "21"
     },
     {
       "title": "स्नातकोत्तर चिकित्सा प्रशिक्षण(PGME) मे हेल्थ इकोनॉमिक्स",
@@ -3309,6 +4316,25 @@
       "path": "2025/423/बिहार-मे-यूनिवर्सल-हेल्थ-कवरेज-uhc-नियमन-आ-कार्यान्वयन.htm",
       "page_start": "20",
       "page_end": "31"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान -४",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2025-08-01",
+      "year": "2025",
+      "issue": "423",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/423/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान--४.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20423.pdf",
+      "path": "2025/423/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान--४.htm",
+      "page_start": "12",
+      "page_end": "17"
     },
     {
       "title": "उठ जाग मोसाफिर भोर भयो: निसभेर नीनमे सूतल समाजक पहरू कथाकार",
@@ -3387,6 +4413,25 @@
       "page_end": null
     },
     {
+      "title": "कवयित्रीक आँजुरसॅं खसैत विचारक बिन्दु",
+      "english_title": null,
+      "authors": [
+        "डा. आभा झा"
+      ],
+      "publication_date": "2025-09-01",
+      "year": "2025",
+      "issue": "425",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili poetry criticism; feminist poetics; close reading",
+      "url": "https://www.videha.co.in/research/2025/425/कवयित्रीक-आँजुरसॅं-खसैत-विचारक-बिन्दु.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20425.pdf",
+      "path": "2025/425/कवयित्रीक-आँजुरसॅं-खसैत-विचारक-बिन्दु.htm",
+      "page_start": "29",
+      "page_end": "34"
+    },
+    {
       "title": "भारत मे क्रिटिकल केयर कार्यबल: एनबीईएमएस के भूमिका आ भविष्य",
       "english_title": null,
       "authors": [
@@ -3406,6 +4451,101 @@
       "page_end": "49"
     },
     {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-५",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2025-09-01",
+      "year": "2025",
+      "issue": "425",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/425/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-५.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20425.pdf",
+      "path": "2025/425/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-५.htm",
+      "page_start": "15",
+      "page_end": "24"
+    },
+    {
+      "title": "चाणक्य",
+      "english_title": null,
+      "authors": [
+        "डा. आभा झा"
+      ],
+      "publication_date": "2025-09-15",
+      "year": "2025",
+      "issue": "426",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; classical reception; character studies",
+      "url": "https://www.videha.co.in/research/2025/426/चाणक्य.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20426.pdf",
+      "path": "2025/426/चाणक्य.htm",
+      "page_start": "23",
+      "page_end": "28"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-६",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2025-09-15",
+      "year": "2025",
+      "issue": "426",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/426/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-६.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20426.pdf",
+      "path": "2025/426/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-६.htm",
+      "page_start": "7",
+      "page_end": "16"
+    },
+    {
+      "title": "भावुकताक आख्यान-पेपरवेट सन जिनगी",
+      "english_title": null,
+      "authors": [
+        "डा. आभा झा"
+      ],
+      "publication_date": "2025-10-01",
+      "year": "2025",
+      "issue": "427",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili fiction criticism; affect studies; narrative analysis",
+      "url": "https://www.videha.co.in/research/2025/427/भावुकताक-आख्यान-पेपरवेट-सन-जिनगी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20427.pdf",
+      "path": "2025/427/भावुकताक-आख्यान-पेपरवेट-सन-जिनगी.htm",
+      "page_start": "30",
+      "page_end": "37"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-७",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2025-10-01",
+      "year": "2025",
+      "issue": "427",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/427/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-७.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20427.pdf",
+      "path": "2025/427/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-७.htm",
+      "page_start": "10",
+      "page_end": "25"
+    },
+    {
       "title": "अगस्त्य संहिता- तीस बर्खक प्रतीक्षा",
       "english_title": null,
       "authors": [
@@ -3423,6 +4563,25 @@
       "path": "2025/428/अगस्त्य-संहिता--तीस-बर्खक-प्रतीक्षा.htm",
       "page_start": "136",
       "page_end": "138"
+    },
+    {
+      "title": "कान्तासम्मिततयोपदेशयुजे",
+      "english_title": null,
+      "authors": [
+        "डॉ.आभा झा"
+      ],
+      "publication_date": "2025-10-15",
+      "year": "2025",
+      "issue": "428",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili poetics; Sanskrit literary theory; didactic aesthetics",
+      "url": "https://www.videha.co.in/research/2025/428/कान्तासम्मिततयोपदेशयुजे.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf",
+      "path": "2025/428/कान्तासम्मिततयोपदेशयुजे.htm",
+      "page_start": "194",
+      "page_end": "201"
     },
     {
       "title": "पं.भवनाथ झाक पाण्डुलिपिसँ संपादित पोथीक अद्यतन सूचना",
@@ -3501,6 +4660,215 @@
       "page_end": "187"
     },
     {
+      "title": "माटिक सुवास",
+      "english_title": null,
+      "authors": [
+        "डॉ.आभा झा"
+      ],
+      "publication_date": "2025-11-01",
+      "year": "2025",
+      "issue": "429",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; regional identity; cultural memory",
+      "url": "https://www.videha.co.in/research/2025/429/माटिक-सुवास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20429.pdf",
+      "path": "2025/429/माटिक-सुवास.htm",
+      "page_start": "17",
+      "page_end": "20"
+    },
+    {
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -16",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2025-11-01",
+      "year": "2025",
+      "issue": "429",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/429/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--16.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20429.pdf",
+      "path": "2025/429/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--16.htm",
+      "page_start": "2",
+      "page_end": "7"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-08",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2025-11-01",
+      "year": "2025",
+      "issue": "429",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/429/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-08.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20429.pdf",
+      "path": "2025/429/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-08.htm",
+      "page_start": "8",
+      "page_end": "16"
+    },
+    {
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -18",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2025-12-01",
+      "year": "2025",
+      "issue": "431",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/431/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--18.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20431.pdf",
+      "path": "2025/431/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--18.htm",
+      "page_start": "3",
+      "page_end": "10"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-10",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2025-12-01",
+      "year": "2025",
+      "issue": "431",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/431/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-10.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20431.pdf",
+      "path": "2025/431/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-10.htm",
+      "page_start": "11",
+      "page_end": "27"
+    },
+    {
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -19",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2025-12-15",
+      "year": "2025",
+      "issue": "432",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/432/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--19.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20432.pdf",
+      "path": "2025/432/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--19.htm",
+      "page_start": "2",
+      "page_end": "10"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-11",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2025-12-15",
+      "year": "2025",
+      "issue": "432",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2025/432/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-11.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20432.pdf",
+      "path": "2025/432/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-11.htm",
+      "page_start": "11",
+      "page_end": "22"
+    },
+    {
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -२०",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-01-01",
+      "year": "2026",
+      "issue": "433",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/433/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२०.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20433.pdf",
+      "path": "2026/433/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२०.htm",
+      "page_start": "2",
+      "page_end": "6"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१२",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-01-01",
+      "year": "2026",
+      "issue": "433",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/433/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१२.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20433.pdf",
+      "path": "2026/433/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१२.htm",
+      "page_start": "7",
+      "page_end": "24"
+    },
+    {
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -२१",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-01-15",
+      "year": "2026",
+      "issue": "434",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/434/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२१.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20434.pdf",
+      "path": "2026/434/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२१.htm",
+      "page_start": "4",
+      "page_end": "11"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१३",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-01-15",
+      "year": "2026",
+      "issue": "434",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/434/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१३.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20434.pdf",
+      "path": "2026/434/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१३.htm",
+      "page_start": "12",
+      "page_end": "26"
+    },
+    {
       "title": "चिकित्सा शिक्षा एवं सेवाक नव क्षितिज: NBEMS द्वारा 'AI in Medical Education' पाठ्यक्रमक शुभारंभ",
       "english_title": null,
       "authors": [
@@ -3520,6 +4888,82 @@
       "page_end": "53"
     },
     {
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -२२",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-02-01",
+      "year": "2026",
+      "issue": "435",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/435/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२२.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20435.pdf",
+      "path": "2026/435/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२२.htm",
+      "page_start": "3",
+      "page_end": "16"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१४",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-02-01",
+      "year": "2026",
+      "issue": "435",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/435/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१४.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20435.pdf",
+      "path": "2026/435/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१४.htm",
+      "page_start": "17",
+      "page_end": "33"
+    },
+    {
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -२३",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-02-15",
+      "year": "2026",
+      "issue": "436",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/436/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२३.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20436.pdf",
+      "path": "2026/436/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२३.htm",
+      "page_start": "3",
+      "page_end": "7"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१५",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-02-15",
+      "year": "2026",
+      "issue": "436",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/436/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१५.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20436.pdf",
+      "path": "2026/436/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१५.htm",
+      "page_start": "8",
+      "page_end": "18"
+    },
+    {
       "title": "किछु लीखि देलासँ, किछुओ लीखि देलासँ गजल नहि होइत छै",
       "english_title": null,
       "authors": [
@@ -3537,6 +4981,44 @@
       "path": "2026/437/किछु-लीखि-देलासँ-किछुओ-लीखि-देलासँ-गजल-नहि-होइत-छै.htm",
       "page_start": "34",
       "page_end": "36"
+    },
+    {
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -२४",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-03-01",
+      "year": "2026",
+      "issue": "437",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/437/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२४.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20437.pdf",
+      "path": "2026/437/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२४.htm",
+      "page_start": "3",
+      "page_end": "11"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१६",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-03-01",
+      "year": "2026",
+      "issue": "437",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/437/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१६.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20437.pdf",
+      "path": "2026/437/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१६.htm",
+      "page_start": "12",
+      "page_end": "17"
     },
     {
       "title": "A Parallel History of Mithila & Maithili Literature",
@@ -3596,6 +5078,44 @@
       "page_end": null
     },
     {
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -२५",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-03-15",
+      "year": "2026",
+      "issue": "438",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/438/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२५.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20438.pdf",
+      "path": "2026/438/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२५.htm",
+      "page_start": "6",
+      "page_end": "9"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१७",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-03-15",
+      "year": "2026",
+      "issue": "438",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/438/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१७.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20438.pdf",
+      "path": "2026/438/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१७.htm",
+      "page_start": "10",
+      "page_end": "21"
+    },
+    {
       "title": "संरचनात्मक अस्थिरता आ अर्थक लीला: रमेशक मैथिली कथा-संग्रह 'कथा-समय' क एकटा आलोचना",
       "english_title": null,
       "authors": [
@@ -3634,6 +5154,44 @@
       "page_end": null
     },
     {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१८",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-04-01",
+      "year": "2026",
+      "issue": "439",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/439/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१८.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20439.pdf",
+      "path": "2026/439/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१८.htm",
+      "page_start": "12",
+      "page_end": "36"
+    },
+    {
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार'एवं हुनक परिवारक योगदान-१",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-04-01",
+      "year": "2026",
+      "issue": "439",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/439/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-5ec35604d5.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20439.pdf",
+      "path": "2026/439/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-5ec35604d5.htm",
+      "page_start": "5",
+      "page_end": "11"
+    },
+    {
       "title": "समकालीन मैथिली साहित्यक लोकधर्मी स्वर : राम विलास साहु",
       "english_title": null,
       "authors": [
@@ -3651,6 +5209,44 @@
       "path": "2026/439/समकालीन-मैथिली-साहित्यक-लोकधर्मी-स्वर-राम-विलास-साहु.htm",
       "page_start": "120",
       "page_end": "137"
+    },
+    {
+      "title": "‘सगर राति दीप जरय’क साहित्यिक अवदान : नरहिया गोष्ठीक आलोकमे एक अध्ययन",
+      "english_title": null,
+      "authors": [
+        "डॉ. उमेश मण्डल"
+      ],
+      "publication_date": "2026-04-01",
+      "year": "2026",
+      "issue": "439",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary institutions; cultural participation; regional literary history",
+      "url": "https://www.videha.co.in/research/2026/439/सगर-राति-दीप-जरय-क-साहित्यिक-अवदान-नरहिया-गोष्ठीक-आलोकमे-एक-अध्ययन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20439.pdf",
+      "path": "2026/439/सगर-राति-दीप-जरय-क-साहित्यिक-अवदान-नरहिया-गोष्ठीक-आलोकमे-एक-अध्ययन.htm",
+      "page_start": "161",
+      "page_end": "171"
+    },
+    {
+      "title": "'बदलैत जीवन' कथा-संग्रहक आलोकमे सामाजिक परिवर्तन आ मानवीय चेतनाक समीक्षात्मक विवेचन (पृष्ठ- ४६-५५)",
+      "english_title": null,
+      "authors": [
+        "डॉ. उमेश मण्डल"
+      ],
+      "publication_date": "2026-04-15",
+      "year": "2026",
+      "issue": "440",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili short-fiction criticism; social change; humanistic studies",
+      "url": "https://www.videha.co.in/research/2026/440/बदलैत-जीवन-कथा-संग्रहक-आलोकमे-सामाजिक-परिवर्तन-आ-मानवीय-चेत-7712f17e7f.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20440.pdf",
+      "path": "2026/440/बदलैत-जीवन-कथा-संग्रहक-आलोकमे-सामाजिक-परिवर्तन-आ-मानवीय-चेत-7712f17e7f.htm",
+      "page_start": null,
+      "page_end": null
     },
     {
       "title": "A Parallel History of Mithila & Maithili Literature (TOME I-IV VOLUMES- 1-100)",
@@ -3672,6 +5268,25 @@
       "page_end": null
     },
     {
+      "title": "पयस्विनी : लोकचेतना आ संवादधर्मिताक समेकित अभिव्यक्ति (पृष्ठ- २४-२८)",
+      "english_title": null,
+      "authors": [
+        "डॉ. उमेश मण्डल"
+      ],
+      "publication_date": "2026-04-15",
+      "year": "2026",
+      "issue": "440",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; folk consciousness; dialogic poetics",
+      "url": "https://www.videha.co.in/research/2026/440/पयस्विनी-लोकचेतना-आ-संवादधर्मिताक-समेकित-अभिव्यक्ति-पृष्ठ--२४-२८.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20440.pdf",
+      "path": "2026/440/पयस्विनी-लोकचेतना-आ-संवादधर्मिताक-समेकित-अभिव्यक्ति-पृष्ठ--२४-२८.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मैथिली लेल दलित साहित्य समीक्षाशास्त्र",
       "english_title": null,
       "authors": [
@@ -3687,6 +5302,44 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20440.pdf",
       "path": "2026/440/मैथिली-लेल-दलित-साहित्य-समीक्षाशास्त्र.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१९ (पृष्ठ- ८-१६)",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-04-15",
+      "year": "2026",
+      "issue": "440",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/440/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१९-पृष्ठ--८-१६.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20440.pdf",
+      "path": "2026/440/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१९-पृष्ठ--८-१६.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार'एवं हुनक परिवारक योगदान-२ (पृष्ठ- ४-७)",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-04-15",
+      "year": "2026",
+      "issue": "440",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/440/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-0171d54d1e.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20440.pdf",
+      "path": "2026/440/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-0171d54d1e.htm",
       "page_start": null,
       "page_end": null
     },
@@ -3900,6 +5553,25 @@
       "page_end": "91"
     },
     {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-२१",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-05-15",
+      "year": "2026",
+      "issue": "442",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/442/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२१.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf",
+      "path": "2026/442/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२१.htm",
+      "page_start": "16",
+      "page_end": "20"
+    },
+    {
       "title": "अभिनव पद्यविधा : इतिहास-काव्य (पृष्ठ ३५-४१)",
       "english_title": null,
       "authors": [
@@ -4090,6 +5762,44 @@
       "page_end": "191"
     },
     {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-२२",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-06-01",
+      "year": "2026",
+      "issue": "443",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/443/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२२.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf",
+      "path": "2026/443/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२२.htm",
+      "page_start": "21",
+      "page_end": "26"
+    },
+    {
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार'एवं हुनक परिवारक योगदान-३",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-06-01",
+      "year": "2026",
+      "issue": "443",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/443/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-3eff1708ab.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf",
+      "path": "2026/443/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-3eff1708ab.htm",
+      "page_start": "27",
+      "page_end": "30"
+    },
+    {
       "title": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग-४) सन्दर्भ- कुणाल-कृत बिदापत",
       "english_title": null,
       "authors": [
@@ -4107,6 +5817,44 @@
       "path": "2026/444/मैथिली-नाट्यमंच-नाटक-लेल-एकटा-समीक्षा-सिद्धान्त-भाग-४-सन्दर-3881d7a12e.htm",
       "page_start": "104",
       "page_end": "112"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-२३",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-06-15",
+      "year": "2026",
+      "issue": "444",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/444/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२३.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20444.pdf",
+      "path": "2026/444/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२३.htm",
+      "page_start": "14",
+      "page_end": "21"
+    },
+    {
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार'एवं हुनक परिवारक योगदान-४",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-06-15",
+      "year": "2026",
+      "issue": "444",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/444/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-7a7516c0f2.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20444.pdf",
+      "path": "2026/444/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-7a7516c0f2.htm",
+      "page_start": "22",
+      "page_end": "25"
     },
     {
       "title": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग-५): कुणाल-कृत कुसमा-सलहेस",
@@ -4128,6 +5876,44 @@
       "page_end": null
     },
     {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-२४",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-07-01",
+      "year": "2026",
+      "issue": "445",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/445/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२४.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20445.pdf",
+      "path": "2026/445/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२४.htm",
+      "page_start": "30",
+      "page_end": "38"
+    },
+    {
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार'एवं हुनक परिवारक योगदान-५",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-07-01",
+      "year": "2026",
+      "issue": "445",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/445/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-9d88465938.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20445.pdf",
+      "path": "2026/445/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-9d88465938.htm",
+      "page_start": "39",
+      "page_end": "44"
+    },
+    {
       "title": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग-६): कुणाल-कृत प्रेम-प्रतिज्ञा उर्फ श्रुवावतीक जय!",
       "english_title": null,
       "authors": [
@@ -4145,6 +5931,63 @@
       "path": "2026/446/मैथिली-नाट्यमंच-नाटक-लेल-एकटा-समीक्षा-सिद्धान्त-भाग-६-कुणाल-4aebeda72e.htm",
       "page_start": null,
       "page_end": null
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-२५",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-07-15",
+      "year": "2026",
+      "issue": "446",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/446/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२५.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20446.pdf",
+      "path": "2026/446/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२५.htm",
+      "page_start": "94",
+      "page_end": "98"
+    },
+    {
+      "title": "मैथिली साहित्यमे बलेन्द्र नारायण ठाकुर ‘विप्लव’ एवं हुनक परिवारक योगदान-१",
+      "english_title": null,
+      "authors": [
+        "अरविन्द ठाकुर"
+      ],
+      "publication_date": "2026-07-15",
+      "year": "2026",
+      "issue": "446",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/446/मैथिली-साहित्यमे-बलेन्द्र-नारायण-ठाकुर-विप्लव-एवं-हुनक-परि-9a11717a58.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20446.pdf",
+      "path": "2026/446/मैथिली-साहित्यमे-बलेन्द्र-नारायण-ठाकुर-विप्लव-एवं-हुनक-परि-9a11717a58.htm",
+      "page_start": "105",
+      "page_end": "298"
+    },
+    {
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार'एवं हुनक परिवारक योगदान-६",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-07-15",
+      "year": "2026",
+      "issue": "446",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/446/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-1122725a7f.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20446.pdf",
+      "path": "2026/446/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-1122725a7f.htm",
+      "page_start": "99",
+      "page_end": "104"
     },
     {
       "title": "एकैसम शताब्दीक पहिल औपन्यासिक कृति - ‘पथिक पिआसल’क तात्विक विश्लेषण",
@@ -4242,25 +6085,6 @@
       "page_end": null
     },
     {
-      "title": "भामती (वाचस्पति)/ आत्मतत्त्वविवेक (उदयन)/ न्यायकुसुमाञ्जलि (उदयन)/ तत्त्वचिन्तामणि (गंगेश): ग्रन्थ-सार आ समालोचनात्मक मूल्याङ्कन",
-      "english_title": null,
-      "authors": [
-        "गजेन्द्र ठाकुर"
-      ],
-      "publication_date": "2026-08-01",
-      "year": "2026",
-      "issue": "447",
-      "language": "mai",
-      "keywords": [],
-      "classification": "Indian philosophy; Navya-Nyaya; textual and comparative philosophical criticism",
-      "url": "https://www.videha.co.in/research/2026/447/भामती-वाचस्पति-आत्मतत्त्वविवेक-उदयन-न्यायकुसुमाञ्जलि-उदय-9a1b934507.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf",
-      "path": "2026/447/भामती-वाचस्पति-आत्मतत्त्वविवेक-उदयन-न्यायकुसुमाञ्जलि-उदय-9a1b934507.htm",
-      "page_start": "222",
-      "page_end": "339"
-    },
-    {
       "title": "भामती, आत्मतत्त्वविवेक, न्यायकुसुमाञ्जलि आ तत्त्वचिन्तामणि: ग्रन्थ-सार आ समालोचनात्मक मूल्याङ्कन",
       "english_title": null,
       "authors": [
@@ -4316,6 +6140,44 @@
       "path": "2026/447/मैथिली-बाल-उपन्यासक-समीक्षाशास्त्र.htm",
       "page_start": "584",
       "page_end": "656"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-२६",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-08-01",
+      "year": "2026",
+      "issue": "447",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/447/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२६.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf",
+      "path": "2026/447/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२६.htm",
+      "page_start": "27",
+      "page_end": "32"
+    },
+    {
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार'एवं हुनक परिवारक योगदान-७",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-08-01",
+      "year": "2026",
+      "issue": "447",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/447/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-6cd5db96e7.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf",
+      "path": "2026/447/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-6cd5db96e7.htm",
+      "page_start": "33",
+      "page_end": "38"
     },
     {
       "title": "मैथिलीक एकटा समानान्तर व्याकरण, रचना आ भाषा-विज्ञान (ठेठी-अंगिका आ बज्जिकाकेँ संग लऽ कऽ)- गजेन्द्र ठाकुर] एकीकृत विस्तृत समालोचनात्मक शोध-समीक्षा",
