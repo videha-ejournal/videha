@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T08:15:08.747448+00:00",
+  "generated": "2026-08-28T08:54:58.368211+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 154,
-    "promoted_sections_publishable": 153,
-    "promoted_sections_review": 1,
+    "promoted_sections_requested": 162,
+    "promoted_sections_publishable": 155,
+    "promoted_sections_review": 7,
     "curated_manifests": 1,
-    "published_after_all_overrides": 206,
-    "stale_generated_pages_removed_before_render": 199,
+    "published_after_all_overrides": 208,
+    "stale_generated_pages_removed_before_render": 206,
     "build_errors": 0
   },
   "articles": [
@@ -39,6 +39,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20015.pdf",
       "path": "2008/15/पंचदेवोपासक-भूमि-मिथिला.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सन्त साहेब रामदास",
+      "english_title": null,
+      "authors": [
+        "डॉ. पालन झा"
+      ],
+      "publication_date": "2008-08-01",
+      "year": "2008",
+      "issue": "15",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila religious history; saint-poet studies; Maithili literary history",
+      "url": "https://www.videha.co.in/research/2008/15/सन्त-साहेब-रामदास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20015.pdf",
+      "path": "2008/15/सन्त-साहेब-रामदास.htm",
       "page_start": null,
       "page_end": null
     },
@@ -134,6 +153,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20021.pdf",
       "path": "2008/21/मैथिलीमे-गजल-आ-एकर-संरचना.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "लुप्तप्राय मैथिली लोकगीत",
+      "english_title": null,
+      "authors": [
+        "हृदय नारायण झा"
+      ],
+      "publication_date": "2008-12-01",
+      "year": "2008",
+      "issue": "23",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Ethnomusicology; Mithila folk music; cultural preservation",
+      "url": "https://www.videha.co.in/research/2008/23/लुप्तप्राय-मैथिली-लोकगीत.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20023.pdf",
+      "path": "2008/23/लुप्तप्राय-मैथिली-लोकगीत.htm",
       "page_start": null,
       "page_end": null
     },
