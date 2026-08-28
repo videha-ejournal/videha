@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T13:52:40.169601+00:00",
+  "generated": "2026-08-28T14:04:09.305608+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 326,
-    "promoted_sections_publishable": 315,
+    "promoted_sections_requested": 333,
+    "promoted_sections_publishable": 322,
     "promoted_sections_review": 11,
     "curated_manifests": 1,
-    "published_after_all_overrides": 367,
-    "stale_generated_pages_removed_before_render": 367,
+    "published_after_all_overrides": 374,
+    "stale_generated_pages_removed_before_render": 373,
     "build_errors": 0
   },
   "articles": [
@@ -3102,6 +3102,44 @@
       "page_end": null
     },
     {
+      "title": "चम्पूसाहित्ययशो विलासः (प्रथमोच्छ्वासः)",
+      "english_title": null,
+      "authors": [
+        "डा. दीपिका"
+      ],
+      "publication_date": "2022-09-15",
+      "year": "2022",
+      "issue": "354",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Sanskrit literary studies; Champu literature; textual analysis",
+      "url": "https://www.videha.co.in/research/2022/354/चम्पूसाहित्ययशो-विलासः-प्रथमोच्छ्वासः.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20354.pdf",
+      "path": "2022/354/चम्पूसाहित्ययशो-विलासः-प्रथमोच्छ्वासः.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "चम्पूसाहित्ययशो विलासः (द्वितीयोच्छ्वासः)",
+      "english_title": null,
+      "authors": [
+        "डा. दीपिका"
+      ],
+      "publication_date": "2022-10-01",
+      "year": "2022",
+      "issue": "355",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Sanskrit literary studies; Champu literature; textual analysis",
+      "url": "https://www.videha.co.in/research/2022/355/चम्पूसाहित्ययशो-विलासः-द्वितीयोच्छ्वासः.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20355.pdf",
+      "path": "2022/355/चम्पूसाहित्ययशो-विलासः-द्वितीयोच्छ्वासः.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "थीमक खोज",
       "english_title": null,
       "authors": [
@@ -3121,6 +3159,44 @@
       "page_end": "47"
     },
     {
+      "title": "चम्पूसाहित्ययशो विलासः (तृतीयोच्छ्वासः)",
+      "english_title": null,
+      "authors": [
+        "डा. दीपिका"
+      ],
+      "publication_date": "2022-10-15",
+      "year": "2022",
+      "issue": "356",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Sanskrit literary studies; Champu literature; textual analysis",
+      "url": "https://www.videha.co.in/research/2022/356/चम्पूसाहित्ययशो-विलासः-तृतीयोच्छ्वासः.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20356.pdf",
+      "path": "2022/356/चम्पूसाहित्ययशो-विलासः-तृतीयोच्छ्वासः.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "चम्पूसाहित्ययशो विलासः (चतुर्थोच्छवासः)",
+      "english_title": null,
+      "authors": [
+        "डा. दीपिका"
+      ],
+      "publication_date": "2022-11-01",
+      "year": "2022",
+      "issue": "357",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Sanskrit literary studies; Champu literature; textual analysis",
+      "url": "https://www.videha.co.in/research/2022/357/चम्पूसाहित्ययशो-विलासः-चतुर्थोच्छवासः.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20357.pdf",
+      "path": "2022/357/चम्पूसाहित्ययशो-विलासः-चतुर्थोच्छवासः.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "रंगकर्मी प्रेमलता मिश्रक साहित्यिक छवि- ओ दिन ओ पल",
       "english_title": null,
       "authors": [
@@ -3138,6 +3214,25 @@
       "path": "2022/357/रंगकर्मी-प्रेमलता-मिश्रक-साहित्यिक-छवि--ओ-दिन-ओ-पल.htm",
       "page_start": "60",
       "page_end": "66"
+    },
+    {
+      "title": "चम्पूसाहित्ययशो विलासः (पञ्चमोच्छ्वासः)",
+      "english_title": null,
+      "authors": [
+        "डा. दीपिका"
+      ],
+      "publication_date": "2022-11-15",
+      "year": "2022",
+      "issue": "358",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Sanskrit literary studies; Champu literature; textual analysis",
+      "url": "https://www.videha.co.in/research/2022/358/चम्पूसाहित्ययशो-विलासः-पञ्चमोच्छ्वासः.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20358.pdf",
+      "path": "2022/358/चम्पूसाहित्ययशो-विलासः-पञ्चमोच्छ्वासः.htm",
+      "page_start": null,
+      "page_end": null
     },
     {
       "title": "जेहने मधुर तेहने दृढ़",
@@ -3252,6 +3347,44 @@
       "path": "2022/358/शरदिन्दु-चौधरी-हेबाक-माने.htm",
       "page_start": "51",
       "page_end": "55"
+    },
+    {
+      "title": "चम्पूसाहित्ययशो विलासः (षष्ठोच्छ्वासः)",
+      "english_title": null,
+      "authors": [
+        "डा. दीपिका"
+      ],
+      "publication_date": "2022-12-01",
+      "year": "2022",
+      "issue": "359",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Sanskrit literary studies; Champu literature; textual analysis",
+      "url": "https://www.videha.co.in/research/2022/359/चम्पूसाहित्ययशो-विलासः-षष्ठोच्छ्वासः.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20359.pdf",
+      "path": "2022/359/चम्पूसाहित्ययशो-विलासः-षष्ठोच्छ्वासः.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "चम्पूसाहित्ययशो विलासः (सप्तमोच्छ्वासः)",
+      "english_title": null,
+      "authors": [
+        "डा. दीपिका"
+      ],
+      "publication_date": "2022-12-15",
+      "year": "2022",
+      "issue": "360",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Sanskrit literary studies; Champu literature; textual analysis",
+      "url": "https://www.videha.co.in/research/2022/360/चम्पूसाहित्ययशो-विलासः-सप्तमोच्छ्वासः.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20360.pdf",
+      "path": "2022/360/चम्पूसाहित्ययशो-विलासः-सप्तमोच्छ्वासः.htm",
+      "page_start": null,
+      "page_end": null
     },
     {
       "title": "आधुनिकताक परिवेश मे आधुनिक चित्रकला",
