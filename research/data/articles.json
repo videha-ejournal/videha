@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T09:09:21.037442+00:00",
+  "generated": "2026-08-28T09:18:01.786649+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -9,16 +9,16 @@
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 3,
-    "audit_queue_held": 28,
+    "audit_queue_held": 27,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 163,
-    "promoted_sections_publishable": 156,
+    "promoted_sections_requested": 164,
+    "promoted_sections_publishable": 157,
     "promoted_sections_review": 7,
     "curated_manifests": 1,
-    "published_after_all_overrides": 209,
+    "published_after_all_overrides": 210,
     "stale_generated_pages_removed_before_render": 209,
     "build_errors": 0
   },
@@ -2321,6 +2321,25 @@
       "path": "2023/371/मैथिल-संगठन-आ-ओकर-सामाजिक-सरोकार.htm",
       "page_start": "41",
       "page_end": "47"
+    },
+    {
+      "title": "मिथिलाक इतिहासक वैज्ञानिक अध्ययन एवं ओकर समीक्षात्मक विश्लेषण",
+      "english_title": null,
+      "authors": [
+        "डॉ. दीपेश कुमार ठाकुर"
+      ],
+      "publication_date": "2023-07-15",
+      "year": "2023",
+      "issue": "374",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila history; historical methodology; cultural and linguistic studies",
+      "url": "https://www.videha.co.in/research/2023/374/मिथिलाक-इतिहासक-वैज्ञानिक-अध्ययन-एवं-ओकर-समीक्षात्मक-विश्लेषण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20374.pdf",
+      "path": "2023/374/मिथिलाक-इतिहासक-वैज्ञानिक-अध्ययन-एवं-ओकर-समीक्षात्मक-विश्लेषण.htm",
+      "page_start": null,
+      "page_end": null
     },
     {
       "title": "पाथरपर दूभि उपजाबैत राग-भावक अन्वेषक लक्ष्मण झा 'सागर'",
