@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T13:11:25.119836+00:00",
+  "generated": "2026-08-28T13:16:22.893598+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 319,
-    "promoted_sections_publishable": 308,
+    "promoted_sections_requested": 320,
+    "promoted_sections_publishable": 309,
     "promoted_sections_review": 11,
     "curated_manifests": 1,
-    "published_after_all_overrides": 360,
+    "published_after_all_overrides": 361,
     "stale_generated_pages_removed_before_render": 360,
     "build_errors": 0
   },
@@ -5323,6 +5323,25 @@
       "path": "2025/429/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-08.htm",
       "page_start": "8",
       "page_end": "16"
+    },
+    {
+      "title": "श्राद्ध कर्म के लौकिक व अलौकिक महत्त्व",
+      "english_title": null,
+      "authors": [
+        "ग्रुप कॅप्टन (डॉ) वी एन झा"
+      ],
+      "publication_date": "2025-11-15",
+      "year": "2025",
+      "issue": "430",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Ritual studies; religious anthropology; Maithili cultural practice",
+      "url": "https://www.videha.co.in/research/2025/430/श्राद्ध-कर्म-के-लौकिक-व-अलौकिक-महत्त्व.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20430.pdf",
+      "path": "2025/430/श्राद्ध-कर्म-के-लौकिक-व-अलौकिक-महत्त्व.htm",
+      "page_start": null,
+      "page_end": null
     },
     {
       "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -18",
