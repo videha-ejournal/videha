@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T09:18:01.785840+00:00",
+  "generated": "2026-08-28T09:31:18.131085+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,12 +12,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 164,
+    "promoted_sections_requested": 165,
     "promoted_sections_publishable": 157,
-    "promoted_sections_review": 7,
+    "promoted_sections_review": 8,
     "curated_manifests": 1,
     "published_after_all_overrides": 210,
-    "stale_generated_pages_removed_before_render": 209,
+    "stale_generated_pages_removed_before_render": 210,
     "build_errors": 0
   },
   "explicit_review": [
@@ -629,6 +629,15 @@
       "author": "कृष्णा प्रसाद",
       "title": "सीता हमर विभूति छली",
       "body_chars": 344,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "100",
+      "section": "8",
+      "author": "विद्यावाचस्पति डॉ. सदानन्द झा",
+      "title": "भारोपीयभाषासन्दर्भे ध्वनिविमर्शः",
+      "body_chars": 1785,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     }
