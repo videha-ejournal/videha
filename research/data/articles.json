@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T09:48:45.512091+00:00",
+  "generated": "2026-08-28T10:50:42.437572+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 168,
-    "promoted_sections_publishable": 160,
+    "promoted_sections_requested": 173,
+    "promoted_sections_publishable": 165,
     "promoted_sections_review": 8,
     "curated_manifests": 1,
-    "published_after_all_overrides": 213,
-    "stale_generated_pages_removed_before_render": 212,
+    "published_after_all_overrides": 218,
+    "stale_generated_pages_removed_before_render": 213,
     "build_errors": 0
   },
   "articles": [
@@ -39,6 +39,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20015.pdf",
       "path": "2008/15/पंचदेवोपासक-भूमि-मिथिला.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "बीसम शताब्दी मैथिली साहित्यक स्वर्णिम युग",
+      "english_title": null,
+      "authors": [
+        "प्रोफेसर प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2008-08-01",
+      "year": "2008",
+      "issue": "15",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; twentieth-century literature; cultural history",
+      "url": "https://www.videha.co.in/research/2008/15/बीसम-शताब्दी-मैथिली-साहित्यक-स्वर्णिम-युग.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20015.pdf",
+      "path": "2008/15/बीसम-शताब्दी-मैथिली-साहित्यक-स्वर्णिम-युग.htm",
       "page_start": null,
       "page_end": null
     },
@@ -176,6 +195,25 @@
       "page_end": null
     },
     {
+      "title": "मैथिली भाषाक साहित्य (अंक २७ मे प्रकाशित खेप)",
+      "english_title": null,
+      "authors": [
+        "प्रोफेसर प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2009-02-01",
+      "year": "2009",
+      "issue": "27",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; language history; Tirhuta and early literature",
+      "url": "https://www.videha.co.in/research/2009/27/मैथिली-भाषाक-साहित्य-अंक-२७-मे-प्रकाशित-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20027.pdf",
+      "path": "2009/27/मैथिली-भाषाक-साहित्य-अंक-२७-मे-प्रकाशित-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "On English-Maithili Dictionary by Gajendra Thakur",
       "english_title": null,
       "authors": [
@@ -191,6 +229,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20030.pdf",
       "path": "2009/30/on-english-maithili-dictionary-by-gajendra-thakur.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली भाषाक साहित्य (अंक ३० मे प्रकाशित खेप)",
+      "english_title": null,
+      "authors": [
+        "प्रोफेसर प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2009-03-15",
+      "year": "2009",
+      "issue": "30",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; drama history; medieval and modern literature",
+      "url": "https://www.videha.co.in/research/2009/30/मैथिली-भाषाक-साहित्य-अंक-३०-मे-प्रकाशित-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20030.pdf",
+      "path": "2009/30/मैथिली-भाषाक-साहित्य-अंक-३०-मे-प्रकाशित-खेप.htm",
       "page_start": null,
       "page_end": null
     },
@@ -1050,6 +1107,25 @@
       "page_end": null
     },
     {
+      "title": "The Political and Cultural Heritage of Mithila",
+      "english_title": null,
+      "authors": [
+        "Radhakrishna Choudhary"
+      ],
+      "publication_date": "2014-03-15",
+      "year": "2014",
+      "issue": "150",
+      "language": "en",
+      "keywords": [],
+      "classification": "Mithila history; political history; cultural history; English-language scholarship",
+      "url": "https://www.videha.co.in/research/2014/150/the-political-and-cultural-heritage-of-mithila.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20150.pdf",
+      "path": "2014/150/the-political-and-cultural-heritage-of-mithila.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "जहिया ओ इतिहास सुनौलक",
       "english_title": null,
       "authors": [
@@ -1065,6 +1141,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20150.pdf",
       "path": "2014/150/जहिया-ओ-इतिहास-सुनौलक.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "A Survey of Maithili Literature",
+      "english_title": null,
+      "authors": [
+        "Radhakrishna Chaudhary"
+      ],
+      "publication_date": "2014-04-01",
+      "year": "2014",
+      "issue": "151",
+      "language": "en",
+      "keywords": [],
+      "classification": "Maithili literary history; Mithila cultural history; English-language scholarship",
+      "url": "https://www.videha.co.in/research/2014/151/a-survey-of-maithili-literature.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20151.pdf",
+      "path": "2014/151/a-survey-of-maithili-literature.htm",
       "page_start": null,
       "page_end": null
     },

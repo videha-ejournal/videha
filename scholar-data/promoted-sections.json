@@ -1217,5 +1217,57 @@
     "body_source": "search-documents/videha-046.html",
     "manual_body_start": "मिथिलाक इतिहासक अध्ययनक साधन",
     "manual_body_end": "९.मिथिलाक इतिहास"
+  },
+  {
+    "issue": "15",
+    "section": "3.3",
+    "author_override": "प्रोफेसर प्रेमशंकर सिंह",
+    "title_override": "बीसम शताब्दी मैथिली साहित्यक स्वर्णिम युग",
+    "classification": "Maithili literary history; twentieth-century literature; cultural history",
+    "body_source": "search-documents/videha-015.html",
+    "manual_body_start": "बीसम शताब्दी मैथिली साहित्यक स्वर्णिम युग",
+    "manual_body_end": "सहस्रबाढ़नि"
+  },
+  {
+    "issue": "27",
+    "section": "2.2",
+    "author_override": "प्रोफेसर प्रेमशंकर सिंह",
+    "title_override": "मैथिली भाषाक साहित्य (अंक २७ मे प्रकाशित खेप)",
+    "classification": "Maithili literary history; language history; Tirhuta and early literature",
+    "body_source": "search-documents/videha-027.html",
+    "manual_body_start": "मैथिली भाषाक अधिकांश साहितय मानक मैथिली",
+    "manual_body_end": "भाग रौ"
+  },
+  {
+    "issue": "30",
+    "section": "2.2",
+    "author_override": "प्रोफेसर प्रेमशंकर सिंह",
+    "title_override": "मैथिली भाषाक साहित्य (अंक ३० मे प्रकाशित खेप)",
+    "classification": "Maithili literary history; drama history; medieval and modern literature",
+    "body_source": "search-documents/videha-030.html",
+    "manual_body_start": "विद्यापतिक परवर्ती मैथिलीक कवि लोकनिक",
+    "manual_body_end": "भाग रौ"
+  },
+  {
+    "issue": "150",
+    "section": "8.3",
+    "author_override": "Radhakrishna Choudhary",
+    "title_override": "The Political and Cultural Heritage of Mithila",
+    "classification": "Mithila history; political history; cultural history; English-language scholarship",
+    "language": "en",
+    "body_source": "search-documents/videha-150.html",
+    "manual_body_start": "The Political and Cultural Heritage of Mithila by Radhakrishna Choudhary",
+    "manual_body_end": "VIDEHA MAITHILI SAMSKRIT TUTOR"
+  },
+  {
+    "issue": "151",
+    "section": "1.2",
+    "author_override": "Radhakrishna Chaudhary",
+    "title_override": "A Survey of Maithili Literature",
+    "classification": "Maithili literary history; Mithila cultural history; English-language scholarship",
+    "language": "en",
+    "body_source": "search-documents/videha-151.html",
+    "manual_body_start": "A Survey of Maithili Literature- Radhakrishna Chaudhary",
+    "manual_body_end": "FESTIVALS OF MITHILA (2013-14)"
   }
 ]
