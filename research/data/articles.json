@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T12:47:24.483391+00:00",
+  "generated": "2026-08-28T12:55:19.813769+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 304,
-    "promoted_sections_publishable": 293,
+    "promoted_sections_requested": 311,
+    "promoted_sections_publishable": 300,
     "promoted_sections_review": 11,
     "curated_manifests": 1,
-    "published_after_all_overrides": 345,
-    "stale_generated_pages_removed_before_render": 334,
+    "published_after_all_overrides": 352,
+    "stale_generated_pages_removed_before_render": 345,
     "build_errors": 0
   },
   "articles": [
@@ -4660,6 +4660,25 @@
       "page_end": "17"
     },
     {
+      "title": "अद्भुत कथाशिल्पी शिवशंकर श्रीनिवास",
+      "english_title": null,
+      "authors": [
+        "वैद्यनाथ झा"
+      ],
+      "publication_date": "2025-08-15",
+      "year": "2025",
+      "issue": "424",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; author studies; narrative craft",
+      "url": "https://www.videha.co.in/research/2025/424/अद्भुत-कथाशिल्पी-शिवशंकर-श्रीनिवास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20424.pdf",
+      "path": "2025/424/अद्भुत-कथाशिल्पी-शिवशंकर-श्रीनिवास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "उठ जाग मोसाफिर भोर भयो: निसभेर नीनमे सूतल समाजक पहरू कथाकार",
       "english_title": null,
       "authors": [
@@ -4694,6 +4713,120 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20424.pdf",
       "path": "2025/424/चयनित-कथाक-मादें-किछु-गप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "बेजोड़ छथि श्री शिवशंकर श्रीनिवास",
+      "english_title": null,
+      "authors": [
+        "रबीन्द्र नारायण मिश्र"
+      ],
+      "publication_date": "2025-08-15",
+      "year": "2025",
+      "issue": "424",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; author studies; literary reception",
+      "url": "https://www.videha.co.in/research/2025/424/बेजोड़-छथि-श्री-शिवशंकर-श्रीनिवास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20424.pdf",
+      "path": "2025/424/बेजोड़-छथि-श्री-शिवशंकर-श्रीनिवास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "माटि वस्तुए सएह छैक",
+      "english_title": null,
+      "authors": [
+        "दिलीप कुमार झा"
+      ],
+      "publication_date": "2025-08-15",
+      "year": "2025",
+      "issue": "424",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; rural realism; author studies",
+      "url": "https://www.videha.co.in/research/2025/424/माटि-वस्तुए-सएह-छैक.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20424.pdf",
+      "path": "2025/424/माटि-वस्तुए-सएह-छैक.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक माटि-पानिक कथाकार शिवशंकर श्रीनिवास",
+      "english_title": null,
+      "authors": [
+        "नवीन कुमार झा ‘शरद’"
+      ],
+      "publication_date": "2025-08-15",
+      "year": "2025",
+      "issue": "424",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; regional realism; author studies",
+      "url": "https://www.videha.co.in/research/2025/424/मिथिलाक-माटि-पानिक-कथाकार-शिवशंकर-श्रीनिवास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20424.pdf",
+      "path": "2025/424/मिथिलाक-माटि-पानिक-कथाकार-शिवशंकर-श्रीनिवास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "या तऽ अपूर्ण शीर्षक या तऽ अपूर्ण पोथी",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2025-08-15",
+      "year": "2025",
+      "issue": "424",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; textual criticism; author studies",
+      "url": "https://www.videha.co.in/research/2025/424/या-तऽ-अपूर्ण-शीर्षक-या-तऽ-अपूर्ण-पोथी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20424.pdf",
+      "path": "2025/424/या-तऽ-अपूर्ण-शीर्षक-या-तऽ-अपूर्ण-पोथी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "शिवशंकर श्रीनिवास जीक गामक लोक",
+      "english_title": null,
+      "authors": [
+        "अजित कुमार झा"
+      ],
+      "publication_date": "2025-08-15",
+      "year": "2025",
+      "issue": "424",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; rural society; author studies",
+      "url": "https://www.videha.co.in/research/2025/424/शिवशंकर-श्रीनिवास-जीक-गामक-लोक.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20424.pdf",
+      "path": "2025/424/शिवशंकर-श्रीनिवास-जीक-गामक-लोक.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "श्री शिवशंकर श्रीनिवासक कथा-संसार एकटा मूल्यांकन",
+      "english_title": null,
+      "authors": [
+        "डा. शैलेन्द्र मिश्र"
+      ],
+      "publication_date": "2025-08-15",
+      "year": "2025",
+      "issue": "424",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; narrative theory; author studies",
+      "url": "https://www.videha.co.in/research/2025/424/श्री-शिवशंकर-श्रीनिवासक-कथा-संसार-एकटा-मूल्यांकन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20424.pdf",
+      "path": "2025/424/श्री-शिवशंकर-श्रीनिवासक-कथा-संसार-एकटा-मूल्यांकन.htm",
       "page_start": null,
       "page_end": null
     },
