@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T09:41:17.578192+00:00",
+  "generated": "2026-08-28T09:48:01.542706+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -18,8 +18,8 @@
     "promoted_sections_publishable": 159,
     "promoted_sections_review": 8,
     "curated_manifests": 1,
-    "published_after_all_overrides": 211,
-    "stale_generated_pages_removed_before_render": 211,
+    "published_after_all_overrides": 212,
+    "stale_generated_pages_removed_before_render": 212,
     "build_errors": 0
   },
   "articles": [
