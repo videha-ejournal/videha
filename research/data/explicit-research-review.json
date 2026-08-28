@@ -1,22 +1,22 @@
 {
-  "generated": "2026-08-28T20:16:20.427587+00:00",
+  "generated": "2026-08-28T20:27:43.524745+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
-    "audit_queue_publishable": 3,
+    "audit_queue_publishable": 2,
     "audit_queue_held": 18,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 489,
-    "promoted_sections_publishable": 457,
-    "promoted_sections_review": 32,
+    "promoted_sections_requested": 505,
+    "promoted_sections_publishable": 468,
+    "promoted_sections_review": 37,
     "curated_manifests": 1,
-    "published_after_all_overrides": 506,
+    "published_after_all_overrides": 513,
     "stale_generated_pages_removed_before_render": 506,
     "build_errors": 0
   },
@@ -803,6 +803,35 @@
       "issue": "68",
       "section": "2.6",
       "reason": "manual body end marker not found"
+    },
+    {
+      "issue": "71",
+      "section": "3.3",
+      "reason": "manual body end marker not found"
+    },
+    {
+      "issue": "75",
+      "section": "2.6.2",
+      "reason": "manual body end marker not found"
+    },
+    {
+      "issue": "76",
+      "section": "2.1",
+      "reason": "manual body end marker not found"
+    },
+    {
+      "issue": "76",
+      "section": "2.2",
+      "reason": "manual body start marker not found"
+    },
+    {
+      "issue": "80",
+      "section": "2.1",
+      "author": "सुजीत कुमार झा",
+      "title": "नेपालमे राष्ट्रिय जनगणना मैथिलीकेँ स्थान दियावकेँ विशेष संकल्प",
+      "body_chars": 73,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
     }
   ],
   "build_errors": []

@@ -1,24 +1,24 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T20:16:20.428597+00:00",
+  "generated": "2026-08-28T20:27:43.525729+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
-    "audit_queue_publishable": 3,
+    "audit_queue_publishable": 2,
     "audit_queue_held": 18,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 489,
-    "promoted_sections_publishable": 457,
-    "promoted_sections_review": 32,
+    "promoted_sections_requested": 505,
+    "promoted_sections_publishable": 468,
+    "promoted_sections_review": 37,
     "curated_manifests": 1,
-    "published_after_all_overrides": 506,
+    "published_after_all_overrides": 513,
     "stale_generated_pages_removed_before_render": 506,
     "build_errors": 0
   },
@@ -3501,6 +3501,25 @@
       "page_end": null
     },
     {
+      "title": "प्रदेश केर विकास: एक चिन्तन",
+      "english_title": null,
+      "authors": [
+        "बिपिन कुमार झा"
+      ],
+      "publication_date": "2010-12-01",
+      "year": "2010",
+      "issue": "71",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Regional development; Bihar public policy; political economy",
+      "url": "https://www.videha.co.in/research/2010/71/प्रदेश-केर-विकास-एक-चिन्तन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20071.pdf",
+      "path": "2010/71/प्रदेश-केर-विकास-एक-चिन्तन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "प्रदेश केर विकास: बिहार-विकास सन्दर्भ मे आलोचनात्मक अभिव्यक्ति",
       "english_title": null,
       "authors": [
@@ -3516,6 +3535,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20071.pdf",
       "path": "2010/71/प्रदेश-केर-विकास-बिहार-विकास-सन्दर्भ-मे-आलोचनात्मक-अभिव्यक्ति.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "महाकवि विद्यापति अक्षयकोष",
+      "english_title": null,
+      "authors": [
+        "जितेन्द्र झा"
+      ],
+      "publication_date": "2010-12-01",
+      "year": "2010",
+      "issue": "71",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Vidyapati studies; digital humanities; literary heritage preservation",
+      "url": "https://www.videha.co.in/research/2010/71/महाकवि-विद्यापति-अक्षयकोष.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20071.pdf",
+      "path": "2010/71/महाकवि-विद्यापति-अक्षयकोष.htm",
       "page_start": null,
       "page_end": null
     },
@@ -3539,6 +3577,25 @@
       "page_end": null
     },
     {
+      "title": "नाटक ‘रिहर्सल’",
+      "english_title": null,
+      "authors": [
+        "रविभूषण पाठक"
+      ],
+      "publication_date": "2010-12-15",
+      "year": "2010",
+      "issue": "72",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre studies; rehearsal practice; performance criticism",
+      "url": "https://www.videha.co.in/research/2010/72/नाटक-रिहर्सल.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20072.pdf",
+      "path": "2010/72/नाटक-रिहर्सल.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "प्रयोग एकांकीक रंगमंचीय प्रयोग",
       "english_title": null,
       "authors": [
@@ -3549,7 +3606,7 @@
       "issue": "72",
       "language": "mai",
       "keywords": [],
-      "classification": "Performance studies; Maithili theatre criticism; stagecraft and direction",
+      "classification": "Maithili theatre studies; one-act drama; stagecraft",
       "url": "https://www.videha.co.in/research/2010/72/प्रयोग-एकांकीक-रंगमंचीय-प्रयोग.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20072.pdf",
@@ -3615,17 +3672,36 @@
       "page_end": null
     },
     {
+      "title": "मैथिली बाललोककथा: स्थिति आ अपेक्षा",
+      "english_title": null,
+      "authors": [
+        "डाॅ. योगानन्द झा"
+      ],
+      "publication_date": "2011-02-15",
+      "year": "2011",
+      "issue": "76",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Children’s literature studies; folklore; Maithili pedagogy",
+      "url": "https://www.videha.co.in/research/2011/76/मैथिली-बाललोककथा-स्थिति-आ-अपेक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20076.pdf",
+      "path": "2011/76/मैथिली-बाललोककथा-स्थिति-आ-अपेक्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "Discrimination Against Women",
       "english_title": null,
       "authors": [
-        "Shefalika Verma"
+        "Dr. Shefalika Verma"
       ],
       "publication_date": "2011-03-01",
       "year": "2011",
       "issue": "77",
       "language": "en",
       "keywords": [],
-      "classification": "Women's studies; human rights; gender discrimination; law and society",
+      "classification": "Gender studies; women’s rights; social criticism",
       "url": "https://www.videha.co.in/research/2011/77/discrimination-against-women.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20077.pdf",
@@ -3634,7 +3710,45 @@
       "page_end": null
     },
     {
-      "title": "फोंका-एक विहगावलोकन",
+      "title": "भाग रौ: सामाजिक-राजनीतिक निहितार्थ आ आदर्शक उत्थान-यथार्थक पतन",
+      "english_title": null,
+      "authors": [
+        "रवि भूषण पाठक"
+      ],
+      "publication_date": "2011-03-01",
+      "year": "2011",
+      "issue": "77",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Social and political criticism; literary interpretation; contemporary society",
+      "url": "https://www.videha.co.in/research/2011/77/भाग-रौ-सामाजिक-राजनीतिक-निहितार्थ-आ-आदर्शक-उत्थान-यथार्थक-पतन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20077.pdf",
+      "path": "2011/77/भाग-रौ-सामाजिक-राजनीतिक-निहितार्थ-आ-आदर्शक-उत्थान-यथार्थक-पतन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "इसवी सन 2010: मैथिलीक गतिविधि",
+      "english_title": null,
+      "authors": [
+        "योगानन्द झा"
+      ],
+      "publication_date": "2011-03-15",
+      "year": "2011",
+      "issue": "78",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili cultural history; literary institutions; annual survey",
+      "url": "https://www.videha.co.in/research/2011/78/इसवी-सन-2010-मैथिलीक-गतिविधि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20078.pdf",
+      "path": "2011/78/इसवी-सन-2010-मैथिलीक-गतिविधि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "फोंका: एक विहगावलोकन",
       "english_title": null,
       "authors": [
         "डॉ. रमण झा"
@@ -3644,7 +3758,7 @@
       "issue": "78",
       "language": "mai",
       "keywords": [],
-      "classification": "Maithili fiction criticism; close reading; book review",
+      "classification": "Maithili literary criticism; short-story studies; literary history",
       "url": "https://www.videha.co.in/research/2011/78/फोंका-एक-विहगावलोकन.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20078.pdf",
@@ -3687,6 +3801,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20079.pdf",
       "path": "2011/79/मिथिला-चित्रकला-पेटिंग-भूत-वर्त्तमान-आ-भविष्य.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "‘महाराज महेश ठाकुर ओ कंकाली भगवती’ ग्रन्थ समीक्षा",
+      "english_title": null,
+      "authors": [
+        "बिपिन कुमार झा"
+      ],
+      "publication_date": "2011-04-15",
+      "year": "2011",
+      "issue": "80",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila history; book review; cultural and religious studies",
+      "url": "https://www.videha.co.in/research/2011/80/महाराज-महेश-ठाकुर-ओ-कंकाली-भगवती-ग्रन्थ-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20080.pdf",
+      "path": "2011/80/महाराज-महेश-ठाकुर-ओ-कंकाली-भगवती-ग्रन्थ-समीक्षा.htm",
       "page_start": null,
       "page_end": null
     },
