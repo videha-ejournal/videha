@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T11:25:07.148072+00:00",
+  "generated": "2026-08-28T11:36:11.819805+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 182,
-    "promoted_sections_publishable": 173,
+    "promoted_sections_requested": 186,
+    "promoted_sections_publishable": 177,
     "promoted_sections_review": 9,
     "curated_manifests": 1,
-    "published_after_all_overrides": 226,
-    "stale_generated_pages_removed_before_render": 221,
+    "published_after_all_overrides": 230,
+    "stale_generated_pages_removed_before_render": 226,
     "build_errors": 0
   },
   "articles": [
@@ -81,6 +81,25 @@
       "page_end": null
     },
     {
+      "title": "बीसम शताब्दी मैथिली साहित्यक स्वर्णिम युग (अंक १६ मे प्रकाशित खेप)",
+      "english_title": null,
+      "authors": [
+        "प्रोफेसर प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2008-08-15",
+      "year": "2008",
+      "issue": "16",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; twentieth-century poetry and prose; criticism history",
+      "url": "https://www.videha.co.in/research/2008/16/बीसम-शताब्दी-मैथिली-साहित्यक-स्वर्णिम-युग-अंक-१६-मे-प्रकाशित-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20016.pdf",
+      "path": "2008/16/बीसम-शताब्दी-मैथिली-साहित्यक-स्वर्णिम-युग-अंक-१६-मे-प्रकाशित-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "नॉर्थ कछार हिल्स: धरतीक नुकाएल स्वर्ग (पहिल खेप)",
       "english_title": null,
       "authors": [
@@ -100,6 +119,44 @@
       "page_end": null
     },
     {
+      "title": "बीसम शताब्दी मैथिली साहित्यक स्वर्णिम युग (अंक १७ मे प्रकाशित खेप)",
+      "english_title": null,
+      "authors": [
+        "प्रोफेसर प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2008-09-01",
+      "year": "2008",
+      "issue": "17",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; fiction, drama and essay history; institutional history",
+      "url": "https://www.videha.co.in/research/2008/17/बीसम-शताब्दी-मैथिली-साहित्यक-स्वर्णिम-युग-अंक-१७-मे-प्रकाशित-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20017.pdf",
+      "path": "2008/17/बीसम-शताब्दी-मैथिली-साहित्यक-स्वर्णिम-युग-अंक-१७-मे-प्रकाशित-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जीवन झाक नाटकक सामाजिक विवर्तन (अंक १८ मे प्रकाशित खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2008-09-15",
+      "year": "2008",
+      "issue": "18",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili drama criticism; social history; Jivan Jha studies",
+      "url": "https://www.videha.co.in/research/2008/18/जीवन-झाक-नाटकक-सामाजिक-विवर्तन-अंक-१८-मे-प्रकाशित-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20018.pdf",
+      "path": "2008/18/जीवन-झाक-नाटकक-सामाजिक-विवर्तन-अंक-१८-मे-प्रकाशित-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "नॉर्थ कछार हिल्स: धरतीक नुकाएल स्वर्ग (दोसर खेप)",
       "english_title": null,
       "authors": [
@@ -115,6 +172,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20018.pdf",
       "path": "2008/18/नॉर्थ-कछार-हिल्स-धरतीक-नुकाएल-स्वर्ग-दोसर-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नो एण्ट्री: मा प्रविश—नाट्य समीक्षा",
+      "english_title": null,
+      "authors": [
+        "प्रोफेसर प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2008-09-15",
+      "year": "2008",
+      "issue": "18",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili drama criticism; theatre theory; Nachiketa studies",
+      "url": "https://www.videha.co.in/research/2008/18/नो-एण्ट्री-मा-प्रविश-नाट्य-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20018.pdf",
+      "path": "2008/18/नो-एण्ट्री-मा-प्रविश-नाट्य-समीक्षा.htm",
       "page_start": null,
       "page_end": null
     },
