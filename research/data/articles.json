@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T13:36:50.372973+00:00",
+  "generated": "2026-08-28T13:44:51.241959+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 321,
-    "promoted_sections_publishable": 310,
+    "promoted_sections_requested": 326,
+    "promoted_sections_publishable": 315,
     "promoted_sections_review": 11,
     "curated_manifests": 1,
-    "published_after_all_overrides": 362,
+    "published_after_all_overrides": 367,
     "stale_generated_pages_removed_before_render": 362,
     "build_errors": 0
   },
@@ -575,6 +575,25 @@
       "page_end": null
     },
     {
+      "title": "आवश्यकता अछि सकारात्मक मौलिक चिन्तनक",
+      "english_title": null,
+      "authors": [
+        "बिपिन झा"
+      ],
+      "publication_date": "2009-12-01",
+      "year": "2009",
+      "issue": "47",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Philosophy of education; social thought; Maithili essays",
+      "url": "https://www.videha.co.in/research/2009/47/आवश्यकता-अछि-सकारात्मक-मौलिक-चिन्तनक.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20047.pdf",
+      "path": "2009/47/आवश्यकता-अछि-सकारात्मक-मौलिक-चिन्तनक.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मिथिलाक इतिहास (आगाँ)",
       "english_title": null,
       "authors": [
@@ -594,6 +613,44 @@
       "page_end": null
     },
     {
+      "title": "कथं ‘संस्कृतं’ संस्कृतम्",
+      "english_title": null,
+      "authors": [
+        "बिपिन झा"
+      ],
+      "publication_date": "2009-12-15",
+      "year": "2009",
+      "issue": "48",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Sanskrit linguistics; language philosophy; Maithili intellectual history",
+      "url": "https://www.videha.co.in/research/2009/48/कथं-संस्कृतं-संस्कृतम्.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20048.pdf",
+      "path": "2009/48/कथं-संस्कृतं-संस्कृतम्.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "आवश्यकता अछि मैथिली शब्दतन्त्र निर्माणक",
+      "english_title": null,
+      "authors": [
+        "बिपिन झा"
+      ],
+      "publication_date": "2010-01-01",
+      "year": "2010",
+      "issue": "49",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili lexicography; language technology; computational linguistics",
+      "url": "https://www.videha.co.in/research/2010/49/आवश्यकता-अछि-मैथिली-शब्दतन्त्र-निर्माणक.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20049.pdf",
+      "path": "2010/49/आवश्यकता-अछि-मैथिली-शब्दतन्त्र-निर्माणक.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "नेपालमे मधेशीकेँ समस्या आ समाधान",
       "english_title": null,
       "authors": [
@@ -609,6 +666,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20049.pdf",
       "path": "2010/49/नेपालमे-मधेशीकेँ-समस्या-आ-समाधान.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मणिपद्मक कथा–यात्रा",
+      "english_title": null,
+      "authors": [
+        "प्रो. प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2010-01-01",
+      "year": "2010",
+      "issue": "49",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; Manipadma studies; narrative history",
+      "url": "https://www.videha.co.in/research/2010/49/मणिपद्मक-कथा-यात्रा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20049.pdf",
+      "path": "2010/49/मणिपद्मक-कथा-यात्रा.htm",
       "page_start": null,
       "page_end": null
     },
@@ -723,6 +799,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20061.pdf",
       "path": "2010/61/मिथिलाक-विस्मृत-राजधनी-देवकुली.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हे हृदयेश्वरी: एक कटाक्षालोचन",
+      "english_title": null,
+      "authors": [
+        "बिपिन झा"
+      ],
+      "publication_date": "2010-07-15",
+      "year": "2010",
+      "issue": "62",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; rhetorical analysis; modern literature",
+      "url": "https://www.videha.co.in/research/2010/62/हे-हृदयेश्वरी-एक-कटाक्षालोचन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20062.pdf",
+      "path": "2010/62/हे-हृदयेश्वरी-एक-कटाक्षालोचन.htm",
       "page_start": null,
       "page_end": null
     },

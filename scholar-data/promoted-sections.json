@@ -2349,5 +2349,55 @@
     "body_source": "search-documents/videha-021.html",
     "manual_body_start": "२. डॉ. देवशंकर नवीन",
     "manual_body_end": "३.पद्य"
+  },
+  {
+    "issue": "062",
+    "section": "2.4",
+    "author_override": "बिपिन झा",
+    "title_override": "हे हृदयेश्वरी: एक कटाक्षालोचन",
+    "classification": "Maithili literary criticism; rhetorical analysis; modern literature",
+    "body_source": "search-documents/videha-062.html",
+    "manual_body_start": "हे हृदयेश्वरी: एक कटाक्षालोचन ॥",
+    "manual_body_end": "१.मुन्ना जी- अधिकार"
+  },
+  {
+    "issue": "047",
+    "section": "2.4",
+    "author_override": "बिपिन झा",
+    "title_override": "आवश्यकता अछि सकारात्मक मौलिक चिन्तनक",
+    "classification": "Philosophy of education; social thought; Maithili essays",
+    "body_source": "search-documents/videha-047.html",
+    "manual_body_start": "आवश्यकता अछि सकारात्मक मौलिक चिन्तनक",
+    "manual_body_end": "१.कुसुम ठाकुर- प्रत्यावर्तन"
+  },
+  {
+    "issue": "048",
+    "section": "2.4",
+    "author_override": "बिपिन झा",
+    "title_override": "कथं ‘संस्कृतं’ संस्कृतम्",
+    "classification": "Sanskrit linguistics; language philosophy; Maithili intellectual history",
+    "body_source": "search-documents/videha-048.html",
+    "manual_body_start": "कथं ’संस्कृतं’ संस्कृतम् ॥",
+    "manual_body_end": "अनमोल झा\nरिलेशन-१"
+  },
+  {
+    "issue": "049",
+    "section": "2.4.1",
+    "author_override": "बिपिन झा",
+    "title_override": "आवश्यकता अछि मैथिली शब्दतन्त्र निर्माणक",
+    "classification": "Maithili lexicography; language technology; computational linguistics",
+    "body_source": "search-documents/videha-049.html",
+    "manual_body_start": "आवश्यकता अछि मैथिली शब्दतन्त्र निर्माणक ॥",
+    "manual_body_end": "२.-गोपाल प्रसाद\nफराक मिथिला राज्यक गठन कियक नहि ?"
+  },
+  {
+    "issue": "049",
+    "section": "2.3.3",
+    "author_override": "प्रो. प्रेमशंकर सिंह",
+    "title_override": "मणिपद्मक कथा–यात्रा",
+    "classification": "Maithili literary criticism; Manipadma studies; narrative history",
+    "body_source": "search-documents/videha-049.html",
+    "manual_body_start": "३.प्रो. प्रेमशंकर सिंह\nमणिपद्मक कथा–यात्रा",
+    "manual_body_end": "४.रामलोचन ठाकुर\nसमकालीन मैथिली-कथाक यथार्थ"
   }
 ]
