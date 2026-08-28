@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T16:15:14.638457+00:00",
+  "generated": "2026-08-28T16:31:29.490946+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,15 +14,300 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 335,
-    "promoted_sections_publishable": 324,
-    "promoted_sections_review": 11,
+    "promoted_sections_requested": 358,
+    "promoted_sections_publishable": 339,
+    "promoted_sections_review": 19,
     "curated_manifests": 1,
-    "published_after_all_overrides": 376,
-    "stale_generated_pages_removed_before_render": 374,
+    "published_after_all_overrides": 391,
+    "stale_generated_pages_removed_before_render": 383,
     "build_errors": 0
   },
   "articles": [
+    {
+      "title": "Videha, Mithila, Tirbhukti, Tirhut (continuation 1)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-01-15",
+      "year": "2008",
+      "issue": "2",
+      "language": "mai",
+      "keywords": [],
+      "classification": "English-language Mithila history; ancient history; historical geography",
+      "url": "https://www.videha.co.in/research/2008/2/videha-mithila-tirbhukti-tirhut-continuation-1.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20002.pdf",
+      "path": "2008/2/videha-mithila-tirbhukti-tirhut-continuation-1.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कामेश्वर सिंह दरभङ्गा संस्कृत विश्वविद्यालयक प्रासंगिकता",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-01-15",
+      "year": "2008",
+      "issue": "2",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Higher education history; Sanskrit studies; institutional policy in Mithila",
+      "url": "https://www.videha.co.in/research/2008/2/कामेश्वर-सिंह-दरभङ्गा-संस्कृत-विश्वविद्यालयक-प्रासंगिकता.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20002.pdf",
+      "path": "2008/2/कामेश्वर-सिंह-दरभङ्गा-संस्कृत-विश्वविद्यालयक-प्रासंगिकता.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली रामचरित मानस—मैथिली समालोचनाक विफलता",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-01-15",
+      "year": "2008",
+      "issue": "2",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; Ramayana studies; reception history",
+      "url": "https://www.videha.co.in/research/2008/2/मैथिली-रामचरित-मानस-मैथिली-समालोचनाक-विफलता.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20002.pdf",
+      "path": "2008/2/मैथिली-रामचरित-मानस-मैथिली-समालोचनाक-विफलता.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "Videha, Mithila, Tirbhukti, Tirhut (continuation 2)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-02-01",
+      "year": "2008",
+      "issue": "3",
+      "language": "mai",
+      "keywords": [],
+      "classification": "English-language Mithila history; Janaka dynasty; historical geography",
+      "url": "https://www.videha.co.in/research/2008/3/videha-mithila-tirbhukti-tirhut-continuation-2.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20003.pdf",
+      "path": "2008/3/videha-mithila-tirbhukti-tirhut-continuation-2.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "दरिभङ्गा संस्कृत विश्वविद्यालयक प्रासंगिकता (क्रमशः)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-02-01",
+      "year": "2008",
+      "issue": "3",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Higher education history; Sanskrit studies; institutional policy in Mithila",
+      "url": "https://www.videha.co.in/research/2008/3/दरिभङ्गा-संस्कृत-विश्वविद्यालयक-प्रासंगिकता-क्रमशः.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20003.pdf",
+      "path": "2008/3/दरिभङ्गा-संस्कृत-विश्वविद्यालयक-प्रासंगिकता-क्रमशः.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पंजी-प्रबंध: गोत्र आ मूल ग्रामक ऐतिहासिक विन्यास",
+      "english_title": null,
+      "authors": [
+        "विद्यानन्द झा पञ्जीकार"
+      ],
+      "publication_date": "2008-02-01",
+      "year": "2008",
+      "issue": "3",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Genealogical studies; Panji manuscripts; Mithila social history",
+      "url": "https://www.videha.co.in/research/2008/3/पंजी-प्रबंध-गोत्र-आ-मूल-ग्रामक-ऐतिहासिक-विन्यास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20003.pdf",
+      "path": "2008/3/पंजी-प्रबंध-गोत्र-आ-मूल-ग्रामक-ऐतिहासिक-विन्यास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मायानन्द मिश्रक इतिहास-बोध",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-02-01",
+      "year": "2008",
+      "issue": "3",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; historical fiction; Mayanand Mishra studies",
+      "url": "https://www.videha.co.in/research/2008/3/मायानन्द-मिश्रक-इतिहास-बोध.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20003.pdf",
+      "path": "2008/3/मायानन्द-मिश्रक-इतिहास-बोध.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मायानन्द मिश्रक इतिहास-बोध (क्रमशः 4)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-03-15",
+      "year": "2008",
+      "issue": "6",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; historical fiction; Mayanand Mishra studies",
+      "url": "https://www.videha.co.in/research/2008/6/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-4.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20006.pdf",
+      "path": "2008/6/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-4.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मायानन्द मिश्रक इतिहास-बोध (क्रमशः 5)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-04-01",
+      "year": "2008",
+      "issue": "7",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; historical fiction; Mayanand Mishra studies",
+      "url": "https://www.videha.co.in/research/2008/7/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-5.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20007.pdf",
+      "path": "2008/7/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-5.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पञ्जी प्रबंध: पञ्जीकार परम्परा आ मूल-गोत्र विन्यास",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-04-15",
+      "year": "2008",
+      "issue": "8",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Genealogical studies; Panji manuscripts; Mithila social history",
+      "url": "https://www.videha.co.in/research/2008/8/पञ्जी-प्रबंध-पञ्जीकार-परम्परा-आ-मूल-गोत्र-विन्यास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20008.pdf",
+      "path": "2008/8/पञ्जी-प्रबंध-पञ्जीकार-परम्परा-आ-मूल-गोत्र-विन्यास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मायानन्द मिश्रक इतिहास-बोध (क्रमशः 6)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-04-15",
+      "year": "2008",
+      "issue": "8",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; historical fiction; Mayanand Mishra studies",
+      "url": "https://www.videha.co.in/research/2008/8/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-6.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20008.pdf",
+      "path": "2008/8/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-6.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "Videha, Mithila, Tirbhukti, Tirhut (continuation 3)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-05-01",
+      "year": "2008",
+      "issue": "9",
+      "language": "mai",
+      "keywords": [],
+      "classification": "English-language Mithila history; Videha polity; Buddhist history",
+      "url": "https://www.videha.co.in/research/2008/9/videha-mithila-tirbhukti-tirhut-continuation-3.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20009.pdf",
+      "path": "2008/9/videha-mithila-tirbhukti-tirhut-continuation-3.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पञ्जी प्रबंध: वैवाहिक पञ्जी आ सामाजिक इतिहास",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-05-01",
+      "year": "2008",
+      "issue": "9",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Genealogical studies; Panji manuscripts; Mithila social history",
+      "url": "https://www.videha.co.in/research/2008/9/पञ्जी-प्रबंध-वैवाहिक-पञ्जी-आ-सामाजिक-इतिहास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20009.pdf",
+      "path": "2008/9/पञ्जी-प्रबंध-वैवाहिक-पञ्जी-आ-सामाजिक-इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मायानन्द मिश्रक इतिहास-बोध (क्रमशः 7)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-05-01",
+      "year": "2008",
+      "issue": "9",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; historical fiction; Mayanand Mishra studies",
+      "url": "https://www.videha.co.in/research/2008/9/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-7.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20009.pdf",
+      "path": "2008/9/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-7.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मायानन्द मिश्रक इतिहास-बोध (क्रमशः 8)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2008-05-15",
+      "year": "2008",
+      "issue": "10",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; historical fiction; Mayanand Mishra studies",
+      "url": "https://www.videha.co.in/research/2008/10/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-8.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20010.pdf",
+      "path": "2008/10/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-8.htm",
+      "page_start": null,
+      "page_end": null
+    },
     {
       "title": "पंचदेवोपासक भूमि मिथिला",
       "english_title": null,

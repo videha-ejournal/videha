@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T16:15:14.637646+00:00",
+  "generated": "2026-08-28T16:31:29.490291+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,12 +12,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 335,
-    "promoted_sections_publishable": 324,
-    "promoted_sections_review": 11,
+    "promoted_sections_requested": 358,
+    "promoted_sections_publishable": 339,
+    "promoted_sections_review": 19,
     "curated_manifests": 1,
-    "published_after_all_overrides": 376,
-    "stale_generated_pages_removed_before_render": 374,
+    "published_after_all_overrides": 391,
+    "stale_generated_pages_removed_before_render": 383,
     "build_errors": 0
   },
   "explicit_review": [
@@ -655,6 +655,78 @@
       "author": "डॉ. चित्रलेखा",
       "title": "मिथिलामे पावनि-तिहार",
       "body_chars": 1147,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "1",
+      "section": "1.1",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "विस्मृत कवि—पं. रामजी चौधरी (1878–1952)",
+      "body_chars": 1244,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "4",
+      "section": "1.1",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "मायानन्द मिश्रक इतिहास-बोध (क्रमशः 2)",
+      "body_chars": 979,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "5",
+      "section": "1.1",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "मायानन्द मिश्रक इतिहास-बोध (क्रमशः 3)",
+      "body_chars": 751,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "4",
+      "section": "11.1",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "मिथिलाक राजनीतिक आ सांस्कृतिक भूगोल",
+      "body_chars": 1678,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "6",
+      "section": "11.1",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "सर्वतंत्रस्वतंत्र बच्चा झाक जीवनी",
+      "body_chars": 1077,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "7",
+      "section": "11.1",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "सर्वतंत्रस्वतंत्र बच्चा झाक जीवनी (दोसर भाग)",
+      "body_chars": 1616,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "10",
+      "section": "12.1",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "पञ्जी प्रबंध: पञ्जी परम्पराक ऐतिहासिक परिचय",
+      "body_chars": 1556,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "10",
+      "section": "16.1",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "Videha, Mithila, Tirbhukti, Tirhut (continuation 4)",
+      "body_chars": 1471,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     }
