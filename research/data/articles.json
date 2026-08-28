@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T19:53:27.889275+00:00",
+  "generated": "2026-08-28T20:03:48.299857+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 462,
-    "promoted_sections_publishable": 434,
-    "promoted_sections_review": 28,
+    "promoted_sections_requested": 476,
+    "promoted_sections_publishable": 447,
+    "promoted_sections_review": 29,
     "curated_manifests": 1,
-    "published_after_all_overrides": 486,
-    "stale_generated_pages_removed_before_render": 486,
+    "published_after_all_overrides": 499,
+    "stale_generated_pages_removed_before_render": 498,
     "build_errors": 0
   },
   "articles": [
@@ -2798,6 +2798,63 @@
       "page_end": null
     },
     {
+      "title": "जनमानस हेतु प्रत्यभिज्ञादर्शनक वैशिष्ट्य",
+      "english_title": null,
+      "authors": [
+        "बिपिन झा"
+      ],
+      "publication_date": "2010-02-01",
+      "year": "2010",
+      "issue": "51",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Sanskrit philosophy; Pratyabhijna thought; intellectual history",
+      "url": "https://www.videha.co.in/research/2010/51/जनमानस-हेतु-प्रत्यभिज्ञादर्शनक-वैशिष्ट्य.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20051.pdf",
+      "path": "2010/51/जनमानस-हेतु-प्रत्यभिज्ञादर्शनक-वैशिष्ट्य.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "तन्त्रानाथ झा / सुभद्र झा जन्मशतवार्षिकी",
+      "english_title": null,
+      "authors": [
+        "डॉ. रमानन्द झा ‘रमण’"
+      ],
+      "publication_date": "2010-02-01",
+      "year": "2010",
+      "issue": "51",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili intellectual history; language movement; literary biography",
+      "url": "https://www.videha.co.in/research/2010/51/तन्त्रानाथ-झा-सुभद्र-झा-जन्मशतवार्षिकी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20051.pdf",
+      "path": "2010/51/तन्त्रानाथ-झा-सुभद्र-झा-जन्मशतवार्षिकी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नेपालक राज्य पुनर्संरचना मे मिथिला आ मैथिली",
+      "english_title": null,
+      "authors": [
+        "अतिश कुमार मिश्र"
+      ],
+      "publication_date": "2010-02-01",
+      "year": "2010",
+      "issue": "51",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila history; Nepal federalism; language policy and regional studies",
+      "url": "https://www.videha.co.in/research/2010/51/नेपालक-राज्य-पुनर्संरचना-मे-मिथिला-आ-मैथिली.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20051.pdf",
+      "path": "2010/51/नेपालक-राज्य-पुनर्संरचना-मे-मिथिला-आ-मैथिली.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मिथिलाक इतिहास (आगाँ)",
       "english_title": null,
       "authors": [
@@ -2813,6 +2870,44 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20051.pdf",
       "path": "2010/51/मिथिलाक-इतिहास-आगाँ.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "‘प्रयोग’ एकांकीक रंगमंचीय दृष्टि",
+      "english_title": null,
+      "authors": [
+        "प्रकाश चन्द्र"
+      ],
+      "publication_date": "2010-02-01",
+      "year": "2010",
+      "issue": "51",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre studies; one-act drama; stagecraft and performance analysis",
+      "url": "https://www.videha.co.in/research/2010/51/प्रयोग-एकांकीक-रंगमंचीय-दृष्टि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20051.pdf",
+      "path": "2010/51/प्रयोग-एकांकीक-रंगमंचीय-दृष्टि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जनकपुरमे मिथिला महोत्सवक आयोजन: नव अध्यायक शुभारंभ",
+      "english_title": null,
+      "authors": [
+        "रामभरोस कापड़ि ‘भ्रमर’"
+      ],
+      "publication_date": "2010-02-15",
+      "year": "2010",
+      "issue": "52",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila cultural history; heritage institutions; Janakpur regional studies",
+      "url": "https://www.videha.co.in/research/2010/52/जनकपुरमे-मिथिला-महोत्सवक-आयोजन-नव-अध्यायक-शुभारंभ.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20052.pdf",
+      "path": "2010/52/जनकपुरमे-मिथिला-महोत्सवक-आयोजन-नव-अध्यायक-शुभारंभ.htm",
       "page_start": null,
       "page_end": null
     },
@@ -2851,6 +2946,158 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20053.pdf",
       "path": "2010/53/मिथिलाक-इतिहास-अन्तिम-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कृतारिषड्वर्गजयेनमानवीम्…। (सफलताक मूलसूत्र)",
+      "english_title": null,
+      "authors": [
+        "बिपिन झा"
+      ],
+      "publication_date": "2010-03-15",
+      "year": "2010",
+      "issue": "54",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Sanskrit philosophy; ethics; Indian intellectual traditions",
+      "url": "https://www.videha.co.in/research/2010/54/कृतारिषड्वर्गजयेनमानवीम्-।-सफलताक-मूलसूत्र.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20054.pdf",
+      "path": "2010/54/कृतारिषड्वर्गजयेनमानवीम्-।-सफलताक-मूलसूत्र.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नेपालमे मैथिली भाषामे पढाइ: उत्साह कम निराशा बेसी",
+      "english_title": null,
+      "authors": [
+        "सुजीतकुमार झा"
+      ],
+      "publication_date": "2010-03-15",
+      "year": "2010",
+      "issue": "54",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili language studies; education policy; Nepal sociolinguistics",
+      "url": "https://www.videha.co.in/research/2010/54/नेपालमे-मैथिली-भाषामे-पढाइ-उत्साह-कम-निराशा-बेसी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20054.pdf",
+      "path": "2010/54/नेपालमे-मैथिली-भाषामे-पढाइ-उत्साह-कम-निराशा-बेसी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "प्रतिवादक स्वर",
+      "english_title": null,
+      "authors": [
+        "डॉ. शेफालिका वर्मा"
+      ],
+      "publication_date": "2010-04-01",
+      "year": "2010",
+      "issue": "55",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; gender and social criticism; modern literature",
+      "url": "https://www.videha.co.in/research/2010/55/प्रतिवादक-स्वर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20055.pdf",
+      "path": "2010/55/प्रतिवादक-स्वर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "स्वान विमर्श",
+      "english_title": null,
+      "authors": [
+        "सत्यानंद पाठक"
+      ],
+      "publication_date": "2010-04-01",
+      "year": "2010",
+      "issue": "55",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Literary criticism; philosophical aesthetics; Maithili intellectual discourse",
+      "url": "https://www.videha.co.in/research/2010/55/स्वान-विमर्श.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20055.pdf",
+      "path": "2010/55/स्वान-विमर्श.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "निर्मलीसँ जनकपुर धाम",
+      "english_title": null,
+      "authors": [
+        "उमेश मंडल"
+      ],
+      "publication_date": "2010-04-15",
+      "year": "2010",
+      "issue": "56",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Cultural geography; pilgrimage studies; Mithila literary institutions",
+      "url": "https://www.videha.co.in/research/2010/56/निर्मलीसँ-जनकपुर-धाम.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20056.pdf",
+      "path": "2010/56/निर्मलीसँ-जनकपुर-धाम.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "अवतारवाद",
+      "english_title": null,
+      "authors": [
+        "जगदीश प्रसाद मंडल"
+      ],
+      "publication_date": "2010-05-15",
+      "year": "2010",
+      "issue": "58",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Religious philosophy; Maithili intellectual history; comparative thought",
+      "url": "https://www.videha.co.in/research/2010/58/अवतारवाद.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20058.pdf",
+      "path": "2010/58/अवतारवाद.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कवि पं. प्रतापनारायण झा कें छठम पुण्यतिथि पर हार्दिक श्रद्धाञ्जलि",
+      "english_title": null,
+      "authors": [
+        "राजेश्वर नेपाली"
+      ],
+      "publication_date": "2010-05-15",
+      "year": "2010",
+      "issue": "58",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary biography; poet studies; literary history",
+      "url": "https://www.videha.co.in/research/2010/58/कवि-पं-प्रतापनारायण-झा-कें-छठम-पुण्यतिथि-पर-हार्दिक-श्रद्धाञ्जलि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20058.pdf",
+      "path": "2010/58/कवि-पं-प्रतापनारायण-झा-कें-छठम-पुण्यतिथि-पर-हार्दिक-श्रद्धाञ्जलि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "संस्मरण साहित्य",
+      "english_title": null,
+      "authors": [
+        "प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2010-05-15",
+      "year": "2010",
+      "issue": "58",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; memoir studies; literary history",
+      "url": "https://www.videha.co.in/research/2010/58/संस्मरण-साहित्य.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20058.pdf",
+      "path": "2010/58/संस्मरण-साहित्य.htm",
       "page_start": null,
       "page_end": null
     },

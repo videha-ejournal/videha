@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T19:53:27.888276+00:00",
+  "generated": "2026-08-28T20:03:48.297834+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,12 +12,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 462,
-    "promoted_sections_publishable": 434,
-    "promoted_sections_review": 28,
+    "promoted_sections_requested": 476,
+    "promoted_sections_publishable": 447,
+    "promoted_sections_review": 29,
     "curated_manifests": 1,
-    "published_after_all_overrides": 486,
-    "stale_generated_pages_removed_before_render": 486,
+    "published_after_all_overrides": 499,
+    "stale_generated_pages_removed_before_render": 498,
     "build_errors": 0
   },
   "explicit_review": [
@@ -778,6 +778,15 @@
       "author": "महाप्रकाश",
       "title": "सुभाषचन्द्र यादवक कथा-साहित्य",
       "body_chars": 1005,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "54",
+      "section": "2.3",
+      "author": "मनोज झा मुक्ति",
+      "title": "मिथिला महोत्सव आ एकर उपलब्धि",
+      "body_chars": 958,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     }
