@@ -1269,5 +1269,45 @@
     "body_source": "search-documents/videha-151.html",
     "manual_body_start": "A Survey of Maithili Literature- Radhakrishna Chaudhary",
     "manual_body_end": "FESTIVALS OF MITHILA (2013-14)"
+  },
+  {
+    "issue": "19",
+    "section": "4.3",
+    "author_override": "डॉ. प्रेमशंकर सिंह",
+    "title_override": "जीवन झाक नाटकक सामाजिक विवर्तन (अंक १९ मे प्रकाशित खेप)",
+    "classification": "Maithili drama criticism; social history; Jivan Jha studies",
+    "body_source": "search-documents/videha-019.html",
+    "manual_body_start": "जीवन झाक नाटकक सामाजिक विवर्तन (आगाँ)",
+    "manual_body_end": "स्व. राजकमल चौधरी पर डॉ. देवशंकर नवीन"
+  },
+  {
+    "issue": "20",
+    "section": "4.4.1",
+    "author_override": "डॉ. प्रेमशंकर सिंह",
+    "title_override": "जीवन झाक नाटकक सामाजिक विवर्तन (अंक २० मे प्रकाशित खेप)",
+    "classification": "Maithili drama criticism; social and cultural history; Jivan Jha studies",
+    "body_source": "search-documents/videha-020.html",
+    "manual_body_start": "जीवन झाक नाटकक सामाजिक विवर्तन (आगाँ)",
+    "manual_body_end": "२. डॉ. देवशंकर नवीन"
+  },
+  {
+    "issue": "21",
+    "section": "2.4.1",
+    "author_override": "डॉ. प्रेमशंकर सिंह",
+    "title_override": "जीवन झाक नाटकक सामाजिक विवर्तन (अंक २१ मे प्रकाशित खेप)",
+    "classification": "Maithili drama criticism; theatre history; Jivan Jha studies",
+    "body_source": "search-documents/videha-021.html",
+    "manual_body_start": "जीवन झाक नाटकक सामाजिक विवर्तन (आगाँ)",
+    "manual_body_end": "२. डॉ. देवशंकर नवीन"
+  },
+  {
+    "issue": "70",
+    "section": "2.3.2",
+    "author_override": "प्रोफेसर प्रेमशंकर सिंह",
+    "title_override": "मैथिली बाल काव्यधारा",
+    "classification": "Maithili children's literature; poetry history; translation studies",
+    "body_source": "search-documents/videha-070.html",
+    "manual_body_start": "मैथिली बाल काव्यधारा",
+    "manual_body_end": "१.तारानन्द वियोगीक संग अनिल गौतमक वार्तालाप"
   }
 ]
