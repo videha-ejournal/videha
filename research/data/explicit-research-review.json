@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T20:03:48.297834+00:00",
+  "generated": "2026-08-28T20:08:45.182501+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -7,17 +7,17 @@
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 3,
-    "audit_queue_held": 19,
+    "audit_queue_held": 18,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 476,
-    "promoted_sections_publishable": 447,
-    "promoted_sections_review": 29,
+    "promoted_sections_requested": 489,
+    "promoted_sections_publishable": 457,
+    "promoted_sections_review": 32,
     "curated_manifests": 1,
-    "published_after_all_overrides": 499,
-    "stale_generated_pages_removed_before_render": 498,
+    "published_after_all_overrides": 506,
+    "stale_generated_pages_removed_before_render": 499,
     "build_errors": 0
   },
   "explicit_review": [
@@ -118,11 +118,6 @@
     {
       "issue": "59",
       "section": "2.5",
-      "reason": "legacy-boundary-oversize"
-    },
-    {
-      "issue": "61",
-      "section": "2.6",
       "reason": "legacy-boundary-oversize"
     },
     {
@@ -789,6 +784,25 @@
       "body_chars": 958,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "64",
+      "section": "2.1",
+      "reason": "manual body end marker not found"
+    },
+    {
+      "issue": "68",
+      "section": "2.3",
+      "author": "सुजीत कुमार झा",
+      "title": "अनौपचारिक शिक्षामे मैथिली पढाइकें हिसाब सँ प्रभावकारी भऽ रहल",
+      "body_chars": 1485,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "68",
+      "section": "2.6",
+      "reason": "manual body end marker not found"
     }
   ],
   "build_errors": []

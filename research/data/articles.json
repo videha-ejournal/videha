@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T20:03:48.299857+00:00",
+  "generated": "2026-08-28T20:08:45.183752+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -9,17 +9,17 @@
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 3,
-    "audit_queue_held": 19,
+    "audit_queue_held": 18,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 476,
-    "promoted_sections_publishable": 447,
-    "promoted_sections_review": 29,
+    "promoted_sections_requested": 489,
+    "promoted_sections_publishable": 457,
+    "promoted_sections_review": 32,
     "curated_manifests": 1,
-    "published_after_all_overrides": 499,
-    "stale_generated_pages_removed_before_render": 498,
+    "published_after_all_overrides": 506,
+    "stale_generated_pages_removed_before_render": 499,
     "build_errors": 0
   },
   "articles": [
@@ -3121,6 +3121,25 @@
       "page_end": null
     },
     {
+      "title": "काठमाण्डूमेँ कोहबर घर आ परम्पराके निरन्तरतामेँ प्रवास",
+      "english_title": null,
+      "authors": [
+        "जितेन्द्र झा"
+      ],
+      "publication_date": "2010-07-01",
+      "year": "2010",
+      "issue": "61",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila cultural studies; migration; ritual art and continuity",
+      "url": "https://www.videha.co.in/research/2010/61/काठमाण्डूमेँ-कोहबर-घर-आ-परम्पराके-निरन्तरतामेँ-प्रवास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20061.pdf",
+      "path": "2010/61/काठमाण्डूमेँ-कोहबर-घर-आ-परम्पराके-निरन्तरतामेँ-प्रवास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मिथिलाक विस्मृत राजधनी देवकुली",
       "english_title": null,
       "authors": [
@@ -3140,6 +3159,63 @@
       "page_end": null
     },
     {
+      "title": "मिथिलाक विस्मृत राजधानी देवकुली",
+      "english_title": null,
+      "authors": [
+        "डा. शंकरदेव झा"
+      ],
+      "publication_date": "2010-07-01",
+      "year": "2010",
+      "issue": "61",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila history; Deokuli historical geography; cultural heritage",
+      "url": "https://www.videha.co.in/research/2010/61/मिथिलाक-विस्मृत-राजधानी-देवकुली.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20061.pdf",
+      "path": "2010/61/मिथिलाक-विस्मृत-राजधानी-देवकुली.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "अलग राज्यक माँग कतेक सार्थक !!",
+      "english_title": null,
+      "authors": [
+        "कुसुम ठाकुर"
+      ],
+      "publication_date": "2010-07-15",
+      "year": "2010",
+      "issue": "62",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Political analysis; Mithila statehood; regional development",
+      "url": "https://www.videha.co.in/research/2010/62/अलग-राज्यक-माँग-कतेक-सार्थक.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20062.pdf",
+      "path": "2010/62/अलग-राज्यक-माँग-कतेक-सार्थक.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "विदेशमे भविष्य देखैत अछि विद्यार्थी",
+      "english_title": null,
+      "authors": [
+        "जितेन्द्र झा"
+      ],
+      "publication_date": "2010-07-15",
+      "year": "2010",
+      "issue": "62",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Education studies; student migration; youth aspirations",
+      "url": "https://www.videha.co.in/research/2010/62/विदेशमे-भविष्य-देखैत-अछि-विद्यार्थी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20062.pdf",
+      "path": "2010/62/विदेशमे-भविष्य-देखैत-अछि-विद्यार्थी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "हे हृदयेश्वरी: एक कटाक्षालोचन",
       "english_title": null,
       "authors": [
@@ -3150,7 +3226,7 @@
       "issue": "62",
       "language": "mai",
       "keywords": [],
-      "classification": "Maithili literary criticism; rhetorical analysis; modern literature",
+      "classification": "Maithili literary criticism; satire; textual analysis",
       "url": "https://www.videha.co.in/research/2010/62/हे-हृदयेश्वरी-एक-कटाक्षालोचन.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20062.pdf",
@@ -3188,7 +3264,7 @@
       "issue": "64",
       "language": "mai",
       "keywords": [],
-      "classification": "Ritual studies; Madhushravani; gender and sexuality; Mithila ethnography",
+      "classification": "Mithila anthropology; marriage rituals; Madhushravani studies",
       "url": "https://www.videha.co.in/research/2010/64/मधुश्रावणी-मिथिलाक-पारम्परिक-हनिमून.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20064.pdf",
@@ -3216,6 +3292,25 @@
       "page_end": null
     },
     {
+      "title": "मैथिली साहित्यक काल-निर्धारण",
+      "english_title": null,
+      "authors": [
+        "शम्भु कुमार सिंह"
+      ],
+      "publication_date": "2010-09-01",
+      "year": "2010",
+      "issue": "65",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; chronology; historical methodology",
+      "url": "https://www.videha.co.in/research/2010/65/मैथिली-साहित्यक-काल-निर्धारण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20065.pdf",
+      "path": "2010/65/मैथिली-साहित्यक-काल-निर्धारण.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "“मैथिली साहित्यक काल-निर्धारण” यू. पी. एस. सी. परीक्षार्थीक हेतु उपयोगी",
       "english_title": null,
       "authors": [
@@ -3231,6 +3326,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20065.pdf",
       "path": "2010/65/मैथिली-साहित्यक-काल-निर्धारण-यू-पी-एस-सी-परीक्षार्थीक-हेतु-उपयोगी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिलीक प्रमुख उपभाषाक क्षेत्र आ ओकर प्रमुख विशेषता",
+      "english_title": null,
+      "authors": [
+        "शम्भु कुमार सिंह"
+      ],
+      "publication_date": "2010-09-15",
+      "year": "2010",
+      "issue": "66",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili linguistics; dialect geography; language studies",
+      "url": "https://www.videha.co.in/research/2010/66/मैथिलीक-प्रमुख-उपभाषाक-क्षेत्र-आ-ओकर-प्रमुख-विशेषता.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20066.pdf",
+      "path": "2010/66/मैथिलीक-प्रमुख-उपभाषाक-क्षेत्र-आ-ओकर-प्रमुख-विशेषता.htm",
       "page_start": null,
       "page_end": null
     },
@@ -3292,6 +3406,25 @@
       "page_end": null
     },
     {
+      "title": "आचार्य रमानाथ झा आ प्रो. तंत्रनाथ झाक भाषणमाला-२०१०",
+      "english_title": null,
+      "authors": [
+        "सुमित आनन्द"
+      ],
+      "publication_date": "2010-10-15",
+      "year": "2010",
+      "issue": "68",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili intellectual history; scholarly lectures; language movement",
+      "url": "https://www.videha.co.in/research/2010/68/आचार्य-रमानाथ-झा-आ-प्रो-तंत्रनाथ-झाक-भाषणमाला-२०१०.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20068.pdf",
+      "path": "2010/68/आचार्य-रमानाथ-झा-आ-प्रो-तंत्रनाथ-झाक-भाषणमाला-२०१०.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "की अछि दिल्लीक जी.बी. रोडक कोठाक सत",
       "english_title": null,
       "authors": [
@@ -3302,7 +3435,7 @@
       "issue": "68",
       "language": "mai",
       "keywords": [],
-      "classification": "Investigative social reportage; sex-work studies; urban sociology",
+      "classification": "Urban anthropology; gender studies; Delhi social history; field reporting",
       "url": "https://www.videha.co.in/research/2010/68/की-अछि-दिल्लीक-जी-बी-रोडक-कोठाक-सत.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20068.pdf",
