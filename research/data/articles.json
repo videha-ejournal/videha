@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T18:14:57.070681+00:00",
+  "generated": "2026-08-28T18:33:34.888150+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -9,17 +9,17 @@
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 3,
-    "audit_queue_held": 25,
+    "audit_queue_held": 23,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 400,
-    "promoted_sections_publishable": 372,
+    "promoted_sections_requested": 430,
+    "promoted_sections_publishable": 402,
     "promoted_sections_review": 28,
     "curated_manifests": 1,
-    "published_after_all_overrides": 424,
-    "stale_generated_pages_removed_before_render": 422,
+    "published_after_all_overrides": 454,
+    "stale_generated_pages_removed_before_render": 453,
     "build_errors": 0
   },
   "articles": [
@@ -1145,6 +1145,25 @@
       "page_end": null
     },
     {
+      "title": "चौकपर आणविक समझौता",
+      "english_title": null,
+      "authors": [
+        "कृपानन्द झा"
+      ],
+      "publication_date": "2008-11-01",
+      "year": "2008",
+      "issue": "21",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Political commentary; nuclear policy; rural public discourse",
+      "url": "https://www.videha.co.in/research/2008/21/चौकपर-आणविक-समझौता.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20021.pdf",
+      "path": "2008/21/चौकपर-आणविक-समझौता.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "जीवन झाक नाटकक सामाजिक विवर्तन (अंक २१ मे प्रकाशित खेप)",
       "english_title": null,
       "authors": [
@@ -1160,6 +1179,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20021.pdf",
       "path": "2008/21/जीवन-झाक-नाटकक-सामाजिक-विवर्तन-अंक-२१-मे-प्रकाशित-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "प्रकाश चन्द्र झा: मैथिली रंगकर्ममे थ्री-इन-वन",
+      "english_title": null,
+      "authors": [
+        "महेन्द्र मलंगिया"
+      ],
+      "publication_date": "2008-11-01",
+      "year": "2008",
+      "issue": "21",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre studies; performance history; artist profile",
+      "url": "https://www.videha.co.in/research/2008/21/प्रकाश-चन्द्र-झा-मैथिली-रंगकर्ममे-थ्री-इन-वन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20021.pdf",
+      "path": "2008/21/प्रकाश-चन्द्र-झा-मैथिली-रंगकर्ममे-थ्री-इन-वन.htm",
       "page_start": null,
       "page_end": null
     },
@@ -1202,6 +1240,25 @@
       "page_end": null
     },
     {
+      "title": "लोअर दिवांग घाटी: इदु-मिसमी जनजातिक अनुपम संसार (दोसर खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2008-11-01",
+      "year": "2008",
+      "issue": "21",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Anthropology; ethnography; Idu-Mishmi studies; travel research",
+      "url": "https://www.videha.co.in/research/2008/21/लोअर-दिवांग-घाटी-इदु-मिसमी-जनजातिक-अनुपम-संसार-दोसर-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20021.pdf",
+      "path": "2008/21/लोअर-दिवांग-घाटी-इदु-मिसमी-जनजातिक-अनुपम-संसार-दोसर-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "स्व. राजकमल चौधरी पर",
       "english_title": null,
       "authors": [
@@ -1217,6 +1274,101 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20021.pdf",
       "path": "2008/21/स्व-राजकमल-चौधरी-पर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिला विभूति पं. मोदानन्द झा",
+      "english_title": null,
+      "authors": [
+        "प्रोफेसर रत्नेश्वर मिश्र"
+      ],
+      "publication_date": "2008-11-15",
+      "year": "2008",
+      "issue": "22",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Panji scholarship; intellectual biography; Mithila genealogy",
+      "url": "https://www.videha.co.in/research/2008/22/मिथिला-विभूति-पं-मोदानन्द-झा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20022.pdf",
+      "path": "2008/22/मिथिला-विभूति-पं-मोदानन्द-झा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "संविधानसभा, संघीय संरचना आ मिथिला राज्यक औचित्य",
+      "english_title": null,
+      "authors": [
+        "शीतल झा"
+      ],
+      "publication_date": "2008-11-15",
+      "year": "2008",
+      "issue": "22",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Federalism; constitutional studies; Mithila statehood; Nepal politics",
+      "url": "https://www.videha.co.in/research/2008/22/संविधानसभा-संघीय-संरचना-आ-मिथिला-राज्यक-औचित्य.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20022.pdf",
+      "path": "2008/22/संविधानसभा-संघीय-संरचना-आ-मिथिला-राज्यक-औचित्य.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सगर राति दीप जरय: मैथिली कथा लेखनक क्षेत्रमे शान्त क्रान्ति (पहिल खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. रामानन्द झा ‘रमण’"
+      ],
+      "publication_date": "2008-11-15",
+      "year": "2008",
+      "issue": "22",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; short-story movement; institutional history",
+      "url": "https://www.videha.co.in/research/2008/22/सगर-राति-दीप-जरय-मैथिली-कथा-लेखनक-क्षेत्रमे-शान्त-क्रान्ति-पहिल-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20022.pdf",
+      "path": "2008/22/सगर-राति-दीप-जरय-मैथिली-कथा-लेखनक-क्षेत्रमे-शान्त-क्रान्ति-पहिल-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "स्व. राजकमल चौधरी पर शोध लेख (चारिम खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. देवशंकर नवीन"
+      ],
+      "publication_date": "2008-11-15",
+      "year": "2008",
+      "issue": "22",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; Rajkamal Choudhary studies; novel studies",
+      "url": "https://www.videha.co.in/research/2008/22/स्व-राजकमल-चौधरी-पर-शोध-लेख-चारिम-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20022.pdf",
+      "path": "2008/22/स्व-राजकमल-चौधरी-पर-शोध-लेख-चारिम-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलांचलक सूर्य पूजन स्थल",
+      "english_title": null,
+      "authors": [
+        "डॉ. प्रफुल्ल कुमार सिंह ‘मौन’"
+      ],
+      "publication_date": "2008-12-01",
+      "year": "2008",
+      "issue": "23",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Religious studies; solar worship; sacred geography of Mithila",
+      "url": "https://www.videha.co.in/research/2008/23/मिथिलांचलक-सूर्य-पूजन-स्थल.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20023.pdf",
+      "path": "2008/23/मिथिलांचलक-सूर्य-पूजन-स्थल.htm",
       "page_start": null,
       "page_end": null
     },
@@ -1240,6 +1392,272 @@
       "page_end": null
     },
     {
+      "title": "सगर राति दीप जरय: मैथिली कथा लेखनक क्षेत्रमे शान्त क्रान्ति (दोसर खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. रामानन्द झा ‘रमण’"
+      ],
+      "publication_date": "2008-12-01",
+      "year": "2008",
+      "issue": "23",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; short-story movement; institutional history",
+      "url": "https://www.videha.co.in/research/2008/23/सगर-राति-दीप-जरय-मैथिली-कथा-लेखनक-क्षेत्रमे-शान्त-क्रान्ति-दोसर-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20023.pdf",
+      "path": "2008/23/सगर-राति-दीप-जरय-मैथिली-कथा-लेखनक-क्षेत्रमे-शान्त-क्रान्ति-दोसर-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "स्व. राजकमल चौधरी पर शोध लेख (पाँचम खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. देवशंकर नवीन"
+      ],
+      "publication_date": "2008-12-01",
+      "year": "2008",
+      "issue": "23",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; Rajkamal Choudhary studies; novel studies",
+      "url": "https://www.videha.co.in/research/2008/23/स्व-राजकमल-चौधरी-पर-शोध-लेख-पाँचम-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20023.pdf",
+      "path": "2008/23/स्व-राजकमल-चौधरी-पर-शोध-लेख-पाँचम-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "आतंकवादक ऐतिहासिक आ राजनीतिक विवेचन",
+      "english_title": null,
+      "authors": [
+        "महेन्द्र कुमार मिश्र"
+      ],
+      "publication_date": "2008-12-15",
+      "year": "2008",
+      "issue": "24",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Political studies; terrorism; South Asian history",
+      "url": "https://www.videha.co.in/research/2008/24/आतंकवादक-ऐतिहासिक-आ-राजनीतिक-विवेचन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20024.pdf",
+      "path": "2008/24/आतंकवादक-ऐतिहासिक-आ-राजनीतिक-विवेचन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जितिया पावनि आ मकर संक्रान्ति",
+      "english_title": null,
+      "authors": [
+        "मनोज झा ‘मुक्ति’"
+      ],
+      "publication_date": "2008-12-15",
+      "year": "2008",
+      "issue": "24",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Folklore; festival studies; Mithila cultural anthropology",
+      "url": "https://www.videha.co.in/research/2008/24/जितिया-पावनि-आ-मकर-संक्रान्ति.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20024.pdf",
+      "path": "2008/24/जितिया-पावनि-आ-मकर-संक्रान्ति.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नव भोर जोहैत मिथिला",
+      "english_title": null,
+      "authors": [
+        "धीरेन्द्र प्रेमर्षि"
+      ],
+      "publication_date": "2008-12-15",
+      "year": "2008",
+      "issue": "24",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Federalism; Mithila regional identity; cultural politics",
+      "url": "https://www.videha.co.in/research/2008/24/नव-भोर-जोहैत-मिथिला.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20024.pdf",
+      "path": "2008/24/नव-भोर-जोहैत-मिथिला.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नेपाल रेलवेक दुरावस्था आ सरकारक कानमे तेल",
+      "english_title": null,
+      "authors": [
+        "महेन्द्र कुमार मिश्र"
+      ],
+      "publication_date": "2008-12-15",
+      "year": "2008",
+      "issue": "24",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Transport policy; Nepal railway history; infrastructure studies",
+      "url": "https://www.videha.co.in/research/2008/24/नेपाल-रेलवेक-दुरावस्था-आ-सरकारक-कानमे-तेल.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20024.pdf",
+      "path": "2008/24/नेपाल-रेलवेक-दुरावस्था-आ-सरकारक-कानमे-तेल.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सगर राति दीप जरय: मैथिली कथा लेखनक क्षेत्रमे शान्त क्रान्ति (तेसर खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. रामानन्द झा ‘रमण’"
+      ],
+      "publication_date": "2008-12-15",
+      "year": "2008",
+      "issue": "24",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; short-story movement; institutional history",
+      "url": "https://www.videha.co.in/research/2008/24/सगर-राति-दीप-जरय-मैथिली-कथा-लेखनक-क्षेत्रमे-शान्त-क्रान्ति-तेसर-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20024.pdf",
+      "path": "2008/24/सगर-राति-दीप-जरय-मैथिली-कथा-लेखनक-क्षेत्रमे-शान्त-क्रान्ति-तेसर-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिला मंथन: पिछड़ापन, नेतृत्व आ विकास",
+      "english_title": null,
+      "authors": [
+        "सुशान्त झा"
+      ],
+      "publication_date": "2009-01-01",
+      "year": "2009",
+      "issue": "25",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Development studies; political economy; Mithila regional studies",
+      "url": "https://www.videha.co.in/research/2009/25/मिथिला-मंथन-पिछड़ापन-नेतृत्व-आ-विकास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20025.pdf",
+      "path": "2009/25/मिथिला-मंथन-पिछड़ापन-नेतृत्व-आ-विकास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिला विभूति पं. मोदानन्द झा (विस्तृत संस्मरण)",
+      "english_title": null,
+      "authors": [
+        "डॉ. रत्नेश्वर मिश्र"
+      ],
+      "publication_date": "2009-01-01",
+      "year": "2009",
+      "issue": "25",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Panji scholarship; intellectual biography; Mithila genealogy",
+      "url": "https://www.videha.co.in/research/2009/25/मिथिला-विभूति-पं-मोदानन्द-झा-विस्तृत-संस्मरण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20025.pdf",
+      "path": "2009/25/मिथिला-विभूति-पं-मोदानन्द-झा-विस्तृत-संस्मरण.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली सामाजिक नाटकक मूल केन्द्र-बिन्दु: नारी समस्या",
+      "english_title": null,
+      "authors": [
+        "डॉ. शंभु कुमार सिंह"
+      ],
+      "publication_date": "2009-01-01",
+      "year": "2009",
+      "issue": "25",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre studies; gender studies; social drama",
+      "url": "https://www.videha.co.in/research/2009/25/मैथिली-सामाजिक-नाटकक-मूल-केन्द्र-बिन्दु-नारी-समस्या.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20025.pdf",
+      "path": "2009/25/मैथिली-सामाजिक-नाटकक-मूल-केन्द्र-बिन्दु-नारी-समस्या.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हमर सपना केर मिथिला",
+      "english_title": null,
+      "authors": [
+        "सुशान्त झा"
+      ],
+      "publication_date": "2009-01-15",
+      "year": "2009",
+      "issue": "26",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Development studies; regional planning; Mithila futures",
+      "url": "https://www.videha.co.in/research/2009/26/हमर-सपना-केर-मिथिला.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20026.pdf",
+      "path": "2009/26/हमर-सपना-केर-मिथिला.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "अन्हार पर इजोतक कहिओ विजय नहि",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2009-02-01",
+      "year": "2009",
+      "issue": "27",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; political satire; social criticism",
+      "url": "https://www.videha.co.in/research/2009/27/अन्हार-पर-इजोतक-कहिओ-विजय-नहि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20027.pdf",
+      "path": "2009/27/अन्हार-पर-इजोतक-कहिओ-विजय-नहि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "आधुनिक मैथिली नाटकमे चित्रित निर्धनताक समस्या",
+      "english_title": null,
+      "authors": [
+        "डॉ. शंभु कुमार सिंह"
+      ],
+      "publication_date": "2009-02-01",
+      "year": "2009",
+      "issue": "27",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre studies; poverty; social criticism",
+      "url": "https://www.videha.co.in/research/2009/27/आधुनिक-मैथिली-नाटकमे-चित्रित-निर्धनताक-समस्या.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20027.pdf",
+      "path": "2009/27/आधुनिक-मैथिली-नाटकमे-चित्रित-निर्धनताक-समस्या.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक लुप्तप्राय गीत: गर्भसँ छठिहार धरि",
+      "english_title": null,
+      "authors": [
+        "हृदय नारायण झा"
+      ],
+      "publication_date": "2009-02-01",
+      "year": "2009",
+      "issue": "27",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Ethnomusicology; folk-song documentation; lifecycle rituals",
+      "url": "https://www.videha.co.in/research/2009/27/मिथिलाक-लुप्तप्राय-गीत-गर्भसँ-छठिहार-धरि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20027.pdf",
+      "path": "2009/27/मिथिलाक-लुप्तप्राय-गीत-गर्भसँ-छठिहार-धरि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मैथिली भाषाक साहित्य (अंक २७ मे प्रकाशित खेप)",
       "english_title": null,
       "authors": [
@@ -1255,6 +1673,101 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20027.pdf",
       "path": "2009/27/मैथिली-भाषाक-साहित्य-अंक-२७-मे-प्रकाशित-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "स्व. राजकमल चौधरी पर शोध लेख (छठम खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. देवशंकर नवीन"
+      ],
+      "publication_date": "2009-02-01",
+      "year": "2009",
+      "issue": "27",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; Rajkamal Choudhary studies; novel studies",
+      "url": "https://www.videha.co.in/research/2009/27/स्व-राजकमल-चौधरी-पर-शोध-लेख-छठम-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20027.pdf",
+      "path": "2009/27/स्व-राजकमल-चौधरी-पर-शोध-लेख-छठम-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "केदारनाथ चौधरीक उपन्यास ‘चमेली रानी’ आ ‘माहुर’",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2009-02-15",
+      "year": "2009",
+      "issue": "28",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; novel studies; Kedar Nath Choudhary studies",
+      "url": "https://www.videha.co.in/research/2009/28/केदारनाथ-चौधरीक-उपन्यास-चमेली-रानी-आ-माहुर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20028.pdf",
+      "path": "2009/28/केदारनाथ-चौधरीक-उपन्यास-चमेली-रानी-आ-माहुर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक लुप्तप्राय गीत: विवाह संस्कारक गीत",
+      "english_title": null,
+      "authors": [
+        "हृदय नारायण झा"
+      ],
+      "publication_date": "2009-02-15",
+      "year": "2009",
+      "issue": "28",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Ethnomusicology; folk-song documentation; marriage rituals",
+      "url": "https://www.videha.co.in/research/2009/28/मिथिलाक-लुप्तप्राय-गीत-विवाह-संस्कारक-गीत.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20028.pdf",
+      "path": "2009/28/मिथिलाक-लुप्तप्राय-गीत-विवाह-संस्कारक-गीत.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जयकान्त मिश्रपर विशेष",
+      "english_title": null,
+      "authors": [
+        "डॉ. गंगेश गुंजन; विद्या मिश्र"
+      ],
+      "publication_date": "2009-03-01",
+      "year": "2009",
+      "issue": "29",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili intellectual history; memorial criticism; Jayakant Mishra studies",
+      "url": "https://www.videha.co.in/research/2009/29/जयकान्त-मिश्रपर-विशेष.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20029.pdf",
+      "path": "2009/29/जयकान्त-मिश्रपर-विशेष.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सुभाषचन्द्र यादवक कथा-संग्रह ‘बनैत-बिगड़ैत’: विवेचना",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2009-03-01",
+      "year": "2009",
+      "issue": "29",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili book review; short-story criticism; Subhash Chandra Yadav studies",
+      "url": "https://www.videha.co.in/research/2009/29/सुभाषचन्द्र-यादवक-कथा-संग्रह-बनैत-बिगड़ैत-विवेचना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20029.pdf",
+      "path": "2009/29/सुभाषचन्द्र-यादवक-कथा-संग्रह-बनैत-बिगड़ैत-विवेचना.htm",
       "page_start": null,
       "page_end": null
     },
@@ -1278,6 +1791,44 @@
       "page_end": null
     },
     {
+      "title": "कविक आत्मोक्ति: कविताक अयना",
+      "english_title": null,
+      "authors": [
+        "डॉ. गंगेश गुंजन"
+      ],
+      "publication_date": "2009-03-15",
+      "year": "2009",
+      "issue": "30",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili poetry criticism; book review; Vineet Utpal studies",
+      "url": "https://www.videha.co.in/research/2009/30/कविक-आत्मोक्ति-कविताक-अयना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20030.pdf",
+      "path": "2009/30/कविक-आत्मोक्ति-कविताक-अयना.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "बटुआमे बिहाड़ि आ बिर्ड़ो: राजकमल चौधरीक उपन्यास",
+      "english_title": null,
+      "authors": [
+        "डॉ. देवशंकर नवीन"
+      ],
+      "publication_date": "2009-03-15",
+      "year": "2009",
+      "issue": "30",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; Rajkamal Choudhary studies; novel studies",
+      "url": "https://www.videha.co.in/research/2009/30/बटुआमे-बिहाड़ि-आ-बिर्ड़ो-राजकमल-चौधरीक-उपन्यास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20030.pdf",
+      "path": "2009/30/बटुआमे-बिहाड़ि-आ-बिर्ड़ो-राजकमल-चौधरीक-उपन्यास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मैथिली भाषाक साहित्य (अंक ३० मे प्रकाशित खेप)",
       "english_title": null,
       "authors": [
@@ -1293,6 +1844,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20030.pdf",
       "path": "2009/30/मैथिली-भाषाक-साहित्य-अंक-३०-मे-प्रकाशित-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सुभाषचन्द्र यादवक कथा-संग्रह ‘बनैत-बिगड़ैत’: विवेचना",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2009-03-15",
+      "year": "2009",
+      "issue": "30",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili book review; short-story criticism; Subhash Chandra Yadav studies",
+      "url": "https://www.videha.co.in/research/2009/30/सुभाषचन्द्र-यादवक-कथा-संग्रह-बनैत-बिगड़ैत-विवेचना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20030.pdf",
+      "path": "2009/30/सुभाषचन्द्र-यादवक-कथा-संग्रह-बनैत-बिगड़ैत-विवेचना.htm",
       "page_start": null,
       "page_end": null
     },
