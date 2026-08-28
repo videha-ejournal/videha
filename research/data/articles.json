@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T19:01:20.563298+00:00",
+  "generated": "2026-08-28T19:12:40.779173+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -9,17 +9,17 @@
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 3,
-    "audit_queue_held": 22,
+    "audit_queue_held": 19,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 449,
-    "promoted_sections_publishable": 421,
+    "promoted_sections_requested": 462,
+    "promoted_sections_publishable": 434,
     "promoted_sections_review": 28,
     "curated_manifests": 1,
-    "published_after_all_overrides": 473,
-    "stale_generated_pages_removed_before_render": 473,
+    "published_after_all_overrides": 486,
+    "stale_generated_pages_removed_before_render": 485,
     "build_errors": 0
   },
   "articles": [
@@ -2361,6 +2361,139 @@
       "page_end": null
     },
     {
+      "title": "रंगदृष्टि: दिल्लीमे नाट्य-संस्कृतिक केन्द्र",
+      "english_title": null,
+      "authors": [
+        "प्रकाश झा"
+      ],
+      "publication_date": "2009-09-01",
+      "year": "2009",
+      "issue": "41",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Theatre studies; performance geography; Delhi cultural institutions",
+      "url": "https://www.videha.co.in/research/2009/41/रंगदृष्टि-दिल्लीमे-नाट्य-संस्कृतिक-केन्द्र.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20041.pdf",
+      "path": "2009/41/रंगदृष्टि-दिल्लीमे-नाट्य-संस्कृतिक-केन्द्र.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "६७म सगर राति दीप जरय आयोजनक दस्तावेज",
+      "english_title": null,
+      "authors": [
+        "डॉ. रमानन्द झा ‘रमण’"
+      ],
+      "publication_date": "2009-09-15",
+      "year": "2009",
+      "issue": "42",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; short-story movement; institutional documentation",
+      "url": "https://www.videha.co.in/research/2009/42/६७म-सगर-राति-दीप-जरय-आयोजनक-दस्तावेज.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20042.pdf",
+      "path": "2009/42/६७म-सगर-राति-दीप-जरय-आयोजनक-दस्तावेज.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "संस्कार गीत आ लोकगीत नाद",
+      "english_title": null,
+      "authors": [
+        "जगदीश प्रसाद मंडल"
+      ],
+      "publication_date": "2009-10-01",
+      "year": "2009",
+      "issue": "43",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Folklore studies; ethnomusicology; ritual song traditions",
+      "url": "https://www.videha.co.in/research/2009/43/संस्कार-गीत-आ-लोकगीत-नाद.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20043.pdf",
+      "path": "2009/43/संस्कार-गीत-आ-लोकगीत-नाद.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मऊ वाजितपुर सँ विद्यापतिनगर परिवर्त्तन-यात्रा",
+      "english_title": null,
+      "authors": [
+        "पंचानन मिश्र"
+      ],
+      "publication_date": "2009-10-15",
+      "year": "2009",
+      "issue": "44",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Cultural geography; pilgrimage and heritage studies; Mithila regional history",
+      "url": "https://www.videha.co.in/research/2009/44/मऊ-वाजितपुर-सँ-विद्यापतिनगर-परिवर्त्तन-यात्रा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20044.pdf",
+      "path": "2009/44/मऊ-वाजितपुर-सँ-विद्यापतिनगर-परिवर्त्तन-यात्रा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक कतिआएल सिद्धपीठ",
+      "english_title": null,
+      "authors": [
+        "पंचानन मिश्र"
+      ],
+      "publication_date": "2009-10-15",
+      "year": "2009",
+      "issue": "44",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Religious studies; sacred geography; Mithila cultural history",
+      "url": "https://www.videha.co.in/research/2009/44/मिथिलाक-कतिआएल-सिद्धपीठ.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20044.pdf",
+      "path": "2009/44/मिथिलाक-कतिआएल-सिद्धपीठ.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सामाजिक परिवर्तनक संदर्भमे मैथिलीक दशा ओ दिशा",
+      "english_title": null,
+      "authors": [
+        "गोपाल प्रसाद"
+      ],
+      "publication_date": "2009-10-15",
+      "year": "2009",
+      "issue": "44",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary sociology; social change; language studies",
+      "url": "https://www.videha.co.in/research/2009/44/सामाजिक-परिवर्तनक-संदर्भमे-मैथिलीक-दशा-ओ-दिशा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20044.pdf",
+      "path": "2009/44/सामाजिक-परिवर्तनक-संदर्भमे-मैथिलीक-दशा-ओ-दिशा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "प्रदेशमे नहि थमि रहल जातीय हिंसाक दौर",
+      "english_title": null,
+      "authors": [
+        "नवेन्दु कुमार झा"
+      ],
+      "publication_date": "2009-11-01",
+      "year": "2009",
+      "issue": "45",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Social justice; caste violence; contemporary Bihar analysis",
+      "url": "https://www.videha.co.in/research/2009/45/प्रदेशमे-नहि-थमि-रहल-जातीय-हिंसाक-दौर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20045.pdf",
+      "path": "2009/45/प्रदेशमे-नहि-थमि-रहल-जातीय-हिंसाक-दौर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मिथिलाक इतिहास",
       "english_title": null,
       "authors": [
@@ -2395,6 +2528,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20046.pdf",
       "path": "2009/46/मिथिलाक-इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "साझा प्रकाशनमे विद्यापति",
+      "english_title": null,
+      "authors": [
+        "रामभरोस कापड़ि ‘भ्रमर’"
+      ],
+      "publication_date": "2009-11-15",
+      "year": "2009",
+      "issue": "46",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Publishing history; Vidyapati studies; Maithili literary institutions",
+      "url": "https://www.videha.co.in/research/2009/46/साझा-प्रकाशनमे-विद्यापति.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20046.pdf",
+      "path": "2009/46/साझा-प्रकाशनमे-विद्यापति.htm",
       "page_start": null,
       "page_end": null
     },
@@ -2437,6 +2589,25 @@
       "page_end": null
     },
     {
+      "title": "मिथिला कवि कोकिल विद्यापति",
+      "english_title": null,
+      "authors": [
+        "गोपाल प्रसाद"
+      ],
+      "publication_date": "2009-12-01",
+      "year": "2009",
+      "issue": "47",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Vidyapati studies; Maithili literary history; cultural criticism",
+      "url": "https://www.videha.co.in/research/2009/47/मिथिला-कवि-कोकिल-विद्यापति.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20047.pdf",
+      "path": "2009/47/मिथिला-कवि-कोकिल-विद्यापति.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मिथिलाक इतिहास (आगाँ)",
       "english_title": null,
       "authors": [
@@ -2471,6 +2642,44 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20048.pdf",
       "path": "2009/48/कथं-संस्कृतं-संस्कृतम्.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिलीक युगद्रष्टा: विद्यापति",
+      "english_title": null,
+      "authors": [
+        "निमिष झा"
+      ],
+      "publication_date": "2009-12-15",
+      "year": "2009",
+      "issue": "48",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Vidyapati studies; Maithili literary history; medieval cultural history",
+      "url": "https://www.videha.co.in/research/2009/48/मैथिलीक-युगद्रष्टा-विद्यापति.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20048.pdf",
+      "path": "2009/48/मैथिलीक-युगद्रष्टा-विद्यापति.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "६अम शताब्दीक लोकनायक सलहेश: वृत्तचित्र आ इतिहास",
+      "english_title": null,
+      "authors": [
+        "सुजीत कुमार झा"
+      ],
+      "publication_date": "2009-12-15",
+      "year": "2009",
+      "issue": "48",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila history; Salhesh studies; documentary and folk hero traditions",
+      "url": "https://www.videha.co.in/research/2009/48/६अम-शताब्दीक-लोकनायक-सलहेश-वृत्तचित्र-आ-इतिहास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20048.pdf",
+      "path": "2009/48/६अम-शताब्दीक-लोकनायक-सलहेश-वृत्तचित्र-आ-इतिहास.htm",
       "page_start": null,
       "page_end": null
     },
@@ -2547,6 +2756,44 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20049.pdf",
       "path": "2010/49/मिथिलाक-इतिहास-आगाँ.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "Indo-Nepal Relations: A Personal Reflection",
+      "english_title": null,
+      "authors": [
+        "Sindhu Poudyal"
+      ],
+      "publication_date": "2010-01-15",
+      "year": "2010",
+      "issue": "50",
+      "language": "en",
+      "keywords": [],
+      "classification": "International relations; India–Nepal history; border and security studies",
+      "url": "https://www.videha.co.in/research/2010/50/indo-nepal-relations-a-personal-reflection.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20050.pdf",
+      "path": "2010/50/indo-nepal-relations-a-personal-reflection.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली शिशु लोक साहित्य",
+      "english_title": null,
+      "authors": [
+        "फूलचन्द्र झा ‘प्रवीण’"
+      ],
+      "publication_date": "2010-01-15",
+      "year": "2010",
+      "issue": "50",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Children’s literature studies; folklore; oral tradition; Maithili pedagogy",
+      "url": "https://www.videha.co.in/research/2010/50/मैथिली-शिशु-लोक-साहित्य.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20050.pdf",
+      "path": "2010/50/मैथिली-शिशु-लोक-साहित्य.htm",
       "page_start": null,
       "page_end": null
     },
