@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T05:53:47.255859+00:00",
+  "generated": "2026-08-28T08:15:08.747448+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 146,
-    "promoted_sections_publishable": 146,
-    "promoted_sections_review": 0,
+    "promoted_sections_requested": 154,
+    "promoted_sections_publishable": 153,
+    "promoted_sections_review": 1,
     "curated_manifests": 1,
-    "published_after_all_overrides": 199,
+    "published_after_all_overrides": 206,
     "stale_generated_pages_removed_before_render": 199,
     "build_errors": 0
   },
@@ -1202,6 +1202,120 @@
       "page_end": null
     },
     {
+      "title": "जानकी आ गांधी सं सीखय अप्पन समाज",
+      "english_title": null,
+      "authors": [
+        "प्रो. अरविंद कुमार झा"
+      ],
+      "publication_date": "2016-06-15",
+      "year": "2016",
+      "issue": "204",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Seminar paper; Gandhian studies; Janaki studies; education and social reform",
+      "url": "https://www.videha.co.in/research/2016/204/जानकी-आ-गांधी-सं-सीखय-अप्पन-समाज.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20204.pdf",
+      "path": "2016/204/जानकी-आ-गांधी-सं-सीखय-अप्पन-समाज.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जानकी आजुक जरूरत",
+      "english_title": null,
+      "authors": [
+        "डॉ. राजेश झा"
+      ],
+      "publication_date": "2016-06-15",
+      "year": "2016",
+      "issue": "204",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Seminar paper; Janaki studies; gender studies; Mithila society",
+      "url": "https://www.videha.co.in/research/2016/204/जानकी-आजुक-जरूरत.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20204.pdf",
+      "path": "2016/204/जानकी-आजुक-जरूरत.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "बाट देखाबैक अछि मिथिलाक दर्शन",
+      "english_title": null,
+      "authors": [
+        "प्रो. मनीन्द्र नाथ ठाकुर"
+      ],
+      "publication_date": "2016-06-15",
+      "year": "2016",
+      "issue": "204",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Seminar paper; Mithila philosophy; Gandhian studies; intellectual history",
+      "url": "https://www.videha.co.in/research/2016/204/बाट-देखाबैक-अछि-मिथिलाक-दर्शन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20204.pdf",
+      "path": "2016/204/बाट-देखाबैक-अछि-मिथिलाक-दर्शन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलामे कोनो भेदभाव नै छल",
+      "english_title": null,
+      "authors": [
+        "आर. के. सिंह"
+      ],
+      "publication_date": "2016-06-15",
+      "year": "2016",
+      "issue": "204",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Seminar paper; social equality; Mithila society; gender studies",
+      "url": "https://www.videha.co.in/research/2016/204/मिथिलामे-कोनो-भेदभाव-नै-छल.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20204.pdf",
+      "path": "2016/204/मिथिलामे-कोनो-भेदभाव-नै-छल.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलामे सम्मान दैक परंपरा अछि",
+      "english_title": null,
+      "authors": [
+        "प्रभात झा"
+      ],
+      "publication_date": "2016-06-15",
+      "year": "2016",
+      "issue": "204",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Seminar paper; Mithila cultural history; Janaki studies; public culture",
+      "url": "https://www.videha.co.in/research/2016/204/मिथिलामे-सम्मान-दैक-परंपरा-अछि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20204.pdf",
+      "path": "2016/204/मिथिलामे-सम्मान-दैक-परंपरा-अछि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "विद्यापति आ जानकी हमर सबहक साइनेज छथिन",
+      "english_title": null,
+      "authors": [
+        "डॉ. सविता खान"
+      ],
+      "publication_date": "2016-06-15",
+      "year": "2016",
+      "issue": "204",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Seminar paper; Janaki studies; Vidyapati studies; cultural identity",
+      "url": "https://www.videha.co.in/research/2016/204/विद्यापति-आ-जानकी-हमर-सबहक-साइनेज-छथिन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20204.pdf",
+      "path": "2016/204/विद्यापति-आ-जानकी-हमर-सबहक-साइनेज-छथिन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "संशोधन केर मतलब विनाश नै होइ छै",
       "english_title": null,
       "authors": [
@@ -1844,6 +1958,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20334.pdf",
       "path": "2021/334/बीहनि-कथाक-विकासमे-रचनाकारक-योगदान.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "अजगुत अफ्रीका (अफ्रीका डायरी)",
+      "english_title": null,
+      "authors": [
+        "केशव भारद्वाज"
+      ],
+      "publication_date": "2022-08-15",
+      "year": "2022",
+      "issue": "352",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Ethnographic travel diary; East African society; migration, race and cultural history",
+      "url": "https://www.videha.co.in/research/2022/352/अजगुत-अफ्रीका-अफ्रीका-डायरी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20352.pdf",
+      "path": "2022/352/अजगुत-अफ्रीका-अफ्रीका-डायरी.htm",
       "page_start": null,
       "page_end": null
     },

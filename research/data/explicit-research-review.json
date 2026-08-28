@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T05:53:47.255000+00:00",
+  "generated": "2026-08-28T08:15:08.746657+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,11 +12,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 146,
-    "promoted_sections_publishable": 146,
-    "promoted_sections_review": 0,
+    "promoted_sections_requested": 154,
+    "promoted_sections_publishable": 153,
+    "promoted_sections_review": 1,
     "curated_manifests": 1,
-    "published_after_all_overrides": 199,
+    "published_after_all_overrides": 206,
     "stale_generated_pages_removed_before_render": 199,
     "build_errors": 0
   },
@@ -573,6 +573,16 @@
     }
   ],
   "sadeha_review": [],
-  "promotion_review": [],
+  "promotion_review": [
+    {
+      "issue": "204",
+      "section": "2.1.2.7",
+      "author": "शेफालिका वर्मा",
+      "title": "हमहीं बेटी, हमहीं शक्ति, हमहीं अहाँमे अन्तर्निहित छी",
+      "body_chars": 1690,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    }
+  ],
   "build_errors": []
 }
