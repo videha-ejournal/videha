@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T11:20:39.694394+00:00",
+  "generated": "2026-08-28T11:21:16.848078+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,11 +12,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 173,
-    "promoted_sections_publishable": 165,
-    "promoted_sections_review": 8,
+    "promoted_sections_requested": 177,
+    "promoted_sections_publishable": 168,
+    "promoted_sections_review": 9,
     "curated_manifests": 1,
-    "published_after_all_overrides": 218,
+    "published_after_all_overrides": 221,
     "stale_generated_pages_removed_before_render": 218,
     "build_errors": 0
   },
@@ -638,6 +638,15 @@
       "author": "विद्यावाचस्पति डॉ. सदानन्द झा",
       "title": "भारोपीयभाषासन्दर्भे ध्वनिविमर्शः",
       "body_chars": 1785,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "20",
+      "section": "4.4.1",
+      "author": "डॉ. प्रेमशंकर सिंह",
+      "title": "जीवन झाक नाटकक सामाजिक विवर्तन (अंक २० मे प्रकाशित खेप)",
+      "body_chars": 1592,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     }

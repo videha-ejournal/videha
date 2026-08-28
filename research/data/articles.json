@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T11:20:39.695301+00:00",
+  "generated": "2026-08-28T11:21:16.848876+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 173,
-    "promoted_sections_publishable": 165,
-    "promoted_sections_review": 8,
+    "promoted_sections_requested": 177,
+    "promoted_sections_publishable": 168,
+    "promoted_sections_review": 9,
     "curated_manifests": 1,
-    "published_after_all_overrides": 218,
+    "published_after_all_overrides": 221,
     "stale_generated_pages_removed_before_render": 218,
     "build_errors": 0
   },
@@ -119,6 +119,25 @@
       "page_end": null
     },
     {
+      "title": "जीवन झाक नाटकक सामाजिक विवर्तन (अंक १९ मे प्रकाशित खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2008-10-01",
+      "year": "2008",
+      "issue": "19",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili drama criticism; social history; Jivan Jha studies",
+      "url": "https://www.videha.co.in/research/2008/19/जीवन-झाक-नाटकक-सामाजिक-विवर्तन-अंक-१९-मे-प्रकाशित-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20019.pdf",
+      "path": "2008/19/जीवन-झाक-नाटकक-सामाजिक-विवर्तन-अंक-१९-मे-प्रकाशित-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "लोअर दिवांग घाटी: इदु-मिसमी जनजातिक अनुपम संसार (पहिल खेप)",
       "english_title": null,
       "authors": [
@@ -134,6 +153,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20019.pdf",
       "path": "2008/19/लोअर-दिवांग-घाटी-इदु-मिसमी-जनजातिक-अनुपम-संसार-पहिल-खेप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जीवन झाक नाटकक सामाजिक विवर्तन (अंक २१ मे प्रकाशित खेप)",
+      "english_title": null,
+      "authors": [
+        "डॉ. प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2008-11-01",
+      "year": "2008",
+      "issue": "21",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili drama criticism; theatre history; Jivan Jha studies",
+      "url": "https://www.videha.co.in/research/2008/21/जीवन-झाक-नाटकक-सामाजिक-विवर्तन-अंक-२१-मे-प्रकाशित-खेप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20021.pdf",
+      "path": "2008/21/जीवन-झाक-नाटकक-सामाजिक-विवर्तन-अंक-२१-मे-प्रकाशित-खेप.htm",
       "page_start": null,
       "page_end": null
     },
@@ -552,6 +590,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20068.pdf",
       "path": "2010/68/समसामयिक-सन्दर्भ-मे-गाँधीविचारक-महत्ता.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली बाल काव्यधारा",
+      "english_title": null,
+      "authors": [
+        "प्रोफेसर प्रेमशंकर सिंह"
+      ],
+      "publication_date": "2010-11-15",
+      "year": "2010",
+      "issue": "70",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili children's literature; poetry history; translation studies",
+      "url": "https://www.videha.co.in/research/2010/70/मैथिली-बाल-काव्यधारा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20070.pdf",
+      "path": "2010/70/मैथिली-बाल-काव्यधारा.htm",
       "page_start": null,
       "page_end": null
     },
