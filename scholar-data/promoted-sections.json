@@ -2001,5 +2001,62 @@
     "issue": "429",
     "section": "1.3",
     "classification": "Maithili literary criticism; regional identity; cultural memory"
+  },
+  {
+    "issue": "307",
+    "section": "2.5",
+    "author_override": "डा. सुभाष चन्द्र झा",
+    "title_override": "वैद्यनाथ मिश्र ‘यात्री’क साहित्य यात्रा",
+    "classification": "Maithili literary history; Nagarjun-Yatri studies; intellectual biography",
+    "body_source": "search-documents/sadeha-023.html",
+    "manual_body_start": "वैद्यनाथ मिश्र \"यात्री \"क साहित्य यात्रा",
+    "manual_body_end": "यात्रीक व्यक्तित्व ओ कृतित्व"
+  },
+  {
+    "issue": "308",
+    "section": "2.19",
+    "author_override": "अनुपम रैना",
+    "title_override": "यात्रीक व्यक्तित्व ओ कृतित्व",
+    "classification": "Maithili literary history; Nagarjun-Yatri studies; intellectual biography",
+    "body_source": "search-documents/sadeha-023.html",
+    "manual_body_start": "यात्रीक व्यक्तित्व ओ कृतित्व",
+    "manual_body_end": "यात्रीक गद्य-साहित्यमे मिथिला समाज"
+  },
+  {
+    "issue": "308",
+    "section": "2.22",
+    "author_override": "अनुपम रैना",
+    "title_override": "यात्रीजीक मैथिली रचनामे समसामयिक जीवनक अभिव्यक्ति",
+    "classification": "Maithili literary criticism; Nagarjun-Yatri studies; social history and representation",
+    "body_source": "search-documents/sadeha-023.html",
+    "manual_body_start": "यात्रीजीक मैथिली रचनामे समसामयिक जीवनक अभिव्यक्ति",
+    "manual_body_end": "पं. तेजनाथ झा ओ संस्कार : एक समीक्षा"
+  },
+  {
+    "issue": "309",
+    "section": "2.21",
+    "author_override": "डॉ. अपर्णा",
+    "title_override": "लालदासक रामायणमे विधि-व्यवहारक वर्णन",
+    "classification": "Maithili Ramayana criticism; ritual and social history; Lal Das studies"
+  },
+  {
+    "issue": "352",
+    "section": "2.6",
+    "author_override": "आभा झा",
+    "title_override": "प्रेमक अद्वैतक अद्भुत आख्यान—हीना",
+    "classification": "Maithili novel criticism; love and social relations; Kedar Nath Chaudhary studies",
+    "body_source": "search-documents/videha-352.html",
+    "manual_body_start": "आभा झा, दिल्ली\nप्रेमक अद्वैतक अद्भुत आख्यान -हीना",
+    "manual_body_end": "शिवशंकर श्रीनिवास- संपर्क-9470883301"
+  },
+  {
+    "issue": "405",
+    "section": "special.17",
+    "author_override": "डॉ. आभा झा",
+    "title_override": "भाषांतरणक उत्कृष्ट प्रयास—कविता शम्भु बादलक",
+    "classification": "Translation studies; Maithili poetry criticism; comparative literary analysis",
+    "body_source": "search-documents/videha-405.html",
+    "manual_body_start": "१७.डा. आभा झा -भाषांतरणक उत्कृष्ट प्रयास -कविता शम्भु बादलक",
+    "manual_body_end": "१८.डा. कीर्तिनाथ झा-शम्भु बादलक कविता जिनगीक रोशनी"
   }
 ]

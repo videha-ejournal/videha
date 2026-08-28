@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T12:17:05.358872+00:00",
+  "generated": "2026-08-28T12:24:42.833175+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 286,
-    "promoted_sections_publishable": 275,
+    "promoted_sections_requested": 292,
+    "promoted_sections_publishable": 281,
     "promoted_sections_review": 11,
     "curated_manifests": 1,
-    "published_after_all_overrides": 328,
-    "stale_generated_pages_removed_before_render": 328,
+    "published_after_all_overrides": 334,
+    "stale_generated_pages_removed_before_render": 332,
     "build_errors": 0
   },
   "articles": [
@@ -2399,6 +2399,25 @@
       "page_end": null
     },
     {
+      "title": "वैद्यनाथ मिश्र ‘यात्री’क साहित्य यात्रा",
+      "english_title": null,
+      "authors": [
+        "डा. सुभाष चन्द्र झा"
+      ],
+      "publication_date": "2020-10-01",
+      "year": "2020",
+      "issue": "307",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; Nagarjun-Yatri studies; intellectual biography",
+      "url": "https://www.videha.co.in/research/2020/307/वैद्यनाथ-मिश्र-यात्री-क-साहित्य-यात्रा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20307.pdf",
+      "path": "2020/307/वैद्यनाथ-मिश्र-यात्री-क-साहित्य-यात्रा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "नारी शब्दक लेल किछु प्रमुख शब्दक विवेचना",
       "english_title": null,
       "authors": [
@@ -2570,6 +2589,44 @@
       "page_end": null
     },
     {
+      "title": "यात्रीक व्यक्तित्व ओ कृतित्व",
+      "english_title": null,
+      "authors": [
+        "अनुपम रैना"
+      ],
+      "publication_date": "2020-10-15",
+      "year": "2020",
+      "issue": "308",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; Nagarjun-Yatri studies; intellectual biography",
+      "url": "https://www.videha.co.in/research/2020/308/यात्रीक-व्यक्तित्व-ओ-कृतित्व.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20308.pdf",
+      "path": "2020/308/यात्रीक-व्यक्तित्व-ओ-कृतित्व.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "यात्रीजीक मैथिली रचनामे समसामयिक जीवनक अभिव्यक्ति",
+      "english_title": null,
+      "authors": [
+        "अनुपम रैना"
+      ],
+      "publication_date": "2020-10-15",
+      "year": "2020",
+      "issue": "308",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; Nagarjun-Yatri studies; social history and representation",
+      "url": "https://www.videha.co.in/research/2020/308/यात्रीजीक-मैथिली-रचनामे-समसामयिक-जीवनक-अभिव्यक्ति.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20308.pdf",
+      "path": "2020/308/यात्रीजीक-मैथिली-रचनामे-समसामयिक-जीवनक-अभिव्यक्ति.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "बीहनि कथा: मानकीकरण ओ तुलनात्मक पक्ष",
       "english_title": null,
       "authors": [
@@ -2604,6 +2661,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20309.pdf",
       "path": "2020/309/मिथिलाक-इतिहास-भाग-२.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "लालदासक रामायणमे विधि-व्यवहारक वर्णन",
+      "english_title": null,
+      "authors": [
+        "डॉ. अपर्णा"
+      ],
+      "publication_date": "2020-11-01",
+      "year": "2020",
+      "issue": "309",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili Ramayana criticism; ritual and social history; Lal Das studies",
+      "url": "https://www.videha.co.in/research/2020/309/लालदासक-रामायणमे-विधि-व्यवहारक-वर्णन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20309.pdf",
+      "path": "2020/309/लालदासक-रामायणमे-विधि-व्यवहारक-वर्णन.htm",
       "page_start": null,
       "page_end": null
     },
@@ -2851,6 +2927,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20352.pdf",
       "path": "2022/352/अजगुत-अफ्रीका-अफ्रीका-डायरी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "प्रेमक अद्वैतक अद्भुत आख्यान—हीना",
+      "english_title": null,
+      "authors": [
+        "आभा झा"
+      ],
+      "publication_date": "2022-08-15",
+      "year": "2022",
+      "issue": "352",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili novel criticism; love and social relations; Kedar Nath Chaudhary studies",
+      "url": "https://www.videha.co.in/research/2022/352/प्रेमक-अद्वैतक-अद्भुत-आख्यान-हीना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20352.pdf",
+      "path": "2022/352/प्रेमक-अद्वैतक-अद्भुत-आख्यान-हीना.htm",
       "page_start": null,
       "page_end": null
     },
@@ -3858,6 +3953,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf",
       "path": "2024/405/कोइलख-ग्राम-गाथाक-विलक्षण-अभिलेख.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "भाषांतरणक उत्कृष्ट प्रयास—कविता शम्भु बादलक",
+      "english_title": null,
+      "authors": [
+        "डॉ. आभा झा"
+      ],
+      "publication_date": "2024-11-01",
+      "year": "2024",
+      "issue": "405",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Translation studies; Maithili poetry criticism; comparative literary analysis",
+      "url": "https://www.videha.co.in/research/2024/405/भाषांतरणक-उत्कृष्ट-प्रयास-कविता-शम्भु-बादलक.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf",
+      "path": "2024/405/भाषांतरणक-उत्कृष्ट-प्रयास-कविता-शम्भु-बादलक.htm",
       "page_start": null,
       "page_end": null
     },
