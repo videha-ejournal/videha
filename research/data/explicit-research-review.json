@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T21:56:21.177723+00:00",
+  "generated": "2026-08-28T22:03:07.283234+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,12 +12,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 524,
-    "promoted_sections_publishable": 482,
-    "promoted_sections_review": 42,
+    "promoted_sections_requested": 533,
+    "promoted_sections_publishable": 490,
+    "promoted_sections_review": 43,
     "curated_manifests": 1,
-    "published_after_all_overrides": 524,
-    "stale_generated_pages_removed_before_render": 524,
+    "published_after_all_overrides": 532,
+    "stale_generated_pages_removed_before_render": 530,
     "build_errors": 0
   },
   "explicit_review": [
@@ -865,6 +865,15 @@
       "issue": "84",
       "section": "2.5",
       "reason": "manual body end marker not found"
+    },
+    {
+      "issue": "93",
+      "section": "2.4",
+      "author": "दुर्गानन्द मण्डल",
+      "title": "मौलाइल गाछक फूल: पोथी समीक्षा",
+      "body_chars": 771,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
     }
   ],
   "build_errors": []
