@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-28T12:28:18.566574+00:00",
+  "generated": "2026-08-28T12:47:24.483391+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 292,
-    "promoted_sections_publishable": 281,
+    "promoted_sections_requested": 304,
+    "promoted_sections_publishable": 293,
     "promoted_sections_review": 11,
     "curated_manifests": 1,
-    "published_after_all_overrides": 334,
+    "published_after_all_overrides": 345,
     "stale_generated_pages_removed_before_render": 334,
     "build_errors": 0
   },
@@ -3938,6 +3938,25 @@
       "page_end": "58"
     },
     {
+      "title": "कोइलख",
+      "english_title": null,
+      "authors": [
+        "पंडित भवनाथ झा"
+      ],
+      "publication_date": "2024-11-01",
+      "year": "2024",
+      "issue": "405",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Village studies; intellectual history; cultural documentation",
+      "url": "https://www.videha.co.in/research/2024/405/कोइलख.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf",
+      "path": "2024/405/कोइलख.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "कोइलख: ग्राम गाथाक विलक्षण अभिलेख",
       "english_title": null,
       "authors": [
@@ -3953,6 +3972,44 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf",
       "path": "2024/405/कोइलख-ग्राम-गाथाक-विलक्षण-अभिलेख.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गद्य सं पद्य धरिक सर्जन केर लेखा जोखा प्रस्तुत करैत पोथी-लेख रेख",
+      "english_title": null,
+      "authors": [
+        "कुमार विक्रमादित्य"
+      ],
+      "publication_date": "2024-11-01",
+      "year": "2024",
+      "issue": "405",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; book studies; literary historiography",
+      "url": "https://www.videha.co.in/research/2024/405/गद्य-सं-पद्य-धरिक-सर्जन-केर-लेखा-जोखा-प्रस्तुत-करैत-पोथी-लेख-रेख.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf",
+      "path": "2024/405/गद्य-सं-पद्य-धरिक-सर्जन-केर-लेखा-जोखा-प्रस्तुत-करैत-पोथी-लेख-रेख.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पाठकीय विधा एवं हितनाथ झा",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2024-11-01",
+      "year": "2024",
+      "issue": "405",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; reader-response theory; author studies",
+      "url": "https://www.videha.co.in/research/2024/405/पाठकीय-विधा-एवं-हितनाथ-झा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf",
+      "path": "2024/405/पाठकीय-विधा-एवं-हितनाथ-झा.htm",
       "page_start": null,
       "page_end": null
     },
@@ -3976,6 +4033,25 @@
       "page_end": null
     },
     {
+      "title": "मिथिला मैथिलीक हितैषी हितनाथ झाजी",
+      "english_title": null,
+      "authors": [
+        "लक्ष्मण झा सागर"
+      ],
+      "publication_date": "2024-11-01",
+      "year": "2024",
+      "issue": "405",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; author studies; intellectual biography",
+      "url": "https://www.videha.co.in/research/2024/405/मिथिला-मैथिलीक-हितैषी-हितनाथ-झाजी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf",
+      "path": "2024/405/मिथिला-मैथिलीक-हितैषी-हितनाथ-झाजी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मैथिली साहित्यक परम्परा आ विकास सँ परिचित करबैत अछि मैथिली इतिहासक रेखांकन",
       "english_title": null,
       "authors": [
@@ -3991,6 +4067,63 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf",
       "path": "2024/405/मैथिली-साहित्यक-परम्परा-आ-विकास-सँ-परिचित-करबैत-अछि-मैथिली-इ-6b532f5ff7.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "लेख-रेख",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2024-11-01",
+      "year": "2024",
+      "issue": "405",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; book review; literary historiography",
+      "url": "https://www.videha.co.in/research/2024/405/लेख-रेख.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf",
+      "path": "2024/405/लेख-रेख.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "वैदुष्य कल्पतरु कोइलख",
+      "english_title": null,
+      "authors": [
+        "श्री विनयानन्द झा"
+      ],
+      "publication_date": "2024-11-01",
+      "year": "2024",
+      "issue": "405",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Village studies; intellectual history; Mithila local historiography",
+      "url": "https://www.videha.co.in/research/2024/405/वैदुष्य-कल्पतरु-कोइलख.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf",
+      "path": "2024/405/वैदुष्य-कल्पतरु-कोइलख.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "शम्भु बादलक कविता जिनगीक रोशनी",
+      "english_title": null,
+      "authors": [
+        "डा. कीर्तिनाथ झा"
+      ],
+      "publication_date": "2024-11-01",
+      "year": "2024",
+      "issue": "405",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili poetry criticism; translation studies; modern Hindi-Maithili literary exchange",
+      "url": "https://www.videha.co.in/research/2024/405/शम्भु-बादलक-कविता-जिनगीक-रोशनी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf",
+      "path": "2024/405/शम्भु-बादलक-कविता-जिनगीक-रोशनी.htm",
       "page_start": null,
       "page_end": null
     },
@@ -4029,6 +4162,82 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf",
       "path": "2024/405/सारस्वत-परिचायिका-कोइलख.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "स्थानवर्णना, नगरवर्णना, ग्रामवर्णना",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2024-11-01",
+      "year": "2024",
+      "issue": "405",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila cultural geography; place-writing; literary historiography",
+      "url": "https://www.videha.co.in/research/2024/405/स्थानवर्णना-नगरवर्णना-ग्रामवर्णना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf",
+      "path": "2024/405/स्थानवर्णना-नगरवर्णना-ग्रामवर्णना.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हम हितनाथ झाकेँ कोना चिन्हलियनि",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2024-11-01",
+      "year": "2024",
+      "issue": "405",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; author studies; intellectual biography",
+      "url": "https://www.videha.co.in/research/2024/405/हम-हितनाथ-झाकेँ-कोना-चिन्हलियनि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf",
+      "path": "2024/405/हम-हितनाथ-झाकेँ-कोना-चिन्हलियनि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हितनाथ झा समर्पित पाठक केर साकांक्ष प्रतिनिधि",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2024-11-01",
+      "year": "2024",
+      "issue": "405",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; reader-response studies; author studies",
+      "url": "https://www.videha.co.in/research/2024/405/हितनाथ-झा-समर्पित-पाठक-केर-साकांक्ष-प्रतिनिधि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf",
+      "path": "2024/405/हितनाथ-झा-समर्पित-पाठक-केर-साकांक्ष-प्रतिनिधि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हितनाथ झाक जीवन ओ साहित्य",
+      "english_title": null,
+      "authors": [
+        "नारायण झा"
+      ],
+      "publication_date": "2024-11-01",
+      "year": "2024",
+      "issue": "405",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; author studies; intellectual biography",
+      "url": "https://www.videha.co.in/research/2024/405/हितनाथ-झाक-जीवन-ओ-साहित्य.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20405.pdf",
+      "path": "2024/405/हितनाथ-झाक-जीवन-ओ-साहित्य.htm",
       "page_start": null,
       "page_end": null
     },
