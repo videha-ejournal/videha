@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-29T01:53:33.025240+00:00",
+  "generated": "2026-08-29T02:05:31.842239+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 583,
-    "promoted_sections_publishable": 531,
-    "promoted_sections_review": 52,
+    "promoted_sections_requested": 590,
+    "promoted_sections_publishable": 537,
+    "promoted_sections_review": 53,
     "curated_manifests": 1,
-    "published_after_all_overrides": 573,
+    "published_after_all_overrides": 579,
     "stale_generated_pages_removed_before_render": 573,
     "build_errors": 0
   },
@@ -5363,6 +5363,25 @@
       "page_end": null
     },
     {
+      "title": "अनमोल झाक पोथी ‘टेकनोलजी’क समीक्षा",
+      "english_title": null,
+      "authors": [
+        "जगदानन्द झा ‘मनु’"
+      ],
+      "publication_date": "2014-03-15",
+      "year": "2014",
+      "issue": "150",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Technology studies; Maithili book review; digital culture",
+      "url": "https://www.videha.co.in/research/2014/150/अनमोल-झाक-पोथी-टेकनोलजी-क-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20150.pdf",
+      "path": "2014/150/अनमोल-झाक-पोथी-टेकनोलजी-क-समीक्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "जहिया ओ इतिहास सुनौलक",
       "english_title": null,
       "authors": [
@@ -5378,6 +5397,101 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20150.pdf",
       "path": "2014/150/जहिया-ओ-इतिहास-सुनौलक.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "बड़का साहेब: परम्परागत संस्कार केर पराभवक वृत्तचित्र",
+      "english_title": null,
+      "authors": [
+        "शिवकुमार झा ‘टिल्लू’"
+      ],
+      "publication_date": "2014-03-15",
+      "year": "2014",
+      "issue": "150",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; social change; traditional values",
+      "url": "https://www.videha.co.in/research/2014/150/बड़का-साहेब-परम्परागत-संस्कार-केर-पराभवक-वृत्तचित्र.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20150.pdf",
+      "path": "2014/150/बड़का-साहेब-परम्परागत-संस्कार-केर-पराभवक-वृत्तचित्र.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली: सरकार आ हम सभ",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2014-03-15",
+      "year": "2014",
+      "issue": "150",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili language policy; public institutions; sociolinguistics",
+      "url": "https://www.videha.co.in/research/2014/150/मैथिली-सरकार-आ-हम-सभ.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20150.pdf",
+      "path": "2014/150/मैथिली-सरकार-आ-हम-सभ.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सगर राति दीप जरयक ७९म आ ८०म आयोजन",
+      "english_title": null,
+      "authors": [
+        "पूनम मण्डल"
+      ],
+      "publication_date": "2014-03-15",
+      "year": "2014",
+      "issue": "150",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary institutions; short-story movement; event documentation",
+      "url": "https://www.videha.co.in/research/2014/150/सगर-राति-दीप-जरयक-७९म-आ-८०म-आयोजन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20150.pdf",
+      "path": "2014/150/सगर-राति-दीप-जरयक-७९म-आ-८०म-आयोजन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सुजीतक ‘गन्ध’ सुगन्ध छोड़ि रहल",
+      "english_title": null,
+      "authors": [
+        "अमर कान्त अमर"
+      ],
+      "publication_date": "2014-03-15",
+      "year": "2014",
+      "issue": "150",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili book review; Sujit Kumar Jha studies; literary criticism",
+      "url": "https://www.videha.co.in/research/2014/150/सुजीतक-गन्ध-सुगन्ध-छोड़ि-रहल.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20150.pdf",
+      "path": "2014/150/सुजीतक-गन्ध-सुगन्ध-छोड़ि-रहल.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "८०म सगर राति दीप जरय: ४५ पोथीक लोकार्पण आ २८म विदेह पोथी प्रदर्शनी",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2014-03-15",
+      "year": "2014",
+      "issue": "150",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili publishing history; literary institutions; exhibition documentation",
+      "url": "https://www.videha.co.in/research/2014/150/८०म-सगर-राति-दीप-जरय-४५-पोथीक-लोकार्पण-आ-२८म-विदेह-पोथी-प्रदर्शनी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20150.pdf",
+      "path": "2014/150/८०म-सगर-राति-दीप-जरय-४५-पोथीक-लोकार्पण-आ-२८म-विदेह-पोथी-प्रदर्शनी.htm",
       "page_start": null,
       "page_end": null
     },
