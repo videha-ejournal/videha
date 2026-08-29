@@ -24,6 +24,3 @@ function baseHead(){return{mode:hostMode(),primary:PRIMARY,github:GITHUB};}
 g.VidehaCore={PRIMARY,GITHUB,GH_ROOT,hostMode,resolveSearchUrl,canonicalGitHubUrl,toolUrl,isHistorical,lowData,setLowData,escapeHTML,download,readText,devaNum,toDeva,baseHead};
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",initLowData);else initLowData();
 })(window);
-
-/* Add archive card/tab 22 only on the four requested Videha pages. */
-(function(){"use strict";const PAGES=new Set(["index.htm","archive.htm","videha-converters.htm","gajenthakur.htm"]);function addSamagraTab(){const page=(location.pathname.split("/").pop()||"index.htm").toLowerCase();if(!PAGES.has(page))return;const list=document.querySelector(".archive-numbered-list");if(!list)return;if([...list.querySelectorAll("a[href]")].some(a=>/gajendra-thakur-samagra\.htm(?:l)?(?:[?#].*)?$/i.test(a.getAttribute("href")||"")))return;const a=document.createElement("a");a.href="gajendra-thakur-samagra.htm";a.className="arch-card";a.innerHTML='<div class="arch-card-num">२२</div><div class="arch-card-body"><div class="arch-card-title">गजेन्द्र ठाकुर समग्र</div><div class="arch-card-sub">Gajendra Thakur — Complete Works & Digital Archive</div></div>';list.appendChild(a);}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",addSamagraTab);else addSamagraTab();})();
