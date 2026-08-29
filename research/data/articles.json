@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-29T06:13:36.556724+00:00",
+  "generated": "2026-08-29T07:02:33.957259+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 638,
-    "promoted_sections_publishable": 580,
+    "promoted_sections_requested": 648,
+    "promoted_sections_publishable": 590,
     "promoted_sections_review": 58,
     "curated_manifests": 1,
-    "published_after_all_overrides": 615,
-    "stale_generated_pages_removed_before_render": 615,
+    "published_after_all_overrides": 625,
+    "stale_generated_pages_removed_before_render": 623,
     "build_errors": 0
   },
   "articles": [
@@ -6731,6 +6731,25 @@
       "page_end": null
     },
     {
+      "title": "तमाकूल सँ बरबाद होइत मैथिल आ मैथिली संस्कृति",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2017-03-01",
+      "year": "2017",
+      "issue": "221",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Public health; tobacco use; Mithila cultural anthropology; social reform",
+      "url": "https://www.videha.co.in/research/2017/221/तमाकूल-सँ-बरबाद-होइत-मैथिल-आ-मैथिली-संस्कृति.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20221.pdf",
+      "path": "2017/221/तमाकूल-सँ-बरबाद-होइत-मैथिल-आ-मैथिली-संस्कृति.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "दलित साहित्यकेँ आन साहित्यसँ फुटकेबाक प्रयोजन",
       "english_title": null,
       "authors": [
@@ -6746,6 +6765,63 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20221.pdf",
       "path": "2017/221/दलित-साहित्यकेँ-आन-साहित्यसँ-फुटकेबाक-प्रयोजन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली जोग गीतमे प्रेम आ तंत्रक प्रभाव",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2017-03-15",
+      "year": "2017",
+      "issue": "222",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili folk-song studies; gender; tantra; ritual anthropology",
+      "url": "https://www.videha.co.in/research/2017/222/मैथिली-जोग-गीतमे-प्रेम-आ-तंत्रक-प्रभाव.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20222.pdf",
+      "path": "2017/222/मैथिली-जोग-गीतमे-प्रेम-आ-तंत्रक-प्रभाव.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिलीक धरोहर ‘सीता-शील’: साहित्यिक विवेचना",
+      "english_title": null,
+      "authors": [
+        "डॉ. वीणा कर्ण"
+      ],
+      "publication_date": "2017-03-15",
+      "year": "2017",
+      "issue": "222",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; epic poetry; Sita literature; poetics",
+      "url": "https://www.videha.co.in/research/2017/222/मैथिलीक-धरोहर-सीता-शील-साहित्यिक-विवेचना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20222.pdf",
+      "path": "2017/222/मैथिलीक-धरोहर-सीता-शील-साहित्यिक-विवेचना.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "लोक-वेद आ व्यवहारक पाबनि मधुश्रावणी: मानवशास्त्रीय विवेचन",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2017-04-01",
+      "year": "2017",
+      "issue": "223",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Madhushravani; ritual anthropology; folklore; Mithila gender studies",
+      "url": "https://www.videha.co.in/research/2017/223/लोक-वेद-आ-व्यवहारक-पाबनि-मधुश्रावणी-मानवशास्त्रीय-विवेचन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20223.pdf",
+      "path": "2017/223/लोक-वेद-आ-व्यवहारक-पाबनि-मधुश्रावणी-मानवशास्त्रीय-विवेचन.htm",
       "page_start": null,
       "page_end": null
     },
@@ -6788,6 +6864,82 @@
       "page_end": null
     },
     {
+      "title": "आजादक अन्त्येष्टि",
+      "english_title": null,
+      "authors": [
+        "रवीन्द्र नारायण मिश्र"
+      ],
+      "publication_date": "2017-05-15",
+      "year": "2017",
+      "issue": "226",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Indian independence history; Chandrashekhar Azad; documentary historical essay",
+      "url": "https://www.videha.co.in/research/2017/226/आजादक-अन्त्येष्टि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20226.pdf",
+      "path": "2017/226/आजादक-अन्त्येष्टि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गामक बात",
+      "english_title": null,
+      "authors": [
+        "रवीन्द्र नारायण मिश्र"
+      ],
+      "publication_date": "2017-05-15",
+      "year": "2017",
+      "issue": "226",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila village studies; rural social history; modernization and social change",
+      "url": "https://www.videha.co.in/research/2017/226/गामक-बात.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20226.pdf",
+      "path": "2017/226/गामक-बात.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मकर संक्रान्ति",
+      "english_title": null,
+      "authors": [
+        "रवीन्द्र नारायण मिश्र"
+      ],
+      "publication_date": "2017-05-15",
+      "year": "2017",
+      "issue": "226",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Festival studies; religious history; Mithila cultural anthropology",
+      "url": "https://www.videha.co.in/research/2017/226/मकर-संक्रान्ति.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20226.pdf",
+      "path": "2017/226/मकर-संक्रान्ति.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "राँची चारि दसक बाद",
+      "english_title": null,
+      "authors": [
+        "रवीन्द्र नारायण मिश्र"
+      ],
+      "publication_date": "2017-05-15",
+      "year": "2017",
+      "issue": "226",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Ranchi urban history; Jharkhand social change; longitudinal cultural observation",
+      "url": "https://www.videha.co.in/research/2017/226/राँची-चारि-दसक-बाद.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20226.pdf",
+      "path": "2017/226/राँची-चारि-दसक-बाद.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "गौरी चोरनी, गौरी डाईन आ गौरी छिनारि: मधुश्रावणी कथा केर द्वंद?",
       "english_title": null,
       "authors": [
@@ -6807,6 +6959,25 @@
       "page_end": null
     },
     {
+      "title": "‘सगर राति दीप जरय’क ९३म आ ९४म आयोजन",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2017-07-01",
+      "year": "2017",
+      "issue": "229",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary institutions; symposium documentation; cultural history",
+      "url": "https://www.videha.co.in/research/2017/229/सगर-राति-दीप-जरय-क-९३म-आ-९४म-आयोजन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20229.pdf",
+      "path": "2017/229/सगर-राति-दीप-जरय-क-९३म-आ-९४म-आयोजन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मि‍थि‍लाक लोक संगीत/ लोक कला भगैत गबैया",
       "english_title": null,
       "authors": [
@@ -6822,6 +6993,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20230.pdf",
       "path": "2017/230/मि-थि-लाक-लोक-संगीत-लोक-कला-भगैत-गबैया.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "‘कतेक रास बात’ इंटरनेटपर मैथिलीक पहिल उपस्थिति नै अछि",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2017-07-15",
+      "year": "2017",
+      "issue": "230",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili web journalism; internet history; digital humanities; media criticism",
+      "url": "https://www.videha.co.in/research/2017/230/कतेक-रास-बात-इंटरनेटपर-मैथिलीक-पहिल-उपस्थिति-नै-अछि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20230.pdf",
+      "path": "2017/230/कतेक-रास-बात-इंटरनेटपर-मैथिलीक-पहिल-उपस्थिति-नै-अछि.htm",
       "page_start": null,
       "page_end": null
     },
