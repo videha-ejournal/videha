@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-29T02:21:54.524999+00:00",
+  "generated": "2026-08-29T02:26:05.155394+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 592,
-    "promoted_sections_publishable": 539,
-    "promoted_sections_review": 53,
+    "promoted_sections_requested": 600,
+    "promoted_sections_publishable": 546,
+    "promoted_sections_review": 54,
     "curated_manifests": 1,
-    "published_after_all_overrides": 581,
-    "stale_generated_pages_removed_before_render": 579,
+    "published_after_all_overrides": 588,
+    "stale_generated_pages_removed_before_render": 581,
     "build_errors": 0
   },
   "articles": [
@@ -5572,6 +5572,63 @@
       "page_end": null
     },
     {
+      "title": "चिकनी माटिमे उपजल नागफेनी",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2014-11-01",
+      "year": "2014",
+      "issue": "165",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili ghazal criticism; book review; contemporary poetics",
+      "url": "https://www.videha.co.in/research/2014/165/चिकनी-माटिमे-उपजल-नागफेनी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20165.pdf",
+      "path": "2014/165/चिकनी-माटिमे-उपजल-नागफेनी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मायानंद मिश्रक ‘मैथिली साहित्यिक इतिहास’",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2014-11-01",
+      "year": "2014",
+      "issue": "165",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary historiography; Mayanand Mishra studies; textual criticism",
+      "url": "https://www.videha.co.in/research/2014/165/मायानंद-मिश्रक-मैथिली-साहित्यिक-इतिहास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20165.pdf",
+      "path": "2014/165/मायानंद-मिश्रक-मैथिली-साहित्यिक-इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली गजल व्याकरणक शुरूआती प्रयोग",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2014-11-01",
+      "year": "2014",
+      "issue": "165",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili ghazal studies; grammar; literary theory and criticism",
+      "url": "https://www.videha.co.in/research/2014/165/मैथिली-गजल-व्याकरणक-शुरूआती-प्रयोग.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20165.pdf",
+      "path": "2014/165/मैथिली-गजल-व्याकरणक-शुरूआती-प्रयोग.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "सखारी-पेटारी केर तानी-भरनी",
       "english_title": null,
       "authors": [
@@ -5606,6 +5663,82 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20165.pdf",
       "path": "2014/165/सतसठि-साला-कौशिकी-मिथिला-क-लेखा-जोखा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "काशीकान्त मिश्र ‘मधुप’ आ मैथिली गजल",
+      "english_title": null,
+      "authors": [
+        "ओम प्रकाश झा"
+      ],
+      "publication_date": "2015-01-01",
+      "year": "2015",
+      "issue": "169",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili ghazal history; Kashikant Mishra Madhup studies; literary criticism",
+      "url": "https://www.videha.co.in/research/2015/169/काशीकान्त-मिश्र-मधुप-आ-मैथिली-गजल.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20169.pdf",
+      "path": "2015/169/काशीकान्त-मिश्र-मधुप-आ-मैथिली-गजल.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "घसल अठन्नी: एकटा विमर्श",
+      "english_title": null,
+      "authors": [
+        "डॉ. शंभु कुमार सिंह"
+      ],
+      "publication_date": "2015-01-01",
+      "year": "2015",
+      "issue": "169",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili poetry criticism; social realism; Madhup studies",
+      "url": "https://www.videha.co.in/research/2015/169/घसल-अठन्नी-एकटा-विमर्श.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20169.pdf",
+      "path": "2015/169/घसल-अठन्नी-एकटा-विमर्श.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जन-चेतनाक स्वर वाहक मधुप",
+      "english_title": null,
+      "authors": [
+        "मुन्नाजी"
+      ],
+      "publication_date": "2015-01-01",
+      "year": "2015",
+      "issue": "169",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; social consciousness; Madhup studies",
+      "url": "https://www.videha.co.in/research/2015/169/जन-चेतनाक-स्वर-वाहक-मधुप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20169.pdf",
+      "path": "2015/169/जन-चेतनाक-स्वर-वाहक-मधुप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिलीक विद्रोही कवि: काशीकांत मिश्र मधुप",
+      "english_title": null,
+      "authors": [
+        "विनीत उत्पल"
+      ],
+      "publication_date": "2015-01-01",
+      "year": "2015",
+      "issue": "169",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; rebellion and modernism; Madhup studies",
+      "url": "https://www.videha.co.in/research/2015/169/मैथिलीक-विद्रोही-कवि-काशीकांत-मिश्र-मधुप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20169.pdf",
+      "path": "2015/169/मैथिलीक-विद्रोही-कवि-काशीकांत-मिश्र-मधुप.htm",
       "page_start": null,
       "page_end": null
     },

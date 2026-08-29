@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T02:21:54.523529+00:00",
+  "generated": "2026-08-29T02:26:05.154206+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,12 +12,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 592,
-    "promoted_sections_publishable": 539,
-    "promoted_sections_review": 53,
+    "promoted_sections_requested": 600,
+    "promoted_sections_publishable": 546,
+    "promoted_sections_review": 54,
     "curated_manifests": 1,
-    "published_after_all_overrides": 581,
-    "stale_generated_pages_removed_before_render": 579,
+    "published_after_all_overrides": 588,
+    "stale_generated_pages_removed_before_render": 581,
     "build_errors": 0
   },
   "explicit_review": [
@@ -957,6 +957,15 @@
       "author": "जगदानन्द झा ‘मनु’",
       "title": "गजल समीक्षा",
       "body_chars": 87,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "167",
+      "section": "2.2",
+      "author": "जगदानन्द झा ‘मनु’",
+      "title": "मैथिलीमे एकरूपताक अभाव",
+      "body_chars": 418,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     }
