@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-29T05:58:43.507354+00:00",
+  "generated": "2026-08-29T06:08:41.558202+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 626,
-    "promoted_sections_publishable": 568,
+    "promoted_sections_requested": 638,
+    "promoted_sections_publishable": 580,
     "promoted_sections_review": 58,
     "curated_manifests": 1,
-    "published_after_all_overrides": 609,
-    "stale_generated_pages_removed_before_render": 608,
+    "published_after_all_overrides": 615,
+    "stale_generated_pages_removed_before_render": 619,
     "build_errors": 0
   },
   "articles": [
@@ -6456,11 +6456,68 @@
       "issue": "211",
       "language": "mai",
       "keywords": [],
-      "classification": "History / cultural history article",
+      "classification": "Maithili literary institutions; short-story movement; cultural history",
       "url": "https://www.videha.co.in/research/2016/211/इतिहास--सगर-राति-दीप-जरय.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20211.pdf",
       "path": "2016/211/इतिहास--सगर-राति-दीप-जरय.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली लोकगीतमे कौआ सम्बाहक",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2016-10-01",
+      "year": "2016",
+      "issue": "211",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili folk songs; bird symbolism; cultural anthropology",
+      "url": "https://www.videha.co.in/research/2016/211/मैथिली-लोकगीतमे-कौआ-सम्बाहक.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20211.pdf",
+      "path": "2016/211/मैथिली-लोकगीतमे-कौआ-सम्बाहक.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "बाबा लालदास",
+      "english_title": null,
+      "authors": [
+        "चन्दना दत्त"
+      ],
+      "publication_date": "2016-10-15",
+      "year": "2016",
+      "issue": "212",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary biography; Lal Das studies; cultural history",
+      "url": "https://www.videha.co.in/research/2016/212/बाबा-लालदास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20212.pdf",
+      "path": "2016/212/बाबा-लालदास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सुग्गा आ श्रृंगार: मैथिली लोकगीतक परिदृश्यमे",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2016-10-15",
+      "year": "2016",
+      "issue": "212",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili folk songs; parrot symbolism; gender and cultural anthropology",
+      "url": "https://www.videha.co.in/research/2016/212/सुग्गा-आ-श्रृंगार-मैथिली-लोकगीतक-परिदृश्यमे.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20212.pdf",
+      "path": "2016/212/सुग्गा-आ-श्रृंगार-मैथिली-लोकगीतक-परिदृश्यमे.htm",
       "page_start": null,
       "page_end": null
     },
@@ -6525,18 +6582,37 @@
       "title": "राजस्थान केर मंडोवरमे रावण आ मंदोदरीक विवाह: लोक इतिहास केर मूर्त आ अमूर्त प्रमाण",
       "english_title": null,
       "authors": [
-        "डॊ कैलाश कुमार मिश्र"
+        "डॉ. कैलाश कुमार मिश्र"
       ],
       "publication_date": "2016-12-15",
       "year": "2016",
       "issue": "216",
       "language": "mai",
       "keywords": [],
-      "classification": "History / cultural history article",
+      "classification": "Folk history; Rajasthan cultural studies; Ravana and Mandodari traditions",
       "url": "https://www.videha.co.in/research/2016/216/राजस्थान-केर-मंडोवरमे-रावण-आ-मंदोदरीक-विवाह-लोक-इतिहास-केर-म-976f0766fa.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20216.pdf",
       "path": "2016/216/राजस्थान-केर-मंडोवरमे-रावण-आ-मंदोदरीक-विवाह-लोक-इतिहास-केर-म-976f0766fa.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "अरिपन",
+      "english_title": null,
+      "authors": [
+        "चन्द्रेश"
+      ],
+      "publication_date": "2017-01-01",
+      "year": "2017",
+      "issue": "217",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila art history; ritual design; visual anthropology",
+      "url": "https://www.videha.co.in/research/2017/217/अरिपन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20217.pdf",
+      "path": "2017/217/अरिपन.htm",
       "page_start": null,
       "page_end": null
     },
@@ -6556,6 +6632,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20217.pdf",
       "path": "2017/217/नेपाल-मे-मैथिली-गीत-संगीतक-अवस्था.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "वन्दनाक स्वरूप",
+      "english_title": null,
+      "authors": [
+        "योगेन्द्र पाठक ‘वियोगी’"
+      ],
+      "publication_date": "2017-01-01",
+      "year": "2017",
+      "issue": "217",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili music criticism; devotional song; literary aesthetics",
+      "url": "https://www.videha.co.in/research/2017/217/वन्दनाक-स्वरूप.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20217.pdf",
+      "path": "2017/217/वन्दनाक-स्वरूप.htm",
       "page_start": null,
       "page_end": null
     },
@@ -6613,6 +6708,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20218.pdf",
       "path": "2017/218/वरिष्ठ-नागरिक.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिलानीपर विमर्शक अधिकारी के?",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2017-02-01",
+      "year": "2017",
+      "issue": "219",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Gender studies; Mithila identity; feminist cultural criticism",
+      "url": "https://www.videha.co.in/research/2017/219/मैथिलानीपर-विमर्शक-अधिकारी-के.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20219.pdf",
+      "path": "2017/219/मैथिलानीपर-विमर्शक-अधिकारी-के.htm",
       "page_start": null,
       "page_end": null
     },
