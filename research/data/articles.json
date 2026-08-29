@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-29T02:47:24.374894+00:00",
+  "generated": "2026-08-29T02:52:35.182576+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 605,
-    "promoted_sections_publishable": 551,
-    "promoted_sections_review": 54,
+    "promoted_sections_requested": 612,
+    "promoted_sections_publishable": 555,
+    "promoted_sections_review": 57,
     "curated_manifests": 1,
-    "published_after_all_overrides": 593,
-    "stale_generated_pages_removed_before_render": 593,
+    "published_after_all_overrides": 597,
+    "stale_generated_pages_removed_before_render": 596,
     "build_errors": 0
   },
   "articles": [
@@ -5914,6 +5914,25 @@
       "page_end": null
     },
     {
+      "title": "एकटा खिच्चा सपनाक डिभिआएब: ‘ट्रान्सफर्मर’ कथा-संग्रहक सन्दर्भ",
+      "english_title": null,
+      "authors": [
+        "अरविन्द ठाकुर"
+      ],
+      "publication_date": "2015-11-01",
+      "year": "2015",
+      "issue": "189",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili short-story criticism; Hirendra Kumar Jha studies; book review",
+      "url": "https://www.videha.co.in/research/2015/189/एकटा-खिच्चा-सपनाक-डिभिआएब-ट्रान्सफर्मर-कथा-संग्रहक-सन्दर्भ.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20189.pdf",
+      "path": "2015/189/एकटा-खिच्चा-सपनाक-डिभिआएब-ट्रान्सफर्मर-कथा-संग्रहक-सन्दर्भ.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "परती टूटि गेलै",
       "english_title": null,
       "authors": [
@@ -5971,6 +5990,44 @@
       "page_end": null
     },
     {
+      "title": "मिथिलामे सांस्कृतिक आन्दोलनक भविष्य",
+      "english_title": null,
+      "authors": [
+        "अरविन्द ठाकुर"
+      ],
+      "publication_date": "2015-11-01",
+      "year": "2015",
+      "issue": "189",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila cultural movements; cultural policy; regional studies",
+      "url": "https://www.videha.co.in/research/2015/189/मिथिलामे-सांस्कृतिक-आन्दोलनक-भविष्य.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20189.pdf",
+      "path": "2015/189/मिथिलामे-सांस्कृतिक-आन्दोलनक-भविष्य.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "लक्ष्मीनाथ गोसांई: परम्परा, भाषा आ निर्गुण भाव",
+      "english_title": null,
+      "authors": [
+        "अरविन्द ठाकुर"
+      ],
+      "publication_date": "2015-11-01",
+      "year": "2015",
+      "issue": "189",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili religious literature; Nirgun tradition; language and cultural history",
+      "url": "https://www.videha.co.in/research/2015/189/लक्ष्मीनाथ-गोसांई-परम्परा-भाषा-आ-निर्गुण-भाव.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20189.pdf",
+      "path": "2015/189/लक्ष्मीनाथ-गोसांई-परम्परा-भाषा-आ-निर्गुण-भाव.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "सामंती सभहँक विरुद्ध तैयार कवि",
       "english_title": null,
       "authors": [
@@ -6005,6 +6062,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20189.pdf",
       "path": "2015/189/स्खलनक-प्रतिरोधमे-अन्हारक-विरोधमे.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गामक शकल-सूरत: पोथी समीक्षा",
+      "english_title": null,
+      "authors": [
+        "डॉ. शशिधर कुमार ‘विदेह’"
+      ],
+      "publication_date": "2015-11-15",
+      "year": "2015",
+      "issue": "190",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili book review; village studies; Jagdish Prasad Mandal criticism",
+      "url": "https://www.videha.co.in/research/2015/190/गामक-शकल-सूरत-पोथी-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20190.pdf",
+      "path": "2015/190/गामक-शकल-सूरत-पोथी-समीक्षा.htm",
       "page_start": null,
       "page_end": null
     },

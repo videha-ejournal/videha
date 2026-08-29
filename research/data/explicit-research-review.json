@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T02:47:24.373186+00:00",
+  "generated": "2026-08-29T02:52:35.181252+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,12 +12,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 605,
-    "promoted_sections_publishable": 551,
-    "promoted_sections_review": 54,
+    "promoted_sections_requested": 612,
+    "promoted_sections_publishable": 555,
+    "promoted_sections_review": 57,
     "curated_manifests": 1,
-    "published_after_all_overrides": 593,
-    "stale_generated_pages_removed_before_render": 593,
+    "published_after_all_overrides": 597,
+    "stale_generated_pages_removed_before_render": 596,
     "build_errors": 0
   },
   "explicit_review": [
@@ -966,6 +966,33 @@
       "author": "जगदानन्द झा ‘मनु’",
       "title": "मैथिलीमे एकरूपताक अभाव",
       "body_chars": 418,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "187",
+      "section": "2.1",
+      "author": "पूनम मण्डल",
+      "title": "सगर राति दीप जरल: आयोजन रिपोर्ट",
+      "body_chars": 1545,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "188",
+      "section": "2.1",
+      "author": "उमेश मण्डल",
+      "title": "सगर राति दीप जरल: आयोजन रिपोर्ट",
+      "body_chars": 457,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "189",
+      "section": "2.2.6",
+      "author": "योगेन्द्र पाठक ‘वियोगी’",
+      "title": "अन्हारक रखवार",
+      "body_chars": 691,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     }
