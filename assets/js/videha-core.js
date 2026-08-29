@@ -4,163 +4,38 @@ const GITHUB="https://videha-ejournal.github.io/videha/";
 const GH_ROOT="https://videha-ejournal.github.io/";
 const GH_PATH="/videha/";
 const GH_PROJECTS=["videha-quiz","videha-sadeha","videha-ejournal"];
-
-function hostMode(){
-  const h=location.hostname.toLowerCase();
-  if(h.endsWith("github.io"))return"github";
-  if(h==="www.videha.co.in"||h==="videha.co.in")return"primary";
-  return"local";
-}
-function splitSuffix(u){
-  const s=String(u||"");
-  const m=s.match(/([?#].*)$/);
-  return m?[s.slice(0,-m[1].length),m[1]]:[s,""];
-}
-function canonicalGitHubUrl(u){
-  const raw=String(u||"").trim();
-  if(!raw)return"";
-  let [x,suffix]=splitSuffix(raw);
-
-  /* Any already-absolute Videha GitHub Pages URL is authoritative.
-     Repair only the known accidental nesting under /videha/. */
-  if(/^https?:\/\/videha-ejournal\.github\.io\//i.test(x)){
-    x=x.replace(
-      /^https?:\/\/videha-ejournal\.github\.io\/videha\/(videha-(?:quiz|sadeha|ejournal)\/)/i,
-      GH_ROOT+"$1"
-    );
-    return x+suffix;
-  }
-
-  /* Repair project URLs accidentally rewritten onto the primary host. */
-  const primaryProject=x.match(
-    /^https?:\/\/(?:www\.)?videha\.co\.in\/(videha-(?:quiz|sadeha|ejournal)\/.*)$/i
-  );
-  if(primaryProject)return GH_ROOT+primaryProject[1]+suffix;
-
-  /* Relative project-prefixed paths always belong to their GitHub Pages project. */
-  let rel=x.replace(/^\.?\/+/,"");
-  rel=rel.replace(/^videha\/(videha-(?:quiz|sadeha|ejournal)\/)/i,"$1");
-  if(GH_PROJECTS.some(p=>rel.toLowerCase().startsWith(p+"/"))){
-    return GH_ROOT+rel+suffix;
-  }
-  return"";
-}
-function stripKnownPath(path){
-  path=String(path||"").replace(/^https?:\/\/[^/]+/i,"");
-  path=path.split(/[?#]/)[0];
-  if(path.startsWith(GH_PATH))path=path.slice(GH_PATH.length);
-  else path=path.replace(/^\/+/,"");
-  return path;
-}
+function hostMode(){const h=location.hostname.toLowerCase();if(h.endsWith("github.io"))return"github";if(h==="www.videha.co.in"||h==="videha.co.in")return"primary";return"local";}
+function splitSuffix(u){const s=String(u||"");const m=s.match(/([?#].*)$/);return m?[s.slice(0,-m[1].length),m[1]]:[s,""];}
+function canonicalGitHubUrl(u){const raw=String(u||"").trim();if(!raw)return"";let[x,suffix]=splitSuffix(raw);if(/^https?:\/\/videha-ejournal\.github\.io\//i.test(x)){x=x.replace(/^https?:\/\/videha-ejournal\.github\.io\/videha\/(videha-(?:quiz|sadeha|ejournal)\/)/i,GH_ROOT+"$1");return x+suffix;}const primaryProject=x.match(/^https?:\/\/(?:www\.)?videha\.co\.in\/(videha-(?:quiz|sadeha|ejournal)\/.*)$/i);if(primaryProject)return GH_ROOT+primaryProject[1]+suffix;let rel=x.replace(/^\.?\/+/,"");rel=rel.replace(/^videha\/(videha-(?:quiz|sadeha|ejournal)\/)/i,"$1");if(GH_PROJECTS.some(p=>rel.toLowerCase().startsWith(p+"/")))return GH_ROOT+rel+suffix;return"";}
+function stripKnownPath(path){path=String(path||"").replace(/^https?:\/\/[^/]+/i,"");path=path.split(/[?#]/)[0];if(path.startsWith(GH_PATH))path=path.slice(GH_PATH.length);else path=path.replace(/^\/+/,"");return path;}
 function isHistorical(u){return /(?:^|\/)search-documents\//i.test(String(u||""));}
-function isExternal(u){
-  return /^(?:mailto:|tel:|javascript:|data:|blob:|#)/i.test(String(u||"")) ||
-    (/^https?:\/\//i.test(String(u||"")) && !/(?:videha\.co\.in|videha-ejournal\.github\.io)/i.test(String(u||"")));
-}
-function resolveSearchUrl(u){
-  u=String(u||"").trim();
-  if(!u)return u;
-
-  /* GitHub project/root URLs must never be rewritten to the current host. */
-  const gh=canonicalGitHubUrl(u);
-  if(gh)return gh;
-
-  if(isExternal(u))return u;
-  let suffix="";
-  const sm=u.match(/([?#].*)$/);
-  if(sm)suffix=sm[1];
-  const p=stripKnownPath(u);
-  if(isHistorical(p))return GITHUB+p.replace(/^\/+/,"")+suffix;
-
-  /* Only genuinely relative main-Videha mirrored pages remain host-aware. */
-  const mode=hostMode();
-  if(mode==="github")return GITHUB+p.replace(/^\/+/,"")+suffix;
-  if(mode==="primary")return PRIMARY+p.replace(/^\/+/,"")+suffix;
-  return u;
-}
-function toolUrl(file,heavy){
-  file=String(file||"").replace(/^\/+/,"");
-  if(heavy&&hostMode()==="primary")return GITHUB+file;
-  return resolveSearchUrl(file);
-}
+function isExternal(u){return /^(?:mailto:|tel:|javascript:|data:|blob:|#)/i.test(String(u||""))||(/^https?:\/\//i.test(String(u||""))&&!/(?:videha\.co\.in|videha-ejournal\.github\.io)/i.test(String(u||"")));}
+function resolveSearchUrl(u){u=String(u||"").trim();if(!u)return u;const gh=canonicalGitHubUrl(u);if(gh)return gh;if(isExternal(u))return u;let suffix="";const sm=u.match(/([?#].*)$/);if(sm)suffix=sm[1];const p=stripKnownPath(u);if(isHistorical(p))return GITHUB+p.replace(/^\/+/,"")+suffix;const mode=hostMode();if(mode==="github")return GITHUB+p.replace(/^\/+/,"")+suffix;if(mode==="primary")return PRIMARY+p.replace(/^\/+/,"")+suffix;return u;}
+function toolUrl(file,heavy){file=String(file||"").replace(/^\/+/,"");if(heavy&&hostMode()==="primary")return GITHUB+file;return resolveSearchUrl(file);}
 function lowData(){try{return localStorage.getItem("videha.lowData")==="1"}catch(e){return false}}
-function setLowData(v){
-  try{localStorage.setItem("videha.lowData",v?"1":"0")}catch(e){}
-  document.documentElement.classList.toggle("vds-low-data",!!v);
-  g.dispatchEvent(new CustomEvent("videha:lowdata",{detail:{enabled:!!v}}));
-}
-function initLowData(){
-  setLowData(lowData());
-  document.querySelectorAll("[data-vds-lowdata]").forEach(b=>{
-    b.setAttribute("aria-pressed",lowData()?"true":"false");
-    b.addEventListener("click",()=>{
-      const n=!lowData();setLowData(n);b.setAttribute("aria-pressed",n?"true":"false");
-      b.textContent=n?"हल्का मोड: चालू · Low Data: ON":"हल्का मोड · Low Data";
-    });
-  });
-}
+function setLowData(v){try{localStorage.setItem("videha.lowData",v?"1":"0")}catch(e){}document.documentElement.classList.toggle("vds-low-data",!!v);g.dispatchEvent(new CustomEvent("videha:lowdata",{detail:{enabled:!!v}}));}
+function initLowData(){setLowData(lowData());document.querySelectorAll("[data-vds-lowdata]").forEach(b=>{b.setAttribute("aria-pressed",lowData()?"true":"false");b.addEventListener("click",()=>{const n=!lowData();setLowData(n);b.setAttribute("aria-pressed",n?"true":"false");b.textContent=n?"हल्का मोड: चालू · Low Data: ON":"हल्का मोड · Low Data";});});}
 function escapeHTML(s){return String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
-function download(name,data,type){
-  const b=data instanceof Blob?data:new Blob([data],{type:type||"application/octet-stream"});
-  const a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1200);
-}
+function download(name,data,type){const b=data instanceof Blob?data:new Blob([data],{type:type||"application/octet-stream"});const a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1200);}
 function readText(file){return file.text?file.text():new Response(file).text();}
 function devaNum(s){return String(s||"").replace(/[०-९]/g,d=>"०१२३४५६७८९".indexOf(d));}
 function toDeva(n){return String(n).replace(/[0-9]/g,d=>"०१२३४५६७८९"[+d]);}
-function baseHead(){return {mode:hostMode(),primary:PRIMARY,github:GITHUB};}
-
+function baseHead(){return{mode:hostMode(),primary:PRIMARY,github:GITHUB};}
 g.VidehaCore={PRIMARY,GITHUB,GH_ROOT,hostMode,resolveSearchUrl,canonicalGitHubUrl,toolUrl,isHistorical,lowData,setLowData,escapeHTML,download,readText,devaNum,toDeva,baseHead};
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",initLowData);else initLowData();
 })(window);
 
-/* Restore the exact "Search all Videha" component on the Gajendra Thakur Samagra page. */
+/* Gajendra Thakur Samagra: restore the two source-page strips and the exact universal search. */
 (function(){"use strict";
-  function isSamagra(){return /(?:^|\/)gajendra-thakur-samagra\.htm(?:l)?$/i.test(location.pathname);}
-  async function restoreUniversalSearch(){
-    if(!isSamagra() || document.getElementById("videha-universal-search")) return;
-    try{
-      const source=(window.VidehaCore&&VidehaCore.resolveSearchUrl)?VidehaCore.resolveSearchUrl("pothi.htm"):"pothi.htm";
-      const r=await fetch(source,{cache:"no-cache",credentials:"same-origin"});
-      if(!r.ok) throw new Error("pothi.htm "+r.status);
-      const html=await r.text();
-      const parsed=new DOMParser().parseFromString(html,"text/html");
-      const original=parsed.getElementById("videha-universal-search");
-      if(!original) throw new Error("Universal search block not found in pothi.htm");
-      const imported=document.importNode(original,true);
-      const tools=document.querySelector(".gt-tools");
-      const shell=document.querySelector(".gt-shell")||document.querySelector("main")||document.body;
-      if(tools&&tools.parentNode) tools.parentNode.insertBefore(imported,tools.nextSibling);
-      else shell.insertBefore(imported,shell.firstChild);
-      const scripts=[...parsed.scripts].filter(s=>{
-        const t=s.textContent||"";
-        return t.includes("vus-form") && t.includes("vus-results") && t.includes("vus-q");
-      });
-      scripts.forEach(src=>{
-        const s=document.createElement("script");
-        if(src.src) s.src=src.src;
-        else s.textContent=src.textContent;
-        [...src.attributes].forEach(a=>{if(a.name!=="src")s.setAttribute(a.name,a.value);});
-        document.body.appendChild(s);
-      });
-    }catch(err){console.error("Videha universal search restore failed:",err);}
-  }
-  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",restoreUniversalSearch);else restoreUniversalSearch();
+function isSamagra(){return /(?:^|\/)gajendra-thakur-samagra\.htm(?:l)?$/i.test(location.pathname);}
+function addStrips(){if(!isSamagra()||document.getElementById("gt-source-strips"))return;const shell=document.querySelector(".gt-shell");if(!shell)return;const wrap=document.createElement("div");wrap.id="gt-source-strips";wrap.innerHTML='<div class="col-md-12 clrStrip"><div class="row"><div class="col-md-12" style="margin-top:6px"><center>विदेह A PARALLEL HISTORY OF MITHILA &amp; MAITHILI LITERATURE</center></div></div></div><div class="container boxOutline"><div class="col-md-12 grayBox"><div class="row"><div class="col-md-12"><center class="videha-refresh-note">विदेह ई पत्रिकाक नव अंक देखबाक लेल पृष्ठ सभकेँ रिफ्रेश कए देखू: <span class="videha-refresh-keys">[Windows / Linux: Ctrl + F5 / Ctrl + Shift + R &nbsp;·&nbsp; macOS: Command (Cmd) + Option + E + F5 / hold Shift + Click the Refresh button]</span></center></div></div></div></div>';shell.parentNode.insertBefore(wrap,shell);}
+async function getPothiHTML(){const urls=[];try{if(window.VidehaCore)urls.push(VidehaCore.resolveSearchUrl("pothi.htm"));}catch(e){}urls.push("pothi.htm","https://videha-ejournal.github.io/videha/pothi.htm");for(const u of [...new Set(urls)]){try{const r=await fetch(u,{cache:"no-store",mode:"cors",credentials:"omit"});if(r.ok)return await r.text();}catch(e){}}throw new Error("Unable to load pothi.htm");}
+function activateScripts(root){root.querySelectorAll("script").forEach(old=>{const s=document.createElement("script");for(const a of old.attributes)s.setAttribute(a.name,a.value);if(old.src)s.src=old.src;else s.textContent=old.textContent;old.replaceWith(s);});}
+async function restoreUniversalSearch(){if(!isSamagra()||document.getElementById("videha-universal-search"))return;try{const html=await getPothiHTML();const start=html.indexOf("<!-- VIDEHA UNIVERSAL SEARCH START -->");const endMarker="<!-- VIDEHA UNIVERSAL SEARCH END -->";let block="";if(start>=0){const end=html.indexOf(endMarker,start);if(end>start)block=html.slice(start,end+endMarker.length);}if(!block){const parsed=new DOMParser().parseFromString(html,"text/html");const sec=parsed.getElementById("videha-universal-search");if(sec)block=sec.outerHTML;}if(!block)throw new Error("Search all Videha block not found");const holder=document.createElement("div");holder.id="gt-universal-search-host";holder.innerHTML=block;const tools=document.querySelector(".gt-tools");const shell=document.querySelector(".gt-shell");if(tools&&tools.parentNode)tools.parentNode.insertBefore(holder,tools.nextSibling);else if(shell)shell.insertBefore(holder,shell.firstChild);else document.body.appendChild(holder);activateScripts(holder);setTimeout(()=>{if(!document.getElementById("videha-universal-search")){holder.remove();fallbackSearch();}},600);}catch(err){console.error("Videha universal search restore failed:",err);fallbackSearch();}}
+function fallbackSearch(){if(!isSamagra()||document.getElementById("videha-universal-search"))return;const host=document.createElement("section");host.id="videha-universal-search";host.className="vus-wrap";host.setAttribute("aria-labelledby","vus-heading");host.innerHTML='<style>.vus-wrap{margin:28px 0 18px;padding:22px 20px;background:#FAF6EE;border:1px solid #D8CFC0;border-left:4px solid #8B1A1A}.vus-head{border-bottom:1px solid #D8CFC0;padding-bottom:10px;margin-bottom:14px}.vus-head h2{margin:0;color:#8B1A1A;font-family:\'Playfair Display\',\'Noto Serif Devanagari\',serif;font-size:1.45rem}.vus-form{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:8px}.vus-form input{min-height:44px;padding:9px 11px;border:1px solid #BFB29E;background:#FFFCF6}.vus-btn{min-height:44px;padding:8px 14px;border:1px solid #8B1A1A;background:#8B1A1A;color:white;cursor:pointer}.vus-btn--quiet{background:transparent;color:#8B1A1A}.vus-result{padding:10px 0;border-top:1px solid #E7DECB}.vus-result a{color:#8B1A1A;font-weight:700;text-decoration:none}@media(max-width:620px){.vus-form{grid-template-columns:1fr}}</style><div class="vus-head"><h2 id="vus-heading">विदेहमे सभठाम ताकू <span style="font-size:.68em;font-weight:400;color:#544D42">/ Search all Videha</span></h2></div><form id="vus-form" class="vus-form" role="search"><label for="vus-q" class="videha-sr-only">विदेहमे सभठाम ताकू · Search all Videha</label><input id="vus-q" type="search" placeholder="लेखक, शीर्षक, अंक, वर्ष, शब्द… / author, title, issue, year, word…"><button class="vus-btn" type="submit">ताकू · Search</button><button class="vus-btn vus-btn--quiet" type="button" id="vus-clear">मेटाउ · Clear</button></form><div id="vus-status" aria-live="polite" style="margin:10px 0 4px"></div><div id="vus-results"></div>';const tools=document.querySelector(".gt-tools");if(tools&&tools.parentNode)tools.parentNode.insertBefore(host,tools.nextSibling);else(document.querySelector(".gt-shell")||document.body).appendChild(host);const q=host.querySelector("#vus-q"),form=host.querySelector("#vus-form"),clear=host.querySelector("#vus-clear"),status=host.querySelector("#vus-status"),results=host.querySelector("#vus-results");let cache=null;async function run(){const term=q.value.trim();results.innerHTML="";if(!term){status.textContent="";return;}status.textContent="खोजि रहल अछि… / Searching…";try{if(!cache){const r=await fetch("videha-search-index.json",{cache:"no-store"});if(!r.ok)throw new Error(r.status);const j=await r.json();cache=j.entries||j;}const n=term.toLocaleLowerCase();const rows=cache.filter(e=>JSON.stringify(e).toLocaleLowerCase().includes(n)).slice(0,100);status.textContent=rows.length+" परिणाम · results";results.innerHTML=rows.map(e=>'<div class="vus-result"><a href="'+(e.f||e.url||"#")+'">'+(e.t||e.title||e.f||"Result")+'</a><div>'+(e.a||e.author||e.s||"")+'</div></div>').join("");}catch(e){status.textContent="खोज उपलब्ध नहि भेल · Search unavailable";}}form.addEventListener("submit",e=>{e.preventDefault();run();});clear.addEventListener("click",()=>{q.value="";status.textContent="";results.innerHTML="";q.focus();});}
+function init(){addStrips();restoreUniversalSearch();}
+if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();
 })();
 
 /* Add archive card/tab 22 only on the four requested Videha pages. */
-(function(){"use strict";
-  const PAGES=new Set(["index.htm","archive.htm","videha-converters.htm","gajenthakur.htm"]);
-  function addSamagraTab(){
-    const page=(location.pathname.split("/").pop()||"index.htm").toLowerCase();
-    if(!PAGES.has(page))return;
-    const list=document.querySelector(".archive-numbered-list");
-    if(!list)return;
-    if([...list.querySelectorAll("a[href]")].some(a=>/gajendra-thakur-samagra\.htm(?:l)?(?:[?#].*)?$/i.test(a.getAttribute("href")||"")))return;
-    const a=document.createElement("a");
-    a.href="gajendra-thakur-samagra.htm";
-    a.className="arch-card";
-    a.innerHTML='<div class="arch-card-num">२२</div><div class="arch-card-body"><div class="arch-card-title">गजेन्द्र ठाकुर समग्र</div><div class="arch-card-sub">Gajendra Thakur — Complete Works & Digital Archive</div></div>';
-    list.appendChild(a);
-  }
-  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",addSamagraTab);else addSamagraTab();
-})();
+(function(){"use strict";const PAGES=new Set(["index.htm","archive.htm","videha-converters.htm","gajenthakur.htm"]);function addSamagraTab(){const page=(location.pathname.split("/").pop()||"index.htm").toLowerCase();if(!PAGES.has(page))return;const list=document.querySelector(".archive-numbered-list");if(!list)return;if([...list.querySelectorAll("a[href]")].some(a=>/gajendra-thakur-samagra\.htm(?:l)?(?:[?#].*)?$/i.test(a.getAttribute("href")||"")))return;const a=document.createElement("a");a.href="gajendra-thakur-samagra.htm";a.className="arch-card";a.innerHTML='<div class="arch-card-num">२२</div><div class="arch-card-body"><div class="arch-card-title">गजेन्द्र ठाकुर समग्र</div><div class="arch-card-sub">Gajendra Thakur — Complete Works & Digital Archive</div></div>';list.appendChild(a);}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",addSamagraTab);else addSamagraTab();})();
