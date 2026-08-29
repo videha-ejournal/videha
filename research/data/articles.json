@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-29T02:08:08.600695+00:00",
+  "generated": "2026-08-29T02:21:54.524999+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 590,
-    "promoted_sections_publishable": 537,
+    "promoted_sections_requested": 592,
+    "promoted_sections_publishable": 539,
     "promoted_sections_review": 53,
     "curated_manifests": 1,
-    "published_after_all_overrides": 579,
+    "published_after_all_overrides": 581,
     "stale_generated_pages_removed_before_render": 579,
     "build_errors": 0
   },
@@ -5515,6 +5515,25 @@
       "page_end": null
     },
     {
+      "title": "Obsessed with Native-hood",
+      "english_title": null,
+      "authors": [
+        "Sanjeev Kumar Jha"
+      ],
+      "publication_date": "2014-07-01",
+      "year": "2014",
+      "issue": "157",
+      "language": "en",
+      "keywords": [],
+      "classification": "Cultural identity; native-place attachment; social anthropology",
+      "url": "https://www.videha.co.in/research/2014/157/obsessed-with-native-hood.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20157.pdf",
+      "path": "2014/157/obsessed-with-native-hood.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मैथिली काव्यशास्त्रमे झारू छंदक अवधारणा : स्वरूप आ तत्व निर्धारण (आलोचना)",
       "english_title": null,
       "authors": [
@@ -5530,6 +5549,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20157.pdf",
       "path": "2014/157/मैथिली-काव्यशास्त्रमे-झारू-छंदक-अवधारणा-स्वरूप-आ-तत्व-निर्-71432a0974.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली काव्यशास्त्रमे झारू छंदक अवधारणा: स्वरूप आ तत्व निर्धारण",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2014-07-01",
+      "year": "2014",
+      "issue": "157",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili poetics; prosody; literary theory and criticism",
+      "url": "https://www.videha.co.in/research/2014/157/मैथिली-काव्यशास्त्रमे-झारू-छंदक-अवधारणा-स्वरूप-आ-तत्व-निर्धारण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20157.pdf",
+      "path": "2014/157/मैथिली-काव्यशास्त्रमे-झारू-छंदक-अवधारणा-स्वरूप-आ-तत्व-निर्धारण.htm",
       "page_start": null,
       "page_end": null
     },
