@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T07:58:37.535834+00:00",
+  "generated": "2026-08-29T08:19:41.440399+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,12 +12,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 655,
-    "promoted_sections_publishable": 597,
-    "promoted_sections_review": 58,
+    "promoted_sections_requested": 678,
+    "promoted_sections_publishable": 619,
+    "promoted_sections_review": 59,
     "curated_manifests": 1,
-    "published_after_all_overrides": 632,
-    "stale_generated_pages_removed_before_render": 632,
+    "published_after_all_overrides": 654,
+    "stale_generated_pages_removed_before_render": 652,
     "build_errors": 0
   },
   "explicit_review": [
@@ -1002,6 +1002,15 @@
       "author": "छत्रानन्द सिंह झा",
       "title": "‘गीत-गंगा’मे सब किछु अछि",
       "body_chars": 1045,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "254",
+      "section": "2.1.2",
+      "author": "आशीष अनचिन्हार",
+      "title": "‘इश्क को दिल में दे जगह अकबर’ आ जगदीश चन्द्र ठाकुर ‘अनिल’",
+      "body_chars": 1664,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     }

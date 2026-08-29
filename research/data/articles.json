@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-29T07:58:37.537275+00:00",
+  "generated": "2026-08-29T08:19:41.441585+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 655,
-    "promoted_sections_publishable": 597,
-    "promoted_sections_review": 58,
+    "promoted_sections_requested": 678,
+    "promoted_sections_publishable": 619,
+    "promoted_sections_review": 59,
     "curated_manifests": 1,
-    "published_after_all_overrides": 632,
-    "stale_generated_pages_removed_before_render": 632,
+    "published_after_all_overrides": 654,
+    "stale_generated_pages_removed_before_render": 652,
     "build_errors": 0
   },
   "articles": [
@@ -7183,6 +7183,424 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20251.pdf",
       "path": "2018/251/बयानक-सन्दर्भमे-मैथिली-गजल.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नरेन्द्रजीक मैथिली आ हिन्दी गजलक तुलनात्मक विवेचना",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2018-06-15",
+      "year": "2018",
+      "issue": "252",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Comparative Maithili and Hindi ghazal criticism; prosody; rhyme and metre",
+      "url": "https://www.videha.co.in/research/2018/252/नरेन्द्रजीक-मैथिली-आ-हिन्दी-गजलक-तुलनात्मक-विवेचना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20252.pdf",
+      "path": "2018/252/नरेन्द्रजीक-मैथिली-आ-हिन्दी-गजलक-तुलनात्मक-विवेचना.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली कथामे स्त्री",
+      "english_title": null,
+      "authors": [
+        "प्रणव कुमार"
+      ],
+      "publication_date": "2018-06-15",
+      "year": "2018",
+      "issue": "252",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Women in Maithili fiction; gender studies; literary criticism",
+      "url": "https://www.videha.co.in/research/2018/252/मैथिली-कथामे-स्त्री.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20252.pdf",
+      "path": "2018/252/मैथिली-कथामे-स्त्री.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "आधुनिक मैथिली गजलक संक्षिप्त आलोचनात्मक परिचय",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2018-07-01",
+      "year": "2018",
+      "issue": "253",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Modern Maithili ghazal history; literary criticism; prosody; bibliography",
+      "url": "https://www.videha.co.in/research/2018/253/आधुनिक-मैथिली-गजलक-संक्षिप्त-आलोचनात्मक-परिचय.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20253.pdf",
+      "path": "2018/253/आधुनिक-मैथिली-गजलक-संक्षिप्त-आलोचनात्मक-परिचय.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सगर राति दीप जरय: ९८म कथा गोष्ठी—सिमरा (झंझारपुर)",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2018-07-01",
+      "year": "2018",
+      "issue": "253",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary institutions; symposium documentation; short-story movement",
+      "url": "https://www.videha.co.in/research/2018/253/सगर-राति-दीप-जरय-९८म-कथा-गोष्ठी-सिमरा-झंझारपुर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20253.pdf",
+      "path": "2018/253/सगर-राति-दीप-जरय-९८म-कथा-गोष्ठी-सिमरा-झंझारपुर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "विद्यापतिक रचनामे विरह-वर्णन",
+      "english_title": null,
+      "authors": [
+        "डॉ. बचेश्वर झा"
+      ],
+      "publication_date": "2018-07-15",
+      "year": "2018",
+      "issue": "254",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Vidyapati studies; poetics; separation in classical Maithili literature",
+      "url": "https://www.videha.co.in/research/2018/254/विद्यापतिक-रचनामे-विरह-वर्णन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20254.pdf",
+      "path": "2018/254/विद्यापतिक-रचनामे-विरह-वर्णन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "विद्यापतिकालीन मिथिलाक कृषि",
+      "english_title": null,
+      "authors": [
+        "डॉ. बचेश्वर झा"
+      ],
+      "publication_date": "2018-07-15",
+      "year": "2018",
+      "issue": "254",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Vidyapati-era Mithila; agricultural history; economic and social history",
+      "url": "https://www.videha.co.in/research/2018/254/विद्यापतिकालीन-मिथिलाक-कृषि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20254.pdf",
+      "path": "2018/254/विद्यापतिकालीन-मिथिलाक-कृषि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कन्यादानक भीषण समस्याक कारण",
+      "english_title": null,
+      "authors": [
+        "डॉ. बचेश्वर झा"
+      ],
+      "publication_date": "2018-08-01",
+      "year": "2018",
+      "issue": "255",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila marriage practices; gender studies; social history; dowry",
+      "url": "https://www.videha.co.in/research/2018/255/कन्यादानक-भीषण-समस्याक-कारण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20255.pdf",
+      "path": "2018/255/कन्यादानक-भीषण-समस्याक-कारण.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "एकैसम शताब्दीक प्रारम्भ: जनवृद्धिमे भारत प्रथम आ चीन दोसर",
+      "english_title": null,
+      "authors": [
+        "डॉ. बचेश्वर झा"
+      ],
+      "publication_date": "2018-08-15",
+      "year": "2018",
+      "issue": "256",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Population studies; demography; poverty and development in India",
+      "url": "https://www.videha.co.in/research/2018/256/एकैसम-शताब्दीक-प्रारम्भ-जनवृद्धिमे-भारत-प्रथम-आ-चीन-दोसर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20256.pdf",
+      "path": "2018/256/एकैसम-शताब्दीक-प्रारम्भ-जनवृद्धिमे-भारत-प्रथम-आ-चीन-दोसर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "साकेतानन्दक ‘गण-नायक’: पुस्तक समीक्षा",
+      "english_title": null,
+      "authors": [
+        "डॉ. बचेश्वर झा"
+      ],
+      "publication_date": "2018-08-15",
+      "year": "2018",
+      "issue": "256",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili book review; fiction criticism; social realism",
+      "url": "https://www.videha.co.in/research/2018/256/साकेतानन्दक-गण-नायक-पुस्तक-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20256.pdf",
+      "path": "2018/256/साकेतानन्दक-गण-नायक-पुस्तक-समीक्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली साहित्यक अवदान: मिथिला भाषा रामायण आ चन्दा झा",
+      "english_title": null,
+      "authors": [
+        "डॉ. बचेश्वर झा"
+      ],
+      "publication_date": "2018-09-01",
+      "year": "2018",
+      "issue": "257",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; Chanda Jha studies; Ramayana tradition",
+      "url": "https://www.videha.co.in/research/2018/257/मैथिली-साहित्यक-अवदान-मिथिला-भाषा-रामायण-आ-चन्दा-झा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20257.pdf",
+      "path": "2018/257/मैथिली-साहित्यक-अवदान-मिथिला-भाषा-रामायण-आ-चन्दा-झा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिलीक विकासमे नेपालक योगदान",
+      "english_title": null,
+      "authors": [
+        "डॉ. बचेश्वर झा"
+      ],
+      "publication_date": "2018-09-01",
+      "year": "2018",
+      "issue": "257",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; Nepal studies; language and cultural history",
+      "url": "https://www.videha.co.in/research/2018/257/मैथिलीक-विकासमे-नेपालक-योगदान.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20257.pdf",
+      "path": "2018/257/मैथिलीक-विकासमे-नेपालक-योगदान.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हिन्दी फिल्मी गीतमे बहर—१",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2018-09-01",
+      "year": "2018",
+      "issue": "257",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Hindi film-song prosody; metre; ghazal and nazm criticism",
+      "url": "https://www.videha.co.in/research/2018/257/हिन्दी-फिल्मी-गीतमे-बहर-१.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20257.pdf",
+      "path": "2018/257/हिन्दी-फिल्मी-गीतमे-बहर-१.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली साहित्यमे यदुनाथ झा ‘यदुवर’क देन",
+      "english_title": null,
+      "authors": [
+        "डॉ. बचेश्वर झा"
+      ],
+      "publication_date": "2018-09-15",
+      "year": "2018",
+      "issue": "258",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; Yadunath Jha Yaduvar studies; author bibliography",
+      "url": "https://www.videha.co.in/research/2018/258/मैथिली-साहित्यमे-यदुनाथ-झा-यदुवर-क-देन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20258.pdf",
+      "path": "2018/258/मैथिली-साहित्यमे-यदुनाथ-झा-यदुवर-क-देन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हिन्दी फिल्मी गीतमे बहर—२",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2018-09-15",
+      "year": "2018",
+      "issue": "258",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Hindi film-song prosody; metre; ghazal and nazm criticism",
+      "url": "https://www.videha.co.in/research/2018/258/हिन्दी-फिल्मी-गीतमे-बहर-२.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20258.pdf",
+      "path": "2018/258/हिन्दी-फिल्मी-गीतमे-बहर-२.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हिन्दू विवाह: एक समीक्षा",
+      "english_title": null,
+      "authors": [
+        "देवेश झा"
+      ],
+      "publication_date": "2018-09-15",
+      "year": "2018",
+      "issue": "258",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Marriage studies; gender roles; Hindu social institutions; cultural criticism",
+      "url": "https://www.videha.co.in/research/2018/258/हिन्दू-विवाह-एक-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20258.pdf",
+      "path": "2018/258/हिन्दू-विवाह-एक-समीक्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "‘दू-पत्र’ उपन्यासक विश्लेषणात्मक अध्ययन",
+      "english_title": null,
+      "authors": [
+        "देवेश झा"
+      ],
+      "publication_date": "2018-09-15",
+      "year": "2018",
+      "issue": "258",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili novel criticism; comparative culture; gender and diaspora studies",
+      "url": "https://www.videha.co.in/research/2018/258/दू-पत्र-उपन्यासक-विश्लेषणात्मक-अध्ययन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20258.pdf",
+      "path": "2018/258/दू-पत्र-उपन्यासक-विश्लेषणात्मक-अध्ययन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली पत्रिकामे अनुवाद साहित्य",
+      "english_title": null,
+      "authors": [
+        "देवेश झा"
+      ],
+      "publication_date": "2018-10-01",
+      "year": "2018",
+      "issue": "259",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Translation studies; Maithili periodical history; literary journalism",
+      "url": "https://www.videha.co.in/research/2018/259/मैथिली-पत्रिकामे-अनुवाद-साहित्य.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20259.pdf",
+      "path": "2018/259/मैथिली-पत्रिकामे-अनुवाद-साहित्य.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "‘सगर राति दीप जरय’: आयोजन आ साहित्यिक संस्थाक इतिहास",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2018-10-01",
+      "year": "2018",
+      "issue": "259",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary institutions; publishing history; symposium documentation; bibliography",
+      "url": "https://www.videha.co.in/research/2018/259/सगर-राति-दीप-जरय-आयोजन-आ-साहित्यिक-संस्थाक-इतिहास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20259.pdf",
+      "path": "2018/259/सगर-राति-दीप-जरय-आयोजन-आ-साहित्यिक-संस्थाक-इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक विभूति अयाची मिश्र",
+      "english_title": null,
+      "authors": [
+        "डॉ. बचेश्वर झा"
+      ],
+      "publication_date": "2018-10-15",
+      "year": "2018",
+      "issue": "260",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila intellectual history; Ayachi Mishra studies; Navya-Nyaya tradition",
+      "url": "https://www.videha.co.in/research/2018/260/मिथिलाक-विभूति-अयाची-मिश्र.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20260.pdf",
+      "path": "2018/260/मिथिलाक-विभूति-अयाची-मिश्र.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हिन्दी फिल्मी गीतमे बहर—३",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2018-10-15",
+      "year": "2018",
+      "issue": "260",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Hindi film-song prosody; metre; ghazal and nazm criticism",
+      "url": "https://www.videha.co.in/research/2018/260/हिन्दी-फिल्मी-गीतमे-बहर-३.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20260.pdf",
+      "path": "2018/260/हिन्दी-फिल्मी-गीतमे-बहर-३.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "फकड़ाक संग यात्रा करैत मैथिलानीक मनोदशाक: मानवशास्त्रीय विवेचना",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2018-11-01",
+      "year": "2018",
+      "issue": "261",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila cultural anthropology; women and travel; folklore; gender studies",
+      "url": "https://www.videha.co.in/research/2018/261/फकड़ाक-संग-यात्रा-करैत-मैथिलानीक-मनोदशाक-मानवशास्त्रीय-विवेचना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20261.pdf",
+      "path": "2018/261/फकड़ाक-संग-यात्रा-करैत-मैथिलानीक-मनोदशाक-मानवशास्त्रीय-विवेचना.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हिन्दी फिल्मी गीतमे बहर—४",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2018-11-01",
+      "year": "2018",
+      "issue": "261",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Hindi film-song prosody; metre; ghazal and nazm criticism",
+      "url": "https://www.videha.co.in/research/2018/261/हिन्दी-फिल्मी-गीतमे-बहर-४.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20261.pdf",
+      "path": "2018/261/हिन्दी-फिल्मी-गीतमे-बहर-४.htm",
       "page_start": null,
       "page_end": null
     },
