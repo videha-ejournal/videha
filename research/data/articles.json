@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-29T07:25:46.299669+00:00",
+  "generated": "2026-08-29T07:42:30.810404+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 648,
-    "promoted_sections_publishable": 590,
+    "promoted_sections_requested": 650,
+    "promoted_sections_publishable": 592,
     "promoted_sections_review": 58,
     "curated_manifests": 1,
-    "published_after_all_overrides": 625,
+    "published_after_all_overrides": 627,
     "stale_generated_pages_removed_before_render": 625,
     "build_errors": 0
   },
@@ -7050,6 +7050,44 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20231.pdf",
       "path": "2017/231/कानूनी-आतंकवाद-भारतीय-दण्ड-संहिता-धारा-498a.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "तिरुअनन्तपुरम",
+      "english_title": null,
+      "authors": [
+        "रवीन्द्र नारायण मिश्र"
+      ],
+      "publication_date": "2017-08-01",
+      "year": "2017",
+      "issue": "231",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Kerala cultural history; Padmanabhaswamy temple heritage; travel ethnography",
+      "url": "https://www.videha.co.in/research/2017/231/तिरुअनन्तपुरम.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20231.pdf",
+      "path": "2017/231/तिरुअनन्तपुरम.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नवका पोखैर",
+      "english_title": null,
+      "authors": [
+        "रवीन्द्र नारायण मिश्र"
+      ],
+      "publication_date": "2017-08-01",
+      "year": "2017",
+      "issue": "231",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila village studies; rural institutions; religious landscape; cultural history",
+      "url": "https://www.videha.co.in/research/2017/231/नवका-पोखैर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20231.pdf",
+      "path": "2017/231/नवका-पोखैर.htm",
       "page_start": null,
       "page_end": null
     },
