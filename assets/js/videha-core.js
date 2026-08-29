@@ -112,3 +112,45 @@ function baseHead(){return {mode:hostMode(),primary:PRIMARY,github:GITHUB};}
 g.VidehaCore={PRIMARY,GITHUB,GH_ROOT,hostMode,resolveSearchUrl,canonicalGitHubUrl,toolUrl,isHistorical,lowData,setLowData,escapeHTML,download,readText,devaNum,toDeva,baseHead};
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",initLowData);else initLowData();
 })(window);
+
+/* Gajendra Thakur Samagra: preserve the exact universal Videha search from pothi.htm.
+   The component is sourced from pothi.htm so search UI/functionality remains synchronized. */
+(function(){
+  "use strict";
+  function isSamagra(){return /(?:^|\/)gajendra-thakur-samagra\.htm(?:l)?$/i.test(location.pathname);}
+  async function restoreUniversalSearch(){
+    if(!isSamagra() || document.getElementById("videha-universal-search")) return;
+    try{
+      const source=(window.VidehaCore&&VidehaCore.resolveSearchUrl)?VidehaCore.resolveSearchUrl("pothi.htm"):"pothi.htm";
+      const r=await fetch(source,{cache:"no-cache",credentials:"same-origin"});
+      if(!r.ok) throw new Error("pothi.htm "+r.status);
+      const html=await r.text();
+      const parsed=new DOMParser().parseFromString(html,"text/html");
+      const original=parsed.getElementById("videha-universal-search");
+      if(!original) throw new Error("Universal search block not found in pothi.htm");
+
+      const imported=document.importNode(original,true);
+      const tools=document.querySelector(".gt-tools");
+      const shell=document.querySelector(".gt-shell")||document.querySelector("main")||document.body;
+      if(tools&&tools.parentNode) tools.parentNode.insertBefore(imported,tools.nextSibling);
+      else shell.insertBefore(imported,shell.firstChild);
+
+      /* Execute the exact inline universal-search script from pothi.htm. */
+      const scripts=[...parsed.scripts].filter(s=>{
+        const t=s.textContent||"";
+        return t.includes("vus-form") && t.includes("vus-results") && t.includes("vus-q");
+      });
+      scripts.forEach(src=>{
+        const s=document.createElement("script");
+        if(src.src) s.src=src.src;
+        else s.textContent=src.textContent;
+        [...src.attributes].forEach(a=>{if(a.name!=="src")s.setAttribute(a.name,a.value);});
+        document.body.appendChild(s);
+      });
+    }catch(err){
+      console.error("Videha universal search restore failed:",err);
+    }
+  }
+  if(document.readyState==="loading") document.addEventListener("DOMContentLoaded",restoreUniversalSearch);
+  else restoreUniversalSearch();
+})();
