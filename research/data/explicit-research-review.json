@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T23:20:14.861687+00:00",
+  "generated": "2026-08-29T01:53:33.024084+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,9 +12,9 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 582,
+    "promoted_sections_requested": 583,
     "promoted_sections_publishable": 531,
-    "promoted_sections_review": 51,
+    "promoted_sections_review": 52,
     "curated_manifests": 1,
     "published_after_all_overrides": 573,
     "stale_generated_pages_removed_before_render": 573,
@@ -939,6 +939,15 @@
       "author": "आशीष अनचिन्हार",
       "title": "भक्ति गजल",
       "body_chars": 304,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "136",
+      "section": "2.8",
+      "author": "सन्दीप कुमार साफी",
+      "title": "राजा अओर परजा",
+      "body_chars": 1216,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     }
