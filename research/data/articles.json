@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-29T05:53:30.742810+00:00",
+  "generated": "2026-08-29T05:56:39.799290+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 621,
-    "promoted_sections_publishable": 563,
-    "promoted_sections_review": 58,
+    "promoted_sections_requested": 626,
+    "promoted_sections_publishable": 567,
+    "promoted_sections_review": 59,
     "curated_manifests": 1,
-    "published_after_all_overrides": 605,
-    "stale_generated_pages_removed_before_render": 597,
+    "published_after_all_overrides": 608,
+    "stale_generated_pages_removed_before_render": 605,
     "build_errors": 0
   },
   "articles": [
@@ -6237,6 +6237,25 @@
       "page_end": null
     },
     {
+      "title": "मन्त्रद्रष्टा ऋष्यश्रृङ्ग",
+      "english_title": null,
+      "authors": [
+        "हरिशंकर श्रीवास्तव ‘शलभ’; अनुवाद: विनीत उत्पल"
+      ],
+      "publication_date": "2016-05-01",
+      "year": "2016",
+      "issue": "201",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila religious history; Rishyashringa studies; archaeology and folklore",
+      "url": "https://www.videha.co.in/research/2016/201/मन्त्रद्रष्टा-ऋष्यश्रृङ्ग.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20201.pdf",
+      "path": "2016/201/मन्त्रद्रष्टा-ऋष्यश्रृङ्ग.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "जानकी आ गांधी सं सीखय अप्पन समाज",
       "english_title": null,
       "authors": [
@@ -6351,6 +6370,25 @@
       "page_end": null
     },
     {
+      "title": "विदेह समानान्तर साहित्य अकादेमी आ भाषा सम्मानक इतिहास",
+      "english_title": null,
+      "authors": [
+        "विदेह सम्पादकीय मंडल"
+      ],
+      "publication_date": "2016-07-01",
+      "year": "2016",
+      "issue": "205",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary institutions; award history; publishing documentation",
+      "url": "https://www.videha.co.in/research/2016/205/विदेह-समानान्तर-साहित्य-अकादेमी-आ-भाषा-सम्मानक-इतिहास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20205.pdf",
+      "path": "2016/205/विदेह-समानान्तर-साहित्य-अकादेमी-आ-भाषा-सम्मानक-इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "संशोधन केर मतलब विनाश नै होइ छै",
       "english_title": null,
       "authors": [
@@ -6361,11 +6399,30 @@
       "issue": "208",
       "language": "mai",
       "keywords": [],
-      "classification": "Research article",
+      "classification": "Development criticism; environmental studies; Mithila social analysis",
       "url": "https://www.videha.co.in/research/2016/208/संशोधन-केर-मतलब-विनाश-नै-होइ-छै.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20208.pdf",
       "path": "2016/208/संशोधन-केर-मतलब-विनाश-नै-होइ-छै.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली लोकगीतमे भोजनक विन्यास",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2016-09-15",
+      "year": "2016",
+      "issue": "210",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Food anthropology; Maithili folk songs; ethnomusicology",
+      "url": "https://www.videha.co.in/research/2016/210/मैथिली-लोकगीतमे-भोजनक-विन्यास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20210.pdf",
+      "path": "2016/210/मैथिली-लोकगीतमे-भोजनक-विन्यास.htm",
       "page_start": null,
       "page_end": null
     },
@@ -22991,6 +23048,36 @@
       ],
       "special_terms": [],
       "treatment": "candidate",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
+      "source_path": "gajendra-thakur-samagra.htm",
+      "source_url": "https://www.videha.co.in/gajendra-thakur-samagra.htm",
+      "page_title": "गजेन्द्र ठाकुर समग्र | Videha",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 220,
+      "matched_terms": [
+        "आलोचना",
+        "इतिहास",
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "व्याकरण",
+        "समालोचना"
+      ],
+      "excluded_terms": [
+        "quiz",
+        "ई-लर्निङ्ग",
+        "कथा",
+        "नाटक"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {

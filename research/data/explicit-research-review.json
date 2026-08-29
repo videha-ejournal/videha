@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T05:53:30.741813+00:00",
+  "generated": "2026-08-29T05:56:39.798210+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,12 +12,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 621,
-    "promoted_sections_publishable": 563,
-    "promoted_sections_review": 58,
+    "promoted_sections_requested": 626,
+    "promoted_sections_publishable": 567,
+    "promoted_sections_review": 59,
     "curated_manifests": 1,
-    "published_after_all_overrides": 605,
-    "stale_generated_pages_removed_before_render": 597,
+    "published_after_all_overrides": 608,
+    "stale_generated_pages_removed_before_render": 605,
     "build_errors": 0
   },
   "explicit_review": [
@@ -1004,6 +1004,11 @@
       "body_chars": 1045,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "208",
+      "section": "2.3.1",
+      "reason": "manual body end marker not found"
     }
   ],
   "build_errors": []
