@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-29T05:51:19.558191+00:00",
+  "generated": "2026-08-29T05:53:30.742810+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 612,
-    "promoted_sections_publishable": 555,
-    "promoted_sections_review": 57,
+    "promoted_sections_requested": 621,
+    "promoted_sections_publishable": 563,
+    "promoted_sections_review": 58,
     "curated_manifests": 1,
-    "published_after_all_overrides": 597,
+    "published_after_all_overrides": 605,
     "stale_generated_pages_removed_before_render": 597,
     "build_errors": 0
   },
@@ -6081,6 +6081,158 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20190.pdf",
       "path": "2015/190/गामक-शकल-सूरत-पोथी-समीक्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कवि अनिलजीक आंतरिक परिचिति: गीत गंगा",
+      "english_title": null,
+      "authors": [
+        "परमानन्द प्रभाकर"
+      ],
+      "publication_date": "2015-12-01",
+      "year": "2015",
+      "issue": "191",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili poetry criticism; author studies; literary aesthetics",
+      "url": "https://www.videha.co.in/research/2015/191/कवि-अनिलजीक-आंतरिक-परिचिति-गीत-गंगा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20191.pdf",
+      "path": "2015/191/कवि-अनिलजीक-आंतरिक-परिचिति-गीत-गंगा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गजल गंगा",
+      "english_title": null,
+      "authors": [
+        "जगदानन्द झा ‘मनु’"
+      ],
+      "publication_date": "2015-12-01",
+      "year": "2015",
+      "issue": "191",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili ghazal criticism; Jagdish Chandra Thakur Anil studies; poetics",
+      "url": "https://www.videha.co.in/research/2015/191/गजल-गंगा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20191.pdf",
+      "path": "2015/191/गजल-गंगा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गीत गंगामे अनिल",
+      "english_title": null,
+      "authors": [
+        "केदार कानन"
+      ],
+      "publication_date": "2015-12-01",
+      "year": "2015",
+      "issue": "191",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili song criticism; lyrical aesthetics; Anil studies",
+      "url": "https://www.videha.co.in/research/2015/191/गीत-गंगामे-अनिल.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20191.pdf",
+      "path": "2015/191/गीत-गंगामे-अनिल.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गीत-गंगा",
+      "english_title": null,
+      "authors": [
+        "कामिनी"
+      ],
+      "publication_date": "2015-12-01",
+      "year": "2015",
+      "issue": "191",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili poetry criticism; Jagdish Chandra Thakur Anil studies; song poetics",
+      "url": "https://www.videha.co.in/research/2015/191/गीत-गंगा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20191.pdf",
+      "path": "2015/191/गीत-गंगा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "धारक ‘अइ’ पार",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2015-12-01",
+      "year": "2015",
+      "issue": "191",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; social and political consciousness; poetry studies",
+      "url": "https://www.videha.co.in/research/2015/191/धारक-अइ-पार.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20191.pdf",
+      "path": "2015/191/धारक-अइ-पार.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिल अङना: ‘तोरा अंगनामे’",
+      "english_title": null,
+      "authors": [
+        "डॉ. अजीत मिश्र"
+      ],
+      "publication_date": "2015-12-01",
+      "year": "2015",
+      "issue": "191",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili song criticism; literary aesthetics; Anil studies",
+      "url": "https://www.videha.co.in/research/2015/191/मैथिल-अङना-तोरा-अंगनामे.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20191.pdf",
+      "path": "2015/191/मैथिल-अङना-तोरा-अंगनामे.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "‘गीत-गंगा’क प्रवाह",
+      "english_title": null,
+      "authors": [
+        "डा. अमरनाथ ठाकुर"
+      ],
+      "publication_date": "2015-12-01",
+      "year": "2015",
+      "issue": "191",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili poetry criticism; Geet-Ganga studies; literary aesthetics",
+      "url": "https://www.videha.co.in/research/2015/191/गीत-गंगा-क-प्रवाह.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20191.pdf",
+      "path": "2015/191/गीत-गंगा-क-प्रवाह.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गामके अधिकारी तोहे बड़का भैया हो",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2016-02-01",
+      "year": "2016",
+      "issue": "195",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; rural power structures; social satire",
+      "url": "https://www.videha.co.in/research/2016/195/गामके-अधिकारी-तोहे-बड़का-भैया-हो.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20195.pdf",
+      "path": "2016/195/गामके-अधिकारी-तोहे-बड़का-भैया-हो.htm",
       "page_start": null,
       "page_end": null
     },

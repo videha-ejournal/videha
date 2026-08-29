@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T05:51:19.557024+00:00",
+  "generated": "2026-08-29T05:53:30.741813+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,11 +12,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 612,
-    "promoted_sections_publishable": 555,
-    "promoted_sections_review": 57,
+    "promoted_sections_requested": 621,
+    "promoted_sections_publishable": 563,
+    "promoted_sections_review": 58,
     "curated_manifests": 1,
-    "published_after_all_overrides": 597,
+    "published_after_all_overrides": 605,
     "stale_generated_pages_removed_before_render": 597,
     "build_errors": 0
   },
@@ -993,6 +993,15 @@
       "author": "योगेन्द्र पाठक ‘वियोगी’",
       "title": "अन्हारक रखवार",
       "body_chars": 691,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "191",
+      "section": "2.2.6",
+      "author": "छत्रानन्द सिंह झा",
+      "title": "‘गीत-गंगा’मे सब किछु अछि",
+      "body_chars": 1045,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     }
