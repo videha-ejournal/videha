@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-29T02:38:41.438816+00:00",
+  "generated": "2026-08-29T02:42:46.254010+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 600,
-    "promoted_sections_publishable": 546,
+    "promoted_sections_requested": 605,
+    "promoted_sections_publishable": 551,
     "promoted_sections_review": 54,
     "curated_manifests": 1,
-    "published_after_all_overrides": 588,
+    "published_after_all_overrides": 593,
     "stale_generated_pages_removed_before_render": 588,
     "build_errors": 0
   },
@@ -5739,6 +5739,101 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20169.pdf",
       "path": "2015/169/मैथिलीक-विद्रोही-कवि-काशीकांत-मिश्र-मधुप.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "एकैसम शताब्दीक रचना एवं रचनाकारक अन्यतम अवदान",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2015-03-01",
+      "year": "2015",
+      "issue": "173",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili bibliography; quantitative literary history; contemporary authorship studies",
+      "url": "https://www.videha.co.in/research/2015/173/एकैसम-शताब्दीक-रचना-एवं-रचनाकारक-अन्यतम-अवदान.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20173.pdf",
+      "path": "2015/173/एकैसम-शताब्दीक-रचना-एवं-रचनाकारक-अन्यतम-अवदान.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डलक उपन्यासमे समकालीन चेतना",
+      "english_title": null,
+      "authors": [
+        "राजेन्द्र कुमार प्रधान"
+      ],
+      "publication_date": "2015-04-01",
+      "year": "2015",
+      "issue": "175",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili novel criticism; contemporary consciousness; Jagdish Prasad Mandal studies",
+      "url": "https://www.videha.co.in/research/2015/175/जगदीश-प्रसाद-मण्डलक-उपन्यासमे-समकालीन-चेतना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20175.pdf",
+      "path": "2015/175/जगदीश-प्रसाद-मण्डलक-उपन्यासमे-समकालीन-चेतना.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिलाक इतिहास",
+      "english_title": null,
+      "authors": [
+        "डॉ. श्रीमोहन झा"
+      ],
+      "publication_date": "2015-04-01",
+      "year": "2015",
+      "issue": "175",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila history; intellectual traditions; cultural and religious history",
+      "url": "https://www.videha.co.in/research/2015/175/मिथिलाक-इतिहास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20175.pdf",
+      "path": "2015/175/मिथिलाक-इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "समकालीन चेतनाक सम्वाहक: अर्द्धांगिनी",
+      "english_title": null,
+      "authors": [
+        "पंकज कुमार प्रभाकर"
+      ],
+      "publication_date": "2015-04-01",
+      "year": "2015",
+      "issue": "175",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili novel criticism; contemporary consciousness; gender and social studies",
+      "url": "https://www.videha.co.in/research/2015/175/समकालीन-चेतनाक-सम्वाहक-अर्द्धांगिनी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20175.pdf",
+      "path": "2015/175/समकालीन-चेतनाक-सम्वाहक-अर्द्धांगिनी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मानव जीवनमे नारी स्वरूपक गरिमा",
+      "english_title": null,
+      "authors": [
+        "फागुलाल साहु"
+      ],
+      "publication_date": "2015-06-01",
+      "year": "2015",
+      "issue": "179",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Gender studies; women in Indian intellectual tradition; social philosophy",
+      "url": "https://www.videha.co.in/research/2015/179/मानव-जीवनमे-नारी-स्वरूपक-गरिमा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20179.pdf",
+      "path": "2015/179/मानव-जीवनमे-नारी-स्वरूपक-गरिमा.htm",
       "page_start": null,
       "page_end": null
     },
