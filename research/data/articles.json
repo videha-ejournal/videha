@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-29T07:49:52.704485+00:00",
+  "generated": "2026-08-29T07:52:48.430101+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -19,7 +19,7 @@
     "promoted_sections_review": 58,
     "curated_manifests": 1,
     "published_after_all_overrides": 632,
-    "stale_generated_pages_removed_before_render": 627,
+    "stale_generated_pages_removed_before_render": 632,
     "build_errors": 0
   },
   "articles": [
@@ -23507,36 +23507,6 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
-      "source_path": "gajendra-thakur-samagra.htm",
-      "source_url": "https://www.videha.co.in/gajendra-thakur-samagra.htm",
-      "page_title": "गजेन्द्र ठाकुर समग्र | Videha",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 220,
-      "matched_terms": [
-        "आलोचना",
-        "इतिहास",
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "व्याकरण",
-        "समालोचना"
-      ],
-      "excluded_terms": [
-        "quiz",
-        "ई-लर्निङ्ग",
-        "कथा",
-        "नाटक"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
       "source_path": "search-documents/videha-412.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-412.html",
       "page_title": "VIDEHA — Issue 412 / अंक ४१२",
@@ -23944,6 +23914,38 @@
         "quiz",
         "ई-लर्निङ्ग",
         "प्रश्नोत्तरी"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
+      "source_path": "gajendra-thakur-samagra.htm",
+      "source_url": "https://www.videha.co.in/gajendra-thakur-samagra.htm",
+      "page_title": "गजेन्द्र ठाकुर समग्र | Videha",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 200,
+      "matched_terms": [
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "मिथिला चित्रकला",
+        "व्याकरण",
+        "समालोचना"
+      ],
+      "excluded_terms": [
+        "quiz",
+        "ई-लर्निङ्ग",
+        "कथा",
+        "कविता",
+        "नाटक",
+        "प्रश्नोत्तरी",
+        "लघुकथा"
       ],
       "special_terms": [
         "dictionary",
