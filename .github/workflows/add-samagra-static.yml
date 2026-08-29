@@ -1,0 +1,89 @@
+name: Add Samagra static archive tabs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/add-samagra-static.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Insert static card 22 and remove JS injector
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          files = [Path('index.htm'), Path('archive.htm'), Path('gajenthakur.htm'), Path('videha-converters.htm')]
+          card = '''  <a href="gajendra-thakur-samagra.htm" class="arch-card">
+            <div class="arch-card-num">२२</div>
+            <div class="arch-card-body">
+              <div class="arch-card-title">गजेन्द्र ठाकुर समग्र</div>
+              <div class="arch-card-sub">Gajendra Thakur — Complete Works &amp; Digital Archive</div>
+            </div>
+          </a>'''
+
+          # Match the full existing card 21 regardless of whitespace/attribute formatting.
+          p21 = re.compile(
+              r'(<a\b[^>]*href=["\']panji-mool-index\.html["\'][^>]*class=["\'][^"\']*arch-card[^"\']*["\'][^>]*>.*?<div\b[^>]*class=["\']arch-card-num["\'][^>]*>\s*२१\s*</div>.*?</a>)',
+              re.S | re.I
+          )
+
+          for path in files:
+              text = path.read_text(encoding='utf-8')
+              if 'href="gajendra-thakur-samagra.htm" class="arch-card"' in text or "href='gajendra-thakur-samagra.htm' class='arch-card'" in text:
+                  print(path, 'already contains static Samagra card')
+                  continue
+              m = p21.search(text)
+              if not m:
+                  # Fallback: locate card 21 by href, then its closing anchor.
+                  start = text.find('panji-mool-index.html')
+                  if start < 0:
+                      raise RuntimeError(f'{path}: card 21 href not found')
+                  astart = text.rfind('<a', 0, start)
+                  aend = text.find('</a>', start)
+                  if astart < 0 or aend < 0:
+                      raise RuntimeError(f'{path}: could not determine card 21 boundaries')
+                  aend += len('</a>')
+                  text = text[:aend] + '\n' + card + text[aend:]
+              else:
+                  text = text[:m.end()] + '\n' + card + text[m.end():]
+              path.write_text(text, encoding='utf-8')
+              print(path, 'patched')
+
+          core = Path('assets/js/videha-core.js')
+          ctext = core.read_text(encoding='utf-8')
+          marker = '/* Add archive card/tab 22 only on the four requested Videha pages. */'
+          if marker in ctext:
+              ctext = ctext.split(marker, 1)[0].rstrip() + '\n'
+              core.write_text(ctext, encoding='utf-8')
+              print(core, 'removed obsolete dynamic card injector')
+          else:
+              print(core, 'dynamic card injector already absent')
+
+          # Verification before commit.
+          for path in files:
+              t = path.read_text(encoding='utf-8')
+              if t.count('gajendra-thakur-samagra.htm') < 1 or '<div class="arch-card-num">२२</div>' not in t:
+                  raise RuntimeError(f'{path}: static Samagra card verification failed')
+          if marker in core.read_text(encoding='utf-8'):
+              raise RuntimeError('videha-core.js: obsolete injector still present')
+      - name: Commit source edits
+        run: |
+          git config user.name "Videha maintenance"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.htm archive.htm gajenthakur.htm videha-converters.htm assets/js/videha-core.js
+          if git diff --cached --quiet; then
+            echo "No content changes needed"
+            exit 0
+          fi
+          git commit -m "Add static Gajendra Thakur Samagra tab to four pages"
+          git push origin HEAD:main
