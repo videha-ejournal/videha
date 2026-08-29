@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-29T05:56:39.799290+00:00",
+  "generated": "2026-08-29T05:58:43.507354+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -15,11 +15,11 @@
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
     "promoted_sections_requested": 626,
-    "promoted_sections_publishable": 567,
-    "promoted_sections_review": 59,
+    "promoted_sections_publishable": 568,
+    "promoted_sections_review": 58,
     "curated_manifests": 1,
-    "published_after_all_overrides": 608,
-    "stale_generated_pages_removed_before_render": 605,
+    "published_after_all_overrides": 609,
+    "stale_generated_pages_removed_before_render": 608,
     "build_errors": 0
   },
   "articles": [
@@ -6404,6 +6404,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20208.pdf",
       "path": "2016/208/संशोधन-केर-मतलब-विनाश-नै-होइ-छै.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सौराठक सोमनाथ आ सौराष्ट्रक सोमनाथमे समानता: लोक इतिहासक परिप्रेक्ष्यमे",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2016-08-15",
+      "year": "2016",
+      "issue": "208",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Folk history; sacred geography; Saurath and Saurashtra comparative studies",
+      "url": "https://www.videha.co.in/research/2016/208/सौराठक-सोमनाथ-आ-सौराष्ट्रक-सोमनाथमे-समानता-लोक-इतिहासक-परि-8a61e23e67.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20208.pdf",
+      "path": "2016/208/सौराठक-सोमनाथ-आ-सौराष्ट्रक-सोमनाथमे-समानता-लोक-इतिहासक-परि-8a61e23e67.htm",
       "page_start": null,
       "page_end": null
     },
