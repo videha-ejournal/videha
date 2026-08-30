@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T02:23:39.366769+00:00",
+  "generated": "2026-08-30T02:27:15.933418+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 714,
-    "promoted_sections_publishable": 655,
+    "promoted_sections_requested": 724,
+    "promoted_sections_publishable": 665,
     "promoted_sections_review": 59,
     "curated_manifests": 1,
-    "published_after_all_overrides": 688,
-    "stale_generated_pages_removed_before_render": 681,
+    "published_after_all_overrides": 698,
+    "stale_generated_pages_removed_before_render": 688,
     "build_errors": 0
   },
   "articles": [
@@ -8821,6 +8821,63 @@
       "page_end": null
     },
     {
+      "title": "अस्तित्वक कटघेरामे मिथिला-मैथिलीक संघ संस्थासब",
+      "english_title": null,
+      "authors": [
+        "मनोज झा मुक्ति"
+      ],
+      "publication_date": "2021-01-15",
+      "year": "2021",
+      "issue": "314",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila social institutions; cultural organization; regional studies",
+      "url": "https://www.videha.co.in/research/2021/314/अस्तित्वक-कटघेरामे-मिथिला-मैथिलीक-संघ-संस्थासब.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20314.pdf",
+      "path": "2021/314/अस्तित्वक-कटघेरामे-मिथिला-मैथिलीक-संघ-संस्थासब.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "भूगोलमे मिथिलाराज कहियाधरि",
+      "english_title": null,
+      "authors": [
+        "लालदेव कामत"
+      ],
+      "publication_date": "2021-02-01",
+      "year": "2021",
+      "issue": "315",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila regional studies; political geography; statehood discourse",
+      "url": "https://www.videha.co.in/research/2021/315/भूगोलमे-मिथिलाराज-कहियाधरि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20315.pdf",
+      "path": "2021/315/भूगोलमे-मिथिलाराज-कहियाधरि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "बीहनि कथाक आजुक परिप्रेक्ष्यमे उपादेयता",
+      "english_title": null,
+      "authors": [
+        "आभा झा"
+      ],
+      "publication_date": "2021-03-01",
+      "year": "2021",
+      "issue": "317",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili short-story studies; contemporary literary criticism; genre theory",
+      "url": "https://www.videha.co.in/research/2021/317/बीहनि-कथाक-आजुक-परिप्रेक्ष्यमे-उपादेयता.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20317.pdf",
+      "path": "2021/317/बीहनि-कथाक-आजुक-परिप्रेक्ष्यमे-उपादेयता.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "बीहनि कथाक दशा-दिशा",
       "english_title": null,
       "authors": [
@@ -8836,6 +8893,101 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20318.pdf",
       "path": "2021/318/बीहनि-कथाक-दशा-दिशा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "१०५म ‘सगर राति दीप जरय’ कथा चेतना रैली",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2021-03-15",
+      "year": "2021",
+      "issue": "318",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary institutions; कथा गोष्ठी history; cultural documentation",
+      "url": "https://www.videha.co.in/research/2021/318/१०५म-सगर-राति-दीप-जरय-कथा-चेतना-रैली.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20318.pdf",
+      "path": "2021/318/१०५म-सगर-राति-दीप-जरय-कथा-चेतना-रैली.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "अपूर्णता जखनि नियति हुअए",
+      "english_title": null,
+      "authors": [
+        "अरविन्द ठाकुर"
+      ],
+      "publication_date": "2021-04-01",
+      "year": "2021",
+      "issue": "319",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili poetry criticism; literary evaluation; Ramlochan Thakur",
+      "url": "https://www.videha.co.in/research/2021/319/अपूर्णता-जखनि-नियति-हुअए.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20319.pdf",
+      "path": "2021/319/अपूर्णता-जखनि-नियति-हुअए.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "एकटा खाँटी मैथिल: रामलोचन ठाकुर आ हुनकर काव्य संसार",
+      "english_title": null,
+      "authors": [
+        "शैलेन्द्र मिश्र"
+      ],
+      "publication_date": "2021-04-01",
+      "year": "2021",
+      "issue": "319",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili poetry criticism; author study; Ramlochan Thakur",
+      "url": "https://www.videha.co.in/research/2021/319/एकटा-खाँटी-मैथिल-रामलोचन-ठाकुर-आ-हुनकर-काव्य-संसार.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20319.pdf",
+      "path": "2021/319/एकटा-खाँटी-मैथिल-रामलोचन-ठाकुर-आ-हुनकर-काव्य-संसार.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "एहन जड़िआयल समाजमे महिला कोना उतरतीह मैथिली रंगमंचपर: रामलोचन ठाकुर",
+      "english_title": null,
+      "authors": [
+        "डा. वन्दना किशोर"
+      ],
+      "publication_date": "2021-04-01",
+      "year": "2021",
+      "issue": "319",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre studies; women and society; Ramlochan Thakur",
+      "url": "https://www.videha.co.in/research/2021/319/एहन-जड़िआयल-समाजमे-महिला-कोना-उतरतीह-मैथिली-रंगमंचपर-रामलोचन-ठाकुर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20319.pdf",
+      "path": "2021/319/एहन-जड़िआयल-समाजमे-महिला-कोना-उतरतीह-मैथिली-रंगमंचपर-रामलोचन-ठाकुर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "प्रतिरोधी साहित्यकार रामलोचन ठाकुर",
+      "english_title": null,
+      "authors": [
+        "चंद्रेश"
+      ],
+      "publication_date": "2021-04-01",
+      "year": "2021",
+      "issue": "319",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; resistance literature; author study",
+      "url": "https://www.videha.co.in/research/2021/319/प्रतिरोधी-साहित्यकार-रामलोचन-ठाकुर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20319.pdf",
+      "path": "2021/319/प्रतिरोधी-साहित्यकार-रामलोचन-ठाकुर.htm",
       "page_start": null,
       "page_end": null
     },
@@ -8859,6 +9011,25 @@
       "page_end": null
     },
     {
+      "title": "रामलोचन ठाकुरक ‘बेतालकथा’",
+      "english_title": null,
+      "authors": [
+        "शिवशंकर श्रीनिवास"
+      ],
+      "publication_date": "2021-04-01",
+      "year": "2021",
+      "issue": "319",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili satire studies; genre criticism; Ramlochan Thakur",
+      "url": "https://www.videha.co.in/research/2021/319/रामलोचन-ठाकुरक-बेतालकथा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20319.pdf",
+      "path": "2021/319/रामलोचन-ठाकुरक-बेतालकथा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "आधुनिक विश्वकथाक बाट पर जाइत बीहनि कथा",
       "english_title": null,
       "authors": [
@@ -8874,6 +9045,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20320.pdf",
       "path": "2021/320/आधुनिक-विश्वकथाक-बाट-पर-जाइत-बीहनि-कथा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पचपनियाँ बनाम बभनियाँ मैथिली: प्रतिरोधक स्खलित स्वर",
+      "english_title": null,
+      "authors": [
+        "अरविन्द ठाकुर"
+      ],
+      "publication_date": "2021-05-01",
+      "year": "2021",
+      "issue": "321",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili sociolinguistics; caste and language; resistance criticism",
+      "url": "https://www.videha.co.in/research/2021/321/पचपनियाँ-बनाम-बभनियाँ-मैथिली-प्रतिरोधक-स्खलित-स्वर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20321.pdf",
+      "path": "2021/321/पचपनियाँ-बनाम-बभनियाँ-मैथिली-प्रतिरोधक-स्खलित-स्वर.htm",
       "page_start": null,
       "page_end": null
     },
