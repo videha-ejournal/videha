@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T08:20:56.845335+00:00",
+  "generated": "2026-08-30T08:30:29.077972+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 841,
-    "promoted_sections_publishable": 765,
+    "promoted_sections_requested": 842,
+    "promoted_sections_publishable": 766,
     "promoted_sections_review": 76,
     "curated_manifests": 1,
-    "published_after_all_overrides": 781,
-    "stale_generated_pages_removed_before_render": 776,
+    "published_after_all_overrides": 782,
+    "stale_generated_pages_removed_before_render": 781,
     "build_errors": 0
   },
   "articles": [
@@ -5207,6 +5207,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20110.pdf",
       "path": "2012/110/मैथिली-लोक-संस्कृति-संगोष्ठी-अन्तर्गत-लोकनायक-सलहेस-चर्चा-21b80f86c3.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली बाल गजल: अवधारणा आ बाल-साहित्य",
+      "english_title": null,
+      "authors": [
+        "ओमप्रकाश झा; जगदानन्द झा 'मनु'; आशीष अनचिन्हार; चंदन कुमार झा"
+      ],
+      "publication_date": "2012-08-01",
+      "year": "2012",
+      "issue": "111",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili children’s literature; ghazal theory; genre history and poetics",
+      "url": "https://www.videha.co.in/research/2012/111/मैथिली-बाल-गजल-अवधारणा-आ-बाल-साहित्य.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20111.pdf",
+      "path": "2012/111/मैथिली-बाल-गजल-अवधारणा-आ-बाल-साहित्य.htm",
       "page_start": null,
       "page_end": null
     },
