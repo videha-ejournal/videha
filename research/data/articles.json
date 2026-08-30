@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-29T08:24:43.233303+00:00",
+  "generated": "2026-08-30T01:44:32.914335+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 678,
-    "promoted_sections_publishable": 619,
+    "promoted_sections_requested": 682,
+    "promoted_sections_publishable": 623,
     "promoted_sections_review": 59,
     "curated_manifests": 1,
-    "published_after_all_overrides": 654,
+    "published_after_all_overrides": 657,
     "stale_generated_pages_removed_before_render": 654,
     "build_errors": 0
   },
@@ -7605,7 +7605,64 @@
       "page_end": null
     },
     {
-      "title": "मौलाइल गाछक फूल: जगदीश प्रसाद मण्डल",
+      "title": "हिन्दी फिल्मी गीतमे बहर—५",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2019-02-01",
+      "year": "2019",
+      "issue": "267",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Hindi film-song prosody; metre; ghazal and nazm criticism",
+      "url": "https://www.videha.co.in/research/2019/267/हिन्दी-फिल्मी-गीतमे-बहर-५.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20267.pdf",
+      "path": "2019/267/हिन्दी-फिल्मी-गीतमे-बहर-५.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हिन्दी फिल्मी गीतमे बहर—६",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2019-03-01",
+      "year": "2019",
+      "issue": "269",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Hindi film-song prosody; metre; ghazal and nazm criticism",
+      "url": "https://www.videha.co.in/research/2019/269/हिन्दी-फिल्मी-गीतमे-बहर-६.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20269.pdf",
+      "path": "2019/269/हिन्दी-फिल्मी-गीतमे-बहर-६.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हिन्दी फिल्मी गीतमे बहर—७",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2019-03-15",
+      "year": "2019",
+      "issue": "270",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Hindi film-song prosody; metre; ghazal and nazm criticism",
+      "url": "https://www.videha.co.in/research/2019/270/हिन्दी-फिल्मी-गीतमे-बहर-७.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20270.pdf",
+      "path": "2019/270/हिन्दी-फिल्मी-गीतमे-बहर-७.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "‘मौलाइल गाछक फूल’: जगदीश प्रसाद मण्डल",
       "english_title": null,
       "authors": [
         "डॉ. बचेश्वर झा"
@@ -7615,7 +7672,7 @@
       "issue": "270",
       "language": "mai",
       "keywords": [],
-      "classification": "Maithili literary criticism; novel studies; Jagdish Prasad Mandal; rural society",
+      "classification": "Maithili novel criticism; village studies; language and social realism",
       "url": "https://www.videha.co.in/research/2019/270/मौलाइल-गाछक-फूल-जगदीश-प्रसाद-मण्डल.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20270.pdf",
