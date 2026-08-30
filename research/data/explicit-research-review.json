@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T01:44:32.912587+00:00",
+  "generated": "2026-08-30T01:54:09.337817+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -17,7 +17,7 @@
     "promoted_sections_review": 59,
     "curated_manifests": 1,
     "published_after_all_overrides": 657,
-    "stale_generated_pages_removed_before_render": 654,
+    "stale_generated_pages_removed_before_render": 657,
     "build_errors": 0
   },
   "explicit_review": [
@@ -1013,26 +1013,6 @@
       "body_chars": 1664,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
-    },
-    {
-      "issue": "267",
-      "section": "2.4",
-      "reason": "manual body start marker not found"
-    },
-    {
-      "issue": "269",
-      "section": "2.4",
-      "reason": "manual body start marker not found"
-    },
-    {
-      "issue": "270",
-      "section": "2.3",
-      "reason": "manual body start marker not found"
-    },
-    {
-      "issue": "270",
-      "section": "2.4",
-      "reason": "manual body start marker not found"
     }
   ],
   "build_errors": []
