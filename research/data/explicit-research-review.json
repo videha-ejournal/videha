@@ -1013,6 +1013,26 @@
       "body_chars": 1664,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "267",
+      "section": "2.4",
+      "reason": "manual body start marker not found"
+    },
+    {
+      "issue": "269",
+      "section": "2.4",
+      "reason": "manual body start marker not found"
+    },
+    {
+      "issue": "270",
+      "section": "2.3",
+      "reason": "manual body start marker not found"
+    },
+    {
+      "issue": "270",
+      "section": "2.4",
+      "reason": "manual body start marker not found"
     }
   ],
   "build_errors": []
