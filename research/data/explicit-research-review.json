@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T07:18:55.198193+00:00",
+  "generated": "2026-08-30T07:25:01.059364+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,12 +12,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 807,
-    "promoted_sections_publishable": 732,
-    "promoted_sections_review": 75,
+    "promoted_sections_requested": 811,
+    "promoted_sections_publishable": 735,
+    "promoted_sections_review": 76,
     "curated_manifests": 1,
-    "published_after_all_overrides": 749,
-    "stale_generated_pages_removed_before_render": 746,
+    "published_after_all_overrides": 752,
+    "stale_generated_pages_removed_before_render": 749,
     "build_errors": 0
   },
   "explicit_review": [
@@ -1135,6 +1135,15 @@
       "author": "गजेन्द्र ठाकुर",
       "title": "राम भरोस कापड़ि 'भ्रमर' पर एकटा समग्र दृष्टि",
       "body_chars": 0,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "446",
+      "section": "2.8",
+      "author": "आचार्य रामानंद मंडल",
+      "title": "महाकवि विद्यापति बनाम संत तुलसीदास",
+      "body_chars": 1730,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     }

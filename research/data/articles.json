@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T07:18:55.199254+00:00",
+  "generated": "2026-08-30T07:25:01.060651+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 807,
-    "promoted_sections_publishable": 732,
-    "promoted_sections_review": 75,
+    "promoted_sections_requested": 811,
+    "promoted_sections_publishable": 735,
+    "promoted_sections_review": 76,
     "curated_manifests": 1,
-    "published_after_all_overrides": 749,
-    "stale_generated_pages_removed_before_render": 746,
+    "published_after_all_overrides": 752,
+    "stale_generated_pages_removed_before_render": 749,
     "build_errors": 0
   },
   "articles": [
@@ -13913,6 +13913,44 @@
       "page_end": "62"
     },
     {
+      "title": "पतीत : पोथी चर्चा",
+      "english_title": null,
+      "authors": [
+        "लाल देव कामत"
+      ],
+      "publication_date": "2026-07-15",
+      "year": "2026",
+      "issue": "446",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili book criticism; social novel studies; literary sociology",
+      "url": "https://www.videha.co.in/research/2026/446/पतीत-पोथी-चर्चा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20446.pdf",
+      "path": "2026/446/पतीत-पोथी-चर्चा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "बहुजन कवि आ नाटककार राम श्रेष्ठ दीवाना : एक संक्षिप्त बायोग्राफी",
+      "english_title": null,
+      "authors": [
+        "लाल देव कामत"
+      ],
+      "publication_date": "2026-07-15",
+      "year": "2026",
+      "issue": "446",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; author biography; Dalit and subaltern theatre studies",
+      "url": "https://www.videha.co.in/research/2026/446/बहुजन-कवि-आ-नाटककार-राम-श्रेष्ठ-दीवाना-एक-संक्षिप्त-बायोग्राफी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20446.pdf",
+      "path": "2026/446/बहुजन-कवि-आ-नाटककार-राम-श्रेष्ठ-दीवाना-एक-संक्षिप्त-बायोग्राफी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग-६): कुणाल-कृत प्रेम-प्रतिज्ञा उर्फ श्रुवावतीक जय!",
       "english_title": null,
       "authors": [
@@ -13987,6 +14025,25 @@
       "path": "2026/446/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-1122725a7f.htm",
       "page_start": "99",
       "page_end": "104"
+    },
+    {
+      "title": "लोकतंत्रक माने आ मतलब",
+      "english_title": null,
+      "authors": [
+        "प्रणव कुमार झा"
+      ],
+      "publication_date": "2026-07-15",
+      "year": "2026",
+      "issue": "446",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Political thought; democracy studies; Maithili public discourse",
+      "url": "https://www.videha.co.in/research/2026/446/लोकतंत्रक-माने-आ-मतलब.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20446.pdf",
+      "path": "2026/446/लोकतंत्रक-माने-आ-मतलब.htm",
+      "page_start": null,
+      "page_end": null
     },
     {
       "title": "एकैसम शताब्दीक पहिल औपन्यासिक कृति - ‘पथिक पिआसल’क तात्विक विश्लेषण",
