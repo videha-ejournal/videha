@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T02:08:56.101259+00:00",
+  "generated": "2026-08-30T02:16:31.665498+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 696,
-    "promoted_sections_publishable": 637,
+    "promoted_sections_requested": 707,
+    "promoted_sections_publishable": 648,
     "promoted_sections_review": 59,
     "curated_manifests": 1,
-    "published_after_all_overrides": 671,
-    "stale_generated_pages_removed_before_render": 661,
+    "published_after_all_overrides": 681,
+    "stale_generated_pages_removed_before_render": 671,
     "build_errors": 0
   },
   "articles": [
@@ -7966,6 +7966,139 @@
       "page_end": null
     },
     {
+      "title": "जगदीश प्रसाद मण्डलक ‘बजन्ता-बुझन्ता’",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2020-02-15",
+      "year": "2020",
+      "issue": "292",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili fiction criticism; short-story studies; Jagdish Prasad Mandal",
+      "url": "https://www.videha.co.in/research/2020/292/जगदीश-प्रसाद-मण्डलक-बजन्ता-बुझन्ता.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20292.pdf",
+      "path": "2020/292/जगदीश-प्रसाद-मण्डलक-बजन्ता-बुझन्ता.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डलक ‘अकास गंगा’",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2020-03-01",
+      "year": "2020",
+      "issue": "293",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili poetry criticism; book studies; Jagdish Prasad Mandal",
+      "url": "https://www.videha.co.in/research/2020/293/जगदीश-प्रसाद-मण्डलक-अकास-गंगा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20293.pdf",
+      "path": "2020/293/जगदीश-प्रसाद-मण्डलक-अकास-गंगा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डलजीक ‘सुभिमानी जिनगी’",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2020-03-15",
+      "year": "2020",
+      "issue": "294",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili fiction criticism; social realism; Jagdish Prasad Mandal",
+      "url": "https://www.videha.co.in/research/2020/294/जगदीश-प्रसाद-मण्डलजीक-सुभिमानी-जिनगी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20294.pdf",
+      "path": "2020/294/जगदीश-प्रसाद-मण्डलजीक-सुभिमानी-जिनगी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डलक अर्द्धांगिनी कथा संग्रह",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2020-04-01",
+      "year": "2020",
+      "issue": "295",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili fiction criticism; gender and society; Jagdish Prasad Mandal",
+      "url": "https://www.videha.co.in/research/2020/295/जगदीश-प्रसाद-मण्डलक-अर्द्धांगिनी-कथा-संग्रह.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20295.pdf",
+      "path": "2020/295/जगदीश-प्रसाद-मण्डलक-अर्द्धांगिनी-कथा-संग्रह.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डलक ‘मुड़ियाएल घर’",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2020-04-15",
+      "year": "2020",
+      "issue": "296",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili fiction criticism; family and society; Jagdish Prasad Mandal",
+      "url": "https://www.videha.co.in/research/2020/296/जगदीश-प्रसाद-मण्डलक-मुड़ियाएल-घर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20296.pdf",
+      "path": "2020/296/जगदीश-प्रसाद-मण्डलक-मुड़ियाएल-घर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डलक ‘रहै जोकर परिवार’मे परिवर्तनक स्वर",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2020-05-01",
+      "year": "2020",
+      "issue": "297",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili fiction criticism; social change; Jagdish Prasad Mandal",
+      "url": "https://www.videha.co.in/research/2020/297/जगदीश-प्रसाद-मण्डलक-रहै-जोकर-परिवार-मे-परिवर्तनक-स्वर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20297.pdf",
+      "path": "2020/297/जगदीश-प्रसाद-मण्डलक-रहै-जोकर-परिवार-मे-परिवर्तनक-स्वर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डलक कथा लेखन-क्रम",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2020-05-15",
+      "year": "2020",
+      "issue": "298",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; bibliography; fiction studies",
+      "url": "https://www.videha.co.in/research/2020/298/जगदीश-प्रसाद-मण्डलक-कथा-लेखन-क्रम.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20298.pdf",
+      "path": "2020/298/जगदीश-प्रसाद-मण्डलक-कथा-लेखन-क्रम.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "बिहार शराबबंदी कानून",
       "english_title": null,
       "authors": [
@@ -8000,6 +8133,63 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20299.pdf",
       "path": "2020/299/बेनामी-संपत्ति-कानून.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डलजीक व्यक्तित्व ओ कृतित्व एक अनुशीलन",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2020-06-15",
+      "year": "2020",
+      "issue": "300",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary biography; author study; social history",
+      "url": "https://www.videha.co.in/research/2020/300/जगदीश-प्रसाद-मण्डलजीक-व्यक्तित्व-ओ-कृतित्व-एक-अनुशीलन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20300.pdf",
+      "path": "2020/300/जगदीश-प्रसाद-मण्डलजीक-व्यक्तित्व-ओ-कृतित्व-एक-अनुशीलन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "बीहनि कथा—मानकीकरण ओ तुलनात्मक पक्ष",
+      "english_title": null,
+      "authors": [
+        "मुन्नाजी"
+      ],
+      "publication_date": "2020-06-15",
+      "year": "2020",
+      "issue": "300",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili short-story studies; standardization; comparative criticism",
+      "url": "https://www.videha.co.in/research/2020/300/बीहनि-कथा-मानकीकरण-ओ-तुलनात्मक-पक्ष.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20300.pdf",
+      "path": "2020/300/बीहनि-कथा-मानकीकरण-ओ-तुलनात्मक-पक्ष.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "लाल लंगौटी केर पहचान करैत कविता",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2020-06-15",
+      "year": "2020",
+      "issue": "300",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili poetics; literary criticism; classical aesthetics",
+      "url": "https://www.videha.co.in/research/2020/300/लाल-लंगौटी-केर-पहचान-करैत-कविता.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20300.pdf",
+      "path": "2020/300/लाल-लंगौटी-केर-पहचान-करैत-कविता.htm",
       "page_start": null,
       "page_end": null
     },
