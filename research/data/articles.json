@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T09:21:20.179833+00:00",
+  "generated": "2026-08-30T09:31:14.461405+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 862,
-    "promoted_sections_publishable": 786,
+    "promoted_sections_requested": 865,
+    "promoted_sections_publishable": 789,
     "promoted_sections_review": 76,
     "curated_manifests": 1,
-    "published_after_all_overrides": 796,
-    "stale_generated_pages_removed_before_render": 796,
+    "published_after_all_overrides": 799,
+    "stale_generated_pages_removed_before_render": 799,
     "build_errors": 0
   },
   "articles": [
@@ -8137,6 +8137,25 @@
       "page_end": null
     },
     {
+      "title": "घरेलू हिंसा अधिनियम, 2005",
+      "english_title": null,
+      "authors": [
+        "रबीन्द्र नारायण मिश्र"
+      ],
+      "publication_date": "2018-09-01",
+      "year": "2018",
+      "issue": "257",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Indian domestic-violence law; women’s rights; legal literacy; gender justice",
+      "url": "https://www.videha.co.in/research/2018/257/घरेलू-हिंसा-अधिनियम-2005.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20257.pdf",
+      "path": "2018/257/घरेलू-हिंसा-अधिनियम-2005.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मैथिली साहित्यक अवदान: मिथिला भाषा रामायण आ चन्दा झा",
       "english_title": null,
       "authors": [
@@ -8209,6 +8228,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20258.pdf",
       "path": "2018/258/मैथिली-साहित्यमे-यदुनाथ-झा-यदुवर-क-देन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "संपत्ति हस्तांतरण",
+      "english_title": null,
+      "authors": [
+        "रबीन्द्र नारायण मिश्र"
+      ],
+      "publication_date": "2018-09-15",
+      "year": "2018",
+      "issue": "258",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Transfer of Property Act 1882; property law; conveyancing; legal literacy",
+      "url": "https://www.videha.co.in/research/2018/258/संपत्ति-हस्तांतरण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20258.pdf",
+      "path": "2018/258/संपत्ति-हस्तांतरण.htm",
       "page_start": null,
       "page_end": null
     },
@@ -8304,6 +8342,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20259.pdf",
       "path": "2018/259/सगर-राति-दीप-जरय-आयोजन-आ-साहित्यिक-संस्थाक-इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "ई समय ककरो नहि",
+      "english_title": null,
+      "authors": [
+        "रबीन्द्र नारायण मिश्र"
+      ],
+      "publication_date": "2018-10-15",
+      "year": "2018",
+      "issue": "260",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila heritage studies; Shyama temple history; Darbhanga cultural landscape",
+      "url": "https://www.videha.co.in/research/2018/260/ई-समय-ककरो-नहि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20260.pdf",
+      "path": "2018/260/ई-समय-ककरो-नहि.htm",
       "page_start": null,
       "page_end": null
     },
