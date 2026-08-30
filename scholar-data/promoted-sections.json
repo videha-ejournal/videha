@@ -178,6 +178,46 @@
     "classification": "Children’s literature studies; Maithili novel criticism; comparative literary theory"
   },
   {
+    "issue": "272",
+    "section": "2.1",
+    "author_override": "आशीष अनचिन्हार",
+    "title_override": "मैथिली वेब पत्रकारिताक इतिहास",
+    "classification": "Maithili web journalism; media history; digital humanities",
+    "body_source": "search-documents/videha-272.html",
+    "manual_body_start": "मैथिली वेब पत्रकारिताक इतिहास आशीष अनचिन्हार",
+    "manual_body_end": "Search transcription built from paired local source files"
+  },
+  {
+    "issue": "278",
+    "section": "2.1",
+    "author_override": "आशीष अनचिन्हार",
+    "title_override": "हिन्दी फिल्मी गीतमे बहर—८",
+    "classification": "Hindi film-song prosody; metre; ghazal and nazm criticism",
+    "body_source": "search-documents/videha-278.html",
+    "manual_body_start": "आशीष अनचिन्हार\nहिंदी फिल्मी गीतमे बहर-८",
+    "manual_body_end": "ऐ रचनापर अपन मंतव्य"
+  },
+  {
+    "issue": "280",
+    "section": "2",
+    "author_override": "उमेश मण्डल",
+    "title_override": "मैथिली साहित्य-रचनाक क्षेत्रमे जगदीश प्रसाद मण्डलक आगमन",
+    "classification": "Maithili literary history; author study; Jagdish Prasad Mandal",
+    "body_source": "search-documents/videha-280.html",
+    "manual_body_start": "उमेश मण्डल\nमैथिली साहित्य-रचनाक क्षेत्रमे जगदीश प्रसाद मण्डलक आगमन",
+    "manual_body_end": "आशीष अनचिन्हार\nगजल"
+  },
+  {
+    "issue": "281",
+    "section": "2",
+    "author_override": "उमेश मण्डल",
+    "title_override": "जगदीश प्रसाद मण्डलजीक ‘भकमोड़’मे परिवर्तनक स्वर",
+    "classification": "Maithili literary criticism; social change; Jagdish Prasad Mandal; village studies",
+    "body_source": "search-documents/videha-281.html",
+    "manual_body_start": "उमेश मण्डल\nजगदीश प्रसाद मण्डलजीक ‘भकमोड़’मे परिवर्तनक स्वर",
+    "manual_body_end": "आशीष अनचिन्हार\nगजल"
+  },
+  {
     "issue": "447",
     "section": "2.22",
     "classification": "Drama studies; comparative theatre theory; Maithili dramatic criticism"
