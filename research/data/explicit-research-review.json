@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T08:36:59.133020+00:00",
+  "generated": "2026-08-30T08:42:15.269210+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -17,7 +17,7 @@
     "promoted_sections_review": 76,
     "curated_manifests": 1,
     "published_after_all_overrides": 783,
-    "stale_generated_pages_removed_before_render": 782,
+    "stale_generated_pages_removed_before_render": 783,
     "build_errors": 0
   },
   "explicit_review": [
