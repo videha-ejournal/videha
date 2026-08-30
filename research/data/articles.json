@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T08:01:04.497653+00:00",
+  "generated": "2026-08-30T08:06:26.269640+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 828,
-    "promoted_sections_publishable": 752,
+    "promoted_sections_requested": 831,
+    "promoted_sections_publishable": 755,
     "promoted_sections_review": 76,
     "curated_manifests": 1,
-    "published_after_all_overrides": 768,
-    "stale_generated_pages_removed_before_render": 767,
+    "published_after_all_overrides": 771,
+    "stale_generated_pages_removed_before_render": 768,
     "build_errors": 0
   },
   "articles": [
@@ -3881,6 +3881,25 @@
       "page_end": null
     },
     {
+      "title": "वनदेवी आ नारी अस्मिताक गाथा",
+      "english_title": null,
+      "authors": [
+        "डाॅ. योगानन्द झा"
+      ],
+      "publication_date": "2011-01-15",
+      "year": "2011",
+      "issue": "74",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Feminist literary studies; Ramayana reinterpretation; Mithila women’s cultural history",
+      "url": "https://www.videha.co.in/research/2011/74/वनदेवी-आ-नारी-अस्मिताक-गाथा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20074.pdf",
+      "path": "2011/74/वनदेवी-आ-नारी-अस्मिताक-गाथा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "विद्यापति",
       "english_title": null,
       "authors": [
@@ -3919,6 +3938,25 @@
       "page_end": null
     },
     {
+      "title": "उत्तराखण्डक नन्दा-राजजात",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2011-02-01",
+      "year": "2011",
+      "issue": "75",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Cultural anthropology; pilgrimage studies; Himalayan folklore; comparative regional culture",
+      "url": "https://www.videha.co.in/research/2011/75/उत्तराखण्डक-नन्दा-राजजात.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20075.pdf",
+      "path": "2011/75/उत्तराखण्डक-नन्दा-राजजात.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मैथिली बाललोककथा: स्थिति आ अपेक्षा",
       "english_title": null,
       "authors": [
@@ -3953,6 +3991,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20077.pdf",
       "path": "2011/77/discrimination-against-women.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "प्राचीन भारतीय संस्कृतिमे मिथिलाक योगदान",
+      "english_title": null,
+      "authors": [
+        "प्रो. वीणा ठाकुर"
+      ],
+      "publication_date": "2011-03-01",
+      "year": "2011",
+      "issue": "77",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila cultural history; Indian intellectual history; philosophy and knowledge traditions",
+      "url": "https://www.videha.co.in/research/2011/77/प्राचीन-भारतीय-संस्कृतिमे-मिथिलाक-योगदान.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20077.pdf",
+      "path": "2011/77/प्राचीन-भारतीय-संस्कृतिमे-मिथिलाक-योगदान.htm",
       "page_start": null,
       "page_end": null
     },
