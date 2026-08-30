@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T06:17:39.672042+00:00",
+  "generated": "2026-08-30T06:19:49.893907+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,11 +12,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 762,
-    "promoted_sections_publishable": 692,
-    "promoted_sections_review": 70,
+    "promoted_sections_requested": 766,
+    "promoted_sections_publishable": 695,
+    "promoted_sections_review": 71,
     "curated_manifests": 1,
-    "published_after_all_overrides": 722,
+    "published_after_all_overrides": 725,
     "stale_generated_pages_removed_before_render": 722,
     "build_errors": 0
   },
@@ -1054,6 +1054,15 @@
       "author": "आशीष अनचिन्हार",
       "title": "‘इश्क को दिल में दे जगह अकबर’ आ जगदीश चन्द्र ठाकुर ‘अनिल’",
       "body_chars": 1664,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "372",
+      "section": "2.5",
+      "author": "डा. योगानन्द झा",
+      "title": "श्री राज किशोर मिश्र ओ हुनक 'प्रलय-पाश'",
+      "body_chars": 1499,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     },

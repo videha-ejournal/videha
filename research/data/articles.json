@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T06:17:39.673303+00:00",
+  "generated": "2026-08-30T06:19:49.895162+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 762,
-    "promoted_sections_publishable": 692,
-    "promoted_sections_review": 70,
+    "promoted_sections_requested": 766,
+    "promoted_sections_publishable": 695,
+    "promoted_sections_review": 71,
     "curated_manifests": 1,
-    "published_after_all_overrides": 722,
+    "published_after_all_overrides": 725,
     "stale_generated_pages_removed_before_render": 722,
     "build_errors": 0
   },
@@ -10303,6 +10303,25 @@
       "page_end": "47"
     },
     {
+      "title": "समीक्षा- ठेहा परक मौलाएल गाछ",
+      "english_title": null,
+      "authors": [
+        "डॉ कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2023-07-01",
+      "year": "2023",
+      "issue": "373",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili novel criticism; social realism; village studies",
+      "url": "https://www.videha.co.in/research/2023/373/समीक्षा--ठेहा-परक-मौलाएल-गाछ.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20373.pdf",
+      "path": "2023/373/समीक्षा--ठेहा-परक-मौलाएल-गाछ.htm",
+      "page_start": "24",
+      "page_end": "33"
+    },
+    {
       "title": "मिथिलाक इतिहासक वैज्ञानिक अध्ययन एवं ओकर समीक्षात्मक विश्लेषण",
       "english_title": null,
       "authors": [
@@ -10320,6 +10339,44 @@
       "path": "2023/374/मिथिलाक-इतिहासक-वैज्ञानिक-अध्ययन-एवं-ओकर-समीक्षात्मक-विश्लेषण.htm",
       "page_start": null,
       "page_end": null
+    },
+    {
+      "title": "बाल्मीकि रामायण आ रामचरितमानस के तुलनात्मक अध्ययन",
+      "english_title": null,
+      "authors": [
+        "आचार्य रामानन्द मण्डल"
+      ],
+      "publication_date": "2023-08-01",
+      "year": "2023",
+      "issue": "375",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Comparative Ramayana studies; Maithili literary criticism",
+      "url": "https://www.videha.co.in/research/2023/375/बाल्मीकि-रामायण-आ-रामचरितमानस-के-तुलनात्मक-अध्ययन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20375.pdf",
+      "path": "2023/375/बाल्मीकि-रामायण-आ-रामचरितमानस-के-तुलनात्मक-अध्ययन.htm",
+      "page_start": "35",
+      "page_end": "43"
+    },
+    {
+      "title": "नशामुक्त गाम",
+      "english_title": null,
+      "authors": [
+        "रामचन्द्र राय"
+      ],
+      "publication_date": "2023-11-01",
+      "year": "2023",
+      "issue": "381",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Rural sociology; public health and social reform in Mithila",
+      "url": "https://www.videha.co.in/research/2023/381/नशामुक्त-गाम.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20381.pdf",
+      "path": "2023/381/नशामुक्त-गाम.htm",
+      "page_start": "84",
+      "page_end": "92"
     },
     {
       "title": "पाथरपर दूभि उपजाबैत राग-भावक अन्वेषक लक्ष्मण झा 'सागर'",
