@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T10:33:50.035645+00:00",
+  "generated": "2026-08-30T10:37:47.831890+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 876,
-    "promoted_sections_publishable": 798,
+    "promoted_sections_requested": 877,
+    "promoted_sections_publishable": 799,
     "promoted_sections_review": 78,
     "curated_manifests": 1,
-    "published_after_all_overrides": 808,
-    "stale_generated_pages_removed_before_render": 807,
+    "published_after_all_overrides": 809,
+    "stale_generated_pages_removed_before_render": 808,
     "build_errors": 0
   },
   "articles": [
@@ -11515,6 +11515,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20387.pdf",
       "path": "2024/387/पत्नी-इतिहास-हम-पढ़बै-जातीय-बोध-दान-बुद्ध-पृ-१०५-१११.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "Reference of Shudras in Vedas",
+      "english_title": null,
+      "authors": [
+        "Dr. Tulsi Ram"
+      ],
+      "publication_date": "2024-03-15",
+      "year": "2024",
+      "issue": "390",
+      "language": "en",
+      "keywords": [],
+      "classification": "Vedic textual studies; caste history; comparative translation",
+      "url": "https://www.videha.co.in/research/2024/390/reference-of-shudras-in-vedas.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20390.pdf",
+      "path": "2024/390/reference-of-shudras-in-vedas.htm",
       "page_start": null,
       "page_end": null
     },
