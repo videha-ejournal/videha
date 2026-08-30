@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T10:41:24.526488+00:00",
+  "generated": "2026-08-30T10:51:53.726045+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 877,
-    "promoted_sections_publishable": 799,
+    "promoted_sections_requested": 879,
+    "promoted_sections_publishable": 801,
     "promoted_sections_review": 78,
     "curated_manifests": 1,
-    "published_after_all_overrides": 809,
-    "stale_generated_pages_removed_before_render": 809,
+    "published_after_all_overrides": 810,
+    "stale_generated_pages_removed_before_render": 810,
     "build_errors": 0
   },
   "articles": [
@@ -13921,9 +13921,9 @@
       "publication_date": "2026-03-15",
       "year": "2026",
       "issue": "438",
-      "language": "mai",
+      "language": "en",
       "keywords": [],
-      "classification": "History / cultural history article",
+      "classification": "Mithila intellectual history; Maithili literary history; comparative literature",
       "url": "https://www.videha.co.in/research/2026/438/a-parallel-history-of-mithila-maithili-literature.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20438.pdf",
@@ -14101,6 +14101,25 @@
       "path": "2026/439/समकालीन-मैथिली-साहित्यक-लोकधर्मी-स्वर-राम-विलास-साहु.htm",
       "page_start": "120",
       "page_end": "137"
+    },
+    {
+      "title": "समय : विस्तारक उन्माद आ संकोचक विवेकक बीच- एकटा समग्र मूल्यांकन",
+      "english_title": null,
+      "authors": [
+        "रमेशक कविता"
+      ],
+      "publication_date": "2026-04-01",
+      "year": "2026",
+      "issue": "439",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; poetry and fiction studies; contemporary literature",
+      "url": "https://www.videha.co.in/research/2026/439/समय-विस्तारक-उन्माद-आ-संकोचक-विवेकक-बीच--एकटा-समग्र-मूल्यांकन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20439.pdf",
+      "path": "2026/439/समय-विस्तारक-उन्माद-आ-संकोचक-विवेकक-बीच--एकटा-समग्र-मूल्यांकन.htm",
+      "page_start": "103",
+      "page_end": "119"
     },
     {
       "title": "‘सगर राति दीप जरय’क साहित्यिक अवदान : नरहिया गोष्ठीक आलोकमे एक अध्ययन",
