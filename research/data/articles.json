@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T09:59:18.973318+00:00",
+  "generated": "2026-08-30T10:03:39.165282+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,13 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 871,
-    "promoted_sections_publishable": 793,
+    "promoted_sections_requested": 874,
+    "promoted_sections_publishable": 796,
     "promoted_sections_review": 78,
     "curated_manifests": 1,
-    "published_after_all_overrides": 803,
-    "published_after_all_overrides": 803,
-    "stale_generated_pages_removed_before_render": 801,
+    "published_after_all_overrides": 806,
+    "stale_generated_pages_removed_before_render": 803,
     "build_errors": 0
   },
   "articles": [
@@ -10300,6 +10299,63 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20347.pdf",
       "path": "2022/347/प्रवासीक-स्नेहसँ-ओतप्रोत-मातृभूमि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गीतक अप्रतिम शिल्पकार: रवीन्द्र नाथ ठाकुर",
+      "english_title": null,
+      "authors": [
+        "प्रदीप पुष्प"
+      ],
+      "publication_date": "2022-06-15",
+      "year": "2022",
+      "issue": "348",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili song studies; Ravindra Nath Thakur; literary history and poetics",
+      "url": "https://www.videha.co.in/research/2022/348/गीतक-अप्रतिम-शिल्पकार-रवीन्द्र-नाथ-ठाकुर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20348.pdf",
+      "path": "2022/348/गीतक-अप्रतिम-शिल्पकार-रवीन्द्र-नाथ-ठाकुर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिला मैथिली आन्दोलनक पाथेय: श्रद्धेय रवीन्द्र जी",
+      "english_title": null,
+      "authors": [
+        "अजित कुमार झा"
+      ],
+      "publication_date": "2022-06-15",
+      "year": "2022",
+      "issue": "348",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili language movement; literary institutions; cultural history",
+      "url": "https://www.videha.co.in/research/2022/348/मिथिला-मैथिली-आन्दोलनक-पाथेय-श्रद्धेय-रवीन्द्र-जी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20348.pdf",
+      "path": "2022/348/मिथिला-मैथिली-आन्दोलनक-पाथेय-श्रद्धेय-रवीन्द्र-जी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "रवीन्द्रनाथ ठाकुर, हुनक रचना आ जनमानस केर उदासीनता",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2022-06-15",
+      "year": "2022",
+      "issue": "348",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; author studies; cultural reception",
+      "url": "https://www.videha.co.in/research/2022/348/रवीन्द्रनाथ-ठाकुर-हुनक-रचना-आ-जनमानस-केर-उदासीनता.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20348.pdf",
+      "path": "2022/348/रवीन्द्रनाथ-ठाकुर-हुनक-रचना-आ-जनमानस-केर-उदासीनता.htm",
       "page_start": null,
       "page_end": null
     },
