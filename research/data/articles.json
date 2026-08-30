@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T08:42:37.040316+00:00",
+  "generated": "2026-08-30T08:47:53.360840+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 846,
-    "promoted_sections_publishable": 770,
+    "promoted_sections_requested": 847,
+    "promoted_sections_publishable": 771,
     "promoted_sections_review": 76,
     "curated_manifests": 1,
-    "published_after_all_overrides": 786,
-    "stale_generated_pages_removed_before_render": 784,
+    "published_after_all_overrides": 787,
+    "stale_generated_pages_removed_before_render": 786,
     "build_errors": 0
   },
   "articles": [
@@ -6100,6 +6100,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20151.pdf",
       "path": "2014/151/a-survey-of-maithili-literature.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली बाल साहित्य उद्भव ओ विकास",
+      "english_title": null,
+      "authors": [
+        "शिव कुमार झा ‘टिल्लू’"
+      ],
+      "publication_date": "2014-04-15",
+      "year": "2014",
+      "issue": "152",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili children’s literature; literary history; education and cultural studies",
+      "url": "https://www.videha.co.in/research/2014/152/मैथिली-बाल-साहित्य-उद्भव-ओ-विकास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20152.pdf",
+      "path": "2014/152/मैथिली-बाल-साहित्य-उद्भव-ओ-विकास.htm",
       "page_start": null,
       "page_end": null
     },
