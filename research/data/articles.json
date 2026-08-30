@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T08:18:11.201282+00:00",
+  "generated": "2026-08-30T08:20:56.845335+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 836,
-    "promoted_sections_publishable": 760,
+    "promoted_sections_requested": 841,
+    "promoted_sections_publishable": 765,
     "promoted_sections_review": 76,
     "curated_manifests": 1,
-    "published_after_all_overrides": 776,
-    "stale_generated_pages_removed_before_render": 772,
+    "published_after_all_overrides": 781,
+    "stale_generated_pages_removed_before_render": 776,
     "build_errors": 0
   },
   "articles": [
@@ -4736,6 +4736,25 @@
       "page_end": null
     },
     {
+      "title": "ग्रामजीवनक सत्यक संवाहक: अर्द्धांगिनी",
+      "english_title": null,
+      "authors": [
+        "योगानन्द झा"
+      ],
+      "publication_date": "2012-03-01",
+      "year": "2012",
+      "issue": "101",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; village studies; social realism and gender",
+      "url": "https://www.videha.co.in/research/2012/101/ग्रामजीवनक-सत्यक-संवाहक-अर्द्धांगिनी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20101.pdf",
+      "path": "2012/101/ग्रामजीवनक-सत्यक-संवाहक-अर्द्धांगिनी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मैथिली कथा साहित्यक विकासमे राजकमलक योगदान",
       "english_title": null,
       "authors": [
@@ -4831,6 +4850,25 @@
       "page_end": null
     },
     {
+      "title": "आधुनिक मैथिली नाटक आ टुच्चा नाटककारक जातिवादी रंगमंचक अवधारणा",
+      "english_title": null,
+      "authors": [
+        "विनीत उत्पल"
+      ],
+      "publication_date": "2012-04-15",
+      "year": "2012",
+      "issue": "104",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre criticism; caste and performance politics; parallel theatre",
+      "url": "https://www.videha.co.in/research/2012/104/आधुनिक-मैथिली-नाटक-आ-टुच्चा-नाटककारक-जातिवादी-रंगमंचक-अवधारणा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20104.pdf",
+      "path": "2012/104/आधुनिक-मैथिली-नाटक-आ-टुच्चा-नाटककारक-जातिवादी-रंगमंचक-अवधारणा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "इंद्रधनुषी अकास",
       "english_title": null,
       "authors": [
@@ -4846,6 +4884,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20104.pdf",
       "path": "2012/104/इंद्रधनुषी-अकास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "विदेह मैथिली समानान्तर रंगमंच",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2012-04-15",
+      "year": "2012",
+      "issue": "104",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre history; anti-caste performance; cultural institutions",
+      "url": "https://www.videha.co.in/research/2012/104/विदेह-मैथिली-समानान्तर-रंगमंच.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20104.pdf",
+      "path": "2012/104/विदेह-मैथिली-समानान्तर-रंगमंच.htm",
       "page_start": null,
       "page_end": null
     },
@@ -4964,6 +5021,25 @@
       "page_end": null
     },
     {
+      "title": "दू-पत्र: एक विश्लेषण",
+      "english_title": null,
+      "authors": [
+        "डॉ. इन्दुधर झा"
+      ],
+      "publication_date": "2012-06-15",
+      "year": "2012",
+      "issue": "108",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili novel criticism; epistolary literature; gender and comparative culture",
+      "url": "https://www.videha.co.in/research/2012/108/दू-पत्र-एक-विश्लेषण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20108.pdf",
+      "path": "2012/108/दू-पत्र-एक-विश्लेषण.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "भीड़तंत्र बनाम भ्रष्टतंत्र",
       "english_title": null,
       "authors": [
@@ -5036,6 +5112,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20109.pdf",
       "path": "2012/109/जीवन-संघर्ष-समीक्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली युवा रचना-धर्मिता: परंपरा परिवर्तन आ भविष्य",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2012-07-01",
+      "year": "2012",
+      "issue": "109",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary sociology; youth writing; literary institutions and cultural change",
+      "url": "https://www.videha.co.in/research/2012/109/मैथिली-युवा-रचना-धर्मिता-परंपरा-परिवर्तन-आ-भविष्य.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20109.pdf",
+      "path": "2012/109/मैथिली-युवा-रचना-धर्मिता-परंपरा-परिवर्तन-आ-भविष्य.htm",
       "page_start": null,
       "page_end": null
     },
