@@ -178,7 +178,9 @@ def write_index(articles,candidates):
     (RESEARCH/"index.htm").write_text(page,encoding="utf-8")
 
 def write_sitemap(articles):
-    urls=[CFG["research_base"]+"/"]+[a["url"] for a in articles]
+    # Keep the print-ready research book discoverable on the same canonical
+    # domain as the individual Scholar article pages.
+    urls=[CFG["research_base"]+"/", CFG["research_base"]+"/videha-scholar-research-book.html"]+[a["url"] for a in articles]
     xml='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+"\n".join(f"  <url><loc>{html.escape(u)}</loc></url>" for u in urls)+"\n</urlset>\n"
     (RESEARCH/"sitemap.xml").write_text(xml,encoding="utf-8")
 
