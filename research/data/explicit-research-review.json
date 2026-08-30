@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T06:32:38.991340+00:00",
+  "generated": "2026-08-30T06:35:59.457745+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,11 +12,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 771,
-    "promoted_sections_publishable": 700,
-    "promoted_sections_review": 71,
+    "promoted_sections_requested": 778,
+    "promoted_sections_publishable": 706,
+    "promoted_sections_review": 72,
     "curated_manifests": 1,
-    "published_after_all_overrides": 728,
+    "published_after_all_overrides": 733,
     "stale_generated_pages_removed_before_render": 728,
     "build_errors": 0
   },
@@ -1063,6 +1063,15 @@
       "author": "डा. योगानन्द झा",
       "title": "श्री राज किशोर मिश्र ओ हुनक 'प्रलय-पाश'",
       "body_chars": 1499,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "401",
+      "section": "2.2",
+      "author": "परमानन्द लाल कर्ण",
+      "title": "मैथिली एक सिंहावलोकन",
+      "body_chars": 0,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     },

@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T06:32:38.992605+00:00",
+  "generated": "2026-08-30T06:35:59.459279+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 771,
-    "promoted_sections_publishable": 700,
-    "promoted_sections_review": 71,
+    "promoted_sections_requested": 778,
+    "promoted_sections_publishable": 706,
+    "promoted_sections_review": 72,
     "curated_manifests": 1,
-    "published_after_all_overrides": 728,
+    "published_after_all_overrides": 733,
     "stale_generated_pages_removed_before_render": 728,
     "build_errors": 0
   },
@@ -10550,6 +10550,44 @@
       "page_end": "33"
     },
     {
+      "title": "अंतरिक्ष पर्यटन के वैज्ञानिक दृष्टिकोण",
+      "english_title": null,
+      "authors": [
+        "ग्रुप कैप्ट (डा.) वि एन झा"
+      ],
+      "publication_date": "2024-04-15",
+      "year": "2024",
+      "issue": "392",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Space science; astronomy; science communication",
+      "url": "https://www.videha.co.in/research/2024/392/अंतरिक्ष-पर्यटन-के-वैज्ञानिक-दृष्टिकोण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20392.pdf",
+      "path": "2024/392/अंतरिक्ष-पर्यटन-के-वैज्ञानिक-दृष्टिकोण.htm",
+      "page_start": "148",
+      "page_end": "172"
+    },
+    {
+      "title": "नेपालमे मैथिली नाटकक विकास आ परिणाम",
+      "english_title": null,
+      "authors": [
+        "प्रो दमन कुमार झा"
+      ],
+      "publication_date": "2024-04-15",
+      "year": "2024",
+      "issue": "392",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre history; Nepal cultural studies; performance criticism",
+      "url": "https://www.videha.co.in/research/2024/392/नेपालमे-मैथिली-नाटकक-विकास-आ-परिणाम.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20392.pdf",
+      "path": "2024/392/नेपालमे-मैथिली-नाटकक-विकास-आ-परिणाम.htm",
+      "page_start": "21",
+      "page_end": "34"
+    },
+    {
       "title": "\"अनुशीलन\"क अनुशीलन आवश्यक",
       "english_title": null,
       "authors": [
@@ -10797,6 +10835,25 @@
       "page_end": "53"
     },
     {
+      "title": "मैथिली भाषा परिवार",
+      "english_title": null,
+      "authors": [
+        "डॉ प्रदीप कुमार पबड़ा"
+      ],
+      "publication_date": "2024-07-15",
+      "year": "2024",
+      "issue": "398",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili linguistics; language family studies; historical linguistics",
+      "url": "https://www.videha.co.in/research/2024/398/मैथिली-भाषा-परिवार.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20398.pdf",
+      "path": "2024/398/मैथिली-भाषा-परिवार.htm",
+      "page_start": "78",
+      "page_end": "82"
+    },
+    {
       "title": "३२म- ३५म शताब्दीक मैथिलीक नेंओक साक्षी कोबर घर तैयार",
       "english_title": null,
       "authors": [
@@ -10807,13 +10864,51 @@
       "issue": "398",
       "language": "mai",
       "keywords": [],
-      "classification": "Mithila material culture; Tirhuta heritage; historical reconstruction",
+      "classification": "Mithila cultural history; vernacular architecture; material culture",
       "url": "https://www.videha.co.in/research/2024/398/३२म--३५म-शताब्दीक-मैथिलीक-नेंओक-साक्षी-कोबर-घर-तैयार.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20398.pdf",
       "path": "2024/398/३२म--३५म-शताब्दीक-मैथिलीक-नेंओक-साक्षी-कोबर-घर-तैयार.htm",
       "page_start": "37",
       "page_end": "41"
+    },
+    {
+      "title": "मिथिलावाद!",
+      "english_title": null,
+      "authors": [
+        "आचार्य रामानंद मंडल"
+      ],
+      "publication_date": "2024-08-01",
+      "year": "2024",
+      "issue": "399",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila regional identity; cultural politics; social thought",
+      "url": "https://www.videha.co.in/research/2024/399/मिथिलावाद.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20399.pdf",
+      "path": "2024/399/मिथिलावाद.htm",
+      "page_start": "10",
+      "page_end": "18"
+    },
+    {
+      "title": "इंटर/बारहमा के बाद जीवविज्ञानक विद्यार्थी के करियर विकल्प",
+      "english_title": null,
+      "authors": [
+        "प्रणव झा"
+      ],
+      "publication_date": "2024-09-01",
+      "year": "2024",
+      "issue": "401",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Science education; career guidance; biology studies",
+      "url": "https://www.videha.co.in/research/2024/401/इंटर-बारहमा-के-बाद-जीवविज्ञानक-विद्यार्थी-के-करियर-विकल्प.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20401.pdf",
+      "path": "2024/401/इंटर-बारहमा-के-बाद-जीवविज्ञानक-विद्यार्थी-के-करियर-विकल्प.htm",
+      "page_start": "39",
+      "page_end": "65"
     },
     {
       "title": "बीहनि कथाकें विवादक नै संवादक खगता छै",
