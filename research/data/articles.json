@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T08:36:59.134045+00:00",
+  "generated": "2026-08-30T08:42:37.040316+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 843,
-    "promoted_sections_publishable": 767,
+    "promoted_sections_requested": 846,
+    "promoted_sections_publishable": 770,
     "promoted_sections_review": 76,
     "curated_manifests": 1,
-    "published_after_all_overrides": 783,
-    "stale_generated_pages_removed_before_render": 782,
+    "published_after_all_overrides": 786,
+    "stale_generated_pages_removed_before_render": 784,
     "build_errors": 0
   },
   "articles": [
@@ -5819,6 +5819,25 @@
       "page_end": null
     },
     {
+      "title": "अरविन्दजीक आजाद गजल",
+      "english_title": null,
+      "authors": [
+        "जगदीश चन्द्र ठाकुर ‘अनिल’"
+      ],
+      "publication_date": "2013-11-15",
+      "year": "2013",
+      "issue": "142",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili ghazal criticism; author studies; poetics",
+      "url": "https://www.videha.co.in/research/2013/142/अरविन्दजीक-आजाद-गजल.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20142.pdf",
+      "path": "2013/142/अरविन्दजीक-आजाद-गजल.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "गजल समीक्षा (पेटारसँ)",
       "english_title": null,
       "authors": [
@@ -5834,6 +5853,44 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20142.pdf",
       "path": "2013/142/गजल-समीक्षा-पेटारसँ.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "प्रतिबद्ध साहित्यकारक अप्रतिबद्ध गजल",
+      "english_title": null,
+      "authors": [
+        "जगदीश चन्द्र ठाकुर ‘अनिल’"
+      ],
+      "publication_date": "2013-11-15",
+      "year": "2013",
+      "issue": "142",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili ghazal criticism; literary commitment; poetics",
+      "url": "https://www.videha.co.in/research/2013/142/प्रतिबद्ध-साहित्यकारक-अप्रतिबद्ध-गजल.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20142.pdf",
+      "path": "2013/142/प्रतिबद्ध-साहित्यकारक-अप्रतिबद्ध-गजल.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "बहुत किछु बुझबैए: कियो बूझि नहि सकल हमरा",
+      "english_title": null,
+      "authors": [
+        "चंदन कुमार झा"
+      ],
+      "publication_date": "2013-11-15",
+      "year": "2013",
+      "issue": "142",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili ghazal criticism; modern literary history; poetics",
+      "url": "https://www.videha.co.in/research/2013/142/बहुत-किछु-बुझबैए-कियो-बूझि-नहि-सकल-हमरा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20142.pdf",
+      "path": "2013/142/बहुत-किछु-बुझबैए-कियो-बूझि-नहि-सकल-हमरा.htm",
       "page_start": null,
       "page_end": null
     },
