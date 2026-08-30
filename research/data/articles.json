@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T09:54:50.189169+00:00",
+  "generated": "2026-08-30T09:58:50.569119+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 868,
-    "promoted_sections_publishable": 791,
-    "promoted_sections_review": 77,
+    "promoted_sections_requested": 871,
+    "promoted_sections_publishable": 793,
+    "promoted_sections_review": 78,
     "curated_manifests": 1,
-    "published_after_all_overrides": 801,
-    "stale_generated_pages_removed_before_render": 800,
+    "published_after_all_overrides": 803,
+    "stale_generated_pages_removed_before_render": 801,
     "build_errors": 0
   },
   "articles": [
@@ -10056,6 +10056,25 @@
       "page_end": null
     },
     {
+      "title": "विलुप्त होइत मिथिला के लोक संस्कृति घोड़ा (कठघोड़वा) नाच; कोन बिरड़ो मे उधिया गेल? कतअ हरा गेल मिथिला के नटुआ नाच?",
+      "english_title": null,
+      "authors": [
+        "डाॅ. किशन कारीगर"
+      ],
+      "publication_date": "2021-10-15",
+      "year": "2021",
+      "issue": "332",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila folk culture; traditional performance; cultural anthropology and preservation",
+      "url": "https://www.videha.co.in/research/2021/332/विलुप्त-होइत-मिथिला-के-लोक-संस्कृति-घोड़ा-कठघोड़वा-नाच-कोन-ब-62494ed4bc.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20332.pdf",
+      "path": "2021/332/विलुप्त-होइत-मिथिला-के-लोक-संस्कृति-घोड़ा-कठघोड़वा-नाच-कोन-ब-62494ed4bc.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मैथिली माध्यमसँ प्राथमिक शिक्षा होइ सएह छलनि स्व. राजनन्दन लालदासक अंतिम इच्छा",
       "english_title": null,
       "authors": [
@@ -10109,6 +10128,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20334.pdf",
       "path": "2021/334/बीहनि-कथाक-विकासमे-रचनाकारक-योगदान.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिला मे बिलुप्त भेल जा रहल भांट/भैंट (घूमक्कर वाचक)",
+      "english_title": null,
+      "authors": [
+        "डाॅ. किशन कारीगर"
+      ],
+      "publication_date": "2021-11-15",
+      "year": "2021",
+      "issue": "334",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila oral tradition; itinerant bards; folklore and cultural anthropology",
+      "url": "https://www.videha.co.in/research/2021/334/मिथिला-मे-बिलुप्त-भेल-जा-रहल-भांट-भैंट-घूमक्कर-वाचक.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20334.pdf",
+      "path": "2021/334/मिथिला-मे-बिलुप्त-भेल-जा-रहल-भांट-भैंट-घूमक्कर-वाचक.htm",
       "page_start": null,
       "page_end": null
     },
