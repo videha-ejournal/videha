@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T06:01:00.338609+00:00",
+  "generated": "2026-08-30T06:11:10.238676+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 752,
-    "promoted_sections_publishable": 686,
-    "promoted_sections_review": 66,
+    "promoted_sections_requested": 762,
+    "promoted_sections_publishable": 692,
+    "promoted_sections_review": 70,
     "curated_manifests": 1,
-    "published_after_all_overrides": 719,
-    "stale_generated_pages_removed_before_render": 718,
+    "published_after_all_overrides": 722,
+    "stale_generated_pages_removed_before_render": 719,
     "build_errors": 0
   },
   "articles": [
@@ -9904,6 +9904,63 @@
       "page_end": null
     },
     {
+      "title": "लालदासक मिथिला रामायण मे कुण्डलिया आ छन्दोभङ्ग",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2023-02-01",
+      "year": "2023",
+      "issue": "363",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili prosody; Ramayana textual studies; editorial criticism",
+      "url": "https://www.videha.co.in/research/2023/363/लालदासक-मिथिला-रामायण-मे-कुण्डलिया-आ-छन्दोभङ्ग.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20363.pdf",
+      "path": "2023/363/लालदासक-मिथिला-रामायण-मे-कुण्डलिया-आ-छन्दोभङ्ग.htm",
+      "page_start": "181",
+      "page_end": "190"
+    },
+    {
+      "title": "बर्चस्वबादी संस्कृति बनाम हाशियाक समाज उर्फ पचपनिया संघर्ष",
+      "english_title": null,
+      "authors": [
+        "आचार्य रामानंद मंडल"
+      ],
+      "publication_date": "2023-02-15",
+      "year": "2023",
+      "issue": "364",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Social anthropology; caste and marginality in Mithila",
+      "url": "https://www.videha.co.in/research/2023/364/बर्चस्वबादी-संस्कृति-बनाम-हाशियाक-समाज-उर्फ-पचपनिया-संघर्ष.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20364.pdf",
+      "path": "2023/364/बर्चस्वबादी-संस्कृति-बनाम-हाशियाक-समाज-उर्फ-पचपनिया-संघर्ष.htm",
+      "page_start": "43",
+      "page_end": "46"
+    },
+    {
+      "title": "नेपाल: मधेश बनाम मिथिला",
+      "english_title": null,
+      "authors": [
+        "आचार्य रामानंद मंडल"
+      ],
+      "publication_date": "2023-03-01",
+      "year": "2023",
+      "issue": "365",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila studies; Nepal Madhesh politics; regional identity",
+      "url": "https://www.videha.co.in/research/2023/365/नेपाल-मधेश-बनाम-मिथिला.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20365.pdf",
+      "path": "2023/365/नेपाल-मधेश-बनाम-मिथिला.htm",
+      "page_start": "42",
+      "page_end": "45"
+    },
+    {
       "title": "आधुनिकताक परिवेश मे आधुनिक चित्रकला",
       "english_title": null,
       "authors": [
@@ -9914,7 +9971,7 @@
       "issue": "368",
       "language": "mai",
       "keywords": [],
-      "classification": "Modern art criticism; visual culture; aesthetics",
+      "classification": "Modern art criticism; Mithila visual culture",
       "url": "https://www.videha.co.in/research/2023/368/आधुनिकताक-परिवेश-मे-आधुनिक-चित्रकला.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20368.pdf",
@@ -9933,7 +9990,7 @@
       "issue": "368",
       "language": "mai",
       "keywords": [],
-      "classification": "Art criticism; aesthetics; representation and obscenity",
+      "classification": "Art criticism; aesthetics; representation in Mithila art",
       "url": "https://www.videha.co.in/research/2023/368/कलाकृति-मे-अश्लीलता.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20368.pdf",
@@ -10009,7 +10066,7 @@
       "issue": "368",
       "language": "mai",
       "keywords": [],
-      "classification": "Mithila painting; Nepal studies; transregional art history",
+      "classification": "Mithila painting; Nepal cultural history; visual anthropology",
       "url": "https://www.videha.co.in/research/2023/368/मिथिला-चित्रकला--नेपाल-प्रसंग.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20368.pdf",

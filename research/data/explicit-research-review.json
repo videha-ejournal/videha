@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T06:01:00.337566+00:00",
+  "generated": "2026-08-30T06:11:10.237681+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,12 +12,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 752,
-    "promoted_sections_publishable": 686,
-    "promoted_sections_review": 66,
+    "promoted_sections_requested": 762,
+    "promoted_sections_publishable": 692,
+    "promoted_sections_review": 70,
     "curated_manifests": 1,
-    "published_after_all_overrides": 719,
-    "stale_generated_pages_removed_before_render": 718,
+    "published_after_all_overrides": 722,
+    "stale_generated_pages_removed_before_render": 719,
     "build_errors": 0
   },
   "explicit_review": [
@@ -1054,6 +1054,42 @@
       "author": "आशीष अनचिन्हार",
       "title": "‘इश्क को दिल में दे जगह अकबर’ आ जगदीश चन्द्र ठाकुर ‘अनिल’",
       "body_chars": 1664,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "370",
+      "section": "2.10",
+      "author": "अश्विनी कुमार आलोक",
+      "title": "रामभरोस कापड़ि भ्रमरः भारत-नेपालक सांस्कृतिक सेतु",
+      "body_chars": 0,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "370",
+      "section": "2.17",
+      "author": "अजित कुमार झा",
+      "title": "घरमुहाँ: मधेशी आन्दोलन आ सामाजिक समरसताक दस्तावेज",
+      "body_chars": 0,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "370",
+      "section": "2.22",
+      "author": "डा. योगानन्द झा",
+      "title": "भैया अएलै अपन सोराज: विहगंम दृष्टि",
+      "body_chars": 0,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "370",
+      "section": "2.23",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "राम भरोस कापड़ि 'भ्रमर' पर एकटा समग्र दृष्टि",
+      "body_chars": 0,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     }
