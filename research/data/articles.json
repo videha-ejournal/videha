@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T09:05:13.423580+00:00",
+  "generated": "2026-08-30T09:09:49.308965+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 860,
-    "promoted_sections_publishable": 784,
+    "promoted_sections_requested": 861,
+    "promoted_sections_publishable": 785,
     "promoted_sections_review": 76,
     "curated_manifests": 1,
-    "published_after_all_overrides": 795,
-    "stale_generated_pages_removed_before_render": 794,
+    "published_after_all_overrides": 796,
+    "stale_generated_pages_removed_before_render": 795,
     "build_errors": 0
   },
   "articles": [
@@ -7392,6 +7392,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20217.pdf",
       "path": "2017/217/नेपाल-मे-मैथिली-गीत-संगीतक-अवस्था.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली लोकगीत मे प्रोफेसर चण्डेश्वर झा केर सी.डी./डी.वी.डी. केर प्रयोग",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2017-01-01",
+      "year": "2017",
+      "issue": "217",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili folk music; ethnomusicology; cultural documentation",
+      "url": "https://www.videha.co.in/research/2017/217/मैथिली-लोकगीत-मे-प्रोफेसर-चण्डेश्वर-झा-केर-सी-डी-डी-वी-डी-केर-प्रयोग.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20217.pdf",
+      "path": "2017/217/मैथिली-लोकगीत-मे-प्रोफेसर-चण्डेश्वर-झा-केर-सी-डी-डी-वी-डी-केर-प्रयोग.htm",
       "page_start": null,
       "page_end": null
     },
