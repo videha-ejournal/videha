@@ -1,21 +1,21 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T10:51:53.726045+00:00",
+  "generated": "2026-08-30T10:54:27.923336+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
-    "audit_queue_publishable": 1,
+    "audit_queue_publishable": 0,
     "audit_queue_held": 17,
     "top_level_audit_publishable": 52,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 879,
-    "promoted_sections_publishable": 801,
+    "promoted_sections_requested": 880,
+    "promoted_sections_publishable": 802,
     "promoted_sections_review": 78,
     "curated_manifests": 1,
     "published_after_all_overrides": 810,
@@ -14350,7 +14350,7 @@
       "page_end": "120"
     },
     {
-      "title": "मैथिली लेल दलित साहित्य समीक्षाशास्त्र-२ [संदर्भ: प्रभास कुमार चौधरीक 'इन्द्रधनुष', अशोकक 'प्रतिलोम' आ रमेशक 'कैलास मंडलक फिलिप्स रेडियो'/ दलित साहित्य समीक्षाशास्त्र, भारतीय समीक्षाशास्त्र, पाश्चात्य समीक्षाशास्त्र, गंगेशक नव्य न्याय आ विदेह समानान्तर इतिहास फ्रेमवर्कक परिप्रेक्ष्यमे]",
+      "title": "मैथिली लेल दलित साहित्य समीक्षाशास्त्र-२",
       "english_title": null,
       "authors": [
         "गजेन्द्र ठाकुर"
@@ -14360,11 +14360,11 @@
       "issue": "441",
       "language": "mai",
       "keywords": [],
-      "classification": "History / cultural history article",
-      "url": "https://www.videha.co.in/research/2026/441/मैथिली-लेल-दलित-साहित्य-समीक्षाशास्त्र-२-संदर्भ-प्रभास-कुम-89a44d8eb5.htm",
+      "classification": "Dalit literary criticism; Maithili critical theory; comparative literature",
+      "url": "https://www.videha.co.in/research/2026/441/मैथिली-लेल-दलित-साहित्य-समीक्षाशास्त्र-२.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf",
-      "path": "2026/441/मैथिली-लेल-दलित-साहित्य-समीक्षाशास्त्र-२-संदर्भ-प्रभास-कुम-89a44d8eb5.htm",
+      "path": "2026/441/मैथिली-लेल-दलित-साहित्य-समीक्षाशास्त्र-२.htm",
       "page_start": "176",
       "page_end": "204"
     },
