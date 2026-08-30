@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T06:24:05.574360+00:00",
+  "generated": "2026-08-30T06:27:08.737239+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 766,
-    "promoted_sections_publishable": 695,
+    "promoted_sections_requested": 771,
+    "promoted_sections_publishable": 700,
     "promoted_sections_review": 71,
     "curated_manifests": 1,
-    "published_after_all_overrides": 725,
+    "published_after_all_overrides": 728,
     "stale_generated_pages_removed_before_render": 725,
     "build_errors": 0
   },
@@ -10389,7 +10389,7 @@
       "issue": "382",
       "language": "mai",
       "keywords": [],
-      "classification": "Maithili literary criticism; poetry studies; author reception",
+      "classification": "Maithili literary criticism; author studies; cultural history",
       "url": "https://www.videha.co.in/research/2023/382/पाथरपर-दूभि-उपजाबैत-राग-भावक-अन्वेषक-लक्ष्मण-झा-सागर.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20382.pdf",
@@ -10408,7 +10408,7 @@
       "issue": "382",
       "language": "mai",
       "keywords": [],
-      "classification": "Maithili poetry criticism; social interpretation; close reading",
+      "classification": "Maithili literary criticism; social poetics; poetry studies",
       "url": "https://www.videha.co.in/research/2023/382/सुकाव्यमय-सामाजिक-व्याख्या-उचरि-बैसू-कौआ.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20382.pdf",
@@ -10455,6 +10455,25 @@
       "page_end": null
     },
     {
+      "title": "मानकीकृत तराजू पर जोखाइत लोकभाषा मैथिली",
+      "english_title": null,
+      "authors": [
+        "किशन कारीगर"
+      ],
+      "publication_date": "2024-01-15",
+      "year": "2024",
+      "issue": "386",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili linguistics; language standardization; sociolinguistics",
+      "url": "https://www.videha.co.in/research/2024/386/मानकीकृत-तराजू-पर-जोखाइत-लोकभाषा-मैथिली.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20386.pdf",
+      "path": "2024/386/मानकीकृत-तराजू-पर-जोखाइत-लोकभाषा-मैथिली.htm",
+      "page_start": "60",
+      "page_end": "62"
+    },
+    {
       "title": "पत्नी/ इतिहास हम पढ़बै/ जातीय बोध!/ दान/ बुद्ध",
       "english_title": null,
       "authors": [
@@ -10491,6 +10510,44 @@
       "path": "2024/387/पत्नी-इतिहास-हम-पढ़बै-जातीय-बोध-दान-बुद्ध-पृ-१०५-१११.htm",
       "page_start": null,
       "page_end": null
+    },
+    {
+      "title": "अंतरिक्ष मे उपग्रह (सॅटॅलाइट) टकराव के आशंका",
+      "english_title": null,
+      "authors": [
+        "ग्रुप कैप्ट (डा.) वी एन झा"
+      ],
+      "publication_date": "2024-03-15",
+      "year": "2024",
+      "issue": "390",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Space science communication; satellite collision risk; astronomy",
+      "url": "https://www.videha.co.in/research/2024/390/अंतरिक्ष-मे-उपग्रह-सॅटॅलाइट-टकराव-के-आशंका.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20390.pdf",
+      "path": "2024/390/अंतरिक्ष-मे-उपग्रह-सॅटॅलाइट-टकराव-के-आशंका.htm",
+      "page_start": "34",
+      "page_end": "44"
+    },
+    {
+      "title": "स्वातंत्र्योत्तर मैथिली कथाक विकास",
+      "english_title": null,
+      "authors": [
+        "अम्बालिका कुमारी"
+      ],
+      "publication_date": "2024-04-01",
+      "year": "2024",
+      "issue": "391",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; post-independence fiction; narrative studies",
+      "url": "https://www.videha.co.in/research/2024/391/स्वातंत्र्योत्तर-मैथिली-कथाक-विकास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20391.pdf",
+      "path": "2024/391/स्वातंत्र्योत्तर-मैथिली-कथाक-विकास.htm",
+      "page_start": "28",
+      "page_end": "33"
     },
     {
       "title": "\"अनुशीलन\"क अनुशीलन आवश्यक",
