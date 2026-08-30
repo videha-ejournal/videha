@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T06:49:04.692599+00:00",
+  "generated": "2026-08-30T06:51:45.705665+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,11 +12,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 788,
-    "promoted_sections_publishable": 715,
-    "promoted_sections_review": 73,
+    "promoted_sections_requested": 793,
+    "promoted_sections_publishable": 718,
+    "promoted_sections_review": 75,
     "curated_manifests": 1,
-    "published_after_all_overrides": 737,
+    "published_after_all_overrides": 740,
     "stale_generated_pages_removed_before_render": 737,
     "build_errors": 0
   },
@@ -1080,6 +1080,24 @@
       "section": "2.3",
       "author": "मिथिला विकास परिषद्",
       "title": "मिथिला विकास परिषद्क किछु काज",
+      "body_chars": 0,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "412",
+      "section": "2.5",
+      "author": "आशीष अनचिन्हार",
+      "title": "साहित्य अकादमीमे नैतिकता-संदर्भ मैथिली प्रभाग-विशेष संदर्भ नचिकेताजीक कार्यकाल",
+      "body_chars": 758,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "421",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-१०",
       "body_chars": 0,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"

@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T06:49:04.693869+00:00",
+  "generated": "2026-08-30T06:51:45.707562+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 788,
-    "promoted_sections_publishable": 715,
-    "promoted_sections_review": 73,
+    "promoted_sections_requested": 793,
+    "promoted_sections_publishable": 718,
+    "promoted_sections_review": 75,
     "curated_manifests": 1,
-    "published_after_all_overrides": 737,
+    "published_after_all_overrides": 740,
     "stale_generated_pages_removed_before_render": 737,
     "build_errors": 0
   },
@@ -11424,6 +11424,25 @@
       "page_end": "13"
     },
     {
+      "title": "महाकवि चंदा झा बनाम भाषाविद ग्रियर्सन : मिथिला भाषा",
+      "english_title": null,
+      "authors": [
+        "आचार्य रामानंद मंडल"
+      ],
+      "publication_date": "2025-02-15",
+      "year": "2025",
+      "issue": "412",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili language history; Chanda Jha and Grierson studies; historiography",
+      "url": "https://www.videha.co.in/research/2025/412/महाकवि-चंदा-झा-बनाम-भाषाविद-ग्रियर्सन-मिथिला-भाषा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20412.pdf",
+      "path": "2025/412/महाकवि-चंदा-झा-बनाम-भाषाविद-ग्रियर्सन-मिथिला-भाषा.htm",
+      "page_start": "26",
+      "page_end": "29"
+    },
+    {
       "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-४",
       "english_title": null,
       "authors": [
@@ -11479,6 +11498,25 @@
       "path": "2025/414/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-६.htm",
       "page_start": "6",
       "page_end": "11"
+    },
+    {
+      "title": "बरहम बाबा गीत बनाम बराहमन गीत",
+      "english_title": null,
+      "authors": [
+        "आचार्य रामानंद मंडल"
+      ],
+      "publication_date": "2025-04-01",
+      "year": "2025",
+      "issue": "415",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila folklore; oral tradition; comparative cultural studies",
+      "url": "https://www.videha.co.in/research/2025/415/बरहम-बाबा-गीत-बनाम-बराहमन-गीत.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20415.pdf",
+      "path": "2025/415/बरहम-बाबा-गीत-बनाम-बराहमन-गीत.htm",
+      "page_start": "6",
+      "page_end": "26"
     },
     {
       "title": "परमाणु खनिज अन्वेषण एवं अनुसंधान निदेशालय के प्रदर्शनी (पृष्ठ १८-२९)",
@@ -11650,6 +11688,25 @@
       "path": "2025/420/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान.htm",
       "page_start": "5",
       "page_end": "8"
+    },
+    {
+      "title": "आर्यावर्तके कौटिल्यक दृष्टि ओ कूटनीति",
+      "english_title": null,
+      "authors": [
+        "लालदेव कामत"
+      ],
+      "publication_date": "2025-07-01",
+      "year": "2025",
+      "issue": "421",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Indian intellectual history; political thought; cultural criticism",
+      "url": "https://www.videha.co.in/research/2025/421/आर्यावर्तके-कौटिल्यक-दृष्टि-ओ-कूटनीति.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20421.pdf",
+      "path": "2025/421/आर्यावर्तके-कौटिल्यक-दृष्टि-ओ-कूटनीति.htm",
+      "page_start": "28",
+      "page_end": "33"
     },
     {
       "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-२",
