@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T05:27:55.297174+00:00",
+  "generated": "2026-08-30T05:31:50.737604+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 724,
-    "promoted_sections_publishable": 665,
+    "promoted_sections_requested": 728,
+    "promoted_sections_publishable": 669,
     "promoted_sections_review": 59,
     "curated_manifests": 1,
-    "published_after_all_overrides": 698,
-    "stale_generated_pages_removed_before_render": 698,
+    "published_after_all_overrides": 702,
+    "stale_generated_pages_removed_before_render": 701,
     "build_errors": 0
   },
   "articles": [
@@ -8745,6 +8745,25 @@
       "page_end": null
     },
     {
+      "title": "एकटा ‘मैथिली गजल’ जे बदलि देलकै मैथिली गीत-संगीतक इतिहास",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2020-12-15",
+      "year": "2020",
+      "issue": "312",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili music history; ghazal studies; cultural criticism",
+      "url": "https://www.videha.co.in/research/2020/312/एकटा-मैथिली-गजल-जे-बदलि-देलकै-मैथिली-गीत-संगीतक-इतिहास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20312.pdf",
+      "path": "2020/312/एकटा-मैथिली-गजल-जे-बदलि-देलकै-मैथिली-गीत-संगीतक-इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "यात्रीक गद्य-साहित्यमे मिथिला समाज",
       "english_title": null,
       "authors": [
@@ -8779,6 +8798,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20312.pdf",
       "path": "2020/312/यात्रीक-पद्यमे-मिथिला-समाज.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "भाषा आ प्रौद्योगिकी (संगणक, छायांकन, कुँजी पटल/टंकणक तकनीक)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2021-01-01",
+      "year": "2021",
+      "issue": "313",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili language technology; Unicode; digital publishing; script studies",
+      "url": "https://www.videha.co.in/research/2021/313/भाषा-आ-प्रौद्योगिकी-संगणक-छायांकन-कुँजी-पटल-टंकणक-तकनीक.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20313.pdf",
+      "path": "2021/313/भाषा-आ-प्रौद्योगिकी-संगणक-छायांकन-कुँजी-पटल-टंकणक-तकनीक.htm",
       "page_start": null,
       "page_end": null
     },
@@ -8973,6 +9011,25 @@
       "page_end": null
     },
     {
+      "title": "गीतकार रामलोचन ठाकुर",
+      "english_title": null,
+      "authors": [
+        "प्रदीप पुष्प"
+      ],
+      "publication_date": "2021-04-01",
+      "year": "2021",
+      "issue": "319",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili song criticism; literary history; Ramlochan Thakur",
+      "url": "https://www.videha.co.in/research/2021/319/गीतकार-रामलोचन-ठाकुर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20319.pdf",
+      "path": "2021/319/गीतकार-रामलोचन-ठाकुर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "प्रतिरोधी साहित्यकार रामलोचन ठाकुर",
       "english_title": null,
       "authors": [
@@ -9026,6 +9083,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20319.pdf",
       "path": "2021/319/रामलोचन-ठाकुरक-बेतालकथा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सत्यक एकपेरिया पर काव्य वितान",
+      "english_title": null,
+      "authors": [
+        "आमोद झा"
+      ],
+      "publication_date": "2021-04-01",
+      "year": "2021",
+      "issue": "319",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili poetry criticism; literary evaluation; Ramlochan Thakur",
+      "url": "https://www.videha.co.in/research/2021/319/सत्यक-एकपेरिया-पर-काव्य-वितान.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20319.pdf",
+      "path": "2021/319/सत्यक-एकपेरिया-पर-काव्य-वितान.htm",
       "page_start": null,
       "page_end": null
     },
