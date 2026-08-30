@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T08:14:24.233488+00:00",
+  "generated": "2026-08-30T08:18:11.201282+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 832,
-    "promoted_sections_publishable": 756,
+    "promoted_sections_requested": 836,
+    "promoted_sections_publishable": 760,
     "promoted_sections_review": 76,
     "curated_manifests": 1,
-    "published_after_all_overrides": 772,
+    "published_after_all_overrides": 776,
     "stale_generated_pages_removed_before_render": 772,
     "build_errors": 0
   },
@@ -4489,6 +4489,25 @@
       "page_end": null
     },
     {
+      "title": "छठिमाइके आसि आ लोकजीवनमे हिनक महत्व",
+      "english_title": null,
+      "authors": [
+        "परमेश्वर कापड़ि"
+      ],
+      "publication_date": "2011-11-01",
+      "year": "2011",
+      "issue": "93",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila ritual studies; Chhath festival; folk religion and social life",
+      "url": "https://www.videha.co.in/research/2011/93/छठिमाइके-आसि-आ-लोकजीवनमे-हिनक-महत्व.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20093.pdf",
+      "path": "2011/93/छठिमाइके-आसि-आ-लोकजीवनमे-हिनक-महत्व.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "सामाजिक मूल्य-मान्यताकेँ चोच मारैत ‘चिड़ै’",
       "english_title": null,
       "authors": [
@@ -4504,6 +4523,44 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20093.pdf",
       "path": "2011/93/सामाजिक-मूल्य-मान्यताकेँ-चोच-मारैत-चिड़ै.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "आचार्य भामहक चिंतन आ दण्डी आ काव्यलक्षण",
+      "english_title": null,
+      "authors": [
+        "रवि भूषण पाठक"
+      ],
+      "publication_date": "2012-01-01",
+      "year": "2012",
+      "issue": "97",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Sanskrit poetics; Indian literary theory; classical criticism",
+      "url": "https://www.videha.co.in/research/2012/97/आचार्य-भामहक-चिंतन-आ-दण्डी-आ-काव्यलक्षण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20097.pdf",
+      "path": "2012/97/आचार्य-भामहक-चिंतन-आ-दण्डी-आ-काव्यलक्षण.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कामरूप आ मिथिला",
+      "english_title": null,
+      "authors": [
+        "जगदीश प्रसाद मंडल"
+      ],
+      "publication_date": "2012-01-01",
+      "year": "2012",
+      "issue": "97",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila regional history; cultural geography; comparative historical studies",
+      "url": "https://www.videha.co.in/research/2012/97/कामरूप-आ-मिथिला.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20097.pdf",
+      "path": "2012/97/कामरूप-आ-मिथिला.htm",
       "page_start": null,
       "page_end": null
     },
@@ -4580,6 +4637,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20099.pdf",
       "path": "2012/99/बिहारक-औद्योगिक-विकास-मे-बाधा-बनि-रहल-जमीन-आ-बिजली-राशन-कार्-ca79e5a8df.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "संघीयतामे मैथिली भाषा",
+      "english_title": null,
+      "authors": [
+        "अमरकान्त अमर"
+      ],
+      "publication_date": "2012-02-01",
+      "year": "2012",
+      "issue": "99",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili language policy; federalism; Nepal sociolinguistics and education",
+      "url": "https://www.videha.co.in/research/2012/99/संघीयतामे-मैथिली-भाषा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20099.pdf",
+      "path": "2012/99/संघीयतामे-मैथिली-भाषा.htm",
       "page_start": null,
       "page_end": null
     },
