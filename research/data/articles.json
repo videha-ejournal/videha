@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T10:24:30.976640+00:00",
+  "generated": "2026-08-30T10:33:50.035645+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 875,
-    "promoted_sections_publishable": 797,
+    "promoted_sections_requested": 876,
+    "promoted_sections_publishable": 798,
     "promoted_sections_review": 78,
     "curated_manifests": 1,
-    "published_after_all_overrides": 807,
+    "published_after_all_overrides": 808,
     "stale_generated_pages_removed_before_render": 807,
     "build_errors": 0
   },
@@ -11289,6 +11289,25 @@
       "path": "2023/371/मैथिल-संगठन-आ-ओकर-सामाजिक-सरोकार.htm",
       "page_start": "41",
       "page_end": "47"
+    },
+    {
+      "title": "Understanding Convergence: Comprehending Medical Humanities as a Literary Genre",
+      "english_title": null,
+      "authors": [
+        "Dr. Deepesh Kumar Thakur"
+      ],
+      "publication_date": "2023-07-01",
+      "year": "2023",
+      "issue": "373",
+      "language": "en",
+      "keywords": [],
+      "classification": "Medical humanities; literary studies; interdisciplinary research",
+      "url": "https://www.videha.co.in/research/2023/373/understanding-convergence-comprehending-medical-humanities-as-a-literary-genre.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20373.pdf",
+      "path": "2023/373/understanding-convergence-comprehending-medical-humanities-as-a-literary-genre.htm",
+      "page_start": null,
+      "page_end": null
     },
     {
       "title": "समीक्षा- ठेहा परक मौलाएल गाछ",
