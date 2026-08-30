@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T09:34:20.773121+00:00",
+  "generated": "2026-08-30T09:42:01.028616+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 865,
-    "promoted_sections_publishable": 789,
+    "promoted_sections_requested": 866,
+    "promoted_sections_publishable": 790,
     "promoted_sections_review": 76,
     "curated_manifests": 1,
-    "published_after_all_overrides": 799,
-    "stale_generated_pages_removed_before_render": 799,
+    "published_after_all_overrides": 800,
+    "stale_generated_pages_removed_before_render": 800,
     "build_errors": 0
   },
   "articles": [
@@ -8969,6 +8969,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20299.pdf",
       "path": "2020/299/बेनामी-संपत्ति-कानून.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "वकालतनामा",
+      "english_title": null,
+      "authors": [
+        "रबीन्द्र नारायण मिश्र"
+      ],
+      "publication_date": "2020-06-01",
+      "year": "2020",
+      "issue": "299",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Indian legal procedure; power of attorney for litigation; legal literacy",
+      "url": "https://www.videha.co.in/research/2020/299/वकालतनामा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20299.pdf",
+      "path": "2020/299/वकालतनामा.htm",
       "page_start": null,
       "page_end": null
     },
