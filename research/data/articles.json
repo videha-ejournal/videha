@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T07:05:30.887192+00:00",
+  "generated": "2026-08-30T07:10:54.411144+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 793,
-    "promoted_sections_publishable": 718,
+    "promoted_sections_requested": 799,
+    "promoted_sections_publishable": 724,
     "promoted_sections_review": 75,
     "curated_manifests": 1,
-    "published_after_all_overrides": 740,
+    "published_after_all_overrides": 742,
     "stale_generated_pages_removed_before_render": 740,
     "build_errors": 0
   },
@@ -11728,6 +11728,25 @@
       "page_end": "10"
     },
     {
+      "title": "आचार्य-चाणक्य (खण्ड-काव्य) मादे, मैथिली केँ सेवैत : कविश्री राजकिशोर मिश्रा",
+      "english_title": null,
+      "authors": [
+        "प्रीतम कुमार निषाद"
+      ],
+      "publication_date": "2025-07-15",
+      "year": "2025",
+      "issue": "422",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; poet studies; cultural history",
+      "url": "https://www.videha.co.in/research/2025/422/आचार्य-चाणक्य-खण्ड-काव्य-मादे-मैथिली-केँ-सेवैत-कविश्री-राजक-f44255c392.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20422.pdf",
+      "path": "2025/422/आचार्य-चाणक्य-खण्ड-काव्य-मादे-मैथिली-केँ-सेवैत-कविश्री-राजक-f44255c392.htm",
+      "page_start": "53",
+      "page_end": "66"
+    },
+    {
       "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान -३",
       "english_title": null,
       "authors": [
@@ -12042,7 +12061,7 @@
       "issue": "425",
       "language": "mai",
       "keywords": [],
-      "classification": "Maithili poetry criticism; feminist poetics; close reading",
+      "classification": "Maithili poetry criticism; women’s literary studies; poetics",
       "url": "https://www.videha.co.in/research/2025/425/कवयित्रीक-आँजुरसॅं-खसैत-विचारक-बिन्दु.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20425.pdf",
@@ -12146,6 +12165,25 @@
       "page_end": "37"
     },
     {
+      "title": "मैथिली मानक सऽ मैथिली के चुनौती",
+      "english_title": null,
+      "authors": [
+        "प्रदीप कुमार मंडल 'पबड़ा'"
+      ],
+      "publication_date": "2025-10-01",
+      "year": "2025",
+      "issue": "427",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili language policy; standardization; sociolinguistics",
+      "url": "https://www.videha.co.in/research/2025/427/मैथिली-मानक-सऽ-मैथिली-के-चुनौती.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20427.pdf",
+      "path": "2025/427/मैथिली-मानक-सऽ-मैथिली-के-चुनौती.htm",
+      "page_start": "68",
+      "page_end": "71"
+    },
+    {
       "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-७",
       "english_title": null,
       "authors": [
@@ -12244,14 +12282,14 @@
       "title": "पं.भवनाथ झाक पाण्डुलिपिसँ संपादित पोथीक अद्यतन सूचना",
       "english_title": null,
       "authors": [
-        "डा.विनयानन्द झा"
+        "डा. विनयानन्द झा"
       ],
       "publication_date": "2025-10-15",
       "year": "2025",
       "issue": "428",
       "language": "mai",
       "keywords": [],
-      "classification": "Bibliographic survey; manuscript editing; Sanskrit textual scholarship",
+      "classification": "Mithila manuscript studies; bibliography; intellectual history",
       "url": "https://www.videha.co.in/research/2025/428/पं-भवनाथ-झाक-पाण्डुलिपिसँ-संपादित-पोथीक-अद्यतन-सूचना.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf",
@@ -12346,13 +12384,13 @@
       "issue": "428",
       "language": "mai",
       "keywords": [],
-      "classification": "Indian knowledge systems; Mithila intellectual history; manuscript studies",
+      "classification": "Indian knowledge traditions; Mithila scholarship; intellectual history",
       "url": "https://www.videha.co.in/research/2025/428/भारतीय-ज्ञान-परंपरामे-भवनाथ-झाजीक-महत्व.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf",
       "path": "2025/428/भारतीय-ज्ञान-परंपरामे-भवनाथ-झाजीक-महत्व.htm",
-      "page_start": null,
-      "page_end": null
+      "page_start": "245",
+      "page_end": "249"
     },
     {
       "title": "संग्रहणीय व्यक्तित्व पं.भवनाथ झा",
@@ -12422,13 +12460,13 @@
       "issue": "429",
       "language": "mai",
       "keywords": [],
-      "classification": "Science and religion; philosophy of science; interdisciplinary research",
+      "classification": "Science and religion; astronomy; scientific reasoning",
       "url": "https://www.videha.co.in/research/2025/429/परमात्मा-के-वास-कतए-एक-वैज्ञानिक-दृष्टिकोण.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20429.pdf",
       "path": "2025/429/परमात्मा-के-वास-कतए-एक-वैज्ञानिक-दृष्टिकोण.htm",
-      "page_start": null,
-      "page_end": null
+      "page_start": "53",
+      "page_end": "67"
     },
     {
       "title": "माटिक सुवास",
