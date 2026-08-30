@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T07:40:39.407411+00:00",
+  "generated": "2026-08-30T07:47:51.414755+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 815,
-    "promoted_sections_publishable": 739,
+    "promoted_sections_requested": 820,
+    "promoted_sections_publishable": 744,
     "promoted_sections_review": 76,
     "curated_manifests": 1,
-    "published_after_all_overrides": 756,
-    "stale_generated_pages_removed_before_render": 755,
+    "published_after_all_overrides": 760,
+    "stale_generated_pages_removed_before_render": 760,
     "build_errors": 0
   },
   "articles": [
@@ -2931,6 +2931,25 @@
       "page_end": null
     },
     {
+      "title": "नचिकेताक ‘प्रियंवदा’ : एक विश्लेषण",
+      "english_title": null,
+      "authors": [
+        "प्रकाश चन्द्र"
+      ],
+      "publication_date": "2010-02-15",
+      "year": "2010",
+      "issue": "52",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre criticism; performance studies; dramatic analysis",
+      "url": "https://www.videha.co.in/research/2010/52/नचिकेताक-प्रियंवदा-एक-विश्लेषण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20052.pdf",
+      "path": "2010/52/नचिकेताक-प्रियंवदा-एक-विश्लेषण.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मिथिलाक इतिहास (अध्याय- १५सँ १८)",
       "english_title": null,
       "authors": [
@@ -2946,6 +2965,44 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20052.pdf",
       "path": "2010/52/मिथिलाक-इतिहास-अध्याय--१५सँ-१८.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हमर शिक्षण-यात्रा",
+      "english_title": null,
+      "authors": [
+        "भालचन्द्र झा"
+      ],
+      "publication_date": "2010-02-15",
+      "year": "2010",
+      "issue": "52",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Education history; art pedagogy; experiential learning; multilingual teaching",
+      "url": "https://www.videha.co.in/research/2010/52/हमर-शिक्षण-यात्रा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20052.pdf",
+      "path": "2010/52/हमर-शिक्षण-यात्रा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिला पञ्चकोशी परिक्रमा",
+      "english_title": null,
+      "authors": [
+        "नागेन्द्र कुमार कर्ण"
+      ],
+      "publication_date": "2010-03-01",
+      "year": "2010",
+      "issue": "53",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila sacred geography; pilgrimage studies; cultural heritage documentation",
+      "url": "https://www.videha.co.in/research/2010/53/मिथिला-पञ्चकोशी-परिक्रमा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20053.pdf",
+      "path": "2010/53/मिथिला-पञ्चकोशी-परिक्रमा.htm",
       "page_start": null,
       "page_end": null
     },
@@ -3026,6 +3083,25 @@
       "page_end": null
     },
     {
+      "title": "भारत-नेपाल आओर मिथिलांचल",
+      "english_title": null,
+      "authors": [
+        "बिपिन झा"
+      ],
+      "publication_date": "2010-04-01",
+      "year": "2010",
+      "issue": "55",
+      "language": "mai",
+      "keywords": [],
+      "classification": "India–Nepal relations; Mithila regional studies; political history",
+      "url": "https://www.videha.co.in/research/2010/55/भारत-नेपाल-आओर-मिथिलांचल.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20055.pdf",
+      "path": "2010/55/भारत-नेपाल-आओर-मिथिलांचल.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "स्वान विमर्श",
       "english_title": null,
       "authors": [
@@ -3055,7 +3131,7 @@
       "issue": "56",
       "language": "mai",
       "keywords": [],
-      "classification": "Cultural geography; pilgrimage studies; Mithila literary institutions",
+      "classification": "Mithila pilgrimage geography; cultural heritage; travel ethnography; literary-institution documentation",
       "url": "https://www.videha.co.in/research/2010/56/निर्मलीसँ-जनकपुर-धाम.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20056.pdf",
