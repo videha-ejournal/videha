@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T06:39:52.649997+00:00",
+  "generated": "2026-08-30T06:43:50.349981+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 778,
-    "promoted_sections_publishable": 706,
-    "promoted_sections_review": 72,
+    "promoted_sections_requested": 788,
+    "promoted_sections_publishable": 715,
+    "promoted_sections_review": 73,
     "curated_manifests": 1,
-    "published_after_all_overrides": 733,
+    "published_after_all_overrides": 737,
     "stale_generated_pages_removed_before_render": 733,
     "build_errors": 0
   },
@@ -10940,7 +10940,7 @@
       "issue": "402",
       "language": "mai",
       "keywords": [],
-      "classification": "Medical education; community health; Family Adoption Programme review",
+      "classification": "Medical education; rural health services; public health innovation",
       "url": "https://www.videha.co.in/research/2024/402/फैमिली-एडॉप्शन-प्रोग्राम-fap-चिकित्सा-शिक्षा-में-नवाचार-आ-ग्र-ff111abbf3.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20402.pdf",
@@ -10959,13 +10959,32 @@
       "issue": "402",
       "language": "mai",
       "keywords": [],
-      "classification": "Bihani Katha studies; editorial history; criticism and genre development",
+      "classification": "Maithili short-story history; editorial and criticism studies",
       "url": "https://www.videha.co.in/research/2024/402/बीहनि-कथाक-विकास-मे-संपादक-आलोचकक-योगदान.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20402.pdf",
       "path": "2024/402/बीहनि-कथाक-विकास-मे-संपादक-आलोचकक-योगदान.htm",
       "page_start": "53",
       "page_end": "58"
+    },
+    {
+      "title": "मैथिली साहित्य मे समालोचक केँ कमी",
+      "english_title": null,
+      "authors": [
+        "संतोष कुमार राय 'बटोही'"
+      ],
+      "publication_date": "2024-09-15",
+      "year": "2024",
+      "issue": "402",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; publishing sociology",
+      "url": "https://www.videha.co.in/research/2024/402/मैथिली-साहित्य-मे-समालोचक-केँ-कमी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20402.pdf",
+      "path": "2024/402/मैथिली-साहित्य-मे-समालोचक-केँ-कमी.htm",
+      "page_start": "62",
+      "page_end": "65"
     },
     {
       "title": "कोइलख",
@@ -11282,13 +11301,51 @@
       "issue": "406",
       "language": "mai",
       "keywords": [],
-      "classification": "Emergency medicine; artificial intelligence; machine learning review",
+      "classification": "Artificial intelligence in healthcare; emergency medicine; medical technology",
       "url": "https://www.videha.co.in/research/2024/406/आपातकालीन-चिकित्सा-आ-इंटेंसिव-केयर-में-आर्टिफिशियल-इंटेलिज-badef9d125.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20406.pdf",
       "path": "2024/406/आपातकालीन-चिकित्सा-आ-इंटेंसिव-केयर-में-आर्टिफिशियल-इंटेलिज-badef9d125.htm",
       "page_start": "29",
       "page_end": "36"
+    },
+    {
+      "title": "मैथिली प्रबंध काव्य हरवहाक बेटी मे फजलुर रहमान हाशमीक दृष्टि",
+      "english_title": null,
+      "authors": [
+        "डॉ. ज़ियाउर रहमान जाफ़री"
+      ],
+      "publication_date": "2024-11-15",
+      "year": "2024",
+      "issue": "406",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; modern epic poetry; comparative studies",
+      "url": "https://www.videha.co.in/research/2024/406/मैथिली-प्रबंध-काव्य-हरवहाक-बेटी-मे-फजलुर-रहमान-हाशमीक-दृष्टि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20406.pdf",
+      "path": "2024/406/मैथिली-प्रबंध-काव्य-हरवहाक-बेटी-मे-फजलुर-रहमान-हाशमीक-दृष्टि.htm",
+      "page_start": "19",
+      "page_end": "28"
+    },
+    {
+      "title": "मिथिला विकास परिषद: किछु सहेजल संस्मरण",
+      "english_title": null,
+      "authors": [
+        "अजय कुमार झा तिरहुतिया"
+      ],
+      "publication_date": "2024-12-15",
+      "year": "2024",
+      "issue": "408",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila institutional history; diaspora organization; cultural memory",
+      "url": "https://www.videha.co.in/research/2024/408/मिथिला-विकास-परिषद-किछु-सहेजल-संस्मरण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20408.pdf",
+      "path": "2024/408/मिथिला-विकास-परिषद-किछु-सहेजल-संस्मरण.htm",
+      "page_start": "62",
+      "page_end": "76"
     },
     {
       "title": "विद्याव्यसनी-कर्मयोगी-समाजसेवी: उपेन्द्र नाथ झा 'व्यास' (16 जुलाइ,1917-30 मइ,2002)",
@@ -11320,13 +11377,32 @@
       "issue": "410",
       "language": "mai",
       "keywords": [],
-      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "classification": "Maithili literary history; Upendra Nath Jha Vyas studies; family archives",
       "url": "https://www.videha.co.in/research/2025/410/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-२.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20410.pdf",
       "path": "2025/410/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-२.htm",
       "page_start": "3",
       "page_end": "8"
+    },
+    {
+      "title": "मैथिली मानकीकरण/ महाकुंभ",
+      "english_title": null,
+      "authors": [
+        "आचार्य रामानंद मंडल"
+      ],
+      "publication_date": "2025-02-01",
+      "year": "2025",
+      "issue": "411",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili language standardization; sociolinguistics; cultural studies",
+      "url": "https://www.videha.co.in/research/2025/411/मैथिली-मानकीकरण-महाकुंभ.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20411.pdf",
+      "path": "2025/411/मैथिली-मानकीकरण-महाकुंभ.htm",
+      "page_start": "30",
+      "page_end": "34"
     },
     {
       "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान-३",
@@ -11339,7 +11415,7 @@
       "issue": "411",
       "language": "mai",
       "keywords": [],
-      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "classification": "Maithili literary history; Upendra Nath Jha Vyas studies; family archives",
       "url": "https://www.videha.co.in/research/2025/411/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-३.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20411.pdf",

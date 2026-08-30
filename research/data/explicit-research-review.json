@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T06:39:52.648677+00:00",
+  "generated": "2026-08-30T06:43:50.348954+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,11 +12,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 778,
-    "promoted_sections_publishable": 706,
-    "promoted_sections_review": 72,
+    "promoted_sections_requested": 788,
+    "promoted_sections_publishable": 715,
+    "promoted_sections_review": 73,
     "curated_manifests": 1,
-    "published_after_all_overrides": 733,
+    "published_after_all_overrides": 737,
     "stale_generated_pages_removed_before_render": 733,
     "build_errors": 0
   },
@@ -1071,6 +1071,15 @@
       "section": "2.2",
       "author": "परमानन्द लाल कर्ण",
       "title": "मैथिली एक सिंहावलोकन",
+      "body_chars": 0,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "408",
+      "section": "2.3",
+      "author": "मिथिला विकास परिषद्",
+      "title": "मिथिला विकास परिषद्क किछु काज",
       "body_chars": 0,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
