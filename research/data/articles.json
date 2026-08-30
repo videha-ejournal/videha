@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T09:09:49.308965+00:00",
+  "generated": "2026-08-30T09:14:36.051813+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 861,
-    "promoted_sections_publishable": 785,
+    "promoted_sections_requested": 862,
+    "promoted_sections_publishable": 786,
     "promoted_sections_review": 76,
     "curated_manifests": 1,
     "published_after_all_overrides": 796,
-    "stale_generated_pages_removed_before_render": 795,
+    "stale_generated_pages_removed_before_render": 796,
     "build_errors": 0
   },
   "articles": [
@@ -7539,7 +7539,7 @@
       "issue": "221",
       "language": "mai",
       "keywords": [],
-      "classification": "Dalit literary studies; literary theory; Maithili criticism; social exclusion",
+      "classification": "Dalit literary studies; Maithili literary theory; social criticism",
       "url": "https://www.videha.co.in/research/2017/221/दलित-साहित्यकेँ-आन-साहित्यसँ-फुटकेबाक-प्रयोजन.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20221.pdf",
