@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T07:14:34.232933+00:00",
+  "generated": "2026-08-30T07:18:55.199254+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 803,
-    "promoted_sections_publishable": 728,
+    "promoted_sections_requested": 807,
+    "promoted_sections_publishable": 732,
     "promoted_sections_review": 75,
     "curated_manifests": 1,
-  "published_after_all_overrides": 746,
-    "stale_generated_pages_removed_before_render": 742,
+    "published_after_all_overrides": 749,
+    "stale_generated_pages_removed_before_render": 746,
     "build_errors": 0
   },
   "articles": [
@@ -13628,23 +13628,23 @@
       "page_end": "148"
     },
     {
-      "title": "पोथी समीक्षा : ‘आचार्य चाणक्य’ (मैथिली खंडकाव्य)",
+      "title": "पोथी समीक्षा : आचार्य चाणक्य (मैथिली खंडकाव्य)",
       "english_title": null,
       "authors": [
-        "डॉ. अजय कुमार झा"
+        "डॉ अजय कुमार झा"
       ],
       "publication_date": "2026-06-01",
       "year": "2026",
       "issue": "443",
       "language": "mai",
       "keywords": [],
-      "classification": "Maithili book review; historical poetry; Chanakya studies; Rajkishor Mishra studies",
+      "classification": "Maithili book criticism; historical poetics; Chanakya studies",
       "url": "https://www.videha.co.in/research/2026/443/पोथी-समीक्षा-आचार्य-चाणक्य-मैथिली-खंडकाव्य.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf",
       "path": "2026/443/पोथी-समीक्षा-आचार्य-चाणक्य-मैथिली-खंडकाव्य.htm",
-      "page_start": null,
-      "page_end": null
+      "page_start": "88",
+      "page_end": "89"
     },
     {
       "title": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग-१) सन्दर्भ- परमेश्वर कापड़ि- नाटक 'रेङ–रेङ'",
@@ -13799,6 +13799,44 @@
       "page_end": "25"
     },
     {
+      "title": "समानान्तर नाच-नाट्य परम्परा",
+      "english_title": null,
+      "authors": [
+        "मिथिलाक नाच पाटी"
+      ],
+      "publication_date": "2026-06-15",
+      "year": "2026",
+      "issue": "444",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila performance traditions; theatre anthropology; cultural history",
+      "url": "https://www.videha.co.in/research/2026/444/समानान्तर-नाच-नाट्य-परम्परा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20444.pdf",
+      "path": "2026/444/समानान्तर-नाच-नाट्य-परम्परा.htm",
+      "page_start": "65",
+      "page_end": "82"
+    },
+    {
+      "title": "पोथी समीक्षा: लखिमा की आंखें/ फिल्म विद्यापति (१९३७) समीक्षा",
+      "english_title": null,
+      "authors": [
+        "आचार्य रामानंद मंडल"
+      ],
+      "publication_date": "2026-07-01",
+      "year": "2026",
+      "issue": "445",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili film history; literary adaptation; cultural criticism",
+      "url": "https://www.videha.co.in/research/2026/445/पोथी-समीक्षा-लखिमा-की-आंखें-फिल्म-विद्यापति-१९३७-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20445.pdf",
+      "path": "2026/445/पोथी-समीक्षा-लखिमा-की-आंखें-फिल्म-विद्यापति-१९३७-समीक्षा.htm",
+      "page_start": "57",
+      "page_end": "59"
+    },
+    {
       "title": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग-५): कुणाल-कृत कुसमा-सलहेस",
       "english_title": null,
       "authors": [
@@ -13854,6 +13892,25 @@
       "path": "2026/445/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-9d88465938.htm",
       "page_start": "39",
       "page_end": "44"
+    },
+    {
+      "title": "श्री जगदीश प्रसाद मंडल'क साहित्यके अनुदीत प्रसार : एक सिंहावलोकन",
+      "english_title": null,
+      "authors": [
+        "प्रीति कुमारी"
+      ],
+      "publication_date": "2026-07-01",
+      "year": "2026",
+      "issue": "445",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili translation studies; literary dissemination; author bibliography",
+      "url": "https://www.videha.co.in/research/2026/445/श्री-जगदीश-प्रसाद-मंडल-क-साहित्यके-अनुदीत-प्रसार-एक-सिंहावलोकन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20445.pdf",
+      "path": "2026/445/श्री-जगदीश-प्रसाद-मंडल-क-साहित्यके-अनुदीत-प्रसार-एक-सिंहावलोकन.htm",
+      "page_start": "60",
+      "page_end": "62"
     },
     {
       "title": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग-६): कुणाल-कृत प्रेम-प्रतिज्ञा उर्फ श्रुवावतीक जय!",
