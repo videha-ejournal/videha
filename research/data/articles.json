@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T10:03:39.165282+00:00",
+  "generated": "2026-08-30T10:14:59.076696+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 874,
-    "promoted_sections_publishable": 796,
+    "promoted_sections_requested": 875,
+    "promoted_sections_publishable": 797,
     "promoted_sections_review": 78,
     "curated_manifests": 1,
-    "published_after_all_overrides": 806,
-    "stale_generated_pages_removed_before_render": 803,
+    "published_after_all_overrides": 807,
+    "stale_generated_pages_removed_before_render": 807,
     "build_errors": 0
   },
   "articles": [
@@ -2699,6 +2699,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20048.pdf",
       "path": "2009/48/६अम-शताब्दीक-लोकनायक-सलहेश-वृत्तचित्र-आ-इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "Maithili",
+      "english_title": null,
+      "authors": [
+        "Prof. Dr. Yogendra P. Yadava"
+      ],
+      "publication_date": "2010-01-01",
+      "year": "2010",
+      "issue": "49",
+      "language": "en",
+      "keywords": [],
+      "classification": "Maithili linguistics; grammar; language documentation (English)",
+      "url": "https://www.videha.co.in/research/2010/49/maithili.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20049.pdf",
+      "path": "2010/49/maithili.htm",
       "page_start": null,
       "page_end": null
     },
