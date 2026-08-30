@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T07:10:54.411144+00:00",
+  "generated": "2026-08-30T07:14:34.232933+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 799,
-    "promoted_sections_publishable": 724,
+    "promoted_sections_requested": 803,
+    "promoted_sections_publishable": 728,
     "promoted_sections_review": 75,
     "curated_manifests": 1,
-    "published_after_all_overrides": 742,
-    "stale_generated_pages_removed_before_render": 740,
+    "published_after_all_overrides": 746,
+    "stale_generated_pages_removed_before_render": 742,
     "build_errors": 0
   },
   "articles": [
@@ -12583,6 +12583,25 @@
       "page_end": "27"
     },
     {
+      "title": "चर्चित गाम नौआबाखर",
+      "english_title": null,
+      "authors": [
+        "सुभाष कुमार कामत"
+      ],
+      "publication_date": "2025-12-15",
+      "year": "2025",
+      "issue": "432",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila village studies; local history; cultural anthropology",
+      "url": "https://www.videha.co.in/research/2025/432/चर्चित-गाम-नौआबाखर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20432.pdf",
+      "path": "2025/432/चर्चित-गाम-नौआबाखर.htm",
+      "page_start": "23",
+      "page_end": "30"
+    },
+    {
       "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -19",
       "english_title": null,
       "authors": [
@@ -12619,6 +12638,25 @@
       "path": "2025/432/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-11.htm",
       "page_start": "11",
       "page_end": "22"
+    },
+    {
+      "title": "जोशीमठ में भू-धसान आ ओकर मानवीय पक्ष",
+      "english_title": null,
+      "authors": [
+        "ग्रुप कॅप्टन (डॉ) वी एन झा"
+      ],
+      "publication_date": "2026-01-01",
+      "year": "2026",
+      "issue": "433",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Disaster studies; environmental risk; human geography",
+      "url": "https://www.videha.co.in/research/2026/433/जोशीमठ-में-भू-धसान-आ-ओकर-मानवीय-पक्ष.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20433.pdf",
+      "path": "2026/433/जोशीमठ-में-भू-धसान-आ-ओकर-मानवीय-पक्ष.htm",
+      "page_start": "37",
+      "page_end": "48"
     },
     {
       "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -२०",
@@ -13210,6 +13248,25 @@
       "page_end": null
     },
     {
+      "title": "महाकवि विद्यापति अनुसंधान",
+      "english_title": null,
+      "authors": [
+        "आचार्य रामानंद मंडल"
+      ],
+      "publication_date": "2026-05-01",
+      "year": "2026",
+      "issue": "441",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Vidyapati studies; Maithili literary history; textual research",
+      "url": "https://www.videha.co.in/research/2026/441/महाकवि-विद्यापति-अनुसंधान.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf",
+      "path": "2026/441/महाकवि-विद्यापति-अनुसंधान.htm",
+      "page_start": "170",
+      "page_end": "172"
+    },
+    {
       "title": "महाकवि विद्यापति अनुसंधान [पृष्ठ १७०-१७२]",
       "english_title": null,
       "authors": [
@@ -13227,6 +13284,25 @@
       "path": "2026/441/महाकवि-विद्यापति-अनुसंधान-पृष्ठ-१७०-१७२.htm",
       "page_start": null,
       "page_end": null
+    },
+    {
+      "title": "मिथिला के विकास मे सहकारिता के मॉडल",
+      "english_title": null,
+      "authors": [
+        "प्रणव कुमार झा"
+      ],
+      "publication_date": "2026-05-01",
+      "year": "2026",
+      "issue": "441",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Rural development; cooperative economics; Mithila studies",
+      "url": "https://www.videha.co.in/research/2026/441/मिथिला-के-विकास-मे-सहकारिता-के-मॉडल.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20441.pdf",
+      "path": "2026/441/मिथिला-के-विकास-मे-सहकारिता-के-मॉडल.htm",
+      "page_start": "116",
+      "page_end": "120"
     },
     {
       "title": "मैथिली लेल दलित साहित्य समीक्षाशास्त्र-२ [संदर्भ: प्रभास कुमार चौधरीक 'इन्द्रधनुष', अशोकक 'प्रतिलोम' आ रमेशक 'कैलास मंडलक फिलिप्स रेडियो'/ दलित साहित्य समीक्षाशास्त्र, भारतीय समीक्षाशास्त्र, पाश्चात्य समीक्षाशास्त्र, गंगेशक नव्य न्याय आ विदेह समानान्तर इतिहास फ्रेमवर्कक परिप्रेक्ष्यमे]",
