@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T05:42:08.029680+00:00",
+  "generated": "2026-08-30T05:46:21.655562+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 736,
-    "promoted_sections_publishable": 674,
-    "promoted_sections_review": 62,
+    "promoted_sections_requested": 746,
+    "promoted_sections_publishable": 680,
+    "promoted_sections_review": 66,
     "curated_manifests": 1,
-    "published_after_all_overrides": 707,
+    "published_after_all_overrides": 713,
     "stale_generated_pages_removed_before_render": 707,
     "build_errors": 0
   },
@@ -9311,6 +9311,120 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20341.pdf",
       "path": "2022/341/मिथिला-मैथिली-आंदोलनक-मिथक-प्रयास-आ-समाधान.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली फ़िल्म उद्योग अखनी तक आ नबका प्रयोग",
+      "english_title": null,
+      "authors": [
+        "डॉ. किशन कारीगर"
+      ],
+      "publication_date": "2022-04-15",
+      "year": "2022",
+      "issue": "344",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili cinema studies; cultural industry; media history",
+      "url": "https://www.videha.co.in/research/2022/344/मैथिली-फ़िल्म-उद्योग-अखनी-तक-आ-नबका-प्रयोग.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20344.pdf",
+      "path": "2022/344/मैथिली-फ़िल्म-उद्योग-अखनी-तक-आ-नबका-प्रयोग.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "राम लोचन ठाकुरजीक गद्य रचना",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2022-05-01",
+      "year": "2022",
+      "issue": "345",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili prose criticism; author study; Ramlochan Thakur",
+      "url": "https://www.videha.co.in/research/2022/345/राम-लोचन-ठाकुरजीक-गद्य-रचना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20345.pdf",
+      "path": "2022/345/राम-लोचन-ठाकुरजीक-गद्य-रचना.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "‘विकीपीडिया’मे मैथिली बाद मैथिली ‘गूगल ट्रान्सलेट’मे",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2022-05-15",
+      "year": "2022",
+      "issue": "346",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili digital humanities; translation technology; language planning",
+      "url": "https://www.videha.co.in/research/2022/346/विकीपीडिया-मे-मैथिली-बाद-मैथिली-गूगल-ट्रान्सलेट-मे.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20346.pdf",
+      "path": "2022/346/विकीपीडिया-मे-मैथिली-बाद-मैथिली-गूगल-ट्रान्सलेट-मे.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "प्रवासीक स्नेहसँ ओतप्रोत मातृभूमि",
+      "english_title": null,
+      "authors": [
+        "डा. योगानन्द झा"
+      ],
+      "publication_date": "2022-06-01",
+      "year": "2022",
+      "issue": "347",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili novel criticism; migration studies; diaspora identity",
+      "url": "https://www.videha.co.in/research/2022/347/प्रवासीक-स्नेहसँ-ओतप्रोत-मातृभूमि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20347.pdf",
+      "path": "2022/347/प्रवासीक-स्नेहसँ-ओतप्रोत-मातृभूमि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सझिया रोपनि: ४३ टा बीहनि कथा लेखकक सझिया संग्रहक समीक्षा",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2022-07-01",
+      "year": "2022",
+      "issue": "349",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili short-story criticism; anthology review; literary history",
+      "url": "https://www.videha.co.in/research/2022/349/सझिया-रोपनि-४३-टा-बीहनि-कथा-लेखकक-सझिया-संग्रहक-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20349.pdf",
+      "path": "2022/349/सझिया-रोपनि-४३-टा-बीहनि-कथा-लेखकक-सझिया-संग्रहक-समीक्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली विकीपीडिया, यूनीकोड तिरहुता आ कैथी, गूगल ट्रांसलेटमे मैथिली, ट्विटरमे मैथिली, अमेजन अलेक्सामे मैथिली",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2022-08-01",
+      "year": "2022",
+      "issue": "351",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili digital humanities; Unicode scripts; machine translation; language technology",
+      "url": "https://www.videha.co.in/research/2022/351/मैथिली-विकीपीडिया-यूनीकोड-तिरहुता-आ-कैथी-गूगल-ट्रांसलेटमे-4111606550.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20351.pdf",
+      "path": "2022/351/मैथिली-विकीपीडिया-यूनीकोड-तिरहुता-आ-कैथी-गूगल-ट्रांसलेटमे-4111606550.htm",
       "page_start": null,
       "page_end": null
     },

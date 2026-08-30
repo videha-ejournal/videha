@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T05:42:08.028410+00:00",
+  "generated": "2026-08-30T05:46:21.653470+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,11 +12,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 736,
-    "promoted_sections_publishable": 674,
-    "promoted_sections_review": 62,
+    "promoted_sections_requested": 746,
+    "promoted_sections_publishable": 680,
+    "promoted_sections_review": 66,
     "curated_manifests": 1,
-    "published_after_all_overrides": 707,
+    "published_after_all_overrides": 713,
     "stale_generated_pages_removed_before_render": 707,
     "build_errors": 0
   },
@@ -519,6 +519,30 @@
   ],
   "sadeha_review": [],
   "promotion_review": [
+    {
+      "issue": "343",
+      "section": "2.3",
+      "author": "डॉ. किशन कारीगर",
+      "title": "मैथिलीमे रचना चोरीक विकट समस्या आ समाधान",
+      "body_chars": 1718,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "345",
+      "section": "2.5",
+      "reason": "manual body start marker not found"
+    },
+    {
+      "issue": "348",
+      "section": "2.3",
+      "reason": "manual body start marker not found"
+    },
+    {
+      "issue": "348",
+      "section": "2.8",
+      "reason": "manual body start marker not found"
+    },
     {
       "issue": "332",
       "section": "2.6.1",
