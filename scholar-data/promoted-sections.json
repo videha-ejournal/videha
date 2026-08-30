@@ -178,6 +178,76 @@
     "classification": "Children’s literature studies; Maithili novel criticism; comparative literary theory"
   },
   {
+    "issue": "302",
+    "section": "2.3",
+    "author_override": "आशीष अनचिन्हार",
+    "title_override": "सोशल मीडिया आ मैथिली",
+    "classification": "Maithili digital humanities; social media; language community history",
+    "body_source": "search-documents/videha-302.html",
+    "manual_body_start": "आशीष अनचिन्हार\nसोशल मीडिया आ मैथिली",
+    "manual_body_end": "ऐ रचनापर अपन मंतव्य"
+  },
+  {
+    "issue": "307",
+    "section": "2.3",
+    "author_override": "आशीष अनचिन्हार",
+    "title_override": "दुष्यंत कुमारक गजलक मिजाज सन गजल मैथिलीमे कहिया लीखल जेतै",
+    "classification": "Maithili ghazal criticism; comparative poetics; Dushyant Kumar",
+    "body_source": "search-documents/videha-307.html",
+    "manual_body_start": "आशीष अनचिन्हार\nदुष्यंत कुमारक गजलक मिजाज सन गजल मैथिलीमे कहिया लीखल जेतै",
+    "manual_body_end": "तिरहुता लिपिक उद्भव आ विकास- गजेन्द्र ठाकुर"
+  },
+  {
+    "issue": "307",
+    "section": "2.4",
+    "author_override": "गजेन्द्र ठाकुर",
+    "title_override": "तिरहुता लिपिक उद्भव आ विकास—भाग १",
+    "classification": "Tirhuta script history; Maithili paleography; language studies",
+    "body_source": "search-documents/videha-307.html",
+    "manual_body_start": "तिरहुता लिपिक उद्भव आ विकास- गजेन्द्र ठाकुर\n(भाग-१)",
+    "manual_body_end": "डा. सुभाष चन्द्र झा\n।।वैद्यनाथ मिश्र \"यात्री \"क साहित्य यात्रा।।"
+  },
+  {
+    "issue": "309",
+    "section": "2.7",
+    "author_override": "कुसुम ठाकुर",
+    "title_override": "अलग राज्यक माँग कतेक सार्थक?",
+    "classification": "Mithila regional studies; political sociology; language-region identity",
+    "body_source": "search-documents/videha-309.html",
+    "manual_body_start": "कुसुम ठाकुर\nअलग राज्यक माँग कतेक सार्थक?",
+    "manual_body_end": "गजेन्द्र ठाकुर\nमिथिलाक इतिहास भाग-२"
+  },
+  {
+    "issue": "309",
+    "section": "2.13",
+    "author_override": "उमेश मण्डल",
+    "title_override": "लोक-नाट्य-वाद्य मण्डली—संकलन",
+    "classification": "Mithila folk theatre; ethnomusicology; performance documentation",
+    "body_source": "search-documents/videha-309.html",
+    "manual_body_start": "उमेश मण्डल\nलोक-नाट्य-वाद्य मण्डली- संकलन",
+    "manual_body_end": "आनन्द कुमार झा\nमैथिलीक वर्तमान रंगमंच , धर्मिता आ स्वतन्त्रता"
+  },
+  {
+    "issue": "309",
+    "section": "2.16",
+    "author_override": "आनन्द कुमार झा",
+    "title_override": "मैथिलीक वर्तमान रंगमंच, धर्मिता आ स्वतन्त्रता",
+    "classification": "Maithili theatre studies; performance autonomy; dramaturgy",
+    "body_source": "search-documents/videha-309.html",
+    "manual_body_start": "आनन्द कुमार झा\nमैथिलीक वर्तमान रंगमंच , धर्मिता आ स्वतन्त्रता",
+    "manual_body_end": "ऐ रचनापर अपन मंतव्य"
+  },
+  {
+    "issue": "310",
+    "section": "2.8",
+    "author_override": "आनन्द कुमार झा",
+    "title_override": "मैथिली नाटक आ ग्रामीण रंगमंच",
+    "classification": "Maithili theatre studies; rural performance; cultural history",
+    "body_source": "search-documents/videha-310.html",
+    "manual_body_start": "आनन्द कुमार झा\nमैथिली नाटक आ ग्रामीण रंगमंच",
+    "manual_body_end": "डॉ. चित्रलेखा\nमिथिलाक प्रसिद्ध लोक पर्वसामा-चकेबा"
+  },
+  {
     "issue": "292",
     "section": "2",
     "author_override": "उमेश मण्डल",

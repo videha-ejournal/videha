@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T02:22:47.235566+00:00",
+  "generated": "2026-08-30T02:23:39.366769+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 707,
-    "promoted_sections_publishable": 648,
+    "promoted_sections_requested": 714,
+    "promoted_sections_publishable": 655,
     "promoted_sections_review": 59,
     "curated_manifests": 1,
-    "published_after_all_overrides": 681,
+    "published_after_all_overrides": 688,
     "stale_generated_pages_removed_before_render": 681,
     "build_errors": 0
   },
@@ -8213,6 +8213,25 @@
       "page_end": null
     },
     {
+      "title": "सोशल मीडिया आ मैथिली",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2020-07-15",
+      "year": "2020",
+      "issue": "302",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili digital humanities; social media; language community history",
+      "url": "https://www.videha.co.in/research/2020/302/सोशल-मीडिया-आ-मैथिली.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20302.pdf",
+      "path": "2020/302/सोशल-मीडिया-आ-मैथिली.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "यूट्यूब आ मैथिली",
       "english_title": null,
       "authors": [
@@ -8247,6 +8266,44 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20305.pdf",
       "path": "2020/305/मैथिलीमे-इंटरनेट.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "तिरहुता लिपिक उद्भव आ विकास—भाग १",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2020-10-01",
+      "year": "2020",
+      "issue": "307",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Tirhuta script history; Maithili paleography; language studies",
+      "url": "https://www.videha.co.in/research/2020/307/तिरहुता-लिपिक-उद्भव-आ-विकास-भाग-१.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20307.pdf",
+      "path": "2020/307/तिरहुता-लिपिक-उद्भव-आ-विकास-भाग-१.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "दुष्यंत कुमारक गजलक मिजाज सन गजल मैथिलीमे कहिया लीखल जेतै",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2020-10-01",
+      "year": "2020",
+      "issue": "307",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili ghazal criticism; comparative poetics; Dushyant Kumar",
+      "url": "https://www.videha.co.in/research/2020/307/दुष्यंत-कुमारक-गजलक-मिजाज-सन-गजल-मैथिलीमे-कहिया-लीखल-जेतै.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20307.pdf",
+      "path": "2020/307/दुष्यंत-कुमारक-गजलक-मिजाज-सन-गजल-मैथिलीमे-कहिया-लीखल-जेतै.htm",
       "page_start": null,
       "page_end": null
     },
@@ -8536,6 +8593,25 @@
       "page_end": null
     },
     {
+      "title": "अलग राज्यक माँग कतेक सार्थक?",
+      "english_title": null,
+      "authors": [
+        "कुसुम ठाकुर"
+      ],
+      "publication_date": "2020-11-01",
+      "year": "2020",
+      "issue": "309",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila regional studies; political sociology; language-region identity",
+      "url": "https://www.videha.co.in/research/2020/309/अलग-राज्यक-माँग-कतेक-सार्थक.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20309.pdf",
+      "path": "2020/309/अलग-राज्यक-माँग-कतेक-सार्थक.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "बीहनि कथा: मानकीकरण ओ तुलनात्मक पक्ष",
       "english_title": null,
       "authors": [
@@ -8574,6 +8650,25 @@
       "page_end": null
     },
     {
+      "title": "मैथिलीक वर्तमान रंगमंच, धर्मिता आ स्वतन्त्रता",
+      "english_title": null,
+      "authors": [
+        "आनन्द कुमार झा"
+      ],
+      "publication_date": "2020-11-01",
+      "year": "2020",
+      "issue": "309",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre studies; performance autonomy; dramaturgy",
+      "url": "https://www.videha.co.in/research/2020/309/मैथिलीक-वर्तमान-रंगमंच-धर्मिता-आ-स्वतन्त्रता.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20309.pdf",
+      "path": "2020/309/मैथिलीक-वर्तमान-रंगमंच-धर्मिता-आ-स्वतन्त्रता.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "लालदासक रामायणमे विधि-व्यवहारक वर्णन",
       "english_title": null,
       "authors": [
@@ -8593,6 +8688,25 @@
       "page_end": null
     },
     {
+      "title": "लोक-नाट्य-वाद्य मण्डली—संकलन",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2020-11-01",
+      "year": "2020",
+      "issue": "309",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila folk theatre; ethnomusicology; performance documentation",
+      "url": "https://www.videha.co.in/research/2020/309/लोक-नाट्य-वाद्य-मण्डली-संकलन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20309.pdf",
+      "path": "2020/309/लोक-नाट्य-वाद्य-मण्डली-संकलन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मिथिलाक प्रसिद्ध लोक पर्वसामा-चकेबा",
       "english_title": null,
       "authors": [
@@ -8608,6 +8722,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20310.pdf",
       "path": "2020/310/मिथिलाक-प्रसिद्ध-लोक-पर्वसामा-चकेबा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली नाटक आ ग्रामीण रंगमंच",
+      "english_title": null,
+      "authors": [
+        "आनन्द कुमार झा"
+      ],
+      "publication_date": "2020-11-15",
+      "year": "2020",
+      "issue": "310",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili theatre studies; rural performance; cultural history",
+      "url": "https://www.videha.co.in/research/2020/310/मैथिली-नाटक-आ-ग्रामीण-रंगमंच.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20310.pdf",
+      "path": "2020/310/मैथिली-नाटक-आ-ग्रामीण-रंगमंच.htm",
       "page_start": null,
       "page_end": null
     },
