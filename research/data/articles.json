@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T09:02:06.791786+00:00",
+  "generated": "2026-08-30T09:05:13.423580+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 859,
-    "promoted_sections_publishable": 783,
+    "promoted_sections_requested": 860,
+    "promoted_sections_publishable": 784,
     "promoted_sections_review": 76,
     "curated_manifests": 1,
-    "published_after_all_overrides": 794,
-    "stale_generated_pages_removed_before_render": 793,
+    "published_after_all_overrides": 795,
+    "stale_generated_pages_removed_before_render": 794,
     "build_errors": 0
   },
   "articles": [
@@ -7164,6 +7164,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20208.pdf",
       "path": "2016/208/सौराठक-सोमनाथ-आ-सौराष्ट्रक-सोमनाथमे-समानता-लोक-इतिहासक-परि-8a61e23e67.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "फाटू हे धरती: सीता दाई केर वेदना",
+      "english_title": null,
+      "authors": [
+        "डॉ. कैलाश कुमार मिश्र"
+      ],
+      "publication_date": "2016-09-01",
+      "year": "2016",
+      "issue": "209",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Mithila feminist cultural studies; Sita traditions; gender anthropology",
+      "url": "https://www.videha.co.in/research/2016/209/फाटू-हे-धरती-सीता-दाई-केर-वेदना.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20209.pdf",
+      "path": "2016/209/फाटू-हे-धरती-सीता-दाई-केर-वेदना.htm",
       "page_start": null,
       "page_end": null
     },
