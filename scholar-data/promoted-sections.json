@@ -3252,6 +3252,7 @@
     "section": "13.1",
     "author_override": "गजेन्द्र ठाकुर",
     "title_override": "Videha, Mithila, Tirbhukti, Tirhut (continuation 1)",
+    "language": "en",
     "classification": "English-language Mithila history; ancient history; historical geography",
     "body_source": "search-documents/videha-002.html",
     "manual_body_start": "VIDEHA MITHILA TIRBHUKTI TIRHUT(आगाँ)\nOf the ages that followed the age of sub-men or primitive men",
@@ -3282,6 +3283,7 @@
     "section": "14.1",
     "author_override": "गजेन्द्र ठाकुर",
     "title_override": "Videha, Mithila, Tirbhukti, Tirhut (continuation 2)",
+    "language": "en",
     "classification": "English-language Mithila history; Janaka dynasty; historical geography",
     "body_source": "search-documents/videha-003.html",
     "manual_body_start": "VIDEHA MITHILA TIRBHUKTI TIRHUT(आगाँ)\nSiradhvaja is a famous king of Videha for several reasons",
@@ -3342,6 +3344,7 @@
     "section": "17.1",
     "author_override": "गजेन्द्र ठाकुर",
     "title_override": "Videha, Mithila, Tirbhukti, Tirhut (continuation 3)",
+    "language": "en",
     "classification": "English-language Mithila history; Videha polity; Buddhist history",
     "body_source": "search-documents/videha-009.html",
     "manual_body_start": "VIDEHA MITHILA TIRBHUKTI TIRHUT---\nThe period of Janaka dynasty and the Vajjian Republic are mutually exclusive",
@@ -3362,6 +3365,7 @@
     "section": "16.1",
     "author_override": "गजेन्द्र ठाकुर",
     "title_override": "Videha, Mithila, Tirbhukti, Tirhut (continuation 4)",
+    "language": "en",
     "classification": "English-language Mithila history; religious history; political history",
     "body_source": "search-documents/videha-010.html",
     "manual_body_start": "VIDEHA MITHILA TIRBHUKTI TIRHUT---\nUruvela Kassapa is said to have been, in a previous birth",
@@ -3482,6 +3486,7 @@
   {
     "issue": "11", "section": "16.1", "author_override": "गजेन्द्र ठाकुर",
     "title_override": "Videha, Mithila, Tirbhukti, Tirhut (continuation 5)",
+    "language": "en",
     "classification": "English-language Mithila history; ancient history; historical geography",
     "body_source": "search-documents/videha-011.html",
     "manual_body_start": "VIDEHA MITHILA TIRBHUKTI TIRHUT---\nthe pre-Kushana period",
@@ -3490,6 +3495,7 @@
   {
     "issue": "12", "section": "16.1", "author_override": "गजेन्द्र ठाकुर",
     "title_override": "Videha, Mithila, Tirbhukti, Tirhut (continuation 6)",
+    "language": "en",
     "classification": "English-language Mithila history; archaeology; economic history",
     "body_source": "search-documents/videha-012.html",
     "manual_body_start": "VIDEHA MITHILA TIRBHUKTI TIRHUT---\nThe site near Darbhanga Railway Station, Harahi",
@@ -3498,6 +3504,7 @@
   {
     "issue": "13", "section": "17.1", "author_override": "गजेन्द्र ठाकुर",
     "title_override": "Videha, Mithila, Tirbhukti, Tirhut (continuation 7)",
+    "language": "en",
     "classification": "English-language Mithila history; medieval history; administrative history",
     "body_source": "search-documents/videha-013.html",
     "manual_body_start": "VIDEHA MITHILA TIRBHUKTI TIRHUT---\nBasarh seal shows that in Tirabhukti",
@@ -3506,6 +3513,7 @@
   {
     "issue": "14", "section": "14.1", "author_override": "गजेन्द्र ठाकुर",
     "title_override": "Videha, Mithila, Tirbhukti, Tirhut (continuation 8)",
+    "language": "en",
     "classification": "English-language Mithila history; Karnata dynasty; cultural history",
     "body_source": "search-documents/videha-014.html",
     "manual_body_start": "VIDEHA MITHILA TIRBHUKTI TIRHUT---\nBefore King Nanyadeva Kirtivarma",
@@ -3554,6 +3562,7 @@
   {
     "issue": "15", "section": "14.2", "author_override": "अजय ठाकुर",
     "title_override": "Goa Is Parashuram’s Mithila: Maithils in Goa",
+    "language": "en",
     "classification": "English-language diaspora studies; migration; Maithil community in Goa",
     "body_source": "search-documents/videha-015.html",
     "manual_body_start": "Ajay Thakur, presently living at Vasco da Gama",

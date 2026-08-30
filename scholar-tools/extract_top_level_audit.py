@@ -188,6 +188,14 @@ def load_top_level_records() -> tuple[list[dict], list[dict]]:
         if rec_key in published_keys:
             continue
         published_keys.add(rec_key)
+        # Only titles that explicitly identify the known English series are
+        # relabelled here; mixed legacy pages can contain many Latin-script
+        # names/URLs and must not be classified by character ratio alone.
+        detected_language = "en" if (
+            title.startswith("Videha, Mithila, Tirbhukti, Tirhut")
+            or title.startswith("Goa Is Parashuram")
+            or title.startswith("A Parallel History of Mithila")
+        ) else "mai"
         records.append({
             "title": title,
             "authors": [author],
@@ -195,7 +203,7 @@ def load_top_level_records() -> tuple[list[dict], list[dict]]:
             "year": date[:4],
             "issue": issue,
             "classification": class_label(list(row.get("signals") or [])),
-            "language": "mai",
+            "language": detected_language,
             "slug": slugify(title),
             "page_start": None,
             "page_end": None,
