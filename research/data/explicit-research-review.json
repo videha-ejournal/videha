@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T05:36:12.604321+00:00",
+  "generated": "2026-08-30T05:38:34.569481+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,11 +12,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 728,
-    "promoted_sections_publishable": 669,
-    "promoted_sections_review": 59,
+    "promoted_sections_requested": 736,
+    "promoted_sections_publishable": 674,
+    "promoted_sections_review": 62,
     "curated_manifests": 1,
-    "published_after_all_overrides": 702,
+    "published_after_all_overrides": 707,
     "stale_generated_pages_removed_before_render": 702,
     "build_errors": 0
   },
@@ -519,6 +519,25 @@
   ],
   "sadeha_review": [],
   "promotion_review": [
+    {
+      "issue": "332",
+      "section": "2.6.1",
+      "author": "डॉ. किशन कारीगर",
+      "title": "विलुप्त होइत मिथिलाक लोक संस्कृति घोड़ा (कठघोड़वा) नाच",
+      "body_chars": 1786,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "333",
+      "section": "2.9",
+      "reason": "manual body end marker not found"
+    },
+    {
+      "issue": "333",
+      "section": "2.16",
+      "reason": "manual body end marker not found"
+    },
     {
       "issue": "204",
       "section": "2.1.2.7",

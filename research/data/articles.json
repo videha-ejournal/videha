@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T05:36:12.605279+00:00",
+  "generated": "2026-08-30T05:38:34.570666+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,11 +14,11 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 728,
-    "promoted_sections_publishable": 669,
-    "promoted_sections_review": 59,
+    "promoted_sections_requested": 736,
+    "promoted_sections_publishable": 674,
+    "promoted_sections_review": 62,
     "curated_manifests": 1,
-    "published_after_all_overrides": 702,
+    "published_after_all_overrides": 707,
     "stale_generated_pages_removed_before_render": 702,
     "build_errors": 0
   },
@@ -9182,6 +9182,25 @@
       "page_end": null
     },
     {
+      "title": "मैथिली माध्यमसँ प्राथमिक शिक्षा होइ सएह छलनि स्व. राजनन्दन लालदासक अंतिम इच्छा",
+      "english_title": null,
+      "authors": [
+        "दिलीप कुमार झा"
+      ],
+      "publication_date": "2021-11-01",
+      "year": "2021",
+      "issue": "333",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili education policy; language planning; Rajnandan Lal Das",
+      "url": "https://www.videha.co.in/research/2021/333/मैथिली-माध्यमसँ-प्राथमिक-शिक्षा-होइ-सएह-छलनि-स्व-राजनन्दन-ल-bfd4be996c.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20333.pdf",
+      "path": "2021/333/मैथिली-माध्यमसँ-प्राथमिक-शिक्षा-होइ-सएह-छलनि-स्व-राजनन्दन-ल-bfd4be996c.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "“चित्रा-विचित्रा” सं प्रदर्शित होइत मैथिल प्रिमिटिविज्म",
       "english_title": null,
       "authors": [
@@ -9216,6 +9235,82 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20334.pdf",
       "path": "2021/334/बीहनि-कथाक-विकासमे-रचनाकारक-योगदान.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हे शिव ‘एकरा गजल कहितहुँ’ होइछ लाज",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2021-12-15",
+      "year": "2021",
+      "issue": "336",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili ghazal criticism; poetics; genre boundaries",
+      "url": "https://www.videha.co.in/research/2021/336/हे-शिव-एकरा-गजल-कहितहुँ-होइछ-लाज.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20336.pdf",
+      "path": "2021/336/हे-शिव-एकरा-गजल-कहितहुँ-होइछ-लाज.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिला मैथिली के दुर्दशा लैए दोखी के सब हइ/अछि?",
+      "english_title": null,
+      "authors": [
+        "डॉ. किशन कारीगर"
+      ],
+      "publication_date": "2022-01-15",
+      "year": "2022",
+      "issue": "338",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili language sociology; cultural policy; regional studies",
+      "url": "https://www.videha.co.in/research/2022/338/मिथिला-मैथिली-के-दुर्दशा-लैए-दोखी-के-सब-हइ-अछि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20338.pdf",
+      "path": "2022/338/मिथिला-मैथिली-के-दुर्दशा-लैए-दोखी-के-सब-हइ-अछि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "अनुशासन + विद्रोह = परिवर्तन",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2022-02-01",
+      "year": "2022",
+      "issue": "339",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary criticism; social change; discipline and rebellion",
+      "url": "https://www.videha.co.in/research/2022/339/अनुशासन-विद्रोह-परिवर्तन.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20339.pdf",
+      "path": "2022/339/अनुशासन-विद्रोह-परिवर्तन.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिला मैथिली आंदोलनक मिथक प्रयास आ समाधान?",
+      "english_title": null,
+      "authors": [
+        "डॉ. किशन कारीगर"
+      ],
+      "publication_date": "2022-03-01",
+      "year": "2022",
+      "issue": "341",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili movement studies; language activism; regional identity",
+      "url": "https://www.videha.co.in/research/2022/341/मिथिला-मैथिली-आंदोलनक-मिथक-प्रयास-आ-समाधान.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20341.pdf",
+      "path": "2022/341/मिथिला-मैथिली-आंदोलनक-मिथक-प्रयास-आ-समाधान.htm",
       "page_start": null,
       "page_end": null
     },
