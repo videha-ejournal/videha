@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T09:46:34.978309+00:00",
+  "generated": "2026-08-30T09:50:17.153567+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -12,9 +12,9 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 866,
+    "promoted_sections_requested": 867,
     "promoted_sections_publishable": 790,
-    "promoted_sections_review": 76,
+    "promoted_sections_review": 77,
     "curated_manifests": 1,
     "published_after_all_overrides": 800,
     "stale_generated_pages_removed_before_render": 800,
@@ -1144,6 +1144,15 @@
       "author": "आचार्य रामानंद मंडल",
       "title": "महाकवि विद्यापति बनाम संत तुलसीदास",
       "body_chars": 1730,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "319",
+      "section": "2.29",
+      "author": "डॉ. अनमोल झा",
+      "title": "कोलकाता परिसरक मैथिलीक मणि श्री रामलोचन ठाकुर",
+      "body_chars": 132,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     }
