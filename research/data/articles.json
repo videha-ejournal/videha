@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-08-30T01:56:00.761083+00:00",
+  "generated": "2026-08-30T02:08:56.101259+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 686,
-    "promoted_sections_publishable": 627,
+    "promoted_sections_requested": 696,
+    "promoted_sections_publishable": 637,
     "promoted_sections_review": 59,
     "curated_manifests": 1,
-    "published_after_all_overrides": 661,
-    "stale_generated_pages_removed_before_render": 657,
+    "published_after_all_overrides": 671,
+    "stale_generated_pages_removed_before_render": 661,
     "build_errors": 0
   },
   "articles": [
@@ -7772,6 +7772,196 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20281.pdf",
       "path": "2019/281/जगदीश-प्रसाद-मण्डलजीक-भकमोड़-मे-परिवर्तनक-स्वर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डलक औपन्यासिक कृति",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2019-09-15",
+      "year": "2019",
+      "issue": "282",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary history; novel studies; Jagdish Prasad Mandal",
+      "url": "https://www.videha.co.in/research/2019/282/जगदीश-प्रसाद-मण्डलक-औपन्यासिक-कृति.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20282.pdf",
+      "path": "2019/282/जगदीश-प्रसाद-मण्डलक-औपन्यासिक-कृति.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डलक जीवन-संघर्ष",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2019-10-01",
+      "year": "2019",
+      "issue": "283",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary biography; author study; social history",
+      "url": "https://www.videha.co.in/research/2019/283/जगदीश-प्रसाद-मण्डलक-जीवन-संघर्ष.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20283.pdf",
+      "path": "2019/283/जगदीश-प्रसाद-मण्डलक-जीवन-संघर्ष.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डलक नाट्य कृतिक संक्षिप्त परिचय",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2019-10-15",
+      "year": "2019",
+      "issue": "284",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili drama studies; theatre bibliography; author study",
+      "url": "https://www.videha.co.in/research/2019/284/जगदीश-प्रसाद-मण्डलक-नाट्य-कृतिक-संक्षिप्त-परिचय.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20284.pdf",
+      "path": "2019/284/जगदीश-प्रसाद-मण्डलक-नाट्य-कृतिक-संक्षिप्त-परिचय.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डलक ‘गीतांजलि’",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2019-11-01",
+      "year": "2019",
+      "issue": "285",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili poetry studies; book criticism; Jagdish Prasad Mandal",
+      "url": "https://www.videha.co.in/research/2019/285/जगदीश-प्रसाद-मण्डलक-गीतांजलि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20285.pdf",
+      "path": "2019/285/जगदीश-प्रसाद-मण्डलक-गीतांजलि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "श्री जगदीश प्रसाद मण्डलक 25 गोट पोथीमे संकलित पात्रक सूची (Index)",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2019-11-15",
+      "year": "2019",
+      "issue": "286",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili bibliography; literary indexing; character studies",
+      "url": "https://www.videha.co.in/research/2019/286/श्री-जगदीश-प्रसाद-मण्डलक-25-गोट-पोथीमे-संकलित-पात्रक-सूची-index.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20286.pdf",
+      "path": "2019/286/श्री-जगदीश-प्रसाद-मण्डलक-25-गोट-पोथीमे-संकलित-पात्रक-सूची-index.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डलक ‘रहसा चौरी’",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2019-12-01",
+      "year": "2019",
+      "issue": "287",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili poetry criticism; regional culture; author study",
+      "url": "https://www.videha.co.in/research/2019/287/जगदीश-प्रसाद-मण्डलक-रहसा-चौरी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20287.pdf",
+      "path": "2019/287/जगदीश-प्रसाद-मण्डलक-रहसा-चौरी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डलक ‘गामक जिनगी’",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2019-12-15",
+      "year": "2019",
+      "issue": "288",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili fiction criticism; village studies; rural society",
+      "url": "https://www.videha.co.in/research/2019/288/जगदीश-प्रसाद-मण्डलक-गामक-जिनगी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20288.pdf",
+      "path": "2019/288/जगदीश-प्रसाद-मण्डलक-गामक-जिनगी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डलक विचारोत्तेजक गद्यांश",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2020-01-01",
+      "year": "2020",
+      "issue": "289",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili prose criticism; social thought; author study",
+      "url": "https://www.videha.co.in/research/2020/289/जगदीश-प्रसाद-मण्डलक-विचारोत्तेजक-गद्यांश.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20289.pdf",
+      "path": "2020/289/जगदीश-प्रसाद-मण्डलक-विचारोत्तेजक-गद्यांश.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डलक विचारोत्तेजक गद्यांश—२",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2020-01-15",
+      "year": "2020",
+      "issue": "290",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili prose criticism; social thought; author study",
+      "url": "https://www.videha.co.in/research/2020/290/जगदीश-प्रसाद-मण्डलक-विचारोत्तेजक-गद्यांश-२.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20290.pdf",
+      "path": "2020/290/जगदीश-प्रसाद-मण्डलक-विचारोत्तेजक-गद्यांश-२.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जगदीश प्रसाद मण्डलक दर्जन भरि कथाक सामान्य परिचय",
+      "english_title": null,
+      "authors": [
+        "उमेश मण्डल"
+      ],
+      "publication_date": "2020-02-01",
+      "year": "2020",
+      "issue": "291",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili fiction studies; literary criticism; author study",
+      "url": "https://www.videha.co.in/research/2020/291/जगदीश-प्रसाद-मण्डलक-दर्जन-भरि-कथाक-सामान्य-परिचय.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20291.pdf",
+      "path": "2020/291/जगदीश-प्रसाद-मण्डलक-दर्जन-भरि-कथाक-सामान्य-परिचय.htm",
       "page_start": null,
       "page_end": null
     },
