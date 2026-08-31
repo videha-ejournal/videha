@@ -29,7 +29,9 @@ BIBLIOGRAPHY = """<section class=\"references\"><h2>सन्दर्भ-सू
 </ol></section>"""
 
 ADDITIONAL = """<li>Mishra, Yogendra. <cite>History of Videha: From the Earliest Times to the Foundation of the Gupta Empire, A.D. 319</cite>. Patna: Janaki Prakashan, 1981.</li>
+<li>Mishra, Yogendra. <cite>An Early History of Vaiśālī: From the Earliest Times to the Fall of the Vajjian Republic, circa 484 B.C.</cite> Delhi: Motilal Banarsidass, 1962.</li>
 <li>Sinha, Chandreshwar Prasad Narayan (C. P. N. Sinha). <cite>Mithila Under the Karnatas, c. 1097–1325 A.D.</cite> Patna: Janaki Prakashan, 1979.</li>"""
+VAISALI = '<li>Mishra, Yogendra. <cite>An Early History of Vaiśālī: From the Earliest Times to the Fall of the Vajjian Republic, circa 484 B.C.</cite> Delhi: Motilal Banarsidass, 1962.</li>'
 
 changed = []
 for path in sorted((ROOT / "research").rglob("*.htm")):
@@ -37,9 +39,9 @@ for path in sorted((ROOT / "research").rglob("*.htm")):
         continue
     text = path.read_text(encoding="utf-8", errors="ignore")
     if "सन्दर्भ-सूची / Bibliography" in text:
-        if "History of Videha: From the Earliest Times" not in text:
+        if "An Early History of Vaiśālī" not in text:
             marker_existing = '<li>Choudhary, Radhakrishna.'
-            text = text.replace(marker_existing, ADDITIONAL + marker_existing, 1)
+            text = text.replace(marker_existing, VAISALI + marker_existing, 1)
             path.write_text(text, encoding="utf-8")
             changed.append(path.relative_to(ROOT).as_posix() + " (supplemented)")
         continue
