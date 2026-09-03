@@ -2699,7 +2699,7 @@
   </url>
   <url>
     <loc>https://www.videha.co.in/</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
     <image:image>
@@ -2712,7 +2712,7 @@
   </url>
   <url>
     <loc>https://videha-ejournal.github.io/videha/</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
     <image:image>
@@ -13396,5 +13396,11 @@
     <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://videha-ejournal.github.io/mithila-vajji-anga/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
   </url>
 </urlset>
