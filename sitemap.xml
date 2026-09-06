@@ -1,6 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"><url>
-    <loc>https://videha-ejournal.github.io/videha/aboutme.htm</loc>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.videha.co.in/aboutme.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -10,7 +12,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/archive.htm</loc>
+    <loc>https://www.videha.co.in/archive.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -20,7 +22,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/Audio_Video.htm</loc>
+    <loc>https://www.videha.co.in/Audio_Video.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.98</priority>
@@ -30,7 +32,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/discovery.htm</loc>
+    <loc>https://www.videha.co.in/discovery.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
@@ -1012,7 +1014,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/femcorner.htm</loc>
+    <loc>https://www.videha.co.in/femcorner.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
@@ -1022,7 +1024,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/gajenthakur.htm</loc>
+    <loc>https://www.videha.co.in/gajenthakur.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -1338,7 +1340,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/gajendra-thakur-samagra.htm</loc>
+    <loc>https://www.videha.co.in/gajendra-thakur-samagra.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -1348,7 +1350,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/</loc>
+    <loc>https://www.videha.co.in/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
@@ -1361,7 +1363,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/investigation.htm</loc>
+    <loc>https://www.videha.co.in/investigation.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1395,7 +1397,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/kids.htm</loc>
+    <loc>https://www.videha.co.in/kids.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -1405,7 +1407,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/maithili-thesaurus.html</loc>
+    <loc>https://www.videha.co.in/maithili-thesaurus.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1415,7 +1417,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/maithili-translator.html</loc>
+    <loc>https://www.videha.co.in/maithili-translator.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1425,7 +1427,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_1.htm</loc>
+    <loc>https://www.videha.co.in/new_page_1.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1441,7 +1443,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_10.htm</loc>
+    <loc>https://www.videha.co.in/new_page_10.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1454,7 +1456,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_100.htm</loc>
+    <loc>https://www.videha.co.in/new_page_100.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1467,7 +1469,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_101.htm</loc>
+    <loc>https://www.videha.co.in/new_page_101.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1477,7 +1479,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_102.htm</loc>
+    <loc>https://www.videha.co.in/new_page_102.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1487,7 +1489,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_103.htm</loc>
+    <loc>https://www.videha.co.in/new_page_103.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1500,7 +1502,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_104.htm</loc>
+    <loc>https://www.videha.co.in/new_page_104.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1513,7 +1515,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_105.htm</loc>
+    <loc>https://www.videha.co.in/new_page_105.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1526,7 +1528,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_106.htm</loc>
+    <loc>https://www.videha.co.in/new_page_106.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1542,7 +1544,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_107.htm</loc>
+    <loc>https://www.videha.co.in/new_page_107.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1555,7 +1557,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_108.htm</loc>
+    <loc>https://www.videha.co.in/new_page_108.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1568,7 +1570,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_109.htm</loc>
+    <loc>https://www.videha.co.in/new_page_109.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1581,7 +1583,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_11.htm</loc>
+    <loc>https://www.videha.co.in/new_page_11.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1600,7 +1602,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_110.htm</loc>
+    <loc>https://www.videha.co.in/new_page_110.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1613,7 +1615,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_111.htm</loc>
+    <loc>https://www.videha.co.in/new_page_111.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1626,7 +1628,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_112.htm</loc>
+    <loc>https://www.videha.co.in/new_page_112.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1639,7 +1641,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_113.htm</loc>
+    <loc>https://www.videha.co.in/new_page_113.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1652,7 +1654,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_114.htm</loc>
+    <loc>https://www.videha.co.in/new_page_114.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1668,7 +1670,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_115.htm</loc>
+    <loc>https://www.videha.co.in/new_page_115.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1681,7 +1683,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_116.htm</loc>
+    <loc>https://www.videha.co.in/new_page_116.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1700,7 +1702,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_117.htm</loc>
+    <loc>https://www.videha.co.in/new_page_117.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1713,7 +1715,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_118.htm</loc>
+    <loc>https://www.videha.co.in/new_page_118.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1726,7 +1728,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_119.htm</loc>
+    <loc>https://www.videha.co.in/new_page_119.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1739,7 +1741,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_12.htm</loc>
+    <loc>https://www.videha.co.in/new_page_12.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1752,7 +1754,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_120.htm</loc>
+    <loc>https://www.videha.co.in/new_page_120.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1765,7 +1767,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_121.htm</loc>
+    <loc>https://www.videha.co.in/new_page_121.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1778,7 +1780,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_122.htm</loc>
+    <loc>https://www.videha.co.in/new_page_122.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1791,7 +1793,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_123.htm</loc>
+    <loc>https://www.videha.co.in/new_page_123.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1804,7 +1806,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_124.htm</loc>
+    <loc>https://www.videha.co.in/new_page_124.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1817,7 +1819,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_125.htm</loc>
+    <loc>https://www.videha.co.in/new_page_125.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1830,7 +1832,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_126.htm</loc>
+    <loc>https://www.videha.co.in/new_page_126.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1843,7 +1845,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_127.htm</loc>
+    <loc>https://www.videha.co.in/new_page_127.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1856,7 +1858,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_128.htm</loc>
+    <loc>https://www.videha.co.in/new_page_128.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1869,7 +1871,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_129.htm</loc>
+    <loc>https://www.videha.co.in/new_page_129.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1882,7 +1884,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_13.htm</loc>
+    <loc>https://www.videha.co.in/new_page_13.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1895,7 +1897,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_130.htm</loc>
+    <loc>https://www.videha.co.in/new_page_130.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1908,7 +1910,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_131.htm</loc>
+    <loc>https://www.videha.co.in/new_page_131.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1921,7 +1923,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_132.htm</loc>
+    <loc>https://www.videha.co.in/new_page_132.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1934,7 +1936,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_133.htm</loc>
+    <loc>https://www.videha.co.in/new_page_133.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1947,7 +1949,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_134.htm</loc>
+    <loc>https://www.videha.co.in/new_page_134.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1960,7 +1962,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_14.htm</loc>
+    <loc>https://www.videha.co.in/new_page_14.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1973,7 +1975,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_15.htm</loc>
+    <loc>https://www.videha.co.in/new_page_15.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1986,7 +1988,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_16.htm</loc>
+    <loc>https://www.videha.co.in/new_page_16.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -1999,7 +2001,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_17.htm</loc>
+    <loc>https://www.videha.co.in/new_page_17.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2012,7 +2014,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_18.htm</loc>
+    <loc>https://www.videha.co.in/new_page_18.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2025,7 +2027,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_19.htm</loc>
+    <loc>https://www.videha.co.in/new_page_19.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2038,7 +2040,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_2.htm</loc>
+    <loc>https://www.videha.co.in/new_page_2.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2051,7 +2053,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_20.htm</loc>
+    <loc>https://www.videha.co.in/new_page_20.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2064,7 +2066,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_21.htm</loc>
+    <loc>https://www.videha.co.in/new_page_21.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2092,7 +2094,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_22.htm</loc>
+    <loc>https://www.videha.co.in/new_page_22.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2105,7 +2107,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_23.htm</loc>
+    <loc>https://www.videha.co.in/new_page_23.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2118,7 +2120,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_24.htm</loc>
+    <loc>https://www.videha.co.in/new_page_24.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2131,7 +2133,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_25.htm</loc>
+    <loc>https://www.videha.co.in/new_page_25.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2144,7 +2146,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_26.htm</loc>
+    <loc>https://www.videha.co.in/new_page_26.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2157,7 +2159,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_27.htm</loc>
+    <loc>https://www.videha.co.in/new_page_27.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2170,7 +2172,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_28.htm</loc>
+    <loc>https://www.videha.co.in/new_page_28.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2183,7 +2185,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_29.htm</loc>
+    <loc>https://www.videha.co.in/new_page_29.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2196,7 +2198,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_3.htm</loc>
+    <loc>https://www.videha.co.in/new_page_3.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2209,7 +2211,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_30.htm</loc>
+    <loc>https://www.videha.co.in/new_page_30.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2222,7 +2224,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_31.htm</loc>
+    <loc>https://www.videha.co.in/new_page_31.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2235,7 +2237,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_32.htm</loc>
+    <loc>https://www.videha.co.in/new_page_32.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2248,7 +2250,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_33.htm</loc>
+    <loc>https://www.videha.co.in/new_page_33.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2261,7 +2263,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_34.htm</loc>
+    <loc>https://www.videha.co.in/new_page_34.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2274,7 +2276,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_35.htm</loc>
+    <loc>https://www.videha.co.in/new_page_35.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2287,7 +2289,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_36.htm</loc>
+    <loc>https://www.videha.co.in/new_page_36.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2315,7 +2317,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_37.htm</loc>
+    <loc>https://www.videha.co.in/new_page_37.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2328,7 +2330,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_38.htm</loc>
+    <loc>https://www.videha.co.in/new_page_38.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2341,7 +2343,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_39.htm</loc>
+    <loc>https://www.videha.co.in/new_page_39.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2354,7 +2356,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_4.htm</loc>
+    <loc>https://www.videha.co.in/new_page_4.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2379,7 +2381,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_40.htm</loc>
+    <loc>https://www.videha.co.in/new_page_40.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2392,7 +2394,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_41.htm</loc>
+    <loc>https://www.videha.co.in/new_page_41.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2405,7 +2407,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_42.htm</loc>
+    <loc>https://www.videha.co.in/new_page_42.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2418,7 +2420,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_43.htm</loc>
+    <loc>https://www.videha.co.in/new_page_43.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2431,7 +2433,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_44.htm</loc>
+    <loc>https://www.videha.co.in/new_page_44.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2444,7 +2446,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_45.htm</loc>
+    <loc>https://www.videha.co.in/new_page_45.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2457,7 +2459,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_46.htm</loc>
+    <loc>https://www.videha.co.in/new_page_46.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2470,7 +2472,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_47.htm</loc>
+    <loc>https://www.videha.co.in/new_page_47.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2483,7 +2485,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_48.htm</loc>
+    <loc>https://www.videha.co.in/new_page_48.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2496,7 +2498,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_49.htm</loc>
+    <loc>https://www.videha.co.in/new_page_49.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2509,7 +2511,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_5.htm</loc>
+    <loc>https://www.videha.co.in/new_page_5.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2522,7 +2524,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_50.htm</loc>
+    <loc>https://www.videha.co.in/new_page_50.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2535,7 +2537,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_51.htm</loc>
+    <loc>https://www.videha.co.in/new_page_51.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2548,7 +2550,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_52.htm</loc>
+    <loc>https://www.videha.co.in/new_page_52.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2561,7 +2563,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_53.htm</loc>
+    <loc>https://www.videha.co.in/new_page_53.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2574,7 +2576,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_54.htm</loc>
+    <loc>https://www.videha.co.in/new_page_54.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2587,7 +2589,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_55.htm</loc>
+    <loc>https://www.videha.co.in/new_page_55.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2600,7 +2602,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_56.htm</loc>
+    <loc>https://www.videha.co.in/new_page_56.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2613,7 +2615,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_57.htm</loc>
+    <loc>https://www.videha.co.in/new_page_57.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2626,7 +2628,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_58.htm</loc>
+    <loc>https://www.videha.co.in/new_page_58.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2639,7 +2641,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_59.htm</loc>
+    <loc>https://www.videha.co.in/new_page_59.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2652,7 +2654,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_6.htm</loc>
+    <loc>https://www.videha.co.in/new_page_6.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2665,7 +2667,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_60.htm</loc>
+    <loc>https://www.videha.co.in/new_page_60.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2678,7 +2680,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_61.htm</loc>
+    <loc>https://www.videha.co.in/new_page_61.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2691,7 +2693,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_62.htm</loc>
+    <loc>https://www.videha.co.in/new_page_62.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2704,7 +2706,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_63.htm</loc>
+    <loc>https://www.videha.co.in/new_page_63.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2717,7 +2719,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_64.htm</loc>
+    <loc>https://www.videha.co.in/new_page_64.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2730,7 +2732,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_65.htm</loc>
+    <loc>https://www.videha.co.in/new_page_65.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2743,7 +2745,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_66.htm</loc>
+    <loc>https://www.videha.co.in/new_page_66.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2756,7 +2758,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_67.htm</loc>
+    <loc>https://www.videha.co.in/new_page_67.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2769,7 +2771,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_68.htm</loc>
+    <loc>https://www.videha.co.in/new_page_68.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2782,7 +2784,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_69.htm</loc>
+    <loc>https://www.videha.co.in/new_page_69.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2795,7 +2797,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_7.htm</loc>
+    <loc>https://www.videha.co.in/new_page_7.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2808,7 +2810,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_70.htm</loc>
+    <loc>https://www.videha.co.in/new_page_70.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2821,7 +2823,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_71.htm</loc>
+    <loc>https://www.videha.co.in/new_page_71.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2834,7 +2836,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_72.htm</loc>
+    <loc>https://www.videha.co.in/new_page_72.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2847,7 +2849,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_73.htm</loc>
+    <loc>https://www.videha.co.in/new_page_73.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2860,7 +2862,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_74.htm</loc>
+    <loc>https://www.videha.co.in/new_page_74.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2873,7 +2875,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_75.htm</loc>
+    <loc>https://www.videha.co.in/new_page_75.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2886,7 +2888,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_76.htm</loc>
+    <loc>https://www.videha.co.in/new_page_76.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2899,7 +2901,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_77.htm</loc>
+    <loc>https://www.videha.co.in/new_page_77.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2912,7 +2914,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_78.htm</loc>
+    <loc>https://www.videha.co.in/new_page_78.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2925,7 +2927,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_79.htm</loc>
+    <loc>https://www.videha.co.in/new_page_79.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2938,7 +2940,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_8.htm</loc>
+    <loc>https://www.videha.co.in/new_page_8.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2951,7 +2953,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_80.htm</loc>
+    <loc>https://www.videha.co.in/new_page_80.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2964,7 +2966,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_81.htm</loc>
+    <loc>https://www.videha.co.in/new_page_81.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2977,7 +2979,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_82.htm</loc>
+    <loc>https://www.videha.co.in/new_page_82.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -2990,7 +2992,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_83.htm</loc>
+    <loc>https://www.videha.co.in/new_page_83.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3003,7 +3005,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_84.htm</loc>
+    <loc>https://www.videha.co.in/new_page_84.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3016,7 +3018,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_85.htm</loc>
+    <loc>https://www.videha.co.in/new_page_85.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3029,7 +3031,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_86.htm</loc>
+    <loc>https://www.videha.co.in/new_page_86.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3042,7 +3044,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_87.htm</loc>
+    <loc>https://www.videha.co.in/new_page_87.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3055,7 +3057,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_88.htm</loc>
+    <loc>https://www.videha.co.in/new_page_88.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3068,7 +3070,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_89.htm</loc>
+    <loc>https://www.videha.co.in/new_page_89.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3081,7 +3083,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_9.htm</loc>
+    <loc>https://www.videha.co.in/new_page_9.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3094,7 +3096,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_90.htm</loc>
+    <loc>https://www.videha.co.in/new_page_90.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3107,7 +3109,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_91.htm</loc>
+    <loc>https://www.videha.co.in/new_page_91.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3120,7 +3122,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_92.htm</loc>
+    <loc>https://www.videha.co.in/new_page_92.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3133,7 +3135,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_93.htm</loc>
+    <loc>https://www.videha.co.in/new_page_93.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3146,7 +3148,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_94.htm</loc>
+    <loc>https://www.videha.co.in/new_page_94.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3159,7 +3161,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_95.htm</loc>
+    <loc>https://www.videha.co.in/new_page_95.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3172,7 +3174,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_96.htm</loc>
+    <loc>https://www.videha.co.in/new_page_96.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3188,7 +3190,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_97.htm</loc>
+    <loc>https://www.videha.co.in/new_page_97.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3201,7 +3203,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_98.htm</loc>
+    <loc>https://www.videha.co.in/new_page_98.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3214,7 +3216,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/new_page_99.htm</loc>
+    <loc>https://www.videha.co.in/new_page_99.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3227,7 +3229,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/pothi.htm</loc>
+    <loc>https://www.videha.co.in/pothi.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.88</priority>
@@ -3241,7 +3243,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/prose.htm</loc>
+    <loc>https://www.videha.co.in/prose.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -3251,7 +3253,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/ratna.htm</loc>
+    <loc>https://www.videha.co.in/ratna.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
@@ -6228,7 +6230,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/sadeha-index.html</loc>
+    <loc>https://www.videha.co.in/sadeha-index.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -6238,7 +6240,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/script-converter.html</loc>
+    <loc>https://www.videha.co.in/script-converter.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -6248,7 +6250,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/verse.htm</loc>
+    <loc>https://www.videha.co.in/verse.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -6258,7 +6260,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/videha-converters.htm</loc>
+    <loc>https://www.videha.co.in/videha-converters.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -6268,7 +6270,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/videha-elearning.htm</loc>
+    <loc>https://www.videha.co.in/videha-elearning.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -6278,7 +6280,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/videha.htm</loc>
+    <loc>https://www.videha.co.in/videha.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
@@ -6288,7 +6290,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/videhablog.htm</loc>
+    <loc>https://www.videha.co.in/videhablog.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -6298,7 +6300,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/videhablog.html</loc>
+    <loc>https://www.videha.co.in/videhablog.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -6308,7 +6310,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/video.htm</loc>
+    <loc>https://www.videha.co.in/video.htm</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -6318,7 +6320,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/panji-mool-index.html</loc>
+    <loc>https://www.videha.co.in/panji-mool-index.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
@@ -6328,7 +6330,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-PDF-TOOL-v9.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-PDF-TOOL-v9.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6338,7 +6340,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/videha-quiz-generator-offline-v3-maithili.html</loc>
+    <loc>https://www.videha.co.in/videha-quiz-generator-offline-v3-maithili.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6348,7 +6350,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-CARTOON-CREATOR-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-CARTOON-CREATOR-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6358,7 +6360,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-ANIMATED-CARTOON-VIDEO-CREATOR-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-ANIMATED-CARTOON-VIDEO-CREATOR-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6368,7 +6370,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KIDS-AUDIO-STORY-RECORDER-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KIDS-AUDIO-STORY-RECORDER-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6378,7 +6380,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KIDS-PICTURE-STORYBOOK-MAKER-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KIDS-PICTURE-STORYBOOK-MAKER-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6388,7 +6390,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KIDS-DEVANAGARI-HANDWRITING-PRACTICE-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KIDS-DEVANAGARI-HANDWRITING-PRACTICE-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -6398,7 +6400,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KIDS-TIRHUTA-HANDWRITING-PRACTICE-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KIDS-TIRHUTA-HANDWRITING-PRACTICE-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -6408,7 +6410,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KIDS-MAITHILI-ALPHABET-GAME-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KIDS-MAITHILI-ALPHABET-GAME-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
@@ -6418,7 +6420,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KIDS-MAITHILI-WORD-PUZZLE-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KIDS-MAITHILI-WORD-PUZZLE-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6428,7 +6430,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KIDS-PUPPET-THEATRE-CREATOR-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KIDS-PUPPET-THEATRE-CREATOR-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6438,7 +6440,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KIDS-MITHILA-PAINTING-COLOURING-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KIDS-MITHILA-PAINTING-COLOURING-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6448,7 +6450,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KIDS-POEM-RHYTHM-TOOL-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KIDS-POEM-RHYTHM-TOOL-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6458,7 +6460,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KIDS-MITHILA-MAP-LEARNING-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KIDS-MITHILA-MAP-LEARNING-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6468,7 +6470,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KIDS-MEMORY-CARD-GAME-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KIDS-MEMORY-CARD-GAME-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6478,7 +6480,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KIDS-QUIZ-MAKER-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KIDS-QUIZ-MAKER-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6488,7 +6490,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KIDS-READING-LEVEL-TOOL-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KIDS-READING-LEVEL-TOOL-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6498,7 +6500,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KIDS-PRONUNCIATION-PRACTICE-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KIDS-PRONUNCIATION-PRACTICE-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6508,7 +6510,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KIDS-FOLK-TALE-SCENE-BUILDER-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KIDS-FOLK-TALE-SCENE-BUILDER-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6518,7 +6520,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KIDS-CERTIFICATE-MAKER-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KIDS-CERTIFICATE-MAKER-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6528,7 +6530,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-BAL-SCIENCE-LAB-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-BAL-SCIENCE-LAB-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6538,7 +6540,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-BAL-MATH-GAME-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-BAL-MATH-GAME-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6548,7 +6550,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-BAL-WORD-EXPLORER-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-BAL-WORD-EXPLORER-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6558,7 +6560,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-BAL-COMIC-STRIP-MAKER-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-BAL-COMIC-STRIP-MAKER-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6568,7 +6570,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-BAL-MITHILA-QUEST-GAME-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-BAL-MITHILA-QUEST-GAME-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6578,7 +6580,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KISHOR-ESSAY-WORKSHOP-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KISHOR-ESSAY-WORKSHOP-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6588,7 +6590,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KISHOR-DEBATE-SPEECH-COACH-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KISHOR-DEBATE-SPEECH-COACH-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6598,7 +6600,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KISHOR-RESEARCH-NOTEBOOK-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KISHOR-RESEARCH-NOTEBOOK-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6608,7 +6610,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KISHOR-STUDY-CAREER-PLANNER-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KISHOR-STUDY-CAREER-PLANNER-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6618,7 +6620,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KISHOR-HTML-CSS-PLAYGROUND-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KISHOR-HTML-CSS-PLAYGROUND-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6628,7 +6630,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/VIDEHA-KISHOR-PODCAST-VIDEO-SCRIPT-STUDIO-OFFLINE.html</loc>
+    <loc>https://www.videha.co.in/VIDEHA-KISHOR-PODCAST-VIDEO-SCRIPT-STUDIO-OFFLINE.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
@@ -6638,63 +6640,63 @@
     </image:image>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/videha-digital-archive.html</loc>
+    <loc>https://www.videha.co.in/videha-digital-archive.html</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/videha-archive-explorer.html</loc>
+    <loc>https://www.videha.co.in/videha-archive-explorer.html</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/videha-chatbot.html</loc>
+    <loc>https://www.videha.co.in/videha-chatbot.html</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/videha-editor-studio.html</loc>
+    <loc>https://www.videha.co.in/videha-editor-studio.html</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/videha-publisher.html</loc>
+    <loc>https://www.videha.co.in/videha-publisher.html</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/videha-language-studio.html</loc>
+    <loc>https://www.videha.co.in/videha-language-studio.html</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/videha-document-studio.html</loc>
+    <loc>https://www.videha.co.in/videha-document-studio.html</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/videha-knowledge-graph.html</loc>
+    <loc>https://www.videha.co.in/videha-knowledge-graph.html</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/videha-universal-search.htm</loc>
+    <loc>https://www.videha.co.in/videha-universal-search.htm</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://videha-ejournal.github.io/videha/publication-certificate.html</loc>
+    <loc>https://www.videha.co.in/publication-certificate.html</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
-  </urlset>
+</urlset>
