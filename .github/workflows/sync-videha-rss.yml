@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: sync-videha-rss
+  group: sync-videha-rss-v2
   cancel-in-progress: true
 
 jobs:
@@ -28,31 +28,39 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Download current RSS from Videha server
+      - name: Download current RSS from Videha server or build locally
         shell: bash
         run: |
           set -euo pipefail
           SOURCE="https://www.videha.co.in/videha-rss.xml?github_sync=${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
           TMP="videha-rss.xml.new"
 
-          curl -4 --http1.1 \
+          if curl -4 --http1.1 \
             --fail --location --silent --show-error \
-            --connect-timeout 10 --max-time 45 \
-            --retry 2 --retry-delay 3 --retry-all-errors \
-            --user-agent "Mozilla/5.0 (compatible; Videha-RSS-Sync/1.0; +https://videha-ejournal.github.io/videha/)" \
+            --connect-timeout 8 --max-time 30 \
+            --retry 1 --retry-delay 2 --retry-all-errors \
+            --user-agent "Mozilla/5.0 (compatible; Videha-RSS-Sync/2.0; +https://videha-ejournal.github.io/videha/)" \
             --header "Cache-Control: no-cache" \
             --header "Pragma: no-cache" \
             "$SOURCE" \
-            --output "$TMP"
+            --output "$TMP" \
+            && test -s "$TMP" \
+            && grep -qi '<rss' "$TMP" \
+            && grep -qi '<channel' "$TMP" \
+            && grep -qi '<item' "$TMP"; then
+              mv "$TMP" videha-rss.xml
+              echo "Downloaded RSS from Videha server."
+          else
+              echo "Server RSS fetch failed; generating RSS from repository index.htm."
+              rm -f "$TMP"
+              python3 .github/scripts/build-videha-rss.py
+          fi
 
-          test -s "$TMP"
-          grep -qi '<rss' "$TMP"
-          grep -qi '<channel' "$TMP"
-          grep -qi '<item' "$TMP"
-
-          mv "$TMP" videha-rss.xml
-          echo "Downloaded RSS successfully."
-          grep -m1 -o '<title>[^<]*</title>' videha-rss.xml || true
+          test -s videha-rss.xml
+          grep -qi '<rss' videha-rss.xml
+          grep -qi '<item' videha-rss.xml
+          echo "RSS title:"
+          grep -m2 -o '<title>[^<]*</title>' videha-rss.xml || true
 
       - name: Commit RSS only when changed
         shell: bash
