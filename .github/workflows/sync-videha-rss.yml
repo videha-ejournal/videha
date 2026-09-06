@@ -1,0 +1,42 @@
+name: Sync Videha RSS
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-videha-rss
+  cancel-in-progress: true
+
+jobs:
+  sync-rss:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download current RSS from Videha server
+        run: |
+          curl --fail --location --silent --show-error --retry 3 \
+            "https://www.videha.co.in/videha-rss.xml" \
+            --output videha-rss.xml
+          test -s videha-rss.xml
+          grep -q '<rss' videha-rss.xml
+
+      - name: Commit RSS only when changed
+        run: |
+          git config user.name "Videha RSS Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add videha-rss.xml
+
+          if git diff --cached --quiet; then
+            echo "RSS unchanged; nothing to commit."
+          else
+            git commit -m "Sync Videha RSS feed"
+            git push
+          fi
