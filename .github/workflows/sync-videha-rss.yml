@@ -2,6 +2,9 @@ name: Sync Videha RSS
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '17 * * * *'
 
