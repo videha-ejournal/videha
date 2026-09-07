@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T15:34:17.024782+00:00",
+  "generated": "2026-09-07T06:22:53.915402+00:00",
   "summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -13,10 +13,10 @@
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
     "promoted_sections_requested": 880,
-    "promoted_sections_publishable": 802,
-    "promoted_sections_review": 78,
+    "promoted_sections_publishable": 797,
+    "promoted_sections_review": 83,
     "curated_manifests": 1,
-    "published_after_all_overrides": 810,
+    "published_after_all_overrides": 805,
     "stale_generated_pages_removed_before_render": 810,
     "build_errors": 0
   },
@@ -563,6 +563,24 @@
       "reason": "manual body end marker not found"
     },
     {
+      "issue": "112",
+      "section": "2.1",
+      "author": "आशीष अनचिन्हार",
+      "title": "काफिया",
+      "body_chars": 0,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "113",
+      "section": "2.1",
+      "author": "आशीष अनचिन्हार",
+      "title": "काफिया आ बहर",
+      "body_chars": 0,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
       "issue": "204",
       "section": "2.1.2.7",
       "author": "शेफालिका वर्मा",
@@ -635,11 +653,29 @@
       "reason": "body below 1800-character publication threshold"
     },
     {
+      "issue": "78",
+      "section": "2.2",
+      "author": "शिव कुमार झा \"टिल्लू\"",
+      "title": "मैथि‍ली कथाक वि‍कासमे गामक जि‍नगीक योगदान-",
+      "body_chars": 0,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
       "issue": "352",
       "section": "2.20",
       "author": "अरविन्द ठाकुर",
       "title": "विलक्षणकेँ व्याख्यायित करब: अबारा नहितन",
       "body_chars": 66,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "433",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१२",
+      "body_chars": 0,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     },
@@ -658,6 +694,15 @@
       "author": "डॉ. चित्रलेखा",
       "title": "मिथिलामे पावनि-तिहार",
       "body_chars": 1147,
+      "min_body_chars": 1800,
+      "reason": "body below 1800-character publication threshold"
+    },
+    {
+      "issue": "439",
+      "section": "2.17",
+      "author": "डॉ. उमेश मण्डल",
+      "title": "‘सगर राति दीप जरय’क साहित्यिक अवदान : नरहिया गोष्ठीक आलोकमे एक अध्ययन",
+      "body_chars": 0,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     },
@@ -1062,7 +1107,7 @@
       "section": "2.5",
       "author": "डा. योगानन्द झा",
       "title": "श्री राज किशोर मिश्र ओ हुनक 'प्रलय-पाश'",
-      "body_chars": 1499,
+      "body_chars": 0,
       "min_body_chars": 1800,
       "reason": "body below 1800-character publication threshold"
     },

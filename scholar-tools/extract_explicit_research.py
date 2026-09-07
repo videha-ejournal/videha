@@ -273,13 +273,16 @@ def _section_occurrences(text: str, section_source: str, floor: int) -> list[re.
 
 
 def _next_section_position(text: str, toc: list[dict], idx: int, start: int) -> int:
-    positions: list[int] = []
-    for nxt in toc[idx + 1:]:
-        pat = re.compile(rf"(?m)^\s*{re.escape(nxt['section_source'])}\.\s*")
-        m = pat.search(text, start + 1)
-        if m:
-            positions.append(m.start())
-    return min(positions) if positions else len(text)
+    # Source pages sometimes place the article bodies in a different order
+    # from the TOC (for example 1.11 is followed by 1.1).  Looking only at
+    # toc[idx + 1:] therefore lets a candidate absorb the rest of the issue.
+    # Find the next line-start section marker from the complete issue TOC.
+    markers = sorted({str(x.get("section_source") or "") for x in toc if x.get("section_source")})
+    if not markers:
+        return len(text)
+    pat = re.compile(rf"(?m)^\s*(?:{'|'.join(re.escape(x) for x in markers)})\.\s*")
+    m = pat.search(text, start + 1)
+    return m.start() if m else len(text)
 
 
 def locate_article_body(text: str, toc: list[dict], idx: int, body_floor: int) -> tuple[int, int] | None:
@@ -297,7 +300,21 @@ def locate_article_body(text: str, toc: list[dict], idx: int, body_floor: int) -
             continue
         segment = text[start:end]
         compact = len(re.sub(r"\s+", "", segment))
-        head = re.sub(r"\s+", " ", segment[:1600])
+        # Issue pages often repeat the TOC immediately before the real article
+        # body.  Reject a candidate marker when another section begins before
+        # the target author/title; otherwise the TOC can win merely because its
+        # segment is longer than the actual article.
+        head = re.sub(r"\s+", " ", segment[:2400])
+        next_marker = re.search(r"(?m)^\s*[0-9०-९]+\.[0-9०-९]+\.\s*", segment[1:1600])
+        author_pos = head.find(author) if author else -1
+        title_probe = title[:40] if title else ""
+        title_pos = head.find(title_probe) if title_probe else -1
+        if next_marker and (author_pos < 0 or title_pos < 0 or next_marker.start() + 1 < min(author_pos, title_pos)):
+            continue
+        if author and author_pos < 0:
+            continue
+        if title_probe and title_pos < 0:
+            continue
         score = min(compact, 20000)
         if compact < 500:
             score -= 20000
@@ -310,7 +327,10 @@ def locate_article_body(text: str, toc: list[dict], idx: int, body_floor: int) -
         scored.append((score, start, end))
     if not scored:
         return None
-    scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    # When TOC and body both contain a marker, the body is normally the later
+    # occurrence.  Prefer the latest viable occurrence, using score only as a
+    # tie-breaker so a long TOC tail cannot outrank the real article.
+    scored.sort(key=lambda x: (x[1], x[0]), reverse=True)
     score, start, end = scored[0]
     if score < 0:
         return None

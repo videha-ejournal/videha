@@ -13,6 +13,7 @@ from extract_promoted_sections import load_promoted
 from extract_audit_sections import load_audit_records
 from extract_top_level_audit import load_top_level_records
 from extract_sadeha_discovered import load_sadeha_records
+from tools.repair_research_article_boundaries import repair_pages
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "research"
@@ -117,6 +118,7 @@ def main() -> None:
     (DATA / "articles.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     base.write_index(articles, candidates)
     base.write_sitemap(articles)
+    repair_pages(ROOT)
 
     print(
         "Videha Scholar full-corpus build: "

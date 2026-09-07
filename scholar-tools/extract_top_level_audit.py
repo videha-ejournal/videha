@@ -173,7 +173,13 @@ def load_top_level_records() -> tuple[list[dict], list[dict]]:
         except Exception:
             pass
         text = parser.text()
-        resolved = body_segment(text, section, label)
+        # The audit catalogue's numeric ``section`` column is occasionally a
+        # top-level group number while the label carries the real subsection
+        # (e.g. ``३.प्रणव झा-...``).  Prefer that explicit marker when present;
+        # otherwise the old value can match only the TOC and publish its tail.
+        label_section = re.match(r"^\s*([०-९0-9]+(?:\.[०-९0-9]+)?)\s*\.", label)
+        body_section = label_section.group(1) if label_section else section
+        resolved = body_segment(text, body_section, label)
         if not resolved:
             review.append({"issue": issue, "section": section, "label": label, "reason": "bounded body not recovered"})
             continue
