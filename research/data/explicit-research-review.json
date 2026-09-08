@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-08T22:54:37.867007+00:00",
+  "generated": "2026-09-08T22:57:38.962362+00:00",
   "summary": {
     "issue_files_scanned": 448,
     "explicit_articles_publishable": 1,
@@ -15,9 +15,9 @@
     "promoted_sections_requested": 880,
     "promoted_sections_publishable": 797,
     "promoted_sections_review": 83,
-    "curated_manifests": 10,
-    "published_after_all_overrides": 819,
-    "stale_generated_pages_removed_before_render": 814,
+    "curated_manifests": 30,
+    "published_after_all_overrides": 839,
+    "stale_generated_pages_removed_before_render": 834,
     "build_errors": 0
   },
   "explicit_review": [

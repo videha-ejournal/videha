@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-09-08T22:54:37.868144+00:00",
+  "generated": "2026-09-08T22:57:38.963437+00:00",
   "extraction_summary": {
     "issue_files_scanned": 448,
     "explicit_articles_publishable": 1,
@@ -17,9 +17,9 @@
     "promoted_sections_requested": 880,
     "promoted_sections_publishable": 797,
     "promoted_sections_review": 83,
-    "curated_manifests": 10,
-    "published_after_all_overrides": 819,
-    "stale_generated_pages_removed_before_render": 814,
+    "curated_manifests": 30,
+    "published_after_all_overrides": 839,
+    "stale_generated_pages_removed_before_render": 834,
     "build_errors": 0
   },
   "articles": [
@@ -15319,6 +15319,75 @@
       "page_end": "583"
     },
     {
+      "title": "अखियासल (केन्द्रीय मैथिली बोली)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "mai literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/अखियासल-केन्द्रीय-मैथिली-बोली.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/अखियासल-केन्द्रीय-मैथिली-बोली.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "अखियासल (ठेठी-अंगिका मैथिली)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "angika",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "angika literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/अखियासल-ठेठी-अंगिका-मैथिली.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/अखियासल-ठेठी-अंगिका-मैथिली.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "अखियासल (बज्जिका मैथिली)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "bajjika",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "bajjika literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/अखियासल-बज्जिका-मैथिली.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/अखियासल-बज्जिका-मैथिली.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "अनुसंधान आ संरक्षण लेल अपस्यांत डॉ रमानंद झा रमण",
       "english_title": null,
       "authors": [
@@ -15333,7 +15402,7 @@
         "Maithili literary history",
         "Mithila studies"
       ],
-      "classification": "Maithili literary history and criticism",
+      "classification": "mai literary history and criticism",
       "url": "https://www.videha.co.in/research/2026/448/अनुसंधान-आ-संरक्षण-लेल-अपस्यांत-डॉ-रमानंद-झा-रमण.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
@@ -15356,11 +15425,80 @@
         "Maithili literary history",
         "Mithila studies"
       ],
-      "classification": "Maithili literary history and criticism",
+      "classification": "mai literary history and criticism",
       "url": "https://www.videha.co.in/research/2026/448/अनुसन्धान-प्रतिमान.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
       "path": "2026/448/अनुसन्धान-प्रतिमान.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "ओ शब्द, जे एखन धरि संग अछि",
+      "english_title": null,
+      "authors": [
+        "सुजीत कुमार झा"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "mai literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/ओ-शब्द-जे-एखन-धरि-संग-अछि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/ओ-शब्द-जे-एखन-धरि-संग-अछि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "चेतना समिति क द्रोणाचार्य रमणजी",
+      "english_title": null,
+      "authors": [
+        "डा धनाकर ठाकुर"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "mai literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/चेतना-समिति-क-द्रोणाचार्य-रमणजी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/चेतना-समिति-क-द्रोणाचार्य-रमणजी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "डा. रमानंद झा रमण केर महत्व",
+      "english_title": null,
+      "authors": [
+        "अशोक"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "mai literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/डा-रमानंद-झा-रमण-केर-महत्व.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/डा-रमानंद-झा-रमण-केर-महत्व.htm",
       "page_start": null,
       "page_end": null
     },
@@ -15379,7 +15517,7 @@
         "Maithili literary history",
         "Mithila studies"
       ],
-      "classification": "Maithili literary history and criticism",
+      "classification": "mai literary history and criticism",
       "url": "https://www.videha.co.in/research/2026/448/डा-रमानन्द-झा-रमण-जीक-रचना-संसार.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
@@ -15402,11 +15540,57 @@
         "Maithili literary history",
         "Mithila studies"
       ],
-      "classification": "Maithili literary history and criticism",
+      "classification": "mai literary history and criticism",
       "url": "https://www.videha.co.in/research/2026/448/डा-रमानन्द-झा-रमण-साहित्य-साधनाक-विविध-आयाम.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
       "path": "2026/448/डा-रमानन्द-झा-रमण-साहित्य-साधनाक-विविध-आयाम.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "डा.रमानन्द झा रमण जीक बीज-भाषण",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "mai literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/डा-रमानन्द-झा-रमण-जीक-बीज-भाषण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/डा-रमानन्द-झा-रमण-जीक-बीज-भाषण.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नान्य पन्था विद्यते अनयाय",
+      "english_title": null,
+      "authors": [
+        "आभा झा"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "mai literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/नान्य-पन्था-विद्यते-अनयाय.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/नान्य-पन्था-विद्यते-अनयाय.htm",
       "page_start": null,
       "page_end": null
     },
@@ -15425,7 +15609,7 @@
         "Maithili literary history",
         "Mithila studies"
       ],
-      "classification": "Maithili literary history and criticism",
+      "classification": "mai literary history and criticism",
       "url": "https://www.videha.co.in/research/2026/448/पोथी-संग्रहकर्ता-इतिहासकार-होथि-से-जरूरी-नहि.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
@@ -15448,7 +15632,7 @@
         "Maithili literary history",
         "Mithila studies"
       ],
-      "classification": "Maithili literary history and criticism",
+      "classification": "mai literary history and criticism",
       "url": "https://www.videha.co.in/research/2026/448/मैथिली-कथाक-वैविध्य-आ-गाम्भीर्य-केँ-रेखांकित-करबाक-सफल-प्रयास.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
@@ -15471,7 +15655,7 @@
         "Maithili literary history",
         "Mithila studies"
       ],
-      "classification": "Maithili literary history and criticism",
+      "classification": "mai literary history and criticism",
       "url": "https://www.videha.co.in/research/2026/448/मैथिली-साहित्यक-सूक्ष्मद्रष्टा-डा०-रमानन्द-झा.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
@@ -15494,11 +15678,241 @@
         "Maithili literary history",
         "Mithila studies"
       ],
-      "classification": "Maithili literary history and criticism",
+      "classification": "mai literary history and criticism",
       "url": "https://www.videha.co.in/research/2026/448/रमानन्द-झा-रमण-मैथिली-साहित्य-आ-मिथिला-संस्कृति-केर-अनुपम-अभिलेखपाल.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
       "path": "2026/448/रमानन्द-झा-रमण-मैथिली-साहित्य-आ-मिथिला-संस्कृति-केर-अनुपम-अभिलेखपाल.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "विद्वता, योगदान आ मैथिली लेल प्रयासक परिणाम",
+      "english_title": null,
+      "authors": [
+        "प्रवीण कुमार झा"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "mai literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/विद्वता-योगदान-आ-मैथिली-लेल-प्रयासक-परिणाम.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/विद्वता-योगदान-आ-मैथिली-लेल-प्रयासक-परिणाम.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "विवर्त",
+      "english_title": null,
+      "authors": [
+        "कीर्तिनाथ झा"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "mai literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/विवर्त.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/विवर्त.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "विवर्त्त",
+      "english_title": null,
+      "authors": [
+        "आभा झा"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "mai literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/विवर्त्त.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/विवर्त्त.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सम पर बजैत सुर",
+      "english_title": null,
+      "authors": [
+        "प्रदीप बिहारी"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "mai literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/सम-पर-बजैत-सुर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/सम-पर-बजैत-सुर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "साक्षात्कार",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "mai literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/साक्षात्कार.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/साक्षात्कार.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सुच्चा संपादक, रमानन्द झा रमण",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "mai literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/सुच्चा-संपादक-रमानन्द-झा-रमण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/सुच्चा-संपादक-रमानन्द-झा-रमण.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हमर संस्मरण रमणजीक संग",
+      "english_title": null,
+      "authors": [
+        "नबोनारायण मिश्र"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "mai literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/हमर-संस्मरण-रमणजीक-संग.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/हमर-संस्मरण-रमणजीक-संग.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हिआओल (केन्द्रीय मैथिली बोली)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "mai literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/हिआओल-केन्द्रीय-मैथिली-बोली.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/हिआओल-केन्द्रीय-मैथिली-बोली.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हिआओल (ठेठी-अंगिका मैथिली)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "angika",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "angika literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/हिआओल-ठेठी-अंगिका-मैथिली.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/हिआओल-ठेठी-अंगिका-मैथिली.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "हिआओल (बज्जिका मैथिली)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "bajjika",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "bajjika literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/हिआओल-बज्जिका-मैथिली.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/हिआओल-बज्जिका-मैथिली.htm",
       "page_start": null,
       "page_end": null
     },
@@ -15517,11 +15931,57 @@
         "Maithili literary history",
         "Mithila studies"
       ],
-      "classification": "Maithili literary history and criticism",
+      "classification": "mai literary history and criticism",
       "url": "https://www.videha.co.in/research/2026/448/२-१-रमानन्द-झा-रमण-विशेषांकक-संदर्भमे.htm",
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
       "path": "2026/448/२-१-रमानन्द-झा-रमण-विशेषांकक-संदर्भमे.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "२.२. रमानन्द झा रमण केर संक्षिप्त परिचय",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "mai literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/२-२-रमानन्द-झा-रमण-केर-संक्षिप्त-परिचय.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/२-२-रमानन्द-झा-रमण-केर-संक्षिप्त-परिचय.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "२.२८. आचार्य रामानंद मंडल डॉ रमानंद झा रमण: व्यक्तित्व आ कृतित्व",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [
+        "Ramanand Jha Raman",
+        "Maithili literary history",
+        "Mithila studies"
+      ],
+      "classification": "mai literary history and criticism",
+      "url": "https://www.videha.co.in/research/2026/448/२-२८-आचार्य-रामानंद-मंडल-डॉ-रमानंद-झा-रमण-व्यक्तित्व-आ-कृतित्व.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/२-२८-आचार्य-रामानंद-मंडल-डॉ-रमानंद-झा-रमण-व्यक्तित्व-आ-कृतित्व.htm",
       "page_start": null,
       "page_end": null
     },
