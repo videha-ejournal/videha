@@ -5,6 +5,7 @@ from __future__ import annotations
 import datetime as dt
 import json
 import re
+import sys
 from pathlib import Path
 
 import build_research as base
@@ -13,11 +14,19 @@ from extract_promoted_sections import load_promoted
 from extract_audit_sections import load_audit_records
 from extract_top_level_audit import load_top_level_records
 from extract_sadeha_discovered import load_sadeha_records
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from tools.repair_research_article_boundaries import repair_pages
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "research"
 DATA = RESEARCH / "data"
+LEGACY_PRESERVED = [
+    "2011/78/मैथि-ली-कथाक-वि-कासमे-गामक-जि-नगीक-योगदान.htm",
+    "2012/112/काफिया.htm",
+    "2012/113/काफिया-आ-बहर.htm",
+    "2026/433/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१२.htm",
+    "2026/439/सगर-राति-दीप-जरय-क-साहित्यिक-अवदान-नरहिया-गोष्ठीक-आलोकमे-एक-अध्ययन.htm",
+]
 
 
 def norm_title(s: str) -> str:
@@ -36,10 +45,29 @@ def is_false_explicit_label(title: str) -> bool:
 def clean_generated_article_pages() -> int:
     removed = 0
     for path in RESEARCH.glob("[0-9][0-9][0-9][0-9]/*/*.htm"):
-        if path.is_file():
+        rel = path.relative_to(RESEARCH).as_posix()
+        if path.is_file() and rel not in LEGACY_PRESERVED:
             path.unlink()
             removed += 1
     return removed
+
+def load_preserved_legacy_records() -> list[dict]:
+    records = []
+    for rel in LEGACY_PRESERVED:
+        path = RESEARCH / rel
+        if not path.exists():
+            continue
+        s = path.read_text(encoding="utf-8", errors="ignore")
+        def meta(name):
+            m = re.search(rf'<meta[^>]+name="{name}"[^>]+content="([^"]*)"', s, re.I)
+            return m.group(1) if m else ""
+        title_m = re.search(r"<h1[^>]*>(.*?)</h1>", s, re.S | re.I)
+        title = re.sub(r"<[^>]+>", " ", title_m.group(1)).strip() if title_m else path.stem
+        issue = rel.split("/")[1]
+        year = rel.split("/")[0]
+        authors = [meta("citation_author")] or [""]
+        records.append({"title": title, "authors": [a for a in authors if a], "publication_date": f"{year}-01-01", "year": year, "issue": issue, "language": "mai", "classification": "Maithili research article", "url": f"{base.CFG['research_base']}/{rel}", "source_url": meta("citation_publication") or f"{base.CFG['site_url']}/", "path": rel, "page_start": meta("citation_firstpage") or None, "page_end": meta("citation_lastpage") or None})
+    return records
 
 
 def main() -> None:
@@ -71,6 +99,7 @@ def main() -> None:
                 "manifest": rec.get("_manifest"), "auto_source": rec.get("_auto_source"),
                 "issue": rec.get("issue"), "title": rec.get("title"), "error": str(exc),
             })
+    articles.extend(load_preserved_legacy_records())
 
     extraction_summary.update({
         "explicit_articles_detected_raw": len(raw_auto_records),
