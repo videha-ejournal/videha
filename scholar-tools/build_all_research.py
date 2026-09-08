@@ -41,6 +41,17 @@ def record_key(rec: dict) -> tuple[str, str]:
 def is_false_explicit_label(title: str) -> bool:
     return bool(re.search(r"शोध\s*[-–—]?\s*पत्रिका", title or "", re.I))
 
+def normalize_language(rec: dict) -> dict:
+    """Apply the editorial language labels used by the public dropdown."""
+    title = str(rec.get("title") or "")
+    authors = " ".join(rec.get("authors") or []) if isinstance(rec.get("authors"), list) else str(rec.get("authors") or "")
+    lang = str(rec.get("language") or "mai").lower()
+    if lang == "angika" or "अंगिका बाल-साहित्य" in title or "ठेठी-अंगिका" in title:
+        rec["language"] = "thethi-angika"
+    if "बज्जिका गीत-संगीत" in title or "आचार्य रामानंद मंडल" in authors or "आचार्य रामानन्द मंडल" in authors or "आचार्य रामानन्द मण्डल" in authors:
+        rec["language"] = "bajjika"
+    return rec
+
 
 def clean_generated_article_pages() -> int:
     removed = 0
@@ -93,6 +104,7 @@ def main() -> None:
     articles, build_errors = [], []
     for rec in sorted(merged.values(), key=lambda r: (str(r.get("publication_date") or ""), str(r.get("issue") or ""), str(r.get("title") or ""))):
         try:
+            rec = normalize_language(rec)
             articles.append(base.render_article(rec))
         except Exception as exc:
             build_errors.append({
