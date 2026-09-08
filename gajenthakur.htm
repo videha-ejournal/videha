@@ -556,6 +556,269 @@ textarea:focus,input[type="text"]:focus{
 <meta data-pagefind-filter="year[content]" content="2000">
 <script src="assets/js/videha-core.js?v=20260821i-routing2"></script>
 <script src="assets/js/videha-github-link-guard.js?v=20260821l-linkguard-display" defer></script>
+
+<style id="videha-parallel-media-publications">
+/* Parallel History media, cover gallery & publication shelf — scoped additions only */
+.parallel-media-hub,
+.parallel-cover-gallery,
+.parallel-publications{
+  box-sizing:border-box;
+  margin:1.7rem auto 2rem;
+  font-family:'EB Garamond','Libre Baskerville','Noto Serif Devanagari',Georgia,serif;
+}
+.parallel-media-hub *,
+.parallel-cover-gallery *,
+.parallel-publications *{box-sizing:border-box;}
+
+.parallel-section-kicker{
+  margin:0 0 .35rem !important;
+  text-align:center !important;
+  color:#7a1f1a !important;
+  font-family:'Playfair Display','Noto Serif Devanagari',serif !important;
+  font-size:.78rem !important;
+  font-weight:700 !important;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+}
+.parallel-section-title{
+  margin:.2rem auto 1rem !important;
+  text-align:center !important;
+  color:#1a1714 !important;
+  font-family:'Playfair Display','Noto Serif Devanagari',serif !important;
+  font-size:1.45rem !important;
+  line-height:1.25 !important;
+  font-weight:700 !important;
+}
+
+/* YouTube: main film + companion playlists beside it on wide screens */
+.parallel-media-layout{
+  display:grid;
+  grid-template-columns:minmax(0,1.45fr) minmax(235px,.8fr);
+  gap:18px;
+  align-items:start;
+}
+.parallel-video-panel{
+  background:#fffdf8;
+  border:1px solid #e0d6c0;
+  padding:10px;
+}
+#content .parallel-video-panel iframe{
+  display:block;
+  width:100% !important;
+  max-width:none !important;
+  aspect-ratio:16/9;
+  height:auto !important;
+  margin:0 !important;
+  border:0 !important;
+  box-shadow:none !important;
+}
+.parallel-video-caption{
+  margin:.7rem .15rem .1rem !important;
+  text-align:left !important;
+  font-size:.95rem !important;
+  line-height:1.45 !important;
+  color:#544d42 !important;
+}
+.parallel-video-links{
+  display:grid;
+  gap:8px;
+}
+#content .parallel-video-link{
+  display:block;
+  padding:11px 12px;
+  background:#fffdf8;
+  border:1px solid #e0d6c0 !important;
+  border-left:3px solid #7a1f1a !important;
+  color:#1a1714 !important;
+  text-decoration:none !important;
+  font-family:'Playfair Display','Noto Serif Devanagari',serif !important;
+  font-size:.9rem !important;
+  font-weight:700 !important;
+  line-height:1.35 !important;
+  transition:background .18s,border-color .18s,color .18s;
+}
+#content .parallel-video-link:hover,
+#content .parallel-video-link:focus{
+  background:#faf3e6;
+  color:#7a1f1a !important;
+  border-color:#c9a14a !important;
+  outline:none;
+}
+.parallel-video-link small{
+  display:block;
+  margin-top:3px;
+  color:#6a5845 !important;
+  font-family:'EB Garamond','Libre Baskerville','Noto Serif Devanagari',serif !important;
+  font-size:.82rem !important;
+  font-weight:400 !important;
+}
+
+/* Existing cover files, reorganized — no copied/extracted images */
+.parallel-cover-gallery{
+  padding-top:.2rem;
+}
+.parallel-cover-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+}
+.parallel-cover-set{
+  margin:0;
+  padding:12px;
+  background:#fffdf8;
+  border:1px solid #e0d6c0;
+}
+.parallel-cover-set--feature{grid-column:1 / -1;}
+.parallel-cover-images{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:9px;
+  align-items:center;
+}
+.parallel-cover-set--feature .parallel-cover-images{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  max-width:590px;
+  margin:0 auto;
+}
+#content .parallel-cover-set a{
+  border-bottom:0 !important;
+  text-decoration:none !important;
+}
+#content .parallel-cover-set img{
+  display:block !important;
+  width:100% !important;
+  max-width:100% !important;
+  height:auto !important;
+  max-height:385px;
+  object-fit:contain;
+  margin:0 auto !important;
+  padding:5px !important;
+  background:#fff;
+  border:1px solid #e7decb !important;
+  box-shadow:none !important;
+}
+.parallel-cover-set figcaption{
+  margin:.7rem .1rem 0;
+  text-align:center;
+  color:#544d42 !important;
+  font-size:.87rem !important;
+  line-height:1.4 !important;
+}
+.parallel-cover-set figcaption strong{
+  display:block;
+  color:#1a1714 !important;
+  font-family:'Playfair Display','Noto Serif Devanagari',serif !important;
+  font-size:.96rem;
+}
+
+/* Publication shelf after the 22 archive links */
+.parallel-publications{
+  border-top:1px solid #c9bfa6;
+  padding-top:1.7rem;
+}
+.publication-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:16px;
+}
+.publication-card{
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+  background:#fffdf8;
+  border:1px solid #e0d6c0;
+  border-top:3px solid #7a1f1a;
+  padding:14px;
+}
+.publication-card--feature{grid-column:1 / -1;}
+.publication-card h3{
+  margin:0 0 .45rem !important;
+  color:#1a1714 !important;
+  font-family:'Playfair Display','Noto Serif Devanagari',serif !important;
+  font-size:1.08rem !important;
+  line-height:1.35 !important;
+  font-weight:700 !important;
+}
+.publication-meta{
+  margin:0 0 .8rem !important;
+  color:#6a5845 !important;
+  font-size:.82rem !important;
+  line-height:1.4 !important;
+}
+.publication-images{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;
+  margin-bottom:11px;
+  align-items:center;
+}
+.publication-card--feature .publication-images{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  max-width:620px;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+#content .publication-images a{border-bottom:0 !important;}
+#content .publication-images img{
+  display:block !important;
+  width:100% !important;
+  max-width:100% !important;
+  height:auto !important;
+  max-height:330px;
+  object-fit:contain;
+  margin:0 auto !important;
+  padding:4px !important;
+  background:#fff;
+  border:1px solid #e7decb !important;
+  box-shadow:none !important;
+}
+.publication-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px;
+  margin-top:auto;
+}
+#content .publication-links a{
+  display:inline-flex;
+  align-items:center;
+  min-height:34px;
+  padding:6px 9px;
+  border:1px solid #c9bfa6 !important;
+  background:#fffcf6;
+  color:#7a1f1a !important;
+  text-decoration:none !important;
+  font-family:'Libre Baskerville','Noto Serif Devanagari',serif !important;
+  font-size:.72rem !important;
+  font-weight:700 !important;
+  line-height:1.2 !important;
+}
+#content .publication-links a:hover,
+#content .publication-links a:focus{
+  background:#7a1f1a;
+  color:#fff !important;
+  border-color:#7a1f1a !important;
+  outline:none;
+}
+
+@media(max-width:760px){
+  .parallel-media-layout,
+  .parallel-cover-grid,
+  .publication-grid{grid-template-columns:1fr;}
+  .parallel-cover-set--feature,
+  .publication-card--feature{grid-column:auto;}
+  .parallel-section-title{font-size:1.25rem !important;}
+}
+@media(max-width:480px){
+  .parallel-cover-images,
+  .publication-images{grid-template-columns:1fr;}
+  .parallel-cover-set--feature .parallel-cover-images,
+  .publication-card--feature .publication-images{grid-template-columns:1fr;}
+  #content .parallel-cover-set img,
+  #content .publication-images img{max-height:420px;}
+}
+</style>
+
 </head>
 <body>
 <a class="videha-skip" href="#videha-main">मुख्य सामग्रीपर जाउ · Skip to main content</a>
@@ -611,8 +874,8 @@ textarea:focus,input[type="text"]:focus{
         <div class="col-md-12 clrStrip">
             <div class="row">
                 <div class="col-md-12" style="margin-top: 6px;">
-                    <center>विदेह A PARALLEL HISTORY OF 
-					MITHILA &amp; MAITHILI LITERATURE</center>
+                    <center>विदेह A PARALLEL HISTORY OF HISTORY, PHILOSOPHY &amp; 
+					LITERATURE</center>
                 </div>
             </div>
         </div>
@@ -632,7 +895,8 @@ textarea:focus,input[type="text"]:focus{
         &nbsp;</p>
 		<p class="MsoNormal" style="text-align:justify;line-height:200%"><b>
 		<span style="font-size:18.0pt;line-height:200%;font-family:&quot;Noto Serif Devanagari&quot;">
-		A Parallel History of Mithila &amp; Maithili Literature (Part 1-100)- Gajendra Thakur</span></b></p>
+		A Parallel History of History, Philosophy and Literature of Mithila, Vajji 
+		&amp; Anga- Gajendra Thakur</span></b></p>
 <!-- ===== Videha स्थानीय खोज — Parallel History (Part 1-100) ===== -->
 <p style="font-family:'Noto Serif Devanagari',serif;font-size:13.5px;color:#5A4A3A;margin:14px 0 4px;">
   <b style="color:#1F2A44;">📑 स्थानीय खोज</b> — सभ समानांतर इतिहासक प्रविष्टि खोजू।
@@ -648,10 +912,70 @@ textarea:focus,input[type="text"]:focus{
 </div>
 <p id="gajSearch-count" class="vsearch-count" style="display:none">&nbsp;</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6h-nDjYHlME?si=YHGbdozeOFq-zMtT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		<p class="MsoNormal" style="text-align:justify;line-height:200%">
-		<font size="5" face="Noto Serif Devanagari">
-		<img border="0" src="Mithila%20Maithili%20Works.jpg" width="200" height="316" alt="Mithila Maithili"></font></p>
+<section class="parallel-media-hub" aria-labelledby="parallel-media-heading">
+  <p class="parallel-section-kicker">Videha · Watch &amp; Listen</p>
+  <h2 class="parallel-section-title" id="parallel-media-heading">Parallel History &amp; Parallel Philosophy on YouTube</h2>
+  <div class="parallel-media-layout">
+    <div class="parallel-video-panel">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6h-nDjYHlME?si=YHGbdozeOFq-zMtT" title="A Parallel History of Maithili Literature including Thethi, Angika and Bajjika" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p class="parallel-video-caption">A PARALLEL HISTORY OF MAITHILI LITERATURE [INCLUDING THETHI, ANGIKA &amp; BAJJIKA]</p>
+    </div>
+    <nav class="parallel-video-links" aria-label="Parallel History and Philosophy YouTube links">
+      <a class="parallel-video-link" href="https://youtu.be/6h-nDjYHlME?si=ZVoaTnb13v8mnIaS" target="_blank" rel="noopener noreferrer">A PARALLEL HISTORY OF MAITHILI LITERATURE <small>Including Thethi, Angika &amp; Bajjika · Video</small></a>
+      <a class="parallel-video-link" href="https://www.youtube.com/playlist?list=PLAzN1jZn-iOU" target="_blank" rel="noopener noreferrer">PARALLEL PHILOSOPHY VOLUME I <small>YouTube playlist</small></a>
+      <a class="parallel-video-link" href="https://www.youtube.com/playlist?list=PLEeNFEaEfYd0" target="_blank" rel="noopener noreferrer">PARALLEL PHILOSOPHY VOLUME II <small>YouTube playlist</small></a>
+      <a class="parallel-video-link" href="https://www.youtube.com/playlist?list=PLcQhodF4PphE" target="_blank" rel="noopener noreferrer">PARALLEL HISTORY VOLUME I <small>YouTube playlist</small></a>
+      <a class="parallel-video-link" href="https://www.youtube.com/playlist?list=PLGfQDv03IFio" target="_blank" rel="noopener noreferrer">PARALLEL HISTORY VOLUME II <small>YouTube playlist</small></a>
+    </nav>
+  </div>
+</section>
+
+<section class="parallel-cover-gallery" aria-labelledby="parallel-cover-gallery-heading">
+  <p class="parallel-section-kicker">Publication Gallery</p>
+  <h2 class="parallel-section-title" id="parallel-cover-gallery-heading">Parallel History &amp; Parallel Philosophy</h2>
+  <div class="parallel-cover-grid">
+    <figure class="parallel-cover-set parallel-cover-set--feature">
+      <div class="parallel-cover-images">
+        <a href="https://play.google.com/store/books/details?id=uvjREQAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Open A Parallel History of Mithila and Maithili Literature on Google Play Books"><img src="Mithila%20Maithili%20Works.jpg" alt="A Parallel History of Mithila and Maithili Literature — front cover"></a>
+        <a href="https://play.google.com/store/books/details?id=uvjREQAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Open A Parallel History of Mithila and Maithili Literature on Google Play Books"><img src="Parallel%20History%20ISBN.jpg" alt="A Parallel History of Mithila and Maithili Literature — back cover"></a>
+      </div>
+      <figcaption><strong>A Parallel History of Mithila &amp; Maithili Literature</strong>Tome 1–4 · Volumes 1–100</figcaption>
+    </figure>
+
+    <figure class="parallel-cover-set">
+      <div class="parallel-cover-images">
+        <a href="https://play.google.com/store/books/details?id=xisIEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Open History of Mithila, Vajji and Anga Volume I on Google Play Books"><img src="Parallel_History_03.jpg" alt="History of Mithila, Vajji and Anga — Volume I cover image 1"></a>
+        <a href="https://play.google.com/store/books/details?id=xisIEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Open History of Mithila, Vajji and Anga Volume I on Google Play Books"><img src="Parallel_History_04.jpg" alt="History of Mithila, Vajji and Anga — Volume I cover image 2"></a>
+      </div>
+      <figcaption><strong>History of Mithila, Vajji &amp; Anga</strong>From Prehistory to the Contemporary Period · Volume I</figcaption>
+    </figure>
+
+    <figure class="parallel-cover-set">
+      <div class="parallel-cover-images">
+        <a href="https://play.google.com/store/books/details?id=qKEJEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Open History of Mithila, Vajji and Anga Volume II on Google Play Books"><img src="Parallel_History_05.jpg" alt="History of Mithila, Vajji and Anga — Volume II cover image 1"></a>
+        <a href="https://play.google.com/store/books/details?id=qKEJEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Open History of Mithila, Vajji and Anga Volume II on Google Play Books"><img src="Parallel_History_06.jpg" alt="History of Mithila, Vajji and Anga — Volume II cover image 2"></a>
+      </div>
+      <figcaption><strong>History of Mithila, Vajji &amp; Anga</strong>Socio-Cultural-Economic History · Volume II</figcaption>
+    </figure>
+
+    <figure class="parallel-cover-set">
+      <div class="parallel-cover-images">
+        <a href="https://play.google.com/store/books/details?id=PQ8IEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Open Parallel Philosophy Volume I on Google Play Books"><img src="Parallel_History_07.jpg" alt="Parallel Philosophy — Volume I cover image 1"></a>
+        <a href="https://play.google.com/store/books/details?id=PQ8IEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Open Parallel Philosophy Volume I on Google Play Books"><img src="Parallel_History_08.jpg" alt="Parallel Philosophy — Volume I cover image 2"></a>
+      </div>
+      <figcaption><strong>Parallel Philosophy</strong>Volume I</figcaption>
+    </figure>
+
+    <figure class="parallel-cover-set">
+      <div class="parallel-cover-images">
+        <a href="https://play.google.com/store/books/details?id=78kJEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Open Parallel Philosophy Volume II on Google Play Books"><img src="Parallel_History_09.jpg" alt="Parallel Philosophy — Volume II cover image 1"></a>
+        <a href="https://play.google.com/store/books/details?id=78kJEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Open Parallel Philosophy Volume II on Google Play Books"><img src="Parallel_History_10.jpg" alt="Parallel Philosophy — Volume II cover image 2"></a>
+      </div>
+      <figcaption><strong>Parallel Philosophy</strong>Volume II</figcaption>
+    </figure>
+  </div>
+</section>
+
 		<p class="MsoNormal" style="text-align: justify; line-height: 200% !important; margin-bottom: 24.0pt">
 		<i><span style="font-family: Noto Serif Devanagari; color: black">
 		<font size="5">……………………………</font></span></i></p>
@@ -2306,64 +2630,87 @@ Navya-Nyāya Epistemology of Gaṅgeśa&nbsp; Ghazal Poetics&nbsp; Rasa-Dhvani-V
 <!-- /Archive-style paired numbered tabs -->
 
 
-		<!-- Parallel History purchase links moved to bottom -->
-		<p class="MsoNormal"><b><span lang="EN-US">A PARALLEL HISTORY OF MITHILA &amp; 
-		MAITHILI LITERATURE [TOME 1-4; VOLUMES 1-100] BY GAJENDRA THAKUR</span></b></p>
-		<p class="MsoNormal">
-        
-        <span style="font-style: normal">
-			<font face="gargi">
-				<span lang="EN-US" style="font-size: 12.0pt; line-height: 107%; font-family: Noto Serif Devanagari; font-weight: 700">
-		[Series ISBN Number: 978-93-5812-486-6]</span></font></span></p>
-		<p class="MsoNormal"><span lang="EN-US">&nbsp;<img border="0" src="Parallel%20History%20ISBN.jpg" width="462" height="351" alt="Parallel History ISBN"></span></p>
-		<p class="MsoNormal">
-		<a style="color: #0563C1; text-decoration: underline; text-underline: single" href="https://play.google.com/store/books/details?id=uvjREQAAQBAJ">
-		<span lang="EN-US">GOOGLE PLAY BOOK</span></a><span class="MsoHyperlink"><span lang="EN-US"> </span></span><span lang="EN-US">[TOME 1-4; VOLUMES 1-100] </span>
-		</p>
-		<p class="MsoNormal">
-		<a style="color: #0563C1; text-decoration: underline; text-underline: single" href="https://play.google.com/store/books/details?id=uvjREQAAQBAJ">
-		<span lang="EN-US">https://play.google.com/store/books/details?id=uvjREQAAQBAJ</span></a><span lang="EN-US">
-		</span></p>
-		<p class="MsoNormal">
-		<a style="color: #0563C1; text-decoration: underline; text-underline: single" href="https://www.amazon.in/dp/B0GX2XRKM7">
-		<span lang="EN-US">AMAZON KINDLE</span></a><span class="MsoHyperlink"><span lang="EN-US"> </span></span><span lang="EN-US">[TOME 1-4; VOLUMES 1-100]
-		<span class="MsoHyperlink"></span></span></p>
-		<p class="MsoNormal"><span class="MsoHyperlink"><span lang="EN-US">
-		<a href="https://www.amazon.in/dp/B0GX2XRKM7">https://www.amazon.in/dp/B0GX2XRKM7</a> </span></span></p>
-		<p class="MsoNormal"><span class="MsoHyperlink">
-		<span lang="EN-US" style="text-decoration: none">POTHI 
-		HARDBACK</span></span></p>
-		<p class="MsoNormal">
-		<a style="color: #0563C1; text-decoration: underline; text-underline: single" href="https://store.pothi.com/book/gajendra-thakur-parallel-history-mithila-maithili-literature/">
-		<span lang="EN-US">POTHI TOME 1</span></a><span class="MsoHyperlink"><span lang="EN-US"> [VOLUMES 01-25]</span></span></p>
-		<p class="MsoNormal"><span class="MsoHyperlink"><span lang="EN-US">
-		<font color="#000000">
-		<a href="https://store.pothi.com/book/gajendra-thakur-parallel-history-mithila-maithili-literature/">https://store.pothi.com/book/gajendra-thakur-parallel-history-mithila-maithili-literature/</a></font> </span></span></p>
-		<p class="MsoNormal">
-		<a style="color: #0563C1; text-decoration: underline; text-underline: single" href="https://store.pothi.com/book/gajendra-thakur-parallel-history-mithila-maithili-tome-2/">
-		<span lang="EN-US">POTHI TOME 2</span></a><span class="MsoHyperlink"><span lang="EN-US"> 
-		[VOLUMES 26-50]</span></span></p>
-		<p class="MsoNormal">
-		<a style="color: #0563C1; text-decoration: underline; text-underline: single" href="https://store.pothi.com/book/gajendra-thakur-parallel-history-mithila-maithili-tome-2/">
-		<span lang="EN-US">https://store.pothi.com/book/gajendra-thakur-parallel-history-mithila-maithili-tome-2/</span></a><span class="MsoHyperlink"><span lang="EN-US">
-		</span></span></p>
-		<p class="MsoNormal">
-		<a style="color: #0563C1; text-decoration: underline; text-underline: single" href="https://store.pothi.com/book/gajendra-thakur-parallel-history-mithila-maithili-literature-volume-1-100-tome-3-volume-51-75-b/">
-		<span lang="EN-US">POTHI TOME 3</span></a><span class="MsoHyperlink"><span lang="EN-US"> 
-		[VOLUMES 51-75]</span></span></p>
-		<p class="MsoNormal">
-		<a style="color: #0563C1; text-decoration: underline; text-underline: single" href="https://store.pothi.com/book/gajendra-thakur-parallel-history-mithila-maithili-literature-volume-1-100-tome-3-volume-51-75-b/">
-		<span lang="EN-US">https://store.pothi.com/book/gajendra-thakur-parallel-history-mithila-maithili-literature-volume-1-100-tome-3-volume-51-75-b/</span></a><span class="MsoHyperlink"><span lang="EN-US">
-		</span></span></p>
-		<p class="MsoNormal">
-		<a style="color: #0563C1; text-decoration: underline; text-underline: single" href="https://store.pothi.com/book/gajendra-thakur-parallel-history-mithila-maithili-literature-volume-1-100-tome-4-volume-76-100-/">
-		<span lang="EN-US">POTHI TOME 4</span></a><span class="MsoHyperlink"><span lang="EN-US"> 
-		[VOLUMES 76-100]</span></span></p>
-		<p class="MsoNormal">
-		<a style="color: #0563C1; text-decoration: underline; text-underline: single" href="https://store.pothi.com/book/gajendra-thakur-parallel-history-mithila-maithili-literature-volume-1-100-tome-4-volume-76-100-/">
-		<span lang="EN-US">https://store.pothi.com/book/gajendra-thakur-parallel-history-mithila-maithili-literature-volume-1-100-tome-4-volume-76-100-/</span></a><span class="MsoHyperlink"><span lang="EN-US">
-		</span></span></p>
+		<!-- Parallel History / Philosophy publication links — revised visual shelf -->
+<section class="parallel-publications" aria-labelledby="parallel-publications-heading">
+  <p class="parallel-section-kicker">Books · Audiobooks · Digital Editions</p>
+  <h2 class="parallel-section-title" id="parallel-publications-heading">Parallel History &amp; Parallel Philosophy — Publication Links</h2>
 
+  <div class="publication-grid">
+    <article class="publication-card publication-card--feature" id="pub-parallel-history">
+      <h3>A PARALLEL HISTORY OF MITHILA &amp; MAITHILI LITERATURE [TOME 1–4; VOLUMES 1–100] BY GAJENDRA THAKUR</h3>
+      <p class="publication-meta">ISBN 978-93-5812-486-6</p>
+      <div class="publication-images">
+        <a href="https://play.google.com/store/books/details?id=uvjREQAAQBAJ" target="_blank" rel="noopener noreferrer"><img src="Mithila%20Maithili%20Works.jpg" alt="A Parallel History of Mithila and Maithili Literature — front cover" loading="lazy"></a>
+        <a href="https://play.google.com/store/books/details?id=uvjREQAAQBAJ" target="_blank" rel="noopener noreferrer"><img src="Parallel%20History%20ISBN.jpg" alt="A Parallel History of Mithila and Maithili Literature — back cover" loading="lazy"></a>
+      </div>
+      <div class="publication-links" aria-label="A Parallel History of Mithila and Maithili Literature purchase and listening links">
+        <a href="https://play.google.com/store/books/details?id=uvjREQAAQBAJ" target="_blank" rel="noopener noreferrer">Google Play Book</a>
+        <a href="https://play.google.com/store/audiobooks/details?id=AQAAAEBas1rzEM" target="_blank" rel="noopener noreferrer">Google Play Audiobook</a>
+        <a href="https://www.amazon.in/dp/B0GX2XRKM7" target="_blank" rel="noopener noreferrer">Amazon Kindle</a>
+        <a href="https://store.pothi.com/book/gajendra-thakur-parallel-history-mithila-maithili-literature/" target="_blank" rel="noopener noreferrer">Pothi Tome 1 · Vol. 01–25</a>
+        <a href="https://store.pothi.com/book/gajendra-thakur-parallel-history-mithila-maithili-tome-2/" target="_blank" rel="noopener noreferrer">Pothi Tome 2 · Vol. 26–50</a>
+        <a href="https://store.pothi.com/book/gajendra-thakur-parallel-history-mithila-maithili-literature-volume-1-100-tome-3-volume-51-75-b/" target="_blank" rel="noopener noreferrer">Pothi Tome 3 · Vol. 51–75</a>
+        <a href="https://store.pothi.com/book/gajendra-thakur-parallel-history-mithila-maithili-literature-volume-1-100-tome-4-volume-76-100-/" target="_blank" rel="noopener noreferrer">Pothi Tome 4 · Vol. 76–100</a>
+      </div>
+    </article>
+
+    <article class="publication-card" id="pub-history-vol-1">
+      <h3>HISTORY OF MITHILA, VAJJI &amp; ANGA: FROM PREHISTORY TO THE CONTEMPORARY PERIOD</h3>
+      <p class="publication-meta">A Parallel History of Mithila &amp; Maithili Literature · Volume I</p>
+      <div class="publication-images">
+        <a href="https://play.google.com/store/books/details?id=xisIEgAAQBAJ" target="_blank" rel="noopener noreferrer"><img src="Parallel_History_03.jpg" alt="History of Mithila, Vajji and Anga — Volume I cover image 1" loading="lazy"></a>
+        <a href="https://play.google.com/store/books/details?id=xisIEgAAQBAJ" target="_blank" rel="noopener noreferrer"><img src="Parallel_History_04.jpg" alt="History of Mithila, Vajji and Anga — Volume I cover image 2" loading="lazy"></a>
+      </div>
+      <div class="publication-links" aria-label="History of Mithila, Vajji and Anga Volume I links">
+        <a href="https://store.pothi.com/book/gajendra-thakur-history-of-mithila-vajji-anga-india-nepal/" target="_blank" rel="noopener noreferrer">Pothi Hardback</a>
+        <a href="https://play.google.com/store/books/details?id=xisIEgAAQBAJ" target="_blank" rel="noopener noreferrer">Google Play Book</a>
+        <a href="https://play.google.com/store/audiobooks/details?id=AQAAAEAG7l6uSM" target="_blank" rel="noopener noreferrer">Google Play Audiobook</a>
+        <a href="https://www.amazon.in/dp/B0HHJ27ZG4" target="_blank" rel="noopener noreferrer">Amazon Kindle</a>
+      </div>
+    </article>
+
+    <article class="publication-card" id="pub-history-vol-2">
+      <h3>HISTORY OF MITHILA, VAJJI &amp; ANGA: SOCIO-CULTURAL-ECONOMIC HISTORY OF MITHILA, VAJJI &amp; ANGA IN INDIA &amp; NEPAL</h3>
+      <p class="publication-meta">From Prehistory to the Contemporary Period · A Parallel History of Mithila &amp; Maithili Literature · Volume II</p>
+      <div class="publication-images">
+        <a href="https://play.google.com/store/books/details?id=qKEJEgAAQBAJ" target="_blank" rel="noopener noreferrer"><img src="Parallel_History_05.jpg" alt="History of Mithila, Vajji and Anga — Volume II cover image 1" loading="lazy"></a>
+        <a href="https://play.google.com/store/books/details?id=qKEJEgAAQBAJ" target="_blank" rel="noopener noreferrer"><img src="Parallel_History_06.jpg" alt="History of Mithila, Vajji and Anga — Volume II cover image 2" loading="lazy"></a>
+      </div>
+      <div class="publication-links" aria-label="History of Mithila, Vajji and Anga Volume II links">
+        <a href="https://store.pothi.com/book/gajendra-thakur-history-of-mithila-vajji-anga-in-india-nepal-volume-ii-part-1/" target="_blank" rel="noopener noreferrer">Pothi Hardback</a>
+        <a href="https://play.google.com/store/books/details?id=qKEJEgAAQBAJ" target="_blank" rel="noopener noreferrer">Google Play Book</a>
+        <a href="https://play.google.com/store/audiobooks/details?id=AQAAAEAGGTJZJM" target="_blank" rel="noopener noreferrer">Google Play Audiobook</a>
+        <a href="https://www.amazon.in/dp/B0HHYHNXZ7" target="_blank" rel="noopener noreferrer">Amazon Kindle</a>
+      </div>
+    </article>
+
+    <article class="publication-card" id="pub-philosophy-vol-1">
+      <h3>PARALLEL PHILOSOPHY — VOLUME I</h3>
+      <p class="publication-meta">Gajendra Thakur</p>
+      <div class="publication-images">
+        <a href="https://play.google.com/store/books/details?id=PQ8IEgAAQBAJ" target="_blank" rel="noopener noreferrer"><img src="Parallel_History_07.jpg" alt="Parallel Philosophy — Volume I cover image 1" loading="lazy"></a>
+        <a href="https://play.google.com/store/books/details?id=PQ8IEgAAQBAJ" target="_blank" rel="noopener noreferrer"><img src="Parallel_History_08.jpg" alt="Parallel Philosophy — Volume I cover image 2" loading="lazy"></a>
+      </div>
+      <div class="publication-links" aria-label="Parallel Philosophy Volume I links">
+        <a href="https://store.pothi.com/book/gajendra-thakur-gajendra-thakurs-parallel-philosophy/" target="_blank" rel="noopener noreferrer">Pothi Hardback</a>
+        <a href="https://play.google.com/store/books/details?id=PQ8IEgAAQBAJ" target="_blank" rel="noopener noreferrer">Google Play Book</a>
+      </div>
+    </article>
+
+    <article class="publication-card" id="pub-philosophy-vol-2">
+      <h3>PARALLEL PHILOSOPHY — VOLUME II</h3>
+      <p class="publication-meta">Gajendra Thakur</p>
+      <div class="publication-images">
+        <a href="https://play.google.com/store/books/details?id=78kJEgAAQBAJ" target="_blank" rel="noopener noreferrer"><img src="Parallel_History_09.jpg" alt="Parallel Philosophy — Volume II cover image 1" loading="lazy"></a>
+        <a href="https://play.google.com/store/books/details?id=78kJEgAAQBAJ" target="_blank" rel="noopener noreferrer"><img src="Parallel_History_10.jpg" alt="Parallel Philosophy — Volume II cover image 2" loading="lazy"></a>
+      </div>
+      <div class="publication-links" aria-label="Parallel Philosophy Volume II links">
+        <a href="https://store.pothi.com/book/%E0%A4%97%E0%A4%9C%E0%A4%A8%E0%A4%A6%E0%A4%B0-%E0%A4%A0%E0%A4%95%E0%A4%B0-%E0%A4%97%E0%A4%9C%E0%A4%A8%E0%A4%A6%E0%A4%B0-%E0%A4%A0%E0%A4%95%E0%A4%B0%E0%A4%95-%E0%A4%B8%E0%A4%AE%E0%A4%A8%E0%A4%A8%E0%A4%A4%E0%A4%B0-%E0%A4%A6%E0%A4%B0%E0%A4%B6%E0%A4%A8-%E0%A4%96%E0%A4%A3%E0%A4%A1-%E0%A5%A8/" target="_blank" rel="noopener noreferrer">Pothi Hardback</a>
+        <a href="https://play.google.com/store/books/details?id=78kJEgAAQBAJ" target="_blank" rel="noopener noreferrer">Google Play Book</a>
+      </div>
+    </article>
+  </div>
+</section>
 
 		<h2 class="style1" style="line-height: 200%; text-align: justify">
 		<i><font face="Noto Serif Devanagari"><span style="font-style: normal; color: #8B1A1A !important;">अपन मंतव्य editorial.staff.videha@zohomail.in पर पठाउ।</span></font></i><p style="line-height: 200%; text-align: justify">
