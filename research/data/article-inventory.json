@@ -3,7 +3,7 @@
   "current_index_issue": "449",
   "current_index_included": true,
   "article_entries_inventoried": 3522,
-  "scholar_candidates": 281,
+  "scholar_candidates": 270,
   "parse_errors": [],
   "rows": [
     {
@@ -124,7 +124,7 @@
       "title": "English translation of Gajendra Thakur's Maithili Novel Sahasrabadhani",
       "page_start": "",
       "page_end": "",
-      "body_chars": 19249,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -294,7 +294,7 @@
       "title": "English translation of Gajendra Thakur's Maithili Novel Sahasrabadhani by jyoti",
       "page_start": "",
       "page_end": "",
-      "body_chars": 31543,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -387,12 +387,10 @@
       "title": "English translation of Gajendra Thakur's Maithili Novel Sahasrabadhani by jyoti",
       "page_start": "",
       "page_end": "",
-      "body_chars": 17040,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ"
-      ],
-      "scholar_candidate": true,
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
       "source_path": "search-documents/videha-022.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20022.pdf"
     },
@@ -636,12 +634,10 @@
       "title": "हमर सपना केर मिथिला",
       "page_start": "",
       "page_end": "",
-      "body_chars": 71548,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ"
-      ],
-      "scholar_candidate": true,
+      "body_chars": 3532,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
       "source_path": "search-documents/videha-026.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20026.pdf"
     },
@@ -730,7 +726,7 @@
       "title": "गजेन्द्र ठाकुर",
       "page_start": "",
       "page_end": "",
-      "body_chars": 34660,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -1277,7 +1273,7 @@
       "title": "केना होएत मिथिलाक जीर्णोद्धार",
       "page_start": "",
       "page_end": "",
-      "body_chars": 198286,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -4403,7 +4399,7 @@
       "title": "कथा- अन्हेर",
       "page_start": "",
       "page_end": "",
-      "body_chars": 41540,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -6759,7 +6755,7 @@
       "title": "“मैथिलीक प्रमुख उपभाषाक क्षेत्र आ ओकर प्रमुख विशेषता” यू. पी. एस. सी. परीक्षार्थीक हेतु उपयोगी",
       "page_start": "",
       "page_end": "",
-      "body_chars": 31030,
+      "body_chars": 152987,
       "classification": "references-present",
       "signals": [
         "सन्दर्भ"
@@ -6821,7 +6817,7 @@
       "title": "नबकनियाँ",
       "page_start": "",
       "page_end": "",
-      "body_chars": 61610,
+      "body_chars": 30579,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -7403,12 +7399,10 @@
       "title": "story “shabdashastram” by Gajendra Thakur re-written in English by the author himself",
       "page_start": "",
       "page_end": "",
-      "body_chars": 67461,
-      "classification": "references-present",
-      "signals": [
-        "सन्दर्भ"
-      ],
-      "scholar_candidate": true,
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
       "source_path": "search-documents/videha-070.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20070.pdf"
     },
@@ -8135,7 +8129,7 @@
       "title": "हिन्दी उपन्यास- डॉ. प्रभा खेतान ; हिन्दीसँ मैथिली अनुवाद सुशीला झा",
       "page_start": "",
       "page_end": "",
-      "body_chars": 37383,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "उपन्यास"
@@ -8265,7 +8259,7 @@
       "title": "एकटा संस्मरण एकटा प्रश्न",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -8280,7 +8274,7 @@
       "title": "मैथि‍ली कथाक वि‍कासमे गामक जि‍नगीक योगदान-",
       "page_start": "",
       "page_end": "",
-      "body_chars": 32330,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -8404,7 +8398,7 @@
       "title": "मैथिलीमे क्रिकेटक कमेन्ट्री",
       "page_start": "",
       "page_end": "",
-      "body_chars": 38165,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -8469,7 +8463,7 @@
       "title": "नेपालमे राष्ट्रिय जनगणना मैथिलीकेँ स्थान दियावकेँ विशेष संकल्प",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -8484,7 +8478,7 @@
       "title": "स॒हस्र॑ शीर्षा॒",
       "page_start": "",
       "page_end": "",
-      "body_chars": 32361,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -8627,7 +8621,7 @@
       "title": "हाइकू",
       "page_start": "",
       "page_end": "",
-      "body_chars": 62599,
+      "body_chars": 24537,
       "classification": "non-scholar-priority",
       "signals": [
         "हाइकू"
@@ -8644,7 +8638,7 @@
       "title": "अपने घरमे उपेक्षित मिथिला चित्रकला",
       "page_start": "",
       "page_end": "",
-      "body_chars": 38479,
+      "body_chars": 0,
       "classification": "culture-art",
       "signals": [
         "चित्रकला",
@@ -8820,7 +8814,7 @@
       "title": "डॉ. कैलाश कुमार मि‍श्र-भावमय, भोगमय, योगमय बृन्‍दावन (पहिल खेपसँ आगाँ)",
       "page_start": "",
       "page_end": "",
-      "body_chars": 37500,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -9014,7 +9008,7 @@
       "title": "अधिकार",
       "page_start": "",
       "page_end": "",
-      "body_chars": 32785,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -9076,7 +9070,7 @@
       "title": "अनचिन्हार- बेचन ठाकुरजीक नाटक- बेटीक अपमान",
       "page_start": "",
       "page_end": "",
-      "body_chars": 33649,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "नाटक"
@@ -9108,7 +9102,7 @@
       "title": "कथा-ब्रेस्ट कैंसर",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -9125,7 +9119,7 @@
       "title": "जनगणनामे मातृभाषा",
       "page_start": "",
       "page_end": "",
-      "body_chars": 31976,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -9311,7 +9305,7 @@
       "title": "मैथिल दृष्टिक प्रसंग मुम्बइसँ एक चिट्ठी/ बुच्ची दाइक निलामी कोना से देखू",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -9326,7 +9320,7 @@
       "title": "कथा- बि‍हरन",
       "page_start": "",
       "page_end": "",
-      "body_chars": 31880,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -9499,7 +9493,7 @@
       "title": "कारी घटा बरसैत मेघ",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -9514,7 +9508,7 @@
       "title": "कथा-मातृभूमि",
       "page_start": "",
       "page_end": "",
-      "body_chars": 32413,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -9640,7 +9634,7 @@
       "title": "संभावना",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -9655,7 +9649,7 @@
       "title": "कथा कि‍रणमे यथार्थवोध ओ नारी वि‍मर्श",
       "page_start": "",
       "page_end": "",
-      "body_chars": 34767,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -9800,7 +9794,7 @@
       "title": "यात्राक किछु पश्न",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -9815,7 +9809,7 @@
       "title": "उपन्‍यास- हमर टोल- गतांशसँ आगाँ…",
       "page_start": "",
       "page_end": "",
-      "body_chars": 35286,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -9847,7 +9841,7 @@
       "title": "विमलक गजल आ सुजितक कथा",
       "page_start": "",
       "page_end": "",
-      "body_chars": 41538,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -9974,7 +9968,7 @@
       "title": "कथा-भबडाह",
       "page_start": "",
       "page_end": "",
-      "body_chars": 42014,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -10083,7 +10077,7 @@
       "title": "एकटा दीर्घकथा आ एकटा एकांकी",
       "page_start": "",
       "page_end": "",
-      "body_chars": 41172,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -10181,7 +10175,7 @@
       "title": "देवशंकर नवीनसँ मुन्नाजी पुछैत छथि ढेर रास गप।",
       "page_start": "",
       "page_end": "",
-      "body_chars": 40720,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -10290,7 +10284,7 @@
       "title": "वीरांगना",
       "page_start": "",
       "page_end": "",
-      "body_chars": 40787,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -10457,7 +10451,7 @@
       "title": "पत्रिकाक सहायक सम्पादक मुन्नाजीक संग रामभरोस कापड़ि “भ्रमर”क बातचीत",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -10472,13 +10466,10 @@
       "title": "बृषेश चन्द्र लालजी सँ मुन्नाजी पुछैत छथि ढेर रास गप",
       "page_start": "",
       "page_end": "",
-      "body_chars": 174739,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ",
-        "सन्दर्भ"
-      ],
-      "scholar_candidate": true,
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
       "source_path": "search-documents/videha-095.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20095.pdf"
     },
@@ -10522,7 +10513,7 @@
       "title": "मु/g38णाजी",
       "page_start": "",
       "page_end": "",
-      "body_chars": 416891,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -10569,7 +10560,7 @@
       "title": "उ/g2थैकामुख (आग/ॱड6ड)",
       "page_start": "",
       "page_end": "",
-      "body_chars": 772270,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -10584,7 +10575,7 @@
       "title": "साकेतानन्दजीक मृत्यु/ पुरस्कारक बजार मे लागि रहल बोली/ पर्यटक स्थल बनल विस्फी, महिषी पर सेहो अछि नजरि/ अन्धरा ठाढ़ी मे बनत स्मारक, सरकार केँ याद अयलनि वाचस्पति मिश्र/ साहित्यिक जौहरी छथि अकादमीक मैथिली परामर्शी/ शताब्दी वर्ष मे प्रकाशित होयत सय पोथी/ विधान परिषद्क शताब्दी वर्षक अवसर पर आयोजित होयत विशेष बैसक/ बिहार मे खादी ग्रामोद्योग संस्था सभक विकास।",
       "page_start": "",
       "page_end": "",
-      "body_chars": 39807,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -10631,7 +10622,7 @@
       "title": "बिहार सहित पांच प्रदेशकेँ अन्नक खरीद बढ़ैबाक निर्देश/ 21 फरवरी सॅ प्रारंभ होयत विधान मंडलक बजट सत्र/ मुख्यमंत्रीक स्वागतक तैयारी कऽ रहल छथि रांटी गामवासी/ बढ़ि रहल अछि बालिका शिक्षाक दर/ बिहार मे सभ वर्ष मनाओल जायत भूकम्प आ बाढ़ि सुरक्षा सप्ताह/ सम्पन्न भेल विद्यालयक स्थापना दिवस/",
       "page_start": "",
       "page_end": "",
-      "body_chars": 37803,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -10740,7 +10731,7 @@
       "title": "बिहारक औद्योगिक विकास मे बाधा बनि रहल जमीन आ बिजली/ राशन कार्डक होयत डिजिटलीकरण/ मिथिलांचल मे माछ उत्पादक भरोसा देलनि मुख्यमंत्री, सौराठ मे खुजत मिथिला चित्रकला संस्थान/ जन आंदोलन सँ होयत कोसीक समस्याक समाधान-मेधा पाटेकर",
       "page_start": "",
       "page_end": "",
-      "body_chars": 38046,
+      "body_chars": 0,
       "classification": "culture-art",
       "signals": [
         "चित्रकला",
@@ -10807,7 +10798,7 @@
       "title": "तीन दिवसीय कार्यशालाक आयोजन",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -10822,7 +10813,7 @@
       "title": "२टा विहनि कथा",
       "page_start": "",
       "page_end": "",
-      "body_chars": 34614,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -10952,7 +10943,7 @@
       "title": "मोछ",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -10967,7 +10958,7 @@
       "title": "कथा- गहींर आँखिक व्यथा",
       "page_start": "",
       "page_end": "",
-      "body_chars": 31786,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -11046,7 +11037,7 @@
       "title": "शाश्वत कथा",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -11063,7 +11054,7 @@
       "title": "कथा- निर्मोहिया",
       "page_start": "",
       "page_end": "",
-      "body_chars": 31774,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -11172,7 +11163,7 @@
       "title": "१. बहुरूपिया रचना मे २. घोघ उठबैत गजल",
       "page_start": "",
       "page_end": "",
-      "body_chars": 38116,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "गजल"
@@ -11219,7 +11210,7 @@
       "title": "फाँसी",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -11234,7 +11225,7 @@
       "title": "पछि‍ला खेपसँ आगू",
       "page_start": "",
       "page_end": "",
-      "body_chars": 32038,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -11315,7 +11306,7 @@
       "title": "फाँसी-आगाँ",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -11330,7 +11321,7 @@
       "title": "बिदापत नाच",
       "page_start": "",
       "page_end": "",
-      "body_chars": 31968,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -11420,7 +11411,7 @@
       "title": "कथा-केहन सजाय?",
       "page_start": "",
       "page_end": "",
-      "body_chars": 32051,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -11535,7 +11526,7 @@
       "title": "कथा-मेनका",
       "page_start": "",
       "page_end": "",
-      "body_chars": 32118,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -11614,7 +11605,7 @@
       "title": "कथा",
       "page_start": "",
       "page_end": "",
-      "body_chars": 40372,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -11725,7 +11716,7 @@
       "title": "लघुकथा-परदेशी बेटी",
       "page_start": "",
       "page_end": "",
-      "body_chars": 39680,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -11823,7 +11814,7 @@
       "title": "मैथिली लोक संस्कृति संगोष्ठी अन्तरगत लोकनायक सलहेसःचर्चा–परिचर्चा कार्यक्रम सम्पन्न",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "culture-art+conference-seminar",
       "signals": [
         "संगोष्ठी",
@@ -11841,7 +11832,7 @@
       "title": "लघुकथा- बसात",
       "page_start": "",
       "page_end": "",
-      "body_chars": 32136,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -11957,7 +11948,7 @@
       "title": "बाल गजल",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5308,
+      "body_chars": 9410,
       "classification": "non-scholar-priority",
       "signals": [
         "गजल"
@@ -11974,7 +11965,7 @@
       "title": "काफिया",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -11989,7 +11980,7 @@
       "title": "दूटा विहनि कथा",
       "page_start": "",
       "page_end": "",
-      "body_chars": 32137,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -12089,7 +12080,7 @@
       "title": "काफिया आ बहर",
       "page_start": "",
       "page_end": "",
-      "body_chars": 56865,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -12250,7 +12241,7 @@
       "title": "राजेश्वर नेपालीक सातटा कृति विमोचित",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -12265,7 +12256,7 @@
       "title": "म्याराथन दौड़ आ जनकपुर",
       "page_start": "",
       "page_end": "",
-      "body_chars": 32206,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -12380,7 +12371,7 @@
       "title": "लघुकथा- व्यथा",
       "page_start": "",
       "page_end": "",
-      "body_chars": 31735,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -12517,7 +12508,7 @@
       "title": "यात्रा प्रसंग- ह्वेन सांगसं चीनमे भेंटघांट",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -12532,7 +12523,7 @@
       "title": "पाँचटा वि‍हनि‍ कथा",
       "page_start": "",
       "page_end": "",
-      "body_chars": 32129,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -12643,7 +12634,7 @@
       "title": "जगदीश प्रसाद मण्डल: एकटा बायोग्राफी (आगाँ)",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -12658,7 +12649,7 @@
       "title": "आठटा वि‍हनि‍ कथा",
       "page_start": "",
       "page_end": "",
-      "body_chars": 33817,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -12839,7 +12830,7 @@
       "title": "लघु-दीर्घ निर्णय भाग-1",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -12854,7 +12845,7 @@
       "title": "किछु वि‍हनि‍ कथा",
       "page_start": "",
       "page_end": "",
-      "body_chars": 33725,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -13038,7 +13029,7 @@
       "title": "माहिया",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -13053,7 +13044,7 @@
       "title": "लघुकथा-इमानदार घूसखोर",
       "page_start": "",
       "page_end": "",
-      "body_chars": 31702,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -13233,7 +13224,7 @@
       "title": "विहनि कथा : पुरस्कार",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -13250,7 +13241,7 @@
       "title": "दूटा लघुकथा-पटि‍याबला/ सनेस",
       "page_start": "",
       "page_end": "",
-      "body_chars": 16224,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -13381,7 +13372,7 @@
       "title": "द्वि‍रागमन",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -13396,7 +13387,7 @@
       "title": "लघुकथा-कलंक",
       "page_start": "",
       "page_end": "",
-      "body_chars": 16183,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -13559,7 +13550,7 @@
       "title": "एक युग़: टच वुड",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -13574,7 +13565,7 @@
       "title": "उपन्‍यास- बड़की बहि‍न/ सधवा-वि‍धवा",
       "page_start": "",
       "page_end": "",
-      "body_chars": 16182,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -13747,7 +13738,7 @@
       "title": "जगदीश प्रसाद मण्‍डलक रचना संसार- संक्षि‍प्‍त परि‍चय",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -13762,7 +13753,7 @@
       "title": "उपन्‍यास- बड़की बहि‍न (आगाँ..)",
       "page_start": "",
       "page_end": "",
-      "body_chars": 16183,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -13839,7 +13830,7 @@
       "title": "गजल१-२",
       "page_start": "",
       "page_end": "",
-      "body_chars": 1700,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "गजल"
@@ -13856,7 +13847,7 @@
       "title": "भक्ति गजल",
       "page_start": "",
       "page_end": "",
-      "body_chars": 21892,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "गजल"
@@ -14005,7 +13996,7 @@
       "title": "एक युग: टच वुड -भाग-३",
       "page_start": "",
       "page_end": "",
-      "body_chars": 18019,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -14134,12 +14125,10 @@
       "title": "एक युग: टच वुड -भाग-४",
       "page_start": "",
       "page_end": "",
-      "body_chars": 24266,
-      "classification": "references-present",
-      "signals": [
-        "सन्दर्भ"
-      ],
-      "scholar_candidate": true,
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
       "source_path": "search-documents/videha-128.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20128.pdf"
     },
@@ -14232,7 +14221,7 @@
       "title": "लघुकथा- माटीक मुरुत",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5699,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -14250,7 +14239,7 @@
       "title": "लघुकथा- ममता",
       "page_start": "",
       "page_end": "",
-      "body_chars": 16179,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -14400,7 +14389,7 @@
       "title": "लघुकथा-घुइर ताकू",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5694,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -14418,7 +14407,7 @@
       "title": "विहनि कथा: टेनामेनी/ दुर्भाग्य/ घुसखोर/ छुआछुत",
       "page_start": "",
       "page_end": "",
-      "body_chars": 16175,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -14519,7 +14508,7 @@
       "title": "लघुकथा-कोन डारि पर केकर खोता",
       "page_start": "",
       "page_end": "",
-      "body_chars": 21742,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -15428,7 +15417,7 @@
       "title": "नेपालक नोर मरूभूमिमे/ कलंकित चान",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5694,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -15443,7 +15432,7 @@
       "title": "लघुकथा-किरदानी",
       "page_start": "",
       "page_end": "",
-      "body_chars": 16518,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -17363,7 +17352,7 @@
       "title": "जाति २. लक्ष्‍मी दास- पकधरम ३. ललन कुमार कामत- बाबाक लोटा",
       "page_start": "",
       "page_end": "",
-      "body_chars": 22415,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -21145,7 +21134,7 @@
       "title": "पंगु (उपbयास )- आगi आ दूटा लघुकथा",
       "page_start": "",
       "page_end": "",
-      "body_chars": 135310,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -22235,7 +22224,7 @@
       "title": "मरण’ उपन्यासक लोकार्पण कुमार रामेश्वर लाल दासतथा मंचस्थ अन्य विद्वान लोकनिक बीच भेल अछि। सम्पूर्ण ग्रामीणक आयोजकत्व तथा जगदीश प्रसाद मण्डलजीक संयोजकत्वमे, मध्य विद्यालय परिसर- बेरमा गाममे उक्त गोष्ठी भेल छल। कहल जाइछ, सगर राति दीप जरय’क 71म आयोजनसँकथागोष्ठीमे खास बदलाव आबए लगल। नव-नव कथाकार, नव-नव सयोजकक संयोजकत्वमे ‘सगर राति दीप जरय’ गाम-गाममे, गौंआँ-समाजक साहित्य प्रेमीक सार्वजनिक स्थलपर आयोजित होएबाक दिशामे अग्रसर भेल।",
       "page_start": "",
       "page_end": "",
-      "body_chars": 34559,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -22270,7 +22259,7 @@
       "title": "किछु बीहनि कथा",
       "page_start": "",
       "page_end": "",
-      "body_chars": 16848,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -25753,7 +25742,7 @@
       "title": "३ टा बीहनि कथा",
       "page_start": "",
       "page_end": "",
-      "body_chars": 8643,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -28476,7 +28465,7 @@
       "title": "फागु",
       "page_start": "",
       "page_end": "",
-      "body_chars": 10267,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -32782,7 +32771,7 @@
       "title": "मातृभूमि (उपन्यास)-आगाँ-",
       "page_start": "06",
       "page_end": "13",
-      "body_chars": 3653,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "उपन्यास"
@@ -32799,7 +32788,7 @@
       "title": "आमक गाछी-",
       "page_start": "15",
       "page_end": "20",
-      "body_chars": 2115,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -33650,7 +33639,7 @@
       "title": "भगवान हमरा गरीब किए बनेलौं!",
       "page_start": "78",
       "page_end": "82",
-      "body_chars": 4840,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -33716,7 +33705,7 @@
       "title": "सत ओ झूठ",
       "page_start": "95",
       "page_end": "99",
-      "body_chars": 1711,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -33793,7 +33782,7 @@
       "title": "मोनक बात",
       "page_start": "61",
       "page_end": "62",
-      "body_chars": 4694,
+      "body_chars": 1045,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -34015,7 +34004,7 @@
       "title": "नियोजितक चान",
       "page_start": "80",
       "page_end": "82",
-      "body_chars": 3080,
+      "body_chars": 794,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -34075,7 +34064,7 @@
       "title": "पसरल भ्रम खत्म हेतैः गजलक संदर्भमे",
       "page_start": "55",
       "page_end": "66",
-      "body_chars": 5756,
+      "body_chars": 13088,
       "classification": "non-scholar-priority",
       "signals": [
         "गजल"
@@ -34270,7 +34259,7 @@
       "title": "२ टा आजाद गजल",
       "page_start": "77",
       "page_end": "80",
-      "body_chars": 1778,
+      "body_chars": 997,
       "classification": "non-scholar-priority",
       "signals": [
         "गजल"
@@ -34399,7 +34388,7 @@
       "title": "प्रवासी मजदूरक पीर आ मिथिला राज्य",
       "page_start": "112",
       "page_end": "120",
-      "body_chars": 7561,
+      "body_chars": 11103,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -34566,7 +34555,7 @@
       "title": "बहुत सुनेलियौ तोरा, आब सुनबौ तोहर सभ गप",
       "page_start": "163",
       "page_end": "166",
-      "body_chars": 2668,
+      "body_chars": 1407,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -34896,10 +34885,9 @@
       "title": "मैथिल नारीक सांस्कृतिक- साहित्यिक स्वर - प्रेमलता मिश्र प्रेम",
       "page_start": "113",
       "page_end": "116",
-      "body_chars": 5574,
+      "body_chars": 3208,
       "classification": "culture-art",
       "signals": [
-        "संदर्भ",
         "सांस्कृतिक"
       ],
       "scholar_candidate": true,
@@ -35251,7 +35239,7 @@
       "title": "हम छी नारी",
       "page_start": "194",
       "page_end": "195",
-      "body_chars": 2767,
+      "body_chars": 698,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -35266,7 +35254,7 @@
       "title": "चम्पूसाहित्ययशो विलासः (चतुर्थोच्छवासः)",
       "page_start": "196",
       "page_end": "198",
-      "body_chars": 6399,
+      "body_chars": 2051,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -35455,7 +35443,7 @@
       "title": "(प्रस्तुति श्री जगदीश चन्द्र ठाकुर 'अनिल')",
       "page_start": "15",
       "page_end": "20",
-      "body_chars": 3172,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -35470,7 +35458,7 @@
       "title": "खाँटी मैथिलीस्ट शरदू जी!",
       "page_start": "113",
       "page_end": "118",
-      "body_chars": 8277,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -35500,10 +35488,10 @@
       "title": "शरदिन्दु कुमार चौधरीक साहित्य : 'स्वारथ लागि करहिं सब प्रीती'",
       "page_start": "125",
       "page_end": "134",
-      "body_chars": 4615,
+      "body_chars": 15443,
       "classification": "references-present",
       "signals": [
-        "संदर्भ"
+        "सन्दर्भ"
       ],
       "scholar_candidate": true,
       "source_path": "search-documents/videha-358.html",
@@ -35845,10 +35833,12 @@
       "title": "चम्पूसाहित्ययशो विलासः (पञ्चमोच्छवासः)",
       "page_start": "250",
       "page_end": "252",
-      "body_chars": 13231,
-      "classification": "unclassified",
-      "signals": [],
-      "scholar_candidate": false,
+      "body_chars": 2087,
+      "classification": "references-present",
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "scholar_candidate": true,
       "source_path": "search-documents/videha-358.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20358.pdf"
     },
@@ -35985,7 +35975,7 @@
       "title": "१ टा लघुकथा- डऽर कथी के",
       "page_start": "236",
       "page_end": "237",
-      "body_chars": 69145,
+      "body_chars": 1807,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -36150,7 +36140,7 @@
       "title": "दू टा गजल",
       "page_start": "242",
       "page_end": "243",
-      "body_chars": 1684,
+      "body_chars": 559,
       "classification": "non-scholar-priority",
       "signals": [
         "गजल"
@@ -36341,12 +36331,10 @@
       "title": "अनमोल झा जीक पोथी 'टेकनोलजी'क समीक्षा",
       "page_start": "139",
       "page_end": "142",
-      "body_chars": 32650,
-      "classification": "references-present",
-      "signals": [
-        "सन्दर्भ"
-      ],
-      "scholar_candidate": true,
+      "body_chars": 5013,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
       "source_path": "search-documents/videha-360.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20360.pdf"
     },
@@ -36514,7 +36502,7 @@
       "title": "नूतन अंक सम्पादकीय",
       "page_start": "",
       "page_end": "",
-      "body_chars": 10195,
+      "body_chars": 10134,
       "classification": "non-scholar-priority",
       "signals": [
         "सम्पादकीय"
@@ -36673,7 +36661,7 @@
       "title": "लघुकथा- नाकक नकलोल",
       "page_start": "",
       "page_end": "",
-      "body_chars": 162776,
+      "body_chars": 3167,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -36892,7 +36880,7 @@
       "title": "भक्ति गजल",
       "page_start": "",
       "page_end": "",
-      "body_chars": 3638,
+      "body_chars": 416,
       "classification": "non-scholar-priority",
       "signals": [
         "गजल"
@@ -37013,7 +37001,7 @@
       "title": "कथा ५ जइपर सम्पादकीय समीक्षा अंग्रेजीमे सम्पादकीय पृष्ठ पर",
       "page_start": "134",
       "page_end": "140",
-      "body_chars": 1230,
+      "body_chars": 7815,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -37379,12 +37367,10 @@
       "title": "लालदासक मिथिला रामायण मे कुण्डलिया आ सम्पादक बा प्रूफरीडरक अज्ञानतावश ओइमे छन्दोभङ्ग",
       "page_start": "181",
       "page_end": "190",
-      "body_chars": 25267,
-      "classification": "references-present",
-      "signals": [
-        "सन्दर्भ"
-      ],
-      "scholar_candidate": true,
+      "body_chars": 6776,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
       "source_path": "search-documents/videha-363.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20363.pdf"
     },
@@ -37643,7 +37629,7 @@
       "title": "कथा ५ जइपर सम्पादकीय समीक्षा अंग्रेजीमे सम्पादकीय पृष्ठ पर",
       "page_start": "121",
       "page_end": "125",
-      "body_chars": 8213,
+      "body_chars": 6087,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -38022,7 +38008,7 @@
       "title": "५ टा गजल",
       "page_start": "86",
       "page_end": "91",
-      "body_chars": 1300,
+      "body_chars": 1620,
       "classification": "non-scholar-priority",
       "signals": [
         "गजल"
@@ -38069,7 +38055,7 @@
       "title": "नूतन अंक सम्पादकीय",
       "page_start": "2",
       "page_end": "9",
-      "body_chars": 6002,
+      "body_chars": 5940,
       "classification": "non-scholar-priority",
       "signals": [
         "सम्पादकीय"
@@ -38342,10 +38328,12 @@
       "title": "तीन टा पोथीक समीक्षा",
       "page_start": "63",
       "page_end": "76",
-      "body_chars": 410,
-      "classification": "unclassified",
-      "signals": [],
-      "scholar_candidate": false,
+      "body_chars": 18134,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "scholar_candidate": true,
       "source_path": "search-documents/videha-367.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20367.pdf"
     },
@@ -38511,7 +38499,7 @@
       "title": "हौ तोरे त गौंआ छियअह",
       "page_start": "87",
       "page_end": "88",
-      "body_chars": 1581,
+      "body_chars": 727,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -38591,7 +38579,7 @@
       "title": "श्वेता झा चौधरी- एकटा परिचय",
       "page_start": "80",
       "page_end": "102",
-      "body_chars": 3524,
+      "body_chars": 2045,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -39149,7 +39137,7 @@
       "title": "गतिशील यथार्थक कथाकार अशोक: किछु टिपौत",
       "page_start": "146",
       "page_end": "155",
-      "body_chars": 4880,
+      "body_chars": 15710,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -39315,7 +39303,7 @@
       "title": "मैथिली बीहनि कथा- न्यूटन्स लॉ",
       "page_start": "248",
       "page_end": "248",
-      "body_chars": 24888,
+      "body_chars": 625,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -39454,7 +39442,7 @@
       "title": "प्रश्न रामसँ",
       "page_start": "254",
       "page_end": "255",
-      "body_chars": 2104,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -40065,13 +40053,10 @@
       "title": "जनहित परिप्रेक्ष्य मे",
       "page_start": "70",
       "page_end": "71",
-      "body_chars": 11532,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ",
-        "सन्दर्भ"
-      ],
-      "scholar_candidate": true,
+      "body_chars": 2100,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
       "source_path": "search-documents/videha-371.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20371.pdf"
     },
@@ -40207,7 +40192,7 @@
       "title": "गीता माहात्म्य",
       "page_start": "143",
       "page_end": "160",
-      "body_chars": 27113,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "गीत"
@@ -40400,7 +40385,7 @@
       "title": "वैष्णवे छी",
       "page_start": "90",
       "page_end": "90",
-      "body_chars": 18636,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -40449,7 +40434,7 @@
       "title": "छोड़ल निशानी",
       "page_start": "34",
       "page_end": "35",
-      "body_chars": 1244,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -40464,7 +40449,7 @@
       "title": "हिंदू धर्म आ हिंदू विरोध/ प्रेम के जीत",
       "page_start": "36",
       "page_end": "40",
-      "body_chars": 4768,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -40479,7 +40464,7 @@
       "title": "तीनू कथा- सपना आ भ्रम, घर, काटल कथा",
       "page_start": "41",
       "page_end": "59",
-      "body_chars": 12755,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -40496,7 +40481,7 @@
       "title": "श्री राज किशोर मिश्र ओ हुनक 'प्रलय-पाश'",
       "page_start": "60",
       "page_end": "65",
-      "body_chars": 1901,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -40511,12 +40496,10 @@
       "title": "मैथिली मे रचना चोरी के विकट समस्या आ समाधान",
       "page_start": "66",
       "page_end": "68",
-      "body_chars": 15642,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ"
-      ],
-      "scholar_candidate": true,
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
       "source_path": "search-documents/videha-372.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20372.pdf"
     },
@@ -40528,7 +40511,7 @@
       "title": "१ टा लघुकथा आ ६ टा बिहैन कथा",
       "page_start": "69",
       "page_end": "72",
-      "body_chars": 6883,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -40546,7 +40529,7 @@
       "title": "पोथी समीक्षा एक विमर्श- १.विद्यापति आत्मकथा केर दृष्टिबोध २.पुस्तक समीक्षा: लालू-लीला ३.जगदीश प्रसाद मंडल-उपन्यास \"पंगू\"",
       "page_start": "73",
       "page_end": "79",
-      "body_chars": 7288,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -40564,7 +40547,7 @@
       "title": "अग्नि शिखा (खेप-२१)",
       "page_start": "80",
       "page_end": "86",
-      "body_chars": 15425,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -40579,7 +40562,7 @@
       "title": "फेर आएल जाढ़",
       "page_start": "128",
       "page_end": "131",
-      "body_chars": 1213,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -40785,7 +40768,7 @@
       "title": "गजल",
       "page_start": "107",
       "page_end": "108",
-      "body_chars": 1154,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "गजल"
@@ -40838,7 +40821,7 @@
       "title": "बदलि रहल अछि सभकिछु (धारावाहिक उपन्यास)",
       "page_start": "92",
       "page_end": "107",
-      "body_chars": 18942,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "उपन्यास"
@@ -40855,7 +40838,7 @@
       "title": "मंगरौना (धारावाहिक उपन्यास)- (तेरहम खेप)",
       "page_start": "108",
       "page_end": "110",
-      "body_chars": 20515,
+      "body_chars": 2761,
       "classification": "non-scholar-priority",
       "signals": [
         "उपन्यास"
@@ -41125,7 +41108,7 @@
       "title": "मैथिली लेखनक शून्य बज़ार स्थिति? वेबसता कारण आ समाधान",
       "page_start": "156",
       "page_end": "160",
-      "body_chars": 4437,
+      "body_chars": 4038,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -41496,7 +41479,7 @@
       "title": "नूतन अंक सम्पादकीय",
       "page_start": "",
       "page_end": "",
-      "body_chars": 1226,
+      "body_chars": 1164,
       "classification": "non-scholar-priority",
       "signals": [
         "सम्पादकीय"
@@ -41689,7 +41672,7 @@
       "title": "राखी",
       "page_start": "",
       "page_end": "",
-      "body_chars": 3615,
+      "body_chars": 395,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -41832,7 +41815,7 @@
       "title": "झंझटिया बहु (लघुकथा)",
       "page_start": "62",
       "page_end": "69",
-      "body_chars": 85,
+      "body_chars": 8890,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -41900,7 +41883,7 @@
       "title": "हम उदारवादी रे/ नदी/ डोमिन",
       "page_start": "99",
       "page_end": "105",
-      "body_chars": 12771,
+      "body_chars": 1534,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -42041,7 +42024,7 @@
       "title": "एकटा संस्मरण- काकी : गुणती देवी",
       "page_start": "63",
       "page_end": "65",
-      "body_chars": 44,
+      "body_chars": 2446,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -42116,7 +42099,7 @@
       "title": "श्रीमैथिली चरण मे",
       "page_start": "82",
       "page_end": "83",
-      "body_chars": 1174,
+      "body_chars": 601,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -42246,7 +42229,7 @@
       "title": "चोरनुकबा गोंसाई (हास्य कटाक्ष)",
       "page_start": "69",
       "page_end": "71",
-      "body_chars": 44,
+      "body_chars": 2886,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -42293,7 +42276,7 @@
       "title": "हो बाबा गांधी!/ लाल बहादुर शास्त्री!/ हो काका जेपी",
       "page_start": "105",
       "page_end": "109",
-      "body_chars": 12646,
+      "body_chars": 1287,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -42374,7 +42357,7 @@
       "title": "मोंछमे घी उर्फ परिश्रम",
       "page_start": "100",
       "page_end": "100",
-      "body_chars": 31,
+      "body_chars": 836,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -42565,7 +42548,7 @@
       "title": "आङ उघार छी हम",
       "page_start": "122",
       "page_end": "123",
-      "body_chars": 615,
+      "body_chars": 545,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -42734,13 +42717,10 @@
       "title": "लक्ष्मण झा 'सागर' हमरा नजरिमे",
       "page_start": "133",
       "page_end": "137",
-      "body_chars": 91555,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ",
-        "सन्दर्भ"
-      ],
-      "scholar_candidate": true,
+      "body_chars": 9334,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
       "source_path": "search-documents/videha-382.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20382.pdf"
     },
@@ -42863,12 +42843,10 @@
       "title": "ठेहा परक मौलाएल गाछ (धारावाहिक)",
       "page_start": "103",
       "page_end": "122",
-      "body_chars": 32497,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ"
-      ],
-      "scholar_candidate": true,
+      "body_chars": 18394,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
       "source_path": "search-documents/videha-383.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20383.pdf"
     },
@@ -43074,7 +43052,7 @@
       "title": "आङ उघार छी हम/ पुरना पाजी",
       "page_start": "148",
       "page_end": "150",
-      "body_chars": 2075,
+      "body_chars": 1110,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -43153,7 +43131,7 @@
       "title": "भोज (बीहैन कथा)",
       "page_start": "130",
       "page_end": "130",
-      "body_chars": 37360,
+      "body_chars": 641,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -43349,7 +43327,7 @@
       "title": "पंडा आ दलाल (हास्य कविता)",
       "page_start": "145",
       "page_end": "147",
-      "body_chars": 768,
+      "body_chars": 822,
       "classification": "non-scholar-priority",
       "signals": [
         "कविता"
@@ -43383,7 +43361,7 @@
       "title": "३८४ पर टिप्पणी",
       "page_start": "24",
       "page_end": "24",
-      "body_chars": 31199,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "टिप्पणी"
@@ -43508,7 +43486,7 @@
       "title": "बीहनि कथा- घबाह",
       "page_start": "88",
       "page_end": "88",
-      "body_chars": 6876,
+      "body_chars": 587,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -43555,7 +43533,7 @@
       "title": "४ टा गजल",
       "page_start": "105",
       "page_end": "109",
-      "body_chars": 1463,
+      "body_chars": 1378,
       "classification": "non-scholar-priority",
       "signals": [
         "गजल"
@@ -43711,7 +43689,7 @@
       "title": "भल गप/ प्रेमक चीछ",
       "page_start": "101",
       "page_end": "103",
-      "body_chars": 35243,
+      "body_chars": 1169,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -43822,7 +43800,7 @@
       "title": "दीन स्वर/ पिट्ठा मर्द",
       "page_start": "132",
       "page_end": "134",
-      "body_chars": 2206,
+      "body_chars": 1016,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -43869,7 +43847,7 @@
       "title": "पोथी परिचय: डा राम चैतन्य धीरज कृत मैथिली भाषाक वैचारिक अस्मिता",
       "page_start": "102",
       "page_end": "103",
-      "body_chars": 12253,
+      "body_chars": 1219,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -44085,7 +44063,7 @@
       "title": "दू टा गजल",
       "page_start": "121",
       "page_end": "122",
-      "body_chars": 2263,
+      "body_chars": 538,
       "classification": "non-scholar-priority",
       "signals": [
         "गजल"
@@ -44194,7 +44172,7 @@
       "title": "संतोष कुमार राय 'बटोही' केर डायरी 'लव यू टू'",
       "page_start": "69",
       "page_end": "71",
-      "body_chars": 35,
+      "body_chars": 2542,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -44366,7 +44344,7 @@
       "title": "जिन्दाबाद",
       "page_start": "64",
       "page_end": "65",
-      "body_chars": 5952,
+      "body_chars": 884,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -44430,7 +44408,7 @@
       "title": "इहो कवि शान से तखन गौतै",
       "page_start": "75",
       "page_end": "76",
-      "body_chars": 947,
+      "body_chars": 907,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -44477,7 +44455,7 @@
       "title": "प्रस्तुति टीम विदेह",
       "page_start": "81",
       "page_end": "92",
-      "body_chars": 2447,
+      "body_chars": 7483,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -44822,7 +44800,7 @@
       "title": "कथाकार/ पिया मोर बालक: महाकवि विद्यापति",
       "page_start": "65",
       "page_end": "70",
-      "body_chars": 11760,
+      "body_chars": 3561,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -44935,7 +44913,7 @@
       "title": "अंतरिक्ष पर्यटन के वैज्ञानिक दृष्टिकोण",
       "page_start": "148",
       "page_end": "172",
-      "body_chars": 14350,
+      "body_chars": 18351,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -45109,7 +45087,7 @@
       "title": "नब युग छै",
       "page_start": "188",
       "page_end": "192",
-      "body_chars": 677,
+      "body_chars": 1314,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -45240,7 +45218,7 @@
       "title": "अग्निशिखा खेप -३९",
       "page_start": "102",
       "page_end": "106",
-      "body_chars": 514,
+      "body_chars": 5171,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -45317,7 +45295,7 @@
       "title": "नूतन अंक सम्पादकीय",
       "page_start": "2",
       "page_end": "12",
-      "body_chars": 12308,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "सम्पादकीय"
@@ -45447,7 +45425,7 @@
       "title": "अग्निशिखा खेप -४०",
       "page_start": "80",
       "page_end": "84",
-      "body_chars": 14782,
+      "body_chars": 5663,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -45507,7 +45485,7 @@
       "title": "अनुचित",
       "page_start": "100",
       "page_end": "101",
-      "body_chars": 3982,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -45522,7 +45500,7 @@
       "title": "भारत हम्मर देश",
       "page_start": "102",
       "page_end": "103",
-      "body_chars": 750,
+      "body_chars": 729,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -45537,7 +45515,7 @@
       "title": "नूतन अंक सम्पादकीय- नरेन्द्र झा- चपल चरन चित चंचल भान",
       "page_start": "2",
       "page_end": "6",
-      "body_chars": 5812,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "सम्पादकीय"
@@ -45669,13 +45647,10 @@
       "title": "कुपोषित मैथिली भाषा-साहित्य लेल एकटा अनिवार्य पौष्टिक तत्व: नरेन्द्र झा",
       "page_start": "195",
       "page_end": "201",
-      "body_chars": 14832,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ",
-        "सन्दर्भ"
-      ],
-      "scholar_candidate": true,
+      "body_chars": 4410,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
       "source_path": "search-documents/videha-395.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20395.pdf"
     },
@@ -45799,7 +45774,7 @@
       "title": "नूतन अंक सम्पादकीय- वैय्याकरणाचार्य, शब्द प्रमाण (न्याय): ज्ञान आ तत्त्व मीमांसा: भाषाविद् रामावतार यादव",
       "page_start": "2",
       "page_end": "51",
-      "body_chars": 44421,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "सम्पादकीय"
@@ -46037,7 +46012,7 @@
       "title": "नूतन अंक सम्पादकीय",
       "page_start": "1",
       "page_end": "4",
-      "body_chars": 3937,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "सम्पादकीय"
@@ -46131,7 +46106,7 @@
       "title": "लघुकथा-कृतघ्न",
       "page_start": "36",
       "page_end": "37",
-      "body_chars": 1741,
+      "body_chars": 1524,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा",
@@ -46198,7 +46173,7 @@
       "title": "जे अहाँ/ लोक बानी",
       "page_start": "46",
       "page_end": "59",
-      "body_chars": 1189,
+      "body_chars": 7332,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -46213,7 +46188,7 @@
       "title": "नूतन अंक सम्पादकीय",
       "page_start": "1",
       "page_end": "20",
-      "body_chars": 26622,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "सम्पादकीय"
@@ -46295,7 +46270,7 @@
       "title": "सीमाक ओहि पार (धारावाहिक उपन्यास)",
       "page_start": "85",
       "page_end": "102",
-      "body_chars": 9391,
+      "body_chars": 16471,
       "classification": "non-scholar-priority",
       "signals": [
         "उपन्यास"
@@ -46451,7 +46426,7 @@
       "title": "महानगर",
       "page_start": "106",
       "page_end": "108",
-      "body_chars": 648,
+      "body_chars": 1289,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -46516,7 +46491,7 @@
       "title": "सीमाक ओहि पार (धारावाहिक उपन्यास)",
       "page_start": "59",
       "page_end": "72",
-      "body_chars": 5932,
+      "body_chars": 12698,
       "classification": "non-scholar-priority",
       "signals": [
         "उपन्यास"
@@ -46677,7 +46652,7 @@
       "title": "दलिद्दर",
       "page_start": "76",
       "page_end": "79",
-      "body_chars": 4741,
+      "body_chars": 1783,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -46692,7 +46667,7 @@
       "title": "खेतक आरि पर",
       "page_start": "80",
       "page_end": "81",
-      "body_chars": 841,
+      "body_chars": 469,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -46707,7 +46682,7 @@
       "title": "नूतन अंक सम्पादकीय",
       "page_start": "1",
       "page_end": "4",
-      "body_chars": 2695,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "सम्पादकीय"
@@ -46854,7 +46829,7 @@
       "title": "सीमाक ओहि पार (धारावाहिक उपन्यास)",
       "page_start": "82",
       "page_end": "95",
-      "body_chars": 9470,
+      "body_chars": 11371,
       "classification": "non-scholar-priority",
       "signals": [
         "उपन्यास"
@@ -47041,7 +47016,7 @@
       "title": "श्मशानक फूल",
       "page_start": "103",
       "page_end": "106",
-      "body_chars": 990,
+      "body_chars": 1932,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -47184,7 +47159,7 @@
       "title": "सीमाक ओहि पार (धारावाहिक उपन्यास)",
       "page_start": "71",
       "page_end": "77",
-      "body_chars": 9304,
+      "body_chars": 6764,
       "classification": "non-scholar-priority",
       "signals": [
         "उपन्यास"
@@ -47374,7 +47349,7 @@
       "title": "डिप्लोमा इन फार्मेसी एग्जिट एग्जामिनेशन नियमन, २०२२",
       "page_start": "46",
       "page_end": "50",
-      "body_chars": 53,
+      "body_chars": 6220,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -47544,7 +47519,7 @@
       "title": "भालरि/ फालतू",
       "page_start": "44",
       "page_end": "44",
-      "body_chars": 47,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -47604,7 +47579,7 @@
       "title": "इजोतक अन्हार घर (अनूदित)",
       "page_start": "54",
       "page_end": "57",
-      "body_chars": 830,
+      "body_chars": 2017,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -47668,7 +47643,7 @@
       "title": "डा. रामदेव झा, चंद्रनाथ मिश्र अमर एवं उदयनारायण सिंह नचिकेता",
       "page_start": "57",
       "page_end": "59",
-      "body_chars": 8542,
+      "body_chars": 2549,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -47941,10 +47916,12 @@
       "title": "मिथिला राज्य बनाम राजनीतिक दल",
       "page_start": "54",
       "page_end": "56",
-      "body_chars": 3369,
-      "classification": "unclassified",
-      "signals": [],
-      "scholar_candidate": false,
+      "body_chars": 2775,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "scholar_candidate": true,
       "source_path": "search-documents/videha-407.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20407.pdf"
     },
@@ -48001,7 +47978,7 @@
       "title": "मैथिली अनुवाद मानेश्वर मनुज) पहिल खेप",
       "page_start": "67",
       "page_end": "70",
-      "body_chars": 708,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -48078,7 +48055,7 @@
       "title": "मिथिला विकास परिषद्, कोलकाता (हमरा नजरिमे)",
       "page_start": "94",
       "page_end": "100",
-      "body_chars": 1540,
+      "body_chars": 4433,
       "classification": "references-present",
       "signals": [
         "संदर्भ"
@@ -48194,12 +48171,10 @@
       "title": "विजातीय बिआह",
       "page_start": "43",
       "page_end": "46",
-      "body_chars": 9666,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ"
-      ],
-      "scholar_candidate": true,
+      "body_chars": 3873,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
       "source_path": "search-documents/videha-409.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20409.pdf"
     },
@@ -48288,7 +48263,7 @@
       "title": "१० टा हाइकू",
       "page_start": "70",
       "page_end": "72",
-      "body_chars": 2612,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "हाइकू"
@@ -48305,7 +48280,7 @@
       "title": "पर्यावरण दिवस",
       "page_start": "73",
       "page_end": "76",
-      "body_chars": 1142,
+      "body_chars": 1363,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -48404,7 +48379,7 @@
       "title": "शुभांगी",
       "page_start": "27",
       "page_end": "30",
-      "body_chars": 5794,
+      "body_chars": 2679,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -48464,7 +48439,7 @@
       "title": "३० टा हाइकू",
       "page_start": "42",
       "page_end": "52",
-      "body_chars": 867,
+      "body_chars": 1158,
       "classification": "non-scholar-priority",
       "signals": [
         "हाइकू"
@@ -48581,7 +48556,7 @@
       "title": "टी.यू. 142 विमान आ आईएनएस कुरसुरा पनडुब्बी के झलक (यात्रा संस्मरण)",
       "page_start": "35",
       "page_end": "53",
-      "body_chars": 9789,
+      "body_chars": 10934,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -48658,7 +48633,7 @@
       "title": "कोल्हूक बरद",
       "page_start": "70",
       "page_end": "72",
-      "body_chars": 816,
+      "body_chars": 1238,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -48691,10 +48666,13 @@
       "title": "स्वर्ग केहेन ? नर्क केहेन ?",
       "page_start": "37",
       "page_end": "46",
-      "body_chars": 4721,
-      "classification": "unclassified",
-      "signals": [],
-      "scholar_candidate": false,
+      "body_chars": 11257,
+      "classification": "references-present",
+      "signals": [
+        "references",
+        "सन्दर्भ"
+      ],
+      "scholar_candidate": true,
       "source_path": "search-documents/videha-412.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20412.pdf"
     },
@@ -48876,7 +48854,7 @@
       "title": "३० टा हाइक",
       "page_start": "56",
       "page_end": "65",
-      "body_chars": 660,
+      "body_chars": 1274,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -49079,7 +49057,7 @@
       "title": "पोथी परिचय- तोहर कतेक रंग",
       "page_start": "22",
       "page_end": "25",
-      "body_chars": 6865,
+      "body_chars": 3268,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -49159,7 +49137,7 @@
       "title": "मानकीकृत तराजू पर जोखाइत लोकभाषा मैथिली",
       "page_start": "29",
       "page_end": "31",
-      "body_chars": 4344,
+      "body_chars": 2603,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -49224,10 +49202,12 @@
       "title": "परमाणु खनिज अन्वेषण एवं अनुसंधान निदेशालय के प्रदर्शनी",
       "page_start": "18",
       "page_end": "29",
-      "body_chars": 8935,
-      "classification": "unclassified",
-      "signals": [],
-      "scholar_candidate": false,
+      "body_chars": 10576,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "scholar_candidate": true,
       "source_path": "search-documents/videha-416.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20416.pdf"
     },
@@ -49271,7 +49251,7 @@
       "title": "दूटा कविता- मृतक/ पुरुषक समस्या",
       "page_start": "42",
       "page_end": "44",
-      "body_chars": 625,
+      "body_chars": 875,
       "classification": "non-scholar-priority",
       "signals": [
         "कविता"
@@ -49355,7 +49335,7 @@
       "title": "कथा समीक्षा: गंगा लाभ: मराएल जिनगी",
       "page_start": "26",
       "page_end": "28",
-      "body_chars": 9441,
+      "body_chars": 2854,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -49404,7 +49384,7 @@
       "title": "मजदूर छी हम",
       "page_start": "40",
       "page_end": "41",
-      "body_chars": 1345,
+      "body_chars": 501,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -49485,7 +49465,7 @@
       "title": "करचीके टाट पर सोनाक' लत्ती (बिहैन कथा)",
       "page_start": "21",
       "page_end": "21",
-      "body_chars": 4703,
+      "body_chars": 445,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -49760,7 +49740,7 @@
       "title": "तीर्थक्षेत्रक माहात्म्य- ८ (पद्म पुराण उत्तर खंड)",
       "page_start": "29",
       "page_end": "37",
-      "body_chars": 2929,
+      "body_chars": 10061,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -49822,7 +49802,7 @@
       "title": "एक कप चाह",
       "page_start": "56",
       "page_end": "58",
-      "body_chars": 2227,
+      "body_chars": 1544,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -49905,10 +49885,12 @@
       "title": "आर्यावर्तके कौटिल्य'क दृष्टि ओ कूटनीति",
       "page_start": "28",
       "page_end": "33",
-      "body_chars": 10353,
-      "classification": "unclassified",
-      "signals": [],
-      "scholar_candidate": false,
+      "body_chars": 7399,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "scholar_candidate": true,
       "source_path": "search-documents/videha-421.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20421.pdf"
     },
@@ -49950,7 +49932,7 @@
       "title": "बीसटा हाइकू",
       "page_start": "39",
       "page_end": "42",
-      "body_chars": 1653,
+      "body_chars": 798,
       "classification": "non-scholar-priority",
       "signals": [
         "हाइकू"
@@ -49967,7 +49949,7 @@
       "title": "त्रिकोणक एक कोणक कथाकार : शैलेन्द्र आनन्द",
       "page_start": "73",
       "page_end": "82",
-      "body_chars": 6165,
+      "body_chars": 12032,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -50169,7 +50151,7 @@
       "title": "पश्चाताप ( कविता)",
       "page_start": "100",
       "page_end": "101",
-      "body_chars": 1015,
+      "body_chars": 718,
       "classification": "non-scholar-priority",
       "signals": [
         "कविता"
@@ -50289,7 +50271,7 @@
       "title": "प्रायश्चित (कथा)",
       "page_start": "64",
       "page_end": "68",
-      "body_chars": 7241,
+      "body_chars": 4417,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -50368,7 +50350,7 @@
       "title": "चनरदिपा",
       "page_start": "84",
       "page_end": "85",
-      "body_chars": 1552,
+      "body_chars": 450,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -50482,7 +50464,7 @@
       "title": "भारत मे क्रिटिकल केयर कार्यबल: एनबीईएमएस के भूमिका आ भविष्य",
       "page_start": "41",
       "page_end": "49",
-      "body_chars": 13475,
+      "body_chars": 11127,
       "classification": "references-present",
       "signals": [
         "संदर्भ"
@@ -50561,7 +50543,7 @@
       "title": "जेना पाकल धान",
       "page_start": "70",
       "page_end": "71",
-      "body_chars": 2267,
+      "body_chars": 512,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -50642,12 +50624,10 @@
       "title": "विश्व शांति : पोथी चर्चा",
       "page_start": "36",
       "page_end": "40",
-      "body_chars": 4551,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ"
-      ],
-      "scholar_candidate": true,
+      "body_chars": 5633,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
       "source_path": "search-documents/videha-426.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20426.pdf"
     },
@@ -50676,7 +50656,7 @@
       "title": "बीसटा हाइकू",
       "page_start": "45",
       "page_end": "6",
-      "body_chars": 780,
+      "body_chars": 805,
       "classification": "non-scholar-priority",
       "signals": [
         "हाइकू"
@@ -50693,7 +50673,7 @@
       "title": "४२७ म अंक पर मन्तव्य",
       "page_start": "1",
       "page_end": "2",
-      "body_chars": 1156,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -50723,7 +50703,7 @@
       "title": "कथा - वध",
       "page_start": "72",
       "page_end": "77",
-      "body_chars": 4944,
+      "body_chars": 5862,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -50900,7 +50880,7 @@
       "title": "अरिपन/ टिपीर-टिपीर",
       "page_start": "86",
       "page_end": "91",
-      "body_chars": 822,
+      "body_chars": 2348,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -50915,7 +50895,7 @@
       "title": "नूतन अंक सम्पादकीय (भवनाथ झा विशेषांक)१.१.भवनाथ झा विशेषांकक संदर्भमे",
       "page_start": "19",
       "page_end": "47",
-      "body_chars": 22393,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "सम्पादकीय"
@@ -51071,7 +51051,7 @@
       "title": "भारतीय ज्ञान परंपरामे भवनाथ झाजीक महत्व",
       "page_start": "245",
       "page_end": "249",
-      "body_chars": 22393,
+      "body_chars": 5038,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -51221,7 +51201,7 @@
       "title": "परमात्मा के वास कतए ? : एक वैज्ञानिक दृष्टिकोण",
       "page_start": "53",
       "page_end": "67",
-      "body_chars": 5405,
+      "body_chars": 15170,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -51445,7 +51425,7 @@
       "title": "साधारण वोटर",
       "page_start": "92",
       "page_end": "93",
-      "body_chars": 1894,
+      "body_chars": 907,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -51515,12 +51495,10 @@
       "title": "बुढ़ापाक जिनगी",
       "page_start": "30",
       "page_end": "40",
-      "body_chars": 5958,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ"
-      ],
-      "scholar_candidate": true,
+      "body_chars": 12587,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
       "source_path": "search-documents/videha-431.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20431.pdf"
     },
@@ -51562,7 +51540,7 @@
       "title": "Jagdish Prasad Mandal (Original Maithili Short Story) Rameshwar Prasad Mandal (English Translation)",
       "page_start": "113",
       "page_end": "124",
-      "body_chars": 40538,
+      "body_chars": 12020,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -51647,7 +51625,7 @@
       "title": "मायक लाल",
       "page_start": "33",
       "page_end": "42",
-      "body_chars": 7716,
+      "body_chars": 12040,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -51713,7 +51691,7 @@
       "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१२",
       "page_start": "7",
       "page_end": "24",
-      "body_chars": 19725,
+      "body_chars": 0,
       "classification": "literary-history",
       "signals": [
         "परिवारक योगदान",
@@ -51907,7 +51885,7 @@
       "title": "कथा-नह केश",
       "page_start": "52",
       "page_end": "57",
-      "body_chars": 6581,
+      "body_chars": 5050,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -51956,7 +51934,7 @@
       "title": "अकविता- उघारू झांपलकें!",
       "page_start": "79",
       "page_end": "81",
-      "body_chars": 853,
+      "body_chars": 1138,
       "classification": "non-scholar-priority",
       "signals": [
         "कविता"
@@ -52088,7 +52066,7 @@
       "title": "श्री लालदेव कामत जीक व्यक्तित्व आ कृतित्व",
       "page_start": "72",
       "page_end": "81",
-      "body_chars": 9869,
+      "body_chars": 11726,
       "classification": "references-present",
       "signals": [
         "सन्दर्भ"
@@ -52169,7 +52147,7 @@
       "title": "मनुक्ख आ भगवान!",
       "page_start": "115",
       "page_end": "122",
-      "body_chars": 1144,
+      "body_chars": 1722,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -52266,7 +52244,7 @@
       "title": "श्री लालदेव कामत जीक व्यक्तित्व आ कृतित्व-२",
       "page_start": "33",
       "page_end": "44",
-      "body_chars": 3780,
+      "body_chars": 14640,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -52315,7 +52293,7 @@
       "title": "प्रदूषणक प्रहार",
       "page_start": "54",
       "page_end": "56",
-      "body_chars": 1185,
+      "body_chars": 1196,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -52443,7 +52421,7 @@
       "title": "श्री मिथिला : एक पोथी समीक्षा",
       "page_start": "37",
       "page_end": "45",
-      "body_chars": 10544,
+      "body_chars": 11119,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -52458,7 +52436,7 @@
       "title": "कुटील कषाइ",
       "page_start": "47",
       "page_end": "48",
-      "body_chars": 690,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -52505,7 +52483,7 @@
       "title": "किछु जोगिरा",
       "page_start": "61",
       "page_end": "63",
-      "body_chars": 690,
+      "body_chars": 1525,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -52653,7 +52631,7 @@
       "title": "बेटाक विवशता",
       "page_start": "57",
       "page_end": "62",
-      "body_chars": 4460,
+      "body_chars": 7943,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -52851,7 +52829,7 @@
       "title": "‘सगर राति दीप जरय’क साहित्यिक अवदान : नरहिया गोष्ठीक आलोकमे एक अध्ययन",
       "page_start": "161",
       "page_end": "171",
-      "body_chars": 7397,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -53069,7 +53047,7 @@
       "title": "१-२)",
       "page_start": "",
       "page_end": "",
-      "body_chars": 1928,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -53103,7 +53081,7 @@
       "title": "हॉस्पिटलक हिसाब (पृष्ठ- ८९-९०)",
       "page_start": "",
       "page_end": "",
-      "body_chars": 2685,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -53118,7 +53096,7 @@
       "title": "३ टा बीहनि कथा (पृष्ठ- ९१-९३)",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5044,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कथा"
@@ -53135,12 +53113,10 @@
       "title": "मैथिली लेल दलित साहित्य समीक्षाशास्त्र (पृष्ठ- ९४-१००)",
       "page_start": "",
       "page_end": "",
-      "body_chars": 5250,
-      "classification": "references-present",
-      "signals": [
-        "सन्दर्भ"
-      ],
-      "scholar_candidate": true,
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
       "source_path": "search-documents/videha-440.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20440.pdf"
     },
@@ -53170,7 +53146,7 @@
       "title": "सहकारिताक धागा सभसँ आगा (पृष्ठ- १७-२३)",
       "page_start": "",
       "page_end": "",
-      "body_chars": 15508,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -53202,7 +53178,7 @@
       "title": "अर्थ आवर (पृष्ठ- ३४-३५)",
       "page_start": "",
       "page_end": "",
-      "body_chars": 3430,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -53251,7 +53227,7 @@
       "title": "जयतु जानकी (धारावाहिक उपन्यास) (पृष्ठ- ५६-८८)",
       "page_start": "",
       "page_end": "",
-      "body_chars": 69914,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "उपन्यास"
@@ -53268,7 +53244,7 @@
       "title": "३ टा कविता पाण्डुलिपिसँ (पृष्ठ- १०२-१०५)",
       "page_start": "",
       "page_end": "",
-      "body_chars": 2287,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कविता"
@@ -53285,7 +53261,7 @@
       "title": "'उर्मिलाक विद्रोह' (खण्ड-काव्य) (पृष्ठ- १०६-१०७)",
       "page_start": "",
       "page_end": "",
-      "body_chars": 1051,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -53300,7 +53276,7 @@
       "title": "१८ टा हाइकू (पृष्ठ- १०८-११४)",
       "page_start": "",
       "page_end": "",
-      "body_chars": 796,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "हाइकू"
@@ -53317,7 +53293,7 @@
       "title": "५ टा कविता (पृष्ठ- ११५-१२०)",
       "page_start": "",
       "page_end": "",
-      "body_chars": 4178,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कविता"
@@ -53352,7 +53328,7 @@
       "title": "५ टा कविता (पृष्ठ- १३५-१४०)",
       "page_start": "",
       "page_end": "",
-      "body_chars": 4282,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "कविता"
@@ -53369,7 +53345,7 @@
       "title": "१४१-१४४)",
       "page_start": "",
       "page_end": "",
-      "body_chars": 2427,
+      "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -53707,7 +53683,7 @@
       "title": "खाली पन्ना/ भीतरिया कानब",
       "page_start": "247",
       "page_end": "248",
-      "body_chars": 1840,
+      "body_chars": 1051,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -53823,7 +53799,7 @@
       "title": "मैथिली लेल एकटा नारी केन्द्रित समीक्षाशास्त्र [क्वीर-फेमिनिज्म सहित] [सन्दर्भ- कामिनीक \"खण्ड-खण्ड मे बँटैत स्त्री\" आ शान्ति लक्ष्मी चौधरीक\"लेस्बियन कॉन्टिन्युअम\"]",
       "page_start": "114",
       "page_end": "173",
-      "body_chars": 23115,
+      "body_chars": 14368,
       "classification": "references-present",
       "signals": [
         "संदर्भ",
@@ -54036,7 +54012,7 @@
       "title": "आदमी",
       "page_start": "192",
       "page_end": "193",
-      "body_chars": 5066,
+      "body_chars": 1340,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -54434,7 +54410,7 @@
       "title": "अगराहीक घनछोहा",
       "page_start": "224",
       "page_end": "225",
-      "body_chars": 6097,
+      "body_chars": 397,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -54449,7 +54425,7 @@
       "title": "२ टा गजल",
       "page_start": "200",
       "page_end": "201",
-      "body_chars": 594,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "गजल"
@@ -54481,7 +54457,7 @@
       "title": "२ टा गजल",
       "page_start": "206",
       "page_end": "207",
-      "body_chars": 4725,
+      "body_chars": 806,
       "classification": "non-scholar-priority",
       "signals": [
         "गजल"
@@ -54573,7 +54549,7 @@
       "title": "नूतन अंक सम्पादकीय",
       "page_start": "2",
       "page_end": "11",
-      "body_chars": 11582,
+      "body_chars": 12350,
       "classification": "non-scholar-priority",
       "signals": [
         "सम्पादकीय"
@@ -54668,7 +54644,7 @@
       "title": "गोहि सभक बीच जल समाधि (मैथिलीक आइ धरिक सभसँ पैघ उपन्यास)- मैथिली कादम्बरीक अंश",
       "page_start": "83",
       "page_end": "87",
-      "body_chars": 21468,
+      "body_chars": 3994,
       "classification": "non-scholar-priority",
       "signals": [
         "उपन्यास"
@@ -54702,7 +54678,7 @@
       "title": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग-४) सन्दर्भ- कुणाल-कृत बिदापत",
       "page_start": "104",
       "page_end": "112",
-      "body_chars": 12779,
+      "body_chars": 14565,
       "classification": "non-scholar-priority",
       "signals": [
         "नाटक"
@@ -54786,12 +54762,10 @@
       "title": "स्वस्थ आयु लेल योग",
       "page_start": "36",
       "page_end": "37",
-      "body_chars": 28945,
-      "classification": "references-present",
-      "signals": [
-        "सन्दर्भ"
-      ],
-      "scholar_candidate": true,
+      "body_chars": 2534,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
       "source_path": "search-documents/videha-444.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20444.pdf"
     },
@@ -54996,7 +54970,7 @@
       "title": "मैथिली नाट्यमंच/ नाटक लेल एकटा समीक्षा सिद्धान्त (भाग-५) सन्दर्भ- कुणाल-कृत कुसमा-सलहेस",
       "page_start": "241",
       "page_end": "249",
-      "body_chars": 17672,
+      "body_chars": 15088,
       "classification": "non-scholar-priority",
       "signals": [
         "नाटक"
@@ -55225,7 +55199,7 @@
       "title": "जलक क्रंदन - रैंक १२०",
       "page_start": "277",
       "page_end": "279",
-      "body_chars": 3487,
+      "body_chars": 1467,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
@@ -55684,7 +55658,7 @@
       "title": "नूतन अंक सम्पादकीय",
       "page_start": "1",
       "page_end": "24",
-      "body_chars": 27426,
+      "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
         "सम्पादकीय"
@@ -55957,7 +55931,7 @@
       "title": "प्रबन्ध वंश, विवाह, दूषण, सामाजिक स्मृति आ आधुनिक पुनर्पाठ",
       "page_start": "935",
       "page_end": "986",
-      "body_chars": 85457,
+      "body_chars": 81540,
       "classification": "references-present",
       "signals": [
         "संदर्भ",
@@ -56167,7 +56141,7 @@
       "title": "झिझिया",
       "page_start": "1016",
       "page_end": "1018",
-      "body_chars": 5685,
+      "body_chars": 1790,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
