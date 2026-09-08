@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-09-07T06:22:53.916603+00:00",
+  "generated": "2026-09-08T17:09:32.797490+00:00",
   "extraction_summary": {
     "issue_files_scanned": 447,
     "explicit_articles_publishable": 1,
@@ -18,8 +18,8 @@
     "promoted_sections_publishable": 797,
     "promoted_sections_review": 83,
     "curated_manifests": 1,
-    "published_after_all_overrides": 805,
-    "stale_generated_pages_removed_before_render": 810,
+    "published_after_all_overrides": 810,
+    "stale_generated_pages_removed_before_render": 805,
     "build_errors": 0
   },
   "articles": [
@@ -15317,6 +15317,86 @@
       "path": "2026/447/बज्जिका-गीत-संगीत-समेकित-द्विभाषिक-बहुआयामी-साहित्यिक-समीक-54c5fee255.htm",
       "page_start": "526",
       "page_end": "583"
+    },
+    {
+      "title": "मैथि‍ली कथाक वि‍कासमे गामक जि‍नगीक योगदान-",
+      "authors": [
+        "शिव कुमार झा &quot;टिल्लू&quot;"
+      ],
+      "publication_date": "2011-01-01",
+      "year": "2011",
+      "issue": "78",
+      "language": "mai",
+      "classification": "Maithili research article",
+      "url": "https://www.videha.co.in/research/2011/78/मैथि-ली-कथाक-वि-कासमे-गामक-जि-नगीक-योगदान.htm",
+      "source_url": "https://www.videha.co.in/",
+      "path": "2011/78/मैथि-ली-कथाक-वि-कासमे-गामक-जि-नगीक-योगदान.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "काफिया",
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2012-01-01",
+      "year": "2012",
+      "issue": "112",
+      "language": "mai",
+      "classification": "Maithili research article",
+      "url": "https://www.videha.co.in/research/2012/112/काफिया.htm",
+      "source_url": "https://www.videha.co.in/",
+      "path": "2012/112/काफिया.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "काफिया आ बहर",
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2012-01-01",
+      "year": "2012",
+      "issue": "113",
+      "language": "mai",
+      "classification": "Maithili research article",
+      "url": "https://www.videha.co.in/research/2012/113/काफिया-आ-बहर.htm",
+      "source_url": "https://www.videha.co.in/",
+      "path": "2012/113/काफिया-आ-बहर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१२",
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-01-01",
+      "year": "2026",
+      "issue": "433",
+      "language": "mai",
+      "classification": "Maithili research article",
+      "url": "https://www.videha.co.in/research/2026/433/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१२.htm",
+      "source_url": "https://www.videha.co.in/",
+      "path": "2026/433/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१२.htm",
+      "page_start": "7",
+      "page_end": "24"
+    },
+    {
+      "title": "‘सगर राति दीप जरय’क साहित्यिक अवदान : नरहिया गोष्ठीक आलोकमे एक अध्ययन",
+      "authors": [
+        "डॉ. उमेश मण्डल"
+      ],
+      "publication_date": "2026-01-01",
+      "year": "2026",
+      "issue": "439",
+      "language": "mai",
+      "classification": "Maithili research article",
+      "url": "https://www.videha.co.in/research/2026/439/सगर-राति-दीप-जरय-क-साहित्यिक-अवदान-नरहिया-गोष्ठीक-आलोकमे-एक-अध्ययन.htm",
+      "source_url": "https://www.videha.co.in/",
+      "path": "2026/439/सगर-राति-दीप-जरय-क-साहित्यिक-अवदान-नरहिया-गोष्ठीक-आलोकमे-एक-अध्ययन.htm",
+      "page_start": "161",
+      "page_end": "171"
     }
   ],
   "candidates": [
