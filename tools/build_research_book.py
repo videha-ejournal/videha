@@ -71,7 +71,9 @@ parts.append(f'<div class="book-tools videha-a11y-bar videha-ai-standalone" role
 parts.append('<div class="note"><b>सम्पादकीय टिप्पणी।</b> एहि सूचीमे पूरा शोध, इतिहास, आलोचना, भाषा-विज्ञान, समाज-अध्ययन अथवा सांस्कृतिक अनुशीलनबला सामग्री राखल गेल अछि। कथा, कविता, सूचना आ मात्र अनुवादकेँ स्वतन्त्र शोध-लेख नहि गनल गेल अछि।</div>')
 for heading, text in HTML_NARRATIVE_FULL:
  parts.append(f'<h2>{esc(heading)}</h2><p>{esc(text)}</p>')
-def issue_link(a): return '<a href="https://www.videha.co.in/videha-archive-explorer.html?issue=%s">%s</a>'%(esc(issue(a)),esc(issue(a)))
+def issue_link(a):
+    raw=str(a.get('issue','—'))
+    return '<a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=%s">%s</a>'%(esc(raw),esc(issue(a)))
 def hrow(n,a): return '<tr><td>%s</td><td>%s</td><td><a href="%s">%s</a></td><td>%s</td><td>%s</td><td>%s · %s</td><td>%s</td><td>%s</td></tr>'%(n,esc(auth(a)),esc(a.get('url')),esc(a.get('title')),esc(genre(a)),esc(a.get('language')),issue_link(a),esc(date(a)),esc(a.get('classification') or '—'),esc(pages(a)))
 parts.append('<h2>अनुलग्नक १ : लेखकानुक्रमेण सम्पूर्ण सूची</h2><table><thead><tr><th>क्रम</th><th>लेखक</th><th>लेख</th><th>विधा</th><th>भाषा</th><th>अंक · तिथि</th><th>वर्गीकरण</th><th>पृष्ठ</th></tr></thead><tbody>')
 for i,a in enumerate(rows,1): parts.append(hrow(i,a))

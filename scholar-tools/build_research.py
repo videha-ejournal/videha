@@ -170,7 +170,7 @@ def write_index(articles,candidates):
     cards=[]
     for a in sorted(articles,key=lambda x:x["publication_date"],reverse=True):
         search_text=" ".join([a["title"],a.get("english_title") or ""," ".join(a["authors"]),str(a["publication_date"]),a["issue"],a.get("language","mai"),a.get("classification","")]+list(a.get("keywords") or []))
-        issue_link=f'<a href="https://www.videha.co.in/videha-archive-explorer.html?issue={html.escape(str(a["issue"]))}">अंक {html.escape(str(a["issue"]))}</a>'
+        issue_link=f'<a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue={html.escape(str(a["issue"]))}">अंक {html.escape(str(a["issue"]))}</a>'
         cards.append(f'<article class="research-card" data-year="{esc_attr(a["year"])}" data-language="{esc_attr(a.get("language","mai"))}" data-search="{esc_attr(norm(search_text).lower())}"><h2><a href="{html.escape(a["url"])}">{html.escape(a["title"])}</a></h2><p>{html.escape(", ".join(a["authors"]))} · {html.escape(str(a["publication_date"]))} · {issue_link}</p><p>{html.escape(a["classification"])}</p></article>')
     body="\n".join(cards) or '<p>No curated Scholar articles have been published yet. The retrospective candidate catalogue is being generated from the historical archive.</p>'
     languages=sorted({str(a.get("language") or "mai") for a in articles})
