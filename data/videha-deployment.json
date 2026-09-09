@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-08T17:44:13.794030+00:00",
+  "generated": "2026-09-09T03:03:23.723249+00:00",
   "strategy": {
     "videha.co.in": {
       "role": "canonical lightweight publication site",
@@ -20,5 +20,5 @@
     }
   },
   "currentIssue": 449,
-  "historicalThrough": 447
+  "historicalThrough": 448
 }
