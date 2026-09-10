@@ -13,11 +13,15 @@ DATA=json.loads((ROOT/'research/data/articles.json').read_text(encoding='utf-8')
 HTML=ROOT/'research/videha-scholar-research-book.html'; DOCX=ROOT/'research/Videha-Scholar-Research-Book.docx'
 def _author_display(name):
     # Preserve honorifics, but keep a glued honorific/name legible (e.g. डॉ०अरूण → डॉ० अरूण).
-    return re.sub(r'^(डॉ०|डॉ\.|डॉ(?!\.)|डाॅ\.|डाॅ|डा\.|डा(?!\.)|प्रो\.|प्रो|आचार्य|श्री|श्रीमती|पं\.|पं|पण्डित)(?=\S)', r'\1 ', str(name or '').strip(), flags=re.I)
+    s=str(name or '').strip()
+    for h in ('डॉ०','डॉ.','डॉ','डाॅ.','डाॅ','डा.','डा','प्रो.','प्रो','आचार्य','श्री','श्रीमती','पं.','पं','पण्डित'):
+        if s.startswith(h) and len(s)>len(h) and not s[len(h)].isspace() and (h not in ('डॉ','डा','प्रो') or s[len(h)]!='.'):
+            return h+' '+s[len(h):]
+    return s
 def auth(a): return ' / '.join(_author_display(x) for x in (a.get('authors') or ['अज्ञात लेखक']))
 def sortkey(a):
     # Sort by the author’s actual name, ignoring common honorifics including डॉ०.
-    return re.sub(r'^(डॉ०|डॉ\.|डॉ(?!\.)|डाॅ\.|डाॅ|डा\.|डा(?!\.)|प्रो\.|प्रो|आचार्य|श्री|श्रीमती|पं\.|पं|पण्डित)\s*','',auth(a),flags=re.I).casefold()
+    return re.sub(r'^(डॉ०|डॉ\.?|डाॅ\.?|डा\.?|प्रो\.?|आचार्य|श्री|श्रीमती|पं\.?|पण्डित)\s*','',auth(a),flags=re.I).casefold()
 def genre(a): return (a.get('classification') or 'अन्य शोध').split(';')[0].strip()
 def pages(a): return f"{a.get('page_start')}–{a.get('page_end')}" if a.get('page_start') and a.get('page_end') else '—'
 def date(a): return a.get('publication_date') or '—'
