@@ -34,7 +34,7 @@ class TextParser(HTMLParser):
 def norm(s): return re.sub(r"\s+", " ", s or "").strip()
 def author_display(s):
     """Keep honorifics intact while separating a glued honorific from the name."""
-    return re.sub(r'^(डॉ०|डॉ\.|डॉ|डाॅ\.|डाॅ|डा\.|डा|प्रो\.|प्रो|आचार्य|श्री|श्रीमती|पं\.|पं|पण्डित)(?=\S)', r'\1 ', norm(s), flags=re.I)
+    return re.sub(r'^(डॉ०|डॉ\.|डॉ(?!\.)|डाॅ\.|डाॅ|डा\.|डा(?!\.)|प्रो\.|प्रो|आचार्य|श्री|श्रीमती|पं\.|पं|पण्डित)(?=\S)', r'\1 ', norm(s), flags=re.I)
 def esc_attr(s): return html.escape(str(s or ""), quote=True)
 def slugify(s):
     s=norm(s).lower(); s=re.sub(r"[^\w\u0900-\u097f-]+", "-", s, flags=re.UNICODE)
