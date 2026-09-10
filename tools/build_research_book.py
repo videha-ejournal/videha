@@ -15,7 +15,7 @@ def _author_display(name):
     # Preserve honorifics, but keep a glued honorific/name legible (e.g. डॉ०अरूण → डॉ० अरूण).
     s=str(name or '').strip()
     for h in ('डॉ०','डॉ.','डॉ','डाॅ.','डाॅ','डा.','डा','प्रो.','प्रो','आचार्य','श्री','श्रीमती','पं.','पं','पण्डित'):
-        if s.startswith(h) and len(s)>len(h) and not s[len(h)].isspace() and (h not in ('डॉ','डा','प्रो') or s[len(h)]!='.'):
+        if s.startswith(h) and len(s)>len(h) and not s[len(h)].isspace() and (h.endswith('.') or s[len(h)]!='.'):
             return h+' '+s[len(h):]
     return s
 def auth(a): return ' / '.join(_author_display(x) for x in (a.get('authors') or ['अज्ञात लेखक']))
