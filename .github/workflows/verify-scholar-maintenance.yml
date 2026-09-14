@@ -1,0 +1,66 @@
+name: Verify Videha Scholar Maintenance Policy
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-scholar.yml'
+      - '.github/workflows/verify-scholar-maintenance.yml'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-scholar.yml'
+      - '.github/workflows/verify-scholar-maintenance.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: videha-scholar-policy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out workflow policy only
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            .github/workflows
+          sparse-checkout-cone-mode: true
+      - name: Verify Scholar workflow is scheduled/manual and SHA-pinned
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path('.github/workflows/build-scholar.yml')
+          text = path.read_text(encoding='utf-8')
+          on_block = text.split('\npermissions:', 1)[0]
+          required = {
+              'manual trigger': 'workflow_dispatch:',
+              'scheduled trigger': 'schedule:',
+              'weekly schedule': "cron: '23 3 * * 0'",
+              'fixed runner': 'runs-on: ubuntu-24.04',
+              'job timeout': 'timeout-minutes: 30',
+              'checkout v7.0.1 SHA': 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1',
+              'setup-python v7.0.0 SHA': 'actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97',
+              'Python 3.12': "python-version: '3.12'",
+              'dedicated concurrency': 'group: videha-scholar-maintenance',
+              'cancel superseded maintenance': 'cancel-in-progress: true',
+          }
+          missing = [label for label, marker in required.items() if marker not in text]
+          if missing:
+              raise SystemExit(f'Missing Scholar maintenance controls: {missing}')
+          if re.search(r'^\s{2}push:\s*$', on_block, flags=re.M):
+              raise SystemExit('Build Videha Scholar Research Index must not run on push')
+          forbidden = ['runs-on: ubuntu-latest', 'actions/checkout@v4', 'actions/setup-python@v5']
+          present = [marker for marker in forbidden if marker in text]
+          if present:
+              raise SystemExit(f'Legacy Scholar workflow configuration remains: {present}')
+          print('Videha Scholar maintenance policy: PASS')
+          PY
