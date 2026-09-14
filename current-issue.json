@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "publication": "Videha — First Maithili Fortnightly eJournal",
+  "publicationMaithili": "विदेह प्रथम मैथिली पाक्षिक ई-पत्रिका",
+  "issn": "2229-547X",
+  "issueNumber": 449,
+  "issueNumberDevanagari": "४४९",
+  "issueDate": "2026-09-01",
+  "issueDateDisplay": "०१ सितम्बर २०२६",
+  "sourcePage": "https://videha-ejournal.github.io/videha/",
+  "canonicalSite": "https://www.videha.co.in/",
+  "githubMirror": "https://videha-ejournal.github.io/videha/",
+  "status": "published",
+  "updated": "2026-09-14",
+  "note": "Machine-readable mirror manifest for parity monitoring. The canonical editorial issue remains the published Videha issue; this file must be updated when the mirror current issue changes."
+}
