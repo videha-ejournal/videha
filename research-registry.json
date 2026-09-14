@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "title": "Videha Digital Research Archives Registry",
+  "publisher": "Videha — First Maithili Fortnightly eJournal",
+  "publisherMaithili": "विदेह प्रथम मैथिली पाक्षिक ई-पत्रिका",
+  "issn": "2229-547X",
+  "editor": "Gajendra Thakur",
+  "canonicalSite": "https://www.videha.co.in/",
+  "githubMirror": "https://videha-ejournal.github.io/videha/",
+  "githubOrganization": "https://github.com/videha-ejournal",
+  "updated": "2026-09-14",
+  "provenanceStates": ["source-controlled", "machine-derived", "human-reviewed", "human-verified", "published", "preserved"],
+  "resources": [
+    {
+      "id": "videha-main",
+      "title": "Videha — First Maithili Fortnightly eJournal",
+      "type": "Periodical",
+      "language": ["mai", "en"],
+      "url": "https://www.videha.co.in/",
+      "mirror": "https://videha-ejournal.github.io/videha/",
+      "identifiers": {"ISSN": "2229-547X"},
+      "status": ["published", "source-controlled"]
+    },
+    {
+      "id": "mithila-vajji-anga",
+      "title": "Videha Digital Research Archive: Mithila, Vajji & Anga",
+      "type": "DigitalResearchArchive",
+      "language": ["mai", "en"],
+      "url": "https://videha-ejournal.github.io/mithila-vajji-anga/",
+      "repository": "https://github.com/videha-ejournal/mithila-vajji-anga",
+      "scope": "History, genealogy, Panji, literature, philosophy, places, texts and chronology of Mithila, Vajji and Anga across India and Nepal.",
+      "status": ["published", "source-controlled", "preserved"]
+    },
+    {
+      "id": "videha-literature-festival",
+      "title": "Videha Literature Festival and Criticism Media Corpus",
+      "type": "DigitalResearchArchive",
+      "language": ["mai"],
+      "url": "https://videha-ejournal.github.io/videha-literature-festival/",
+      "repository": "https://github.com/videha-ejournal/videha-literature-festival",
+      "machineCorpus": {"recordings": 2346, "shards": 192, "humanVerified": false, "editorialReview": "not-reviewed"},
+      "status": ["published", "source-controlled", "machine-derived", "preserved"]
+    },
+    {
+      "id": "videha-sadeha",
+      "title": "Videha–Sadeha Digital Periodical Archive",
+      "type": "DigitalArchive",
+      "language": ["mai"],
+      "url": "https://videha-ejournal.github.io/videha-sadeha/",
+      "repository": "https://github.com/videha-ejournal/videha-sadeha",
+      "status": ["published", "source-controlled"]
+    },
+    {
+      "id": "videha-quiz",
+      "title": "Videha eLearning Quiz Archive",
+      "type": "EducationalResource",
+      "language": ["mai", "en"],
+      "url": "https://videha-ejournal.github.io/videha-quiz/",
+      "repository": "https://github.com/videha-ejournal/videha-quiz",
+      "status": ["published", "source-controlled"]
+    }
+  ],
+  "isbnAuthority": [
+    {"work": "Panji I", "isbn": "978-93-5915-894-5"},
+    {"work": "Panji II", "isbn": "978-93-6012-526-4"},
+    {"work": "Panji III", "isbn": "978-93-6068-808-0"},
+    {"work": "Panji IV", "isbn": "978-93-6123-509-2"},
+    {"work": "Panji V", "isbn": "978-93-5933-373-1"},
+    {"work": "Panji VI", "isbn": "978-93-5933-623-7"},
+    {"work": "Parallel Philosophy (Maithili)", "isbn": "978-93-344-9610-9"},
+    {"work": "Parallel History (English)", "isbn": "978-93-5812-486-6"},
+    {"work": "Atmatattvaviveka", "isbn": "978-93-5943-857-3"},
+    {"work": "Bhamati", "isbn": "978-93-5943-682-1"},
+    {"work": "Nyayakusumanjali", "isbn": "978-93-344-6450-4"},
+    {"work": "Tattvachintamani", "isbn": "978-93-6123-729-4"}
+  ]
+}
