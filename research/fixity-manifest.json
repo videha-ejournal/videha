@@ -1,0 +1,4388 @@
+{
+  "algorithm": "SHA-256",
+  "generated": "2026-09-14",
+  "releaseIdentifier": "urn:videha:research-archive:2026-09-14",
+  "sourceCommit": "0ca631e6a2ecfb099b38a5b8247c35afc3f312fa",
+  "files": [
+    {
+      "path": ".zenodo.json",
+      "sha256": "f54b1e48fa70f323b5f9e85d949258f3569aa05c529c793993a83536b7aa3dad",
+      "bytes": 477
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "ba89da484f4fda496740d9663b9aa49318227f4054a81d8e11d13d8acbcbd14b",
+      "bytes": 562
+    },
+    {
+      "path": "codemeta.json",
+      "sha256": "8003dbe1166d8da3771602194c771c91466321f74bcfffcb40c074f10c50c28c",
+      "bytes": 520
+    },
+    {
+      "path": "iiif/collection.json",
+      "sha256": "c69b73154e110956962bb41a1a9aae9e2162fbac05d6c9be86ad323ad6ee791f",
+      "bytes": 1436
+    },
+    {
+      "path": "iiif/manifests/1-ashtbhujganesh-korth2-shivmandir-singhia-bisfi.json",
+      "sha256": "6e4c447d46fbd54d1cfd1d439298bd38d4ebd257deafb763317ae95dcae0b894",
+      "bytes": 2276
+    },
+    {
+      "path": "iiif/manifests/1-bhagwatigirija-phulhar2-kali-uchchaith.json",
+      "sha256": "b1b94c813017294b309b6a32df8d00eecad24e842be603b1c8d27b290f309f1d",
+      "bytes": 2204
+    },
+    {
+      "path": "iiif/manifests/1-devikali-korth2-temple-gosauni-sthal-korth.json",
+      "sha256": "6b15453f5ac267922eeddf3685d572ed059424fba361d8771b452a91633634e8",
+      "bytes": 2240
+    },
+    {
+      "path": "index.htm",
+      "sha256": "e0d7f1a40751a0fe6ea40f1e6d7eca77341ccd8d4466716979fb5b6b6e1bd2b7",
+      "bytes": 123482
+    },
+    {
+      "path": "research/2008/10/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-8.htm",
+      "sha256": "d911f4966880be6450e5426057aa27769bba5af17ea1691db6896b81c1fa0fcc",
+      "bytes": 20975
+    },
+    {
+      "path": "research/2008/11/videha-mithila-tirbhukti-tirhut-continuation-5.htm",
+      "sha256": "b758b4d2d0d4e7c1a5ceae32aea3817a5e2915413d2ef9e0516c8cde1b532cec",
+      "bytes": 8729
+    },
+    {
+      "path": "research/2008/11/पञ्जी-प्रबंध-मूल-गोत्र-आ-पञ्जी-परम्परा.htm",
+      "sha256": "2a6ad39ab38ce9f7f55a3b684bb872e0ed5f5dcc25f893a885f0d08ae896d12f",
+      "bytes": 13833
+    },
+    {
+      "path": "research/2008/11/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-9.htm",
+      "sha256": "ad44e988ced685ffe83d57e8c0bbfec3fa4ce940cc42704643c75f05f020d21e",
+      "bytes": 15487
+    },
+    {
+      "path": "research/2008/11/रामाश्रय-झा-रामरंग-जीवन-आ-कृति.htm",
+      "sha256": "ff71d9c0645bd0d1eccf6d7fb3bee178a6413d54e8ac5602a68942e16753b0b4",
+      "bytes": 15349
+    },
+    {
+      "path": "research/2008/12/videha-mithila-tirbhukti-tirhut-continuation-6.htm",
+      "sha256": "1136cc51f19ccf018c12507415915b976d1d9e4541c5333ab18974f0fa266f7e",
+      "bytes": 9388
+    },
+    {
+      "path": "research/2008/12/डिस्कवरी-ऑफ-मिथिला-पुरातात्त्विक-आ-ऐतिहासिक-स्थल.htm",
+      "sha256": "430a7bd5d0e07250165713e115dd7c27c365bea8095e7409d23ec31fa642fc3a",
+      "bytes": 26748
+    },
+    {
+      "path": "research/2008/12/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-10.htm",
+      "sha256": "2701d96053f9f52730e60dd46591841baba1bddc84404bae7e7570b1f66ca5d9",
+      "bytes": 23665
+    },
+    {
+      "path": "research/2008/13/videha-mithila-tirbhukti-tirhut-continuation-7.htm",
+      "sha256": "4370578b9bc56ac98f50d61529abe537c8ce1948606233da66bafce3fc8409f5",
+      "bytes": 12885
+    },
+    {
+      "path": "research/2008/13/पंचदेवोपासक-भूमि-मिथिला-पहिल-खेप.htm",
+      "sha256": "5ae9201d4f6ec7e5ef8475251731eee8248f9c35ce709fd3f90b365206945017",
+      "bytes": 19687
+    },
+    {
+      "path": "research/2008/13/पोथी-समीक्षा-समयकेँ-अकानैत.htm",
+      "sha256": "763769b2772c363d1eb9152c4a7e4f5fbbb9c83d6c6c5234bad0e7a15943679a",
+      "bytes": 17728
+    },
+    {
+      "path": "research/2008/13/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-11.htm",
+      "sha256": "654dd5afd72327f1d8c5f06405ce35d111a44419e2abf50fc8bf70a2f5221cc8",
+      "bytes": 15184
+    },
+    {
+      "path": "research/2008/14/videha-mithila-tirbhukti-tirhut-continuation-8.htm",
+      "sha256": "b80010106919bb56cacf3ec9b260cf36cd9a80a3a49fe4dcc4e4ecfbe05b1377",
+      "bytes": 13565
+    },
+    {
+      "path": "research/2008/14/पंचदेवोपासक-भूमि-मिथिला-दोसर-खेप.htm",
+      "sha256": "83ed9068aa736ef6a2ac3bb4f448dfa448620a814fbade7a499648f48888ddc8",
+      "bytes": 37090
+    },
+    {
+      "path": "research/2008/14/पोथी-समीक्षा-समयकेँ-अकानैत-क्रमशः.htm",
+      "sha256": "3698f68c89a09f6b2c8d602f369eecf0923fba44dd331798b30a3a2b1e077082",
+      "bytes": 21901
+    },
+    {
+      "path": "research/2008/14/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-12.htm",
+      "sha256": "b772d92f6f073eb15a6b523d3823512f83b6f5c07e94c1696b996bd4df6119b4",
+      "bytes": 23694
+    },
+    {
+      "path": "research/2008/15/goa-is-parashuram-s-mithila-maithils-in-goa.htm",
+      "sha256": "a2d62fba4a56abc9c95a8644b6b188f446f2421bcbd0a470e9efb94feef81733",
+      "bytes": 27306
+    },
+    {
+      "path": "research/2008/15/पंचदेवोपासक-भूमि-मिथिला.htm",
+      "sha256": "7bd0635b12844690295a5db822def737d2220cecdd39beafd58068ebf0039590",
+      "bytes": 123385
+    },
+    {
+      "path": "research/2008/15/बीसम-शताब्दी-मैथिली-साहित्यक-स्वर्णिम-युग.htm",
+      "sha256": "e9a1b9d68fc886894ce4c94754d512fb262a155e473dbdc33bcb9489130709d0",
+      "bytes": 19122
+    },
+    {
+      "path": "research/2008/15/मायानन्द-मिश्रक-इतिहास-बोध-समापन.htm",
+      "sha256": "1ea78e141003b1a9e7dc39e6a76a336b39cad1f1e42e98abe25c49da2bc4d8fe",
+      "bytes": 28457
+    },
+    {
+      "path": "research/2008/15/सन्त-साहेब-रामदास.htm",
+      "sha256": "26a162226c7b239860135808908e796e36dfb9642601521f0497c776086bd9dd",
+      "bytes": 32300
+    },
+    {
+      "path": "research/2008/16/आजुक-समयमे-कम्प्युटर-शिक्षाक-महत्व.htm",
+      "sha256": "ff040ffb27554da9829a296a7e497a18792d9ac9c55de08e49f48218e0fcd148",
+      "bytes": 42804
+    },
+    {
+      "path": "research/2008/16/की-बलिराज-गढ़-मिथिलाक-प्राचीन-राजधानी-अछि.htm",
+      "sha256": "b9746edecf13cad34c3abb7d3234a0ec260c075de25b1bce80bad9bbe837865b",
+      "bytes": 19443
+    },
+    {
+      "path": "research/2008/16/बीसम-शताब्दी-मैथिली-साहित्यक-स्वर्णिम-युग-अंक-१६-मे-प्रकाशित-खेप.htm",
+      "sha256": "7d9db0e588e00c4a24d4230456e7185e83107124de745c26616246b661875fdc",
+      "bytes": 41303
+    },
+    {
+      "path": "research/2008/16/हरिमोहन-झा-समग्र-पहिल-खेप.htm",
+      "sha256": "46db779e4bf4aae95608ff7a7f0d8a947372c52ae68f55e9b41cfa3d2c6b050a",
+      "bytes": 20710
+    },
+    {
+      "path": "research/2008/17/कन्या-भ्रूण-हत्या-प्रकृतिक-संग-खिलवाड़.htm",
+      "sha256": "33ed8da81f37a0cf968050f0d9783249b5554552e607fabfdd0661a6c97d84a9",
+      "bytes": 15621
+    },
+    {
+      "path": "research/2008/17/नॉर्थ-कछार-हिल्स-धरतीक-नुकाएल-स्वर्ग-पहिल-खेप.htm",
+      "sha256": "e542ec6510e38e3c92cef82fe21a1d8aa39aa521767c4f2d1d0b4b246d08ee02",
+      "bytes": 59563
+    },
+    {
+      "path": "research/2008/17/बीसम-शताब्दी-मैथिली-साहित्यक-स्वर्णिम-युग-अंक-१७-मे-प्रकाशित-खेप.htm",
+      "sha256": "21f7d9abec7e9a99db65becdee1d28616ee6006c25fe23af3427aa8f21cec2ec",
+      "bytes": 54437
+    },
+    {
+      "path": "research/2008/17/मिथिलांचलक-शाक्त-क्षेत्र.htm",
+      "sha256": "5fabb3992c9b7623d63858be590f7042ac740cb836ae19381ad225358debf358",
+      "bytes": 86158
+    },
+    {
+      "path": "research/2008/17/हरिमोहन-झा-समग्र-दोसर-खेप.htm",
+      "sha256": "4bfdc1bd102652130ae9edfbdc4004dbd7b125ae75c810bf29b08eaa30994a63",
+      "bytes": 17243
+    },
+    {
+      "path": "research/2008/18/अदद्दी-पेनकें-मजगुत-करबाक-आवश्यकता.htm",
+      "sha256": "51fb0203b0d637f3de544b572ae407200b1aa7e87c4c83bab00dd628b6f8ed53",
+      "bytes": 43697
+    },
+    {
+      "path": "research/2008/18/जीवन-झाक-नाटकक-सामाजिक-विवर्तन-अंक-१८-मे-प्रकाशित-खेप.htm",
+      "sha256": "f17d99dfe080db0818354a1d78be653cbe5b8cf75479d9ff76ee67d2055458f6",
+      "bytes": 33231
+    },
+    {
+      "path": "research/2008/18/नॉर्थ-कछार-हिल्स-धरतीक-नुकाएल-स्वर्ग-दोसर-खेप.htm",
+      "sha256": "e2cb4b4104f4fb2441ba8af37e5d2db26dd9166ec7a581650209ee8bc87fa206",
+      "bytes": 62031
+    },
+    {
+      "path": "research/2008/18/नो-एण्ट्री-मा-प्रविश-नाट्य-समीक्षा.htm",
+      "sha256": "fb9d47537a67ae9b5494fab26bc6cc3ac59d7b8ba6d3d7cbcd90c7e24eca55e9",
+      "bytes": 21254
+    },
+    {
+      "path": "research/2008/18/मैथिली-समस्याक-टोह-लैत-कथा-संकलन-उदाहरण.htm",
+      "sha256": "7412555a21552496d7ebce32672c4cb109958a7aa3de0f3f6a2a75b1717f9791",
+      "bytes": 29676
+    },
+    {
+      "path": "research/2008/18/स्व-राजकमल-चौधरी-पर-शोध-लेख-पहिल-खेप.htm",
+      "sha256": "e9325073c0d89e8fb52c9d74f1891a4a5fa6e8c80cd6b1521b6cf759a8b2862c",
+      "bytes": 38273
+    },
+    {
+      "path": "research/2008/19/जीवन-झाक-नाटकक-सामाजिक-विवर्तन-अंक-१९-मे-प्रकाशित-खेप.htm",
+      "sha256": "9c5376bc62669011e0701f2f1ac6f2366052e5ccfeef8b266f3c2cf93a98f820",
+      "bytes": 21390
+    },
+    {
+      "path": "research/2008/19/मिथिलांचलक-गाणपत्य-क्षेत्र.htm",
+      "sha256": "6a4ede09564bcf3feb210895ff5e22e4e9436912ac3f46587c7ac26637e7ea38",
+      "bytes": 41102
+    },
+    {
+      "path": "research/2008/19/लोअर-दिवांग-घाटी-इदु-मिसमी-जनजातिक-अनुपम-संसार-पहिल-खेप.htm",
+      "sha256": "4da6e368432337bbcc1febde86a874b17fdd77958ab192e79bf70bbad9660d4c",
+      "bytes": 52418
+    },
+    {
+      "path": "research/2008/19/स्व-राजकमल-चौधरी-पर-शोध-लेख-दोसर-खेप.htm",
+      "sha256": "72d7771aead57fc3043d6a62ee14ff4b964ecc2000233cd69ab9144d4feabae9",
+      "bytes": 43205
+    },
+    {
+      "path": "research/2008/2/videha-mithila-tirbhukti-tirhut-continuation-1.htm",
+      "sha256": "2b0eb9fd234875b9c11688d6e03a4f001d562529e061d85560ecc339206d2a8d",
+      "bytes": 40489
+    },
+    {
+      "path": "research/2008/2/कामेश्वर-सिंह-दरभङ्गा-संस्कृत-विश्वविद्यालयक-प्रासंगिकता.htm",
+      "sha256": "8407ce61b2d8fa5641e70351975921c62ae6669fbcee66036e4a977dd221154b",
+      "bytes": 16055
+    },
+    {
+      "path": "research/2008/2/मैथिली-रामचरित-मानस-मैथिली-समालोचनाक-विफलता.htm",
+      "sha256": "88912999ebd64136d4fade7fc27f37ded8cef8a63b4461af138ac8a62d7bd3a6",
+      "bytes": 22160
+    },
+    {
+      "path": "research/2008/20/कोना-बचत-मिथिलाक-स्मिता.htm",
+      "sha256": "81ab3894be5dec8558587c33f80619bd6819de21ad2a79bf7e00e2fb197267f5",
+      "bytes": 12697
+    },
+    {
+      "path": "research/2008/20/मिथिलांचलक-शैव-क्षेत्र.htm",
+      "sha256": "59655f486b1b70ef491cd925e4dfe6cd4c4042ddb1e4b53a8ecadbf3a1dcb233",
+      "bytes": 35978
+    },
+    {
+      "path": "research/2008/20/रिस्क-आ-मैथिल.htm",
+      "sha256": "1f4a2f3514f98a86fd8fdd611c7238a49fb83d9893599fb56e0d47d2034bc191",
+      "bytes": 13417
+    },
+    {
+      "path": "research/2008/20/स्व-राजकमल-चौधरी-पर-शोध-लेख-तेसर-खेप.htm",
+      "sha256": "fdd9ad3f00f83a284db32f7ea7fea40e2b8ba686d52647e09c4347e593c6e1d8",
+      "bytes": 31090
+    },
+    {
+      "path": "research/2008/20/स्वरक-माला-गँथती-अंशु.htm",
+      "sha256": "265aab6af11bcd0c4cffbd0f417e462ede217b400de789c67ce7d5448d007775",
+      "bytes": 13251
+    },
+    {
+      "path": "research/2008/21/चौकपर-आणविक-समझौता.htm",
+      "sha256": "d2dabc516426426ff4f3812da5d7eea96af69c4a4dc5a55c957117477781bede",
+      "bytes": 16946
+    },
+    {
+      "path": "research/2008/21/जीवन-झाक-नाटकक-सामाजिक-विवर्तन-अंक-२१-मे-प्रकाशित-खेप.htm",
+      "sha256": "108d336c3418af7f388c8c1f19542102e661064d9e6acd56ae7ad0a68b73c6a5",
+      "bytes": 21222
+    },
+    {
+      "path": "research/2008/21/प्रकाश-चन्द्र-झा-मैथिली-रंगकर्ममे-थ्री-इन-वन.htm",
+      "sha256": "d07bcd7ba22e2fe486153d91c9e78ad88838a77fdceb527711cda8ae5acac31d",
+      "bytes": 47423
+    },
+    {
+      "path": "research/2008/21/बिहारक-लोक-पर्व-छठि.htm",
+      "sha256": "c305dc05ad6c55328121f8336dc833d544e53523aa1280d6c15599d8ded37d38",
+      "bytes": 43532
+    },
+    {
+      "path": "research/2008/21/मैथिलीमे-गजल-आ-एकर-संरचना.htm",
+      "sha256": "c1aeacc052be650355e0ef8a3a34ea06e66c4dcd4a2a06b467f304491a026fc8",
+      "bytes": 31680
+    },
+    {
+      "path": "research/2008/21/लोअर-दिवांग-घाटी-इदु-मिसमी-जनजातिक-अनुपम-संसार-दोसर-खेप.htm",
+      "sha256": "f871bba2b104a8b652baaa004b4a41199067b37fa5552d162d3ef013704000ef",
+      "bytes": 25539
+    },
+    {
+      "path": "research/2008/21/स्व-राजकमल-चौधरी-पर.htm",
+      "sha256": "8e24d4df7c35b1d1371e0c2728eba5e58e5a4f4ed95dfb906c64edcfe3d98d95",
+      "bytes": 99550
+    },
+    {
+      "path": "research/2008/22/मिथिला-विभूति-पं-मोदानन्द-झा.htm",
+      "sha256": "6fc666343c90919e20a7a01091634831d7e16020ceda2125eb2fa8a00684e9ce",
+      "bytes": 12973
+    },
+    {
+      "path": "research/2008/22/संविधानसभा-संघीय-संरचना-आ-मिथिला-राज्यक-औचित्य.htm",
+      "sha256": "a941d91d39fd5f2130f1efc7848926a0f8637ef39fe4f6b571ea032d3149578b",
+      "bytes": 75199
+    },
+    {
+      "path": "research/2008/22/सगर-राति-दीप-जरय-मैथिली-कथा-लेखनक-क्षेत्रमे-शान्त-क्रान्ति-पहिल-खेप.htm",
+      "sha256": "880958a7131dcdce321242455373226d886593e307f0ac2ce60ad793b33ec0a3",
+      "bytes": 44520
+    },
+    {
+      "path": "research/2008/22/स्व-राजकमल-चौधरी-पर-शोध-लेख-चारिम-खेप.htm",
+      "sha256": "c8e098babf3db2350892dc4c81f23bcaf169b15120d294ce80f2cac33dc0c699",
+      "bytes": 32546
+    },
+    {
+      "path": "research/2008/23/मिथिलांचलक-सूर्य-पूजन-स्थल.htm",
+      "sha256": "f138d4719458141ac864c222096b23b9e315273e512ffa513af6d325bdc62f9b",
+      "bytes": 54957
+    },
+    {
+      "path": "research/2008/23/लुप्तप्राय-मैथिली-लोकगीत.htm",
+      "sha256": "52a54901fa17075d1902573c148702ebafa1c74724551977cd7ea26494090c43",
+      "bytes": 28519
+    },
+    {
+      "path": "research/2008/23/सगर-राति-दीप-जरय-मैथिली-कथा-लेखनक-क्षेत्रमे-शान्त-क्रान्ति-दोसर-खेप.htm",
+      "sha256": "87cd2311cd36e11b8efd0a796429fea6533394022fc982ef357123a1108d794f",
+      "bytes": 81448
+    },
+    {
+      "path": "research/2008/23/स्व-राजकमल-चौधरी-पर-शोध-लेख-पाँचम-खेप.htm",
+      "sha256": "88c2ddfb52d0915cd48f7d4a09d89271a45473b939a03f7207d049c299ae76ef",
+      "bytes": 32725
+    },
+    {
+      "path": "research/2008/24/आतंकवादक-ऐतिहासिक-आ-राजनीतिक-विवेचन.htm",
+      "sha256": "45cc4063c6ff1c3d68875b5f3228bd539cd5e741cba21f1af93ffc4cb7c7d343",
+      "bytes": 24795
+    },
+    {
+      "path": "research/2008/24/जितिया-पावनि-आ-मकर-संक्रान्ति.htm",
+      "sha256": "38ae7394f835aad191db72a7d017bf8ce82b1ddbc915b4dd51dcd15fb70162e8",
+      "bytes": 20379
+    },
+    {
+      "path": "research/2008/24/नव-भोर-जोहैत-मिथिला.htm",
+      "sha256": "82a7d806ad21246074b4f18ca6fa112377ab994a8c97e3575480a81974bde399",
+      "bytes": 22556
+    },
+    {
+      "path": "research/2008/24/नेपाल-रेलवेक-दुरावस्था-आ-सरकारक-कानमे-तेल.htm",
+      "sha256": "5e22fc86ee7db7e1220362cff234c7c90ed80a7972ba46f43fe777b23874a8ac",
+      "bytes": 28394
+    },
+    {
+      "path": "research/2008/24/सगर-राति-दीप-जरय-मैथिली-कथा-लेखनक-क्षेत्रमे-शान्त-क्रान्ति-तेसर-खेप.htm",
+      "sha256": "fd76becbff0a90e5b1fa4f41d73b7440cff8bbb210e6163f5848c5a1cbf25450",
+      "bytes": 26070
+    },
+    {
+      "path": "research/2008/3/videha-mithila-tirbhukti-tirhut-continuation-2.htm",
+      "sha256": "d089d0783e78e68ce310d56741a41d8f072c32196e53d83b70847047b22bbaba",
+      "bytes": 21346
+    },
+    {
+      "path": "research/2008/3/दरिभङ्गा-संस्कृत-विश्वविद्यालयक-प्रासंगिकता-क्रमशः.htm",
+      "sha256": "2be9802d3c7c920263c68d223d0ce6d3cfe79ec5ff100da888194539227806be",
+      "bytes": 14656
+    },
+    {
+      "path": "research/2008/3/पंजी-प्रबंध-गोत्र-आ-मूल-ग्रामक-ऐतिहासिक-विन्यास.htm",
+      "sha256": "904eadfaf13f17ef4835c7fcaeb97d44b808ef364218a7e4c83da4f84a5a2622",
+      "bytes": 14312
+    },
+    {
+      "path": "research/2008/3/मायानन्द-मिश्रक-इतिहास-बोध.htm",
+      "sha256": "c510e091d2467368632ddfb28a8b69cda782d64404f340f9b9c87c0baa5b8f30",
+      "bytes": 18273
+    },
+    {
+      "path": "research/2008/6/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-4.htm",
+      "sha256": "b29eb3de6f203a9f4802594a8f65318c661813c19969ec5cd0382abb76eb5880",
+      "bytes": 18796
+    },
+    {
+      "path": "research/2008/7/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-5.htm",
+      "sha256": "b58fa8e19cd0e2fd7b05a97560f512a30364295e1ff551b1e23fc5b7ba895669",
+      "bytes": 14733
+    },
+    {
+      "path": "research/2008/8/पञ्जी-प्रबंध-पञ्जीकार-परम्परा-आ-मूल-गोत्र-विन्यास.htm",
+      "sha256": "910a6852a3b35f9a86b0b0d243e7206b526f8e2d95775f116ee29c931b03efc6",
+      "bytes": 14777
+    },
+    {
+      "path": "research/2008/8/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-6.htm",
+      "sha256": "5773a4318bba53a1748b89e695c1825b51a84bff7ca194dc262404dc08d0219c",
+      "bytes": 13362
+    },
+    {
+      "path": "research/2008/9/videha-mithila-tirbhukti-tirhut-continuation-3.htm",
+      "sha256": "8fbf7191bc413ee41c21f7339d53709250b37a53ac007d6632a23068122424e5",
+      "bytes": 11990
+    },
+    {
+      "path": "research/2008/9/पञ्जी-प्रबंध-वैवाहिक-पञ्जी-आ-सामाजिक-इतिहास.htm",
+      "sha256": "b42a330e9b06f43d26ab1b817df213ace46573874cd99e133aaed650cd153aa4",
+      "bytes": 15880
+    },
+    {
+      "path": "research/2008/9/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-7.htm",
+      "sha256": "e6b7307f6442498d7e7d1076fa2aa4a6a12f67e6259896f76216f3d82bf0dc9a",
+      "bytes": 18660
+    },
+    {
+      "path": "research/2009/25/मिथिला-मंथन-पिछड़ापन-नेतृत्व-आ-विकास.htm",
+      "sha256": "b1d08bd4dc5003911df4f6079648187a50f83d249aa792281dd4a59982ef680b",
+      "bytes": 30891
+    },
+    {
+      "path": "research/2009/25/मिथिला-विभूति-पं-मोदानन्द-झा-विस्तृत-संस्मरण.htm",
+      "sha256": "ed0b2440e8ba5e5714e3d3270864ca4b0ffc40e147784b624c68b35819a49cc7",
+      "bytes": 34240
+    },
+    {
+      "path": "research/2009/25/मैथिली-सामाजिक-नाटकक-मूल-केन्द्र-बिन्दु-नारी-समस्या.htm",
+      "sha256": "cbd7f7b7cfb9b6bb4695f1d58d3953127d5947ef287da6d13282024a06d4847b",
+      "bytes": 92714
+    },
+    {
+      "path": "research/2009/26/हमर-सपना-केर-मिथिला.htm",
+      "sha256": "39ebaa5d25847d0550fb5cba82bb29fb6bef6cc4ef3a30e07bd546df7590fd76",
+      "bytes": 15449
+    },
+    {
+      "path": "research/2009/27/अन्हार-पर-इजोतक-कहिओ-विजय-नहि.htm",
+      "sha256": "9aa13bfa787fd6c8e02539dd1d7c02e45944d9945b6b57a419274e17c6e03035",
+      "bytes": 23185
+    },
+    {
+      "path": "research/2009/27/आधुनिक-मैथिली-नाटकमे-चित्रित-निर्धनताक-समस्या.htm",
+      "sha256": "db6f6fe887cf004520f9ced4ea6118691e0913871bfe018e232707b505223018",
+      "bytes": 20840
+    },
+    {
+      "path": "research/2009/27/मिथिलाक-लुप्तप्राय-गीत-गर्भसँ-छठिहार-धरि.htm",
+      "sha256": "ac71df718b993926557e3f832296dbf07c05b4bf9bcde67feedd6889f3db128a",
+      "bytes": 41335
+    },
+    {
+      "path": "research/2009/27/मैथिली-भाषाक-साहित्य-अंक-२७-मे-प्रकाशित-खेप.htm",
+      "sha256": "35a6e8612cea1f6fce23bb688b93db78d97cb2de0d132c5a6fa6c1a8e8157b5e",
+      "bytes": 62745
+    },
+    {
+      "path": "research/2009/27/स्व-राजकमल-चौधरी-पर-शोध-लेख-छठम-खेप.htm",
+      "sha256": "a3ed98e2c1ac2967dc0de7aa55ca2e720064b150b552509c4e1fef03161b44ef",
+      "bytes": 41397
+    },
+    {
+      "path": "research/2009/28/केदारनाथ-चौधरीक-उपन्यास-चमेली-रानी-आ-माहुर.htm",
+      "sha256": "6ea885226e8f9664c7bfa68e2d73566777ae7fd4e5e7c9d09f439731f5feff80",
+      "bytes": 25131
+    },
+    {
+      "path": "research/2009/28/मिथिलाक-लुप्तप्राय-गीत-विवाह-संस्कारक-गीत.htm",
+      "sha256": "cab2d1791c62691084b10ac8c98b9b7ab23c18aea0e0b90f38aadfd9e76f61a3",
+      "bytes": 51177
+    },
+    {
+      "path": "research/2009/29/जयकान्त-मिश्रपर-विशेष.htm",
+      "sha256": "d9dab4c70157e702c45a6e1542c3f327f33f2419f0efff81e77711c34aba24ac",
+      "bytes": 25236
+    },
+    {
+      "path": "research/2009/29/सुभाषचन्द्र-यादवक-कथा-संग्रह-बनैत-बिगड़ैत-विवेचना.htm",
+      "sha256": "2b29f2719d3e65727c2b3558c1dd39ba2a3a58713887c170cfa98ab0fbc021ae",
+      "bytes": 28494
+    },
+    {
+      "path": "research/2009/30/on-english-maithili-dictionary-by-gajendra-thakur.htm",
+      "sha256": "b0ea960b3f5ac89223eb5dfd9a7cbe9204a7df4e7464aeee98127f7238c52566",
+      "bytes": 20888
+    },
+    {
+      "path": "research/2009/30/कविक-आत्मोक्ति-कविताक-अयना.htm",
+      "sha256": "f8bee65b96cc5c788602bfe9713f7b61228f276011dbbb3d27ee13ec1383e5dd",
+      "bytes": 27065
+    },
+    {
+      "path": "research/2009/30/बटुआमे-बिहाड़ि-आ-बिर्ड़ो-राजकमल-चौधरीक-उपन्यास.htm",
+      "sha256": "325e9842382e6cbb34a64bc711b560dc511cdfd95e7e2894e0ade3795e132067",
+      "bytes": 143366
+    },
+    {
+      "path": "research/2009/30/मैथिली-भाषाक-साहित्य-अंक-३०-मे-प्रकाशित-खेप.htm",
+      "sha256": "5ae3d2e0266e12b7c1221d51ffc4e0068eea07d76c7581f3f505c4cf341ddf58",
+      "bytes": 47686
+    },
+    {
+      "path": "research/2009/30/सुभाषचन्द्र-यादवक-कथा-संग्रह-बनैत-बिगड़ैत-विवेचना.htm",
+      "sha256": "915ef68f83a55191c1cb75801e8e6d2d2b678eca512687e59ebfada5ede6ba69",
+      "bytes": 26868
+    },
+    {
+      "path": "research/2009/31/गजेन्द्र-ठाकुरक-मैथिली-अंग्रेजी-शब्दकोशपर.htm",
+      "sha256": "76cac8d60f8d2d72f6c3bd00d6afed18bfa4f1a9cb590d6e164d6061b532124f",
+      "bytes": 42306
+    },
+    {
+      "path": "research/2009/31/मिथिलांचलक-दलित-समाजमे-लोकगाथा-मैथिली-लोकगाथामे-दीनाभद्री.htm",
+      "sha256": "e27f42494cda4e4a3cdb6056b494c44e33ccf19d3e69887a701b767f39c92ea5",
+      "bytes": 64917
+    },
+    {
+      "path": "research/2009/32/पन्द्रहम-लोकसभा-छोट-आ-क्षेत्रीय-दलक-भूमिका.htm",
+      "sha256": "120d81916ae8c8f7e1b839447839073b566394b4cca75cb8f871d10568b62390",
+      "bytes": 23253
+    },
+    {
+      "path": "research/2009/33/मणिपद्मक-संस्मरण-संसार.htm",
+      "sha256": "9f749361f5f534a606d882f0b09bfe897c14171ef46952f185e178faa4561272",
+      "bytes": 55531
+    },
+    {
+      "path": "research/2009/33/संचार-एवं-साहित्य-क्षेत्रमे-समावेशी-स्वरूपक-अपेक्षा.htm",
+      "sha256": "dad1fff961e657b86592a611637c0076797eb89160f8efebf47be6e9312d5da0",
+      "bytes": 32255
+    },
+    {
+      "path": "research/2009/34/बनैत-बिगड़ैत-सुभाषचन्द्र-यादवक-कथा-संग्रहक-समीक्षा.htm",
+      "sha256": "cf63ef5b3c4c2b302db6e28be9ab3f981217419f9745d38942c66863c74d75db",
+      "bytes": 78628
+    },
+    {
+      "path": "research/2009/34/भाषा-आ-प्रौद्योगिकी-अन्तर्जालपर-मैथिली-लेखन-आ-ई-प्रकाशन.htm",
+      "sha256": "7a844db599cb5ee853ef0088edc6842a50863f28f4c04aa1c3f2e70f83599f61",
+      "bytes": 48794
+    },
+    {
+      "path": "research/2009/34/मातृभाषा-बम्बईमे-विदेह-पत्रिका-आ-मैथिली-फिल्मक-संस्मरण.htm",
+      "sha256": "bad28d9be1a763f5d6df0f60447698b131d593432e5874b09f1c8e3a017f6d97",
+      "bytes": 17603
+    },
+    {
+      "path": "research/2009/34/हास्य-व्यंग्य-सम्राट-प्रोफेसर-हरिमोहन-झा.htm",
+      "sha256": "3acdb493383bd33961531f3cbe6dce94d8939e9c98dca40d50bfcb707ffe3e99",
+      "bytes": 78436
+    },
+    {
+      "path": "research/2009/35/चेतना-समिति-ओ-नाट्यमंच-पहिल-भाग.htm",
+      "sha256": "2f1723d4040f3cd06807e16ffabb128d03aa1e59a54a3646a3d9dd648e58fc15",
+      "bytes": 72758
+    },
+    {
+      "path": "research/2009/35/माध्यमिक-परीक्षा-परिणाम-२००९-सोझाँ-आयल-ग्रामीण-प्रतिभा.htm",
+      "sha256": "da2afc7e5e05554081e7cc794f6d4140c06a757ff3b66789c955af20f9572a6c",
+      "bytes": 14894
+    },
+    {
+      "path": "research/2009/35/लोरिक-गाथामे-समाज-ओ-संस्कृति.htm",
+      "sha256": "5be1b109c81c6691965b02bf0d022c94e06609c424b2729081467bd6ecda8320",
+      "bytes": 30314
+    },
+    {
+      "path": "research/2009/35/विकासक-पक्षमे-जनादेश-बाहुबल-आ-परिवारवादपर-चोट.htm",
+      "sha256": "289f0efb6708ca372ee2b07158e25f28e05a0cd010869ae99157f522c8d2d0e1",
+      "bytes": 18817
+    },
+    {
+      "path": "research/2009/35/सगर-राति-दीप-जरए-६६म-आयोजनक-दस्तावेज.htm",
+      "sha256": "a506bdf6f610dd2b4e2e83644623e22ce16e63e03f64638ed856320e93c27d03",
+      "bytes": 16214
+    },
+    {
+      "path": "research/2009/36/आचार्य-पंकज-संताल-परगनाक-साहित्यिक-इतिहास.htm",
+      "sha256": "67df9c92c816ec5719097182787a86477b2f79eb52ba569001d59a5455ed6c37",
+      "bytes": 14326
+    },
+    {
+      "path": "research/2009/36/इतिहास.htm",
+      "sha256": "30f165503f059a16cf49e20eba9067dfc6d14636cf2bbc6952fd7e03dbc753bb",
+      "bytes": 22774
+    },
+    {
+      "path": "research/2009/36/गजेन्द्र-ठाकुरक-कुरुक्षेत्रम्-अन्तर्मनक-पर.htm",
+      "sha256": "34531067545a11b80a09264bf4b1cd5e9fdce536c143403b69c44fa4d4a885ae",
+      "bytes": 16529
+    },
+    {
+      "path": "research/2009/36/चेतना-समिति-ओ-नाट्यमंच-दोसर-भाग.htm",
+      "sha256": "fb51311aa7e205e47b90444f5d057554a953f9f0e3f4884bd94ce8e338c3ea2a",
+      "bytes": 45694
+    },
+    {
+      "path": "research/2009/36/फील्ड-वर्कपर-आधारित-खिस्सा-सीत-बसंत.htm",
+      "sha256": "6967650a94e98db1367813cd88cd71f87999cbea6ed31891d4163ab1177e5f2e",
+      "bytes": 52344
+    },
+    {
+      "path": "research/2009/36/विष्णु-प्रभाकरजी-सादगीक-प्रतिमूर्ति-छलाह.htm",
+      "sha256": "243569b6f5c5ef78d93a8994d0030fe86a2d05167fdbd1bad8a405f8a1ed7931",
+      "bytes": 14736
+    },
+    {
+      "path": "research/2009/36/हाँ-ई-तँ-कहियो-नहि-देखने-रही.htm",
+      "sha256": "21e2ed53ba547eb533f19d6efb70c3d4558a85279cd802b715889b51672af230",
+      "bytes": 15219
+    },
+    {
+      "path": "research/2009/37/लोकगाथा-ओ-मणिपद्म.htm",
+      "sha256": "deac3bff198d0bfa8eb5e9ba281c080e4bf724c61decbc267f5bb7b9bdb01a04",
+      "bytes": 28137
+    },
+    {
+      "path": "research/2009/38/आशाक-किरण-विद्युतीय-संचारमाध्यममे-मैथिली.htm",
+      "sha256": "a36afb2214d63193ee69c036b27bfaf60dbb85079ff5ac52167dcd4a817bf9d4",
+      "bytes": 13721
+    },
+    {
+      "path": "research/2009/38/मैथिली-भाषा-संस्कृतिक-रक्षाक-लेल-संस्थाक-आवश्यकता.htm",
+      "sha256": "ecf84e58514fd70c4a87cd410bf27f20b8bc1bf21514a045dbf427efa5626690",
+      "bytes": 14842
+    },
+    {
+      "path": "research/2009/38/रेलवेक-श्वेतपत्रकेँ-लऽ-कऽ-चलि-रहल-वाक्-युद्ध.htm",
+      "sha256": "8a85f5d7e92956af5b3db9b3740bd6a19de91fb2810bf9eaacc50b660a174e01",
+      "bytes": 14013
+    },
+    {
+      "path": "research/2009/38/हुगली-ऊपर-बहैत-गंगा-संवेदनशील-मोनकेँ-छुबैत-कथा-संग्रह.htm",
+      "sha256": "c255fe088063b8045bf11dc180cf9f730b11eb1d676a00051672a76d49efca90",
+      "bytes": 45339
+    },
+    {
+      "path": "research/2009/41/मखान-खानि-ई-मिथिला.htm",
+      "sha256": "66cd063e97f9695d50800d5fd888b4ec81f613962f550473d177a811d4ad5cab",
+      "bytes": 64117
+    },
+    {
+      "path": "research/2009/41/रंगदृष्टि-दिल्लीमे-नाट्य-संस्कृतिक-केन्द्र.htm",
+      "sha256": "b8ad791334d60197f7cb4bd076bd7d05a0e660eff96f8b20e5957abdcee774d3",
+      "bytes": 19695
+    },
+    {
+      "path": "research/2009/42/६७म-सगर-राति-दीप-जरय-आयोजनक-दस्तावेज.htm",
+      "sha256": "0e68119b0008b65b4c489821c812ac99cdb40506f2035cda862dbfd91e5ca7d8",
+      "bytes": 19815
+    },
+    {
+      "path": "research/2009/43/संस्कार-गीत-आ-लोकगीत-नाद.htm",
+      "sha256": "b9de7399090dcabcc04db87a4f728532da02fddf8152078b9d05c15badb2ac89",
+      "bytes": 46342
+    },
+    {
+      "path": "research/2009/44/मऊ-वाजितपुर-सँ-विद्यापतिनगर-परिवर्त्तन-यात्रा.htm",
+      "sha256": "4606619640c3c78d82b916518e9127bb6de6c1ba8823c9683a11a959a782c12b",
+      "bytes": 22098
+    },
+    {
+      "path": "research/2009/44/मिथिलाक-कतिआएल-सिद्धपीठ.htm",
+      "sha256": "f8702b1db8d642415d95b3fe7ba0e164009265bc6be93ec30e94a969c1c8bc9b",
+      "bytes": 27057
+    },
+    {
+      "path": "research/2009/44/सामाजिक-परिवर्तनक-संदर्भमे-मैथिलीक-दशा-ओ-दिशा.htm",
+      "sha256": "74dbc0cf2898da216feabf1ee8bf7b5ad4cd325b0d8fb7ab95482a7ac1d2ef7a",
+      "bytes": 23994
+    },
+    {
+      "path": "research/2009/45/प्रदेशमे-नहि-थमि-रहल-जातीय-हिंसाक-दौर.htm",
+      "sha256": "a2c85d09152efa0851e9338527ca5d3fa95963365fddcbd4457f849b4e6ef9b4",
+      "bytes": 22121
+    },
+    {
+      "path": "research/2009/45/मिथिलाक-इतिहास.htm",
+      "sha256": "47b1e2d6e1d9ae7743f7540e5851f5ef95c63a97ecd0e145eeee8110d2ba3438",
+      "bytes": 112010
+    },
+    {
+      "path": "research/2009/46/मिथिलाक-इतिहास.htm",
+      "sha256": "997a3cebb5512a672979b2b7d49d53303b6043ed904f1c96de1edd83909939f2",
+      "bytes": 1155962
+    },
+    {
+      "path": "research/2009/46/साझा-प्रकाशनमे-विद्यापति.htm",
+      "sha256": "7760200c9f2b93cecb2bab4d7b494986226edb1712968fee184a079a29fdfe8d",
+      "bytes": 19648
+    },
+    {
+      "path": "research/2009/46/स्वातन्त्रोत्तरयुगीन-संस्कृत-साहित्यक-संवर्द्धन-मे-मिथिल-56c21e6f1d.htm",
+      "sha256": "cf53179caa2679e893335702742539bcbc92a65bebac2f9aae921b60380fa55e",
+      "bytes": 18124
+    },
+    {
+      "path": "research/2009/47/आवश्यकता-अछि-सकारात्मक-मौलिक-चिन्तनक.htm",
+      "sha256": "4e9f1405521791bbedfe05170aa45cd75f26d7bc88555cf3c5d6de4ae1089bb1",
+      "bytes": 13927
+    },
+    {
+      "path": "research/2009/47/मिथिला-कवि-कोकिल-विद्यापति.htm",
+      "sha256": "cbc2ef8231ff2a94e3b988acb821770c7c6b8911da46f5b95ecf53ae54651e6d",
+      "bytes": 60904
+    },
+    {
+      "path": "research/2009/47/मिथिलाक-इतिहास-आगाँ.htm",
+      "sha256": "4776877add95daccb880452983e2f3fa915dc277c12d2f3dd891df0bc63599be",
+      "bytes": 277793
+    },
+    {
+      "path": "research/2009/48/कथं-संस्कृतं-संस्कृतम्.htm",
+      "sha256": "46110bc992e712d56b54d68f9bcc4331c747a1e4b2bc7c188c50b0c6dbf44c94",
+      "bytes": 15888
+    },
+    {
+      "path": "research/2009/48/मैथिलीक-युगद्रष्टा-विद्यापति.htm",
+      "sha256": "91cf391a5183697b36ab3edd725e88fda2231e34fd2660a646008a3d286f6a4a",
+      "bytes": 21368
+    },
+    {
+      "path": "research/2009/48/६अम-शताब्दीक-लोकनायक-सलहेश-वृत्तचित्र-आ-इतिहास.htm",
+      "sha256": "c9bd7ba1a92b806707ff6242d9f7b917dd77afcb6f8c9e18a33f067520e27f33",
+      "bytes": 27907
+    },
+    {
+      "path": "research/2010/49/maithili.htm",
+      "sha256": "e2ff16a1afaf88d465b15e218e12aeeb62d66f055d7a68b8785420025649e78f",
+      "bytes": 53786
+    },
+    {
+      "path": "research/2010/49/आवश्यकता-अछि-मैथिली-शब्दतन्त्र-निर्माणक.htm",
+      "sha256": "e721ec6b8eb5690a5d256105cddcca1a2b27281e931d6aae0174ff1c6ace9440",
+      "bytes": 12710
+    },
+    {
+      "path": "research/2010/49/नेपालमे-मधेशीकेँ-समस्या-आ-समाधान.htm",
+      "sha256": "2ad21321ae1911eeb913abb464f264bdc3c25a5ce366d37bad64a712b879f886",
+      "bytes": 48880
+    },
+    {
+      "path": "research/2010/49/मणिपद्मक-कथा-यात्रा.htm",
+      "sha256": "a585da77e6ef0dd83be7628052d12377c3173c9dd870ddcb8246ac07ee752686",
+      "bytes": 40123
+    },
+    {
+      "path": "research/2010/49/मिथिलाक-इतिहास-आगाँ.htm",
+      "sha256": "38c515c3dfe94f2bbdfd00e3f24f6dca3735f8f35220d03810297f16ec571f9e",
+      "bytes": 1257644
+    },
+    {
+      "path": "research/2010/50/indo-nepal-relations-a-personal-reflection.htm",
+      "sha256": "86cd14323406ac798441ed24343c96deabef213bd43608a1f07bcc74f32568eb",
+      "bytes": 9860
+    },
+    {
+      "path": "research/2010/50/मैथिली-शिशु-लोक-साहित्य.htm",
+      "sha256": "1f373f6fdd2c88c68c3dd991c959046c29290d93c9e7afe62fd29188ea156f8c",
+      "bytes": 177166
+    },
+    {
+      "path": "research/2010/51/जनमानस-हेतु-प्रत्यभिज्ञादर्शनक-वैशिष्ट्य.htm",
+      "sha256": "837d29c35f5cd564ac3daee084b431492cb5de38087258331d9282f6d2cf7714",
+      "bytes": 47635
+    },
+    {
+      "path": "research/2010/51/तन्त्रानाथ-झा-सुभद्र-झा-जन्मशतवार्षिकी.htm",
+      "sha256": "9c982943b34ef534171dc1d7cee934294365d820d8c4d26c694be954bac811f0",
+      "bytes": 54456
+    },
+    {
+      "path": "research/2010/51/नेपालक-राज्य-पुनर्संरचना-मे-मिथिला-आ-मैथिली.htm",
+      "sha256": "95e53416afcfd3a327be3812540233cac85282c34bd7f60d7f3cfd70e42a91be",
+      "bytes": 41736
+    },
+    {
+      "path": "research/2010/51/प्रयोग-एकांकीक-रंगमंचीय-दृष्टि.htm",
+      "sha256": "7990861a5dc44402246c07bc745e73fc1abcb1f45aec451027ad07921b318460",
+      "bytes": 76903
+    },
+    {
+      "path": "research/2010/51/मिथिलाक-इतिहास-आगाँ.htm",
+      "sha256": "9d9bd337e8ef78a7b2ae138dc60e61a3b9df20cf44529b095062cfd378cf89bc",
+      "bytes": 232086
+    },
+    {
+      "path": "research/2010/52/जनकपुरमे-मिथिला-महोत्सवक-आयोजन-नव-अध्यायक-शुभारंभ.htm",
+      "sha256": "6207531ef7eb79d5002b5755e36f84d68c82ab609b4aabd2a02d3e7f0e7261f9",
+      "bytes": 20271
+    },
+    {
+      "path": "research/2010/52/नचिकेताक-प्रियंवदा-एक-विश्लेषण.htm",
+      "sha256": "cfd0b815159224b2558569f0d815b5a8dd6da436ecf051e6371291ac9f38aea2",
+      "bytes": 92123
+    },
+    {
+      "path": "research/2010/52/मिथिलाक-इतिहास-अध्याय--१५सँ-१८.htm",
+      "sha256": "a07df46b23f775758c3efd5cd8b795bbd0aa9f633e5f9d321f9fea1b5eae0ee4",
+      "bytes": 452764
+    },
+    {
+      "path": "research/2010/52/हमर-शिक्षण-यात्रा.htm",
+      "sha256": "1e7661ebf0e13eb3b3a61b0d28e42d846def385ea4a9502a4c69b7ac1c485bf1",
+      "bytes": 482672
+    },
+    {
+      "path": "research/2010/53/मिथिला-पञ्चकोशी-परिक्रमा.htm",
+      "sha256": "54815f8bb30e7f779b97e29bc2a97cb9276a538cc0c613f01070d97aa376e26c",
+      "bytes": 27608
+    },
+    {
+      "path": "research/2010/53/मिथिलाक-इतिहास-अन्तिम-खेप.htm",
+      "sha256": "02e6a561e920686b81455f08d2563478056c130a4b445d2a7fb2d4ba6ae0dd1e",
+      "bytes": 464987
+    },
+    {
+      "path": "research/2010/54/कृतारिषड्वर्गजयेनमानवीम्-।-सफलताक-मूलसूत्र.htm",
+      "sha256": "9a19dc9a30a24673d9422ee4e5841498d2fc2e9b3e4b4bf1afa823832c514074",
+      "bytes": 127489
+    },
+    {
+      "path": "research/2010/54/नेपालमे-मैथिली-भाषामे-पढाइ-उत्साह-कम-निराशा-बेसी.htm",
+      "sha256": "3a32a53d4ad71b896fe3ebadeece98ed7c3a59dc9233406e4fe687aa43b19daf",
+      "bytes": 24159
+    },
+    {
+      "path": "research/2010/55/प्रतिवादक-स्वर.htm",
+      "sha256": "f1ccb880c7fefa56a17102239e225f4eb2ea3aa8e62ab8970bd2d9a4fcb85e7f",
+      "bytes": 32516
+    },
+    {
+      "path": "research/2010/55/भारत-नेपाल-आओर-मिथिलांचल.htm",
+      "sha256": "9aa729482604c51cc2491c0391880d679da14906a59ac0f51a6daa424335d5b2",
+      "bytes": 66873
+    },
+    {
+      "path": "research/2010/55/स्वान-विमर्श.htm",
+      "sha256": "5efa25d23c19a0202a67e68436a5f8ff956b3a53534f720e3948ece62284ca01",
+      "bytes": 33449
+    },
+    {
+      "path": "research/2010/56/निर्मलीसँ-जनकपुर-धाम.htm",
+      "sha256": "1fec83137a6ea9044e31816a4414b0f6772adb2bf563169183c77aacba734b4c",
+      "bytes": 20537
+    },
+    {
+      "path": "research/2010/58/अवतारवाद.htm",
+      "sha256": "ec8bd3d5ffdf9530822e3cbe075a6525183a2fcc7a4a6cfef71ff10dfe3a4288",
+      "bytes": 39209
+    },
+    {
+      "path": "research/2010/58/कवि-पं-प्रतापनारायण-झा-कें-छठम-पुण्यतिथि-पर-हार्दिक-श्रद्धाञ्जलि.htm",
+      "sha256": "49482f34771a4e27cab839dfc13c505153d4b0fc1800e284a2fca9f81d7dffb3",
+      "bytes": 292566
+    },
+    {
+      "path": "research/2010/58/संस्मरण-साहित्य.htm",
+      "sha256": "e47ac8b1227a4dbb88ae9e24f7507ce8c96cd662de40f679a476f833b62f0cc5",
+      "bytes": 206213
+    },
+    {
+      "path": "research/2010/59/हरिमोहन-झाक-रचनाक-परवर्त्ती.htm",
+      "sha256": "0c86e49b0a98327b0a02bb17b7ccda3f47ddea0ff3377965903ae355e8e16344",
+      "bytes": 470713
+    },
+    {
+      "path": "research/2010/61/काठमाण्डूमेँ-कोहबर-घर-आ-परम्पराके-निरन्तरतामेँ-प्रवास.htm",
+      "sha256": "68f13ee493af21444bd8847fb8ea2fc7a16481a09d6fe966f2f59a46193580b2",
+      "bytes": 59162
+    },
+    {
+      "path": "research/2010/61/गुरुशिष्य-परम्परा-आओर-आधुनिकता.htm",
+      "sha256": "82d6fc114b527e42c1bfb02a522b820abf1308b82a7b3c6ea8c56cbaf7ca85f8",
+      "bytes": 127005
+    },
+    {
+      "path": "research/2010/61/मिथिलाक-विस्मृत-राजधनी-देवकुली.htm",
+      "sha256": "2e085829d81da645cf8aad8f96084a03367b1871fdad6e1973955101bc97a77e",
+      "bytes": 72754
+    },
+    {
+      "path": "research/2010/61/मिथिलाक-विस्मृत-राजधानी-देवकुली.htm",
+      "sha256": "b4db5f3d1944b0d7990b9bff196342d360df128515371644d9b95ab1b53abcec",
+      "bytes": 72822
+    },
+    {
+      "path": "research/2010/61/मैथिली-लोकगीतक-अवस्था-जनकपुर.htm",
+      "sha256": "2a4365876d55408ec15fec8b8f81a6c4e4858fe620530526b9aad6ced57ea15e",
+      "bytes": 65241
+    },
+    {
+      "path": "research/2010/62/अलग-राज्यक-माँग-कतेक-सार्थक.htm",
+      "sha256": "f6a95ae5c223465b7d0679e7d45c4b4dbd43bc79054196dcb392d582824cd327",
+      "bytes": 53962
+    },
+    {
+      "path": "research/2010/62/विदेशमे-भविष्य-देखैत-अछि-विद्यार्थी.htm",
+      "sha256": "405d9baa5a8fd5ad44ccb535a77050e85c6b687941bb307b0bd8ac99b3ec48a3",
+      "bytes": 15058
+    },
+    {
+      "path": "research/2010/62/हे-हृदयेश्वरी-एक-कटाक्षालोचन.htm",
+      "sha256": "a21def7a6bd941e6922003b14ae708779d900eba86c127539cb617c266f507bc",
+      "bytes": 21774
+    },
+    {
+      "path": "research/2010/63/मैथिलीक-उत्पत्ति-आ-विकास-तथा-भारोपीय-भाषा-परिवार-मध्य-मैथिल-4188a570d2.htm",
+      "sha256": "85c5b002819f99b03aa94bb44a1b55545bcb26753abaa0a1fca44d1d0272e165",
+      "bytes": 87176
+    },
+    {
+      "path": "research/2010/64/नव-विवाहिताक-लेल-नव-उमंग-लाबए-एहन-मधुश्रावणि.htm",
+      "sha256": "62885f305a6fb56e80994df70d2c695afe7acde420aa049d85b7b9d80025bf86",
+      "bytes": 17672
+    },
+    {
+      "path": "research/2010/64/मधुश्रावणी-मिथिलाक-पारम्परिक-हनिमून.htm",
+      "sha256": "20af59ea45a8c6f8b33077f2445a31748c10095c25c9090f3b49f561b5a98328",
+      "bytes": 390716
+    },
+    {
+      "path": "research/2010/64/मैथिली-साहित्यक-आदिकाल.htm",
+      "sha256": "69b40b567f664a26460c2f6f3855a199635ecab31bb669b300f154f1a1ad1a27",
+      "bytes": 44238
+    },
+    {
+      "path": "research/2010/65/मैथिली-साहित्यक-काल-निर्धारण-यू-पी-एस-सी-परीक्षार्थीक-हेतु-उपयोगी.htm",
+      "sha256": "4a0d6b5d6b20c2d2cd784b349d06c9b55548a9c74d3292d452b8a37d044dd6d3",
+      "bytes": 486646
+    },
+    {
+      "path": "research/2010/65/मैथिली-साहित्यक-काल-निर्धारण.htm",
+      "sha256": "7b0b48e7d28dea9709703146a016ca4eab17cfa5efd72e1efe3c8f181988f2a0",
+      "bytes": 480366
+    },
+    {
+      "path": "research/2010/66/मैथिलीक-प्रमुख-उपभाषाक-क्षेत्र-आ-ओकर-प्रमुख-विशेषता-यू-पी-एस-1b4ae2025a.htm",
+      "sha256": "357ed83ab48e78153d9cb791d9411d9cb8a96a4a25cbd12c00255e634fad755c",
+      "bytes": 409265
+    },
+    {
+      "path": "research/2010/66/मैथिलीक-प्रमुख-उपभाषाक-क्षेत्र-आ-ओकर-प्रमुख-विशेषता.htm",
+      "sha256": "470722795232793e626fa951232e594f1565a37365fff88fd9daa7a64df059a1",
+      "bytes": 403851
+    },
+    {
+      "path": "research/2010/67/गद्य-साहित्य-मध्य-लघुकथाक-स्थान-आ-लघुकथाक-समीक्षाशास्त्र.htm",
+      "sha256": "6a8e800d269fd580bc5e0dd1babac3bc91faab2178849326ea7260f11074e214",
+      "bytes": 93467
+    },
+    {
+      "path": "research/2010/67/मानसरोवरक-भूमिकाक-प्रासंगिकता.htm",
+      "sha256": "8ce2770bdb6052aa98632e8fb8e4e87c6a716b72db65065558dab6f3ce8b7c58",
+      "bytes": 40960
+    },
+    {
+      "path": "research/2010/67/यू-पी-एस-सी-मैथिली-प्रथम-पत्रक-परीक्षार्थी-हेतु-उपयोगी-संकलन.htm",
+      "sha256": "eca3b534ffe8ba5b5d2b7b6d912935523764f4f8fdefee3fcfb43d96842d5e3b",
+      "bytes": 18971
+    },
+    {
+      "path": "research/2010/67/लघुकथा-लेखनमे-अवरोधक-तत्व.htm",
+      "sha256": "c25909f6fafe4e666cb1bcde72f4ed4b910975f28536f2c7555dcfd88e23f9b0",
+      "bytes": 15859
+    },
+    {
+      "path": "research/2010/68/आचार्य-रमानाथ-झा-आ-प्रो-तंत्रनाथ-झाक-भाषणमाला-२०१०.htm",
+      "sha256": "e36dc46a72dd0c9199724444b011544ad316da0830bf61f61f3169c3bd1dd7ee",
+      "bytes": 17755
+    },
+    {
+      "path": "research/2010/68/की-अछि-दिल्लीक-जी-बी-रोडक-कोठाक-सत.htm",
+      "sha256": "7ce362cd8191b0308bc55b785f7ff018f64d29e3c9cd8173337804ecc65bbd9a",
+      "bytes": 54608
+    },
+    {
+      "path": "research/2010/68/समसामयिक-सन्दर्भ-मे-गाँधीविचारक-महत्ता.htm",
+      "sha256": "6f9e8eb180446d60da54b16b4983acb070ca0210d48997ab2904578d78f1ca0f",
+      "bytes": 14138
+    },
+    {
+      "path": "research/2010/69/नेपालमे-मैथिली-कथाक-विकास-ओ-प्रवृत्ति.htm",
+      "sha256": "4900f35374d26267a4ef96661680d6d411005397e469572a307cd70ef7e4cfc6",
+      "bytes": 97720
+    },
+    {
+      "path": "research/2010/69/मैथिली-उपन्यास-साहित्यमे-ग्रामीण-चित्रण.htm",
+      "sha256": "92baea7210aadb287c4ae2b700136968cb50c9dd545cf8710044ab6476c9234d",
+      "bytes": 35285
+    },
+    {
+      "path": "research/2010/69/मैथिली-उपन्यास-साहित्यमे-दलित-पात्रक-चित्रण.htm",
+      "sha256": "dc23af38060ac148aa95c15247b0f341648486e1b1822d4e56ed13b4f2c921d7",
+      "bytes": 35662
+    },
+    {
+      "path": "research/2010/70/मैथिली-बाल-काव्यधारा.htm",
+      "sha256": "2bb6113c55caa0ced4b1e27b17606da4280bd0debb4d87264a52d47c6a72df47",
+      "bytes": 60741
+    },
+    {
+      "path": "research/2010/71/प्रदेश-केर-विकास-एक-चिन्तन--बिहार-विकास-सन्दर्भ-मे-आलोचनात्म-a76fe0f2cd.htm",
+      "sha256": "530bd67735a6d83fef2af8a2aae10609c8f83147cd5d8e13b41b47007857c18b",
+      "bytes": 34207
+    },
+    {
+      "path": "research/2010/71/प्रदेश-केर-विकास-एक-चिन्तन.htm",
+      "sha256": "0f5d600303761bd8f333ad9b3e98d42ebbecfa7f6c45b5c2a8ca02336edba76d",
+      "bytes": 30448
+    },
+    {
+      "path": "research/2010/71/प्रदेश-केर-विकास-बिहार-विकास-सन्दर्भ-मे-आलोचनात्मक-अभिव्यक्ति.htm",
+      "sha256": "50012744a7cddd43f8f1a7b13fad32a53e556ba327f6a4b02448163ba478e978",
+      "bytes": 28501
+    },
+    {
+      "path": "research/2010/71/महाकवि-विद्यापति-अक्षयकोष.htm",
+      "sha256": "d3a88c51174c6830175f556212a1e8abb30fc9601aa44ee739a7a94063e10e0d",
+      "bytes": 54647
+    },
+    {
+      "path": "research/2010/71/मिथिला-चित्रकला.htm",
+      "sha256": "013daec056ee571a7a07d908de76be6115194f72188857f5bfc96de6f55da24d",
+      "bytes": 81210
+    },
+    {
+      "path": "research/2010/72/नाटक-रिहर्सल.htm",
+      "sha256": "1bb266020e08424ad88da86da0726adbe48b33b5035e8060847467fc05069aba",
+      "bytes": 115437
+    },
+    {
+      "path": "research/2010/72/प्रयोग-एकांकीक-रंगमंचीय-प्रयोग.htm",
+      "sha256": "9eb05bd410908e60cac575161521d0dfe16457f64a903f27b54d8fd231da48ef",
+      "bytes": 235384
+    },
+    {
+      "path": "research/2011/74/मैथिलीमे-अनुवाद-कलाक-शास्त्रीयकरणक-इतिहास.htm",
+      "sha256": "aff735f64710574d44a0669cff2aa150e7c6f0d27cc5b48078b4e2dee1424e89",
+      "bytes": 38371
+    },
+    {
+      "path": "research/2011/74/वनदेवी-आ-नारी-अस्मिताक-गाथा.htm",
+      "sha256": "aeb464b7fc079794cec8f4b1e4fc5eeb637ca8b5bf4630af578c953b8f585006",
+      "bytes": 35168
+    },
+    {
+      "path": "research/2011/74/विद्यापति.htm",
+      "sha256": "478299e1cfc7191fa9793229e4dc12ca86d8b32a4cc0ee57ef41702d76cdbace",
+      "bytes": 51351
+    },
+    {
+      "path": "research/2011/74/संगाईप्राऊ-नागा-पूर्वजक-स्मरणक-धरोहर.htm",
+      "sha256": "3d25f601585786e2058db269ae939b1070bfa6fd2a9d259b7edf50c343739aef",
+      "bytes": 41102
+    },
+    {
+      "path": "research/2011/75/उत्तराखण्डक-नन्दा-राजजात.htm",
+      "sha256": "8a768bde3499bf82e7a1b0a16cbbe3f2e8f212815b71d98cd4f5010d5a8630fc",
+      "bytes": 22722
+    },
+    {
+      "path": "research/2011/76/मैथिली-बाललोककथा-स्थिति-आ-अपेक्षा.htm",
+      "sha256": "734b9ef9d27993a440a776af395375bacd36f4a6512c98cde69e3be077ba3fdd",
+      "bytes": 36801
+    },
+    {
+      "path": "research/2011/77/discrimination-against-women.htm",
+      "sha256": "6b2265f1a0a774ead0e596287f79f0ce4f87e49df69d1c5d4e1926465b576649",
+      "bytes": 150636
+    },
+    {
+      "path": "research/2011/77/प्राचीन-भारतीय-संस्कृतिमे-मिथिलाक-योगदान.htm",
+      "sha256": "1a015ca2fabf0760e7abaaae8be6026fd862aa308475b5d58ac619866c668810",
+      "bytes": 136095
+    },
+    {
+      "path": "research/2011/77/भाग-रौ-सामाजिक-राजनीतिक-निहितार्थ-आ-आदर्शक-उत्थान-यथार्थक-पतन.htm",
+      "sha256": "ac5b56375fae05f5d76b01010d23bd00af10aac594edd84270825b06fccb0fa7",
+      "bytes": 96346
+    },
+    {
+      "path": "research/2011/78/इसवी-सन-2010-मैथिलीक-गतिविधि.htm",
+      "sha256": "33f6f10a2f56f34645a713a8ee31763a490a57e9c3b86a4360b294791ee321d1",
+      "bytes": 38047
+    },
+    {
+      "path": "research/2011/78/फोंका-एक-विहगावलोकन.htm",
+      "sha256": "2e3e36c46eba8c5343d65961de9b6e5873ee2b60e81889146727241300e223a8",
+      "bytes": 23227
+    },
+    {
+      "path": "research/2011/78/मैथि-ली-कथाक-वि-कासमे-गामक-जि-नगीक-योगदान.htm",
+      "sha256": "6469c48d33f8a6e62b9dbc844682168bd7485a6076a09a6a5c56aca66005711d",
+      "bytes": 83037
+    },
+    {
+      "path": "research/2011/79/मिथिला-चित्रकला-पेटिंग-भूत-वर्त्तमान-आ-भविष्य.htm",
+      "sha256": "af2ec799d238977faf82685461d8f19cf47e4137d44cd9ec2a69481eac4c11bc",
+      "bytes": 45048
+    },
+    {
+      "path": "research/2011/80/महाराज-महेश-ठाकुर-ओ-कंकाली-भगवती-ग्रन्थ-समीक्षा.htm",
+      "sha256": "9cbfcb4709b3204ccbb4879f7ef0f85f73fb542448ee389ee2a0ee30cf08216a",
+      "bytes": 22307
+    },
+    {
+      "path": "research/2011/81/अपने-घरमे-उपेक्षित-मिथिला-चित्रकला.htm",
+      "sha256": "0aaf80d3da965352c0d4c8b4870e88ade7f85c1f2ba9b89d208faec970e4f637",
+      "bytes": 244993
+    },
+    {
+      "path": "research/2011/82/बेचन-ठाकुरजीक-नाटक-छीनरदेवी.htm",
+      "sha256": "9c49d96e6bbc724a6b636d44a19e1140dd280a6348a74209cf5692a1fc06784f",
+      "bytes": 28634
+    },
+    {
+      "path": "research/2011/85/कलौ-चण्डी-महेश्वरौ.htm",
+      "sha256": "f85ebc27e3ea8578a4e616192e7e3ecbba9790590203f8000b93fc9aa37d6e95",
+      "bytes": 12093
+    },
+    {
+      "path": "research/2011/86/निराला-देह-विदेह.htm",
+      "sha256": "b847168e284a287f5137ee06f4e6f83385cd0df0bb154e868fb7387d9236db86",
+      "bytes": 26938
+    },
+    {
+      "path": "research/2011/86/मिथिला-भाषाक-अध्ययन-आ-डॉ-ग्रिअर्सन-कृत-मैथिली-व्याकरण.htm",
+      "sha256": "9d04803158b580eb3b0d8301d66c049148e034df55e42635fe992f1ff5327800",
+      "bytes": 63880
+    },
+    {
+      "path": "research/2011/87/maithili-wordnet-आवश्यकता-कार्यान्वयन-आ-तद्गत-समस्याक-समीक्षा.htm",
+      "sha256": "9626f9a9b7296d85672bfb5b7e5d80538f4f6524aecdfed9061533eb538f74eb",
+      "bytes": 25907
+    },
+    {
+      "path": "research/2011/87/कथा-किरणमे-यथार्थबोध-ओ-नारी-विमर्श.htm",
+      "sha256": "69622c6cad54012c6205fdf7ce6d3a038e5dc135ab2d0af5c782e823237e4ba2",
+      "bytes": 74163
+    },
+    {
+      "path": "research/2011/87/मिथिलाक-संस्कृति-किछु-अप्रिय-बिन्दु.htm",
+      "sha256": "670b01430445d8d79c8112f742931d699272a1ad154b64ee74fe0010055ccf64",
+      "bytes": 47876
+    },
+    {
+      "path": "research/2011/89/मैथिल-नारि-केर-समस्याक-समाधान.htm",
+      "sha256": "ec9aa2a3d552f72a555eb42574c078b9893d92e6aa55ec5c3ec55f82ffb61a87",
+      "bytes": 14684
+    },
+    {
+      "path": "research/2011/89/विमलक-गजल-आ-सुजितक-कथा.htm",
+      "sha256": "9052e122b275d330999c8ae3611a8d90fd49eb0a00e7002f7034af16d14d4684",
+      "bytes": 26462
+    },
+    {
+      "path": "research/2011/89/श्रोत्रिय-समाजमे-रक्तबीजक-जन्म.htm",
+      "sha256": "281f7c9c7ee9421cf8f13c5e9bba821f63dfa61610d1ec5c9c2664e71f41b530",
+      "bytes": 28215
+    },
+    {
+      "path": "research/2011/90/गामक-जिनगीक-समीक्षा.htm",
+      "sha256": "9cc4e0d090d4e386182292b7918909169ef4f3fd9892017afb32cf2bb200f99b",
+      "bytes": 21305
+    },
+    {
+      "path": "research/2011/90/नव-नियोजित-शिक्षिका-आ-शिक्षक-मिथिलामे-बदलैत-स्त्री-पुरुख-सम-6278411430.htm",
+      "sha256": "32f9357022ece8937dbc0bf08fe56dd18dc6d3833f204f101e9e79c9bbde105e",
+      "bytes": 33392
+    },
+    {
+      "path": "research/2011/90/नव-नियोजित-शिक्षिका-आओर-शिक्षक-मिथिला-मे-बदलैत-स्त्री-आ-पुरु-2d7992da4c.htm",
+      "sha256": "5e5ec3b5efe83130d1c4e211163f1eaffb5fd05f3485469113df2ac09485db4d",
+      "bytes": 33464
+    },
+    {
+      "path": "research/2011/90/पजुआरिडीह-टोलमे-रंगमंच.htm",
+      "sha256": "78d412fa05929c28bb484a762b55ec4dd107c70d4d6afb292385d5c4e7b82b58",
+      "bytes": 20479
+    },
+    {
+      "path": "research/2011/90/रचनात्मक-विमर्शक-अयनामे-चिड़ै.htm",
+      "sha256": "ca3b562e99a78daee3299ac41a7511f4a3ea388e68f410a585680a096f0c9459",
+      "bytes": 47554
+    },
+    {
+      "path": "research/2011/91/चिरबिर-चिरबिर-करैत-उड़ि-रहल-चिड़ै.htm",
+      "sha256": "785d82471c3f28f5a0b5d217fd06ddade1cba1610cb9325790f7df6091741aeb",
+      "bytes": 20248
+    },
+    {
+      "path": "research/2011/92/कोजग्रा-धूमधाम-संग-मनाओल-जा-रहल.htm",
+      "sha256": "b9891e2cb18903677b2ae6bed4d6fa23b723887a7e3510c66be8083396441194",
+      "bytes": 40054
+    },
+    {
+      "path": "research/2011/92/यथार्थक-अनुभूतिमे-ऐतिहासिक-दिन-झिझिया-नृत्य-महोत्सव.htm",
+      "sha256": "a4724b9633c16a9cd573a0be421115043ecadc55c4fb6fa68c6d9e9de75c930c",
+      "bytes": 32747
+    },
+    {
+      "path": "research/2011/93/छठिमाइके-आसि-आ-लोकजीवनमे-हिनक-महत्व.htm",
+      "sha256": "c56093e839a71ad8570e4347e66bf39d87149970549a0d660ca36e7e88ddff26",
+      "bytes": 24896
+    },
+    {
+      "path": "research/2011/93/सामाजिक-मूल्य-मान्यताकेँ-चोच-मारैत-चिड़ै.htm",
+      "sha256": "ca2513f94bebf46d164357768f7077aa8c3b06798553aea4ca37f4e39813d21a",
+      "bytes": 39322
+    },
+    {
+      "path": "research/2012/100/त्रि-दिवसीय-राष्ट्रीय-संगोष्ठी-सम्पन्न.htm",
+      "sha256": "1fb8ae4c34823d5137a798f85ec5ff78e356f2a72fc5c7a4b74c1c085a1f582e",
+      "bytes": 19631
+    },
+    {
+      "path": "research/2012/100/भारोपीयभाषासन्दर्भे-ध्वनिविमर्शः.htm",
+      "sha256": "20407dbd97b03561cb1d31319ae0b78b66888aa593b74929d6a482a22c669ce3",
+      "bytes": 12724
+    },
+    {
+      "path": "research/2012/100/२१म-शताब्दीक-पहिल-दशकक-मैथिली-उपन्यासमे-राजनीतिक-चेतना.htm",
+      "sha256": "87d504ec4df0ae71e6bc8b126698635952be77b4eee2843c8a172abc2182086b",
+      "bytes": 19955
+    },
+    {
+      "path": "research/2012/101/ग्रामजीवनक-सत्यक-संवाहक-अर्द्धांगिनी.htm",
+      "sha256": "5fcc7f8b63875e8ed30a15ff4b09595a7448aeed6a4bd701d605d6a6877748be",
+      "bytes": 59224
+    },
+    {
+      "path": "research/2012/101/मैथिली-कथा-साहित्यक-विकासमे-राजकमलक-योगदान.htm",
+      "sha256": "7c5d91654a68ea955ef65eb8548590b5bb0dc8c21cf41ac7644868e71a473c78",
+      "bytes": 23536
+    },
+    {
+      "path": "research/2012/101/विदेह-नाट्य-उत्सव-2012.htm",
+      "sha256": "15613c726271dff840a0e042cd7ae1d3b11de3022dac37549c391dfdcc04012d",
+      "bytes": 22364
+    },
+    {
+      "path": "research/2012/102/इन्द्रधनुषी-अकासमे-सामाजिक-विमर्श.htm",
+      "sha256": "ce63e6bc76d4114c579a5b3f8f19c2ec8eeefbe2ea5e0d826fbafcf1fa374b7d",
+      "bytes": 55629
+    },
+    {
+      "path": "research/2012/102/मिथिलाक-लोक-देवता.htm",
+      "sha256": "4032fc2afac3301481e7c3ac8b3eb49d5dcc50067a17da3b36967941c2e5d548",
+      "bytes": 33330
+    },
+    {
+      "path": "research/2012/102/मैथिली-कथा-साहित्यक-विकासमे-राजकमलक-योगदान-आगाँ.htm",
+      "sha256": "8cdb2b7d333128a6b19a0804684e082c527191285c6c71abcb74a776c62aa83b",
+      "bytes": 46567
+    },
+    {
+      "path": "research/2012/104/आधुनिक-मैथिली-नाटक-आ-टुच्चा-नाटककारक-जातिवादी-रंगमंचक-अवधारणा.htm",
+      "sha256": "0baaa2d2698f0fb26b62c6ad169ab961f26d378ee70b279b28109fb86379ab6b",
+      "bytes": 34633
+    },
+    {
+      "path": "research/2012/104/इंद्रधनुषी-अकास.htm",
+      "sha256": "e8616a69ca164f6229eddbbc325fd28c64defe1baf827908c3df769118b5ad91",
+      "bytes": 139893
+    },
+    {
+      "path": "research/2012/104/विदेह-मैथिली-समानान्तर-रंगमंच.htm",
+      "sha256": "229ef76ed79833ef802fdf48fe3327d1908d7df50e984aca9ed5ed598e999270",
+      "bytes": 179728
+    },
+    {
+      "path": "research/2012/105/पाग-मिथिला-आ-जातिवादक-राजनीति.htm",
+      "sha256": "f2d380122302f2de0ecf04601353daffe2348c2af9f003beee7e16effe2aec67",
+      "bytes": 27591
+    },
+    {
+      "path": "research/2012/105/बिदापत-नाच.htm",
+      "sha256": "dea3a4e185d26a2fb47f3965a7a49c189efa4188d88f4fd8ef4466c49e549cc9",
+      "bytes": 55767
+    },
+    {
+      "path": "research/2012/106/मिथिला-राज्य-आन्दोलन-आ-शहीद-रञ्जु-झा.htm",
+      "sha256": "b0a6d97663c976a5bf0db8a05848400b03306a66097ee2cbf9d8d00a721d76ad",
+      "bytes": 22560
+    },
+    {
+      "path": "research/2012/107/भाषा-जातिगत-सम्पत्ति-नहि-अपितु-सामाजिक.htm",
+      "sha256": "4c6a0c44add43946c888c88950057fee4c43dda86bb88589d1c0568e9b5511d1",
+      "bytes": 16008
+    },
+    {
+      "path": "research/2012/108/इतिहासहिन-इतिहास.htm",
+      "sha256": "534bb56a8c46e9f3bccebf8843544c3bb192a018933e9c28f2132e261f69bba1",
+      "bytes": 8856
+    },
+    {
+      "path": "research/2012/108/टैगोर-साहित्य-पुरस्कारक-बहन्ने.htm",
+      "sha256": "72e518a3f46c27ba3251cbcd29c7b420c244e83e74fdd5744823c05b7408fa34",
+      "bytes": 41662
+    },
+    {
+      "path": "research/2012/108/दू-पत्र-एक-विश्लेषण.htm",
+      "sha256": "7e0c44b6bc154ed7df805ab11b35552b60e8ea392417f1df699b40006700f076",
+      "bytes": 16587
+    },
+    {
+      "path": "research/2012/108/भीड़तंत्र-बनाम-भ्रष्टतंत्र.htm",
+      "sha256": "119c3bb52b309b00cefdf11ad3dade46d4ec6e61d21b209db6d188d9f4bee803",
+      "bytes": 17754
+    },
+    {
+      "path": "research/2012/109/आधुनिकताक-समस्या-आलोचना.htm",
+      "sha256": "313a78e61cc2eac9d19d9799129915e8e3ec598a78779163d4baf4ffc3bcde41",
+      "bytes": 278307
+    },
+    {
+      "path": "research/2012/109/आधुनिकताक-समस्या.htm",
+      "sha256": "a4181582536327f06cc88503c4a1b4016f8ab6a13233a01c60ede945744a2b35",
+      "bytes": 28292
+    },
+    {
+      "path": "research/2012/109/जीवन-संघर्ष-समीक्षा.htm",
+      "sha256": "53486be2a12e431b6efecf0abc2d79dd206e7be0a963cc8ff2271669fa4c0d8f",
+      "bytes": 122409
+    },
+    {
+      "path": "research/2012/109/मैथिली-युवा-रचना-धर्मिता-परंपरा-परिवर्तन-आ-भविष्य.htm",
+      "sha256": "e8052f666c24bb9403f3ccead5055151ae60505e1139027dc23e9b792f6aa2cd",
+      "bytes": 23806
+    },
+    {
+      "path": "research/2012/110/उजड़ैत-गाम-बसैत-शहर.htm",
+      "sha256": "1b07a1d3986802c874aa32cc1061bb05462b602e460fe44c972eee7e4d3a88da",
+      "bytes": 24905
+    },
+    {
+      "path": "research/2012/110/मिथिला-मैथिली-आंदोलन.htm",
+      "sha256": "4fff702910ea9a4e7d4403f46fc4e9df231626e75c976d16c5bbdd99c0074ffd",
+      "bytes": 19280
+    },
+    {
+      "path": "research/2012/110/मैथिली-गजलकार-परिचय-श्रृंखला.htm",
+      "sha256": "d1cb329bed950819adfcf69c74e466e4d88b4ac3254842c99a705ae6e5be6098",
+      "bytes": 122181
+    },
+    {
+      "path": "research/2012/110/मैथिली-लोक-संस्कृति-संगोष्ठी-अन्तर्गत-लोकनायक-सलहेस-चर्चा-21b80f86c3.htm",
+      "sha256": "3c56fb14eff369049f5791deab796babc1414a88f1ffeed6bfb50f7b5d5bbcdf",
+      "bytes": 23831
+    },
+    {
+      "path": "research/2012/111/मैथिली-बाल-गजल-अवधारणा-आ-बाल-साहित्य.htm",
+      "sha256": "110f278bad3c6481fae9f77474fa557b1e764929b94f59011f180ecfe1e4b569",
+      "bytes": 17760
+    },
+    {
+      "path": "research/2012/111/विहनि-कथा-संसार.htm",
+      "sha256": "a9beacb0e2798a3c3bcf7227806f85d3fa73b4eb5eb85cee8aadeb4970fe99fa",
+      "bytes": 62931
+    },
+    {
+      "path": "research/2012/112/काफिया.htm",
+      "sha256": "665df763da8c4afb146840d3742e82950e7a8d70b70dbe4132384bf996087a1f",
+      "bytes": 20130
+    },
+    {
+      "path": "research/2012/112/विस्मित-होइत-हमर-लोक-संस्कृति.htm",
+      "sha256": "145600d106cf61bb771df76904018b128254381868a69873fa75b25c41e44300",
+      "bytes": 82085
+    },
+    {
+      "path": "research/2012/113/काफिया-आ-बहर.htm",
+      "sha256": "9fc817dd0256b170dbea1063ab464375407d94ac9530615a1d6415331a8954f7",
+      "bytes": 142246
+    },
+    {
+      "path": "research/2012/113/मातृभाषाक-माध्यमसँ-उच्चशिक्षा.htm",
+      "sha256": "82dcaf395fbd0f0e8cf4c0bec97d4cad0fcf0a9d4ef9c2868b1ed0a61848c6d4",
+      "bytes": 19386
+    },
+    {
+      "path": "research/2012/114/मैथिली-उपन्यास-साहित्यक-विकासमे-हरिमोहन-झाक-योगदान.htm",
+      "sha256": "fd79abd4f3942cd964c8b4e233dab34a39be10bf53455c169b30eef3486a0327",
+      "bytes": 32922
+    },
+    {
+      "path": "research/2012/115/सुजीतक-सम्पूर्ण-कथा-एकटा-नया-स्वाद-देलक.htm",
+      "sha256": "6c551d7b8811b79388605179c3145485ea0abd327a57ecab46930ccf78aac67e",
+      "bytes": 34409
+    },
+    {
+      "path": "research/2012/115/स्वातन्त्र्योत्तर-मैथिली-कथामे-सामाजिक-समरसता.htm",
+      "sha256": "1e34a37d19f09f54a9d61ce7c85709f40fcb1653729341c9c892bed421cab944",
+      "bytes": 130630
+    },
+    {
+      "path": "research/2012/116/नेना-लेल-सुन्दर-चित्रकथा.htm",
+      "sha256": "9cd8813130747652449b03cff5cd5cc19b733a498cb161014af462520727a679",
+      "bytes": 45157
+    },
+    {
+      "path": "research/2012/116/मैथिली-कथा-संग्रह-जिद्दी-पढ़लापर.htm",
+      "sha256": "2f13b33aabffe32ef0b2d32c752ab6f8588fe52e8701ef9ad9b95aed8ae5a373",
+      "bytes": 14119
+    },
+    {
+      "path": "research/2012/117/मेवाड़-आ-मालवाक-सांझी-लोककला-एक-परिचय.htm",
+      "sha256": "4be844590f6e2972461cb67db044dc8d6ad4cb662238bff27088f6e76cdfeaa1",
+      "bytes": 30463
+    },
+    {
+      "path": "research/2012/117/यात्रा-प्रसंग-ह्वेन-सांगसँ-चीनमे-भेंटघांट.htm",
+      "sha256": "d2ac047b7dae484c8430f297d710b8cae45aaffb14d4cfc0c7598ee0ae949188",
+      "bytes": 33523
+    },
+    {
+      "path": "research/2012/117/विद्यापति-किछु-प्रचलित-कुप्रचारक-निराकरण-भाग-३.htm",
+      "sha256": "afc9a8473361e4dbc9c1da9739b6b6cc47ac100950842fee6aaf15bd0b770fc3",
+      "bytes": 39079
+    },
+    {
+      "path": "research/2012/118/कलकत्ता-विश्वविद्यालयमे-मैथिली-राजा-टंकनाथ-चौधरी.htm",
+      "sha256": "bbf6fafd9ff2d19de5e454868ededc3f454a671f5f33a28d3b435bdec2c5416a",
+      "bytes": 41456
+    },
+    {
+      "path": "research/2012/118/जगदीश-प्रसाद-मण्डल-एकटा-बायोग्राफी.htm",
+      "sha256": "cc9c4dabdc9cf9d172b70db65cdbf3602d9310e1c61cdf36d3773de3b3e5c13e",
+      "bytes": 212258
+    },
+    {
+      "path": "research/2012/119/मूर्दा-श्रृंगार-संघर्ष-आ-द्वन्द्व.htm",
+      "sha256": "14ef607fac53df8184ea24ee6f737a454a62b2422f1ae40c7224f01b6786bb03",
+      "bytes": 44466
+    },
+    {
+      "path": "research/2012/119/लघु-दीर्घ-निर्णय-भाग-१.htm",
+      "sha256": "bed790ec84c21998e63ca9dbed4cf7413ebbd0662afae58d354a515a7e2abd14",
+      "bytes": 357644
+    },
+    {
+      "path": "research/2012/120/दोसर-चरणक-पहिल-सगर-राति-दीप-जरय-डिजिटल-फॉर्ममे-३७-पोथीक-लोकार्पण.htm",
+      "sha256": "4140ee7e0be9cf6b8b05b8d5e199b75675160f37c122e639f3ac9c247a1eede5",
+      "bytes": 25298
+    },
+    {
+      "path": "research/2012/97/आचार्य-भामहक-चिंतन-आ-दण्डी-आ-काव्यलक्षण.htm",
+      "sha256": "6f79bd3947830d5344348029aaca49614afa0ebd058afdb177c0195ea5dca439",
+      "bytes": 18289
+    },
+    {
+      "path": "research/2012/97/कामरूप-आ-मिथिला.htm",
+      "sha256": "4b6e972164b17ec6169d1d087555d9bd4ae55e04d37c0082caa9c6d72d1d8667",
+      "bytes": 21828
+    },
+    {
+      "path": "research/2012/97/हम-देह-आ-विदेह.htm",
+      "sha256": "9b5b04c7e28f9b44768daa0a91040303a08c1d9962e4a0db84d48403bf12807e",
+      "bytes": 84404
+    },
+    {
+      "path": "research/2012/98/यशोधरा.htm",
+      "sha256": "34ee68fd613ab9001dcb9de5b52e29ddc99fb196677b7961c70fbafd3eb7ce77",
+      "bytes": 24096
+    },
+    {
+      "path": "research/2012/98/विदेह-साहित्य-उत्सव-२०१२-आ-विदेह-सम्मान-समारोह.htm",
+      "sha256": "188fac200f98c0f50cd1a7e770874cd4fc4be3a5dfaf4b2286d1e737e9ce29a0",
+      "bytes": 18220
+    },
+    {
+      "path": "research/2012/99/बिहारक-औद्योगिक-विकास-मे-बाधा-बनि-रहल-जमीन-आ-बिजली-राशन-कार्-ca79e5a8df.htm",
+      "sha256": "7d6a55509920b9dcb544fdff5a74d50c12c0e4ef2a22617d5bfe827a6baccf27",
+      "bytes": 56486
+    },
+    {
+      "path": "research/2012/99/संघीयतामे-मैथिली-भाषा.htm",
+      "sha256": "51c110eee975b5e6baf4d9126741d3d658fb62f11cfd549bfdf45915ef447a38",
+      "bytes": 12608
+    },
+    {
+      "path": "research/2012/99/हमरा-नजरिमे-सुजीतक-रिपोर्टर-डायरी.htm",
+      "sha256": "6207a5feb2ec0081feacde4fe23fabc639f58cd3da1403c19cf956be1d0f05b2",
+      "bytes": 125976
+    },
+    {
+      "path": "research/2013/121/गाममे-विज्ञानकेँ-लोकप्रिय-बनबऽमे-लागल-छथि-मानस-बिहार.htm",
+      "sha256": "1d4ea21d24d91ae482ed91e9ee954356877706c35598398c9a95fc1ff3571fec",
+      "bytes": 18522
+    },
+    {
+      "path": "research/2013/121/जगदीश-प्रसाद-मण्डल-एकटा-बायोग्राफी-आगाँ.htm",
+      "sha256": "e52195d7a8e2298d69f530f0bc7f552956492f7e2a9e23e6bbdd273c5085bca5",
+      "bytes": 95071
+    },
+    {
+      "path": "research/2013/121/मिथिलाक-खाँटी-संस्कृतिक-संकलन.htm",
+      "sha256": "2d790f450c1ab86352cb1c03ca8a5d6744862ea0dab9c114dad7dc02bdcef266",
+      "bytes": 84031
+    },
+    {
+      "path": "research/2013/122/नारीक-चरित्र-सभसँ-रंगल-कथासंग्रह-जिद्दी.htm",
+      "sha256": "716bbca86fc80b9a687df84e0a532a9874a63cfbf2ef9ccec1dee0f920d8202e",
+      "bytes": 16460
+    },
+    {
+      "path": "research/2013/125/गजलक-लेल-समीक्षा.htm",
+      "sha256": "63b186a3f274ab1eb34dace217a198b1640982327f9b0dbfcde9a5a7d449eb69",
+      "bytes": 21908
+    },
+    {
+      "path": "research/2013/126/मैथिली-बालनाटक-सीमा-विस्तार-करैत-चौआरि.htm",
+      "sha256": "5da33fb2a2abae11691ef12b707d898c5206a6be72c09315b82005334e5d7e1d",
+      "bytes": 42543
+    },
+    {
+      "path": "research/2013/126/रायपुरक-मिथिला-महोत्सव-उत्साहक-बाढ़ि-आ-मनीष-झा.htm",
+      "sha256": "852c99be0d55bb69c2624a02a3051acf388b2f39a51db8e32e806fb32956ec66",
+      "bytes": 22795
+    },
+    {
+      "path": "research/2013/127/राजनन्दनक-आत्मालाप.htm",
+      "sha256": "42cfaec37488831afcd96b43caa63c00e72f0e5820321d3a34ec5833ad43f946",
+      "bytes": 24219
+    },
+    {
+      "path": "research/2013/128/बाँटल-गेल-मैथिली-बरत-मिथिला.htm",
+      "sha256": "3cc29e35efef3f4fa9f1c57114278f1e0327de70c725bdac8d0ae94d2aa70879",
+      "bytes": 24498
+    },
+    {
+      "path": "research/2013/130/मैथिली-अकादमी-द्वारा-निर्धारित-मैथिली-लेखन-शैली.htm",
+      "sha256": "8b6c8cc9c53e77bdc2cac019395733ba448297633fe829e442ab3980d001e8f9",
+      "bytes": 63866
+    },
+    {
+      "path": "research/2013/136/अभिकलनात्मक-संगणनात्मक-computational-मैथिली-व्याकरण.htm",
+      "sha256": "4ca930c99c2b0112c3c561d7cddc1edf2c2e3172a08ac167be2dfcce7a0d976f",
+      "bytes": 42902
+    },
+    {
+      "path": "research/2013/136/अभिकलनात्मक-संगनणात्मक-computational-मैथिली-व्याकरण.htm",
+      "sha256": "6f1b233c709feaf827511669893e1200ffd070cec292897d95628613e68433a3",
+      "bytes": 96787
+    },
+    {
+      "path": "research/2013/136/नापल-तौलल-पसरल-पथार-परमेश्वर-कापड़िक-पथार.htm",
+      "sha256": "54222d9d7ff7f818975b4befb83744bb4a183721f291205b35dc8b9fdfb6db05",
+      "bytes": 30322
+    },
+    {
+      "path": "research/2013/142/अरविन्दजीक-आजाद-गजल.htm",
+      "sha256": "1b143a46813936a25ee0d3b92ae050ca4f32faa1f1e5f6a7cff0bcd89efeb689",
+      "bytes": 14476
+    },
+    {
+      "path": "research/2013/142/गजल-समीक्षा-पेटारसँ.htm",
+      "sha256": "6a4d26c0a0b18ceff8e4d060718f51eee5b0bf788e7a5773111c90888df6c8b6",
+      "bytes": 19172
+    },
+    {
+      "path": "research/2013/142/प्रतिबद्ध-साहित्यकारक-अप्रतिबद्ध-गजल.htm",
+      "sha256": "e09f08484f0e1885aaeece5f496d225225dd5cdffaaacaec0cc12707193426d3",
+      "bytes": 15070
+    },
+    {
+      "path": "research/2013/142/बहुत-किछु-बुझबैए-कियो-बूझि-नहि-सकल-हमरा.htm",
+      "sha256": "c26c855b53960085b36bb9fa68ecceabee7bc854ca1312d39999f98f9d202102",
+      "bytes": 50004
+    },
+    {
+      "path": "research/2013/142/भर्तृहरेः-भाषाशास्त्राीय-योगदानम्-videha-maithili-samskrit-education-contd.htm",
+      "sha256": "ed9f7deef7abc6d79a766312a3803babc1c5b9716036b49df1471fbfb70845c4",
+      "bytes": 20992
+    },
+    {
+      "path": "research/2014/150/ancient-india--the-sources-of-the-history-of-pilgrimage.htm",
+      "sha256": "142b47b15d85e1f491fd78e709193f692ecc21b5ef26df3056307682ad946887",
+      "bytes": 1243480
+    },
+    {
+      "path": "research/2014/150/the-political-and-cultural-heritage-of-mithila.htm",
+      "sha256": "00da99883281dd3539afa107b55a27ae06dd94032ab2fc02dc2c40e823d37cce",
+      "bytes": 1154722
+    },
+    {
+      "path": "research/2014/150/अनमोल-झाक-पोथी-टेकनोलजी-क-समीक्षा.htm",
+      "sha256": "67cdb25e3aff97be7e865926de6c8046057b9f3033aa44fdd15e22771aabb892",
+      "bytes": 20794
+    },
+    {
+      "path": "research/2014/150/जहिया-ओ-इतिहास-सुनौलक.htm",
+      "sha256": "4e3ba73492ccca041fdfddf939b4f507caea55068643546c7b4281ad26aadcc5",
+      "bytes": 25752
+    },
+    {
+      "path": "research/2014/150/बड़का-साहेब-परम्परागत-संस्कार-केर-पराभवक-वृत्तचित्र.htm",
+      "sha256": "997302b40ae0fcce227c3cd63e7611dee86628a91de2c633ac934655b4c37697",
+      "bytes": 26555
+    },
+    {
+      "path": "research/2014/150/मैथिली-सरकार-आ-हम-सभ.htm",
+      "sha256": "ad5d1a2c9ab9c34bf68be481dd32dbec9ec20ef5a1a2b1b98ebe193e7198d410",
+      "bytes": 23811
+    },
+    {
+      "path": "research/2014/150/सगर-राति-दीप-जरयक-७९म-आ-८०म-आयोजन.htm",
+      "sha256": "f467e2358d103fea46454c662c485703988ae7c9ee365cebae4cc609c453245c",
+      "bytes": 17784
+    },
+    {
+      "path": "research/2014/150/सुजीतक-गन्ध-सुगन्ध-छोड़ि-रहल.htm",
+      "sha256": "6b00bcbce6c5b3d2b602be410e673cbd7fa97a79025e7189407ddfa80c655efa",
+      "bytes": 19525
+    },
+    {
+      "path": "research/2014/150/८०म-सगर-राति-दीप-जरय-४५-पोथीक-लोकार्पण-आ-२८म-विदेह-पोथी-प्रदर्शनी.htm",
+      "sha256": "9bd519bc9a309d588781fe944e62cfafe4a3e0047fe543db91d2eb3aebf67eba",
+      "bytes": 35863
+    },
+    {
+      "path": "research/2014/151/a-survey-of-maithili-literature.htm",
+      "sha256": "731ff7dccab1c06884e6663880222dd9b6e0df7a469ad2312fb73f6c51007394",
+      "bytes": 669772
+    },
+    {
+      "path": "research/2014/152/मैथिली-बाल-साहित्य-उद्भव-ओ-विकास.htm",
+      "sha256": "1bbc31d0c197c8c1f9db46971da6b267d62c3b3d1a365ffc3035047c4553965a",
+      "bytes": 36426
+    },
+    {
+      "path": "research/2014/157/obsessed-with-native-hood.htm",
+      "sha256": "140fd95aebb1f15288049b5f11f21476834f052cb3be12bcca824c1e8659991a",
+      "bytes": 86533
+    },
+    {
+      "path": "research/2014/157/मैथिली-काव्यशास्त्रमे-झारू-छंदक-अवधारणा-स्वरूप-आ-तत्व-निर्-71432a0974.htm",
+      "sha256": "7b43fedb25883dac3621c9b03af23d95876632009ad4042a3435488caa1a2c73",
+      "bytes": 134378
+    },
+    {
+      "path": "research/2014/157/मैथिली-काव्यशास्त्रमे-झारू-छंदक-अवधारणा-स्वरूप-आ-तत्व-निर्धारण.htm",
+      "sha256": "8691e3f66c67021d0af74c7158f73965317805f3a7e89e616a5bcade886be926",
+      "bytes": 29741
+    },
+    {
+      "path": "research/2014/165/चिकनी-माटिमे-उपजल-नागफेनी.htm",
+      "sha256": "a47ddb84c049ed2d52a460d2e87cfcf57e52ec5bb394a30dcfc45fa74109f8cb",
+      "bytes": 33121
+    },
+    {
+      "path": "research/2014/165/मायानंद-मिश्रक-मैथिली-साहित्यिक-इतिहास.htm",
+      "sha256": "933576d7f7efe771dc77209ab3bcd1c1cdc3f8ca08329e13749f937b95a9c843",
+      "bytes": 17936
+    },
+    {
+      "path": "research/2014/165/मैथिली-गजल-व्याकरणक-शुरूआती-प्रयोग.htm",
+      "sha256": "f1361e7aaad74459a1519284769ddfa6d4c058f307758281473faa8661749ff9",
+      "bytes": 46345
+    },
+    {
+      "path": "research/2014/165/सखारी-पेटारी-केर-तानी-भरनी.htm",
+      "sha256": "8c0a0074d97f55a55b6f32af821bfd34a791dade515f0c1a4401adecb911acaa",
+      "bytes": 32664
+    },
+    {
+      "path": "research/2014/165/सतसठि-साला-कौशिकी-मिथिला-क-लेखा-जोखा.htm",
+      "sha256": "dd0a5caa3d7ca2c2d80f3651d6f9d94db1630555492fea5e417d613e914b4c2e",
+      "bytes": 50334
+    },
+    {
+      "path": "research/2015/169/एकैसम-शताब्दी-मे-घसल-अठन्नीक-प्रासंगिकता.htm",
+      "sha256": "623a965f6c244eac859299c023537fbb4a56009cf7369e236b50e35814c1c57b",
+      "bytes": 18292
+    },
+    {
+      "path": "research/2015/169/काशीकान्त-मिश्र-मधुप-आ-मैथिली-गजल.htm",
+      "sha256": "5dbd4dd8d92f1b694c570ec4b903e52df7d6d25928c657214200596ceb346295",
+      "bytes": 19384
+    },
+    {
+      "path": "research/2015/169/घसल-अठन्नी-एकटा-विमर्श.htm",
+      "sha256": "2bb26ffb05e135b6126ab8759acba609c2ffdc2897a8140bd0ef2c385e19fb56",
+      "bytes": 23342
+    },
+    {
+      "path": "research/2015/169/जन-चेतनाक-स्वर-वाहक-मधुप.htm",
+      "sha256": "561847e1fa75a66fe4b8a0556868914061274f8c42b59c010a5cca94c734113f",
+      "bytes": 15181
+    },
+    {
+      "path": "research/2015/169/नियंत्रित-पूँजी-आ-मधुपजीक-मार्क्सवाद.htm",
+      "sha256": "ac5241f0670d72c4af5ace9aac2933317cc35582d169133b106f4025bcff41dd",
+      "bytes": 26206
+    },
+    {
+      "path": "research/2015/169/मधुपक-गीत-अमर-मिथिलामे.htm",
+      "sha256": "7d932fc2c2f57576f447d2d42919bc5305eb5c4aaecf9ad02ddbf03e9153f6f3",
+      "bytes": 33421
+    },
+    {
+      "path": "research/2015/169/मधुपक-रचना-व्यक्तित्व.htm",
+      "sha256": "62c3a52104933a169fc2a38f71f05a89864a76bd3daf49f2cb1b9d46cc39ed66",
+      "bytes": 17767
+    },
+    {
+      "path": "research/2015/169/मधुपजी-हमरा-किएक-मन-पड़ैत-छथि.htm",
+      "sha256": "466ac20eaef06ba02f7bc288c76370b6b2c48c92ac9e560510582d426e9b7132",
+      "bytes": 12845
+    },
+    {
+      "path": "research/2015/169/मधुपजीक-घसल-अठन्नी-मे-दलित-चेतना.htm",
+      "sha256": "d4f5c7a5acd5ec250ad6ba21cd895b948aee1a57a5e2473ef28b1e3288ef59c4",
+      "bytes": 22238
+    },
+    {
+      "path": "research/2015/169/मैथिलीक-विद्रोही-कवि-काशीकांत-मिश्र-मधुप.htm",
+      "sha256": "744d370d980395382e91558991f2501e1149778aea0b093113558a081b62118e",
+      "bytes": 109014
+    },
+    {
+      "path": "research/2015/173/एकैसम-शताब्दीक-रचना-एवं-रचनाकारक-अन्यतम-अवदान.htm",
+      "sha256": "e5e167c447d3692daf7cfaf28c867d86434570587d180a6a103d79bd64217a73",
+      "bytes": 147008
+    },
+    {
+      "path": "research/2015/175/जगदीश-प्रसाद-मण्डलक-उपन्यासमे-समकालीन-चेतना.htm",
+      "sha256": "2224b5366c4c585f379a944a2e54ae2f570c36085563b2b9d9da9dbfd0b6eb49",
+      "bytes": 32572
+    },
+    {
+      "path": "research/2015/175/मिथिलाक-इतिहास.htm",
+      "sha256": "a1a7e2362e374433b7b518f2a333de40c9596d90562db362c140bd3fdd7bbaf8",
+      "bytes": 48072
+    },
+    {
+      "path": "research/2015/175/समकालीन-चेतनाक-सम्वाहक-अर्द्धांगिनी.htm",
+      "sha256": "a91195925b52ff09c961c3bbb2761118f22fa29cc903c66032bd67e227660387",
+      "bytes": 26032
+    },
+    {
+      "path": "research/2015/179/मानव-जीवनमे-नारी-स्वरूपक-गरिमा.htm",
+      "sha256": "2c45bd1f56f6e4194b81c245aa9776fabc305facfecceab25c2d9c17bdfdd871",
+      "bytes": 28274
+    },
+    {
+      "path": "research/2015/189/अन्हारक-विरोध-मे-अरविन्द-ठाकुर.htm",
+      "sha256": "b7faa36d668ac78ce65871cf3e51c2eefb2afe1a3bbc829934cade88df9fe271",
+      "bytes": 44921
+    },
+    {
+      "path": "research/2015/189/अन्हारक-विरोधमे-एक-दृष्टि.htm",
+      "sha256": "50cef6ccc12354c8ea734e4fef0829bc04cd8a0ee55a980b80841794dc9fe1be",
+      "bytes": 38848
+    },
+    {
+      "path": "research/2015/189/अरविन्द-ठाकुर-व्यक्तित्व-आ-कृतित्व.htm",
+      "sha256": "e216777ba51468dbdb1769c099b4bd2d6106568bdd97f9fc4646a075e2cc3b3d",
+      "bytes": 25456
+    },
+    {
+      "path": "research/2015/189/अरविन्दजीक-आजाद-गजल.htm",
+      "sha256": "0092271ecd2a0bed6045e8b342b8044966d5cb6b1b7bff3d07a8170d6c66fef2",
+      "bytes": 14407
+    },
+    {
+      "path": "research/2015/189/एकटा-खिच्चा-सपनाक-डिभिआएब-ट्रान्सफर्मर-कथा-संग्रहक-सन्दर्भ.htm",
+      "sha256": "b612b07a9975c79a59cb8834165e1d523915ffc0e028b495991d887039e51287",
+      "bytes": 47141
+    },
+    {
+      "path": "research/2015/189/परती-टूटि-गेलै.htm",
+      "sha256": "2596ca8133405febecfdee601915cc75da5461a27a2ed85eefe27ecd8c83e10c",
+      "bytes": 14060
+    },
+    {
+      "path": "research/2015/189/बहुरुपिया-प्रदेश-मे-एक-दृष्टि.htm",
+      "sha256": "b380e77cf18837ea8cd27960218048530999278c3857a435b4e4fb824b4d11ac",
+      "bytes": 38598
+    },
+    {
+      "path": "research/2015/189/बहुरूपिया-रचनामे.htm",
+      "sha256": "82af7664d18377a16d683a58b2e6176091a78429ff17b8835e59b488d2cfd42a",
+      "bytes": 20613
+    },
+    {
+      "path": "research/2015/189/मिथिलामे-सांस्कृतिक-आन्दोलनक-भविष्य.htm",
+      "sha256": "991a5e705faeab6f7e569f5925674a8eb475ddb563276dbb7db4f4d31685450e",
+      "bytes": 33884
+    },
+    {
+      "path": "research/2015/189/लक्ष्मीनाथ-गोसांई-परम्परा-भाषा-आ-निर्गुण-भाव.htm",
+      "sha256": "09fb31ddee835abebc94b0095dc6ca7558799dc8fae6d5a1a7a52c8a86e99abb",
+      "bytes": 67287
+    },
+    {
+      "path": "research/2015/189/सामंती-सभहँक-विरुद्ध-तैयार-कवि.htm",
+      "sha256": "9278a1f1df36a96b1cab62b32e57da016b4928ab02eb4cc2b9b4a9b3f54f85aa",
+      "bytes": 14108
+    },
+    {
+      "path": "research/2015/189/स्खलनक-प्रतिरोधमे-अन्हारक-विरोधमे.htm",
+      "sha256": "5535bedfa1ec85229156aeac15926f2c5e0bb911caebb03ea29234579e84fd37",
+      "bytes": 21006
+    },
+    {
+      "path": "research/2015/190/गामक-शकल-सूरत-पोथी-समीक्षा.htm",
+      "sha256": "f2484143801c0d3cfd8892cc71a08381ae2e294938b67bb5c873179b986057dc",
+      "bytes": 27606
+    },
+    {
+      "path": "research/2015/191/कवि-अनिलजीक-आंतरिक-परिचिति-गीत-गंगा.htm",
+      "sha256": "bdf1c09f344da5b8236a2ce76b0441741483d7c2e473acefac358b9a1e42acd9",
+      "bytes": 17178
+    },
+    {
+      "path": "research/2015/191/गजल-गंगा.htm",
+      "sha256": "6d4f06effa755a5fbf84e4ff5fe6467c56774884b37da325d46ee5773caa7ba4",
+      "bytes": 24617
+    },
+    {
+      "path": "research/2015/191/गीत-गंगा-क-प्रवाह.htm",
+      "sha256": "30f68a5d0d7ea73408853cfb9e40089ecba893f23da7f095b5043f53a72f2d54",
+      "bytes": 37275
+    },
+    {
+      "path": "research/2015/191/गीत-गंगा.htm",
+      "sha256": "803b7a62aeec3215b9de572c7347a276d094628b4bba7a0aec259429ce34f392",
+      "bytes": 24628
+    },
+    {
+      "path": "research/2015/191/गीत-गंगामे-अनिल.htm",
+      "sha256": "1e75b6d9b40bbceee13e91bfb7c4e3c84e208d015e0d03ebe205e989a526414b",
+      "bytes": 15108
+    },
+    {
+      "path": "research/2015/191/धारक-अइ-पार.htm",
+      "sha256": "ddcd6f7360015e1ec55b1ad3148cb2ee22023df76cd80ee9556218844bb0f0e4",
+      "bytes": 20084
+    },
+    {
+      "path": "research/2015/191/मैथिल-अङना-तोरा-अंगनामे.htm",
+      "sha256": "c056da401ef4616261ad62a585a42a4e68e9e50ce5c74a384ed18dc19a021586",
+      "bytes": 20730
+    },
+    {
+      "path": "research/2015/192/मैथिलीक-किछु-समकालीन-उपन्यासक-विविध-स्वरूप.htm",
+      "sha256": "55a9c3bf1b3ee6fe8b21edf57c5bcf4d3abe8a306d0cc59fe35bd0e7361b80f2",
+      "bytes": 19668
+    },
+    {
+      "path": "research/2016/195/गामके-अधिकारी-तोहे-बड़का-भैया-हो.htm",
+      "sha256": "f7aa3e18519e8d3afe3aa16fa0b10265d8998adfa06388202aaec77ecf2b7e3d",
+      "bytes": 39677
+    },
+    {
+      "path": "research/2016/201/मन्त्रद्रष्टा-ऋष्यश्रृङ्ग.htm",
+      "sha256": "c227567f3c1729b21ace3c3af966ecd461ae7dc6fe4702b27e1d35ef6872176c",
+      "bytes": 482744
+    },
+    {
+      "path": "research/2016/204/जानकी-आ-गांधी-सं-सीखय-अप्पन-समाज.htm",
+      "sha256": "adf48fc9d8206ae40bbc50fd5bd468dfdcd9e86ce93a301df635bb1a41114968",
+      "bytes": 22528
+    },
+    {
+      "path": "research/2016/204/जानकी-आजुक-जरूरत.htm",
+      "sha256": "0e1736fb736c67e29dd74813d0a98a15050aa9b828d555b8207fc9ef826918f8",
+      "bytes": 16991
+    },
+    {
+      "path": "research/2016/204/बाट-देखाबैक-अछि-मिथिलाक-दर्शन.htm",
+      "sha256": "31036e284f461dad25e2fb537cd58b500eb87c96a3ea6baf82167bccef648218",
+      "bytes": 31498
+    },
+    {
+      "path": "research/2016/204/मिथिलामे-कोनो-भेदभाव-नै-छल.htm",
+      "sha256": "94f5392651ecfb137edf3ca90380bbe3ec46cfa5cb02b199b8bac2c560daaf4b",
+      "bytes": 17282
+    },
+    {
+      "path": "research/2016/204/मिथिलामे-सम्मान-दैक-परंपरा-अछि.htm",
+      "sha256": "d48d6ab941e8cecc5177af0c61526410949c89cc0882bb03f8980388c0c07834",
+      "bytes": 20864
+    },
+    {
+      "path": "research/2016/204/विद्यापति-आ-जानकी-हमर-सबहक-साइनेज-छथिन.htm",
+      "sha256": "19d04b530c267c96bb0a4866a3eb736b8f9a11a8e7a9db786cbc197821e5b500",
+      "bytes": 25426
+    },
+    {
+      "path": "research/2016/205/विदेह-समानान्तर-साहित्य-अकादेमी-आ-भाषा-सम्मानक-इतिहास.htm",
+      "sha256": "28a1612e0f017c7135587450c3cea10afdca0a0393fe7fae6fb8cfb9bc2a938b",
+      "bytes": 119368
+    },
+    {
+      "path": "research/2016/208/संशोधन-केर-मतलब-विनाश-नै-होइ-छै.htm",
+      "sha256": "67e8716449a598d4459e28f5b126d77dac792c7b410ccd4130a00b87ba5f9aef",
+      "bytes": 61608
+    },
+    {
+      "path": "research/2016/208/सौराठक-सोमनाथ-आ-सौराष्ट्रक-सोमनाथमे-समानता-लोक-इतिहासक-परि-8a61e23e67.htm",
+      "sha256": "8b19c77d5d0de4d3668209d9104d7a12598efe8cc66e5a2211bfa9f143674f22",
+      "bytes": 55561
+    },
+    {
+      "path": "research/2016/209/फाटू-हे-धरती-सीता-दाई-केर-वेदना.htm",
+      "sha256": "b3786da5ceca78e3e8c393a39c32bc0254122e0fb744d902667ed19f5b186ede",
+      "bytes": 27301
+    },
+    {
+      "path": "research/2016/210/मैथिली-लोकगीतमे-भोजनक-विन्यास.htm",
+      "sha256": "6a75570b40b4402cb32b1d0d70e10af37311c811b315c1933dcbf3bd5a6eee40",
+      "bytes": 46948
+    },
+    {
+      "path": "research/2016/211/इतिहास--सगर-राति-दीप-जरय.htm",
+      "sha256": "cc6ad692e9c7ff6636c46b355268695c2a6fcc50cdd5b787bc28e92030b03933",
+      "bytes": 94163
+    },
+    {
+      "path": "research/2016/211/मैथिली-लोकगीतमे-कौआ-सम्बाहक.htm",
+      "sha256": "dbfae12aa1c3092cb61571f1b7cdd75bca33b17b44aef4a37c44d09f7f96b004",
+      "bytes": 73971
+    },
+    {
+      "path": "research/2016/212/बाबा-लालदास.htm",
+      "sha256": "70fc91d6c388ffa60692fa6ce804c7f5cf7f89c342aa9200db3080b807004af9",
+      "bytes": 20349
+    },
+    {
+      "path": "research/2016/212/सुग्गा-आ-श्रृंगार-मैथिली-लोकगीतक-परिदृश्यमे.htm",
+      "sha256": "17f477848bba2125e39569e5ac44ed0aae3420722cd0a671e54fa455886db9e2",
+      "bytes": 59138
+    },
+    {
+      "path": "research/2016/213/छागरक-बलिप्रदानपर-चिन्तन-परम्परामे-परिवर्तनक-औचित्य.htm",
+      "sha256": "ffd8a596624c0493a8f43173c00980aa1c4f657abdc6e2da71c8359ba5defa3d",
+      "bytes": 54640
+    },
+    {
+      "path": "research/2016/214/मैथिली-संस्कृति-केर-अवयव.htm",
+      "sha256": "3387fa19b3662e43b6954c3fa6727e0cabed50d502c8185e84475b8537f1bbcf",
+      "bytes": 26067
+    },
+    {
+      "path": "research/2016/215/मैथिली-लोक-परम्परामे-नाथ-जोगी-राजा-भरथरी-आ-गोपीचंद.htm",
+      "sha256": "68d146ec8c8d32e15dc2ddde37211b91e3aa88678aafc1b89873bf7fc5a3f6d6",
+      "bytes": 66032
+    },
+    {
+      "path": "research/2016/216/राजस्थान-केर-मंडोवरमे-रावण-आ-मंदोदरीक-विवाह-लोक-इतिहास-केर-म-976f0766fa.htm",
+      "sha256": "e2ca96f19b63f5926c1d23d5e5e4304d2b532a61bbbc64df43c26fd432adc120",
+      "bytes": 34055
+    },
+    {
+      "path": "research/2017/217/अरिपन.htm",
+      "sha256": "2d9916a465a310aee8bf08b68484561f89ecee864b20638a7960507108bb6834",
+      "bytes": 18821
+    },
+    {
+      "path": "research/2017/217/नेपाल-मे-मैथिली-गीत-संगीतक-अवस्था.htm",
+      "sha256": "1a708729c12f3159247d9f6e53b0f4f4a8eb7d2a6699c2b6902045cbed8eced1",
+      "bytes": 32571
+    },
+    {
+      "path": "research/2017/217/मैथिली-लोकगीत-मे-प्रोफेसर-चण्डेश्वर-झा-केर-सी-डी-डी-वी-डी-केर-प्रयोग.htm",
+      "sha256": "1d5bb508092daa2c505a878a33178f5dc7ffe01f3f1bef4cd16b1f1a35d90ff4",
+      "bytes": 35257
+    },
+    {
+      "path": "research/2017/217/वन्दनाक-स्वरूप.htm",
+      "sha256": "cce1e8040e4f8846d4f97be171637a60b6212c8276943c9281ec7932aa09ccb8",
+      "bytes": 18383
+    },
+    {
+      "path": "research/2017/217/वर्तमान-मैथिली-गीत-संगीत-हमरा-नजरिसँ.htm",
+      "sha256": "26cda2319c8d01942a2705227f1bf444a832d675e8f5e60ad5042024db921f05",
+      "bytes": 53882
+    },
+    {
+      "path": "research/2017/218/महाराजा-पंहिबा-मणिपुर-केर-गरीब-नबाज़.htm",
+      "sha256": "e039829423698eb68474c660e101ad9870779e0914f4d71f85dc3a8cce7a00a8",
+      "bytes": 30571
+    },
+    {
+      "path": "research/2017/218/वरिष्ठ-नागरिक.htm",
+      "sha256": "c5aa5453f60edf6b81c5e623d25cc8b2ab71b3d2d0c1e9921dac3723633d9ae9",
+      "bytes": 41397
+    },
+    {
+      "path": "research/2017/219/मैथिलानीपर-विमर्शक-अधिकारी-के.htm",
+      "sha256": "976db415dbb90f41ff398e315de153bda9ce0dc600225a70449f459e3539f76f",
+      "bytes": 31666
+    },
+    {
+      "path": "research/2017/221/तमाकूल-सँ-बरबाद-होइत-मैथिल-आ-मैथिली-संस्कृति.htm",
+      "sha256": "0422c23b99a89d61205a09a3ec7e4a6a1c5fc90e65dc813d6f3240c9dfbecb73",
+      "bytes": 29560
+    },
+    {
+      "path": "research/2017/221/दलित-साहित्यकेँ-आन-साहित्यसँ-फुटकेबाक-प्रयोजन.htm",
+      "sha256": "f34885617bba69264cf73443488bf856b2558fd3dd66b1f9f6a6a8be56779ae6",
+      "bytes": 23828
+    },
+    {
+      "path": "research/2017/222/मैथिली-जोग-गीतमे-प्रेम-आ-तंत्रक-प्रभाव.htm",
+      "sha256": "42aa26bd6de9cfaf6ba4921ea1ef70f9770318dba5f8688b7c83d54e3036dd5b",
+      "bytes": 26835
+    },
+    {
+      "path": "research/2017/222/मैथिलीक-धरोहर-सीता-शील-साहित्यिक-विवेचना.htm",
+      "sha256": "4f5eaeab1dd8253f86d0e7dad5a1854dc152b37500dba78bef642d53e4bd9841",
+      "bytes": 48307
+    },
+    {
+      "path": "research/2017/223/लोक-वेद-आ-व्यवहारक-पाबनि-मधुश्रावणी-मानवशास्त्रीय-विवेचन.htm",
+      "sha256": "9b95fc109a9c936b78f2fd41efbbb4dd0e43b9700d9e9fbf18379c3e73631590",
+      "bytes": 57313
+    },
+    {
+      "path": "research/2017/224/मैथिलानी-केर-उपराग-राम-सँ-आ-समाज-सँ-सीता-दाई-केर-वेदना.htm",
+      "sha256": "df1507e600c0d24bed7a91d68d2a1957cae53579b6b4b09953d2df3cacb3e524",
+      "bytes": 63245
+    },
+    {
+      "path": "research/2017/225/हिन्दू-महिलाकेँ-सम्पैतमे-अधिकार.htm",
+      "sha256": "73d0d68d46b5d0d09ec2c46e92a24641f42d6a318639672f39cebef93408f0b2",
+      "bytes": 41562
+    },
+    {
+      "path": "research/2017/226/आजादक-अन्त्येष्टि.htm",
+      "sha256": "a68307471008ec9e615717eb39b93b852393f3ecb47c41ab2e9b299453c30a6f",
+      "bytes": 15043
+    },
+    {
+      "path": "research/2017/226/गामक-बात.htm",
+      "sha256": "63a5013fcb7c56c4d69a882e19cdc5f1bbf23f5e341535cd30842a8b1df3fedb",
+      "bytes": 42614
+    },
+    {
+      "path": "research/2017/226/मकर-संक्रान्ति.htm",
+      "sha256": "08029bf48bdeff36d1893752f7b481e01eb90596924c8dd47e5c3a1f554f9deb",
+      "bytes": 32182
+    },
+    {
+      "path": "research/2017/226/राँची-चारि-दसक-बाद.htm",
+      "sha256": "e28ad6b4ff0d8854adbf5d389c886e8aba83eba475fc3bc478e1ce2160a77192",
+      "bytes": 61400
+    },
+    {
+      "path": "research/2017/228/गौरी-चोरनी-गौरी-डाईन-आ-गौरी-छिनारि-मधुश्रावणी-कथा-केर-द्वंद.htm",
+      "sha256": "428438fef2dce1d6a28b9892cf318e1343ab4b9dd8248c124c5c0c483a050f94",
+      "bytes": 31986
+    },
+    {
+      "path": "research/2017/229/सगर-राति-दीप-जरय-क-९३म-आ-९४म-आयोजन.htm",
+      "sha256": "b038134519b1d2f4138ba130981026a9b7f1413c22b0fa8abd5d4bc12b6a89e6",
+      "bytes": 44068
+    },
+    {
+      "path": "research/2017/230/कतेक-रास-बात-इंटरनेटपर-मैथिलीक-पहिल-उपस्थिति-नै-अछि.htm",
+      "sha256": "d91e76ce06c34d256cb107ee2f32af547c8b77e42d982fc811bd5d0d12d89bca",
+      "bytes": 33510
+    },
+    {
+      "path": "research/2017/230/मि-थि-लाक-लोक-संगीत-लोक-कला-भगैत-गबैया.htm",
+      "sha256": "637af13d53d069e17b96c5d3a74df8943eed6c652d90c5f9a8091062ae43c58d",
+      "bytes": 32581
+    },
+    {
+      "path": "research/2017/231/इच्छा-पत्र.htm",
+      "sha256": "a912d9d306281729b4711d34757709b79f5196b3da9be4be0e0b2689c5ed6fc1",
+      "bytes": 28029
+    },
+    {
+      "path": "research/2017/231/कानूनी-आतंकवाद-भारतीय-दण्ड-संहिता-धारा-498a.htm",
+      "sha256": "36bb9ce65a5f6fd2921a942583c9d66be8929b8d2df9d222632afa8892640fbc",
+      "bytes": 41231
+    },
+    {
+      "path": "research/2017/231/तिरुअनन्तपुरम.htm",
+      "sha256": "4a036d9e128969f90b4874619f0efdb6ee3925e9965766fb24f6b22435217fb0",
+      "bytes": 31820
+    },
+    {
+      "path": "research/2017/231/नवका-पोखैर.htm",
+      "sha256": "e613f31724590bf8e6b37fc7e8e3c2b3fe20453f7b7c75a34dc9140774fb45c7",
+      "bytes": 34565
+    },
+    {
+      "path": "research/2018/250/अमृतसर-यात्रा.htm",
+      "sha256": "1c4ed478ebd8773c17e428018861522d3ba2f934963c3f6d27a862ca5e259948",
+      "bytes": 29089
+    },
+    {
+      "path": "research/2018/250/आगाँ-के-देखलक-अछि.htm",
+      "sha256": "4e9021b9ca522e00186d61f418b4a17f061b68f658980f61ed6917cf1d15fca8",
+      "bytes": 29244
+    },
+    {
+      "path": "research/2018/250/परिचर्चा-परित्यक्ता-आ-परिस्थिति-मिथिलाक-सन्दर्भमे.htm",
+      "sha256": "b6754fefc8619925a473cd013b6f63d7c129066749877e03bb506939cab50b2e",
+      "bytes": 70661
+    },
+    {
+      "path": "research/2018/250/विधवा-विवाह.htm",
+      "sha256": "88a1debd99edda18d1f21fe744af705f6f7578d9d7aa38c9b20f079b87216bd0",
+      "bytes": 28394
+    },
+    {
+      "path": "research/2018/251/बयानक-सन्दर्भमे-मैथिली-गजल.htm",
+      "sha256": "ffc37690c76a266155e1671fb84ed2d1dfe77b0ff9cc84d9ca4284313ddc0a2c",
+      "bytes": 37397
+    },
+    {
+      "path": "research/2018/252/नरेन्द्रजीक-मैथिली-आ-हिन्दी-गजलक-तुलनात्मक-विवेचना.htm",
+      "sha256": "075ea24f89ac718fd14e6e9f548425c0d37115145a4c5737470c9ee82409a2ff",
+      "bytes": 50194
+    },
+    {
+      "path": "research/2018/252/मैथिली-कथामे-स्त्री.htm",
+      "sha256": "b0e378ccf855423596bb368773b28499bf6e71b07f928275727b29d2a90dc034",
+      "bytes": 29002
+    },
+    {
+      "path": "research/2018/253/आधुनिक-मैथिली-गजलक-संक्षिप्त-आलोचनात्मक-परिचय.htm",
+      "sha256": "e0aba9b69b828ebad6ecfe086c55c2c101fd4edeff53a0d114a7116b84f95b59",
+      "bytes": 132364
+    },
+    {
+      "path": "research/2018/253/सगर-राति-दीप-जरय-९८म-कथा-गोष्ठी-सिमरा-झंझारपुर.htm",
+      "sha256": "8005a7de778d06cf5402e94ae722209cc1f1891f81ca345d8115cc09bb1a78d9",
+      "bytes": 14900
+    },
+    {
+      "path": "research/2018/254/विद्यापतिक-रचनामे-विरह-वर्णन.htm",
+      "sha256": "f70b05ccaac0eeb065506ecdfa7cbda98fbec7ef75c300f92e994ea4e4a37596",
+      "bytes": 33321
+    },
+    {
+      "path": "research/2018/254/विद्यापतिकालीन-मिथिलाक-कृषि.htm",
+      "sha256": "8cd8c72d5c476a8720fe5a06ec1251ab93a83e84d2b5767e7ab78fea2843de00",
+      "bytes": 27901
+    },
+    {
+      "path": "research/2018/255/कन्यादानक-भीषण-समस्याक-कारण.htm",
+      "sha256": "21eb9ff65d2d068698a5175a34cf6fb8c290378295451403545a9b140b310148",
+      "bytes": 39589
+    },
+    {
+      "path": "research/2018/256/एकैसम-शताब्दीक-प्रारम्भ-जनवृद्धिमे-भारत-प्रथम-आ-चीन-दोसर.htm",
+      "sha256": "d22e74b60825dc34e5e87feaec3c8c20a26ef189021a697b68ddbd59d5a02691",
+      "bytes": 21779
+    },
+    {
+      "path": "research/2018/256/साकेतानन्दक-गण-नायक-पुस्तक-समीक्षा.htm",
+      "sha256": "56ef3767db1204d413fbbe9331c5b08c773a2eedfe190da30507100ae645f0ea",
+      "bytes": 27719
+    },
+    {
+      "path": "research/2018/257/घरेलू-हिंसा-अधिनियम-2005.htm",
+      "sha256": "f0230a23c3ecdb27a7968c1276eca2fec1fdedc1529b21def42173c0f457a2d5",
+      "bytes": 224243
+    },
+    {
+      "path": "research/2018/257/मैथिली-साहित्यक-अवदान-मिथिला-भाषा-रामायण-आ-चन्दा-झा.htm",
+      "sha256": "2b0df980b2cbb5d7e20114f9c790a23a44f5db082c9a0531ee6625c98feae2eb",
+      "bytes": 16040
+    },
+    {
+      "path": "research/2018/257/मैथिलीक-विकासमे-नेपालक-योगदान.htm",
+      "sha256": "a9c6cf98603d255d11f7f6f7c6b3a902fb2a42e09eda67f49e2ae3b748477b06",
+      "bytes": 38953
+    },
+    {
+      "path": "research/2018/257/हिन्दी-फिल्मी-गीतमे-बहर-१.htm",
+      "sha256": "86f745053d932a2981e7efe9a4d0024a2fa465d97376d81422990d1f203f3d16",
+      "bytes": 39434
+    },
+    {
+      "path": "research/2018/258/दू-पत्र-उपन्यासक-विश्लेषणात्मक-अध्ययन.htm",
+      "sha256": "7a0dff3fed155130f54ca5d9d0f7de963a20d180b219c14253441c16e69cf5dc",
+      "bytes": 17416
+    },
+    {
+      "path": "research/2018/258/मैथिली-साहित्यमे-यदुनाथ-झा-यदुवर-क-देन.htm",
+      "sha256": "6ce2b0f2b6d29de7a88cda13e7ea3cb12f497d37c1188d56154a2940b51df062",
+      "bytes": 46148
+    },
+    {
+      "path": "research/2018/258/संपत्ति-हस्तांतरण.htm",
+      "sha256": "5252ea8d7e79505906289d410fcbbc4bcd4e5b15167183d1608df2ac95971dc9",
+      "bytes": 112844
+    },
+    {
+      "path": "research/2018/258/हिन्दी-फिल्मी-गीतमे-बहर-२.htm",
+      "sha256": "da9c4fa4bcc5e53b59b4ac2d7f81cf9f65c701f11e848f88812e62524babcb94",
+      "bytes": 14298
+    },
+    {
+      "path": "research/2018/258/हिन्दू-विवाह-एक-समीक्षा.htm",
+      "sha256": "319914a6d09c2281f8af08216643c311332408359d3e088f770bf747af39e707",
+      "bytes": 21556
+    },
+    {
+      "path": "research/2018/259/मैथिली-पत्रिकामे-अनुवाद-साहित्य.htm",
+      "sha256": "4ed1f219a387e1fd69ef1cac97d0a49aaddb55c68f014c02ac331ee9f0739688",
+      "bytes": 30067
+    },
+    {
+      "path": "research/2018/259/सगर-राति-दीप-जरय-आयोजन-आ-साहित्यिक-संस्थाक-इतिहास.htm",
+      "sha256": "bb5eda623f0b66b3334e46b7443e66c50b4e80fc671d7563c01e5ca9a988a16e",
+      "bytes": 276719
+    },
+    {
+      "path": "research/2018/260/ई-समय-ककरो-नहि.htm",
+      "sha256": "3c6a220d2b496abaca1fce180a7d9efd2b6ecb85de3bc142dfb81e7a67ecfbc5",
+      "bytes": 23665
+    },
+    {
+      "path": "research/2018/260/मिथिलाक-विभूति-अयाची-मिश्र.htm",
+      "sha256": "1b40662fb26a7ea6058ea7ee4fe3b8fce7af1dc5ad16898d1e62c12d08588f43",
+      "bytes": 21385
+    },
+    {
+      "path": "research/2018/260/हिन्दी-फिल्मी-गीतमे-बहर-३.htm",
+      "sha256": "86c7d5febee79902513ba1da8bd7f01646f4f50423eec7f9bed88c1407cbced5",
+      "bytes": 16246
+    },
+    {
+      "path": "research/2018/261/फकड़ाक-संग-यात्रा-करैत-मैथिलानीक-मनोदशाक-मानवशास्त्रीय-विवेचना.htm",
+      "sha256": "5c3b93808190b7cb88b242584d34f4056f8a90e7874fa7cd3366c2ec27461a0b",
+      "bytes": 100270
+    },
+    {
+      "path": "research/2018/261/हिन्दी-फिल्मी-गीतमे-बहर-४.htm",
+      "sha256": "0b8e0f76f1f5cea91a79a399248f38c361aa54b414a1aa6fe3cad6e08d7b2453",
+      "bytes": 20102
+    },
+    {
+      "path": "research/2019/267/हिन्दी-फिल्मी-गीतमे-बहर-५.htm",
+      "sha256": "e2af6af5b484144764b05b4e34e8d3f986508ddffd7cf0b3e3384d50b2b26936",
+      "bytes": 17630
+    },
+    {
+      "path": "research/2019/269/हिन्दी-फिल्मी-गीतमे-बहर-६.htm",
+      "sha256": "55d4b840fea517a55fd24455daf5aa6f8e9b6ee2f64ffc81b34cd8f4a40df0a3",
+      "bytes": 17606
+    },
+    {
+      "path": "research/2019/270/मौलाइल-गाछक-फूल-जगदीश-प्रसाद-मण्डल.htm",
+      "sha256": "f890ba96e8baf5e8698c5f1382b8a1c7006c0cdef3561f8ab09782a80019ec0e",
+      "bytes": 14036
+    },
+    {
+      "path": "research/2019/270/हिन्दी-फिल्मी-गीतमे-बहर-७.htm",
+      "sha256": "1e16077b153c3b355c64f7936bd02f76cc9e9530cf8a1322e0267f9b6a622b34",
+      "bytes": 15763
+    },
+    {
+      "path": "research/2019/272/मैथिली-वेब-पत्रकारिताक-इतिहास.htm",
+      "sha256": "b815ee1d93e5749f85d6d6af6dc399604f99b6464085f2f5bacebaf276f7d761",
+      "bytes": 21476
+    },
+    {
+      "path": "research/2019/277/विद्यापतिकालीन-मिथिलाक-कृषि.htm",
+      "sha256": "711d4f7c2d8fee97d5cda1829723533c833c284a278a9274833ae61801bed571",
+      "bytes": 28057
+    },
+    {
+      "path": "research/2019/278/हिन्दी-फिल्मी-गीतमे-बहर-८.htm",
+      "sha256": "e79a2bc23aa499f865f60b3f672c7cc416716e958d2882de1f7d700eeb32153d",
+      "bytes": 13023
+    },
+    {
+      "path": "research/2019/280/मैथिली-साहित्य-रचनाक-क्षेत्रमे-जगदीश-प्रसाद-मण्डलक-आगमन.htm",
+      "sha256": "bb501d6d7b5881002e64cc1849d7b300af9b143b89598c41b8f09e937efe5c05",
+      "bytes": 28015
+    },
+    {
+      "path": "research/2019/281/जगदीश-प्रसाद-मण्डलजीक-भकमोड़-मे-परिवर्तनक-स्वर.htm",
+      "sha256": "aa3889c6fd89e7591abc11cb4bf42df133469aa0eb08b30f96a6a31400f323cf",
+      "bytes": 33647
+    },
+    {
+      "path": "research/2019/282/जगदीश-प्रसाद-मण्डलक-औपन्यासिक-कृति.htm",
+      "sha256": "65c491142f49013f2f8d77b1d45ec774fd8fdd431f6aecebf5c32e619e21ede3",
+      "bytes": 97108
+    },
+    {
+      "path": "research/2019/283/जगदीश-प्रसाद-मण्डलक-जीवन-संघर्ष.htm",
+      "sha256": "8cd93efc8c1f77c2af61ea44f88f1b685c3616b74e00476cb6e296f4815c0a80",
+      "bytes": 67042
+    },
+    {
+      "path": "research/2019/284/जगदीश-प्रसाद-मण्डलक-नाट्य-कृतिक-संक्षिप्त-परिचय.htm",
+      "sha256": "2074498de637c4df45f8963cd8e7722687f6768a12107779e5b5754db10e1cd3",
+      "bytes": 35581
+    },
+    {
+      "path": "research/2019/285/जगदीश-प्रसाद-मण्डलक-गीतांजलि.htm",
+      "sha256": "f22227ac3929260d181243caceebb620714364e355dfef86a655bef4523faf9f",
+      "bytes": 29863
+    },
+    {
+      "path": "research/2019/286/श्री-जगदीश-प्रसाद-मण्डलक-25-गोट-पोथीमे-संकलित-पात्रक-सूची-index.htm",
+      "sha256": "099da4ad009b6ea6810e19dd0e75e6e5963085c751285615df162147a074be19",
+      "bytes": 52158
+    },
+    {
+      "path": "research/2019/287/जगदीश-प्रसाद-मण्डलक-रहसा-चौरी.htm",
+      "sha256": "99a3e69e78aec21d2742e30f3832582e527b502b8cb4e05de9be3695eb89de18",
+      "bytes": 19404
+    },
+    {
+      "path": "research/2019/288/जगदीश-प्रसाद-मण्डलक-गामक-जिनगी.htm",
+      "sha256": "892b83dbe6bf4dacbb0332fc0543f9d6f2e27fe49e4f892c27c0bcb5d78078c4",
+      "bytes": 37017
+    },
+    {
+      "path": "research/2020/289/जगदीश-प्रसाद-मण्डलक-विचारोत्तेजक-गद्यांश.htm",
+      "sha256": "75022eb80a180cae1592a0dbf755ca6e74b0190326f49192eb7d45776f830653",
+      "bytes": 57879
+    },
+    {
+      "path": "research/2020/290/जगदीश-प्रसाद-मण्डलक-विचारोत्तेजक-गद्यांश-२.htm",
+      "sha256": "f18bbb7b56030707b2ded7444f18d4f47a68ad8c5aade2ff4c76d142a5d7c90a",
+      "bytes": 39035
+    },
+    {
+      "path": "research/2020/291/जगदीश-प्रसाद-मण्डलक-दर्जन-भरि-कथाक-सामान्य-परिचय.htm",
+      "sha256": "cf1649aad2a3ec8d312f6d9df85cdd4388791e30c47e1e477336e5f32d79548c",
+      "bytes": 48844
+    },
+    {
+      "path": "research/2020/292/जगदीश-प्रसाद-मण्डलक-बजन्ता-बुझन्ता.htm",
+      "sha256": "38fef431c7f6d89b4871843c5ccaddff46819fa5755ca7283105cbd12c7eaee1",
+      "bytes": 30775
+    },
+    {
+      "path": "research/2020/293/जगदीश-प्रसाद-मण्डलक-अकास-गंगा.htm",
+      "sha256": "7fbd2c331c62aa3fbb4083d8fc566c39aad47e06412ad14dc841e9030a74f45d",
+      "bytes": 25723
+    },
+    {
+      "path": "research/2020/294/जगदीश-प्रसाद-मण्डलजीक-सुभिमानी-जिनगी.htm",
+      "sha256": "9e3d514e61faab45d3c755e86b9d326289d81a80dd37943b4056a4206280462a",
+      "bytes": 32832
+    },
+    {
+      "path": "research/2020/295/जगदीश-प्रसाद-मण्डलक-अर्द्धांगिनी-कथा-संग्रह.htm",
+      "sha256": "59f400ef9cb589aec8bf5d00600cf037c38afabb8644abc22fdd75e4fe696ffd",
+      "bytes": 21396
+    },
+    {
+      "path": "research/2020/296/जगदीश-प्रसाद-मण्डलक-मुड़ियाएल-घर.htm",
+      "sha256": "89019eb9490fd316637672947261eea953d6a21d57657568574f9d2733b2107f",
+      "bytes": 20651
+    },
+    {
+      "path": "research/2020/297/जगदीश-प्रसाद-मण्डलक-रहै-जोकर-परिवार-मे-परिवर्तनक-स्वर.htm",
+      "sha256": "29578e8dd95d052ec1f0e94c69406eafd1cd08ff356f51e67a3ed2fcf126d8ca",
+      "bytes": 20934
+    },
+    {
+      "path": "research/2020/298/जगदीश-प्रसाद-मण्डलक-कथा-लेखन-क्रम.htm",
+      "sha256": "d0396bb8fe2064cd0b58934c5f1e3cb29900b56ba894bd03eab9addb6f653719",
+      "bytes": 88731
+    },
+    {
+      "path": "research/2020/299/बिहार-शराबबंदी-कानून.htm",
+      "sha256": "b21c663b54f3082bd278061b771cd91c29a57c2a9c92ae9ef210ae05abdd60c1",
+      "bytes": 17710
+    },
+    {
+      "path": "research/2020/299/बेनामी-संपत्ति-कानून.htm",
+      "sha256": "1ff6ad349caeb1a9626608f93e43af487ed8ec7f5c700921b5e059dfdac31d3d",
+      "bytes": 20337
+    },
+    {
+      "path": "research/2020/299/वकालतनामा.htm",
+      "sha256": "a6f766c29d9397739d9c3e5ea0bc82fdc2462687ffddf60f1d1863cce07dcbbf",
+      "bytes": 11142
+    },
+    {
+      "path": "research/2020/300/जगदीश-प्रसाद-मण्डलजीक-व्यक्तित्व-ओ-कृतित्व-एक-अनुशीलन.htm",
+      "sha256": "a94956d436b9d758af5ea9b610fba182eca7b843bab130307af74f36c7533e97",
+      "bytes": 77481
+    },
+    {
+      "path": "research/2020/300/बीहनि-कथा-मानकीकरण-ओ-तुलनात्मक-पक्ष.htm",
+      "sha256": "2166dde001d2234f56b777aa43e97a956b5b29c8b67bcd9f6d8de6096c6f414a",
+      "bytes": 75134
+    },
+    {
+      "path": "research/2020/300/लाल-लंगौटी-केर-पहचान-करैत-कविता.htm",
+      "sha256": "67a0280d2f7481185b9ad49bbdd8990132f737aa38eb3f307702de8ebe4ab438",
+      "bytes": 64493
+    },
+    {
+      "path": "research/2020/301/मिथिला-मैथिलीक-प्रारंभिक-apps.htm",
+      "sha256": "348eda501871e8bc063bdc1f866f3224794049d2f481e2406d65ba26d72c83c3",
+      "bytes": 16010
+    },
+    {
+      "path": "research/2020/302/सोशल-मीडिया-आ-मैथिली.htm",
+      "sha256": "9f363d697bb7309ea19a8e15482bb508b442d6a8e6927a556f14f2b75c3b6b57",
+      "bytes": 42199
+    },
+    {
+      "path": "research/2020/303/यूट्यूब-आ-मैथिली.htm",
+      "sha256": "99e1e9f5aac120b655135e6ba96fe4989aab676fde135af42782ec5e491794d1",
+      "bytes": 12617
+    },
+    {
+      "path": "research/2020/305/मैथिलीमे-इंटरनेट.htm",
+      "sha256": "a00d6169457d217606b12c873a5bec766dd3d158f9cd5faf37a3c15992218599",
+      "bytes": 49437
+    },
+    {
+      "path": "research/2020/307/तिरहुता-लिपिक-उद्भव-आ-विकास-भाग-१.htm",
+      "sha256": "fa5489337563ba14250db31b8499ca2f0958df0c817e845d8668bfdd2af8d84f",
+      "bytes": 63227
+    },
+    {
+      "path": "research/2020/307/दुष्यंत-कुमारक-गजलक-मिजाज-सन-गजल-मैथिलीमे-कहिया-लीखल-जेतै.htm",
+      "sha256": "9aa9bea34115df55ca88e691102d23f596514663e8c8473b7c7066fc484c8c25",
+      "bytes": 31126
+    },
+    {
+      "path": "research/2020/307/पुष्कर-काण्डक-विशेषता.htm",
+      "sha256": "fa33878a85f279b5d851ee2703d62393a66c0873165899830d061b085393774d",
+      "bytes": 15376
+    },
+    {
+      "path": "research/2020/307/मिथिलाक-नामकरण-एवं-प्रादूर्भाव.htm",
+      "sha256": "a143fa7a1787bfbcedcefe6a1141fd77d78401a7e9b60c48a8d53b9ceb602eca",
+      "bytes": 25007
+    },
+    {
+      "path": "research/2020/307/रमेश्वर-चरित-मिथिला-रामायणमे-कौशल्या.htm",
+      "sha256": "9d0408c50695c2cdf52a1fe600433f54660427dc4664788ad56993cad5eaa863",
+      "bytes": 16775
+    },
+    {
+      "path": "research/2020/307/वैद्यनाथ-मिश्र-यात्री-क-साहित्य-यात्रा.htm",
+      "sha256": "eb28d81e9f9d15209772425e6c591db6cbe88240585c1919bae718dcd06b2425",
+      "bytes": 15769
+    },
+    {
+      "path": "research/2020/308/नारी-शब्दक-लेल-किछु-प्रमुख-शब्दक-विवेचना.htm",
+      "sha256": "d018357cfc1039bbca7a2ea0c5233227c325952e8e9d43a883113293284cfbe7",
+      "bytes": 24029
+    },
+    {
+      "path": "research/2020/308/पं-कुशेश्वर-कुमर-ओ-पर्व-निर्णय-एक-समीक्षण.htm",
+      "sha256": "d92c3538d8d0ae1ecf09e4ab7f970bff82a13113658905f095e5837490c9e63a",
+      "bytes": 37355
+    },
+    {
+      "path": "research/2020/308/पं-तेजनाथ-झा-ओ-संस्कार-एक-समीक्षा.htm",
+      "sha256": "6af9ce80bfbe38345d50d01322976a7869ee773a81fe8da46e304a47abea2c66",
+      "bytes": 35926
+    },
+    {
+      "path": "research/2020/308/पुत्र-ओ-पितृकर्म.htm",
+      "sha256": "391e0aaa4b7df05d26efa262008dd01f2dfbec929e2d2942bfb63c4c015e2839",
+      "bytes": 17288
+    },
+    {
+      "path": "research/2020/308/म-म-उमापति-ओ-शुद्धि-निर्णय.htm",
+      "sha256": "fb2a459c77c21ff61d000ca1a4cdd56c08b71f74da9dfc790fe8a30eefb715fd",
+      "bytes": 31345
+    },
+    {
+      "path": "research/2020/308/म-म-राजनाथ-मिश्र-ओ-तिथि-निर्णय-एक-अध्ययन.htm",
+      "sha256": "80080f9a045068dad6f6f33dcf87c3774b63f5b2d178c9c335abb06fd40542df",
+      "bytes": 41875
+    },
+    {
+      "path": "research/2020/308/मिथिलाक-परिचय.htm",
+      "sha256": "17a560898ebc30c70cb415213c129f77ce287c3f429da663fe7ec9bbb906172c",
+      "bytes": 21072
+    },
+    {
+      "path": "research/2020/308/मिथिलाक-भाषा-एवं-साहित्य.htm",
+      "sha256": "8caaad35ddfdbee7375b869476c4cfdea2e6b73bfc90647eb9929ae26c40992f",
+      "bytes": 16748
+    },
+    {
+      "path": "research/2020/308/मिथिलामे-गीत-नादक-महत्व.htm",
+      "sha256": "60cdc2303bbaedb2b0af7685e2bb85fd612b9e924d933de08e051c2e6840ccd3",
+      "bytes": 17986
+    },
+    {
+      "path": "research/2020/308/यात्रीक-व्यक्तित्व-ओ-कृतित्व.htm",
+      "sha256": "8a069ca75eeae2f5325cf015b65b759ccaac33803a5c3112acaa5a55e2e10ef0",
+      "bytes": 171532
+    },
+    {
+      "path": "research/2020/308/यात्रीजीक-मैथिली-रचनामे-समसामयिक-जीवनक-अभिव्यक्ति.htm",
+      "sha256": "ed3a5743dd9caf5ed2149ef7f40c4d735faf4c1e3101dc86d1caae4b3d350964",
+      "bytes": 35783
+    },
+    {
+      "path": "research/2020/309/अलग-राज्यक-माँग-कतेक-सार्थक.htm",
+      "sha256": "f57d988d7755e07e98216d0968ae2ebb674ed949592c1ca3fbfa339e6cc827d3",
+      "bytes": 59401
+    },
+    {
+      "path": "research/2020/309/बीहनि-कथा-मानकीकरण-ओ-तुलनात्मक-पक्ष.htm",
+      "sha256": "2740dc4d3a56ca4841396e2da9159ee37aab3934537189f80bf5643140d8cae7",
+      "bytes": 51616
+    },
+    {
+      "path": "research/2020/309/मिथिलाक-इतिहास-भाग-२.htm",
+      "sha256": "a8d2ecd6a128d13014a95dd10376875ac4ff01d78bf1263c9688246127ef78f2",
+      "bytes": 51656
+    },
+    {
+      "path": "research/2020/309/मैथिलीक-वर्तमान-रंगमंच-धर्मिता-आ-स्वतन्त्रता.htm",
+      "sha256": "722e046405bc5bf53e779af937b8f9298bcc29ecee03fed6fd0b7356801dff30",
+      "bytes": 105346
+    },
+    {
+      "path": "research/2020/309/लालदासक-रामायणमे-विधि-व्यवहारक-वर्णन.htm",
+      "sha256": "1eb9a1ba178fea14eb0d1e8b042beeb919576307454847d07c2aa304c74c42e3",
+      "bytes": 32616
+    },
+    {
+      "path": "research/2020/309/लोक-नाट्य-वाद्य-मण्डली-संकलन.htm",
+      "sha256": "b3615b40fde3b5429f74aefbab754741b66772e2dc93e234a7775765ef81794a",
+      "bytes": 81293
+    },
+    {
+      "path": "research/2020/310/मिथिलाक-प्रसिद्ध-लोक-पर्वसामा-चकेबा.htm",
+      "sha256": "d699631f3fcb31fbfff51ef637509879b7ca372f67b89a1c1bece68fb54edc44",
+      "bytes": 31807
+    },
+    {
+      "path": "research/2020/310/मैथिली-नाटक-आ-ग्रामीण-रंगमंच.htm",
+      "sha256": "fa57a94865672a6ab57d68c596e5e039b5ba2ceb3aac0d692dc613860f554f32",
+      "bytes": 51902
+    },
+    {
+      "path": "research/2020/312/एकटा-मैथिली-गजल-जे-बदलि-देलकै-मैथिली-गीत-संगीतक-इतिहास.htm",
+      "sha256": "3f1e27d6d4da3cdbf0c3880cdd7dc91e1080fc519654fbd9836aeee8779430a8",
+      "bytes": 75576
+    },
+    {
+      "path": "research/2020/312/यात्रीक-गद्य-साहित्यमे-मिथिला-समाज.htm",
+      "sha256": "a72673a86fc9f6429a56fa4c9a8c5c5ee4c9253488fc93382ffbba2244d89114",
+      "bytes": 30733
+    },
+    {
+      "path": "research/2020/312/यात्रीक-पद्यमे-मिथिला-समाज.htm",
+      "sha256": "e50477308b4a987bb858d6c51d03e5e766fc6f13360803654b00198bf2874871",
+      "bytes": 33803
+    },
+    {
+      "path": "research/2021/313/भाषा-आ-प्रौद्योगिकी-संगणक-छायांकन-कुँजी-पटल-टंकणक-तकनीक.htm",
+      "sha256": "9f000fd0e5d09fe08752d5d9d4c5405452d9c30a82e57241b8b95d1700fa03d7",
+      "bytes": 263062
+    },
+    {
+      "path": "research/2021/313/मैथिली-वेब-पत्रकारिताक-इतिहास.htm",
+      "sha256": "62077d539d7b7257afff3f5888c14b459aff3831283deeb0f25754e27467cad2",
+      "bytes": 38522
+    },
+    {
+      "path": "research/2021/313/मैथिलीमे-ई-पत्रकारिता.htm",
+      "sha256": "97d9d609ecd5df05db33286e4a25dfe0d9246cbd3ee8d2b4d1a0ebde574d0441",
+      "bytes": 29675
+    },
+    {
+      "path": "research/2021/314/अस्तित्वक-कटघेरामे-मिथिला-मैथिलीक-संघ-संस्थासब.htm",
+      "sha256": "db0d1bf3241bc1fed1511bc13e96976ef10e4e2d27b4c2ae63c4c7891f5170e9",
+      "bytes": 32748
+    },
+    {
+      "path": "research/2021/315/भूगोलमे-मिथिलाराज-कहियाधरि.htm",
+      "sha256": "19678fce19eabd984922cd65311487e6ac264a782d8d55c2cef87f4be9c840b3",
+      "bytes": 54734
+    },
+    {
+      "path": "research/2021/317/बीहनि-कथाक-आजुक-परिप्रेक्ष्यमे-उपादेयता.htm",
+      "sha256": "23dff978808c3911fdf0feac4f71f9a7109a443fe1233e69d3d1ddf83ac2e2f7",
+      "bytes": 19232
+    },
+    {
+      "path": "research/2021/318/बीहनि-कथाक-दशा-दिशा.htm",
+      "sha256": "3b79aba5be32e7a3ab6239c7f508549072f0022d4f560c5d726c6a61d955b32d",
+      "bytes": 13502
+    },
+    {
+      "path": "research/2021/318/१०५म-सगर-राति-दीप-जरय-कथा-चेतना-रैली.htm",
+      "sha256": "dbdb921fb50988263b032e26cbd895206f686d5ade4e68ff168abf349d6367ed",
+      "bytes": 18801
+    },
+    {
+      "path": "research/2021/319/अपूर्णता-जखनि-नियति-हुअए.htm",
+      "sha256": "8f35194436345c0043eb64f9fa59ee2a9d98331f846cf1f15775cda024cd7b65",
+      "bytes": 158571
+    },
+    {
+      "path": "research/2021/319/एकटा-खाँटी-मैथिल-रामलोचन-ठाकुर-आ-हुनकर-काव्य-संसार.htm",
+      "sha256": "7d04258e8b9d6a3ea22ef20d8f3a9fc6fcdd99c8a11afdd61a72d923b69d90a7",
+      "bytes": 68124
+    },
+    {
+      "path": "research/2021/319/एहन-जड़िआयल-समाजमे-महिला-कोना-उतरतीह-मैथिली-रंगमंचपर-रामलोचन-ठाकुर.htm",
+      "sha256": "ba9246c5c8bb6e57dbc2c082896bceb8610dd3ddb4363555abb54658a4de1e69",
+      "bytes": 59728
+    },
+    {
+      "path": "research/2021/319/गीतकार-रामलोचन-ठाकुर.htm",
+      "sha256": "dfe41e56c266bb9e9d24ee53380d0187848a0bb13e420cab82395c51f6cd041c",
+      "bytes": 16403
+    },
+    {
+      "path": "research/2021/319/प्रतिरोधी-साहित्यकार-रामलोचन-ठाकुर.htm",
+      "sha256": "f3f9567da41fce8d7c97fb99dcee739907152b445c1cb09091b32d84a7b6fdde",
+      "bytes": 32823
+    },
+    {
+      "path": "research/2021/319/रामलोचन-ठाकुरक-बेतालकथा.htm",
+      "sha256": "6c553b1c2ef526c31ca4a1fe0069ce684f6ad2d5961e5b0901c54073b2d686fc",
+      "bytes": 410929
+    },
+    {
+      "path": "research/2021/319/रामलोचन-ठाकुरक-मैथिली-लोककथा-एक-विवेचना.htm",
+      "sha256": "7e59cec9c138326fe52654da954bd5b2ac6e16c8a76791f718e5041b79189248",
+      "bytes": 39346
+    },
+    {
+      "path": "research/2021/319/सत्यक-एकपेरिया-पर-काव्य-वितान.htm",
+      "sha256": "d7ee8e460fc1490e54d3794bce7afec5dd04ef2fa4ecd830748fbf47a5279628",
+      "bytes": 459932
+    },
+    {
+      "path": "research/2021/320/आधुनिक-विश्वकथाक-बाट-पर-जाइत-बीहनि-कथा.htm",
+      "sha256": "252441684638f4ae9fa9b2b72811ff03575196d0699f02846686c68d499a1da9",
+      "bytes": 35496
+    },
+    {
+      "path": "research/2021/321/पचपनियाँ-बनाम-बभनियाँ-मैथिली-प्रतिरोधक-स्खलित-स्वर.htm",
+      "sha256": "3f8c01218e77f5a3f25e68441e3752fe957560e1bf77915041dca32d47435655",
+      "bytes": 104963
+    },
+    {
+      "path": "research/2021/322/कौशिकी-जनपदक-लोक-संस्कृति--इतिहासक-शिकारी.htm",
+      "sha256": "ed012417594457c144aa87b0ba7af0708321ae462e49bd990115b22ccbe4a2e7",
+      "bytes": 147239
+    },
+    {
+      "path": "research/2021/329/पचपनियां-बनाम-बभनियां-मैथिली-प्रतिरोधक-स्खलित-स्वर.htm",
+      "sha256": "fa9e361b99147ef428af81a4f77f237ea4fb2368269a6ca13a65adc0e77e8301",
+      "bytes": 15290
+    },
+    {
+      "path": "research/2021/330/पिरामिडक-देश-मे.htm",
+      "sha256": "79de89138a9e75b59fbc3aef85e57d94505b12833fe1947437ab8fba72879ff3",
+      "bytes": 66852
+    },
+    {
+      "path": "research/2021/332/विलुप्त-होइत-मिथिला-के-लोक-संस्कृति-घोड़ा-कठघोड़वा-नाच-कोन-ब-62494ed4bc.htm",
+      "sha256": "8da4107b59eddb1a7609004975e07dcc7af53903bb5780ca4cbf49329b761a0a",
+      "bytes": 39951
+    },
+    {
+      "path": "research/2021/333/चित्रा-विचित्रा-सं-प्रदर्शित-होइत-मैथिल-प्रिमिटिविज्म.htm",
+      "sha256": "4c2bff33e67bc5fa4b6ead08b01488904c58a09694cc1ca92ec7b8012e6243e3",
+      "bytes": 116903
+    },
+    {
+      "path": "research/2021/333/मैथिली-माध्यमसँ-प्राथमिक-शिक्षा-होइ-सएह-छलनि-स्व-राजनन्दन-ल-bfd4be996c.htm",
+      "sha256": "4560c9eefd924e308162c07f235da6b9b2b761699b03bececc45c8f09cb150ab",
+      "bytes": 20175
+    },
+    {
+      "path": "research/2021/334/बीहनि-कथाक-विकासमे-रचनाकारक-योगदान.htm",
+      "sha256": "d516d677f2e65444941cee6cb1a90242a9d68d630e369afdd4459e8abafff03e",
+      "bytes": 29868
+    },
+    {
+      "path": "research/2021/334/मिथिला-मे-बिलुप्त-भेल-जा-रहल-भांट-भैंट-घूमक्कर-वाचक.htm",
+      "sha256": "fdad4a9c68fe12466c3689f6fc831e9d5823174f3a23f5f99924fa69821b0dd0",
+      "bytes": 35626
+    },
+    {
+      "path": "research/2021/336/हे-शिव-एकरा-गजल-कहितहुँ-होइछ-लाज.htm",
+      "sha256": "50744fc26dad5132664de301cc1e25eea54cbd45d54838b445adeb14f0a3cdd6",
+      "bytes": 23591
+    },
+    {
+      "path": "research/2022/338/मिथिला-मैथिली-के-दुर्दशा-लैए-दोखी-के-सब-हइ-अछि.htm",
+      "sha256": "90cf06aa2e9f868f46f8ef28c1e798da92b0930707ab157340335de5887cea51",
+      "bytes": 15138
+    },
+    {
+      "path": "research/2022/339/अनुशासन-विद्रोह-परिवर्तन.htm",
+      "sha256": "7cec41fa6dcfe2d22fdbc815916dd88fef6064b240aa915e3e594a95d17c9730",
+      "bytes": 107618
+    },
+    {
+      "path": "research/2022/341/मिथिला-मैथिली-आंदोलनक-मिथक-प्रयास-आ-समाधान.htm",
+      "sha256": "19abfb8ca1d94187de7c123882a49f177aeb6faab17dddd7b9d50e095be8e7b6",
+      "bytes": 18464
+    },
+    {
+      "path": "research/2022/344/मैथिली-फ़िल्म-उद्योग-अखनी-तक-आ-नबका-प्रयोग.htm",
+      "sha256": "a82293aa35cec6b0753b1ce9454811e36125d71f3fd8c5e0354dc72ad4cd952d",
+      "bytes": 15454
+    },
+    {
+      "path": "research/2022/345/राम-लोचन-ठाकुरजीक-गद्य-रचना.htm",
+      "sha256": "6f206c56edb0ff23a28d5feb32372076c5dac75c76bc1960360af201826f2d0f",
+      "bytes": 19665
+    },
+    {
+      "path": "research/2022/346/विकीपीडिया-मे-मैथिली-बाद-मैथिली-गूगल-ट्रान्सलेट-मे.htm",
+      "sha256": "f35897a3ec1f034220d93a69298c8a21279d5bd5c19033c70d3c04e384cf89b3",
+      "bytes": 38537
+    },
+    {
+      "path": "research/2022/347/प्रवासीक-स्नेहसँ-ओतप्रोत-मातृभूमि.htm",
+      "sha256": "2cf0ff08c33dee4bbda572ede0d331acea6d3b3ed52a13b2be684ab7c32918c6",
+      "bytes": 27606
+    },
+    {
+      "path": "research/2022/348/गीतक-अप्रतिम-शिल्पकार-रवीन्द्र-नाथ-ठाकुर.htm",
+      "sha256": "3e6cb24daac7aa843923e6695a1e05e2bde9049fc8a93af7f3350818a179ab79",
+      "bytes": 18692
+    },
+    {
+      "path": "research/2022/348/मिथिला-मैथिली-आन्दोलनक-पाथेय-श्रद्धेय-रवीन्द्र-जी.htm",
+      "sha256": "4c682732aea31e5dfabab138f3fb625a33f0d06d45936e5a6ea6004567389861",
+      "bytes": 53212
+    },
+    {
+      "path": "research/2022/348/रवीन्द्रनाथ-ठाकुर-हुनक-रचना-आ-जनमानस-केर-उदासीनता.htm",
+      "sha256": "7c1e9fa513bb7f4599cdca5063455499ab30aebb80e7c1bb0b8d9c98ce9fe986",
+      "bytes": 32730
+    },
+    {
+      "path": "research/2022/349/सझिया-रोपनि-४३-टा-बीहनि-कथा-लेखकक-सझिया-संग्रहक-समीक्षा.htm",
+      "sha256": "9a5fd9285aff84d6b041b0b6c318f881dc6e1c2498859d32fb03508d8cdfef29",
+      "bytes": 67587
+    },
+    {
+      "path": "research/2022/351/मैथिली-विकीपीडिया-यूनीकोड-तिरहुता-आ-कैथी-गूगल-ट्रांसलेटमे-4111606550.htm",
+      "sha256": "0e58c62a13ef9513557b3df1b61b37dfcec5c09796785ba499f9b472b15799ef",
+      "bytes": 84909
+    },
+    {
+      "path": "research/2022/352/अजगुत-अफ्रीका-अफ्रीका-डायरी.htm",
+      "sha256": "686cacf1514e87220991e06ea6d20d8168bc776b997533134c5162196a0de6fa",
+      "bytes": 785057
+    },
+    {
+      "path": "research/2022/352/प्रेमक-अद्वैतक-अद्भुत-आख्यान-हीना.htm",
+      "sha256": "5d3b53365412dfd462a251a6120ec6a25b604e91db9c6ec80ffc210edc034302",
+      "bytes": 23012
+    },
+    {
+      "path": "research/2022/352/मुख्य-पात्रक-गौण-व्यथा-अबारा-नहितन.htm",
+      "sha256": "50210588ee36192cea3728c81b1325ac3afee59d088906d00b4362a5bd04db37",
+      "bytes": 24477
+    },
+    {
+      "path": "research/2022/352/ह्रास-होइत-सभ्यता-संस्कृतिक-इतिवृत्तिक-अयना-अयना.htm",
+      "sha256": "2491ee742c9a4967ebab2511d6bbcc2fd49756a494f76b6e3b29f5a7b1107949",
+      "bytes": 19009
+    },
+    {
+      "path": "research/2022/353/पाठक-हमर-पोथी-किए-पढ़थि.htm",
+      "sha256": "b0cccb816eddacaa388f95dc6477efe318f2aa126791703fc4cf81c1600f3b83",
+      "bytes": 89864
+    },
+    {
+      "path": "research/2022/354/चम्पूसाहित्ययशो-विलासः-प्रथमोच्छ्वासः.htm",
+      "sha256": "f658759d19383e8be910d9a205499fa114658d9e2f3cb9240c58fd3408e862b6",
+      "bytes": 14223
+    },
+    {
+      "path": "research/2022/355/चम्पूसाहित्ययशो-विलासः-द्वितीयोच्छ्वासः.htm",
+      "sha256": "45faa1f9ae9602af334785d844d2fc7ad706f5bf830ffd197ef1f55f23a4a02a",
+      "bytes": 42111
+    },
+    {
+      "path": "research/2022/355/थीमक-खोज.htm",
+      "sha256": "f1f1fb0c225143b33d254f8d91274983d9f3d61ef77a2f3b3523e7ce18a69654",
+      "bytes": 22935
+    },
+    {
+      "path": "research/2022/356/चम्पूसाहित्ययशो-विलासः-तृतीयोच्छ्वासः.htm",
+      "sha256": "6f144eb5625491ba6ea6bdeba810d27f2666740925dc720fb3ae60d1c7a26601",
+      "bytes": 25210
+    },
+    {
+      "path": "research/2022/357/चम्पूसाहित्ययशो-विलासः-चतुर्थोच्छवासः.htm",
+      "sha256": "bf8f547fac3b87e9cec2efff4554388702dffcd368ae81f5dc2389970794b345",
+      "bytes": 27759
+    },
+    {
+      "path": "research/2022/357/रंगकर्मी-प्रेमलता-मिश्रक-साहित्यिक-छवि--ओ-दिन-ओ-पल.htm",
+      "sha256": "11d9b5c039a5389a602bcececa12316d006fe6dac494d6c1145f7bb466b25da1",
+      "bytes": 29006
+    },
+    {
+      "path": "research/2022/358/कथ्य-तथ्य-आ-सत्यक-चिन्तन.htm",
+      "sha256": "2c43d2a6590cc22e6cef1790120df57338cb8edc287e31db70faa7ab4c52c27a",
+      "bytes": 25156
+    },
+    {
+      "path": "research/2022/358/चम्पूसाहित्ययशो-विलासः-पञ्चमोच्छ्वासः.htm",
+      "sha256": "f1bf9c46dccd4884de49642f58d214862634ace220a7662ddbc6735acd059cf1",
+      "bytes": 25381
+    },
+    {
+      "path": "research/2022/358/जेहने-मधुर-तेहने-दृढ़.htm",
+      "sha256": "282d26dfd3dcb8848a1f6f6ce3f2d7b82dd0e7b5840ca2a090100833b394ffd0",
+      "bytes": 18324
+    },
+    {
+      "path": "research/2022/358/बिना-बहर-आ-काफिया-गजल-कोना-भेलै.htm",
+      "sha256": "17a2ba8c23304da18713e78b381718eed9c7233df02f96cbe7a359dfc6ecc91a",
+      "bytes": 45877
+    },
+    {
+      "path": "research/2022/358/मैथिली-साहित्यक-सेवक-नहि-मैथिली-भाषाक-सेवकः-शरदिन्दु-चौधरी.htm",
+      "sha256": "70e0a08e9c099f28529c78b7a2244a03421971343607236cf1563a8af1243ddc",
+      "bytes": 25423
+    },
+    {
+      "path": "research/2022/358/मैथिली-साहित्यमे-शरदिन्दु-चौधरी-केर-योगदान.htm",
+      "sha256": "b3d551e98f9380edc8ed82833df85320833d48964bd493ffd9fd4fdfb0160fd4",
+      "bytes": 26112
+    },
+    {
+      "path": "research/2022/358/विसंगतिक-विरुद्ध-प्रतिरोधक-स्वर.htm",
+      "sha256": "07fb5ec4bf2afb8ff2193177926b9f7c6ad2647f1021e3182e3b02a05f2391d8",
+      "bytes": 15237
+    },
+    {
+      "path": "research/2022/358/शरदिन्दु-कुमार-चौधरीक-साहित्य-स्वारथ-लागि-करहिं-सब-प्रीती.htm",
+      "sha256": "ff8bba39a5d5ab9a91ec882bb62040bac217f96fc395a56d105a9c3279150f49",
+      "bytes": 48539
+    },
+    {
+      "path": "research/2022/358/शरदिन्दु-चौधरी-हेबाक-माने.htm",
+      "sha256": "35ec60bf861badf0a398f2b3301872397ee6cebd8f34e08a010532fb4b70c819",
+      "bytes": 22221
+    },
+    {
+      "path": "research/2022/358/शरदिन्दु-चौधरीक-तीनटा-व्यंग्य-संग्रह--बड़-अजगुत-देखल-गोबरगण-db97f713dd.htm",
+      "sha256": "f4a215862cad0930b3ce829876a1433198ee8b4de7c31a29830d35610c61a9a8",
+      "bytes": 21956
+    },
+    {
+      "path": "research/2022/358/शरदिन्दु-चौधरीक-संस्मरण-साहित्य-बात-बातपर-बात-i-iv.htm",
+      "sha256": "796398061a662b77d776ae1f492b6e88a12d96c2d85e9f613ec15b6d6c2ed9ec",
+      "bytes": 47465
+    },
+    {
+      "path": "research/2022/358/शरदिन्दु-चौधरीक-संस्मरणात्मक-हास्य-व्यंग्य-संग्रह--जँ-हम-जनितहुँ.htm",
+      "sha256": "80e8d7cf620130b797474fd716649df285d66d2a272ff2172244cab020fd1a65",
+      "bytes": 25314
+    },
+    {
+      "path": "research/2022/359/चम्पूसाहित्ययशो-विलासः-षष्ठोच्छ्वासः.htm",
+      "sha256": "ca7a0ee5bda8efb5e7d8f7469eaa502310de3238a9a2bb1683431a0d0b0f9f90",
+      "bytes": 14258
+    },
+    {
+      "path": "research/2022/360/चम्पूसाहित्ययशो-विलासः-सप्तमोच्छ्वासः.htm",
+      "sha256": "eb1b718ca54ef9a96f3ea9d131de94fe498869bff0c86f10ecc3261d19da4c70",
+      "bytes": 26521
+    },
+    {
+      "path": "research/2023/363/लालदासक-मिथिला-रामायण-मे-कुण्डलिया-आ-छन्दोभङ्ग.htm",
+      "sha256": "c5072d5221970427aa5101bceb56627bac718dbe607f241cbffb24af0ba4be7a",
+      "bytes": 25736
+    },
+    {
+      "path": "research/2023/364/बर्चस्वबादी-संस्कृति-बनाम-हाशियाक-समाज-उर्फ-पचपनिया-संघर्ष.htm",
+      "sha256": "d3fdef7ac6b1a8ead79396a810627ec4d85aa5f51875ceab1a6c70c0dcbae0fa",
+      "bytes": 21645
+    },
+    {
+      "path": "research/2023/365/नेपाल-मधेश-बनाम-मिथिला.htm",
+      "sha256": "4114d334e5dcce939d0112d2ddf8b8638733f6637fca823da5a7e9175a95b128",
+      "bytes": 18189
+    },
+    {
+      "path": "research/2023/368/आधुनिकताक-परिवेश-मे-आधुनिक-चित्रकला.htm",
+      "sha256": "bf0443958e5ac3a2ef748dbb5ef7b8ca2fec4bdd08cd9cdcc96b56688445965d",
+      "bytes": 15745
+    },
+    {
+      "path": "research/2023/368/कलाकृति-मे-अश्लीलता.htm",
+      "sha256": "10e0b8cdc5a2957d201d876223707c6c1f127475786e53ee107dc15a366a3aac",
+      "bytes": 18484
+    },
+    {
+      "path": "research/2023/368/कामसूत्र-के-बिना-कोनो-चित्र-शैली-नहि-छैक--लोककला-के-साक्षात-व-850d42a3f9.htm",
+      "sha256": "8400875e722b0d60135544ff640f584bd5c47b5adb9402c9c75f9f34328c565f",
+      "bytes": 21188
+    },
+    {
+      "path": "research/2023/368/कुमार-पवनक-प्रसिद्ध-कथा-पइठ-क-संग-प्रकाशित-संजू-दासक-कलाकृति-be43403b4e.htm",
+      "sha256": "50ffa804e473a594bd4e035c2449ce0dbad692cb44bbbd7264c0deeb31320a3a",
+      "bytes": 14712
+    },
+    {
+      "path": "research/2023/368/गामक-नामकरण-एक-परिशीलन.htm",
+      "sha256": "9c0bcb663bcbfcc1a10514d6aaf60081febefe9ecb0a8b572c1be0f29355c669",
+      "bytes": 54901
+    },
+    {
+      "path": "research/2023/368/मिथिला-चित्रकला--नेपाल-प्रसंग.htm",
+      "sha256": "ebdfc93cd04f406b698e917d8c32db16b06d7266155cfa351387de154040bebb",
+      "bytes": 21216
+    },
+    {
+      "path": "research/2023/369/अशोकजीक-कथामे-कथापर-विमर्श.htm",
+      "sha256": "798df17ca5069d6a89eabce17b7728ef68021627abef6526a79bf3f14e9ebd86",
+      "bytes": 16922
+    },
+    {
+      "path": "research/2023/369/कथाकार-अशोक.htm",
+      "sha256": "1574e405dcf2bf1b7a37a79281752d73f85654d1d8c14d6d0a29ef1ab47edba0",
+      "bytes": 70261
+    },
+    {
+      "path": "research/2023/369/कथाकार-अशोकक-व्यंग्य-संग्रह-नीक-दिनक-बायस्कोप.htm",
+      "sha256": "cbf820b878dd7bf8548fc4dab1130fe8692f0c39f084fc55f019e88317228cdf",
+      "bytes": 19305
+    },
+    {
+      "path": "research/2023/369/कथेतर-गद्यक-लेखक-अशोक.htm",
+      "sha256": "88ca491fb1e081a330cd91db0fc391723fa9519ade8ac6f064d193515c93cd2f",
+      "bytes": 20506
+    },
+    {
+      "path": "research/2023/369/गतिशील-यथार्थक-कथाकार-अशोक-किछु-टिपौत.htm",
+      "sha256": "245cc0505a72de1d741f380e6076380f1cb6349a1513e2e6f92b0c6550b7e378",
+      "bytes": 47952
+    },
+    {
+      "path": "research/2023/369/ठाँहि-पठाहिँ-बाजब-लिखब-सहज-नहि.htm",
+      "sha256": "3490012fbe62b94de38fc27be75162f5ff5433b5d16dffa15e9e33b574cf2992",
+      "bytes": 19112
+    },
+    {
+      "path": "research/2023/369/डैडीगाम--मध्यमार्गक-अन्वेषणक-कथा.htm",
+      "sha256": "102a458dfcd29a4bb912fe6e9891b2a2149e207e47e2afa14f735bed48bacaa2",
+      "bytes": 20429
+    },
+    {
+      "path": "research/2023/369/मातबर-कथाकार.htm",
+      "sha256": "00a30b700e94d718c96e7996dd31a76bed6d49c6997564c3c59d8dc9473e68ca",
+      "bytes": 24435
+    },
+    {
+      "path": "research/2023/369/मैथिल-आँखिक-वैश्विक-कथाकार-छथि-कथाकार-अशोक-मातबर-कथा-संग्रह-16ade8d3c2.htm",
+      "sha256": "323528338495507c5d9c6bbd643961018af273fd01c9183e16a00e613a5b36bd",
+      "bytes": 52196
+    },
+    {
+      "path": "research/2023/371/एम-एस-यू-msu--मिथिला-स्टूडेंट-यूनियन-सँ-मिथिलावादी-पार्टी-धरि.htm",
+      "sha256": "3689f109babdcf08555feded8d8ee305c0763df65db9f9add77506137590c404",
+      "bytes": 45192
+    },
+    {
+      "path": "research/2023/371/मिथिला-स्टूडेंट-यूनियन-दशा-दिशा-आ-नेतृत्व.htm",
+      "sha256": "3fdfbed65a694afb462d99846eab0a754a0cc657156a6cd95bfcac182ef9c966",
+      "bytes": 28494
+    },
+    {
+      "path": "research/2023/371/मैथिल-संगठन-आ-ओकर-सामाजिक-सरोकार.htm",
+      "sha256": "a7e7d56b24450c5eadec65cfa70bf7535a23effa32bc52c29910bfa22ab439f8",
+      "bytes": 32619
+    },
+    {
+      "path": "research/2023/373/understanding-convergence-comprehending-medical-humanities-as-a-literary-genre.htm",
+      "sha256": "3ee14c5795587649628b0f677106b582d12f761da1c0457fa8747087ed15cde9",
+      "bytes": 34998
+    },
+    {
+      "path": "research/2023/373/समीक्षा--ठेहा-परक-मौलाएल-गाछ.htm",
+      "sha256": "88adc4e6c32706431f5527cbe49a77460ff9ba388c650716292142e06ed57c6f",
+      "bytes": 39407
+    },
+    {
+      "path": "research/2023/374/मिथिलाक-इतिहासक-वैज्ञानिक-अध्ययन-एवं-ओकर-समीक्षात्मक-विश्लेषण.htm",
+      "sha256": "3b2d55996c529bb145981f5f1eb5716b9d5b8494a632fdc0edd4af0265cb2392",
+      "bytes": 60620
+    },
+    {
+      "path": "research/2023/375/बाल्मीकि-रामायण-आ-रामचरितमानस-के-तुलनात्मक-अध्ययन.htm",
+      "sha256": "ec00ceeb3437d932e1c1af0831bae29bfdd1d93eee31e6aac8b3305a1ad7cb11",
+      "bytes": 20675
+    },
+    {
+      "path": "research/2023/381/नशामुक्त-गाम.htm",
+      "sha256": "45abdf017c708e55cfe0fb064a45986c61d807be40853b0669c07261ae471076",
+      "bytes": 34803
+    },
+    {
+      "path": "research/2023/382/पाथरपर-दूभि-उपजाबैत-राग-भावक-अन्वेषक-लक्ष्मण-झा-सागर.htm",
+      "sha256": "73f016ff6ee09c8a94d5bfbbf1d0e297b80d947065994805837014ed6ce21979",
+      "bytes": 56308
+    },
+    {
+      "path": "research/2023/382/सुकाव्यमय-सामाजिक-व्याख्या-उचरि-बैसू-कौआ.htm",
+      "sha256": "65f941006bde2eda60c5005c5e4047e21a9650273e9876b0009c2c87d96957b5",
+      "bytes": 39693
+    },
+    {
+      "path": "research/2023/383/की-अप्रमाणिक-आलोचना-एवं-इतिहास-केर-लेखन-करै-छथि-तारानंद-वियो-fc452c0856.htm",
+      "sha256": "158ea62b03f2eac000ff0b579fa0ff9cbae07f9ca3ceedbefac4792085e14882",
+      "bytes": 19928
+    },
+    {
+      "path": "research/2023/384/पुस्तक-समीक्षा-मैथिली-वेब-पत्रकारिताक-इतिहास-लेखक-आशीष-अनच-d7ee43009b.htm",
+      "sha256": "794869bc1cd2080ce5a8573a719c7d71c2dd8649f48213c6faf4a183dc61337c",
+      "bytes": 180289
+    },
+    {
+      "path": "research/2024/386/मानकीकृत-तराजू-पर-जोखाइत-लोकभाषा-मैथिली.htm",
+      "sha256": "94d84dcbef6d6f2c7b915b5390bee4e2e0fdbf37d730891e6d6b872a7e471a65",
+      "bytes": 14179
+    },
+    {
+      "path": "research/2024/387/पत्नी-इतिहास-हम-पढ़बै-जातीय-बोध-दान-बुद्ध-पृ-१०५-१११.htm",
+      "sha256": "c6dd65f92ccea4513748e3946ca4be571ca15f96f8769c8e2111e1746ad3e268",
+      "bytes": 255523
+    },
+    {
+      "path": "research/2024/387/पत्नी-इतिहास-हम-पढ़बै-जातीय-बोध-दान-बुद्ध.htm",
+      "sha256": "c0ceadb8452c605f6948af175061902ae5d31e1a4f41cc37ad9c40a8b6e6e98e",
+      "bytes": 272078
+    },
+    {
+      "path": "research/2024/390/reference-of-shudras-in-vedas.htm",
+      "sha256": "45a2e56885df6dbf6d2a8193663a70d8df24e061bb9c63006fe44d4e8be86826",
+      "bytes": 224648
+    },
+    {
+      "path": "research/2024/390/अंतरिक्ष-मे-उपग्रह-सॅटॅलाइट-टकराव-के-आशंका.htm",
+      "sha256": "654a6e487b443c786d9bb524cb6f7a7f4b3781465a0a301efcc7fcb2788a1dc6",
+      "bytes": 13687
+    },
+    {
+      "path": "research/2024/391/स्वातंत्र्योत्तर-मैथिली-कथाक-विकास.htm",
+      "sha256": "3a7742f15bd73a66db023c6569bff29014720b2a09dcb24907a3699da94061d8",
+      "bytes": 24131
+    },
+    {
+      "path": "research/2024/392/अंतरिक्ष-पर्यटन-के-वैज्ञानिक-दृष्टिकोण.htm",
+      "sha256": "61cff95559d0d59ffcc9c2865aebad52c421e583539cb2514b7872fe46570878",
+      "bytes": 54451
+    },
+    {
+      "path": "research/2024/392/नेपालमे-मैथिली-नाटकक-विकास-आ-परिणाम.htm",
+      "sha256": "bed783c31929f95f870cf968f53736672a68d0f303dcd63bc3d12a58896027bd",
+      "bytes": 44540
+    },
+    {
+      "path": "research/2024/395/अनुशीलन-क-अनुशीलन-आवश्यक.htm",
+      "sha256": "5940d57d417cfc8e2576316b5c604db0f4a857d77d9026f94ba34c90ecf4eb5d",
+      "bytes": 27074
+    },
+    {
+      "path": "research/2024/395/अर्थतंत्र-ओ-भ्रष्टाचार-नरेन्द्र-झा-केर-पोथी-सँ-विषय-वस्तु-आ-ccb3e7e956.htm",
+      "sha256": "ea703b539dccc583bb1e0ca8b2b8abfc740e42b0a7a02db6f10ee89b06a94a0c",
+      "bytes": 37651
+    },
+    {
+      "path": "research/2024/395/नरेन्द्र-झा-लिखित-मिथिलाक-आर्थिक-संरचनापर-प्रकाशित-पुस्तक-6eeeb5c3e9.htm",
+      "sha256": "7cf4ab4cce914b4778308bf7f8d8f71f24fe5cab5dc9603a369e18d1deca6241",
+      "bytes": 64047
+    },
+    {
+      "path": "research/2024/395/मिथिलाक-अर्थव्यवस्थाक-विरल-व्याख्या-करैत-लेखक-नरेन्द्र-झा-सी-ए.htm",
+      "sha256": "27e0bd03f4d807b1e03f291ce67077fe2181b484d6d855dcf837a0f03652fc47",
+      "bytes": 37796
+    },
+    {
+      "path": "research/2024/395/श्री-नरेन्द्र-झा-मिथिलाक-आर्थिक-पक्ष-रखनिहार-किन्तु-ऐतिहास-6e343d7d80.htm",
+      "sha256": "c4eaeba2a4702654ed04c749953b63d55d4d8d11d6708073609bea36ff3042f5",
+      "bytes": 65728
+    },
+    {
+      "path": "research/2024/396/ध्वनिविज्ञानी-प्रो-डा-रामावतार-यादवक-अनुसार-वर्णरत्नाकरक-भ-657c3c2d7e.htm",
+      "sha256": "3d9cf3b7f8bf5ae90415e60c3440986bc1b9f6f02f0787ad4bfa2a8b9ce27f5e",
+      "bytes": 77130
+    },
+    {
+      "path": "research/2024/396/ध्वनिविज्ञानी-प्रो-डा-रामावतार-यादवक-अनुसार-वर्णरत्नाकरक-भ-79b587630f.htm",
+      "sha256": "b8aafe60a73390a5ae4b7bdff6c8c3faf42d53292dbdf8ee62fb9f69b1082c3e",
+      "bytes": 21872
+    },
+    {
+      "path": "research/2024/396/प्रोफेसर-डा-रामावतार-यादव-ओ-हुनक-विलक्षण-अनुसंधान-तकनीक-मिथ-3cc6cd7f3c.htm",
+      "sha256": "e72c4f1aab4be37de4b8d5cefb803920a6f428176ba1007994dc70959c0344a8",
+      "bytes": 28807
+    },
+    {
+      "path": "research/2024/396/प्रोफेसर-डा-रामावतार-यादव-ओ-हुनक-विलक्षण-अनुसंधान-तकनीक-मिथ-872e74f009.htm",
+      "sha256": "f765836faa4a598ac5aab67e26a4c099c14b8e00b6b10bdd26b9851022777903",
+      "bytes": 76981
+    },
+    {
+      "path": "research/2024/396/भारोपीय-भाषा-परिवारवाद-आ-भाषा-दर्शन.htm",
+      "sha256": "44614c2be1ff1509d1b97223d503dd2ceffc829a9b765299db9b7a169b6eae6f",
+      "bytes": 41884
+    },
+    {
+      "path": "research/2024/396/हिस्टोरिओग्राफी-ऑफ-मैथिली-लेक्सिकोग्राफी-केर-मनोवैज्ञानि-bbe5cb375b.htm",
+      "sha256": "4f0485a73b45525d753d912ad9d8cf09b5216f2bc41d3be7b0ee818576e4e113",
+      "bytes": 46247
+    },
+    {
+      "path": "research/2024/396/हिस्टोरिओग्राफी-ऑफ-मैथिली-लेक्सिकोग्राफी-केर-मनोवैज्ञानि-d97b8c76f3.htm",
+      "sha256": "d4856fc35238a3d705d05e8582559f3cc910f3a60a10d68bdd7e240ad6342271",
+      "bytes": 76347
+    },
+    {
+      "path": "research/2024/398/भाषा-आ-संस्कृतिक-वैश्विक-प्रसार-लेल-दत्तचित्त-ठाकुर-परिवार.htm",
+      "sha256": "be984c26d87b62bfc95a026281fdc8c62c96049ce408872bc38938b625d489b8",
+      "bytes": 23354
+    },
+    {
+      "path": "research/2024/398/मैथिली-भाषा-परिवार.htm",
+      "sha256": "425a945a611356b4c3a4da7ca67a82d8defbe3bdab7714a426f33d8c4ac3531e",
+      "bytes": 20646
+    },
+    {
+      "path": "research/2024/398/३२म--३५म-शताब्दीक-मैथिलीक-नेंओक-साक्षी-कोबर-घर-तैयार.htm",
+      "sha256": "38c2d7649e85018e9bc0b58d3fa36743f86ab17e2e1d9c399ea9a4c159d08e90",
+      "bytes": 20305
+    },
+    {
+      "path": "research/2024/399/मिथिलावाद.htm",
+      "sha256": "7e53f5444435b841c139eb8cdd1d3e3ac94c39f959f5a2afe4451a8af0b44609",
+      "bytes": 33825
+    },
+    {
+      "path": "research/2024/401/इंटर-बारहमा-के-बाद-जीवविज्ञानक-विद्यार्थी-के-करियर-विकल्प.htm",
+      "sha256": "333e7ef88f92805086652c4c3c58b40ef0518d8d5a3c1887545597e28072b501",
+      "bytes": 77728
+    },
+    {
+      "path": "research/2024/401/बीहनि-कथाकें-विवादक-नै-संवादक-खगता-छै.htm",
+      "sha256": "26f09b0414498285c0f474a8e36ece921e11403648b9f1735a9431c1449b0f7d",
+      "bytes": 19611
+    },
+    {
+      "path": "research/2024/402/फैमिली-एडॉप्शन-प्रोग्राम-fap-चिकित्सा-शिक्षा-में-नवाचार-आ-ग्र-ff111abbf3.htm",
+      "sha256": "f69d34e722da4a3ded8ee1b0f957c7b8de9502774d9864718246b39ddaa14058",
+      "bytes": 23288
+    },
+    {
+      "path": "research/2024/402/बीहनि-कथाक-विकास-मे-संपादक-आलोचकक-योगदान.htm",
+      "sha256": "9b14940da6f96dd5b8c9b226d2d017d14c8f1ae6b1ef3cd981017a6e1ebf6c2f",
+      "bytes": 24204
+    },
+    {
+      "path": "research/2024/402/मैथिली-साहित्य-मे-समालोचक-केँ-कमी.htm",
+      "sha256": "9a0dce1b62781275fc68970ee7b9912669208d59ab2357b165ff37dbfdf4bd95",
+      "bytes": 17317
+    },
+    {
+      "path": "research/2024/405/कोइलख-ग्राम-गाथाक-विलक्षण-अभिलेख.htm",
+      "sha256": "aef2df66a46139fdbbf5053c7ba87427127f7894af22a10866ab410ae6b93108",
+      "bytes": 15231
+    },
+    {
+      "path": "research/2024/405/कोइलख.htm",
+      "sha256": "026d8fe70691a2b8b85180898f7ea73b258197ae0156ac687fd1f82aa98e3850",
+      "bytes": 14668
+    },
+    {
+      "path": "research/2024/405/गद्य-सं-पद्य-धरिक-सर्जन-केर-लेखा-जोखा-प्रस्तुत-करैत-पोथी-लेख-रेख.htm",
+      "sha256": "45b64bcb6043d86c3364659d334850178947444d7ef176a066c8ba58c4cc61f7",
+      "bytes": 36976
+    },
+    {
+      "path": "research/2024/405/पाठकीय-विधा-एवं-हितनाथ-झा.htm",
+      "sha256": "3e7175a8bdc96baf6cc66e037958ed9d10d1a2f4e4dbe573b44d24c9b100f9de",
+      "bytes": 17497
+    },
+    {
+      "path": "research/2024/405/भाषांतरणक-उत्कृष्ट-प्रयास-कविता-शम्भु-बादलक.htm",
+      "sha256": "ad5fe7f1733d88dbf49cd970682c5da08be7630c89e6a62e9c28245ffd4ff738",
+      "bytes": 23023
+    },
+    {
+      "path": "research/2024/405/मिथिला-मैथिलीक-हितैषी-हितनाथ-झाजी.htm",
+      "sha256": "fae454c89d5949e6992d1c17448407e900d4283169d8435eed07150d1d6e15e8",
+      "bytes": 20432
+    },
+    {
+      "path": "research/2024/405/मैथिली-साहित्यक-परम्परा-आ-विकास-सँ-परिचित-करबैत-अछि-मैथिली-इ-6b532f5ff7.htm",
+      "sha256": "d9e58d070a5f1bae2d6d0d910f31d459f2e132506b786869aab78d51d28de0db",
+      "bytes": 78970
+    },
+    {
+      "path": "research/2024/405/लेख-रेख.htm",
+      "sha256": "48dbf53b7213d4b6e94db116f5cde90f987c30df7c52ef853eb0d33015b514c6",
+      "bytes": 20467
+    },
+    {
+      "path": "research/2024/405/वैदुष्य-कल्पतरु-कोइलख.htm",
+      "sha256": "95ef0e42c88b49e63c219969e66bd420df3046e02ede5449c8269129b4e81531",
+      "bytes": 34474
+    },
+    {
+      "path": "research/2024/405/शम्भु-बादलक-कविता-जिनगीक-रोशनी.htm",
+      "sha256": "6cbcc359a82f368dbd99c9303b40e4f656a49aec5fa433fbdc76c00bce2c360c",
+      "bytes": 13089
+    },
+    {
+      "path": "research/2024/405/समृद्धि-दिशि-बढ़ैत-बाल-साहित्यमे-राजापोता-बलगरक-मजगूत-हस्तक्षेप.htm",
+      "sha256": "82ab7f5a960c36b99fc18d3f181dc934247da6145bc6f4096483eea0e106500e",
+      "bytes": 21026
+    },
+    {
+      "path": "research/2024/405/सारस्वत-परिचायिका-कोइलख.htm",
+      "sha256": "fde7d2c389a32beec7918b2ebcb53f245799db1fd3d8430ab5bf0fff87fe379e",
+      "bytes": 23651
+    },
+    {
+      "path": "research/2024/405/स्थानवर्णना-नगरवर्णना-ग्रामवर्णना.htm",
+      "sha256": "2f6e2a799211328c3c73a66d1d9617f5a890bf50982261622aee01e72ada814a",
+      "bytes": 35906
+    },
+    {
+      "path": "research/2024/405/हम-हितनाथ-झाकेँ-कोना-चिन्हलियनि.htm",
+      "sha256": "e96208d315190bbc65c32a31cdde5e9d1bfef85da318eb87a5fd79d4baf83dec",
+      "bytes": 19843
+    },
+    {
+      "path": "research/2024/405/हितनाथ-झा-समर्पित-पाठक-केर-साकांक्ष-प्रतिनिधि.htm",
+      "sha256": "c287892a8c09e3387500df528eac840159c24edacee75e42281b8e8232e6d1f0",
+      "bytes": 24914
+    },
+    {
+      "path": "research/2024/405/हितनाथ-झाक-जीवन-ओ-साहित्य.htm",
+      "sha256": "c70841b0bf7e96a7e9fc22f3594cdebc2c605dd2ac24eee88f2fbf5d476642fb",
+      "bytes": 32037
+    },
+    {
+      "path": "research/2024/406/आपातकालीन-चिकित्सा-आ-इंटेंसिव-केयर-में-आर्टिफिशियल-इंटेलिज-badef9d125.htm",
+      "sha256": "635e4f832b0e8a4013069b1e2a9979e7792584e57d1213081244062e860656d5",
+      "bytes": 27052
+    },
+    {
+      "path": "research/2024/406/मैथिली-प्रबंध-काव्य-हरवहाक-बेटी-मे-फजलुर-रहमान-हाशमीक-दृष्टि.htm",
+      "sha256": "17b81bba74cb1010dd16857453fd94844c0c0bed6089db71020d50599a053095",
+      "bytes": 30782
+    },
+    {
+      "path": "research/2024/408/मिथिला-विकास-परिषद-किछु-सहेजल-संस्मरण.htm",
+      "sha256": "dc5c29155f018b78e199b37acd062fada9d1a6d5b6069780e125af506fee3209",
+      "bytes": 35566
+    },
+    {
+      "path": "research/2025/409/विद्याव्यसनी-कर्मयोगी-समाजसेवी-उपेन्द्र-नाथ-झा-व्यास-16-जुला-1af71b412b.htm",
+      "sha256": "4f70908ae63e9e18b498559d771d0c4d4cac5051cf94c1a50dd4e9c08d3160fa",
+      "bytes": 33301
+    },
+    {
+      "path": "research/2025/410/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-२.htm",
+      "sha256": "b8b8ddd771d6bafa2aa378996e2c6d9a89fad430e928051201982055c347695b",
+      "bytes": 23542
+    },
+    {
+      "path": "research/2025/411/मैथिली-मानकीकरण-महाकुंभ.htm",
+      "sha256": "9f90e1f4a49fa28d194ce1fe6767b13cc92b548afaead0420a585784d610bf51",
+      "bytes": 18153
+    },
+    {
+      "path": "research/2025/411/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-३.htm",
+      "sha256": "fbbf6e4936cfd32ce0f099140e46d87a1f4cbdf47e341b489897f8f8479c2bad",
+      "bytes": 33874
+    },
+    {
+      "path": "research/2025/412/महाकवि-चंदा-झा-बनाम-भाषाविद-ग्रियर्सन-मिथिला-भाषा.htm",
+      "sha256": "b302d0f762e07761674740e6bad96f2b0dcf55db640b563a2db2b53e9004cef4",
+      "bytes": 15234
+    },
+    {
+      "path": "research/2025/412/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-४.htm",
+      "sha256": "c0e92092dca7da5c83125f85116775d1ffcca2f70dcd5c8a2eeec8d21a9e3ffb",
+      "bytes": 20777
+    },
+    {
+      "path": "research/2025/413/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-५.htm",
+      "sha256": "23d5335281d2d16259fecd4df5c884c2352af64f54973ecc4dc351712feeffa5",
+      "bytes": 20970
+    },
+    {
+      "path": "research/2025/414/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-६.htm",
+      "sha256": "7166c43d2e9ad647195ede687689613c013293df5aa607459b935227ed6268af",
+      "bytes": 26382
+    },
+    {
+      "path": "research/2025/415/बरहम-बाबा-गीत-बनाम-बराहमन-गीत.htm",
+      "sha256": "fcb4692d2e3ae08ba4956bb589bd09b667b94d2956ec00e20fe1c65c32fdda8f",
+      "bytes": 40010
+    },
+    {
+      "path": "research/2025/416/परमाणु-खनिज-अन्वेषण-एवं-अनुसंधान-निदेशालय-के-प्रदर्शनी-पृष्ठ-१८-२९.htm",
+      "sha256": "9dfb020c9dff6615912f4eda71bec6d75fdb697913139b6848e96c157574d038",
+      "bytes": 35786
+    },
+    {
+      "path": "research/2025/416/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-७.htm",
+      "sha256": "ea8cc9efecff4f05fe639c50b85f5f390bf4a265d15854157225ea2f7ec72198",
+      "bytes": 31604
+    },
+    {
+      "path": "research/2025/417/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-८.htm",
+      "sha256": "94c7ae4a9b62477b3a6103f617ce0e3bec8646951e3f472816d70f73b7bca4f4",
+      "bytes": 32858
+    },
+    {
+      "path": "research/2025/418/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान-९.htm",
+      "sha256": "60898166015215dd1dae003bd42b7f2fa2d24f870d9e11241a14ab09c8587f06",
+      "bytes": 20634
+    },
+    {
+      "path": "research/2025/419/water-rich-mithila-then-water-crisis-in-mithila-now.htm",
+      "sha256": "24d1992b5e517c4f07467edff8df2ac5bd3112dd18718165955a0e9637f159e2",
+      "bytes": 13887
+    },
+    {
+      "path": "research/2025/419/जलसंरक्षण-आ-नारायणजी-चौधरी.htm",
+      "sha256": "00081c58c1792a687fbe7eded627d4eaad15caf9fa3cf090f54e3349c2cdc6ac",
+      "bytes": 18771
+    },
+    {
+      "path": "research/2025/419/नारायण-चौधरी-आ-जलकर-संरक्षण-केर-सामाजिक-सरोकार.htm",
+      "sha256": "80c9625ce17d268eca4db300975b5622bd94052d5763700541121909a903a17f",
+      "bytes": 30591
+    },
+    {
+      "path": "research/2025/419/मिथिला-मे-पोखरिक-अतिक्रमण-आ-तालाब-बचाओ-अभियान.htm",
+      "sha256": "63f51713c42e3f3230f820bd3fff3390326e3de125e0cb37888d1c5607da12b9",
+      "bytes": 38113
+    },
+    {
+      "path": "research/2025/420/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान.htm",
+      "sha256": "d2e6067eeef1b4e40a699717ca05ef1c1672a969603200e5e39cc0d8cd6ab4b4",
+      "bytes": 15443
+    },
+    {
+      "path": "research/2025/421/आर्यावर्तके-कौटिल्यक-दृष्टि-ओ-कूटनीति.htm",
+      "sha256": "92b1203d11b0a287d2942a765cac50221aaff75bd4dfdbdbf0577da775b4ff9e",
+      "bytes": 26822
+    },
+    {
+      "path": "research/2025/421/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२.htm",
+      "sha256": "4fbd337f69c88da0e0c23bf47584cbb6b485e90b6d11a15b14a20e9dfe27a33c",
+      "bytes": 34748
+    },
+    {
+      "path": "research/2025/422/आचार्य-चाणक्य-खण्ड-काव्य-मादे-मैथिली-केँ-सेवैत-कविश्री-राजक-f44255c392.htm",
+      "sha256": "17a947ac3f6a9959a1696e973fdc6fb87b19b141d0700cef5ca22248094dd3e6",
+      "bytes": 37278
+    },
+    {
+      "path": "research/2025/422/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान--३.htm",
+      "sha256": "e0cc4a1533138244d7d5013903b34793e59e28368266d8887735af5ee5666fd2",
+      "bytes": 26624
+    },
+    {
+      "path": "research/2025/422/स्नातकोत्तर-चिकित्सा-प्रशिक्षण-pgme-मे-हेल्थ-इकोनॉमिक्स.htm",
+      "sha256": "2ac7638e78cbcb7b11132a054f627c9b690d8a8e6d194c077186d36d72ce30ff",
+      "bytes": 28588
+    },
+    {
+      "path": "research/2025/423/इसरो---स्पेसx-के-एक्सिओम-४-मिशन-के-तकनीकी-विश्लेषण.htm",
+      "sha256": "f1fe82e90226f0b2e31000593509946cae6fecbe6d40c4f2d7bc8e22039fcb84",
+      "bytes": 36918
+    },
+    {
+      "path": "research/2025/423/बिहार-मे-यूनिवर्सल-हेल्थ-कवरेज-uhc-नियमन-आ-कार्यान्वयन.htm",
+      "sha256": "56619d1e7f3cf056a2e3062cb0c8438392d02a831aa9635650ddfea8e445a114",
+      "bytes": 41795
+    },
+    {
+      "path": "research/2025/423/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान--४.htm",
+      "sha256": "e7b102df5cd38c2c40258e315d1d4a7e627917123fd33b08725d3db15f61be81",
+      "bytes": 22445
+    },
+    {
+      "path": "research/2025/424/अद्भुत-कथाशिल्पी-शिवशंकर-श्रीनिवास.htm",
+      "sha256": "152fdcd102814310b1ae8624d72f6a56314c8b8ee8abf27d2017bd8f8495f08e",
+      "bytes": 21102
+    },
+    {
+      "path": "research/2025/424/उठ-जाग-मोसाफिर-भोर-भयो-निसभेर-नीनमे-सूतल-समाजक-पहरू-कथाकार.htm",
+      "sha256": "1a1825b8a877c75418d44d0350149845ec3b876b6803f3f9ab62595207bfe5d3",
+      "bytes": 134087
+    },
+    {
+      "path": "research/2025/424/चयनित-कथाक-मादें-किछु-गप.htm",
+      "sha256": "ccd6cedc27385c063ec091aaafb5a33e00e55fa5ab522f5921a3fc1f49334b2b",
+      "bytes": 33764
+    },
+    {
+      "path": "research/2025/424/बेजोड़-छथि-श्री-शिवशंकर-श्रीनिवास.htm",
+      "sha256": "34b019925ba06e70ff9cfc5201f70496fbb8d5d370815dafed68d25746386458",
+      "bytes": 18623
+    },
+    {
+      "path": "research/2025/424/माटि-वस्तुए-सएह-छैक.htm",
+      "sha256": "515badcb2bc94a4c76e58b2a92b1fef0b0191333a1c8c0bceb409790c05b595a",
+      "bytes": 36793
+    },
+    {
+      "path": "research/2025/424/मिथिलाक-माटि-पानिक-कथाकार-शिवशंकर-श्रीनिवास.htm",
+      "sha256": "0df36b6035af724d9cea5f1ca0dbd86f5c72f5c5e19b24c91eb050b71ac54055",
+      "bytes": 39943
+    },
+    {
+      "path": "research/2025/424/या-तऽ-अपूर्ण-शीर्षक-या-तऽ-अपूर्ण-पोथी.htm",
+      "sha256": "29bff8871105c0d958abd145050f4627c2e8b1e5825a5940db7f0cf0ecffc4fe",
+      "bytes": 25655
+    },
+    {
+      "path": "research/2025/424/शिवशंकर-श्रीनिवास-जीक-गामक-लोक.htm",
+      "sha256": "9ecb696619eaf427cba3d2cc75a07e4de722086c80530bc6341eacba4bd7b8a2",
+      "bytes": 29414
+    },
+    {
+      "path": "research/2025/424/श्री-शिवशंकर-श्रीनिवासक-कथा-संसार-एकटा-मूल्यांकन.htm",
+      "sha256": "7c39c4d85e79a068c6f8727f783626df250e560086799b01908f1f0be0a7dde5",
+      "bytes": 17864
+    },
+    {
+      "path": "research/2025/424/सिनुरहार-एखनहुँ-प्रासंगिक.htm",
+      "sha256": "fd0defc156245b3700a08f5979aacb25f7bacf111f938f872bfe5b2ffe16fbee",
+      "bytes": 22562
+    },
+    {
+      "path": "research/2025/424/सिनुरहार-शिवशंकर-श्रीनिवासक-कथा.htm",
+      "sha256": "6897064a16bcd738aa86e1ab574da821e2802056fcc6dcbdbddcbfd16dcf4d00",
+      "bytes": 18980
+    },
+    {
+      "path": "research/2025/425/कवयित्रीक-आँजुरसॅं-खसैत-विचारक-बिन्दु.htm",
+      "sha256": "9a6263e6e280b05ae876637fe16dd9a89bad9eac5cdb9f1e864debcb331f4765",
+      "bytes": 23130
+    },
+    {
+      "path": "research/2025/425/भारत-मे-क्रिटिकल-केयर-कार्यबल-एनबीईएमएस-के-भूमिका-आ-भविष्य.htm",
+      "sha256": "144415bca891ee81ac0b83826e68e9babb14357afc38aec09a8b432fdb6955f5",
+      "bytes": 36575
+    },
+    {
+      "path": "research/2025/425/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-५.htm",
+      "sha256": "947ae0f59b539063243c7f9456e297c1c72b4ae659cd1a2298098f91d69d9bb1",
+      "bytes": 36995
+    },
+    {
+      "path": "research/2025/426/चाणक्य.htm",
+      "sha256": "6c39d7d8d617a2f430fb3dd4301d761a1ebefaad573c9d75ef763d0b7e014f43",
+      "bytes": 20839
+    },
+    {
+      "path": "research/2025/426/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-६.htm",
+      "sha256": "9cc6fc94fe0a8c6dfdd64ed9b5b00671894a9306b8d03f4cd6b8317b456d243e",
+      "bytes": 34075
+    },
+    {
+      "path": "research/2025/427/भावुकताक-आख्यान-पेपरवेट-सन-जिनगी.htm",
+      "sha256": "c2fb40cccc1238dbc9227914b0de6620de9a1428ce74efc90337983067e7c978",
+      "bytes": 24718
+    },
+    {
+      "path": "research/2025/427/मैथिली-मानक-सऽ-मैथिली-के-चुनौती.htm",
+      "sha256": "ab5fdc6455a07d97e281c5ff3c12ffd1f6ed4a7a99b723e9facc41a861fe2385",
+      "bytes": 14002
+    },
+    {
+      "path": "research/2025/427/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-७.htm",
+      "sha256": "ceae5e11c3fb8a467d9f58cd9ea763c22412005d5d991565233ed7861242fd95",
+      "bytes": 58598
+    },
+    {
+      "path": "research/2025/428/pandit-with-macbook-and-manuscripts.htm",
+      "sha256": "535c7d5efbc5f6f71360d7f2541bdcb1fe3e5c05e5b1fb4eaa318b0cd3ec383e",
+      "bytes": 17121
+    },
+    {
+      "path": "research/2025/428/अगस्त्य-संहिता--तीस-बर्खक-प्रतीक्षा.htm",
+      "sha256": "b1fe069b91a5c218eadbbcd12ae82b8ab359c77a4bc5d8042ddf96e876b807db",
+      "bytes": 13053
+    },
+    {
+      "path": "research/2025/428/कान्तासम्मिततयोपदेशयुजे.htm",
+      "sha256": "f4e9df2aea06fcee8efca42242b678cd94fba3f86177189524e5dda4b4b126e2",
+      "bytes": 26155
+    },
+    {
+      "path": "research/2025/428/नेपथ्य-मे-रहनिहार-मिथिलाक-एकटा-अदम्य-सेवक-ओ-प्रहरी-पंडित-भवनाथ-झा.htm",
+      "sha256": "e0df9c98e093359d926721efa7928bb70d49ecc6f68ae1d07f6143fdfa567467",
+      "bytes": 23184
+    },
+    {
+      "path": "research/2025/428/पं-भवनाथ-झाक-पाण्डुलिपिसँ-संपादित-पोथीक-अद्यतन-सूचना.htm",
+      "sha256": "dee721ff13a52cb34fdd13c74b3f8c53fb27bf1dd96f89dfc7a2eacfff5706d9",
+      "bytes": 57279
+    },
+    {
+      "path": "research/2025/428/पं-भवनाथ-झाक-शोध-दृष्टि-पृष्ठ-१७४-१८२.htm",
+      "sha256": "e923b7cb68dfc445aa24a09f67d3a0be85cc577381d333188c198c86b1fb2f50",
+      "bytes": 181721
+    },
+    {
+      "path": "research/2025/428/पं-भवनाथ-झाक-शोध-दृष्टि.htm",
+      "sha256": "2d7de4c4fed90bfe31b8a9930b18538c859bedcdfbe4cdffdd89d2456b36cc53",
+      "bytes": 36054
+    },
+    {
+      "path": "research/2025/428/पंडित-भवनाथ-झा-मिथिलाक-जीवित-मानव-धरोहर.htm",
+      "sha256": "c99b19963401ed076295478bde1c589329bb9b0ba8c26e46d691667ff68756f5",
+      "bytes": 40518
+    },
+    {
+      "path": "research/2025/428/बीहनि-कथाक-शास्त्रीय-पक्षक-निर्धारक--श्री-भवनाथ-झा.htm",
+      "sha256": "9e4c6e43bf30f03235dbdd473ce7ad20e6d70871dfb016f63d80898ea88432c4",
+      "bytes": 20387
+    },
+    {
+      "path": "research/2025/428/भारतीय-ज्ञान-परंपरामे-भवनाथ-झाजीक-महत्व.htm",
+      "sha256": "eeb7d1d22c4ce18a8302281f9154f3046ea6dfe09c308babf2074329d66cb443",
+      "bytes": 20688
+    },
+    {
+      "path": "research/2025/428/संग्रहणीय-व्यक्तित्व-पं-भवनाथ-झा.htm",
+      "sha256": "cc5f2344eceacd34270658991d24bd356c2a0e0af57a5fe28a50f7a7ea25ae8c",
+      "bytes": 12758
+    },
+    {
+      "path": "research/2025/428/सरलताक-आवरण-मे-निहित-विद्याक-विराट-रूप.htm",
+      "sha256": "36fc2b0f7a1d0b160b3c146195b2eb9d642c4fb7ca9baa13d6549a523cd4b4dc",
+      "bytes": 18574
+    },
+    {
+      "path": "research/2025/428/हितनाथ-झा.htm",
+      "sha256": "81b097842e809cc70019060933d8addf9594ef36712d5dde4332681a2e046c54",
+      "bytes": 27469
+    },
+    {
+      "path": "research/2025/429/परमात्मा-के-वास-कतए-एक-वैज्ञानिक-दृष्टिकोण.htm",
+      "sha256": "31dd40ac091b43ee7923fca005f08be79cf54d3817c9dda427c2d0011b385abc",
+      "bytes": 46662
+    },
+    {
+      "path": "research/2025/429/माटिक-सुवास.htm",
+      "sha256": "8077b4ce8d3420328fab1300a556bc1f5aa925b43c0f5664118abe6e41ea4703",
+      "bytes": 15192
+    },
+    {
+      "path": "research/2025/429/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--16.htm",
+      "sha256": "0a2b5c33190f9cf77a3fe974821c16f43d1f804d922b3b773e83c7ddcbdc75be",
+      "bytes": 22506
+    },
+    {
+      "path": "research/2025/429/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-08.htm",
+      "sha256": "9f18463f2143659d34168a787e6fb53162917f641e948680e086eb6a3b3c9710",
+      "bytes": 27652
+    },
+    {
+      "path": "research/2025/430/श्राद्ध-कर्म-के-लौकिक-व-अलौकिक-महत्त्व.htm",
+      "sha256": "6fd96ede6b1b5802ba166c3b175e9d1f858554188091ba305fd4f47f84445f2a",
+      "bytes": 43994
+    },
+    {
+      "path": "research/2025/431/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--18.htm",
+      "sha256": "b7d837b146f10cc70a6cb0bc0dcb2fddf927baafa5c3b4645d7b2e226acb7a0d",
+      "bytes": 23949
+    },
+    {
+      "path": "research/2025/431/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-10.htm",
+      "sha256": "15221c8b148d29dbf85386a414cbde56bfacc244f48f98a367c8d6544cd1e03c",
+      "bytes": 45070
+    },
+    {
+      "path": "research/2025/432/चर्चित-गाम-नौआबाखर.htm",
+      "sha256": "a11ff95b57e1893407142d97a2b6bf8056bae8be9642b558d2f12db5108c6739",
+      "bytes": 30178
+    },
+    {
+      "path": "research/2025/432/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--19.htm",
+      "sha256": "36655f0717ce4d6b5b78781d2a551634853e3825936de1dd430e15980e860160",
+      "bytes": 28309
+    },
+    {
+      "path": "research/2025/432/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-11.htm",
+      "sha256": "23721263e8e6a82ed1944bc586e2bdf41dbe56cfbf9f97d94d12c3466af1c1e4",
+      "bytes": 39726
+    },
+    {
+      "path": "research/2026/433/जोशीमठ-में-भू-धसान-आ-ओकर-मानवीय-पक्ष.htm",
+      "sha256": "5e979b1f666e3459587daf18b96f92ea9a23506ec33008e7b7aa12980e5a3a31",
+      "bytes": 32927
+    },
+    {
+      "path": "research/2026/433/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२०.htm",
+      "sha256": "bf7f35533396cf203d7218206b6ff51f71da3104d7cbd3e491242fe5dae3d9a6",
+      "bytes": 17733
+    },
+    {
+      "path": "research/2026/433/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१२.htm",
+      "sha256": "afeaa203294f91454c3e6795a5719eaadf53f40ee0c5610e4f4e50d3e55fa0b3",
+      "bytes": 60388
+    },
+    {
+      "path": "research/2026/434/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२१.htm",
+      "sha256": "1cbb01ca490a6fdcbd2dbeda3fdedfb72104555ebfeb76ef773b8d17da84ec7c",
+      "bytes": 25682
+    },
+    {
+      "path": "research/2026/434/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१३.htm",
+      "sha256": "09705c3b4645fbedc6bae59e790fe6ddf85d2348ed707d2b4f774ecb911fc2b8",
+      "bytes": 43222
+    },
+    {
+      "path": "research/2026/435/चिकित्सा-शिक्षा-एवं-सेवाक-नव-क्षितिज-nbems-द्वारा-ai-in-medical-education-पाठ्-0b3d70634d.htm",
+      "sha256": "24f79ea6f65138ac44972e5c9a09c39b8d2b83eff8c0e1576fd51f82f55a0ebd",
+      "bytes": 34956
+    },
+    {
+      "path": "research/2026/435/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२२.htm",
+      "sha256": "c7bf79bd2a3c995d34cfdcbe3373dd1f700631bd67d0f58ef9206b348549a2bf",
+      "bytes": 34168
+    },
+    {
+      "path": "research/2026/435/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१४.htm",
+      "sha256": "c0f8a9b25f5f1f67d7c4b9ebea1a171e9c3fab59a396b76ed743009813d97140",
+      "bytes": 47257
+    },
+    {
+      "path": "research/2026/436/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२३.htm",
+      "sha256": "0117456140f6c84a38cf533d2fe8aa451b376d2c43b73c57591af6c824a619dc",
+      "bytes": 18566
+    },
+    {
+      "path": "research/2026/436/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१५.htm",
+      "sha256": "32767bed93565ee066c5c65b57c5a8a45ac0e6759fb80b709799aab6e6056e07",
+      "bytes": 29292
+    },
+    {
+      "path": "research/2026/437/किछु-लीखि-देलासँ-किछुओ-लीखि-देलासँ-गजल-नहि-होइत-छै.htm",
+      "sha256": "0269798a8fb9b0e0b1cdafd222c275ddbb71721eff5aa57a9f89db5e480a9cc9",
+      "bytes": 15565
+    },
+    {
+      "path": "research/2026/437/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२४.htm",
+      "sha256": "e77bae65300545cd7d8445def289ded8c309942976134226ed1a4503810b72d0",
+      "bytes": 35543
+    },
+    {
+      "path": "research/2026/437/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१६.htm",
+      "sha256": "a86359cc9b7ea5ec64434fe4b51a3f666aa8327370b85b9fb7de8644dfa64fa7",
+      "bytes": 20059
+    },
+    {
+      "path": "research/2026/438/a-parallel-history-of-mithila-maithili-literature.htm",
+      "sha256": "5c3af9b553fa417ccd7729d34e03c33fd80ecee7d3cd794341d8469ef6c39266",
+      "bytes": 915903
+    },
+    {
+      "path": "research/2026/438/ashikshak-shikar-kevat-samaj.htm",
+      "sha256": "e51e02b9104e940c60e8f64d3bd1897a2445dac7fad5db8974deabe9639e55ad",
+      "bytes": 21284
+    },
+    {
+      "path": "research/2026/438/अशिक्षाक-शिकार-केवट-समाज-शोध-आलेख-पृष्ठ-३२-३६.htm",
+      "sha256": "86e0ca13558a9e510d47a024d6ecba6af2e33895e48f8c46f09ab55c80c90516",
+      "bytes": 118968
+    },
+    {
+      "path": "research/2026/438/मैथिली-साहित्यमे-उपेन्द्र-नाथ-झा-व्यास-एवं-हुनक-परिवारक-योगदान--२५.htm",
+      "sha256": "eec16c6f39c24fc16f30029ff6f9a1515716e50139975fbffddd27c5dbab2503",
+      "bytes": 20241
+    },
+    {
+      "path": "research/2026/438/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१७.htm",
+      "sha256": "3b055e71dbb4a99da8cab53e3bb2ee786e62653d5afac6a9a193f475501a3172",
+      "bytes": 28565
+    },
+    {
+      "path": "research/2026/438/संरचनात्मक-अस्थिरता-आ-अर्थक-लीला-रमेशक-मैथिली-कथा-संग्रह-कथ-3c59cedb5d.htm",
+      "sha256": "3cf5126269c1d7f33ab38a9ff334f76cca703ff3ce8b1fd711cf9bce2de31245",
+      "bytes": 36864
+    },
+    {
+      "path": "research/2026/439/a-parallel-history-of-mithila-maithili-literature-part-1-100.htm",
+      "sha256": "6a8e903448b4a7a45dfe5769e2ac76498b090b1c194fd0b72d5678cb598c0bda",
+      "bytes": 267375
+    },
+    {
+      "path": "research/2026/439/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१८.htm",
+      "sha256": "1d2a645438ff3f06ad56bc635bdbfc92ddeeb9e1b9e881c5e029987c07ee5acc",
+      "bytes": 46483
+    },
+    {
+      "path": "research/2026/439/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-5ec35604d5.htm",
+      "sha256": "c8d1ea42bb4bc5042244674ec7f829fb34cdc0bf2ae24fe093a5b0cd5b1ba6a7",
+      "bytes": 27956
+    },
+    {
+      "path": "research/2026/439/सगर-राति-दीप-जरय-क-साहित्यिक-अवदान-नरहिया-गोष्ठीक-आलोकमे-एक-अध्ययन.htm",
+      "sha256": "972af3889ac29159c89b17a6427e7b02f97b96b584139e8690cf37b9c687ac65",
+      "bytes": 28307
+    },
+    {
+      "path": "research/2026/439/समकालीन-मैथिली-साहित्यक-लोकधर्मी-स्वर-राम-विलास-साहु.htm",
+      "sha256": "3026a899bd265dade0019784a89b623173f33687da9fbd70860e8a10f901dbde",
+      "bytes": 71256
+    },
+    {
+      "path": "research/2026/439/समय-विस्तारक-उन्माद-आ-संकोचक-विवेकक-बीच--एकटा-समग्र-मूल्यांकन.htm",
+      "sha256": "2451575d3393327563fe89a7a268904131ec087eff1a65ecb5e8f9a0fae7efae",
+      "bytes": 45728
+    },
+    {
+      "path": "research/2026/440/a-parallel-history-of-mithila-maithili-literature-tome-i-iv-volumes--1-100.htm",
+      "sha256": "23504e4f71c5ee56315c62c74d9b80f5b4c3b5bd2fbbddefc9f05cd7510e4ecf",
+      "bytes": 140617
+    },
+    {
+      "path": "research/2026/440/पयस्विनी-लोकचेतना-आ-संवादधर्मिताक-समेकित-अभिव्यक्ति-पृष्ठ--२४-२८.htm",
+      "sha256": "c76d759426b91ee04257190ec2865eec453f4ee024a6feae0dcf127945ab23be",
+      "bytes": 43086
+    },
+    {
+      "path": "research/2026/440/बदलैत-जीवन-कथा-संग्रहक-आलोकमे-सामाजिक-परिवर्तन-आ-मानवीय-चेत-7712f17e7f.htm",
+      "sha256": "d3bb08f04ccbc3f69f0a621dac24c291b97f50287a8ef3ad05211e8934a168eb",
+      "bytes": 74171
+    },
+    {
+      "path": "research/2026/440/मैथिली-लेल-दलित-साहित्य-समीक्षाशास्त्र.htm",
+      "sha256": "b4c9a0b659347b6ed8dc751bff4e0dae0e491d2a1d434e529f396f52cb0493b1",
+      "bytes": 44106
+    },
+    {
+      "path": "research/2026/440/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१९-पृष्ठ--८-१६.htm",
+      "sha256": "eff2675dc15372a0e4b7cc7a5561ffd879779417a3d181e926316c446d3d6017",
+      "bytes": 44215
+    },
+    {
+      "path": "research/2026/440/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-0171d54d1e.htm",
+      "sha256": "a9d0891b41278d32a17436ab4be2b1d28394e3b51df4219bdcb76308605baf9f",
+      "bytes": 22562
+    },
+    {
+      "path": "research/2026/441/a-parallel-history-of-mithila-maithili-literature-tome-i-iv-volumes--1-100.htm",
+      "sha256": "0deaa91b680cfb31ba2eaf6c584994827cef2658450739a874fb8bc9349b1d81",
+      "bytes": 13066
+    },
+    {
+      "path": "research/2026/441/इच्छा-मृत्यु-स्वतंत्र-भारतक-पहिल-वैध-उदाहरण-संशोधित-पृष्ठ-१६७-१६९.htm",
+      "sha256": "4469aa54b1b6eecbd170d2afc8bba545c08be7470b2d32a858a39df0a73c551a",
+      "bytes": 18574
+    },
+    {
+      "path": "research/2026/441/महाकवि-विद्यापति-अनुसंधान-पृष्ठ-१७०-१७२.htm",
+      "sha256": "dd1630a0bb24c15d85408499a286f4f08dfe04cb876278f82a51f77707dd8d45",
+      "bytes": 17045
+    },
+    {
+      "path": "research/2026/441/महाकवि-विद्यापति-अनुसंधान.htm",
+      "sha256": "67a0580c64b6423f2e0d0f2458fafeefe2102fea02cd197eb61397e2f0084f2c",
+      "bytes": 17381
+    },
+    {
+      "path": "research/2026/441/मिथिला-के-विकास-मे-सहकारिता-के-मॉडल.htm",
+      "sha256": "c3f4570c9defe247157b4913179da793303c0bed44116e08bb7335d485dfc009",
+      "bytes": 39340
+    },
+    {
+      "path": "research/2026/441/मैथिली-लेल-दलित-साहित्य-समीक्षाशास्त्र-२.htm",
+      "sha256": "857d2e475775ec14cd0d4c73d588e48d03303c4d450b8e7256a698ad1dddc166",
+      "bytes": 153265
+    },
+    {
+      "path": "research/2026/442/a-parallel-history-of-mithila-maithili-literature-tome-i-iv-volumes--1-100.htm",
+      "sha256": "e2db4f9d842cb7d0ced865b95216904ec3a82642fdca325131c68ce3d6292efa",
+      "bytes": 22581
+    },
+    {
+      "path": "research/2026/442/अभिनव-पद्यविधा-इतिहास-काव्य-पृष्ठ-३१-३६.htm",
+      "sha256": "2dd5c65b634192ab8312d7e81a22973c83a7e4b41f9749d832e186aab72e7158",
+      "bytes": 27299
+    },
+    {
+      "path": "research/2026/442/गोपाल-झा-अभिषेक-क-आउ-स्वप्न-साझी-करी-साहित्यिक-अनुशीलन.htm",
+      "sha256": "0279fff72d4b086d527bc12cd09ca6ccba258dac44e0b0a6314c4eb9019433bf",
+      "bytes": 44269
+    },
+    {
+      "path": "research/2026/442/डिजिटल-दुनियाँ-मे-सायबर-हाइजिन.htm",
+      "sha256": "a9529f14507e7a8c467fa95a1b4d01211896d10577e8c8fc8b1990229bb528c0",
+      "bytes": 36421
+    },
+    {
+      "path": "research/2026/442/दीयरि-एक-समग्र-साहित्यिक-मूल्यांकन-रा-ना-सुधाकरक-मैथिली-कथा-e3e191b256.htm",
+      "sha256": "c2d3ab6b33907f3e9820139e4bc48bfdc867bcae28e170b6444b943197c673e6",
+      "bytes": 76205
+    },
+    {
+      "path": "research/2026/442/मैथिली-लेल-एकटा-नारी-केन्द्रित-समीक्षाशास्त्र-क्वीर-फेमिनि-3c77e53545.htm",
+      "sha256": "e8abe91ca8d6a012369ba9aaeef151180b221b91f13f7224722a60bda54c7142",
+      "bytes": 49151
+    },
+    {
+      "path": "research/2026/442/मैथिली-साहित्यमे-उपन्यासक-महत्व.htm",
+      "sha256": "9f9cf9fe3bbbd35cb7427c1452d134b77d455fa4ead399985631e980fc779a91",
+      "bytes": 35469
+    },
+    {
+      "path": "research/2026/442/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२१.htm",
+      "sha256": "2cafba800babe99ccb067540b4522b89ee2b7e2cf94654812bfdff3b0296f323",
+      "bytes": 38941
+    },
+    {
+      "path": "research/2026/443/अभिनव-पद्यविधा-इतिहास-काव्य-पृष्ठ-३५-४१.htm",
+      "sha256": "5e722a83e400e48e7c107fbe611fd1970817f2e42c68c9008f0287bbcda84a83",
+      "bytes": 29698
+    },
+    {
+      "path": "research/2026/443/अभिनव-पद्यविधा-इतिहास-काव्य.htm",
+      "sha256": "5f629bac22a7c98bdce2b321b1950459c2c1674d21ff1fac751fdcd7bf3c1cc4",
+      "bytes": 34806
+    },
+    {
+      "path": "research/2026/443/नैका-बनिजारा-उपन्-यासक-आलोचनात्-मक-अध्-ययन-पृष्ठ-७१-७६.htm",
+      "sha256": "3f6c71ab3bb8f5881fe8b9b5493b794b4faa7b0287d14deb36401a3483f0c7c6",
+      "bytes": 29145
+    },
+    {
+      "path": "research/2026/443/नैका-बनिजारा-उपन्-यासक-आलोचनात्-मक-अध्-ययन.htm",
+      "sha256": "78acbaa774cc6238bdad96f1c978612b32f4f7d308f1ea19802d38e0a969742f",
+      "bytes": 44115
+    },
+    {
+      "path": "research/2026/443/परमेश्वर-कापड़ि--पद्य-रचनाक-आलोचनात्मक-समीक्षा-पृष्ठ-१२७-१३९.htm",
+      "sha256": "4d04635a5d5a64a673a79865872084a77cda114b0b8a1fd408513005727f592c",
+      "bytes": 28003
+    },
+    {
+      "path": "research/2026/443/परमेश्वर-कापड़ि--पद्य-रचनाक-आलोचनात्मक-समीक्षा.htm",
+      "sha256": "2121cfc579d53890cdad436b8f702abc5f34cfc3f68d22faa2001211b933c4c0",
+      "bytes": 55626
+    },
+    {
+      "path": "research/2026/443/परमेश्वर-कापड़िक-कथा-खिस्साकआलोचनात्मक-समीक्षा.htm",
+      "sha256": "3cd89f4830173fe7e8defff05be92302c9641c6aa381858d94c063f771b22f54",
+      "bytes": 52224
+    },
+    {
+      "path": "research/2026/443/परमेश्वर-कापड़िक-रचना-संसार--विस्तृत-मैथिली-साहित्यिक-समीक्षा.htm",
+      "sha256": "658f8cb74c520d4e5b22b0a3b64d7d536bec6bc33589ed27e3e63447aa1c3c32",
+      "bytes": 58050
+    },
+    {
+      "path": "research/2026/443/पोथी-समीक्षा-आचार्य-चाणक्य-मैथिली-खंडकाव्य.htm",
+      "sha256": "6b886fb64932ba0057bfe8d020832650e22b8e52bcaa1b55b9ebcacf1fe39471",
+      "bytes": 18350
+    },
+    {
+      "path": "research/2026/443/मैथिली-नाट्यमंच-नाटक-लेल-एकटा-समीक्षा-सिद्धान्त-भाग-१-सन्दर-1f30574894.htm",
+      "sha256": "172dfb580b71818f0f40973a06738cc9443a188550724961a39276af11e848ed",
+      "bytes": 19252
+    },
+    {
+      "path": "research/2026/443/मैथिली-नाट्यमंच-नाटक-लेल-एकटा-समीक्षा-सिद्धान्त-भाग-२-सन्दर-fbc16ce862.htm",
+      "sha256": "8bb8ac27e347034f95fc03f108aa6529f9983977e84c2a50ec04b819ca73f129",
+      "bytes": 68781
+    },
+    {
+      "path": "research/2026/443/मैथिली-नाट्यमंच-नाटक-लेल-एकटा-समीक्षा-सिद्धान्त-भाग-३-कुणाल-6a22c2f093.htm",
+      "sha256": "2f0d55a88f6d2151b8e4125f7a970cbb30d2e627d19950c44cb3ece931e1431a",
+      "bytes": 139318
+    },
+    {
+      "path": "research/2026/443/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२२.htm",
+      "sha256": "fbe186bf265661ae326ad0d8dece12746f0a833d0556601d9689e459935d84d2",
+      "bytes": 34016
+    },
+    {
+      "path": "research/2026/443/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-3eff1708ab.htm",
+      "sha256": "7b4edb2c2a56da8650b2a0aba7e6ebb640fbc37b9b4e8200c88c53fe195afa88",
+      "bytes": 26884
+    },
+    {
+      "path": "research/2026/444/मैथिली-नाट्यमंच-नाटक-लेल-एकटा-समीक्षा-सिद्धान्त-भाग-४-सन्दर-3881d7a12e.htm",
+      "sha256": "e4c3967f20fdd0d1f3b5a0a8b385925017652ebc2283463a7037eee34098849c",
+      "bytes": 46477
+    },
+    {
+      "path": "research/2026/444/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२३.htm",
+      "sha256": "e6022307ce342fd4fd529ffa929b1310631eae4c16f66f1bee705d27c30753ed",
+      "bytes": 41498
+    },
+    {
+      "path": "research/2026/444/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-7a7516c0f2.htm",
+      "sha256": "1a7255cbb87543688892df6f9314c9e8fa4ca328639aaa6c96d2a59fc84bccb3",
+      "bytes": 24508
+    },
+    {
+      "path": "research/2026/444/समानान्तर-नाच-नाट्य-परम्परा.htm",
+      "sha256": "0bcc01c30b80d5ad5898fd888576c2b3dd9d8e7eda2dbc168913d2d16ecb9b2b",
+      "bytes": 56375
+    },
+    {
+      "path": "research/2026/445/पोथी-समीक्षा-लखिमा-की-आंखें-फिल्म-विद्यापति-१९३७-समीक्षा.htm",
+      "sha256": "878ed293c3c203aa820e194170d04461e82056521ae0d03490a4565cc78a70d1",
+      "bytes": 22215
+    },
+    {
+      "path": "research/2026/445/मैथिली-नाट्यमंच-नाटक-लेल-एकटा-समीक्षा-सिद्धान्त-भाग-५-कुणाल-5aa06902a7.htm",
+      "sha256": "7cf8415505fe7ccb3d57812d0cbd62735af5069cf14a19803352be390f60b692",
+      "bytes": 48038
+    },
+    {
+      "path": "research/2026/445/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२४.htm",
+      "sha256": "b492406031d8396770706f1de074467d3aa7673a867bb3dd61aae708799566a7",
+      "bytes": 54488
+    },
+    {
+      "path": "research/2026/445/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-9d88465938.htm",
+      "sha256": "a0524faa3416962d4d8cc5f8db51c21b734e8063cd0cd88181a580e4f868caee",
+      "bytes": 41672
+    },
+    {
+      "path": "research/2026/445/श्री-जगदीश-प्रसाद-मंडल-क-साहित्यके-अनुदीत-प्रसार-एक-सिंहावलोकन.htm",
+      "sha256": "b55d4ef51bc26499af27f9b230559d4e2ac45bac94bdbef83eb99a23dff9723d",
+      "bytes": 24014
+    },
+    {
+      "path": "research/2026/446/पतीत-पोथी-चर्चा.htm",
+      "sha256": "c836cf659a937357d8c47fa2794c1598992cdf9253db2f44502ada09387c2c49",
+      "bytes": 27343
+    },
+    {
+      "path": "research/2026/446/बहुजन-कवि-आ-नाटककार-राम-श्रेष्ठ-दीवाना-एक-संक्षिप्त-बायोग्राफी.htm",
+      "sha256": "3902eb03f9662aefc6557c32af41f151789ecfa49b358af6e0e54c9ae64b538d",
+      "bytes": 51071
+    },
+    {
+      "path": "research/2026/446/मैथिली-नाट्यमंच-नाटक-लेल-एकटा-समीक्षा-सिद्धान्त-भाग-६-कुणाल-4aebeda72e.htm",
+      "sha256": "71c438fb981e597d9e20dbdefc1c55c55be9089e3b7784fff695c01aef2c9da4",
+      "bytes": 46878
+    },
+    {
+      "path": "research/2026/446/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२५.htm",
+      "sha256": "19c877800eaff0b98eeb32745ef42598e69bb1da60e6cda9dcfd762611cbf86b",
+      "bytes": 22792
+    },
+    {
+      "path": "research/2026/446/मैथिली-साहित्यमे-बलेन्द्र-नारायण-ठाकुर-विप्लव-एवं-हुनक-परि-9a11717a58.htm",
+      "sha256": "66df1c9ad902b616324d582bf8f823782e4ad2c9d7625ba78aeb60de7353f8ec",
+      "bytes": 351519
+    },
+    {
+      "path": "research/2026/446/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-1122725a7f.htm",
+      "sha256": "ccba2286f72118fefe52a599265fefda812115f4526bd81fe58d998962b62f97",
+      "bytes": 37368
+    },
+    {
+      "path": "research/2026/446/लोकतंत्रक-माने-आ-मतलब.htm",
+      "sha256": "2bf402d37b5834ee53ac608b2d7cddf9e8a4907484443df942c5297435e5d09a",
+      "bytes": 49664
+    },
+    {
+      "path": "research/2026/447/एकैसम-शताब्दीक-पहिल-औपन्यासिक-कृति---पथिक-पिआसल-क-तात्विक-विश्लेषण.htm",
+      "sha256": "e21afc449471577bb4a100ae5c971917df93da4116ff63e9a18587c451ca43a4",
+      "bytes": 43798
+    },
+    {
+      "path": "research/2026/447/गङ्गेश-उपाध्याय-जीवन-तर्कशास्त्र-तत्त्वचिन्तामणि-आ-नव्य-न्-aaac41ad7a.htm",
+      "sha256": "d9bc3c49d20bcc76043e860e39b57e9f348daf26df6e8957e241f8c8e28bbe20",
+      "bytes": 467387
+    },
+    {
+      "path": "research/2026/447/गोहि-सभक-बीच-जलसमाधि-गजेन्द्र-ठाकुरक-मैथिली-कादम्बरी-खण्ड-०-a0259d7d5d.htm",
+      "sha256": "c748b9df728e72bf90e9005b5ebd328d9c494eae09be185fe1a3213005b600b8",
+      "bytes": 187372
+    },
+    {
+      "path": "research/2026/447/डॉ-अमरेन्द्रक-अंगिका-बाल-साहित्य---लोकस्मृतिसँ-आधुनिक-बाल-सृ-bfd90f8749.htm",
+      "sha256": "681cf358f45b56eecc3babef885985191b9aa6f5237ac4bf05efc570bc2928e0",
+      "bytes": 492223
+    },
+    {
+      "path": "research/2026/447/नाट्य-नवग्रह.htm",
+      "sha256": "35a2e058c5be631070f97ddd8e0dcb47451f6e863658c986ade2a7a2418ddc69",
+      "bytes": 129749
+    },
+    {
+      "path": "research/2026/447/प्राथमिक-शिक्षा-मे-अंगिका-बज्जिका-नीट-छात्र-आंदोलन--२०२६-मिथ-3c21a93345.htm",
+      "sha256": "6ab5e5e74a60f90f4a9ab101f4918a91fce0dfb5b132a013cc2f00000a1c59c8",
+      "bytes": 21095
+    },
+    {
+      "path": "research/2026/447/बज्जिका-गीत-संगीत-समेकित-द्विभाषिक-बहुआयामी-साहित्यिक-समीक-54c5fee255.htm",
+      "sha256": "d850496f9d0e1e09a7954bb84dbbd3f3e81a7f7563749601e8f623a0f108ae2b",
+      "bytes": 283380
+    },
+    {
+      "path": "research/2026/447/भामती-आत्मतत्त्वविवेक-न्यायकुसुमाञ्जलि-आ-तत्त्वचिन्तामणि-5cddacbaae.htm",
+      "sha256": "197cd40751e56af92ac626f4d200415c00e1592f63860e1015c79df41993983c",
+      "bytes": 427787
+    },
+    {
+      "path": "research/2026/447/भारतीय-दलित-साहित्य-मैथिली-अनुवाद-समीक्षा-आ-सौन्दर्यशास्त्र.htm",
+      "sha256": "a9d91a2c9c77f7790f164596c6275588a1fb98d089a803865981cf5eedbe0501",
+      "bytes": 744593
+    },
+    {
+      "path": "research/2026/447/मिथिलाक-पञ्जी-प्रबन्ध-वंश-विवाह-दूषण-सामाजिक-स्मृति-आ-आधुनि-491c917b54.htm",
+      "sha256": "e4cc8d2553141a02c27c8316f399cfb2a171b1c5b5f5e6ede7361bea2728b1ab",
+      "bytes": 238530
+    },
+    {
+      "path": "research/2026/447/मैथिली-नाट्यमंच-नाटक-लेल-एकटा-समीक्षा-सिद्धान्त-भाग-७-सन्दर-fa09be9201.htm",
+      "sha256": "6c82335db7960ecc572bd544011fbe5fb9d501fb1064a1dfbf852997ebe10ede",
+      "bytes": 43213
+    },
+    {
+      "path": "research/2026/447/मैथिली-बाल-उपन्यासक-समीक्षाशास्त्र.htm",
+      "sha256": "14fd7d6d2e0cf1eb75346eb5335775ab1fb32a7e887619ab90c857139a6d4802",
+      "bytes": 258988
+    },
+    {
+      "path": "research/2026/447/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२६.htm",
+      "sha256": "42532463d47df2497f4f795462034c4ce8a0adf3bae633fe93539b8b4f510be5",
+      "bytes": 29739
+    },
+    {
+      "path": "research/2026/447/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिव-6cd5db96e7.htm",
+      "sha256": "e0be5d3a79fca23a335d3baa7bac665bef55b74d4f647636ffb73c76d18ae04d",
+      "bytes": 34187
+    },
+    {
+      "path": "research/2026/447/मैथिलीक-एकटा-समानान्तर-व्याकरण-रचना-आ-भाषा-विज्ञान-ठेठी-अंग-05c2fbb4fe.htm",
+      "sha256": "bce73e8391fd537c4c2fe206f4d386658277a47f9c92fe8b57c28c9bf50c0178",
+      "bytes": 32825
+    },
+    {
+      "path": "research/2026/447/मैथिलीक-एकटा-समानान्तर-व्याकरण-रचना-आ-भाषा-विज्ञान-ठेठी-अंग-3f90ef14df.htm",
+      "sha256": "721326d58bd78927e2deb4c6a1d98a554d1d426510743553e464bee6ffcd9967",
+      "bytes": 323437
+    },
+    {
+      "path": "research/2026/447/समग्र-सिंहावलोकन-चतुर्भाणी-दामक-प्रहसनम्-हास्यार्णव-आगमडम-99d9c6ef37.htm",
+      "sha256": "0c3215e053396b002c8f27a3766a48249f3fef8610e147e016a08e5648f39447",
+      "bytes": 128029
+    },
+    {
+      "path": "research/2026/448/अखियासल-केन्द्रीय-मैथिली-बोली.htm",
+      "sha256": "724f3d3d2eae430208a545e0d5da95d38c8e683933c63999c8b438b6c95a563f",
+      "bytes": 213224
+    },
+    {
+      "path": "research/2026/448/अखियासल-ठेठी-अंगिका-मैथिली.htm",
+      "sha256": "6305f48a48e20f681ed5c00fa6ea1e3e3612bcfda1c30bbabafe8f3d46ff3964",
+      "bytes": 216274
+    },
+    {
+      "path": "research/2026/448/अखियासल-बज्जिका-मैथिली.htm",
+      "sha256": "62249cccac83609e7ddd64ceb09f4e283a74038bb2fad95279b8c596f6d9c996",
+      "bytes": 213948
+    },
+    {
+      "path": "research/2026/448/अनुसंधान-आ-संरक्षण-लेल-अपस्यांत-डॉ-रमानंद-झा-रमण.htm",
+      "sha256": "10f67f0b86f51741ff86e0bbcd85682c1a2098e97c06ebd124b4aecebbb2b0e9",
+      "bytes": 29624
+    },
+    {
+      "path": "research/2026/448/अनुसन्धान-प्रतिमान.htm",
+      "sha256": "977dd8d578895ca17b5a276b07ceacc53d2f0b6a794348bcf7c57098a1132817",
+      "bytes": 22632
+    },
+    {
+      "path": "research/2026/448/ओ-शब्द-जे-एखन-धरि-संग-अछि.htm",
+      "sha256": "3de276e6d665c595ff42b2d0a4add8d46262bc1db74a09007724a1e6f30637c2",
+      "bytes": 21273
+    },
+    {
+      "path": "research/2026/448/चेतना-समिति-क-द्रोणाचार्य-रमणजी.htm",
+      "sha256": "ad574b222833329a7287b3cfc7f105b6a8ea6bcc3c38dad875fc14731a090f87",
+      "bytes": 12246
+    },
+    {
+      "path": "research/2026/448/डा-रमानंद-झा-रमण-केर-महत्व.htm",
+      "sha256": "7da6d67a194de54c0571d8b404d0af4f5a8c74c4d5fa5ac9d742964562eae7a0",
+      "bytes": 27693
+    },
+    {
+      "path": "research/2026/448/डा-रमानन्द-झा-रमण-जीक-बीज-भाषण.htm",
+      "sha256": "21d3f23dfc904981431b1e07cef76daad76852508d9d08767dbb123a2935c69c",
+      "bytes": 38242
+    },
+    {
+      "path": "research/2026/448/डा-रमानन्द-झा-रमण-जीक-रचना-संसार.htm",
+      "sha256": "aa40f55e629f488b8797507065e443613902994105fd1b260981801534f26180",
+      "bytes": 13938
+    },
+    {
+      "path": "research/2026/448/डा-रमानन्द-झा-रमण-साहित्य-साधनाक-विविध-आयाम.htm",
+      "sha256": "02098310e6b9a72605aca10974e1279fcccf0017e9926fc65145e34a84538949",
+      "bytes": 40162
+    },
+    {
+      "path": "research/2026/448/नान्य-पन्था-विद्यते-अनयाय.htm",
+      "sha256": "eb0543bcccbab90ba48b6ad8e0d08e2a94711eb9fe62381d58c4d8e747240e7e",
+      "bytes": 44711
+    },
+    {
+      "path": "research/2026/448/पोथी-संग्रहकर्ता-इतिहासकार-होथि-से-जरूरी-नहि.htm",
+      "sha256": "857f7f4f3034f5b058f178b0f33b00ebf51c0f8cd13effe79bf1493f759f90da",
+      "bytes": 22211
+    },
+    {
+      "path": "research/2026/448/मैथिली-कथाक-वैविध्य-आ-गाम्भीर्य-केँ-रेखांकित-करबाक-सफल-प्रयास.htm",
+      "sha256": "05f16f277d05deaea57cfdcf4148e73d579b67a2ac80367d00fd9c559937854a",
+      "bytes": 45397
+    },
+    {
+      "path": "research/2026/448/मैथिली-साहित्यक-सूक्ष्मद्रष्टा-डा०-रमानन्द-झा.htm",
+      "sha256": "7bbc0e88a2761cca26f0cfebbed49e6b2b6dd5c70473affd6f194e800e442b3d",
+      "bytes": 35218
+    },
+    {
+      "path": "research/2026/448/रमानन्द-झा-रमण-मैथिली-साहित्य-आ-मिथिला-संस्कृति-केर-अनुपम-अभिलेखपाल.htm",
+      "sha256": "a59730b759467e1abb3397c7a469d3a3f95ec3dbfffe64e288aee57cacbcf764",
+      "bytes": 29018
+    },
+    {
+      "path": "research/2026/448/विद्वता-योगदान-आ-मैथिली-लेल-प्रयासक-परिणाम.htm",
+      "sha256": "00df463bde89a6e20e7993bf3e2400f965e6c725f41993d7aa17c793a2620a30",
+      "bytes": 28967
+    },
+    {
+      "path": "research/2026/448/विवर्त.htm",
+      "sha256": "264b3de958cfb45a0769a8f910f730fd8bcfbcc68b17e5efb3e4e62899541aa6",
+      "bytes": 49349
+    },
+    {
+      "path": "research/2026/448/विवर्त्त.htm",
+      "sha256": "afbbab0bdeb8ff6dd3a850ede1d7e28073b0938fb96f1c2f2f78d39d55097aa3",
+      "bytes": 21735
+    },
+    {
+      "path": "research/2026/448/सम-पर-बजैत-सुर.htm",
+      "sha256": "1fce82ffdb310cb805c416fd38a5c36224442eda2a30cf0bdda4e3f18cfe9905",
+      "bytes": 33386
+    },
+    {
+      "path": "research/2026/448/साक्षात्कार.htm",
+      "sha256": "a3eb0b7d7a47f67867b7eeb166dfd361f6206d0543ceff7e8312e0b524a67a94",
+      "bytes": 13150
+    },
+    {
+      "path": "research/2026/448/सुच्चा-संपादक-रमानन्द-झा-रमण.htm",
+      "sha256": "d9032423f9e7363c91da00dc29e209d795c5be6c038abf34f2d418597ad567d8",
+      "bytes": 42052
+    },
+    {
+      "path": "research/2026/448/हमर-संस्मरण-रमणजीक-संग.htm",
+      "sha256": "2a85e59c4dc60a05eb6b15f27d09d723f9e6ae5a144b19eef25e20ec59505d50",
+      "bytes": 19930
+    },
+    {
+      "path": "research/2026/448/हिआओल-केन्द्रीय-मैथिली-बोली.htm",
+      "sha256": "a446f09347f96992fe834c29ce9b785a11dc2d4c52f0367aead13297a56b206b",
+      "bytes": 195580
+    },
+    {
+      "path": "research/2026/448/हिआओल-ठेठी-अंगिका-मैथिली.htm",
+      "sha256": "74d5813ec5a73e191b612c4caca686d07b07cc39d54f83dfc844bdf8d989807e",
+      "bytes": 200471
+    },
+    {
+      "path": "research/2026/448/हिआओल-बज्जिका-मैथिली.htm",
+      "sha256": "d4d8fc0d6c7372de6e05182d13a414cfc7376a00d71a83e80d17b1489ec9c9fb",
+      "bytes": 196884
+    },
+    {
+      "path": "research/2026/448/२-१-रमानन्द-झा-रमण-विशेषांकक-संदर्भमे.htm",
+      "sha256": "743768a1e99e2d961e48c61e5160f6b7b05831f763eb06a03cef71dbd212746c",
+      "bytes": 89134
+    },
+    {
+      "path": "research/2026/448/२-२-रमानन्द-झा-रमण-केर-संक्षिप्त-परिचय.htm",
+      "sha256": "56bcb07391469274754e4879c2ffbe36fbeeaa37a9d5e01d2b8ba31b251fcf08",
+      "bytes": 19040
+    },
+    {
+      "path": "research/2026/448/२-२८-आचार्य-रामानंद-मंडल-डॉ-रमानंद-झा-रमण-व्यक्तित्व-आ-कृतित्व.htm",
+      "sha256": "22e538e28e7431fafd906cbee32b90d0a168f3c810dc8f1a8f055774d7126033",
+      "bytes": 18569
+    },
+    {
+      "path": "research/Videha-Scholar-Research-Book-Back-Cover.pdf",
+      "sha256": "c5fc8b803e6387da1b6ba7319087d30a983313102263ed9ca9691c9e8747ef19",
+      "bytes": 9438532
+    },
+    {
+      "path": "research/Videha-Scholar-Research-Book-Back-Cover.png",
+      "sha256": "007a13de31e8dd9d0581ef0da3425a14827f0d3803eade7f7dfa5c6d6fe641b8",
+      "bytes": 5788269
+    },
+    {
+      "path": "research/Videha-Scholar-Research-Book-Front-Cover.pdf",
+      "sha256": "79466b9989d40d2c463c6db3d2938f912e85595bffe8312656876c283117108b",
+      "bytes": 9127576
+    },
+    {
+      "path": "research/Videha-Scholar-Research-Book-Front-Cover.png",
+      "sha256": "e7e05c36550c798126d824ada664d01208fafae5102177a3dbed173f2a357a2b",
+      "bytes": 5716995
+    },
+    {
+      "path": "research/Videha-Scholar-Research-Book-with-Covers.docx",
+      "sha256": "bde086fc790b51bb02100a364cf9a91ad45d34332491909442cfb75b0871f355",
+      "bytes": 11761072
+    },
+    {
+      "path": "research/Videha-Scholar-Research-Book-with-Covers.pdf",
+      "sha256": "3fe4506f160d588edf63a68c932a4765e99627adeb058c6ac5d4e39aa74477e5",
+      "bytes": 14303936
+    },
+    {
+      "path": "research/Videha-Scholar-Research-Book.docx",
+      "sha256": "8a7b5cf2f77d475d2d1f0502b214905e7b545b7d8bfb2c22bfa833974da28e98",
+      "bytes": 199962
+    },
+    {
+      "path": "research/citation-data-authority.html",
+      "sha256": "348b7180bfb5b5a683620713938a4293a2fefee86b0c2d749edcc6d997e00e3a",
+      "bytes": 3848
+    },
+    {
+      "path": "research/citation-data-authority.json",
+      "sha256": "d7f83b4f3afd3837111a964195d0d79ec1b54a2da2e5b7260bca7d9e31deddff",
+      "bytes": 991
+    },
+    {
+      "path": "research/data/article-inventory.json",
+      "sha256": "e21d9fd02187afd1364505970dd8c92fcff33f54d71b64b292397269175757fc",
+      "bytes": 2056595
+    },
+    {
+      "path": "research/data/articles.json",
+      "sha256": "fdf8a9f2cb92e1e4757bdca75ea463b7fbbddd59d6ab288f19f9de8c5e74aad9",
+      "bytes": 1420944
+    },
+    {
+      "path": "research/data/candidate-summary.json",
+      "sha256": "0f4d04e2475a19a3c05778179bf676442c3648c12a99c94089fcdb8a6b40badc",
+      "bytes": 184764
+    },
+    {
+      "path": "research/data/explicit-research-review.json",
+      "sha256": "6b215fb534af10ec980536e77cd66497e1e37569b8cba723828ccaf1a2d9631b",
+      "bytes": 80672
+    },
+    {
+      "path": "research/data/extractor-diagnostics.json",
+      "sha256": "ea6e4814ed171be77447f1088be7f3e4160c70d8ee9b22ba773f8172161f02b1",
+      "bytes": 12027
+    },
+    {
+      "path": "research/data/sadeha-crossmap.json",
+      "sha256": "05f91314942e5271d0d8e3cdf9155a1e353614593ee6f3a2cdc6595ff7945554",
+      "bytes": 311470
+    },
+    {
+      "path": "research/data/sadeha-swapped-metadata-review.json",
+      "sha256": "c028fa0ef5c3256bfc9db220fda393cdef66b3c9ac1ec98d8b7a756aa3199fbb",
+      "bytes": 9766
+    },
+    {
+      "path": "research/data/section-candidates.json",
+      "sha256": "2c7540709db131133eb8eb5df922e088b6dc1fb88763ab8816e9547595bec963",
+      "bytes": 89613
+    },
+    {
+      "path": "research/data/top-level-section-candidates.json",
+      "sha256": "4edc030ad7c8c3b030b6cb5ba945851ad003ef1ab01d2da831f27cd3323622af",
+      "bytes": 159544
+    },
+    {
+      "path": "research/index.htm",
+      "sha256": "82f66ba396a36d7d8481352f9b615422371fdff6b68366a660597e83973ca78e",
+      "bytes": 726545
+    },
+    {
+      "path": "research/release-metadata.json",
+      "sha256": "041d0f681a0fb23b78fced378fb350f3f645ebbb90c67287d2a4361a51121996",
+      "bytes": 427
+    },
+    {
+      "path": "research/sitemap-official.xml",
+      "sha256": "acd8ee9b9140edf553852347d675d842f8ed16daf5b14075678c4a42ab57142e",
+      "bytes": 376016
+    },
+    {
+      "path": "research/sitemap.xml",
+      "sha256": "6462f90ec8c5e97d932a84c393c7158603a06fe957441c2ddb3d3b8fd6f4d2b4",
+      "bytes": 145752
+    },
+    {
+      "path": "research/videha-research-book-cover-art.png",
+      "sha256": "dd23b92cdf3bef7f07e2719614a74a80be84dfb2f5033214dbf0a99d8e7128d1",
+      "bytes": 3449001
+    },
+    {
+      "path": "research/videha-scholar-research-book.html",
+      "sha256": "4624162e84d6f6075c96a011d444817ced3370b90ddd9039a1d451d113a15aae",
+      "bytes": 1085763
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "f8cdb8cca98011e38784ddf65b94e6e8eca2bf815250f3827ed81f0457b86873",
+      "bytes": 85
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "a66f3b4d44b8cd7e195078d8ce5199528093d1571fbd0231cd28b48e5325ee7e",
+      "bytes": 400160
+    },
+    {
+      "path": "tei/current-issue.xml",
+      "sha256": "2bee3ba619f1b66deeb5653bcd557516305a89527b380254f2813f50de3fa32a",
+      "bytes": 7223
+    },
+    {
+      "path": "tei/videha-issue-449.xml",
+      "sha256": "2bee3ba619f1b66deeb5653bcd557516305a89527b380254f2813f50de3fa32a",
+      "bytes": 7223
+    },
+    {
+      "path": "videha-rss.xml",
+      "sha256": "f76e5fcbe951f8ba00fe6d022634e9986f38c10aa9bc164b6de280cfe43a53bb",
+      "bytes": 6330
+    }
+  ]
+}

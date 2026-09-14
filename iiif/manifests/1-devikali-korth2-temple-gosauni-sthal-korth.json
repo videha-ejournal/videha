@@ -1,0 +1,74 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://videha-ejournal.github.io/videha/iiif/manifests/1-devikali-korth2-temple-gosauni-sthal-korth.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "1 DeviKali Korth2 Temple Gosauni Sthal Korth"
+    ],
+    "mai": [
+      "1 DeviKali Korth2 Temple Gosauni Sthal Korth"
+    ]
+  },
+  "summary": {
+    "en": [
+      "Videha digital heritage image from the Mithila research archive."
+    ],
+    "mai": [
+      "विदेह मिथिला शोध-अभिलेखक डिजिटल धरोहर चित्र।"
+    ]
+  },
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Rights"
+      ]
+    },
+    "value": {
+      "en": [
+        "See source/item notice; no blanket licence asserted."
+      ]
+    }
+  },
+  "homepage": [
+    {
+      "id": "https://www.videha.co.in/1_DeviKali_Korth2_Temple_Gosauni_Sthal_Korth.jpg",
+      "type": "Text",
+      "label": {
+        "en": [
+          "Videha source"
+        ]
+      },
+      "format": "text/html"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://videha-ejournal.github.io/videha/iiif/manifests/1-devikali-korth2-temple-gosauni-sthal-korth.json/canvas/1",
+      "type": "Canvas",
+      "height": 242,
+      "width": 332,
+      "items": [
+        {
+          "id": "https://videha-ejournal.github.io/videha/iiif/manifests/1-devikali-korth2-temple-gosauni-sthal-korth.json/canvas/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://videha-ejournal.github.io/videha/iiif/manifests/1-devikali-korth2-temple-gosauni-sthal-korth.json/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://videha-ejournal.github.io/videha/1_DeviKali_Korth2_Temple_Gosauni_Sthal_Korth.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 242,
+                "width": 332
+              },
+              "target": "https://videha-ejournal.github.io/videha/iiif/manifests/1-devikali-korth2-temple-gosauni-sthal-korth.json/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

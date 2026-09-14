@@ -1,0 +1,74 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://videha-ejournal.github.io/videha/iiif/manifests/1-ashtbhujganesh-korth2-shivmandir-singhia-bisfi.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "1 AshtbhujGanesh Korth2 ShivMandir Singhia Bisfi"
+    ],
+    "mai": [
+      "1 AshtbhujGanesh Korth2 ShivMandir Singhia Bisfi"
+    ]
+  },
+  "summary": {
+    "en": [
+      "Videha digital heritage image from the Mithila research archive."
+    ],
+    "mai": [
+      "विदेह मिथिला शोध-अभिलेखक डिजिटल धरोहर चित्र।"
+    ]
+  },
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Rights"
+      ]
+    },
+    "value": {
+      "en": [
+        "See source/item notice; no blanket licence asserted."
+      ]
+    }
+  },
+  "homepage": [
+    {
+      "id": "https://www.videha.co.in/1_AshtbhujGanesh_Korth2_ShivMandir_Singhia_Bisfi.jpg",
+      "type": "Text",
+      "label": {
+        "en": [
+          "Videha source"
+        ]
+      },
+      "format": "text/html"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://videha-ejournal.github.io/videha/iiif/manifests/1-ashtbhujganesh-korth2-shivmandir-singhia-bisfi.json/canvas/1",
+      "type": "Canvas",
+      "height": 212,
+      "width": 332,
+      "items": [
+        {
+          "id": "https://videha-ejournal.github.io/videha/iiif/manifests/1-ashtbhujganesh-korth2-shivmandir-singhia-bisfi.json/canvas/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://videha-ejournal.github.io/videha/iiif/manifests/1-ashtbhujganesh-korth2-shivmandir-singhia-bisfi.json/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://videha-ejournal.github.io/videha/1_AshtbhujGanesh_Korth2_ShivMandir_Singhia_Bisfi.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 212,
+                "width": 332
+              },
+              "target": "https://videha-ejournal.github.io/videha/iiif/manifests/1-ashtbhujganesh-korth2-shivmandir-singhia-bisfi.json/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

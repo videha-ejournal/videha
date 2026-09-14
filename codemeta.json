@@ -1,0 +1,21 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "Dataset",
+  "name": "Videha Digital Research Archives",
+  "identifier": "urn:videha:research-archive:2026-09-14",
+  "datePublished": "2026-09-14",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Gajendra",
+      "familyName": "Thakur"
+    }
+  ],
+  "url": "https://github.com/videha-ejournal",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "Videha",
+    "issn": "2229-547X",
+    "url": "https://www.videha.co.in/"
+  }
+}

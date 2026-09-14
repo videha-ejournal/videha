@@ -1,38 +1,17 @@
 cff-version: 1.2.0
-message: "If you use the Videha Digital Research Archives, please cite the relevant archive/work and include its ISBN when one is supplied."
+message: "If you use the Videha Digital Research Archives, cite this repository and the underlying Videha publication."
 title: "Videha Digital Research Archives"
 type: dataset
 authors:
-  - family-names: Thakur
-    given-names: Gajendra
-    affiliation: "Videha — First Maithili Fortnightly eJournal"
-    website: "https://www.videha.co.in/"
+  - family-names: "Thakur"
+    given-names: "Gajendra"
+version: "2026-09-14"
+date-released: "2026-09-14"
+url: "https://github.com/videha-ejournal"
 identifiers:
   - type: other
     value: "ISSN 2229-547X"
-    description: "Videha — First Maithili Fortnightly eJournal"
-repository-code: "https://github.com/videha-ejournal/videha"
-url: "https://videha-ejournal.github.io/videha/research.htm"
-date-released: 2026-09-14
-license: CC-BY-4.0
-keywords:
-  - Maithili
-  - Mithila
-  - Vajji
-  - Anga
-  - digital humanities
-  - digital archive
-  - Panji
-  - philosophy
-  - literature
-  - corpus
-references:
-  - type: website
-    title: "Videha — First Maithili Fortnightly eJournal"
-    url: "https://www.videha.co.in/"
-  - type: website
-    title: "Videha GitHub mirror"
-    url: "https://videha-ejournal.github.io/videha/"
-  - type: website
-    title: "Videha Digital Research Archives at GitHub"
-    url: "https://github.com/videha-ejournal"
+    description: "Videha journal ISSN"
+  - type: other
+    value: "urn:videha:research-archive:2026-09-14"
+    description: "Videha research-release URN"

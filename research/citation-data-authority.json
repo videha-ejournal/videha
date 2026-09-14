@@ -1,0 +1,19 @@
+{
+  "name": "Videha Citation & Data Authority",
+  "officialPublication": "https://www.videha.co.in/",
+  "githubMirror": "https://videha-ejournal.github.io/videha/",
+  "issn": "2229-547X",
+  "editor": "Gajendra Thakur",
+  "digitalResearchArchives": "https://github.com/videha-ejournal",
+  "isbnAuthority": "https://videha-ejournal.github.io/gajendra-preeti/isbn/",
+  "roles": {
+    "official": "Authoritative publication site",
+    "mirror": "Resilient GitHub mirror and searchable research access",
+    "archives": "Versioned digital research archives, data, software and preservation manifests"
+  },
+  "rights": "Rights follow item-level source notices; no blanket licence is inferred or asserted.",
+  "preferredJournalCitation": "Videha — First Maithili Fortnightly eJournal. ISSN 2229-547X. https://www.videha.co.in/",
+  "releaseIdentifier": "urn:videha:research-archive:2026-09-14",
+  "releaseTag": "research-2026.09.14",
+  "sourceCommit": "0ca631e6a2ecfb099b38a5b8247c35afc3f312fa"
+}

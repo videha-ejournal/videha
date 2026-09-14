@@ -1,0 +1,51 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://videha-ejournal.github.io/videha/iiif/collection.json",
+  "type": "Collection",
+  "label": {
+    "en": [
+      "Videha Mithila Digital Heritage Pilot"
+    ],
+    "mai": [
+      "विदेह मिथिला डिजिटल धरोहर पायलट"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://videha-ejournal.github.io/videha/iiif/manifests/1-ashtbhujganesh-korth2-shivmandir-singhia-bisfi.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "1 AshtbhujGanesh Korth2 ShivMandir Singhia Bisfi"
+        ],
+        "mai": [
+          "1 AshtbhujGanesh Korth2 ShivMandir Singhia Bisfi"
+        ]
+      }
+    },
+    {
+      "id": "https://videha-ejournal.github.io/videha/iiif/manifests/1-bhagwatigirija-phulhar2-kali-uchchaith.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "1 BhagwatiGirija Phulhar2 Kali Uchchaith"
+        ],
+        "mai": [
+          "1 BhagwatiGirija Phulhar2 Kali Uchchaith"
+        ]
+      }
+    },
+    {
+      "id": "https://videha-ejournal.github.io/videha/iiif/manifests/1-devikali-korth2-temple-gosauni-sthal-korth.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "1 DeviKali Korth2 Temple Gosauni Sthal Korth"
+        ],
+        "mai": [
+          "1 DeviKali Korth2 Temple Gosauni Sthal Korth"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:videha:research-archive:2026-09-14",
+  "tag": "research-2026.09.14",
+  "date": "2026-09-14",
+  "commit": "0ca631e6a2ecfb099b38a5b8247c35afc3f312fa",
+  "title": "Videha Digital Research Archives scholarly infrastructure release",
+  "issn": "2229-547X",
+  "official": "https://www.videha.co.in/",
+  "mirror": "https://videha-ejournal.github.io/videha/",
+  "archive": "https://github.com/videha-ejournal"
+}
