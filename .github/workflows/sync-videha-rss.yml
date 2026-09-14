@@ -7,6 +7,15 @@ on:
       - main
     paths-ignore:
       - 'videha-rss.xml'
+      - 'research/**'
+      - 'tei/**'
+      - 'iiif/**'
+      - 'CITATION.cff'
+      - '.zenodo.json'
+      - 'codemeta.json'
+      - 'sitemap.xml'
+      - 'robots.txt'
+      - 'pagefind/**'
   schedule:
     - cron: '17 * * * *'
 
@@ -19,6 +28,10 @@ concurrency:
 
 jobs:
   sync-rss:
+    if: >-
+      github.event_name != 'push' ||
+      (!contains(github.event.head_commit.message, '[research-bot]') &&
+       !contains(github.event.head_commit.message, '[scholarly-bot]'))
     runs-on: ubuntu-latest
     timeout-minutes: 3
 
@@ -73,7 +86,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "RSS unchanged; nothing to commit."
           else
-            git commit -m "Sync Videha RSS feed"
+            git commit -m "Sync Videha RSS feed [scholarly-bot]"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
