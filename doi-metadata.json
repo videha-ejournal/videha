@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "registrationStatus": "not-minted",
+  "doi": null,
+  "title": "Videha Digital Research Archives",
+  "creators": [
+    {"name": "Gajendra Thakur", "nameType": "Personal"}
+  ],
+  "publisher": "Videha — First Maithili Fortnightly eJournal",
+  "publicationYear": 2026,
+  "resourceType": "Dataset / Digital Research Archive",
+  "language": ["mai", "en"],
+  "identifiers": [
+    {"identifierType": "ISSN", "identifier": "2229-547X"}
+  ],
+  "relatedIdentifiers": [
+    {"relationType": "IsIdenticalTo", "relatedIdentifierType": "URL", "relatedIdentifier": "https://www.videha.co.in/"},
+    {"relationType": "IsIdenticalTo", "relatedIdentifierType": "URL", "relatedIdentifier": "https://videha-ejournal.github.io/videha/"},
+    {"relationType": "HasPart", "relatedIdentifierType": "URL", "relatedIdentifier": "https://videha-ejournal.github.io/mithila-vajji-anga/"},
+    {"relationType": "HasPart", "relatedIdentifierType": "URL", "relatedIdentifier": "https://videha-ejournal.github.io/videha-literature-festival/"},
+    {"relationType": "HasPart", "relatedIdentifierType": "URL", "relatedIdentifier": "https://videha-ejournal.github.io/videha-sadeha/"}
+  ],
+  "rights": "See the rights and licences declared by each constituent Videha archive or dataset.",
+  "registrationNote": "This is DOI-ready descriptive metadata only. No DOI is claimed or fabricated. Minting requires an authorized external DOI registration/deposit service such as a DataCite-integrated repository."
+}
