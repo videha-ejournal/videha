@@ -1,0 +1,40 @@
+@prefix schema: <https://schema.org/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<https://www.videha.co.in/#videha>
+  a schema:Organization ;
+  schema:name "Videha — First Maithili Fortnightly eJournal" ;
+  schema:alternateName "विदेह प्रथम मैथिली पाक्षिक ई-पत्रिका" ;
+  schema:url <https://www.videha.co.in/> ;
+  schema:sameAs <https://videha-ejournal.github.io/videha/> , <https://github.com/videha-ejournal> ;
+  bibo:issn "2229-547X" .
+
+<https://videha-ejournal.github.io/videha/research/>
+  a schema:DataCatalog ;
+  schema:name "Videha Digital Research Archives Registry" ;
+  schema:publisher <https://www.videha.co.in/#videha> ;
+  schema:creator <https://www.videha.co.in/#gajendra-thakur> ;
+  dct:modified "2026-09-14" ;
+  schema:dataset <https://videha-ejournal.github.io/mithila-vajji-anga/#dataset> , <https://videha-ejournal.github.io/videha-literature-festival/#dataset> .
+
+<https://www.videha.co.in/#gajendra-thakur>
+  a schema:Person ;
+  schema:name "Gajendra Thakur" ;
+  schema:jobTitle "Editor" ;
+  schema:affiliation <https://www.videha.co.in/#videha> .
+
+<https://videha-ejournal.github.io/mithila-vajji-anga/#dataset>
+  a schema:Dataset ;
+  schema:name "Videha Digital Research Archive: Mithila, Vajji & Anga" ;
+  schema:url <https://videha-ejournal.github.io/mithila-vajji-anga/> ;
+  schema:publisher <https://www.videha.co.in/#videha> ;
+  schema:creator <https://www.videha.co.in/#gajendra-thakur> .
+
+<https://videha-ejournal.github.io/videha-literature-festival/#dataset>
+  a schema:Dataset ;
+  schema:name "Videha Literature Festival and Criticism Media Corpus" ;
+  schema:url <https://videha-ejournal.github.io/videha-literature-festival/> ;
+  schema:publisher <https://www.videha.co.in/#videha> ;
+  schema:creator <https://www.videha.co.in/#gajendra-thakur> ;
+  schema:measurementTechnique "Machine ASR draft corpus with separate human-review status" .
