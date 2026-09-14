@@ -2,7 +2,7 @@
   "algorithm": "SHA-256",
   "generated": "2026-09-14",
   "releaseIdentifier": "urn:videha:research-archive:2026-09-14",
-  "sourceCommit": "0ca631e6a2ecfb099b38a5b8247c35afc3f312fa",
+  "sourceCommit": "24e1d94b892d3276a832ed1b64824693661bc1a4",
   "files": [
     {
       "path": ".zenodo.json",
@@ -4275,13 +4275,18 @@
       "bytes": 199962
     },
     {
+      "path": "research/accessibility-certification.json",
+      "sha256": "3f57b20fc285502baf552aaae0a16eb520b1ee6233bc87076ebb57f40cd27189",
+      "bytes": 1168
+    },
+    {
       "path": "research/citation-data-authority.html",
-      "sha256": "348b7180bfb5b5a683620713938a4293a2fefee86b0c2d749edcc6d997e00e3a",
+      "sha256": "39aacbf3feb8cc834d0336fec4c895b18479535fd9ef1140cb7e152211f5b1d4",
       "bytes": 3848
     },
     {
       "path": "research/citation-data-authority.json",
-      "sha256": "d7f83b4f3afd3837111a964195d0d79ec1b54a2da2e5b7260bca7d9e31deddff",
+      "sha256": "e3d297e2b5df9239d4664660bfea50288b7e79a4328d1c1bfda80eb37de863b9",
       "bytes": 991
     },
     {
@@ -4335,14 +4340,19 @@
       "bytes": 726545
     },
     {
+      "path": "research/index.html",
+      "sha256": "08372772a3fa0dd8b581caf0ba601abd03548d65eebedb5add4e0002d1a2ac88",
+      "bytes": 8691
+    },
+    {
       "path": "research/release-metadata.json",
-      "sha256": "041d0f681a0fb23b78fced378fb350f3f645ebbb90c67287d2a4361a51121996",
+      "sha256": "562dd6b07a6a5b008f9532f773cc99585cf408559eba074500c6a364c5e90eef",
       "bytes": 427
     },
     {
       "path": "research/sitemap-official.xml",
-      "sha256": "acd8ee9b9140edf553852347d675d842f8ed16daf5b14075678c4a42ab57142e",
-      "bytes": 376016
+      "sha256": "4486aadaa51681f8a4b5be0ac7faab51cf95331adaea4f87b8a153df13a0292f",
+      "bytes": 376081
     },
     {
       "path": "research/sitemap.xml",
@@ -4366,8 +4376,8 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "a66f3b4d44b8cd7e195078d8ce5199528093d1571fbd0231cd28b48e5325ee7e",
-      "bytes": 400160
+      "sha256": "7070f49ec26ebe7302fd555116c3baeb72f1759192e3c5479f81dea629bf45ba",
+      "bytes": 400225
     },
     {
       "path": "tei/current-issue.xml",

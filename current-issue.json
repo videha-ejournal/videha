@@ -11,6 +11,5 @@
   "canonicalSite": "https://www.videha.co.in/",
   "githubMirror": "https://videha-ejournal.github.io/videha/",
   "status": "published",
-  "updated": "2026-09-14",
-  "note": "Machine-readable mirror manifest for parity monitoring. The canonical editorial issue remains the published Videha issue; this file must be updated when the mirror current issue changes."
+  "note": "Generated from the source-controlled mirror index. Main-site parity is verified independently and must not be inferred from this manifest."
 }
