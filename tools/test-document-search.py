@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Fail fast when the committed document-search corpus is incomplete or malformed."""
+"""Fail fast when the committed document-search corpus is incomplete or malformed.
+
+The historical OCR audit is an immutable baseline. Newer source-controlled Videha
+issue pages may be appended after that audit without pretending that they were
+part of the audited OCR run; those incremental pages receive their own structural
+checks below.
+"""
 
 from __future__ import annotations
 
@@ -14,6 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "search-documents"
 AUDIT = ROOT / "document-search-audit.json"
 FIXTURE = ROOT / "data" / "document-search-smoke.json"
+CURRENT_ISSUE = ROOT / "current-issue.json"
 TRANSLATOR = ROOT / "assets" / "js" / "videha-translate.js"
 ACCESS = ROOT / "assets" / "js" / "videha-access.js"
 INDEX = ROOT / "index.htm"
@@ -51,33 +58,57 @@ def expected_title(filename: str) -> str:
     return ""
 
 
+def validate_incremental_videha(path: Path, audit_latest: int, mirror_current: int) -> None:
+    match = re.fullmatch(r"videha-(\d{3,}).html", path.name)
+    require(bool(match), f"Unexpected post-audit search document: {path.name}")
+    issue = int(match.group(1))
+    require(audit_latest < issue < mirror_current, f"Incremental issue outside audit/current boundary: {path.name}")
+    raw = path.read_text(encoding="utf-8")
+    require("<title>" in raw and "</title>" in raw, f"Missing title in incremental {path.name}")
+    require(f'content="{issue}"' in raw, f"Missing issue metadata in incremental {path.name}")
+    require('data-pagefind-filter="publication[content]" content="VIDEHA"' in raw, f"Missing publication filter in incremental {path.name}")
+    require('data-pagefind-filter="issue[content]"' in raw, f"Missing issue filter in incremental {path.name}")
+    require("data-pagefind-body" in raw, f"Missing Pagefind body in incremental {path.name}")
+    require('name="citation_issn" content="2229-547X"' in raw, f"Missing ISSN citation metadata in incremental {path.name}")
+    require("https://videha-ejournal.github.io/videha/" in raw, f"Missing GitHub mirror identity in incremental {path.name}")
+    require("https://github.com/videha-ejournal" in raw, f"Missing research-archive identity in incremental {path.name}")
+    require(not FORBIDDEN.search(raw), f"Forbidden public placeholder in incremental {path.name}")
+
+
 def main() -> int:
     audit = json.loads(AUDIT.read_text(encoding="utf-8"))
     fixture = json.loads(FIXTURE.read_text(encoding="utf-8"))
+    current_issue = json.loads(CURRENT_ISSUE.read_text(encoding="utf-8"))
     stats = audit["stats"]
     documents = audit["documents"]
     latest = int(audit["latest_videha_issue"])
+    mirror_current = int(current_issue["issueNumber"])
 
     require(latest > 0, "latest_videha_issue must be positive")
-    require(stats["videha_pdfs"] == latest, "VIDEHA issues must be consecutive from 1 through latest")
+    require(mirror_current > latest, "Mirror current issue must be newer than the immutable document-search audit baseline")
+    require(stats["videha_pdfs"] == latest, "Audited VIDEHA issues must be consecutive from 1 through audit latest")
     require(stats["sadeha_pdfs"] == 38, "SADEHA must contain 38 files: issues 1–37 plus issue 5 Version 2")
     require(stats["canonical_pdfs"] == stats["videha_pdfs"] + stats["sadeha_pdfs"], "Canonical PDF total is inconsistent")
-    require(stats["generated_html_files"] == stats["canonical_pdfs"], "One generated page is required per canonical PDF")
+    require(stats["generated_html_files"] == stats["canonical_pdfs"], "One audited generated page is required per canonical PDF")
     require(len(documents) == stats["canonical_pdfs"], "Audit document count is inconsistent")
 
-    expected_videha = {f"videha-{issue:03d}.html" for issue in range(1, latest + 1)}
+    audited_videha = {f"videha-{issue:03d}.html" for issue in range(1, latest + 1)}
     expected_sadeha = expected_sadeha_files()
-    expected_files = expected_videha | expected_sadeha
+    audited_files = audited_videha | expected_sadeha
     actual_paths = sorted(OUTPUT.glob("*.html"))
     actual_files = {path.name for path in actual_paths}
-    require(actual_files == expected_files, f"Generated filename mismatch; missing={sorted(expected_files-actual_files)}, extra={sorted(actual_files-expected_files)}")
+    require(audited_files <= actual_files, f"Audited generated files missing: {sorted(audited_files-actual_files)}")
+
+    incremental_expected = {f"videha-{issue:03d}.html" for issue in range(latest + 1, mirror_current)}
+    extras = actual_files - audited_files
+    require(extras == incremental_expected, f"Post-audit generated filename mismatch; missing={sorted(incremental_expected-extras)}, extra={sorted(extras-incremental_expected)}")
 
     audit_outputs = [doc["output"] for doc in documents]
     require(len(audit_outputs) == len(set(audit_outputs)), "Duplicate outputs exist in the audit")
-    require(set(audit_outputs) == actual_files, "Audit outputs do not match generated files")
+    require(set(audit_outputs) == audited_files, "Audit outputs do not match audited generated files")
     require(sum(bool(doc["source_count"]) for doc in documents) == stats["paired_documents"], "Paired-document count is inconsistent")
     require(sum(not doc["source_count"] for doc in documents) == stats["pdf_only_documents"], "PDF-only count is inconsistent")
-    require(stats["paired_documents"] + stats["pdf_only_documents"] == stats["canonical_pdfs"], "Pair coverage does not cover every document")
+    require(stats["paired_documents"] + stats["pdf_only_documents"] == stats["canonical_pdfs"], "Pair coverage does not cover every audited document")
     require(not audit["conversion_failures"] and stats["doc_conversion_failures"] == 0, "DOC conversion failures are present")
     require(not audit["unpaired_sources"] and stats["unpaired_source_files"] == 0, "Unpaired source files are present")
 
@@ -92,7 +123,8 @@ def main() -> int:
     require('assets/js/videha-translate.js?v=20260827' in index_html, "index.htm does not load the current 41-language translator")
     require('assets/js/videha-access.js?v=20260827' in index_html, "index.htm does not load the current assistive-technology panel")
     require("../../script-converter.html" in access_js, "Assistive panel does not resolve the Braille converter from archive pages")
-    for path in actual_paths:
+
+    for path in (OUTPUT / name for name in sorted(audited_files)):
         raw = path.read_text(encoding="utf-8")
         total_bytes += path.stat().st_size
         title = expected_title(path.name)
@@ -116,8 +148,11 @@ def main() -> int:
         else:
             require('data-pagefind-filter="version[content]"' not in raw, f"Unexpected version filter in {path.name}")
 
-    require(total_bytes == stats["generated_html_bytes"], "Generated HTML byte total differs from the audit")
-    require(all(doc["total_chars"] > 0 for doc in documents), "An empty searchable document exists")
+    for name in sorted(incremental_expected):
+        validate_incremental_videha(OUTPUT / name, latest, mirror_current)
+
+    require(total_bytes == stats["generated_html_bytes"], "Audited generated HTML byte total differs from the immutable audit")
+    require(all(doc["total_chars"] > 0 for doc in documents), "An empty audited searchable document exists")
 
     require(stats["ocr_characters"] > 0, "OCR contributed no searchable text")
     require(any(doc["ocr_chars"] > 0 for doc in documents), "No logical document records OCR text")
@@ -127,15 +162,16 @@ def main() -> int:
     require(stats["pdf_pages_ocr"] == stats["pdf_low_text_image_pages"], "A low-text PDF page was not sent through OCR")
 
     ocr_output = OUTPUT / fixture["ocr"]["expected_output"]
-    require(ocr_output.name in actual_files, "OCR smoke-test output is missing")
+    require(ocr_output.name in audited_files, "OCR smoke-test output is missing")
     require(fixture["ocr"]["query"] in html.unescape(ocr_output.read_text(encoding="utf-8")), "OCR smoke-test phrase is missing from its generated page")
 
     print(
         "Document-search validation passed: "
-        f"{stats['canonical_pdfs']} pages "
+        f"{stats['canonical_pdfs']} immutable audited pages "
         f"({stats['videha_pdfs']} VIDEHA + {stats['sadeha_pdfs']} SADEHA), "
+        f"{len(incremental_expected)} post-audit VIDEHA issue page(s), "
         f"{stats['paired_documents']} paired, {stats['pdf_only_documents']} PDF-only, "
-        f"{stats['ocr_characters']} unique OCR characters; Listen, 41-language translation, and assistive controls present."
+        f"{stats['ocr_characters']} unique OCR characters; audited accessibility controls and incremental scholarly identity verified."
     )
     return 0
 
