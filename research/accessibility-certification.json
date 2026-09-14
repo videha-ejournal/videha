@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "status": "pending-human-execution",
+  "target": "WCAG 2.2 AA-oriented manual certification across the Videha research ecosystem",
+  "publication": "Videha — First Maithili Fortnightly eJournal",
+  "issn": "2229-547X",
+  "scope": [
+    "https://www.videha.co.in/",
+    "https://videha-ejournal.github.io/videha/",
+    "https://videha-ejournal.github.io/mithila-vajji-anga/",
+    "https://videha-ejournal.github.io/videha-literature-festival/",
+    "https://videha-ejournal.github.io/videha-sadeha/"
+  ],
+  "requiredEnvironments": [
+    "keyboard-only desktop",
+    "NVDA + Firefox",
+    "NVDA + Chromium",
+    "JAWS + Chromium",
+    "VoiceOver + Safari on macOS",
+    "VoiceOver + Safari on iOS",
+    "TalkBack + Chrome on Android"
+  ],
+  "machineChecksSubstituteForHumanTesting": false,
+  "results": [],
+  "blockingDefects": [],
+  "certifiedAt": null,
+  "certifiedBy": null,
+  "note": "Automated accessibility checks may support engineering QA, but this file must not be changed to passed without dated human assistive-technology results. The Mithila–Vajji–Anga archive also maintains its more detailed route-level human QA ledger."
+}
