@@ -1,0 +1,68 @@
+name: Verify Videha Main ↔ Mirror Parity
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/verify-videha-parity.yml'
+      - 'index.htm'
+      - 'current-issue.json'
+  schedule:
+    - cron: '17 */6 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: videha-main-mirror-parity
+  cancel-in-progress: true
+
+jobs:
+  parity:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out mirror source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Verify local manifest and live main/mirror issue parity
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,re,time,urllib.request
+          from pathlib import Path
+
+          DIGITS=str.maketrans('०१२३४५६७८९','0123456789')
+          MONTHS={'जनवरी':'01','फरवरी':'02','मार्च':'03','अप्रैल':'04','मई':'05','जून':'06','जुलाई':'07','अगस्त':'08','सितम्बर':'09','सितंबर':'09','अक्टूबर':'10','नवम्बर':'11','नवंबर':'11','दिसम्बर':'12','दिसंबर':'12'}
+          def strip_tags(s):
+              return re.sub(r'\s+',' ',re.sub(r'<[^>]+>',' ',s)).strip()
+          def issue(s):
+              p=strip_tags(s)
+              m=re.search(r'विदेह\s+अंक\s+([०-९0-9]+)\s*\[\s*([०-९0-9]{1,2})\s+([^\s\]]+)\s+([०-९0-9]{4})\s*\]',p)
+              if not m: raise RuntimeError('Current issue marker not found')
+              n=int(m.group(1).translate(DIGITS)); d=m.group(2).translate(DIGITS).zfill(2); y=m.group(4).translate(DIGITS); mo=MONTHS.get(m.group(3))
+              if not mo: raise RuntimeError(f'Unknown month: {m.group(3)}')
+              return {'issueNumber':n,'issueDate':f'{y}-{mo}-{d}'}
+          def fetch(url):
+              last=None
+              for attempt in range(4):
+                  try:
+                      req=urllib.request.Request(url,headers={'User-Agent':'Videha-Parity-Monitor/1.0'})
+                      return urllib.request.urlopen(req,timeout=25).read().decode('utf-8','ignore')
+                  except Exception as e:
+                      last=e; time.sleep(4*(attempt+1))
+              raise RuntimeError(f'Unable to fetch {url}: {last}')
+
+          local=issue(Path('index.htm').read_text(encoding='utf-8',errors='ignore'))
+          manifest=json.loads(Path('current-issue.json').read_text(encoding='utf-8'))
+          declared={'issueNumber':int(manifest['issueNumber']),'issueDate':manifest['issueDate']}
+          if local!=declared:
+              raise SystemExit(f'Mirror source/manifest drift: index={local} manifest={declared}')
+
+          main=issue(fetch('https://www.videha.co.in/'))
+          mirror=issue(fetch('https://videha-ejournal.github.io/videha/'))
+          report={'manifest':declared,'mirrorSource':local,'mainLive':main,'mirrorLive':mirror,'parity':main==mirror==declared}
+          print(json.dumps(report,ensure_ascii=False,indent=2))
+          if not report['parity']:
+              raise SystemExit(f'VIDEHA ISSUE PARITY DRIFT: main={main} mirror={mirror} manifest={declared}')
+          PY
