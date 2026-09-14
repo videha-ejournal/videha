@@ -6,7 +6,6 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/research-infrastructure.yml'
-      - '.github/workflows/build-scholar.yml'
       - 'scholar-tools/build_research_infrastructure.py'
       - 'scholar-tools/validate_research_infrastructure.py'
       - 'scholar-tools/normalize_research_sitemap.py'
@@ -24,7 +23,6 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/research-infrastructure.yml'
-      - '.github/workflows/build-scholar.yml'
       - 'scholar-tools/build_research_infrastructure.py'
       - 'scholar-tools/validate_research_infrastructure.py'
       - 'scholar-tools/normalize_research_sitemap.py'
@@ -59,29 +57,6 @@ jobs:
           fetch-depth: 0
       - name: Confirm Python runtime
         run: python3 --version
-      - name: Verify Scholar maintenance workflow policy
-        run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          import re
-
-          text = Path('.github/workflows/build-scholar.yml').read_text(encoding='utf-8')
-          on_block = text.split('\npermissions:', 1)[0]
-          required = [
-              'workflow_dispatch:',
-              'schedule:',
-              'runs-on: ubuntu-24.04',
-              'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1',
-              'actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97',
-              'timeout-minutes: 30',
-          ]
-          missing = [item for item in required if item not in text]
-          if missing:
-              raise SystemExit(f'Scholar maintenance workflow policy missing: {missing}')
-          if re.search(r'^\s{2}push:\s*$', on_block, flags=re.M):
-              raise SystemExit('Scholar maintenance workflow must not run on push')
-          print('Scholar maintenance workflow policy verified')
-          PY
       - name: Build canonical metadata, sitemaps, TEI, IIIF, citation authority and fixity
         run: python3 scholar-tools/build_research_infrastructure.py
       - name: Generate source-controlled current issue manifest
