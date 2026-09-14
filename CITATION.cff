@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "When citing Videha material, cite the specific page or issue where possible and retain the Videha publication identity and ISSN."
+title: "Videha — First Maithili Fortnightly eJournal"
+type: journal
+authors:
+  - family-names: "Thakur"
+    given-names: "Gajendra"
+    affiliation: "Videha — First Maithili Fortnightly eJournal"
+url: "https://www.videha.co.in/"
+repository-code: "https://github.com/videha-ejournal/videha"
+abstract: >-
+  GitHub mirror of Videha — First Maithili Fortnightly eJournal, ISSN
+  2229-547X. The canonical primary site is https://www.videha.co.in/ and the
+  mirror is https://videha-ejournal.github.io/videha/. Videha's Digital
+  Research Archive for Mithila, Vajji and Anga is available at
+  https://videha-ejournal.github.io/mithila-vajji-anga/.
+identifiers:
+  - type: other
+    value: "ISSN 2229-547X"
+    description: "Videha ISSN"
+  - type: url
+    value: "https://www.videha.co.in/"
+    description: "Canonical primary publication site"
+  - type: url
+    value: "https://videha-ejournal.github.io/videha/"
+    description: "GitHub mirror"
+  - type: url
+    value: "https://videha-ejournal.github.io/mithila-vajji-anga/"
+    description: "Videha Digital Research Archive"
