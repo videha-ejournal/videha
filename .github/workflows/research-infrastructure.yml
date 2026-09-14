@@ -8,6 +8,7 @@ on:
       - '.github/workflows/research-infrastructure.yml'
       - 'scholar-tools/build_research_infrastructure.py'
       - 'scholar-tools/validate_research_infrastructure.py'
+      - 'scholar-tools/normalize_research_sitemap.py'
       - '**/*.htm'
       - '**/*.html'
       - 'videha-rss.xml'
@@ -17,6 +18,7 @@ on:
       - '.github/workflows/research-infrastructure.yml'
       - 'scholar-tools/build_research_infrastructure.py'
       - 'scholar-tools/validate_research_infrastructure.py'
+      - 'scholar-tools/normalize_research_sitemap.py'
       - '**/*.htm'
       - '**/*.html'
       - 'videha-rss.xml'
@@ -43,6 +45,8 @@ jobs:
           python-version: '3.12'
       - name: Build canonical metadata, sitemaps, TEI, IIIF, citation authority and fixity
         run: python scholar-tools/build_research_infrastructure.py
+      - name: Normalize sitemap to real HTML pages
+        run: python scholar-tools/normalize_research_sitemap.py
       - name: Validate scholarly preservation layer
         run: python scholar-tools/validate_research_infrastructure.py
       - name: Upload research infrastructure audit artifacts
