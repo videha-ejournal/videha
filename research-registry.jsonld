@@ -1,0 +1,76 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.videha.co.in/#videha",
+      "name": "Videha — First Maithili Fortnightly eJournal",
+      "alternateName": "विदेह प्रथम मैथिली पाक्षिक ई-पत्रिका",
+      "url": "https://www.videha.co.in/",
+      "sameAs": [
+        "https://videha-ejournal.github.io/videha/",
+        "https://github.com/videha-ejournal"
+      ],
+      "identifier": "ISSN 2229-547X"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.videha.co.in/#gajendra-thakur",
+      "name": "Gajendra Thakur",
+      "jobTitle": "Editor",
+      "affiliation": {"@id": "https://www.videha.co.in/#videha"}
+    },
+    {
+      "@type": "DataCatalog",
+      "@id": "https://videha-ejournal.github.io/videha/research.htm#registry",
+      "name": "Videha Digital Research Archives Registry",
+      "url": "https://videha-ejournal.github.io/videha/research.htm",
+      "creator": {"@id": "https://www.videha.co.in/#gajendra-thakur"},
+      "publisher": {"@id": "https://www.videha.co.in/#videha"},
+      "inLanguage": ["mai", "en"],
+      "dateModified": "2026-09-14",
+      "dataset": [
+        {"@id": "https://videha-ejournal.github.io/mithila-vajji-anga/#dataset"},
+        {"@id": "https://videha-ejournal.github.io/videha-literature-festival/#dataset"},
+        {"@id": "https://videha-ejournal.github.io/videha-sadeha/#archive"},
+        {"@id": "https://videha-ejournal.github.io/videha-quiz/#archive"}
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://videha-ejournal.github.io/mithila-vajji-anga/#dataset",
+      "name": "Videha Digital Research Archive: Mithila, Vajji & Anga",
+      "url": "https://videha-ejournal.github.io/mithila-vajji-anga/",
+      "publisher": {"@id": "https://www.videha.co.in/#videha"},
+      "creator": {"@id": "https://www.videha.co.in/#gajendra-thakur"},
+      "inLanguage": ["mai", "en"],
+      "isAccessibleForFree": true
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://videha-ejournal.github.io/videha-literature-festival/#dataset",
+      "name": "Videha Literature Festival and Criticism Media Corpus",
+      "url": "https://videha-ejournal.github.io/videha-literature-festival/",
+      "publisher": {"@id": "https://www.videha.co.in/#videha"},
+      "creator": {"@id": "https://www.videha.co.in/#gajendra-thakur"},
+      "inLanguage": ["mai"],
+      "isAccessibleForFree": true,
+      "measurementTechnique": "Machine ASR draft corpus with separate human-review status"
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://videha-ejournal.github.io/videha-sadeha/#archive",
+      "name": "Videha–Sadeha Digital Periodical Archive",
+      "url": "https://videha-ejournal.github.io/videha-sadeha/",
+      "publisher": {"@id": "https://www.videha.co.in/#videha"}
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://videha-ejournal.github.io/videha-quiz/#archive",
+      "name": "Videha eLearning Quiz Archive",
+      "url": "https://videha-ejournal.github.io/videha-quiz/",
+      "publisher": {"@id": "https://www.videha.co.in/#videha"},
+      "inLanguage": ["mai", "en"]
+    }
+  ]
+}
