@@ -10,7 +10,14 @@ on:
       - 'data/videha-knowledge-graph.json'
       - 'data/videha-author-publications.json'
       - 'data/videha-archive-facets.json'
-      - 'research/data/article-inventory.json'
+      - 'research/**'
+      - 'tei/**'
+      - 'iiif/**'
+      - 'CITATION.cff'
+      - '.zenodo.json'
+      - 'codemeta.json'
+      - 'sitemap.xml'
+      - 'robots.txt'
   workflow_dispatch:
 
 permissions:
@@ -22,6 +29,10 @@ concurrency:
 
 jobs:
   build-search:
+    if: >-
+      github.event_name != 'push' ||
+      (!contains(github.event.head_commit.message, '[research-bot]') &&
+       !contains(github.event.head_commit.message, '[scholarly-bot]'))
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -72,6 +83,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "Search index unchanged."
           else
-            git commit -m "Build Videha universal search index"
+            git commit -m "Build Videha universal search index [scholarly-bot]"
+            git pull --rebase origin main
             git push
           fi
