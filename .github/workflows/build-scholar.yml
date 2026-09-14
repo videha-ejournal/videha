@@ -1,31 +1,27 @@
-# Videha Scholar workflow — expanded 2026-08-27 for Sadeha deep-dive discovery
+# Videha Scholar deep-index maintenance workflow.
+# Authoritative research infrastructure is built by research-infrastructure.yml;
+# this workflow is intentionally limited to scheduled/manual scholarly maintenance.
 name: Build Videha Scholar Research Index
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/build-scholar.yml'
-      - 'scholar-data/**'
-      - 'scholar-tools/**'
-      - 'templates/scholar-article.html'
-      - 'search-documents/videha-*.html'
-      - 'search-documents/videha-*.htm'
-      - 'search-documents/sadeha-*.html'
+  schedule:
+    - cron: '23 3 * * 0'
 
 permissions:
   contents: write
 
 concurrency:
-  group: videha-scholar-build
+  group: videha-scholar-maintenance
   cancel-in-progress: true
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out scholarly source subset
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 1
           sparse-checkout: |
@@ -35,29 +31,30 @@ jobs:
             templates
             research
           sparse-checkout-cone-mode: true
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: '3.12'
       - name: Diagnose article boundaries
-        run: python scholar-tools/diagnose_boundaries.py
+        run: python3 scholar-tools/diagnose_boundaries.py
       - name: Build complete article inventory
-        run: python scholar-tools/build_article_inventory.py
+        run: python3 scholar-tools/build_article_inventory.py
       - name: Summarize Scholar candidate strength
-        run: python scholar-tools/summarize_inventory.py
+        run: python3 scholar-tools/summarize_inventory.py
       - name: Build article-level scholarly catalogue
-        run: python scholar-tools/build_section_catalogue.py
+        run: python3 scholar-tools/build_section_catalogue.py
       - name: Harden Scholar candidate rankings
-        run: python scholar-tools/harden_section_catalogue.py
+        run: python3 scholar-tools/harden_section_catalogue.py
       - name: Discover legacy top-level scholarly sections
-        run: python scholar-tools/build_top_level_candidates.py
+        run: python3 scholar-tools/build_top_level_candidates.py
       - name: Deep-map 38 Sadeha HTML sources to original Videha articles
-        run: python scholar-tools/build_sadeha_crossmap.py
+        run: python3 scholar-tools/build_sadeha_crossmap.py
       - name: Flag probable Sadeha-confirmed legacy author-title reversals
-        run: python scholar-tools/build_sadeha_swapped_metadata.py
+        run: python3 scholar-tools/build_sadeha_swapped_metadata.py
       - name: Build full research corpus including audit queues and Sadeha discoveries
-        run: python scholar-tools/build_all_research.py
+        run: python3 scholar-tools/build_all_research.py
       - name: Validate Scholar metadata
-        run: python scholar-tools/validate_scholar.py
+        run: python3 scholar-tools/validate_scholar.py
       - name: Commit generated research layer
         run: |
           git config user.name "videha-scholar-bot"
