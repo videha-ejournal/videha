@@ -9,6 +9,12 @@ on:
       - 'scholar-tools/build_research_infrastructure.py'
       - 'scholar-tools/validate_research_infrastructure.py'
       - 'scholar-tools/normalize_research_sitemap.py'
+      - 'research-registry.*'
+      - 'current-issue.json'
+      - 'doi-metadata.json'
+      - 'SCHOLARLY-PROVENANCE.md'
+      - 'PRESERVATION-POLICY.md'
+      - 'research/**'
       - '**/*.htm'
       - '**/*.html'
       - 'videha-rss.xml'
@@ -19,6 +25,12 @@ on:
       - 'scholar-tools/build_research_infrastructure.py'
       - 'scholar-tools/validate_research_infrastructure.py'
       - 'scholar-tools/normalize_research_sitemap.py'
+      - 'research-registry.*'
+      - 'current-issue.json'
+      - 'doi-metadata.json'
+      - 'SCHOLARLY-PROVENANCE.md'
+      - 'PRESERVATION-POLICY.md'
+      - 'research/**'
       - '**/*.htm'
       - '**/*.html'
       - 'videha-rss.xml'
@@ -35,22 +47,42 @@ concurrency:
 jobs:
   build-validate:
     if: github.event_name != 'push' || !contains(github.event.head_commit.message, '[research-bot]')
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
+      - name: Confirm Python runtime
+        run: python3 --version
       - name: Build canonical metadata, sitemaps, TEI, IIIF, citation authority and fixity
-        run: python scholar-tools/build_research_infrastructure.py
+        run: python3 scholar-tools/build_research_infrastructure.py
       - name: Normalize sitemap to real HTML pages
-        run: python scholar-tools/normalize_research_sitemap.py
+        run: python3 scholar-tools/normalize_research_sitemap.py
       - name: Validate scholarly preservation layer
-        run: python scholar-tools/validate_research_infrastructure.py
+        run: python3 scholar-tools/validate_research_infrastructure.py
+      - name: Validate research registry and provenance package
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('.')
+          required=['research/index.html','research-registry.json','research-registry.jsonld','research-registry.bib','research-registry.ris','current-issue.json','doi-metadata.json','SCHOLARLY-PROVENANCE.md','PRESERVATION-POLICY.md']
+          missing=[p for p in required if not (root/p).exists()]
+          if missing: raise SystemExit(f'Missing research registry files: {missing}')
+          reg=json.loads((root/'research-registry.json').read_text(encoding='utf-8'))
+          if reg.get('issn')!='2229-547X': raise SystemExit('Registry ISSN mismatch')
+          if len(reg.get('resources',[]))<5: raise SystemExit('Research registry unexpectedly small')
+          isbns=[r['isbn'] for r in reg.get('isbnAuthority',[])]
+          if len(isbns)!=len(set(isbns)) or len(isbns)<12: raise SystemExit('ISBN authority duplicate/incomplete')
+          issue=json.loads((root/'current-issue.json').read_text(encoding='utf-8'))
+          if issue.get('issueNumber') is None or not issue.get('issueDate'): raise SystemExit('Current issue manifest incomplete')
+          doi=json.loads((root/'doi-metadata.json').read_text(encoding='utf-8'))
+          if doi.get('doi') is not None or doi.get('registrationStatus')!='not-minted': raise SystemExit('DOI metadata must not fabricate an identifier')
+          print({'registryResources':len(reg['resources']),'isbnRecords':len(isbns),'currentIssue':issue['issueNumber'],'doiStatus':doi['registrationStatus']})
+          PY
       - name: Upload research infrastructure audit artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: videha-research-infrastructure
           path: |
@@ -62,6 +94,15 @@ jobs:
             CITATION.cff
             .zenodo.json
             codemeta.json
+            research-registry.json
+            research-registry.jsonld
+            research-registry.bib
+            research-registry.ris
+            current-issue.json
+            doi-metadata.json
+            SCHOLARLY-PROVENANCE.md
+            PRESERVATION-POLICY.md
+          retention-days: 30
       - name: Commit generated infrastructure on main
         if: github.event_name != 'pull_request'
         run: |
