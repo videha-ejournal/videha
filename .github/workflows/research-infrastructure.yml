@@ -71,7 +71,7 @@ jobs:
           import json
           from pathlib import Path
           root=Path('.')
-          required=['research/index.html','research-registry.json','research-registry.jsonld','research-registry.bib','research-registry.ris','current-issue.json','doi-metadata.json','SCHOLARLY-PROVENANCE.md','PRESERVATION-POLICY.md']
+          required=['research/index.html','research/accessibility-certification.json','research-registry.json','research-registry.jsonld','research-registry.bib','research-registry.ris','research-registry.csl.json','research-registry.ttl','current-issue.json','doi-metadata.json','SCHOLARLY-PROVENANCE.md','PRESERVATION-POLICY.md']
           missing=[p for p in required if not (root/p).exists()]
           if missing: raise SystemExit(f'Missing research registry files: {missing}')
           reg=json.loads((root/'research-registry.json').read_text(encoding='utf-8'))
@@ -83,7 +83,9 @@ jobs:
           if issue.get('issueNumber') is None or not issue.get('issueDate'): raise SystemExit('Current issue manifest incomplete')
           doi=json.loads((root/'doi-metadata.json').read_text(encoding='utf-8'))
           if doi.get('doi') is not None or doi.get('registrationStatus')!='not-minted': raise SystemExit('DOI metadata must not fabricate an identifier')
-          print({'registryResources':len(reg['resources']),'isbnRecords':len(isbns),'currentIssue':issue['issueNumber'],'doiStatus':doi['registrationStatus']})
+          a11y=json.loads((root/'research/accessibility-certification.json').read_text(encoding='utf-8'))
+          if a11y.get('machineChecksSubstituteForHumanTesting') is not False or a11y.get('status') not in {'pending-human-execution','in-progress','passed'}: raise SystemExit('Accessibility certification claim boundary invalid')
+          print({'registryResources':len(reg['resources']),'isbnRecords':len(isbns),'currentIssue':issue['issueNumber'],'doiStatus':doi['registrationStatus'],'accessibilityStatus':a11y['status']})
           PY
       - name: Upload research infrastructure audit artifacts
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
@@ -102,6 +104,8 @@ jobs:
             research-registry.jsonld
             research-registry.bib
             research-registry.ris
+            research-registry.csl.json
+            research-registry.ttl
             current-issue.json
             doi-metadata.json
             SCHOLARLY-PROVENANCE.md
