@@ -1,0 +1,35 @@
+[
+  {
+    "id": "videha-research-archives-2026",
+    "type": "dataset",
+    "title": "Videha Digital Research Archives",
+    "author": [{"family": "Thakur", "given": "Gajendra"}],
+    "issued": {"date-parts": [[2026, 9, 14]]},
+    "publisher": "Videha — First Maithili Fortnightly eJournal",
+    "ISSN": "2229-547X",
+    "URL": "https://videha-ejournal.github.io/videha/research/",
+    "language": "mai"
+  },
+  {
+    "id": "videha-mithila-vajji-anga-2026",
+    "type": "dataset",
+    "title": "Videha Digital Research Archive: Mithila, Vajji & Anga",
+    "author": [{"family": "Thakur", "given": "Gajendra"}],
+    "issued": {"date-parts": [[2026, 9, 14]]},
+    "publisher": "Videha — First Maithili Fortnightly eJournal",
+    "ISSN": "2229-547X",
+    "URL": "https://videha-ejournal.github.io/mithila-vajji-anga/",
+    "language": "mai-en"
+  },
+  {
+    "id": "videha-criticism-corpus-2026",
+    "type": "dataset",
+    "title": "Videha Literature Festival and Criticism Media Corpus",
+    "author": [{"family": "Thakur", "given": "Gajendra"}],
+    "issued": {"date-parts": [[2026, 9, 14]]},
+    "publisher": "Videha — First Maithili Fortnightly eJournal",
+    "ISSN": "2229-547X",
+    "URL": "https://videha-ejournal.github.io/videha-literature-festival/",
+    "note": "2,346-record machine ASR corpus; human verification tracked separately"
+  }
+]
