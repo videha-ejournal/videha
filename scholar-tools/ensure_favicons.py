@@ -8,6 +8,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 EXCLUDED_DIRS = {".git", "node_modules", "_site", ".venv", "venv"}
 SUFFIXES = {".htm", ".html"}
+NON_PAGE_FILES = {
+    "google7d0b1633a9939d34.html",
+    "universal-search-embed-snippet.html",
+}
 
 ICON_LINK_RE = re.compile(
     r"<link\b(?=[^>]*\brel\s*=\s*[\"'][^\"']*(?:icon|apple-touch-icon)[^\"']*[\"'])[^>]*>\s*",
@@ -18,12 +22,21 @@ HEAD_OPEN_RE = re.compile(r"<head\b[^>]*>", re.I)
 HTML_OPEN_RE = re.compile(r"<html\b[^>]*>", re.I)
 
 
+def is_non_page(rel: Path) -> bool:
+    posix = rel.as_posix()
+    if posix in NON_PAGE_FILES:
+        return True
+    if rel.name.lower() == "real_x.htm" and rel.parts and rel.parts[0].lower() == "photogallery":
+        return True
+    return False
+
+
 def html_files():
     for path in ROOT.rglob("*"):
         if not path.is_file() or path.suffix.lower() not in SUFFIXES:
             continue
         rel = path.relative_to(ROOT)
-        if any(part in EXCLUDED_DIRS for part in rel.parts):
+        if any(part in EXCLUDED_DIRS for part in rel.parts) or is_non_page(rel):
             continue
         yield path
 
@@ -83,7 +96,7 @@ def validate(path: Path, text: str) -> list[str]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Ensure Videha favicon links on every HTML/HTM page.")
+    parser = argparse.ArgumentParser(description="Ensure Videha favicon links on every real HTML/HTM page.")
     parser.add_argument("--check", action="store_true", help="Validate only; do not modify files.")
     args = parser.parse_args()
 
