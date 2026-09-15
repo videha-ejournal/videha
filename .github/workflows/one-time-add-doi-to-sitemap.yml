@@ -1,0 +1,40 @@
+name: One-time add DOI page to sitemap
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/one-time-add-doi-to-sitemap.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-sitemap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Add DOI page to sitemap if missing
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('sitemap.xml')
+          text = p.read_text(encoding='utf-8')
+          url = 'https://videha-ejournal.github.io/videha/videha-doi.htm'
+          if url not in text:
+              entry = f'  <url><loc>{url}</loc><lastmod>2026-09-15</lastmod></url>\n'
+              text = text.replace('</urlset>', entry + '</urlset>')
+              p.write_text(text, encoding='utf-8')
+      - name: Commit sitemap update
+        run: |
+          if git diff --quiet -- sitemap.xml; then
+            echo "No sitemap change needed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sitemap.xml
+          git commit -m "Add Videha DOI page to GitHub sitemap"
+          git push
