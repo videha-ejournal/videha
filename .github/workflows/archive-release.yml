@@ -1,0 +1,48 @@
+name: Publish controlled Zenodo archive release
+
+on:
+  push:
+    paths:
+      - '.github/release-control/archive-2026-09-15.txt'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: videha-archive-release-2026-09-15
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RELEASE_TAG: archive-2026-09-15
+      TARGET_SHA: bdcaf7fec9eb9ff237583f7a35e3a980d03a3a19
+    steps:
+      - name: Verify target commit exists
+        run: gh api "repos/${GITHUB_REPOSITORY}/commits/${TARGET_SHA}" --jq '.sha'
+
+      - name: Publish release if absent
+        shell: bash
+        run: |
+          set -euo pipefail
+          if gh api "repos/${GITHUB_REPOSITORY}/releases/tags/${RELEASE_TAG}" >/dev/null 2>&1; then
+            echo "Release ${RELEASE_TAG} already exists; no duplicate publication."
+            exit 0
+          fi
+
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/releases" \
+            -f tag_name="${RELEASE_TAG}" \
+            -f target_commitish="${TARGET_SHA}" \
+            -f name='Archive snapshot — 15 September 2026' \
+            -f body='Archival snapshot of videha-ejournal/videha from the corrected 15 September 2026 repository state, published for preservation through the connected Zenodo integration. This snapshot includes the corrected .zenodo.json open-access and CC BY 4.0 metadata. Existing authorship, copyright notices, and item-level rights notices remain authoritative.' \
+            -F draft=false \
+            -F prerelease=false \
+            --jq '{tag_name, published_at, target_commitish, html_url}'
+
+      - name: Verify release target
+        run: |
+          gh api "repos/${GITHUB_REPOSITORY}/git/ref/tags/${RELEASE_TAG}" --jq '.object.sha'
+          gh api "repos/${GITHUB_REPOSITORY}/releases/tags/${RELEASE_TAG}" --jq '{tag_name, published_at, html_url}'
