@@ -2,7 +2,7 @@
   "algorithm": "SHA-256",
   "generated": "2026-09-14",
   "releaseIdentifier": "urn:videha:research-archive:2026-09-14",
-  "sourceCommit": "1a0c28e717459218ad74106aa56c9f1718fb8d36",
+  "sourceCommit": "7008425e74f3305a2291e2ab3e8b0bcb9ab8d56c",
   "files": [
     {
       "path": ".zenodo.json",
@@ -4281,12 +4281,12 @@
     },
     {
       "path": "research/citation-data-authority.html",
-      "sha256": "996e0957b2558cf2f9e454e935789727077f8944f99030b97a4016eff2fd25f0",
+      "sha256": "f99a45717bcfebf38612b3807954c09d6b92959779b1ddf85ac215eb1ed6df47",
       "bytes": 3848
     },
     {
       "path": "research/citation-data-authority.json",
-      "sha256": "246a8c1595bb3b72349837bdcea67247a72d44b1ebbc84624c80c64765ae609a",
+      "sha256": "f30a697fede3e8878803275898b49f75bdcca0bb0f1b9350f7d999063a79a946",
       "bytes": 991
     },
     {
@@ -4341,18 +4341,23 @@
     },
     {
       "path": "research/index.html",
-      "sha256": "08372772a3fa0dd8b581caf0ba601abd03548d65eebedb5add4e0002d1a2ac88",
-      "bytes": 8691
+      "sha256": "1d3a02134e3e2efcb52734b3bfb4ee169629b3a20175ad832b314ee31e14c7cf",
+      "bytes": 2704
     },
     {
       "path": "research/release-metadata.json",
-      "sha256": "cfa722a9dcfbebb8e7d80eba6429389745bf0529459e669e7a9ba478f7f188d9",
+      "sha256": "74075f34f48af735ebbab08d71e023a2124de847fe8dd85b45e994056464ef6e",
       "bytes": 427
     },
     {
+      "path": "research/research-registry.html",
+      "sha256": "80d07878fcc934c5d6e078b01da66725c07530f89534633459a6abdb9972644f",
+      "bytes": 8171
+    },
+    {
       "path": "research/sitemap-official.xml",
-      "sha256": "87117ccbacebcd44cb9f0346c40bbb912a5e016a0a64426c12f27c6b9f26e162",
-      "bytes": 355811
+      "sha256": "d4ebe2eb42193ee708582ef937d559b132765f0cbe57f65ed3cb7bbc30229c35",
+      "bytes": 355892
     },
     {
       "path": "research/sitemap.xml",
@@ -4376,8 +4381,8 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "c68acabc93269fae99cf8521caa7d2eafb1c533419a45e6f6e1cbbcdb9046f74",
-      "bytes": 379939
+      "sha256": "c8b40326bc5b0627c31364d01669e1ba120f410dbd06ed36b73013cb06f5cad8",
+      "bytes": 380036
     },
     {
       "path": "tei/current-issue.xml",
@@ -4391,8 +4396,8 @@
     },
     {
       "path": "videha-rss.xml",
-      "sha256": "b78f51b9efafc224d6000db11b86699415a5a0819fedb35326df799ce540f80b",
-      "bytes": 6330
+      "sha256": "b4593f10849108e34dc53849d3003264de6fa57099e58ac2f15cb9c9d6ede3ae",
+      "bytes": 20841
     }
   ]
 }
