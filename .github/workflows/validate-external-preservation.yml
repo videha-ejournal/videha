@@ -1,0 +1,46 @@
+name: Validate external preservation integration
+
+on:
+  push:
+    paths:
+      - 'scholar-tools/publish_external_archives.py'
+      - 'scholar-tools/external-preservation-manifest.json'
+      - 'scholar-tools/external-preservation-state.json'
+      - '.github/workflows/publish-figshare-dataverse.yml'
+      - '.github/workflows/validate-external-preservation.yml'
+  pull_request:
+    paths:
+      - 'scholar-tools/publish_external_archives.py'
+      - 'scholar-tools/external-preservation-manifest.json'
+      - 'scholar-tools/external-preservation-state.json'
+      - '.github/workflows/publish-figshare-dataverse.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate Python and JSON
+        run: |
+          python -m py_compile scholar-tools/publish_external_archives.py
+          python -m json.tool scholar-tools/external-preservation-manifest.json >/dev/null
+          python -m json.tool scholar-tools/external-preservation-state.json >/dev/null
+      - name: Validate eight repositories and DOI map
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = json.loads(Path('scholar-tools/external-preservation-manifest.json').read_text())
+          repos = p['repositories']
+          assert len(repos) == 8, len(repos)
+          assert len({r['name'] for r in repos}) == 8
+          assert len({r['zenodo_doi'] for r in repos}) == 8
+          assert all(r['zenodo_doi'].startswith('10.5281/zenodo.') for r in repos)
+          print('PASS: 8 repositories and 8 unique Zenodo DOIs')
+          PY
