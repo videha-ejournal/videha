@@ -1009,7 +1009,8 @@ function runAudit(){
       }
       if((req.gg && !hasGG) || (req.rss && !/<a\b[^>]*href=["'][^"']*rss/i.test(fixed) && !present(req.rss||["rss"]))){
         if(doStrip && ggUrl){
-          var strip = '<div class="videha-subscribe-strip" role="region" aria-label="New Videha Issue subscription" style="margin:12px 0;padding:9px 12px;border:1px solid #D8CFC0;background:#FAF6EE"><strong>नव विदेह अंक — मासमे दू बेर · New Videha Issue — twice monthly</strong> &nbsp;·&nbsp; <a href="'+ggUrl+'">ई-पत्र सदस्यता · Email subscription</a> &nbsp;·&nbsp; <a href="'+rssUrl+'" type="application/rss+xml">RSS feed</a></div>';
+          var strip = '<div class="videha-subscribe-strip" role="region" aria-label="New Videha Issue subscription" style="margin:12px 0;padding:9px 12px;border:1px solid #D8CFC0;background:#FAF6EE"><strong>नव विदेह अंक — मासमे दू बेर · New Videha Issue — twice monthly</strong> &nbsp;·&nbsp; <a href="'+ggUrl+'">ई-पत्र सदस्यता · Email subscription</a> &nbsp;·&nbsp; <a href="'+rssUrl+'" type="application/rss+xml">RSS feed</a> &nbsp;·&nbsp;
+  <a href="videha-doi.htm">DOI · Zenodo · Scholarly Preservation</a></div>';
           fixed = injBeforeBodyEnd(fixed, strip); changed=true; hasGG=true; hasRSS=true;
           add("Google Groups लिंक","ok",p,"ग्राहकी-पट्टी (Groups+RSS) जोड़ल (सुधारल)");
         }
