@@ -2,7 +2,7 @@
   "algorithm": "SHA-256",
   "generated": "2026-09-14",
   "releaseIdentifier": "urn:videha:research-archive:2026-09-14",
-  "sourceCommit": "6dcbf291df8c95bb8194ffb52268382e6fbce828",
+  "sourceCommit": "cfb77b0e7efe6d6f802f0a94901ba844e5379fd9",
   "files": [
     {
       "path": ".zenodo.json",
@@ -4281,12 +4281,12 @@
     },
     {
       "path": "research/citation-data-authority.html",
-      "sha256": "99b3e1234fa720121e5ae182594c33a711c22d9452579eb7681fa62e6b8bf2c9",
+      "sha256": "9eb06578ec14eb5609ed169e11cdcdbf934945e662c86e8c0705469728d97766",
       "bytes": 3848
     },
     {
       "path": "research/citation-data-authority.json",
-      "sha256": "cf2af165b73814dfc10a0be24e216daacbec52f49fa4964db73ac03c27e4e37f",
+      "sha256": "402d4edac0bc016f09bdf0c56cc0e04c7453a352b6f8de3fe5cf316d969dd27d",
       "bytes": 991
     },
     {
@@ -4346,13 +4346,13 @@
     },
     {
       "path": "research/release-metadata.json",
-      "sha256": "8b9e8b0b0da490bb41419d2ea31ee25d52e7b605c507422df8b165abb20d08ae",
+      "sha256": "0d3c4279c6e69238e2baaa20b8a8f984b10681dcca1c719b226143e64493ddde",
       "bytes": 427
     },
     {
       "path": "research/sitemap-official.xml",
-      "sha256": "2bbae98c069a2ae6e6d06034bae3ca0c31a9bc4a3c3ba30bf6869cf9fa7f0a8c",
-      "bytes": 376174
+      "sha256": "87117ccbacebcd44cb9f0346c40bbb912a5e016a0a64426c12f27c6b9f26e162",
+      "bytes": 355811
     },
     {
       "path": "research/sitemap.xml",
@@ -4376,8 +4376,8 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "ca2ed3f3df95c899e541444c4f1af4940969cf7108c73664bd57568c0ce285ba",
-      "bytes": 400334
+      "sha256": "c68acabc93269fae99cf8521caa7d2eafb1c533419a45e6f6e1cbbcdb9046f74",
+      "bytes": 379939
     },
     {
       "path": "tei/current-issue.xml",
