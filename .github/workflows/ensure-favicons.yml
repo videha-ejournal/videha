@@ -1,0 +1,67 @@
+name: Ensure Videha Favicons
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ensure-favicons.yml'
+      - 'scholar-tools/ensure_favicons.py'
+      - '**/*.htm'
+      - '**/*.html'
+      - 'assets/img/favicon.ico'
+      - 'assets/img/favicon.png'
+      - 'assets/img/apple-touch-icon.png'
+  schedule:
+    - cron: '17 3 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: videha-domain-favicons
+  cancel-in-progress: true
+
+jobs:
+  ensure-favicons:
+    if: github.event_name != 'push' || !contains(github.event.head_commit.message, '[favicon-bot]')
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out HTML pages and favicon tooling
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            *.htm
+            *.html
+            **/*.htm
+            **/*.html
+            assets/img/favicon.ico
+            assets/img/favicon.png
+            assets/img/apple-touch-icon.png
+            scholar-tools/ensure_favicons.py
+      - name: Confirm Python runtime
+        run: python3 --version
+      - name: Apply favicons to every HTML and HTM page
+        run: python3 scholar-tools/ensure_favicons.py
+      - name: Validate every HTML and HTM page
+        run: python3 scholar-tools/ensure_favicons.py --check
+      - name: Commit favicon normalization
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "videha-favicon-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '*.htm' '*.html'
+          if git diff --cached --quiet; then
+            echo "No favicon changes required"
+          else
+            git commit -m "Ensure favicons across all Videha pages [favicon-bot]"
+            for attempt in 1 2 3; do
+              git pull --rebase origin main && git push && exit 0
+              echo "Push attempt $attempt failed; retrying"
+              sleep 2
+            done
+            exit 1
+          fi
