@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "created": "2026-09-15",
+  "publisher": "Videha — First Maithili Fortnightly eJournal",
+  "issn": "2229-547X",
+  "creator": "Thakur, Gajendra",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "official_site": "https://www.videha.co.in/",
+  "repositories": [
+    {
+      "name": "gajendra-preeti",
+      "github": "https://github.com/videha-ejournal/gajendra-preeti",
+      "zenodo_doi": "10.5281/zenodo.22754971"
+    },
+    {
+      "name": "mithila-vajji-anga",
+      "github": "https://github.com/videha-ejournal/mithila-vajji-anga",
+      "zenodo_doi": "10.5281/zenodo.22754977"
+    },
+    {
+      "name": "videha",
+      "github": "https://github.com/videha-ejournal/videha",
+      "zenodo_doi": "10.5281/zenodo.22754996"
+    },
+    {
+      "name": "videha-ejournal",
+      "github": "https://github.com/videha-ejournal/videha-ejournal",
+      "zenodo_doi": "10.5281/zenodo.22755007"
+    },
+    {
+      "name": "videha-ejournal.github.io",
+      "github": "https://github.com/videha-ejournal/videha-ejournal.github.io",
+      "zenodo_doi": "10.5281/zenodo.22755014"
+    },
+    {
+      "name": "videha-literature-festival",
+      "github": "https://github.com/videha-ejournal/videha-literature-festival",
+      "zenodo_doi": "10.5281/zenodo.22755018"
+    },
+    {
+      "name": "videha-quiz",
+      "github": "https://github.com/videha-ejournal/videha-quiz",
+      "zenodo_doi": "10.5281/zenodo.22755026"
+    },
+    {
+      "name": "videha-sadeha",
+      "github": "https://github.com/videha-ejournal/videha-sadeha",
+      "zenodo_doi": "10.5281/zenodo.22755033"
+    }
+  ]
+}
