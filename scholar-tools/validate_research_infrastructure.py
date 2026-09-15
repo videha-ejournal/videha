@@ -12,15 +12,25 @@ ISSN = "2229-547X"
 OFFICIAL = "https://www.videha.co.in/"
 MIRROR = "https://videha-ejournal.github.io/videha/"
 EXCLUDED = {".git", "node_modules", "_site", ".venv", "venv"}
+NON_READER_PAGES = {
+    "google7d0b1633a9939d34.html",
+    "pinterest-40f05.html",
+    "templates/scholar-article.html",
+    "universal-search-embed-snippet.html",
+}
 
 
 def pages():
     out = []
     for p in ROOT.rglob("*"):
-        if p.is_file() and p.suffix.lower() in {".htm", ".html"} and not any(x in EXCLUDED for x in p.relative_to(ROOT).parts):
-            text = p.read_text(encoding="utf-8", errors="ignore")
-            if re.search(r"</head\s*>", text, re.I):
-                out.append((p, text))
+        if not p.is_file() or p.suffix.lower() not in {".htm", ".html"}:
+            continue
+        rel = p.relative_to(ROOT).as_posix()
+        if any(x in EXCLUDED for x in p.relative_to(ROOT).parts) or rel in NON_READER_PAGES:
+            continue
+        text = p.read_text(encoding="utf-8", errors="ignore")
+        if re.search(r"</head\s*>", text, re.I):
+            out.append((p, text))
     return out
 
 
@@ -50,6 +60,8 @@ def main():
     require(len(locs) == len(all_pages), f"Sitemap/page count mismatch: {len(locs)} != {len(all_pages)}")
     require(len(locs) == len(set(locs)), "Duplicate sitemap URLs")
     require(all(u.startswith(MIRROR) for u in locs), "Mirror sitemap contains non-mirror URL")
+    require(not any(rel in sitemap for rel in NON_READER_PAGES), "Mirror sitemap contains verification/template/helper page")
+    require("<lastmod>" not in sitemap, "Mirror sitemap contains blanket/unverified lastmod values")
     require((ROOT / "robots.txt").read_text(encoding="utf-8").find(MIRROR + "sitemap.xml") >= 0, "robots.txt lacks sitemap")
 
     authority = json.loads((ROOT / "research" / "citation-data-authority.json").read_text(encoding="utf-8"))
@@ -86,7 +98,9 @@ def main():
 
     official_sitemap = (ROOT / "research" / "sitemap-official.xml").read_text(encoding="utf-8")
     require(OFFICIAL in official_sitemap, "Official-site sitemap artifact missing official URLs")
-    print(f"Videha scholarly infrastructure PASS: {len(all_pages)} HTML pages metadata-complete; sitemap aligned; TEI valid; {len(coll['items'])} IIIF manifests; {len(fixity['files'])} SHA-256 fixity records; citation/DOI-ready authority present.")
+    require(not any(rel in official_sitemap for rel in NON_READER_PAGES), "Official sitemap contains verification/template/helper page")
+    require("<lastmod>" not in official_sitemap, "Official sitemap contains blanket/unverified lastmod values")
+    print(f"Videha scholarly infrastructure PASS: {len(all_pages)} reader-facing HTML pages metadata-complete; sitemap aligned; TEI valid; {len(coll['items'])} IIIF manifests; {len(fixity['files'])} SHA-256 fixity records; citation/DOI-ready authority present.")
 
 if __name__ == "__main__":
     main()
