@@ -1,0 +1,3 @@
+Release tag: archive-2026-09-15
+Target commit: bdcaf7fec9eb9ff237583f7a35e3a980d03a3a19
+Purpose: publish the corrected Videha repository snapshot to GitHub Releases so the connected Zenodo integration can archive it.
