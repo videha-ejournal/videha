@@ -2,7 +2,7 @@
   "algorithm": "SHA-256",
   "generated": "2026-09-14",
   "releaseIdentifier": "urn:videha:research-archive:2026-09-14",
-  "sourceCommit": "ec082b9720f3b7d1796b9545864a48c236c95f1a",
+  "sourceCommit": "be8d3d615b9371c46ff9b01bdb5dd62fe590d673",
   "files": [
     {
       "path": ".zenodo.json",
@@ -41,8 +41,8 @@
     },
     {
       "path": "index.htm",
-      "sha256": "e0d7f1a40751a0fe6ea40f1e6d7eca77341ccd8d4466716979fb5b6b6e1bd2b7",
-      "bytes": 123482
+      "sha256": "30d8f5fc032f1647abbfe70fba565a0d7357e055befdeed171416da98b829035",
+      "bytes": 123567
     },
     {
       "path": "research/2008/10/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-8.htm",
@@ -4281,12 +4281,12 @@
     },
     {
       "path": "research/citation-data-authority.html",
-      "sha256": "1a79e863fe112ada1746f0f462f5bb43450cad41ca159234b6ed19222ff56591",
+      "sha256": "c2990235727633b29515e6c8eae0d7f469a4592ca554906e56091f96926a3c5a",
       "bytes": 3848
     },
     {
       "path": "research/citation-data-authority.json",
-      "sha256": "9eaf5222a4e895b7f5f1f1ae817d399d083b8e23141a3b6376c5717f476ff0f7",
+      "sha256": "fd406c70e00c016087972a9cbd5705a8f1e5c2f40a89771409c78dca752fd889",
       "bytes": 991
     },
     {
@@ -4346,13 +4346,13 @@
     },
     {
       "path": "research/release-metadata.json",
-      "sha256": "058ffb951d62b8f28d12ad7c200142cb41665bea2354fbbba5f09bf0541c80d0",
+      "sha256": "cc57741fca8788d10b386d199b033c9d47d1bae0bb25f024da49913934d8e6cc",
       "bytes": 427
     },
     {
       "path": "research/sitemap-official.xml",
-      "sha256": "c6ee4b8bf8e79e200d6384dbcb2e94674b7404f56d4eef884559d6b40b6aea3f",
-      "bytes": 376081
+      "sha256": "2bbae98c069a2ae6e6d06034bae3ca0c31a9bc4a3c3ba30bf6869cf9fa7f0a8c",
+      "bytes": 376174
     },
     {
       "path": "research/sitemap.xml",
@@ -4376,8 +4376,8 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "eb8753f7ac92335bdee5e3cc0b224a9088b80676ef6b63c87214c5ec6a115457",
-      "bytes": 400225
+      "sha256": "ca2ed3f3df95c899e541444c4f1af4940969cf7108c73664bd57568c0ce285ba",
+      "bytes": 400334
     },
     {
       "path": "tei/current-issue.xml",
@@ -4391,8 +4391,8 @@
     },
     {
       "path": "videha-rss.xml",
-      "sha256": "54d9fad2e09382a8923cac6a8d222b349e647151312205e69a571bb23f481844",
-      "bytes": 6330
+      "sha256": "56721e776f63eae22163c7e02e53f9a1d8e9390fe7628802646ed09fe8d9811a",
+      "bytes": 20841
     }
   ]
 }

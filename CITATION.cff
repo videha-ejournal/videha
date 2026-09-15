@@ -1,35 +1,17 @@
 cff-version: 1.2.0
-message: "If you use the Videha Digital Research Archives, cite this Zenodo-preserved repository release and the underlying Videha publication."
+message: "If you use the Videha Digital Research Archives, cite this repository and the underlying Videha publication."
 title: "Videha Digital Research Archives"
 type: dataset
 authors:
   - family-names: "Thakur"
     given-names: "Gajendra"
-    affiliation: "Videha — First Maithili Fortnightly eJournal"
 version: "2026-09-14"
 date-released: "2026-09-14"
-doi: "10.5281/zenodo.22754996"
-url: "https://videha-ejournal.github.io/videha/"
-repository-code: "https://github.com/videha-ejournal/videha"
-license: "CC-BY-4.0"
-abstract: >-
-  Versioned research and preservation layer for Videha — First Maithili
-  Fortnightly eJournal, ISSN 2229-547X. CC BY 4.0 applies to
-  repository-original and curatorial metadata/dataset content; item-level
-  rights notices prevail where applicable.
+url: "https://github.com/videha-ejournal"
 identifiers:
-  - type: doi
-    value: "10.5281/zenodo.22754996"
-    description: "Zenodo DOI for GitHub release archive-2026-09-14"
   - type: other
     value: "ISSN 2229-547X"
     description: "Videha journal ISSN"
   - type: other
     value: "urn:videha:research-archive:2026-09-14"
     description: "Videha research-release URN"
-  - type: url
-    value: "https://www.videha.co.in/"
-    description: "Primary Videha publication site"
-  - type: url
-    value: "https://github.com/videha-ejournal/videha"
-    description: "Source repository"
