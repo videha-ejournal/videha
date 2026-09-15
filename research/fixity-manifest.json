@@ -2,7 +2,7 @@
   "algorithm": "SHA-256",
   "generated": "2026-09-14",
   "releaseIdentifier": "urn:videha:research-archive:2026-09-14",
-  "sourceCommit": "be8d3d615b9371c46ff9b01bdb5dd62fe590d673",
+  "sourceCommit": "f8f626d1a42c7c6ad46b1b20ddb80a6f9dcf81cd",
   "files": [
     {
       "path": ".zenodo.json",
@@ -4281,12 +4281,12 @@
     },
     {
       "path": "research/citation-data-authority.html",
-      "sha256": "c2990235727633b29515e6c8eae0d7f469a4592ca554906e56091f96926a3c5a",
+      "sha256": "f232b60f8e3901667d644ba588431897f1df1ba8b85e01aedf7dd3ee43c1d6d4",
       "bytes": 3848
     },
     {
       "path": "research/citation-data-authority.json",
-      "sha256": "fd406c70e00c016087972a9cbd5705a8f1e5c2f40a89771409c78dca752fd889",
+      "sha256": "6954b815d994ed510c94e2f774a5ae5036d14d1116d8a4b57bf6e57fa1d070a3",
       "bytes": 991
     },
     {
@@ -4346,7 +4346,7 @@
     },
     {
       "path": "research/release-metadata.json",
-      "sha256": "cc57741fca8788d10b386d199b033c9d47d1bae0bb25f024da49913934d8e6cc",
+      "sha256": "d0741786f5e2ce383d8c96251d0c9476f2e29667e4b602aaf025b79ebeb70d0a",
       "bytes": 427
     },
     {
@@ -4391,8 +4391,8 @@
     },
     {
       "path": "videha-rss.xml",
-      "sha256": "56721e776f63eae22163c7e02e53f9a1d8e9390fe7628802646ed09fe8d9811a",
-      "bytes": 20841
+      "sha256": "f87cd75963aefbdd202bcbda461e0908e6226ca35c0525ab4516dc0613230b91",
+      "bytes": 6330
     }
   ]
 }
