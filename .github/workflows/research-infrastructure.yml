@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/research-infrastructure.yml'
       - 'scholar-tools/build_research_infrastructure.py'
+      - 'scholar-tools/ensure_favicons.py'
       - 'scholar-tools/validate_research_infrastructure.py'
       - 'scholar-tools/normalize_research_sitemap.py'
       - 'scholar-tools/update_current_issue_manifest.py'
@@ -24,6 +25,7 @@ on:
     paths:
       - '.github/workflows/research-infrastructure.yml'
       - 'scholar-tools/build_research_infrastructure.py'
+      - 'scholar-tools/ensure_favicons.py'
       - 'scholar-tools/validate_research_infrastructure.py'
       - 'scholar-tools/normalize_research_sitemap.py'
       - 'scholar-tools/update_current_issue_manifest.py'
@@ -59,12 +61,16 @@ jobs:
         run: python3 --version
       - name: Build canonical metadata, sitemaps, TEI, IIIF, citation authority and fixity
         run: python3 scholar-tools/build_research_infrastructure.py
+      - name: Ensure domain-wide favicons
+        run: python3 scholar-tools/ensure_favicons.py
       - name: Generate source-controlled current issue manifest
         run: python3 scholar-tools/update_current_issue_manifest.py
       - name: Normalize sitemap to real HTML pages
         run: python3 scholar-tools/normalize_research_sitemap.py
       - name: Validate scholarly preservation layer
         run: python3 scholar-tools/validate_research_infrastructure.py
+      - name: Validate domain-wide favicons
+        run: python3 scholar-tools/ensure_favicons.py --check
       - name: Validate research registry and provenance package
         run: |
           python3 - <<'PY'
