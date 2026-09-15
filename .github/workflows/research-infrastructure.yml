@@ -71,9 +71,15 @@ jobs:
           import json
           from pathlib import Path
           root=Path('.')
-          required=['research/index.html','research/accessibility-certification.json','research-registry.json','research-registry.jsonld','research-registry.bib','research-registry.ris','research-registry.csl.json','research-registry.ttl','current-issue.json','doi-metadata.json','SCHOLARLY-PROVENANCE.md','PRESERVATION-POLICY.md']
+          required=['research/index.htm','research/index.html','research/research-registry.html','research/videha-scholar-research-book.html','research/accessibility-certification.json','research-registry.json','research-registry.jsonld','research-registry.bib','research-registry.ris','research-registry.csl.json','research-registry.ttl','current-issue.json','doi-metadata.json','SCHOLARLY-PROVENANCE.md','PRESERVATION-POLICY.md']
           missing=[p for p in required if not (root/p).exists()]
-          if missing: raise SystemExit(f'Missing research registry files: {missing}')
+          if missing: raise SystemExit(f'Missing research portal/registry files: {missing}')
+          portal=(root/'research/index.htm').read_text(encoding='utf-8',errors='ignore')
+          if '839 लेख' not in portal or 'research-search' not in portal or 'videha-scholar-research-book.html' not in portal:
+              raise SystemExit('839-article research portal/search/book linkage missing')
+          redirect=(root/'research/index.html').read_text(encoding='utf-8',errors='ignore')
+          if 'url=index.htm' not in redirect and "location.replace('index.htm" not in redirect:
+              raise SystemExit('research/index.html no longer routes to the 839-article portal')
           reg=json.loads((root/'research-registry.json').read_text(encoding='utf-8'))
           if reg.get('issn')!='2229-547X': raise SystemExit('Registry ISSN mismatch')
           if len(reg.get('resources',[]))<5: raise SystemExit('Research registry unexpectedly small')
@@ -85,7 +91,7 @@ jobs:
           if doi.get('doi') is not None or doi.get('registrationStatus')!='not-minted': raise SystemExit('DOI metadata must not fabricate an identifier')
           a11y=json.loads((root/'research/accessibility-certification.json').read_text(encoding='utf-8'))
           if a11y.get('machineChecksSubstituteForHumanTesting') is not False or a11y.get('status') not in {'pending-human-execution','in-progress','passed'}: raise SystemExit('Accessibility certification claim boundary invalid')
-          print({'registryResources':len(reg['resources']),'isbnRecords':len(isbns),'currentIssue':issue['issueNumber'],'doiStatus':doi['registrationStatus'],'accessibilityStatus':a11y['status']})
+          print({'researchPortal':'839 articles','registryResources':len(reg['resources']),'isbnRecords':len(isbns),'currentIssue':issue['issueNumber'],'doiStatus':doi['registrationStatus'],'accessibilityStatus':a11y['status']})
           PY
       - name: Upload research infrastructure audit artifacts
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
