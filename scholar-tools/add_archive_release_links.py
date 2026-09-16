@@ -7,6 +7,7 @@ leave the archive/preservation links inconsistent across the corpus.
 """
 from __future__ import annotations
 
+import argparse
 import re
 from pathlib import Path
 
@@ -54,8 +55,26 @@ def update_page(path: Path) -> str:
     return status
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--expected-count",
+        type=int,
+        default=None,
+        help="Abort unless the checked-out research corpus contains exactly this many paper pages.",
+    )
+    return parser.parse_args()
+
+
 def main() -> None:
+    args = parse_args()
     pages = sorted(RESEARCH.glob("[0-9][0-9][0-9][0-9]/*/*.htm"))
+    if args.expected_count is not None and len(pages) != args.expected_count:
+        raise SystemExit(
+            f"Expected {args.expected_count} published research papers, found {len(pages)}; "
+            "refusing silent partial coverage."
+        )
+
     stats = {"added": 0, "replaced": 0, "current": 0}
     for page in pages:
         stats[update_page(page)] += 1
@@ -66,11 +85,6 @@ def main() -> None:
         f"{stats['added']} added; {stats['replaced']} replaced; "
         f"{stats['current']} already current."
     )
-    if len(pages) != 839:
-        raise SystemExit(
-            f"Expected 839 published research papers, found {len(pages)}; "
-            "refusing silent partial coverage."
-        )
 
 
 if __name__ == "__main__":
