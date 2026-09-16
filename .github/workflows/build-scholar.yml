@@ -30,7 +30,6 @@ jobs:
             scholar-data
             templates
             research
-            tools
           sparse-checkout-cone-mode: true
       - name: Set up Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
@@ -54,8 +53,6 @@ jobs:
         run: python3 scholar-tools/build_sadeha_swapped_metadata.py
       - name: Build full research corpus including audit queues and Sadeha discoveries
         run: python3 scholar-tools/build_all_research.py
-      - name: Add minted Zenodo DOI links to every research paper
-        run: python3 scholar-tools/add_archive_release_links.py
       - name: Validate Scholar metadata
         run: python3 scholar-tools/validate_scholar.py
       - name: Commit generated research layer
