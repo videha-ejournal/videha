@@ -1,0 +1,96 @@
+name: Publish 842 Videha Research Papers
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-842-research.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: videha-publish-842-research
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: Check out scholarly source subset
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            search-documents
+            scholar-tools
+            scholar-data
+            templates
+            research
+            tools
+          sparse-checkout-cone-mode: true
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Diagnose article boundaries
+        run: python3 scholar-tools/diagnose_boundaries.py
+      - name: Build complete article inventory
+        run: python3 scholar-tools/build_article_inventory.py
+      - name: Summarize Scholar candidate strength
+        run: python3 scholar-tools/summarize_inventory.py
+      - name: Build article-level scholarly catalogue
+        run: python3 scholar-tools/build_section_catalogue.py
+      - name: Harden Scholar candidate rankings
+        run: python3 scholar-tools/harden_section_catalogue.py
+      - name: Discover legacy top-level scholarly sections
+        run: python3 scholar-tools/build_top_level_candidates.py
+      - name: Deep-map Sadeha HTML sources
+        run: python3 scholar-tools/build_sadeha_crossmap.py
+      - name: Flag probable Sadeha-confirmed legacy metadata reversals
+        run: python3 scholar-tools/build_sadeha_swapped_metadata.py
+      - name: Build full research corpus
+        run: python3 scholar-tools/build_all_research.py
+      - name: Require 842 published paper pages and archive DOIs
+        run: python3 scholar-tools/add_archive_release_links.py --expected-count 842
+      - name: Validate Scholar metadata
+        run: python3 scholar-tools/validate_scholar.py
+      - name: Verify final published count and DOI coverage
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          pages=sorted(Path('research').glob('[0-9][0-9][0-9][0-9]/*/*.htm'))
+          dois=[
+            '10.5281/zenodo.22754971','10.5281/zenodo.22754977',
+            '10.5281/zenodo.22754996','10.5281/zenodo.22755007',
+            '10.5281/zenodo.22755014','10.5281/zenodo.22755018',
+            '10.5281/zenodo.22755026','10.5281/zenodo.22755033'
+          ]
+          assert len(pages)==842, len(pages)
+          bad=[]
+          for p in pages:
+              text=p.read_text(encoding='utf-8')
+              missing=[d for d in dois if d not in text]
+              if missing: bad.append((str(p),missing))
+          if bad:
+              raise SystemExit(f'DOI verification failed for {len(bad)} pages: {bad[:3]}')
+          print('Verified 842 published research papers with all eight archive DOIs.')
+          PY
+      - name: Commit published research layer
+        run: |
+          git config user.name "videha-scholar-bot"
+          git config user.email "videha-scholar-bot@users.noreply.github.com"
+          git add research/
+          git status --short
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Publish 842 Videha research papers [skip actions]"
+            for attempt in 1 2 3; do
+              git pull --rebase origin main && git push && exit 0
+              echo "Push attempt $attempt failed; retrying after refresh"
+              sleep 2
+            done
+            exit 1
+          fi
