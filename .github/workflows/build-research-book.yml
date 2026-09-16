@@ -125,4 +125,4 @@ jobs:
             exit 1
           fi
 
-# This comment intentionally triggers the protected data-only sync after restoring the historic Book shell.
+# Trigger protected same-source sync after historic Research Book restoration; preserve shell, append only missing inventory records.
