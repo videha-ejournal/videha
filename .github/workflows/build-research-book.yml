@@ -117,7 +117,7 @@ jobs:
           print(len(data['articles']))
           PY
           )"
-            git commit -m "Synchronize historic Research Book to ${count} papers [skip actions]"
+            git commit -m "Synchronize historic Research Book to ${count} papers"
             for attempt in 1 2 3; do
               git pull --rebase origin main && git push && exit 0
               sleep 2
