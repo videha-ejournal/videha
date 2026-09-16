@@ -1,4 +1,4 @@
-name: Build Videha Scholar Research Book
+name: Update Videha Scholar Research Book
 
 on:
   workflow_dispatch:
@@ -17,11 +17,11 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-book:
+  update-book:
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
-      - name: Check out canonical inventory and book generator
+      - name: Check out canonical inventory, historic Book, and updater
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 1
@@ -29,58 +29,88 @@ jobs:
             research
             scholar-tools
           sparse-checkout-cone-mode: true
+
       - name: Set up Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: '3.12'
-      - name: Generate Research Book from research/data/articles.json
+
+      - name: Append only inventory additions to the historic Research Book
         run: python3 scholar-tools/build_research_book.py
-      - name: Verify exact source alignment
+
+      - name: Verify same-source alignment without rebuilding the Book shell
         run: python3 scholar-tools/build_research_book.py --check
-      - name: Cross-check generated provenance against canonical inventory
+
+      - name: Independent guard for historic Book interface and inventory coverage
         run: |
           python3 - <<'PY'
-          import hashlib
+          import html
           import json
+          import re
           from pathlib import Path
+          from urllib.parse import unquote
 
           source = Path('research/data/articles.json')
           book = Path('research/videha-scholar-research-book.html')
-          raw = source.read_bytes()
-          payload = json.loads(raw.decode('utf-8'))
-          articles = payload.get('articles', [])
-          count = len(articles)
-          source_sha = hashlib.sha256(raw).hexdigest()
+          payload = json.loads(source.read_text(encoding='utf-8'))
+          articles = payload['articles']
           text = book.read_text(encoding='utf-8')
 
-          expected = [
-              '<meta name="videha-article-source" content="research/data/articles.json">',
-              f'<meta name="videha-article-source-sha256" content="{source_sha}">',
-              f'<meta name="videha-article-count" content="{count}">',
+          declared = payload.get('count', len(articles))
+          if int(declared) != len(articles):
+              raise SystemExit(f'Inventory count mismatch: declared={declared}, actual={len(articles)}')
+
+          shell_markers = [
+              'विदेह Scholar अनुसन्धान पुस्तक',
+              '🔊 सुनू · Listen',
+              'GitHub Home',
+              'class="back-top"',
+              'id="book-search"',
           ]
-          missing = [marker for marker in expected if marker not in text]
-          if missing:
-              raise SystemExit(f'Research Book provenance mismatch: {missing}')
-          rows = text.count('data-source-path="')
-          if rows != count:
-              raise SystemExit(f'Research Book row mismatch: inventory={count}, book={rows}')
-          print({'canonicalInventory': count, 'researchBookRows': rows, 'sourceSha256': source_sha})
+          missing_shell = [marker for marker in shell_markers if marker not in text]
+          if missing_shell:
+              raise SystemExit(f'Historic Research Book shell damaged: {missing_shell}')
+          if not re.search(r'(41\s*(?:language|भाषा)|translat|अनुवाद|भाषा\s*(?:चुनू|चयन))', text, re.I):
+              raise SystemExit('Historic 41-language/translation interface is missing')
+
+          tbody_match = re.search(r'(?is)<tbody\b[^>]*>(.*?)</tbody>', text)
+          if not tbody_match:
+              raise SystemExit('Research Book tbody missing')
+          rows = re.findall(r'(?is)<tr\b[^>]*>.*?</tr>', tbody_match.group(1))
+          if len(rows) != len(articles):
+              raise SystemExit(f'Research Book row mismatch: inventory={len(articles)}, book={len(rows)}')
+
+          for marker in (
+              '<meta name="videha-article-source" content="research/data/articles.json">',
+              f'<meta name="videha-article-count" content="{len(articles)}">',
+          ):
+              if marker not in text:
+                  raise SystemExit(f'Research Book provenance missing: {marker}')
+
+          print({
+              'canonicalInventory': len(articles),
+              'researchBookRows': len(rows),
+              'historicShell': 'preserved',
+              'translationInterface': 'preserved',
+          })
           PY
-      - name: Commit generated Research Book
+
+      - name: Commit append-only Research Book update
         run: |
           git config user.name "videha-scholar-bot"
           git config user.email "videha-scholar-bot@users.noreply.github.com"
           git add research/videha-scholar-research-book.html
           if git diff --cached --quiet; then
-            echo "Research Book already matches canonical article inventory"
+            echo "Research Book already matches canonical article inventory; historic shell unchanged"
           else
             count="$(python3 - <<'PY'
           import json
           from pathlib import Path
-          print(len(json.loads(Path('research/data/articles.json').read_text(encoding='utf-8'))['articles']))
+          data=json.loads(Path('research/data/articles.json').read_text(encoding='utf-8'))
+          print(len(data['articles']))
           PY
           )"
-            git commit -m "Regenerate Videha Scholar Research Book (${count} papers) [skip actions]"
+            git commit -m "Append Research Book inventory additions (${count} papers) [skip actions]"
             for attempt in 1 2 3; do
               git pull --rebase origin main && git push && exit 0
               echo "Push attempt $attempt failed; retrying after refresh"
