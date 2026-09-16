@@ -41,10 +41,11 @@ jobs:
       - name: Verify same-source alignment and historic Book shell
         run: python3 scholar-tools/build_research_book.py --check
 
-      - name: Independent historic-shell and two-annex guard
+      - name: Independent historic-shell, language, and two-annex guard
         run: |
           python3 - <<'PY'
           import json, re
+          from collections import Counter
           from pathlib import Path
 
           payload=json.loads(Path('research/data/articles.json').read_text(encoding='utf-8'))
@@ -53,6 +54,12 @@ jobs:
           expected=len(articles)
           if int(payload.get('count', expected)) != expected:
               raise SystemExit('canonical inventory count mismatch')
+
+          # Language totals are always derived from the same canonical article inventory;
+          # no language count (including Maithili) is hard-coded in the workflow.
+          languages=Counter(str(a.get('language') or '').strip() for a in articles)
+          if sum(languages.values()) != expected:
+              raise SystemExit('language distribution does not reconcile to canonical inventory')
 
           markers=[
               'विदेह शोध-लेख : अंक १ सँ',
@@ -99,7 +106,13 @@ jobs:
               if marker not in text:
                   raise SystemExit(f'provenance missing: {marker}')
 
-          print({'canonicalInventory':expected,'authorAnnexRows':author_rows,'genreAnnexRows':genre_rows,'historicShell':'preserved'})
+          print({
+              'canonicalInventory': expected,
+              'languageCounts': dict(sorted(languages.items())),
+              'authorAnnexRows': author_rows,
+              'genreAnnexRows': genre_rows,
+              'historicShell': 'preserved',
+          })
           PY
 
       - name: Commit data-only Research Book update
