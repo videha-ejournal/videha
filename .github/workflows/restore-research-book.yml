@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  restore-and-sync:
+  restore-exact:
     runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
@@ -25,71 +25,63 @@ jobs:
           fetch-depth: 0
           sparse-checkout: |
             research
-            scholar-tools
           sparse-checkout-cone-mode: true
 
-      - name: Set up Python
-        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
-        with:
-          python-version: '3.12'
-
-      - name: Restore exact last-good historic Research Book shell
+      - name: Restore byte-for-byte last-good Research Book
         run: |
           git show 0a38b72a88d629a860b1c62b7e4bf0d5e17c1f4d:research/videha-scholar-research-book.html \
             > research/videha-scholar-research-book.html
           test -s research/videha-scholar-research-book.html
-          grep -Fq 'विदेह Scholar अनुसन्धान पुस्तक' research/videha-scholar-research-book.html
-          grep -Fq '🔊 सुनू · Listen' research/videha-scholar-research-book.html
-          grep -Fq 'GitHub Home' research/videha-scholar-research-book.html
-          grep -Fq 'class="back-top"' research/videha-scholar-research-book.html
-          grep -Fq 'id="book-search"' research/videha-scholar-research-book.html
+          current_sha="$(git hash-object research/videha-scholar-research-book.html)"
+          test "$current_sha" = "28df627a1ce81d6e964505c145b390e60728c772"
 
-      - name: Append only articles missing from the canonical inventory source
-        run: python3 scholar-tools/build_research_book.py
-
-      - name: Verify restored shell and exact inventory alignment
-        run: python3 scholar-tools/build_research_book.py --check
-
-      - name: Show restoration delta without permitting broad shell replacement
+      - name: Extract actual shell and table diagnostics
         run: |
           python3 - <<'PY'
-          import json
           import re
-          import subprocess
           from pathlib import Path
-
-          source = json.loads(Path('research/data/articles.json').read_text(encoding='utf-8'))
-          book = Path('research/videha-scholar-research-book.html').read_text(encoding='utf-8')
-          old = subprocess.check_output([
-              'git','show',
-              '0a38b72a88d629a860b1c62b7e4bf0d5e17c1f4d:research/videha-scholar-research-book.html'
-          ], text=True)
-
-          def tbody(text):
-              m=re.search(r'(?is)<tbody\b[^>]*>(.*?)</tbody>', text)
-              if not m: raise SystemExit('tbody missing')
-              return m.group(1)
-          old_rows=len(re.findall(r'(?is)<tr\b[^>]*>.*?</tr>', tbody(old)))
-          new_rows=len(re.findall(r'(?is)<tr\b[^>]*>.*?</tr>', tbody(book)))
-          expected=len(source['articles'])
-          if old_rows != 839:
-              raise SystemExit(f'Unexpected last-good row count: {old_rows}')
-          if new_rows != expected:
-              raise SystemExit(f'Final row mismatch: {new_rows} != {expected}')
-          if new_rows-old_rows != expected-old_rows:
-              raise SystemExit('Append-only delta mismatch')
-          print({'restoredHistoricRows': old_rows, 'inventoryRows': expected, 'appendedRows': new_rows-old_rows})
+          p=Path('research/videha-scholar-research-book.html')
+          s=p.read_text(encoding='utf-8')
+          out=[]
+          out.append('blob_sha=28df627a1ce81d6e964505c145b390e60728c772')
+          out.append(f'bytes={p.stat().st_size}')
+          out.append('HEADINGS:')
+          for tag,body in re.findall(r'(?is)<(h[1-6])\b[^>]*>(.*?)</\1>',s):
+              txt=' '.join(re.sub(r'(?is)<[^>]+>',' ',body).split())
+              if txt: out.append(f'{tag}: {txt[:500]}')
+          out.append('CONTROLS/LINK MARKERS:')
+          for pat in [r'[^\n]{0,100}(?:Listen|सुनू|Stop|रोकू)[^\n]{0,200}',
+                      r'[^\n]{0,100}(?:translate|translation|translator|अनुवाद|भाषा)[^\n]{0,300}',
+                      r'[^\n]{0,100}(?:back-top|book-search|GitHub|VIDEHA Home)[^\n]{0,300}']:
+              seen=set()
+              for m in re.finditer(pat,s,re.I):
+                  x=' '.join(m.group(0).split())
+                  if x and x not in seen:
+                      seen.add(x); out.append(x[:800])
+                  if len(seen)>=30: break
+          tm=re.search(r'(?is)<table\b.*?</table>',s)
+          if tm:
+              table=tm.group(0)
+              th=[' '.join(re.sub(r'(?is)<[^>]+>',' ',x).split()) for x in re.findall(r'(?is)<th\b[^>]*>(.*?)</th>',table)]
+              rows=re.findall(r'(?is)<tr\b[^>]*>.*?</tr>', re.search(r'(?is)<tbody\b[^>]*>(.*?)</tbody>',table).group(1))
+              out.append('TABLE_HEADERS='+repr(th))
+              out.append('TABLE_ROWS='+str(len(rows)))
+              for label,row in [('FIRST_ROW',rows[0] if rows else ''),('LAST_ROW',rows[-1] if rows else '')]:
+                  compact=' '.join(row.split())
+                  out.append(label+'='+compact[:4000])
+          scripts=re.findall(r'(?is)<script\b[^>]*\bsrc=["\']([^"\']+)',s)
+          out.append('SCRIPT_SRCS='+repr(scripts))
+          Path('research/research-book-shell-diagnostic.txt').write_text('\n'.join(out)+'\n',encoding='utf-8')
           PY
 
-      - name: Commit restored Book plus append-only inventory additions
+      - name: Commit exact restoration and diagnostic
         run: |
           git config user.name "videha-scholar-bot"
           git config user.email "videha-scholar-bot@users.noreply.github.com"
-          git add research/videha-scholar-research-book.html
-          git commit -m "Restore historic Research Book and append inventory additions [skip actions]"
+          git add research/videha-scholar-research-book.html research/research-book-shell-diagnostic.txt
+          git commit -m "Restore exact historic Videha Scholar Research Book [skip actions]"
           for attempt in 1 2 3; do
             git pull --rebase origin main && git push && exit 0
-            echo "Push attempt $attempt failed; retrying after refresh"
             sleep 2
           done
           exit 1
