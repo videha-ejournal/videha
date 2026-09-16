@@ -5,14 +5,6 @@ name: Build Videha Scholar Research Index
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/build-scholar.yml'
-      - 'scholar-tools/add_archive_release_links.py'
-      - 'scholar-tools/build_all_research.py'
-      - 'scholar-tools/build_research.py'
-      - 'templates/scholar-article.html'
   schedule:
     - cron: '23 3 * * 0'
 
