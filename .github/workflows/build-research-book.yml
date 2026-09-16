@@ -38,6 +38,40 @@ jobs:
       - name: Synchronize only Research Book data sections from canonical inventory
         run: python3 scholar-tools/build_research_book.py
 
+      - name: Refresh visible language distribution from canonical inventory
+        run: |
+          python3 - <<'PY'
+          import json, re
+          from collections import Counter
+          from pathlib import Path
+
+          source = Path('research/data/articles.json')
+          book = Path('research/videha-scholar-research-book.html')
+          payload = json.loads(source.read_text(encoding='utf-8'))
+          articles = payload['articles']
+          counts = Counter(str(a.get('language') or '').strip() for a in articles)
+          expected = len(articles)
+          labels = [
+              ('bajjika', 'बज्जिका'),
+              ('en', 'अंग्रेजी'),
+              ('mai', 'मैथिली'),
+              ('sa', 'संस्कृत'),
+              ('thethi-angika', 'ठेठी-अंगिका'),
+          ]
+          if sum(counts.values()) != expected:
+              raise SystemExit('language totals do not reconcile to canonical inventory')
+          summary = 'अन्तिम सत्यापित कॉर्पस : ' + str(expected) + ' लेख · ' + ' · '.join(
+              f'{label} {counts.get(code, 0)}' for code, label in labels
+          )
+          text = book.read_text(encoding='utf-8')
+          pattern = r'(?is)अन्तिम\s+सत्यापित\s+कॉर्पस\s*:\s*\d+\s*लेख(?:\s*·\s*[^<]*)?'
+          text2, n = re.subn(pattern, summary, text, count=1)
+          if n != 1:
+              raise SystemExit('historic corpus/language summary not found exactly once')
+          book.write_text(text2, encoding='utf-8')
+          print({'summary': summary, 'languageCounts': dict(sorted(counts.items()))})
+          PY
+
       - name: Verify same-source alignment and historic Book shell
         run: python3 scholar-tools/build_research_book.py --check
 
@@ -55,11 +89,21 @@ jobs:
           if int(payload.get('count', expected)) != expected:
               raise SystemExit('canonical inventory count mismatch')
 
-          # Language totals are always derived from the same canonical article inventory;
-          # no language count (including Maithili) is hard-coded in the workflow.
           languages=Counter(str(a.get('language') or '').strip() for a in articles)
           if sum(languages.values()) != expected:
               raise SystemExit('language distribution does not reconcile to canonical inventory')
+          labels=[
+              ('bajjika','बज्जिका'),
+              ('en','अंग्रेजी'),
+              ('mai','मैथिली'),
+              ('sa','संस्कृत'),
+              ('thethi-angika','ठेठी-अंगिका'),
+          ]
+          expected_summary='अन्तिम सत्यापित कॉर्पस : '+str(expected)+' लेख · '+' · '.join(
+              f'{label} {languages.get(code, 0)}' for code,label in labels
+          )
+          if expected_summary not in text:
+              raise SystemExit(f'visible language summary mismatch: expected {expected_summary!r}')
 
           markers=[
               'विदेह शोध-लेख : अंक १ सँ',
@@ -109,6 +153,7 @@ jobs:
           print({
               'canonicalInventory': expected,
               'languageCounts': dict(sorted(languages.items())),
+              'visibleLanguageSummary': expected_summary,
               'authorAnnexRows': author_rows,
               'genreAnnexRows': genre_rows,
               'historicShell': 'preserved',
@@ -139,4 +184,4 @@ jobs:
           fi
 
 # Protected same-source sync trigger: preserve the historic Book shell and append only missing inventory records.
-# Trigger after restoring the exact historic 839-paper shell; updater must append only canonical missing records.
+# Visible corpus and language totals are source-derived from research/data/articles.json on every run.
