@@ -139,3 +139,4 @@ jobs:
           fi
 
 # Protected same-source sync trigger: preserve the historic Book shell and append only missing inventory records.
+# Trigger after restoring the exact historic 839-paper shell; updater must append only canonical missing records.
