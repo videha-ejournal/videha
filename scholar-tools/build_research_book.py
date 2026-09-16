@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-"""Append-only synchronizer for the historic Videha Scholar Research Book.
+"""Data-only synchronizer for the historic Videha Scholar Research Book.
 
-research/data/articles.json is the canonical article inventory.  This script never
-rebuilds the Book page: it preserves the existing publication shell and existing
-rows, appends only inventory records that are missing, and refreshes count/provenance
-metadata.  If the historic Book structure cannot be recognised safely, it aborts.
+The Book's publication shell is intentionally hand-preserved.  The canonical source
+for article membership is research/data/articles.json.  This script may only:
+  * insert inventory records missing from Annex 1 (author-order table),
+  * insert the same records into Annex 2 (genre/classification tables),
+  * renumber those data tables after insertion,
+  * refresh source-derived corpus/provenance metadata.
+It never regenerates or replaces the page shell, accessibility controls, translator,
+navigation, CSS, scripts, headings, or existing article-row contents.
 """
 from __future__ import annotations
 
@@ -14,30 +18,33 @@ import html
 import json
 import re
 from pathlib import Path, PurePosixPath
-from urllib.parse import quote, unquote, urlparse
+from urllib.parse import unquote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "research" / "data" / "articles.json"
 OUTPUT = ROOT / "research" / "videha-scholar-research-book.html"
 OFFICIAL = "https://www.videha.co.in/"
 MIRROR = "https://videha-ejournal.github.io/videha/"
+ARCHIVE_EXPLORER = MIRROR + "videha-archive-explorer.html?issue="
 
-# Stable Book-specific interface markers.  The exact historical page is the source
-# of truth; we deliberately do not guess how its translator labels itself.
 SHELL_MARKERS = (
-    "विदेह Scholar अनुसन्धान पुस्तक",
-    "🔊 सुनू · Listen",
-    "GitHub Home",
-    'class="back-top"',
+    "विदेह शोध-लेख : अंक १ सँ",
+    "VIDEHA Home · www.videha.co.in",
+    "GitHub Home · videha-ejournal.github.io/videha",
+    'id="videha-tts-toggle"',
     'id="book-search"',
+    'class="back-top"',
+    "videha-tts.js",
+    "videha-translate.js",
+    "videha-access.js",
+    'aria-label="पृष्ठ सुनबाक, अनुवाद आ सहायक तकनीक नियंत्रण"',
+    "अनुलग्नक १ : लेखकानुक्रमेण सम्पूर्ण सूची",
+    "अनुलग्नक २ : विधावार सम्पूर्ण सूची",
 )
 
-LANGUAGE_LABELS = (
-    ("बज्जिका", ("bajjika", "बज्जिका")),
-    ("अंग्रेजी", ("english", "अंग्रेजी", "अंग्रेज़ी")),
-    ("मैथिली", ("maithili", "मैथिली")),
-    ("संस्कृत", ("sanskrit", "संस्कृत")),
-    ("ठेठी-अंगिका", ("thethi-angika", "thethi angika", "ठेठी-अंगिका", "ठेठी अंगिका")),
+DEVANAGARI_DIGITS = str.maketrans("0123456789", "०१२३४५६७८९")
+HONORIFIC_RE = re.compile(
+    r"^(?:(?:dr|prof|professor)\.?\s+|(?:डॉ|डा|डाॅ|प्रो|श्री|श्रीमती)\.?\s+)", re.I
 )
 
 
@@ -45,7 +52,7 @@ def as_text(value) -> str:
     if value is None:
         return ""
     if isinstance(value, list):
-        return "; ".join(v for x in value if (v := as_text(x)))
+        return "; ".join(v for item in value if (v := as_text(item)))
     if isinstance(value, dict):
         for key in ("name", "title", "label", "value"):
             if value.get(key):
@@ -80,10 +87,10 @@ def href_path(href: str) -> str:
         host = parsed.netloc.casefold()
         if host not in {"www.videha.co.in", "videha.co.in", "videha-ejournal.github.io"}:
             return ""
-        path = unquote(parsed.path).lstrip("/")
-        if host == "videha-ejournal.github.io" and path.startswith("videha/"):
-            path = path[len("videha/"):]
-        return canonical_path(path)
+        value = unquote(parsed.path).lstrip("/")
+        if host == "videha-ejournal.github.io" and value.startswith("videha/"):
+            value = value[len("videha/"):]
+        return canonical_path(value)
     return canonical_path(href)
 
 
@@ -92,212 +99,374 @@ def load_inventory():
     payload = json.loads(raw.decode("utf-8"))
     articles = payload.get("articles")
     if not isinstance(articles, list):
-        raise SystemExit("articles.json has no articles list")
+        raise SystemExit("articles.json must contain an articles list")
     declared = payload.get("count")
     if declared is not None and int(declared) != len(articles):
         raise SystemExit(f"Inventory count mismatch: declared={declared}, actual={len(articles)}")
-    paths = [canonical_path(a.get("path", "")) for a in articles]
-    if any(not p for p in paths):
-        raise SystemExit("Every inventory article must have a research/*.htm(l) path")
+    records = []
+    for article in articles:
+        path = canonical_path(article.get("path", ""))
+        if not path:
+            raise SystemExit(f"Invalid article path: {article.get('path')!r}")
+        records.append((path, article))
+    paths = [p for p, _ in records]
     if len(paths) != len(set(paths)):
-        raise SystemExit("Duplicate article paths in canonical inventory")
-    return raw, articles, paths
+        raise SystemExit("Duplicate canonical paths in articles.json")
+    return raw, records
 
 
 def assert_shell(text: str) -> None:
-    missing = [m for m in SHELL_MARKERS if m not in text]
+    missing = [marker for marker in SHELL_MARKERS if marker not in text]
     if missing:
-        raise SystemExit("Historic Research Book shell is not intact: " + ", ".join(missing))
+        raise SystemExit("Historic Research Book shell is damaged or replaced: " + repr(missing))
 
 
-def split_tbody(text: str):
-    matches = list(re.finditer(r"(?is)<tbody\b[^>]*>.*?</tbody>", text))
-    if len(matches) != 1:
-        raise SystemExit(f"Expected exactly one Book tbody; found {len(matches)}")
-    m = matches[0]
-    block = m.group(0)
-    open_end = block.find(">") + 1
-    return text[:m.start()], block[:open_end], block[open_end:-len("</tbody>")], "</tbody>", text[m.end():]
+def annex_boundaries(text: str):
+    a1 = re.search(r"(?is)<h2\b[^>]*>\s*अनुलग्नक\s*१\s*:\s*लेखकानुक्रमेण\s*सम्पूर्ण\s*सूची\s*</h2>", text)
+    a2 = re.search(r"(?is)<h2\b[^>]*>\s*अनुलग्नक\s*२\s*:\s*विधावार\s*सम्पूर्ण\s*सूची\s*</h2>", text)
+    if not a1 or not a2 or a1.start() >= a2.start():
+        raise SystemExit("Historic Research Book annex boundaries not found")
+    return a1, a2
 
 
-def row_blocks(tbody: str) -> list[str]:
-    return re.findall(r"(?is)<tr\b[^>]*>.*?</tr>", tbody)
+def first_table(segment: str):
+    table = re.search(r"(?is)<table\b[^>]*>.*?</table>", segment)
+    if not table:
+        raise SystemExit("Expected Book table not found")
+    return table
 
 
-def inventory_paths_in(text: str, inventory: set[str]) -> set[str]:
+def tbody_parts(table_html: str):
+    m = re.search(r"(?is)(<tbody\b[^>]*>)(.*?)(</tbody>)", table_html)
+    if not m:
+        raise SystemExit("Expected tbody not found")
+    return m
+
+
+def rows_from(tbody_inner: str) -> list[str]:
+    return re.findall(r"(?is)<tr\b[^>]*>.*?</tr>", tbody_inner)
+
+
+def paths_in_rows(rows: list[str], inventory: set[str]) -> set[str]:
     found: set[str] = set()
-    for href in re.findall(r"(?is)\bhref\s*=\s*[\"']([^\"']+)[\"']", text):
-        p = href_path(href)
-        if p in inventory:
-            found.add(p)
+    for row in rows:
+        for href in re.findall(r"(?is)\bhref\s*=\s*[\"']([^\"']+)[\"']", row):
+            path = href_path(href)
+            if path in inventory:
+                found.add(path)
+                break
     return found
 
 
-def strip_tags(fragment: str) -> str:
-    fragment = re.sub(r"(?is)<script\b.*?</script>|<style\b.*?</style>", "", fragment)
-    fragment = re.sub(r"(?is)<[^>]+>", " ", fragment)
-    return " ".join(html.unescape(fragment).split())
+def plain(fragment: str) -> str:
+    return " ".join(html.unescape(re.sub(r"(?is)<[^>]+>", " ", fragment)).split())
 
 
-def headers(prefix: str) -> list[str]:
-    return [strip_tags(x) for x in re.findall(r"(?is)<th\b[^>]*>(.*?)</th>", prefix)]
+def row_author(row: str) -> str:
+    cells = re.findall(r"(?is)<td\b[^>]*>(.*?)</td>", row)
+    return plain(cells[1]) if len(cells) >= 2 else ""
 
 
-def classify(label: str, i: int, n: int) -> str:
-    x = label.casefold()
-    if any(k in x for k in ("क्रम", "serial", "no.")) or (i == 0 and n >= 2): return "number"
-    if any(k in x for k in ("लेखक", "author")): return "author"
-    if any(k in x for k in ("शीर्षक", "title")): return "title"
-    if any(k in x for k in ("विधा", "genre")): return "genre"
-    if any(k in x for k in ("भाषा", "language")): return "language"
-    if any(k in x for k in ("अंक", "issue", "तिथि", "date")): return "issue"
-    if any(k in x for k in ("वर्गीकरण", "classification", "category", "विषय")): return "classification"
-    if any(k in x for k in ("सूचक", "keyword")): return "keywords"
-    if any(k in x for k in ("लिंक", "link", "पाठ", "source", "mirror", "मिरर")) or i == n - 1: return "links"
-    return "unknown"
+def author_key(name: str) -> str:
+    value = " ".join(name.split())
+    value = HONORIFIC_RE.sub("", value).strip()
+    return value.casefold()
 
 
-def value(article, kind: str, number: int, path: str) -> str:
-    title = as_text(article.get("title")) or Path(path).stem
-    author = as_text(article.get("authors")) or as_text(article.get("author"))
-    if kind == "number": return str(number)
-    if kind == "author": return html.escape(author)
-    if kind == "title": return html.escape(title)
-    if kind == "genre": return html.escape(as_text(article.get("genre")))
-    if kind == "language": return html.escape(as_text(article.get("language")))
-    if kind == "issue":
-        return html.escape(" · ".join(v for v in (as_text(article.get("issue")), as_text(article.get("date"))) if v))
-    if kind == "classification": return html.escape(as_text(article.get("classification")))
-    if kind == "keywords": return html.escape(as_text(article.get("keywords")))
-    if kind == "links":
-        encoded = quote(path, safe="/")
-        return (f'<a href="{html.escape(OFFICIAL + encoded, quote=True)}">VIDEHA</a> · '
-                f'<a href="{html.escape(MIRROR + encoded, quote=True)}">GitHub</a>')
-    return ""
+def insert_row_authorwise(rows: list[str], new_row: str, author: str) -> None:
+    target = " ".join(author.split()).casefold()
+    same = [i for i, row in enumerate(rows) if " ".join(row_author(row).split()).casefold() == target]
+    if same:
+        rows.insert(same[-1] + 1, new_row)
+        return
+    key = author_key(author)
+    for i, row in enumerate(rows):
+        existing = author_key(row_author(row))
+        if existing and existing > key:
+            rows.insert(i, new_row)
+            return
+    rows.append(new_row)
 
 
-def render_row(article, number: int, path: str, labels: list[str]) -> str:
-    kinds = [classify(label, i, len(labels)) for i, label in enumerate(labels)]
-    if not {"author", "title", "links"}.issubset(kinds):
-        raise SystemExit(f"Cannot safely map historic Book columns: {labels!r}")
-    searchable = " ".join(filter(None, [
-        as_text(article.get("author")), as_text(article.get("authors")), as_text(article.get("title")),
-        as_text(article.get("genre")), as_text(article.get("language")), as_text(article.get("issue")),
-        as_text(article.get("date")), as_text(article.get("classification")), as_text(article.get("keywords")),
-    ])).casefold()
-    cells = []
-    for kind in kinds:
-        cls = {"number": ' class="n"', "title": ' class="title"', "links": ' class="links"'}.get(kind, "")
-        cells.append(f"<td{cls}>{value(article, kind, number, path)}</td>")
-    return (f'\n<tr data-search="{html.escape(searchable, quote=True)}" '
-            f'data-source-path="{html.escape(path, quote=True)}">' + "".join(cells) + "</tr>")
-
-
-def language_counts(articles) -> dict[str, int]:
-    out = {label: 0 for label, _ in LANGUAGE_LABELS}
-    for article in articles:
-        raw = as_text(article.get("language")).casefold()
-        for label, aliases in LANGUAGE_LABELS:
-            if any(alias.casefold() in raw for alias in aliases):
-                out[label] += 1
-                break
+def renumber_rows(rows: list[str]) -> list[str]:
+    out = []
+    for number, row in enumerate(rows, 1):
+        changed, n = re.subn(
+            r"(?is)(<tr\b[^>]*>\s*<td\b[^>]*>)\s*\d+\s*(</td>)",
+            lambda m: m.group(1) + str(number) + m.group(2),
+            row,
+            count=1,
+        )
+        if n != 1:
+            raise SystemExit(f"Could not renumber a Book row at position {number}")
+        out.append(changed)
     return out
 
 
-def refresh_outside(text: str, old_count: int, new_count: int, raw: bytes, articles) -> str:
-    # Only the known corpus/status representations are changed.  Interface markup is untouched.
-    text = re.sub(rf"(?<!\d){old_count}(?!\d)", str(new_count), text)
-    deva = str.maketrans("0123456789", "०१२३४५६७८९")
-    text = text.replace(str(old_count).translate(deva), str(new_count).translate(deva))
-    counts = language_counts(articles)
-    status = (f"अन्तिम सत्यापित कॉर्पस : {new_count} लेख"
-              f" · बज्जिका {counts['बज्जिका']} · अंग्रेजी {counts['अंग्रेजी']}"
-              f" · मैथिली {counts['मैथिली']} · संस्कृत {counts['संस्कृत']}"
-              f" · ठेठी-अंगिका {counts['ठेठी-अंगिका']}")
-    text = re.sub(
-        r"अन्तिम सत्यापित कॉर्पस\s*:\s*\d+\s*लेख(?:\s*·\s*बज्जिका\s*\d+)?(?:\s*·\s*अंग्रेजी\s*\d+)?(?:\s*·\s*मैथिली\s*\d+)?(?:\s*·\s*संस्कृत\s*\d+)?(?:\s*·\s*ठेठी-अंगिका\s*\d+)?",
-        status, text, count=1)
-    text = re.sub(r'("numberOfItems"\s*:\s*)\d+', rf"\g<1>{new_count}", text)
+def article_author(article) -> str:
+    return as_text(article.get("authors")) or as_text(article.get("author"))
+
+
+def article_url(path: str, article) -> str:
+    url = as_text(article.get("url"))
+    if url.startswith(("https://www.videha.co.in/", "http://www.videha.co.in/")):
+        return url.replace("http://", "https://", 1)
+    return OFFICIAL + path
+
+
+def article_category(article) -> str:
+    return as_text(article.get("genre")) or as_text(article.get("classification")) or "Scholarly article"
+
+
+def article_topics(article) -> str:
+    keywords = as_text(article.get("keywords"))
+    return keywords or as_text(article.get("classification")) or article_category(article)
+
+
+def page_label(article) -> str:
+    start = as_text(article.get("page_start"))
+    end = as_text(article.get("page_end"))
+    if start and end:
+        return start if start == end else f"{start}–{end}"
+    if start:
+        return start
+    title = as_text(article.get("title"))
+    match = re.search(r"पृष्ठ\s*([०-९0-9]+)\s*[-–—]\s*([०-९0-9]+)", title)
+    if match:
+        return f"{match.group(1)}–{match.group(2)}"
+    match = re.search(r"पृष्ठ\s*([०-९0-9]+)", title)
+    return match.group(1) if match else "—"
+
+
+def issue_cell(article) -> str:
+    issue = as_text(article.get("issue"))
+    date = as_text(article.get("publication_date")) or as_text(article.get("date"))
+    label = html.escape(f"अंक {issue}") if issue else "अंक"
+    if issue:
+        body = f'<a href="{html.escape(ARCHIVE_EXPLORER + issue, quote=True)}">{label}</a>'
+    else:
+        body = label
+    return body + (f" · {html.escape(date)}" if date else "")
+
+
+def render_author_row(path: str, article) -> str:
+    author = article_author(article)
+    title = as_text(article.get("title")) or Path(path).stem
+    return (
+        "<tr><td>0</td>"
+        f"<td>{html.escape(author)}</td>"
+        f'<td><a href="{html.escape(article_url(path, article), quote=True)}">{html.escape(title)}</a></td>'
+        f"<td>{html.escape(article_category(article))}</td>"
+        f"<td>{html.escape(as_text(article.get('language')))}</td>"
+        f"<td>{issue_cell(article)}</td>"
+        f"<td>{html.escape(article_topics(article))}</td>"
+        f"<td>{html.escape(page_label(article))}</td></tr>"
+    )
+
+
+def render_genre_row(path: str, article) -> str:
+    author = article_author(article)
+    title = as_text(article.get("title")) or Path(path).stem
+    return (
+        "<tr><td>0</td>"
+        f"<td>{html.escape(author)}</td>"
+        f'<td><a href="{html.escape(article_url(path, article), quote=True)}">{html.escape(title)}</a></td>'
+        f"<td>{html.escape(as_text(article.get('language')))}</td>"
+        f"<td>{issue_cell(article)}</td>"
+        f"<td>{html.escape(article_topics(article))}</td>"
+        f"<td>{html.escape(page_label(article))}</td></tr>"
+    )
+
+
+def sync_annex1(text: str, missing: list[tuple[str, dict]]) -> str:
+    a1, a2 = annex_boundaries(text)
+    segment = text[a1.end():a2.start()]
+    table_match = first_table(segment)
+    table = table_match.group(0)
+    body = tbody_parts(table)
+    rows = rows_from(body.group(2))
+    for path, article in missing:
+        insert_row_authorwise(rows, render_author_row(path, article), article_author(article))
+    rows = renumber_rows(rows)
+    new_table = table[:body.start(2)] + "".join(rows) + table[body.end(2):]
+    new_segment = segment[:table_match.start()] + new_table + segment[table_match.end():]
+    return text[:a1.end()] + new_segment + text[a2.start():]
+
+
+def genre_section_pattern(category: str):
+    label = re.escape(html.escape(category))
+    return re.compile(
+        rf"(?is)(<h3\b[^>]*>\s*{label}\s*\()(\d+)(\)\s*</h3>\s*<table\b[^>]*>.*?<tbody\b[^>]*>)(.*?)(</tbody>\s*</table>)"
+    )
+
+
+def new_genre_section(category: str, additions: list[tuple[str, dict]]) -> str:
+    rows = [render_genre_row(path, article) for path, article in additions]
+    rows = renumber_rows(rows)
+    return (
+        f"<h3>{html.escape(category)} ({len(rows)})</h3>"
+        "<table><thead><tr><th>क्रम</th><th>लेखक</th><th>लेख</th><th>भाषा</th>"
+        "<th>अंक · तिथि</th><th>वर्गीकरण</th><th>पृष्ठ</th></tr></thead><tbody>"
+        + "".join(rows) + "</tbody></table>"
+    )
+
+
+def sync_annex2(text: str, missing: list[tuple[str, dict]]) -> str:
+    grouped: dict[str, list[tuple[str, dict]]] = {}
+    for path, article in missing:
+        grouped.setdefault(article_category(article), []).append((path, article))
+
+    for category, additions in grouped.items():
+        pattern = genre_section_pattern(category)
+        match = pattern.search(text)
+        if match:
+            rows = rows_from(match.group(4))
+            for path, article in additions:
+                insert_row_authorwise(rows, render_genre_row(path, article), article_author(article))
+            rows = renumber_rows(rows)
+            replacement = match.group(1) + str(len(rows)) + match.group(3) + "".join(rows) + match.group(5)
+            text = text[:match.start()] + replacement + text[match.end():]
+            continue
+
+        # New classification: append only at the end of Annex 2, immediately before
+        # the historic back-to-top control/scripts.  Existing sections are untouched.
+        _, a2 = annex_boundaries(text)
+        tail = text[a2.end():]
+        stop = re.search(r"(?is)<[^>]+\bclass=[\"'][^\"']*\bback-top\b[^\"']*[\"'][^>]*>|<script\b", tail)
+        if not stop:
+            raise SystemExit(f"Cannot find safe Annex 2 insertion point for {category!r}")
+        pos = a2.end() + stop.start()
+        section = new_genre_section(category, additions)
+        text = text[:pos] + section + text[pos:]
+    return text
+
+
+def author_annex_rows(text: str) -> list[str]:
+    a1, a2 = annex_boundaries(text)
+    segment = text[a1.end():a2.start()]
+    table = first_table(segment).group(0)
+    return rows_from(tbody_parts(table).group(2))
+
+
+def genre_annex_rows(text: str) -> list[str]:
+    _, a2 = annex_boundaries(text)
+    tail = text[a2.end():]
+    # Stop before scripts/back-top to avoid any unrelated later table.
+    stop = re.search(r"(?is)<[^>]+\bclass=[\"'][^\"']*\bback-top\b[^\"']*[\"'][^>]*>|<script\b", tail)
+    segment = tail[:stop.start()] if stop else tail
+    out: list[str] = []
+    for inner in re.findall(r"(?is)<tbody\b[^>]*>(.*?)</tbody>", segment):
+        out.extend(rows_from(inner))
+    return out
+
+
+def refresh_counts_and_provenance(text: str, raw: bytes, records: list[tuple[str, dict]]) -> str:
+    count = len(records)
+    # Visible search status and the inline search script both use the corpus phrase.
+    text = re.sub(r"(?<![0-9])\d+\s*लेख", f"{count} लेख", text)
+    text = re.sub(r'("numberOfItems"\s*:\s*)\d+', rf"\g<1>{count}", text)
+
+    # Keep the issue range source-derived as well (the restored shell already says 448;
+    # this also repairs any stale JSON-LD name that still said 447).
+    issues = [int(as_text(a.get("issue"))) for _, a in records if as_text(a.get("issue")).isdigit()]
+    if issues:
+        max_issue_deva = str(max(issues)).translate(DEVANAGARI_DIGITS)
+        text = re.sub(r"अंक\s*१\s*सँ\s*[०-९]+\s*धरि", f"अंक १ सँ {max_issue_deva} धरि", text)
+
     source_sha = hashlib.sha256(raw).hexdigest()
-    provenance = (f'<meta name="videha-article-source" content="research/data/articles.json">\n'
-                  f'<meta name="videha-article-source-sha256" content="{source_sha}">\n'
-                  f'<meta name="videha-article-count" content="{new_count}">')
+    provenance = (
+        '<meta name="videha-article-source" content="research/data/articles.json">\n'
+        f'<meta name="videha-article-source-sha256" content="{source_sha}">\n'
+        f'<meta name="videha-article-count" content="{count}">'
+    )
     text = re.sub(
-        r'(?is)\s*<meta\s+name=["\']videha-article-source["\'][^>]*>\s*<meta\s+name=["\']videha-article-source-sha256["\'][^>]*>\s*<meta\s+name=["\']videha-article-count["\'][^>]*>',
-        "\n" + provenance, text, count=1)
+        r'(?is)\s*<meta\s+name=["\']videha-article-source["\'][^>]*>\s*'
+        r'<meta\s+name=["\']videha-article-source-sha256["\'][^>]*>\s*'
+        r'<meta\s+name=["\']videha-article-count["\'][^>]*>',
+        "\n" + provenance,
+        text,
+        count=1,
+    )
     if 'name="videha-article-source"' not in text and "name='videha-article-source'" not in text:
         text = re.sub(r"(?i)</head>", provenance + "\n</head>", text, count=1)
     return text
 
 
-def synchronize(text: str):
-    assert_shell(text)
-    raw, articles, paths = load_inventory()
-    inventory = set(paths)
-    prefix, tbody_open, tbody, tbody_close, suffix = split_tbody(text)
-    rows = row_blocks(tbody)
-    old_count = len(rows)
-    if old_count > len(articles):
-        raise SystemExit(f"Refusing destructive sync: Book={old_count}, inventory={len(articles)}")
-    found = inventory_paths_in(tbody, inventory)
-    if len(found) != old_count:
-        raise SystemExit(f"Cannot identify every historic article row safely: rows={old_count}, matched={len(found)}")
-    missing = [(a, p) for a, p in zip(articles, paths) if p not in found]
-    if old_count + len(missing) != len(articles):
-        raise SystemExit("Append-only reconciliation failed")
-    labels = headers(prefix)
-    if not labels:
-        raise SystemExit("Historic Book table headers not found")
-    additions = "".join(render_row(a, old_count + i, p, labels) for i, (a, p) in enumerate(missing, 1))
-    new_prefix = refresh_outside(prefix, old_count, len(articles), raw, articles)
-    new_suffix = refresh_outside(suffix, old_count, len(articles), raw, articles)
-    return new_prefix + tbody_open + tbody + additions + tbody_close + new_suffix, missing, old_count
+def inventory_paths(rows: list[str], known: set[str]) -> set[str]:
+    return paths_in_rows(rows, known)
 
 
-def verify(text: str) -> None:
+def verify(text: str, raw: bytes, records: list[tuple[str, dict]]) -> None:
     assert_shell(text)
-    raw, articles, paths = load_inventory()
-    inventory = set(paths)
-    prefix, _, tbody, _, suffix = split_tbody(text)
-    rows = row_blocks(tbody)
-    if len(rows) != len(articles):
-        raise SystemExit(f"Book row mismatch: inventory={len(articles)}, book={len(rows)}")
-    found = inventory_paths_in(tbody, inventory)
-    if found != inventory:
-        raise SystemExit(f"Book path mismatch: missing={len(inventory-found)}, matched={len(found)}")
-    outside = prefix + suffix
+    known = {p for p, _ in records}
+    author_rows = author_annex_rows(text)
+    genre_rows = genre_annex_rows(text)
+    if len(author_rows) != len(records):
+        raise SystemExit(f"Annex 1 row mismatch: {len(author_rows)} != {len(records)}")
+    if len(genre_rows) != len(records):
+        raise SystemExit(f"Annex 2 row mismatch: {len(genre_rows)} != {len(records)}")
+    author_paths = inventory_paths(author_rows, known)
+    genre_paths = inventory_paths(genre_rows, known)
+    if author_paths != known:
+        raise SystemExit(f"Annex 1 path mismatch: missing={len(known-author_paths)}")
+    if genre_paths != known:
+        raise SystemExit(f"Annex 2 path mismatch: missing={len(known-genre_paths)}")
     source_sha = hashlib.sha256(raw).hexdigest()
     required = (
         '<meta name="videha-article-source" content="research/data/articles.json">',
         f'<meta name="videha-article-source-sha256" content="{source_sha}">',
-        f'<meta name="videha-article-count" content="{len(articles)}">',
+        f'<meta name="videha-article-count" content="{len(records)}">',
     )
-    missing = [x for x in required if x not in outside]
+    missing = [x for x in required if x not in text]
     if missing:
-        raise SystemExit(f"Book provenance mismatch: {missing}")
+        raise SystemExit(f"Research Book provenance mismatch: {missing}")
+
+
+def synchronize(text: str, raw: bytes, records: list[tuple[str, dict]]):
+    assert_shell(text)
+    known = {p for p, _ in records}
+    existing_author_rows = author_annex_rows(text)
+    existing_paths = inventory_paths(existing_author_rows, known)
+    if len(existing_paths) != len(existing_author_rows):
+        raise SystemExit(
+            f"Refusing sync because existing Annex 1 rows do not map one-to-one to inventory: "
+            f"rows={len(existing_author_rows)}, matched={len(existing_paths)}"
+        )
+    if len(existing_paths) > len(records):
+        raise SystemExit("Refusing destructive Research Book sync")
+    missing = [(p, a) for p, a in records if p not in existing_paths]
+    if len(existing_paths) + len(missing) != len(records):
+        raise SystemExit("Research Book inventory reconciliation failed")
+
+    rendered = text
+    if missing:
+        rendered = sync_annex1(rendered, missing)
+        rendered = sync_annex2(rendered, missing)
+    rendered = refresh_counts_and_provenance(rendered, raw, records)
+    verify(rendered, raw, records)
+    return rendered, missing
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true")
     args = parser.parse_args()
+
+    raw, records = load_inventory()
     current = OUTPUT.read_text(encoding="utf-8")
     if args.check:
-        verify(current)
-        _, articles, _ = load_inventory()
-        print(f"Research Book verified: {len(articles)} canonical articles; historic shell intact")
+        verify(current, raw, records)
+        print(f"Research Book verified from canonical source: {len(records)} rows in each annex; historic shell intact")
         return
-    rendered, missing, old_count = synchronize(current)
-    verify(rendered)
+
+    rendered, missing = synchronize(current, raw, records)
     if rendered != current:
         OUTPUT.write_text(rendered, encoding="utf-8")
-    _, articles, _ = load_inventory()
-    print(f"SOURCE_COUNT={len(articles)}")
-    print(f"EXISTING_ROWS={old_count}")
+    print(f"SOURCE_COUNT={len(records)}")
     print(f"MISSING_BEFORE={len(missing)}")
-    for article, path in missing:
-        print("APPENDED:", path, "::", as_text(article.get("title")), "::", as_text(article.get("authors")) or as_text(article.get("author")))
-    print(f"FINAL_ROWS={len(articles)}")
+    for path, article in missing:
+        print("ADDED:", path, "::", article_author(article), "::", as_text(article.get("title")), "::", article_category(article))
+    print(f"FINAL_COUNT={len(records)}")
 
 
 if __name__ == "__main__":
