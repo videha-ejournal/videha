@@ -125,4 +125,4 @@ jobs:
             exit 1
           fi
 
-# Trigger protected same-source sync after historic Research Book restoration; preserve shell, append only missing inventory records.
+# Protected same-source sync trigger: preserve the historic Book shell and append only missing inventory records.
