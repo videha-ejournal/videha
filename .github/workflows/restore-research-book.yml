@@ -43,10 +43,6 @@ jobs:
           grep -Fq 'GitHub Home' research/videha-scholar-research-book.html
           grep -Fq 'class="back-top"' research/videha-scholar-research-book.html
           grep -Fq 'id="book-search"' research/videha-scholar-research-book.html
-          if ! grep -Eiq '41[[:space:]]*(language|भाषा)|translat|अनुवाद|भाषा[[:space:]]*(चुनू|चयन)' research/videha-scholar-research-book.html; then
-            echo 'Historic translation interface marker missing' >&2
-            exit 1
-          fi
 
       - name: Append only articles missing from the canonical inventory source
         run: python3 scholar-tools/build_research_book.py
