@@ -1,0 +1,120 @@
+name: Finalize 842 Research Publication
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/finalize-842-publication.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: videha-finalize-842-research
+  cancel-in-progress: false
+
+jobs:
+  finalize:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Check out current research corpus with history
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          sparse-checkout: |
+            research
+          sparse-checkout-cone-mode: true
+      - name: Identify exactly three additions and restore the prior 839 pages byte-for-byte
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE=1fa338a8ffaa3d73a4a0a010a7b8fef4c86afe2b
+          mapfile -t baseline_pages < <(git ls-tree -r --name-only "$BASE" -- research | grep -E '^research/[0-9]{4}/[^/]+/.*\.htm$' | sort)
+          mapfile -t current_pages < <(find research -mindepth 3 -maxdepth 3 -type f -name '*.htm' -print | sort)
+          mapfile -t added_pages < <(comm -13 <(printf '%s\n' "${baseline_pages[@]}") <(printf '%s\n' "${current_pages[@]}"))
+          test "${#baseline_pages[@]}" -eq 839
+          test "${#current_pages[@]}" -eq 842
+          test "${#added_pages[@]}" -eq 3
+          printf '%s\n' "${added_pages[@]}" | tee /tmp/videha-new-three.txt
+          git checkout "$BASE" -- "${baseline_pages[@]}"
+      - name: Make only the three new pages self-canonical and keep their DOI block
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from urllib.parse import quote
+          import re, html
+          paths=[Path(x.strip()) for x in Path('/tmp/videha-new-three.txt').read_text(encoding='utf-8').splitlines() if x.strip()]
+          assert len(paths)==3, paths
+          dois=[
+            '10.5281/zenodo.22754971','10.5281/zenodo.22754977',
+            '10.5281/zenodo.22754996','10.5281/zenodo.22755007',
+            '10.5281/zenodo.22755014','10.5281/zenodo.22755018',
+            '10.5281/zenodo.22755026','10.5281/zenodo.22755033'
+          ]
+          for p in paths:
+              rel=p.as_posix()
+              encoded=quote(rel, safe='/')
+              mirror='https://videha-ejournal.github.io/videha/'+encoded
+              official='https://www.videha.co.in/'+encoded
+              s=p.read_text(encoding='utf-8')
+              s=s.replace('https://www.videha.co.in/templates/scholar-article.html', mirror)
+              s=s.replace('https://videha-ejournal.github.io/videha/templates/scholar-article.html', official)
+              s=s.replace('"@type":"WebPage","name"', '"@type":"CollectionPage","name"')
+              s=s.replace('href="../assets/img/', 'href="../../../assets/img/')
+              if 'https://www.videha.co.in/templates/scholar-article.html' in s or 'https://videha-ejournal.github.io/videha/templates/scholar-article.html' in s:
+                  raise SystemExit(f'template canonical remains in {p}')
+              if f'<link rel="canonical" href="{mirror}">' not in s:
+                  raise SystemExit(f'bad canonical in {p}')
+              missing=[d for d in dois if d not in s]
+              if missing:
+                  raise SystemExit(f'missing DOI links in {p}: {missing}')
+              p.write_text(s, encoding='utf-8')
+              m=re.search(r'<h1[^>]*>(.*?)</h1>', s, re.S|re.I)
+              title=html.unescape(re.sub(r'<[^>]+>', ' ', m.group(1))).strip() if m else p.stem
+              print(f'NEW PAPER: {rel} :: {title}')
+          PY
+      - name: Verify old 839 pages are unchanged and final corpus is 842
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE=1fa338a8ffaa3d73a4a0a010a7b8fef4c86afe2b
+          mapfile -t baseline_pages < <(git ls-tree -r --name-only "$BASE" -- research | grep -E '^research/[0-9]{4}/[^/]+/.*\.htm$' | sort)
+          mapfile -t all_pages < <(find research -mindepth 3 -maxdepth 3 -type f -name '*.htm' -print | sort)
+          test "${#baseline_pages[@]}" -eq 839
+          test "${#all_pages[@]}" -eq 842
+          git diff --quiet "$BASE" -- "${baseline_pages[@]}"
+          python3 - <<'PY'
+          from pathlib import Path
+          dois=[
+            '10.5281/zenodo.22754971','10.5281/zenodo.22754977',
+            '10.5281/zenodo.22754996','10.5281/zenodo.22755007',
+            '10.5281/zenodo.22755014','10.5281/zenodo.22755018',
+            '10.5281/zenodo.22755026','10.5281/zenodo.22755033'
+          ]
+          pages=sorted(Path('research').glob('[0-9][0-9][0-9][0-9]/*/*.htm'))
+          assert len(pages)==842
+          bad=[]
+          for p in pages:
+              s=p.read_text(encoding='utf-8')
+              miss=[d for d in dois if d not in s]
+              if miss: bad.append((str(p), miss))
+          if bad: raise SystemExit(bad[:3])
+          print('FINAL QA: 839 prior pages preserved exactly; 3 new pages retained; 842 total; 8 DOI links on every page.')
+          PY
+      - name: Commit precise three-paper publication state
+        run: |
+          git config user.name "videha-scholar-bot"
+          git config user.email "videha-scholar-bot@users.noreply.github.com"
+          git add research/
+          git status --short
+          if git diff --cached --quiet; then
+            echo "No repair changes required"
+          else
+            git commit -m "Finalize three-paper publication without altering prior 839 pages [skip actions]"
+            for attempt in 1 2 3; do
+              git pull --rebase origin main && git push && exit 0
+              sleep 2
+            done
+            exit 1
+          fi
