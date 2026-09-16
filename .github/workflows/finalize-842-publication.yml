@@ -25,11 +25,11 @@ jobs:
           sparse-checkout: |
             research
           sparse-checkout-cone-mode: true
-      - name: Diagnose publication inventory delta
+      - name: Identify exactly three additions and restore the prior 839 pages byte-for-byte
         shell: bash
         run: |
           set -euo pipefail
-          BASE=1fa338a8ffaa3d73a4a0a010a7b8fef4c86afe2b
+          BASE=1af1cdad0a7c3b2338e14069f5ab0d633d803130
           mapfile -t baseline_pages < <(git ls-tree -r --name-only "$BASE" -- research | grep -E '^research/[0-9]{4}/[^/]+/.*\.htm$' | sort)
           mapfile -t current_pages < <(find research -mindepth 3 -maxdepth 3 -type f -name '*.htm' -print | sort)
           mapfile -t added_pages < <(comm -13 <(printf '%s\n' "${baseline_pages[@]}") <(printf '%s\n' "${current_pages[@]}"))
@@ -42,10 +42,8 @@ jobs:
           printf 'MISSING_BASELINE_PATH=%s\n' "${missing_pages[@]}"
           test "${#baseline_pages[@]}" -eq 839
           test "${#current_pages[@]}" -eq 842
-          if [ "${#added_pages[@]}" -ne 3 ] || [ "${#missing_pages[@]}" -ne 0 ]; then
-            echo "Path sets are not a simple +3 delta; stopping before any write."
-            exit 2
-          fi
+          test "${#added_pages[@]}" -eq 3
+          test "${#missing_pages[@]}" -eq 0
           printf '%s\n' "${added_pages[@]}" | tee /tmp/videha-new-three.txt
           git checkout "$BASE" -- "${baseline_pages[@]}"
       - name: Make only the three new pages self-canonical and keep their DOI block
@@ -88,7 +86,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          BASE=1fa338a8ffaa3d73a4a0a010a7b8fef4c86afe2b
+          BASE=1af1cdad0a7c3b2338e14069f5ab0d633d803130
           mapfile -t baseline_pages < <(git ls-tree -r --name-only "$BASE" -- research | grep -E '^research/[0-9]{4}/[^/]+/.*\.htm$' | sort)
           mapfile -t all_pages < <(find research -mindepth 3 -maxdepth 3 -type f -name '*.htm' -print | sort)
           test "${#baseline_pages[@]}" -eq 839
