@@ -1,0 +1,77 @@
+name: Update Research Archive DOI Links
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-research-archive-dois.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: videha-research-archive-dois
+  cancel-in-progress: true
+
+jobs:
+  update-dois:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Check out published research corpus
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            research
+            scholar-tools
+          sparse-checkout-cone-mode: true
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Apply eight minted Zenodo DOI links to exactly 839 papers
+        run: python3 scholar-tools/add_archive_release_links.py --expected-count 839
+      - name: Verify all eight DOI targets occur in all 839 papers
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          pages=sorted(Path('research').glob('[0-9][0-9][0-9][0-9]/*/*.htm'))
+          dois=[
+            '10.5281/zenodo.22754971',
+            '10.5281/zenodo.22754977',
+            '10.5281/zenodo.22754996',
+            '10.5281/zenodo.22755007',
+            '10.5281/zenodo.22755014',
+            '10.5281/zenodo.22755018',
+            '10.5281/zenodo.22755026',
+            '10.5281/zenodo.22755033',
+          ]
+          assert len(pages)==839, len(pages)
+          bad=[]
+          for p in pages:
+            text=p.read_text(encoding='utf-8')
+            missing=[doi for doi in dois if doi not in text]
+            if missing:
+              bad.append((str(p),missing))
+          if bad:
+            raise SystemExit(f'DOI verification failed for {len(bad)} pages: {bad[:3]}')
+          print(f'Verified 8 minted DOI links on all {len(pages)} research papers.')
+          PY
+      - name: Commit updated paper pages
+        run: |
+          git config user.name "videha-scholar-bot"
+          git config user.email "videha-scholar-bot@users.noreply.github.com"
+          git add research/
+          if git diff --cached --quiet; then
+            echo "All 839 research papers already contain the DOI block"
+          else
+            git commit -m "Add minted archive DOI links to 839 research papers [skip actions]"
+            for attempt in 1 2 3; do
+              git pull --rebase origin main && git push && exit 0
+              echo "Push attempt $attempt failed; retrying after refresh"
+              sleep 2
+            done
+            exit 1
+          fi
