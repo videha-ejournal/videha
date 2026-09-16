@@ -25,101 +25,121 @@ jobs:
           sparse-checkout: |
             research
           sparse-checkout-cone-mode: true
-      - name: Identify exactly three additions and restore the prior 839 pages byte-for-byte
-        shell: bash
-        run: |
-          set -euo pipefail
-          BASE=1af1cdad0a7c3b2338e14069f5ab0d633d803130
-          mapfile -t baseline_pages < <(git ls-tree -r --name-only "$BASE" -- research | grep -E '^research/[0-9]{4}/[^/]+/.*\.htm$' | sort)
-          mapfile -t current_pages < <(find research -mindepth 3 -maxdepth 3 -type f -name '*.htm' -print | sort)
-          mapfile -t added_pages < <(comm -13 <(printf '%s\n' "${baseline_pages[@]}") <(printf '%s\n' "${current_pages[@]}"))
-          mapfile -t missing_pages < <(comm -23 <(printf '%s\n' "${baseline_pages[@]}") <(printf '%s\n' "${current_pages[@]}"))
-          echo "BASELINE_COUNT=${#baseline_pages[@]}"
-          echo "CURRENT_COUNT=${#current_pages[@]}"
-          echo "ADDED_PATH_COUNT=${#added_pages[@]}"
-          echo "MISSING_BASELINE_PATH_COUNT=${#missing_pages[@]}"
-          printf 'ADDED_PATH=%s\n' "${added_pages[@]}"
-          printf 'MISSING_BASELINE_PATH=%s\n' "${missing_pages[@]}"
-          test "${#baseline_pages[@]}" -eq 839
-          test "${#current_pages[@]}" -eq 842
-          test "${#added_pages[@]}" -eq 3
-          test "${#missing_pages[@]}" -eq 0
-          printf '%s\n' "${added_pages[@]}" | tee /tmp/videha-new-three.txt
-          git checkout "$BASE" -- "${baseline_pages[@]}"
-      - name: Make only the three new pages self-canonical and keep their DOI block
+      - name: Identify the three new publications from the authoritative inventories
         run: |
           python3 - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          BASE='1af1cdad0a7c3b2338e14069f5ab0d633d803130'
+          old=json.loads(subprocess.check_output(['git','show',f'{BASE}:research/data/articles.json'], text=True))
+          cur=json.loads(Path('research/data/articles.json').read_text(encoding='utf-8'))
+          old_articles=old['articles']; cur_articles=cur['articles']
+          old_by_path={a['path']:a for a in old_articles}
+          cur_by_path={a['path']:a for a in cur_articles}
+          added=sorted(set(cur_by_path)-set(old_by_path))
+          removed=sorted(set(old_by_path)-set(cur_by_path))
+          print(f'OLD_INVENTORY={len(old_articles)}')
+          print(f'CURRENT_INVENTORY={len(cur_articles)}')
+          print(f'NEW_RECORDS={len(added)}')
+          print(f'REMOVED_RECORDS={len(removed)}')
+          assert len(old_articles)==839, len(old_articles)
+          assert len(cur_articles)==842, len(cur_articles)
+          assert len(added)==3, added
+          assert not removed, removed
+          rows=[]
+          for path in added:
+              a=cur_by_path[path]
+              authors=', '.join(a.get('authors') or [])
+              row={'path':path,'title':a.get('title'),'authors':authors,'url':a.get('url')}
+              rows.append(row)
+              print(f"NEW PAPER: {path} :: {a.get('title')} :: {authors}")
+          Path('/tmp/videha-new-three.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2),encoding='utf-8')
+          PY
+      - name: Repair self-canonical scholarly identity on all 842 published pages
+        run: |
+          python3 - <<'PY'
+          import json, re
           from pathlib import Path
           from urllib.parse import quote
-          import re, html
-          paths=[Path(x.strip()) for x in Path('/tmp/videha-new-three.txt').read_text(encoding='utf-8').splitlines() if x.strip()]
-          assert len(paths)==3, paths
+          data=json.loads(Path('research/data/articles.json').read_text(encoding='utf-8'))
+          articles=data['articles']
+          assert len(articles)==842
           dois=[
             '10.5281/zenodo.22754971','10.5281/zenodo.22754977',
             '10.5281/zenodo.22754996','10.5281/zenodo.22755007',
             '10.5281/zenodo.22755014','10.5281/zenodo.22755018',
             '10.5281/zenodo.22755026','10.5281/zenodo.22755033'
           ]
-          for p in paths:
-              rel=p.as_posix()
-              encoded=quote(rel, safe='/')
+          changed=0
+          for a in articles:
+              p=Path('research')/a['path']
+              if not p.exists():
+                  raise SystemExit(f'missing published page: {p}')
+              s=p.read_text(encoding='utf-8')
+              original=s
+              encoded=quote(('research/'+a['path']), safe='/')
               mirror='https://videha-ejournal.github.io/videha/'+encoded
               official='https://www.videha.co.in/'+encoded
-              s=p.read_text(encoding='utf-8')
+              s=re.sub(r'<link rel="canonical" href="[^"]*">', f'<link rel="canonical" href="{mirror}">', s, count=1)
+              s=re.sub(r'<meta name="DC.identifier" content="[^"]*">', f'<meta name="DC.identifier" content="{mirror}">', s, count=1)
               s=s.replace('https://www.videha.co.in/templates/scholar-article.html', mirror)
               s=s.replace('https://videha-ejournal.github.io/videha/templates/scholar-article.html', official)
               s=s.replace('"@type":"WebPage","name"', '"@type":"CollectionPage","name"')
               s=s.replace('href="../assets/img/', 'href="../../../assets/img/')
-              if 'https://www.videha.co.in/templates/scholar-article.html' in s or 'https://videha-ejournal.github.io/videha/templates/scholar-article.html' in s:
-                  raise SystemExit(f'template canonical remains in {p}')
               if f'<link rel="canonical" href="{mirror}">' not in s:
-                  raise SystemExit(f'bad canonical in {p}')
+                  raise SystemExit(f'canonical repair failed: {p}')
+              if f'<meta name="DC.identifier" content="{mirror}">' not in s:
+                  raise SystemExit(f'DC.identifier repair failed: {p}')
+              if 'templates/scholar-article.html' in s:
+                  raise SystemExit(f'template identity URL remains: {p}')
               missing=[d for d in dois if d not in s]
               if missing:
-                  raise SystemExit(f'missing DOI links in {p}: {missing}')
-              p.write_text(s, encoding='utf-8')
-              m=re.search(r'<h1[^>]*>(.*?)</h1>', s, re.S|re.I)
-              title=html.unescape(re.sub(r'<[^>]+>', ' ', m.group(1))).strip() if m else p.stem
-              print(f'NEW PAPER: {rel} :: {title}')
+                  raise SystemExit(f'missing DOI block on {p}: {missing}')
+              if s != original:
+                  p.write_text(s,encoding='utf-8')
+                  changed += 1
+          print(f'Repaired publication metadata on {changed} of {len(articles)} pages; article bodies were not edited.')
           PY
-      - name: Verify old 839 pages are unchanged and final corpus is 842
-        shell: bash
+      - name: Final 842-paper publication QA
         run: |
-          set -euo pipefail
-          BASE=1af1cdad0a7c3b2338e14069f5ab0d633d803130
-          mapfile -t baseline_pages < <(git ls-tree -r --name-only "$BASE" -- research | grep -E '^research/[0-9]{4}/[^/]+/.*\.htm$' | sort)
-          mapfile -t all_pages < <(find research -mindepth 3 -maxdepth 3 -type f -name '*.htm' -print | sort)
-          test "${#baseline_pages[@]}" -eq 839
-          test "${#all_pages[@]}" -eq 842
-          git diff --quiet "$BASE" -- "${baseline_pages[@]}"
           python3 - <<'PY'
+          import json, re
           from pathlib import Path
+          from urllib.parse import quote
+          data=json.loads(Path('research/data/articles.json').read_text(encoding='utf-8'))
+          articles=data['articles']
+          pages=sorted(Path('research').glob('[0-9][0-9][0-9][0-9]/*/*.htm'))
           dois=[
             '10.5281/zenodo.22754971','10.5281/zenodo.22754977',
             '10.5281/zenodo.22754996','10.5281/zenodo.22755007',
             '10.5281/zenodo.22755014','10.5281/zenodo.22755018',
             '10.5281/zenodo.22755026','10.5281/zenodo.22755033'
           ]
-          pages=sorted(Path('research').glob('[0-9][0-9][0-9][0-9]/*/*.htm'))
-          assert len(pages)==842
-          bad=[]
-          for p in pages:
+          assert len(articles)==842, len(articles)
+          assert len(pages)==842, len(pages)
+          for a in articles:
+              p=Path('research')/a['path']
               s=p.read_text(encoding='utf-8')
-              miss=[d for d in dois if d not in s]
-              if miss: bad.append((str(p), miss))
-          if bad: raise SystemExit(bad[:3])
-          print('FINAL QA: 839 prior pages preserved exactly; 3 new pages retained; 842 total; 8 DOI links on every page.')
+              mirror='https://videha-ejournal.github.io/videha/'+quote(('research/'+a['path']),safe='/')
+              assert f'<link rel="canonical" href="{mirror}">' in s, p
+              assert all(d in s for d in dois), p
+              assert 'templates/scholar-article.html' not in s, p
+          new=json.loads(Path('/tmp/videha-new-three.json').read_text(encoding='utf-8'))
+          assert len(new)==3
+          print('FINAL QA: 842 published pages; exactly 3 inventory additions; self-canonical metadata valid; all 8 archive DOI links present on every page.')
+          for row in new:
+              print(f"PUBLISHED NEW: {row['title']} :: {row['authors']} :: research/{row['path']}")
           PY
-      - name: Commit precise three-paper publication state
+      - name: Commit finalized 842-paper publication
         run: |
           git config user.name "videha-scholar-bot"
           git config user.email "videha-scholar-bot@users.noreply.github.com"
           git add research/
           git status --short
           if git diff --cached --quiet; then
-            echo "No repair changes required"
+            echo "No metadata repair changes required"
           else
-            git commit -m "Finalize three-paper publication without altering prior 839 pages [skip actions]"
+            git commit -m "Finalize 842-paper publication metadata [skip actions]"
             for attempt in 1 2 3; do
               git pull --rebase origin main && git push && exit 0
               sleep 2
