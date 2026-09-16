@@ -35,67 +35,74 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Append only inventory additions to the historic Research Book
+      - name: Synchronize only Research Book data sections from canonical inventory
         run: python3 scholar-tools/build_research_book.py
 
-      - name: Verify same-source alignment without rebuilding the Book shell
+      - name: Verify same-source alignment and historic Book shell
         run: python3 scholar-tools/build_research_book.py --check
 
-      - name: Independent guard for historic Book interface and inventory coverage
+      - name: Independent historic-shell and two-annex guard
         run: |
           python3 - <<'PY'
-          import html
-          import json
-          import re
+          import json, re
           from pathlib import Path
-          from urllib.parse import unquote
 
-          source = Path('research/data/articles.json')
-          book = Path('research/videha-scholar-research-book.html')
-          payload = json.loads(source.read_text(encoding='utf-8'))
-          articles = payload['articles']
-          text = book.read_text(encoding='utf-8')
+          payload=json.loads(Path('research/data/articles.json').read_text(encoding='utf-8'))
+          articles=payload['articles']
+          text=Path('research/videha-scholar-research-book.html').read_text(encoding='utf-8')
+          expected=len(articles)
+          if int(payload.get('count', expected)) != expected:
+              raise SystemExit('canonical inventory count mismatch')
 
-          declared = payload.get('count', len(articles))
-          if int(declared) != len(articles):
-              raise SystemExit(f'Inventory count mismatch: declared={declared}, actual={len(articles)}')
-
-          shell_markers = [
-              'विदेह Scholar अनुसन्धान पुस्तक',
-              '🔊 सुनू · Listen',
-              'GitHub Home',
-              'class="back-top"',
+          markers=[
+              'विदेह शोध-लेख : अंक १ सँ',
+              'VIDEHA Home · www.videha.co.in',
+              'GitHub Home · videha-ejournal.github.io/videha',
+              'id="videha-tts-toggle"',
               'id="book-search"',
+              'class="back-top"',
+              'videha-tts.js',
+              'videha-translate.js',
+              'videha-access.js',
+              'aria-label="पृष्ठ सुनबाक, अनुवाद आ सहायक तकनीक नियंत्रण"',
+              'अनुलग्नक १ : लेखकानुक्रमेण सम्पूर्ण सूची',
+              'अनुलग्नक २ : विधावार सम्पूर्ण सूची',
           ]
-          missing_shell = [marker for marker in shell_markers if marker not in text]
-          if missing_shell:
-              raise SystemExit(f'Historic Research Book shell damaged: {missing_shell}')
-          if not re.search(r'(41\s*(?:language|भाषा)|translat|अनुवाद|भाषा\s*(?:चुनू|चयन))', text, re.I):
-              raise SystemExit('Historic 41-language/translation interface is missing')
+          missing=[x for x in markers if x not in text]
+          if missing:
+              raise SystemExit(f'historic Research Book shell damaged: {missing}')
 
-          tbody_match = re.search(r'(?is)<tbody\b[^>]*>(.*?)</tbody>', text)
-          if not tbody_match:
-              raise SystemExit('Research Book tbody missing')
-          rows = re.findall(r'(?is)<tr\b[^>]*>.*?</tr>', tbody_match.group(1))
-          if len(rows) != len(articles):
-              raise SystemExit(f'Research Book row mismatch: inventory={len(articles)}, book={len(rows)}')
+          h1=re.search(r'(?is)<h2[^>]*>\s*अनुलग्नक\s*१.*?</h2>', text)
+          h2=re.search(r'(?is)<h2[^>]*>\s*अनुलग्नक\s*२.*?</h2>', text)
+          if not h1 or not h2 or h1.start() >= h2.start():
+              raise SystemExit('Research Book annex boundaries missing')
+          author_section=text[h1.end():h2.start()]
+          author_tbody=re.search(r'(?is)<tbody\b[^>]*>(.*?)</tbody>', author_section)
+          if not author_tbody:
+              raise SystemExit('author-order table missing')
+          author_rows=len(re.findall(r'(?is)<tr\b[^>]*>.*?</tr>', author_tbody.group(1)))
+          if author_rows != expected:
+              raise SystemExit(f'author annex rows {author_rows} != inventory {expected}')
+
+          annex2=text[h2.end():]
+          genre_rows=sum(
+              len(re.findall(r'(?is)<tr\b[^>]*>.*?</tr>', body))
+              for body in re.findall(r'(?is)<tbody\b[^>]*>(.*?)</tbody>', annex2)
+          )
+          if genre_rows != expected:
+              raise SystemExit(f'genre annex rows {genre_rows} != inventory {expected}')
 
           for marker in (
               '<meta name="videha-article-source" content="research/data/articles.json">',
-              f'<meta name="videha-article-count" content="{len(articles)}">',
+              f'<meta name="videha-article-count" content="{expected}">',
           ):
               if marker not in text:
-                  raise SystemExit(f'Research Book provenance missing: {marker}')
+                  raise SystemExit(f'provenance missing: {marker}')
 
-          print({
-              'canonicalInventory': len(articles),
-              'researchBookRows': len(rows),
-              'historicShell': 'preserved',
-              'translationInterface': 'preserved',
-          })
+          print({'canonicalInventory':expected,'authorAnnexRows':author_rows,'genreAnnexRows':genre_rows,'historicShell':'preserved'})
           PY
 
-      - name: Commit append-only Research Book update
+      - name: Commit data-only Research Book update
         run: |
           git config user.name "videha-scholar-bot"
           git config user.email "videha-scholar-bot@users.noreply.github.com"
@@ -110,10 +117,9 @@ jobs:
           print(len(data['articles']))
           PY
           )"
-            git commit -m "Append Research Book inventory additions (${count} papers) [skip actions]"
+            git commit -m "Synchronize historic Research Book to ${count} papers [skip actions]"
             for attempt in 1 2 3; do
               git pull --rebase origin main && git push && exit 0
-              echo "Push attempt $attempt failed; retrying after refresh"
               sleep 2
             done
             exit 1
