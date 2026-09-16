@@ -37,6 +37,35 @@ jobs:
         run: python3 scholar-tools/build_research_book.py
       - name: Verify exact source alignment
         run: python3 scholar-tools/build_research_book.py --check
+      - name: Cross-check generated provenance against canonical inventory
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import json
+          from pathlib import Path
+
+          source = Path('research/data/articles.json')
+          book = Path('research/videha-scholar-research-book.html')
+          raw = source.read_bytes()
+          payload = json.loads(raw.decode('utf-8'))
+          articles = payload.get('articles', [])
+          count = len(articles)
+          source_sha = hashlib.sha256(raw).hexdigest()
+          text = book.read_text(encoding='utf-8')
+
+          expected = [
+              '<meta name="videha-article-source" content="research/data/articles.json">',
+              f'<meta name="videha-article-source-sha256" content="{source_sha}">',
+              f'<meta name="videha-article-count" content="{count}">',
+          ]
+          missing = [marker for marker in expected if marker not in text]
+          if missing:
+              raise SystemExit(f'Research Book provenance mismatch: {missing}')
+          rows = text.count('data-source-path="')
+          if rows != count:
+              raise SystemExit(f'Research Book row mismatch: inventory={count}, book={rows}')
+          print({'canonicalInventory': count, 'researchBookRows': rows, 'sourceSha256': source_sha})
+          PY
       - name: Commit generated Research Book
         run: |
           git config user.name "videha-scholar-bot"
