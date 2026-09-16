@@ -30,6 +30,7 @@ jobs:
             scholar-data
             templates
             research
+            tools
           sparse-checkout-cone-mode: true
       - name: Set up Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
@@ -53,6 +54,29 @@ jobs:
         run: python3 scholar-tools/build_sadeha_swapped_metadata.py
       - name: Build full research corpus including audit queues and Sadeha discoveries
         run: python3 scholar-tools/build_all_research.py
+      - name: Generate Research Book from canonical article inventory
+        run: python3 scholar-tools/build_research_book.py
+      - name: Verify Research Book is byte-for-byte current with article inventory
+        run: python3 scholar-tools/build_research_book.py --check
+      - name: Reject template-canonical regression in generated research papers
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          payload=json.loads(Path('research/data/articles.json').read_text(encoding='utf-8'))
+          articles=payload.get('articles',[])
+          if not articles:
+              raise SystemExit('Canonical article inventory is empty')
+          bad=[]
+          for article in articles:
+              p=Path(article['path'])
+              text=p.read_text(encoding='utf-8',errors='ignore')
+              if 'templates/scholar-article.html' in text:
+                  bad.append(str(p))
+          if bad:
+              raise SystemExit(f'Template canonical regression in {len(bad)} generated pages: {bad[:3]}')
+          print(f'Canonical regression guard passed for {len(articles)} inventory papers.')
+          PY
       - name: Validate Scholar metadata
         run: python3 scholar-tools/validate_scholar.py
       - name: Commit generated research layer
