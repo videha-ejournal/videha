@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-"""Build the Videha Scholar Research Book from the canonical article inventory.
+"""Synchronize the Videha Scholar Research Book with the canonical article inventory.
 
-The single source of truth is research/data/articles.json.  This script must not
-maintain a second paper count or a hand-written list of papers.
+The Research Book HTML is a hand-designed publication shell. This updater preserves
+that shell. It only appends missing inventory rows, refreshes corpus/provenance counts,
+and verifies that the Book-specific interface is still present.
+
+It deliberately refuses to rebuild, delete, reorder, or replace existing rows.
 """
 from __future__ import annotations
 
@@ -10,20 +13,39 @@ import argparse
 import hashlib
 import html
 import json
-from collections import Counter
-from pathlib import Path
+import re
+from pathlib import Path, PurePosixPath
+from urllib.parse import quote, unquote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "research" / "data" / "articles.json"
 OUTPUT = ROOT / "research" / "videha-scholar-research-book.html"
-DEVANAGARI = str.maketrans("0123456789", "०१२३४५६७८९")
+
+OFFICIAL = "https://www.videha.co.in/"
+MIRROR = "https://videha-ejournal.github.io/videha/"
+
+SHELL_MARKERS = (
+    "विदेह Scholar अनुसन्धान पुस्तक",
+    "🔊 सुनू · Listen",
+    "GitHub Home",
+    'class="back-top"',
+    'id="book-search"',
+)
+
+LANGUAGE_LABELS = (
+    ("बज्जिका", ("bajjika", "बज्जिका")),
+    ("अंग्रेजी", ("english", "अंग्रेजी", "अंग्रेज़ी")),
+    ("मैथिली", ("maithili", "मैथिली")),
+    ("संस्कृत", ("sanskrit", "संस्कृत")),
+    ("ठेठी-अंगिका", ("thethi-angika", "thethi angika", "ठेठी-अंगिका", "ठेठी अंगिका")),
+)
 
 
 def as_text(value) -> str:
     if value is None:
         return ""
     if isinstance(value, list):
-        return "; ".join(as_text(item) for item in value if as_text(item))
+        return "; ".join(part for item in value if (part := as_text(item)))
     if isinstance(value, dict):
         for key in ("name", "title", "label", "value"):
             if value.get(key):
@@ -32,19 +54,41 @@ def as_text(value) -> str:
     return str(value).strip()
 
 
-def devanagari_number(value) -> str:
-    return str(value).translate(DEVANAGARI)
+def canonical_inventory_path(value: str) -> str:
+    path = unquote(as_text(value)).replace("\\", "/").strip()
+    if not path:
+        return ""
+    parsed = urlparse(path)
+    if parsed.scheme and parsed.netloc:
+        path = unquote(parsed.path)
+    path = path.split("#", 1)[0].split("?", 1)[0].lstrip("/")
+    if path.startswith("videha/"):
+        path = path[len("videha/"):]
+    if path.startswith("research/"):
+        return str(PurePosixPath(path))
+    if path.endswith((".htm", ".html")):
+        return str(PurePosixPath("research") / PurePosixPath(path))
+    return ""
 
 
-def issue_number(value):
-    text = as_text(value).translate(str.maketrans("०१२३४५६७८९", "0123456789"))
-    digits = "".join(ch for ch in text if ch.isdigit())
-    return int(digits) if digits else None
-
-
-def article_href(path: str) -> str:
-    path = path.replace("\\", "/").lstrip("/")
-    return path[len("research/"):] if path.startswith("research/") else path
+def normalize_href(href: str) -> str:
+    href = html.unescape(href).strip()
+    if not href or href.startswith(("#", "mailto:", "javascript:", "tel:")):
+        return ""
+    parsed = urlparse(href)
+    if parsed.scheme and parsed.netloc:
+        host = parsed.netloc.lower()
+        if host not in {
+            "www.videha.co.in",
+            "videha.co.in",
+            "videha-ejournal.github.io",
+        }:
+            return ""
+        path = unquote(parsed.path).lstrip("/")
+        if host == "videha-ejournal.github.io" and path.startswith("videha/"):
+            path = path[len("videha/"):]
+        return canonical_inventory_path(path)
+    return canonical_inventory_path(href)
 
 
 def load_source():
@@ -53,218 +97,342 @@ def load_source():
     articles = payload.get("articles")
     if not isinstance(articles, list):
         raise SystemExit("research/data/articles.json must contain an 'articles' list")
-    paths = [as_text(a.get("path")) for a in articles]
+    declared = payload.get("count")
+    if declared is not None and int(declared) != len(articles):
+        raise SystemExit(
+            f"Inventory count mismatch: declared={declared}, actual={len(articles)}"
+        )
+    paths = [canonical_inventory_path(a.get("path", "")) for a in articles]
     if any(not path for path in paths):
-        raise SystemExit("Every article inventory record must have a non-empty path")
+        raise SystemExit("Every article inventory record must have a valid research/*.htm(l) path")
     if len(paths) != len(set(paths)):
         raise SystemExit("Duplicate article paths found in research/data/articles.json")
-    return raw, articles
+    return raw, articles, paths
 
 
-def render() -> str:
-    raw, articles = load_source()
-    count = len(articles)
-    source_sha = hashlib.sha256(raw).hexdigest()
-    languages = Counter(as_text(a.get("language")) or "Unspecified" for a in articles)
-    issues = [n for n in (issue_number(a.get("issue")) for a in articles) if n is not None]
-    issue_range = f"{min(issues)}–{max(issues)}" if issues else "—"
-    issue_range_deva = (
-        f"{devanagari_number(min(issues))}–{devanagari_number(max(issues))}" if issues else "—"
+def assert_shell(text: str) -> None:
+    missing = [marker for marker in SHELL_MARKERS if marker not in text]
+    has_translation = bool(
+        re.search(r"(41\s*(?:language|भाषा)|translat|अनुवाद|भाषा\s*(?:चुनू|चयन))", text, re.I)
+    )
+    if not has_translation:
+        missing.append("41-language/translation interface")
+    if missing:
+        raise SystemExit(
+            "Refusing to modify Research Book because its historic shell is missing: "
+            + ", ".join(missing)
+        )
+
+
+def split_tbody(text: str):
+    matches = list(re.finditer(r"(?is)<tbody\b[^>]*>.*?</tbody>", text))
+    if len(matches) != 1:
+        raise SystemExit(f"Expected exactly one Research Book <tbody>; found {len(matches)}")
+    m = matches[0]
+    block = m.group(0)
+    open_end = block.find(">") + 1
+    return (
+        text[: m.start()],
+        block[:open_end],
+        block[open_end:-len("</tbody>")],
+        "</tbody>",
+        text[m.end():],
     )
 
-    lang_labels = {
-        "Maithili (Devanagari)": "मैथिली",
-        "Maithili": "मैथिली",
-        "English": "अंग्रेज़ी",
-    }
-    badges = [f'<span class="badge">कुल शोध-लेख: <strong>{count}</strong></span>']
-    for lang, total in sorted(languages.items(), key=lambda kv: (-kv[1], kv[0])):
-        badges.append(
-            f'<span class="badge">{html.escape(lang_labels.get(lang, lang))}: '
-            f'<strong>{total}</strong></span>'
+
+def row_blocks(tbody_inner: str):
+    return re.findall(r"(?is)<tr\b[^>]*>.*?</tr>", tbody_inner)
+
+
+def inventory_paths_in_book(text: str, inventory_set: set[str]) -> set[str]:
+    found = set()
+    for href in re.findall(r"(?is)\bhref\s*=\s*[\"']([^\"']+)[\"']", text):
+        path = normalize_href(href)
+        if path in inventory_set:
+            found.add(path)
+    return found
+
+
+def strip_tags(fragment: str) -> str:
+    fragment = re.sub(r"(?is)<script\b.*?</script>|<style\b.*?</style>", "", fragment)
+    fragment = re.sub(r"(?is)<[^>]+>", " ", fragment)
+    return " ".join(html.unescape(fragment).split())
+
+
+def header_labels(prefix: str) -> list[str]:
+    heads = re.findall(r"(?is)<th\b[^>]*>(.*?)</th>", prefix)
+    return [strip_tags(h).strip() for h in heads]
+
+
+def language_counts(articles) -> dict[str, int]:
+    out = {label: 0 for label, _ in LANGUAGE_LABELS}
+    for article in articles:
+        raw = as_text(article.get("language")).casefold()
+        for label, aliases in LANGUAGE_LABELS:
+            if any(alias.casefold() in raw for alias in aliases):
+                out[label] += 1
+                break
+    return out
+
+
+def render_links(path: str) -> str:
+    encoded = quote(path, safe="/")
+    official = OFFICIAL + encoded
+    mirror = MIRROR + encoded
+    return (
+        f'<a href="{html.escape(official, quote=True)}">VIDEHA</a> · '
+        f'<a href="{html.escape(mirror, quote=True)}">GitHub</a>'
+    )
+
+
+def article_value(article, kind: str, index: int, path: str) -> str:
+    title = as_text(article.get("title")) or Path(path).stem
+    author = as_text(article.get("authors")) or as_text(article.get("author"))
+    genre = as_text(article.get("genre"))
+    language = as_text(article.get("language"))
+    issue = as_text(article.get("issue"))
+    date = as_text(article.get("date"))
+    classification = as_text(article.get("classification"))
+    keywords = as_text(article.get("keywords"))
+
+    if kind == "number":
+        return str(index)
+    if kind == "author":
+        return html.escape(author)
+    if kind == "title":
+        return html.escape(title)
+    if kind == "genre":
+        return html.escape(genre)
+    if kind == "language":
+        return html.escape(language)
+    if kind == "issue":
+        value = " · ".join(v for v in (issue, date) if v)
+        return html.escape(value)
+    if kind == "classification":
+        return html.escape(classification)
+    if kind == "keywords":
+        return html.escape(keywords)
+    if kind == "links":
+        return render_links(path)
+    return ""
+
+
+def classify_header(label: str, position: int, total: int) -> str:
+    x = label.casefold()
+    if any(k in x for k in ("क्रम", "#", "no.", "serial")) or (position == 0 and total >= 2):
+        return "number"
+    if any(k in x for k in ("लेखक", "author")):
+        return "author"
+    if any(k in x for k in ("शीर्षक", "title")):
+        return "title"
+    if any(k in x for k in ("विधा", "genre")):
+        return "genre"
+    if any(k in x for k in ("भाषा", "language")):
+        return "language"
+    if any(k in x for k in ("अंक", "issue", "तिथि", "date")):
+        return "issue"
+    if any(k in x for k in ("वर्गीकरण", "classification", "category", "विषय")):
+        return "classification"
+    if any(k in x for k in ("सूचक", "keyword")):
+        return "keywords"
+    if any(k in x for k in ("लिंक", "link", "पाठ", "source", "mirror", "मिरर")):
+        return "links"
+    if position == total - 1:
+        return "links"
+    return "unknown"
+
+
+def render_row(article, index: int, path: str, labels: list[str]) -> str:
+    kinds = [classify_header(label, i, len(labels)) for i, label in enumerate(labels)]
+    if "title" not in kinds or "author" not in kinds or "links" not in kinds:
+        raise SystemExit(f"Cannot safely map historic Book columns: headers={labels!r}")
+    searchable = " ".join(
+        filter(
+            None,
+            (
+                as_text(article.get("author")),
+                as_text(article.get("authors")),
+                as_text(article.get("title")),
+                as_text(article.get("genre")),
+                as_text(article.get("language")),
+                as_text(article.get("issue")),
+                as_text(article.get("date")),
+                as_text(article.get("classification")),
+                as_text(article.get("keywords")),
+            ),
         )
-    badges.append(f'<span class="badge">अंक: <strong>{html.escape(issue_range_deva)}</strong></span>')
-
-    rows = []
-    for idx, article in enumerate(articles, start=1):
-        path = as_text(article.get("path"))
-        href = article_href(path)
-        title = as_text(article.get("title")) or Path(path).stem
-        english_title = as_text(article.get("english_title"))
-        authors = as_text(article.get("authors")) or as_text(article.get("author"))
-        issue = as_text(article.get("issue"))
-        language = as_text(article.get("language")) or "Unspecified"
-        keywords = as_text(article.get("keywords"))
-        secondary = f'<div class="english-title">{html.escape(english_title)}</div>' if english_title and english_title != title else ""
-        rows.append(
-            '<tr data-lang="{lang}" data-source-path="{source}">'
-            '<td>{idx}</td>'
-            '<td><a href="{href}">{title}</a>{secondary}</td>'
-            '<td class="author">{authors}</td>'
-            '<td class="hide-sm">{issue}</td>'
-            '<td class="lang">{language}</td>'
-            '<td class="kw">{keywords}</td>'
-            '</tr>'.format(
-                lang=html.escape(language, quote=True),
-                source=html.escape(path, quote=True),
-                idx=idx,
-                href=html.escape(href, quote=True),
-                title=html.escape(title),
-                secondary=secondary,
-                authors=html.escape(authors),
-                issue=html.escape(issue),
-                language=html.escape(language),
-                keywords=html.escape(keywords),
-            )
-        )
-
-    jsonld = {
-        "@context": "https://schema.org",
-        "@type": "CollectionPage",
-        "name": "विदेह रिसर्च स्कॉलर—संयुक्त अनुसन्धान पुस्तक",
-        "url": "https://www.videha.co.in/research/videha-scholar-research-book.html",
-        "numberOfItems": count,
-        "isPartOf": {
-            "@type": "Periodical",
-            "name": "VIDEHA — First Maithili Fortnightly e Journal",
-            "alternateName": "विदेह प्रथम मैथिली पाक्षिक ई-पत्रिका",
-            "issn": "2229-547X",
-            "url": "https://www.videha.co.in/",
-        },
-    }
-    jsonld_text = json.dumps(jsonld, ensure_ascii=False, separators=(",", ":"))
-
-    return f'''<!doctype html>
-<html lang="mai-Deva">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>विदेह रिसर्च स्कॉलर—अनुसन्धान पुस्तक | अंक {html.escape(issue_range_deva)} | {count} शोध-लेख | Videha Scholar</title>
-<meta name="description" content="विदेह ई-पत्रिकाक रिसर्च स्कॉलर संस्करणक संयुक्त अनुसन्धान पुस्तक—अंक {html.escape(issue_range_deva)}, कुल {count} शोध-लेख। शीर्षक, लेखक, अंक तथा विषय-सूचक शब्दक आधार पर खोज योग्य।">
-<link rel="canonical" href="https://www.videha.co.in/research/videha-scholar-research-book.html">
-<meta name="videha-article-source" content="research/data/articles.json">
-<meta name="videha-article-source-sha256" content="{source_sha}">
-<meta name="videha-article-count" content="{count}">
-<script type="application/ld+json" id="videha-scholarly-identity">{jsonld_text}</script>
-<style>
-:root{{--accent:#a11;--ink:#1d1d1f;--muted:#5f6470;--line:#d8dbe2;--soft:#f8f5ef}}
-*{{box-sizing:border-box}}
-body{{font-family:"Noto Serif Devanagari","Noto Sans Devanagari",serif;line-height:1.65;margin:0;color:var(--ink);background:#fff}}
-a{{color:#831515}}
-header{{padding:24px 18px 16px;background:linear-gradient(120deg,#fff 0%,#fff8ee 100%);border-bottom:1px solid var(--line)}}
-header>div,main{{max-width:1180px;margin:auto}}
-h1{{margin:.2rem 0;font-size:clamp(1.55rem,3vw,2.35rem)}}
-.muted{{color:var(--muted)}}
-main{{padding:20px 18px 40px}}
-.summary{{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}}
-.badge{{display:inline-block;padding:5px 10px;border:1px solid var(--line);border-radius:999px;background:var(--soft)}}
-.tools{{display:grid;grid-template-columns:minmax(220px,1fr) minmax(180px,260px);gap:10px;margin:0 0 12px}}
-.tools label{{font-weight:700}}
-.tools input,.tools select{{width:100%;font:inherit;padding:9px 10px;border:1px solid #aeb3bd;border-radius:6px;background:#fff}}
-.status{{margin:8px 0 14px;color:var(--muted)}}
-.table-wrap{{overflow:auto;border:1px solid var(--line);border-radius:8px}}
-table{{width:100%;border-collapse:collapse;min-width:850px}}
-th,td{{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}}
-th{{position:sticky;top:0;background:#fbfaf7;z-index:1}}
-tbody tr:nth-child(even){{background:#fcfcfc}}
-.english-title{{font-size:.9em;color:var(--muted)}}
-.author{{min-width:150px}}.lang{{min-width:130px}}.kw{{min-width:220px}}
-footer{{max-width:1180px;margin:auto;padding:0 18px 34px;color:var(--muted)}}
-@media(max-width:720px){{.tools{{grid-template-columns:1fr}}.hide-sm{{display:none}}}}
-</style>
-</head>
-<body>
-<!-- GENERATED BY scholar-tools/build_research_book.py FROM research/data/articles.json. DO NOT EDIT MANUALLY. -->
-<header><div>
-<h1>विदेह रिसर्च स्कॉलर—संयुक्त अनुसन्धान पुस्तक</h1>
-<p>VIDEHA — First Maithili Fortnightly e Journal · ISSN 2229-547X · Since 2000</p>
-<p class="muted">ई पन्ना <code>research/data/articles.json</code> सँ स्वतः बनैत अछि। स्रोत-सूची बदलिते शोध-पुस्तकक सूची आ गणना सेहो ओही स्रोतसँ बदलैत अछि।</p>
-</div></header>
-<main>
-<div class="summary">{''.join(badges)}</div>
-<div class="tools">
-<label>खोज<input id="q" type="search" placeholder="शीर्षक, लेखक, अंक, भाषा वा सूचक शब्द" autocomplete="off"></label>
-<label>भाषा<select id="lang"><option value="">सभ भाषा</option>{''.join(f'<option value="{html.escape(lang, quote=True)}">{html.escape(lang_labels.get(lang, lang))} ({total})</option>' for lang,total in sorted(languages.items(), key=lambda kv:(-kv[1],kv[0])))}</select></label>
-</div>
-<p class="status">देखाइत शोध-लेख: <strong id="visible-count">{count}</strong> / {count} · स्रोत SHA-256: <code>{source_sha[:12]}…</code></p>
-<div class="table-wrap"><table id="papers">
-<thead><tr><th>#</th><th>शीर्षक</th><th>लेखक</th><th class="hide-sm">अंक</th><th>भाषा</th><th>सूचक शब्द</th></tr></thead>
-<tbody>{''.join(rows)}</tbody>
-</table></div>
-</main>
-<footer>© Gajendra Thakur, Editor — Videha eJournal · <a href="../research/index.htm">Videha Scholar Research</a></footer>
-<script>
-const rows=[...document.querySelectorAll('#papers tbody tr')];
-const q=document.getElementById('q');
-const lang=document.getElementById('lang');
-const visible=document.getElementById('visible-count');
-function filterRows(){{
-  const needle=q.value.trim().toLocaleLowerCase();
-  const wanted=lang.value;
-  let n=0;
-  for(const row of rows){{
-    const okText=!needle || row.textContent.toLocaleLowerCase().includes(needle);
-    const okLang=!wanted || row.dataset.lang===wanted;
-    row.hidden=!(okText&&okLang);
-    if(!row.hidden)n++;
-  }}
-  visible.textContent=n;
-}}
-q.addEventListener('input',filterRows);
-lang.addEventListener('change',filterRows);
-</script>
-</body>
-</html>
-'''
+    )
+    cells = []
+    for kind in kinds:
+        cls = {
+            "number": ' class="n"',
+            "title": ' class="title"',
+            "links": ' class="links"',
+        }.get(kind, "")
+        cells.append(f"<td{cls}>{article_value(article, kind, index, path)}</td>")
+    return (
+        f'\n<tr data-search="{html.escape(searchable.casefold(), quote=True)}" '
+        f'data-source-path="{html.escape(path, quote=True)}">'
+        + "".join(cells)
+        + "</tr>"
+    )
 
 
-def verify(rendered: str) -> None:
-    raw, articles = load_source()
-    count = len(articles)
+def update_status_and_provenance(outside: str, old_count: int, new_count: int, raw: bytes, articles) -> str:
     source_sha = hashlib.sha256(raw).hexdigest()
-    if f'<meta name="videha-article-count" content="{count}">' not in rendered:
-        raise SystemExit("Research Book count metadata is not aligned with articles.json")
-    if f'<meta name="videha-article-source-sha256" content="{source_sha}">' not in rendered:
-        raise SystemExit("Research Book source hash is not aligned with articles.json")
-    expected_paths = [as_text(a.get("path")) for a in articles]
-    actual_paths = []
-    marker = 'data-source-path="'
-    pos = 0
-    while True:
-        start = rendered.find(marker, pos)
-        if start < 0:
-            break
-        start += len(marker)
-        end = rendered.find('"', start)
-        actual_paths.append(html.unescape(rendered[start:end]))
-        pos = end + 1
-    if actual_paths != expected_paths:
+
+    outside = re.sub(rf"(?<!\d){old_count}(?!\d)", str(new_count), outside)
+    deva = str.maketrans("0123456789", "०१२३४५६७८९")
+    outside = outside.replace(str(old_count).translate(deva), str(new_count).translate(deva))
+
+    counts = language_counts(articles)
+    status = (
+        f"अन्तिम सत्यापित कॉर्पस : {new_count} लेख"
+        f" · बज्जिका {counts['बज्जिका']}"
+        f" · अंग्रेजी {counts['अंग्रेजी']}"
+        f" · मैथिली {counts['मैथिली']}"
+        f" · संस्कृत {counts['संस्कृत']}"
+        f" · ठेठी-अंगिका {counts['ठेठी-अंगिका']}"
+    )
+    outside = re.sub(
+        r"अन्तिम सत्यापित कॉर्पस\s*:\s*\d+\s*लेख"
+        r"(?:\s*·\s*बज्जिका\s*\d+)?"
+        r"(?:\s*·\s*अंग्रेजी\s*\d+)?"
+        r"(?:\s*·\s*मैथिली\s*\d+)?"
+        r"(?:\s*·\s*संस्कृत\s*\d+)?"
+        r"(?:\s*·\s*ठेठी-अंगिका\s*\d+)?",
+        status,
+        outside,
+        count=1,
+    )
+    outside = re.sub(
+        r'("numberOfItems"\s*:\s*)\d+',
+        rf"\g<1>{new_count}",
+        outside,
+    )
+
+    provenance = (
+        f'<meta name="videha-article-source" content="research/data/articles.json">\n'
+        f'<meta name="videha-article-source-sha256" content="{source_sha}">\n'
+        f'<meta name="videha-article-count" content="{new_count}">'
+    )
+    outside = re.sub(
+        r'(?is)\s*<meta\s+name=["\']videha-article-source["\'][^>]*>\s*'
+        r'<meta\s+name=["\']videha-article-source-sha256["\'][^>]*>\s*'
+        r'<meta\s+name=["\']videha-article-count["\'][^>]*>',
+        "\n" + provenance,
+        outside,
+        count=1,
+    )
+    if 'name="videha-article-source"' not in outside and "name='videha-article-source'" not in outside:
+        outside = re.sub(r"(?i)</head>", provenance + "\n</head>", outside, count=1)
+    return outside
+
+
+def synchronize(text: str):
+    assert_shell(text)
+    raw, articles, inventory_paths = load_source()
+    inventory_set = set(inventory_paths)
+
+    prefix, tbody_open, tbody_inner, tbody_close, suffix = split_tbody(text)
+    rows = row_blocks(tbody_inner)
+    old_count = len(rows)
+    if old_count > len(articles):
         raise SystemExit(
-            f"Research Book rows differ from articles.json: expected {len(expected_paths)}, got {len(actual_paths)}"
+            f"Refusing destructive sync: Book has {old_count} rows but inventory has {len(articles)}"
         )
-    if f'कुल शोध-लेख: <strong>{count}</strong>' not in rendered:
-        raise SystemExit("Visible Research Book count is not aligned with articles.json")
+
+    found = inventory_paths_in_book(tbody_inner, inventory_set)
+    if len(found) != old_count:
+        raise SystemExit(
+            "Cannot safely identify every historic article row: "
+            f"rows={old_count}, inventory-linked rows={len(found)}"
+        )
+
+    missing = [(a, p) for a, p in zip(articles, inventory_paths) if p not in found]
+    if len(found) + len(missing) != len(articles):
+        raise SystemExit("Inventory/Book path reconciliation failed")
+
+    labels = header_labels(prefix)
+    if not labels:
+        raise SystemExit("Historic Research Book table headers were not found")
+    expected_final = old_count + len(missing)
+    if expected_final != len(articles):
+        raise SystemExit(
+            f"Append-only reconciliation mismatch: {old_count}+{len(missing)} != {len(articles)}"
+        )
+
+    additions = []
+    for offset, (article, path) in enumerate(missing, start=1):
+        additions.append(render_row(article, old_count + offset, path, labels))
+    new_tbody_inner = tbody_inner + "".join(additions)
+
+    new_prefix = update_status_and_provenance(prefix, old_count, len(articles), raw, articles)
+    new_suffix = update_status_and_provenance(suffix, old_count, len(articles), raw, articles)
+    rendered = new_prefix + tbody_open + new_tbody_inner + tbody_close + new_suffix
+    return rendered, missing, old_count
+
+
+def verify(text: str) -> None:
+    assert_shell(text)
+    raw, articles, inventory_paths = load_source()
+    inventory_set = set(inventory_paths)
+    prefix, _, tbody_inner, _, suffix = split_tbody(text)
+    rows = row_blocks(tbody_inner)
+    if len(rows) != len(articles):
+        raise SystemExit(f"Research Book row mismatch: inventory={len(articles)}, book={len(rows)}")
+    found = inventory_paths_in_book(tbody_inner, inventory_set)
+    if found != inventory_set:
+        missing = sorted(inventory_set - found)
+        extra = sorted(found - inventory_set)
+        raise SystemExit(
+            f"Research Book path mismatch: missing={missing[:5]}, extra={extra[:5]}"
+        )
+    source_sha = hashlib.sha256(raw).hexdigest()
+    outside = prefix + suffix
+    expected = (
+        '<meta name="videha-article-source" content="research/data/articles.json">',
+        f'<meta name="videha-article-source-sha256" content="{source_sha}">',
+        f'<meta name="videha-article-count" content="{len(articles)}">',
+    )
+    absent = [marker for marker in expected if marker not in outside]
+    if absent:
+        raise SystemExit(f"Research Book provenance mismatch: {absent}")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--check", action="store_true", help="Fail if the committed book differs from the inventory-generated result")
+    parser.add_argument("--check", action="store_true")
     args = parser.parse_args()
-    expected = render()
-    verify(expected)
+
+    if not OUTPUT.exists():
+        raise SystemExit(f"Missing Research Book: {OUTPUT}")
+    current = OUTPUT.read_text(encoding="utf-8")
+
     if args.check:
-        if not OUTPUT.exists():
-            raise SystemExit(f"Missing generated Research Book: {OUTPUT}")
-        current = OUTPUT.read_text(encoding="utf-8")
         verify(current)
-        if current != expected:
-            raise SystemExit("research/videha-scholar-research-book.html is stale; regenerate it from articles.json")
-        _, articles = load_source()
-        print(f"Research Book source alignment verified: {len(articles)} articles")
+        _, articles, _ = load_source()
+        print(f"Research Book shell + inventory alignment verified: {len(articles)} articles")
         return
-    OUTPUT.write_text(expected, encoding="utf-8")
-    _, articles = load_source()
-    print(f"Generated {OUTPUT.relative_to(ROOT)} from research/data/articles.json: {len(articles)} articles")
+
+    rendered, missing, old_count = synchronize(current)
+    verify(rendered)
+    if rendered != current:
+        OUTPUT.write_text(rendered, encoding="utf-8")
+    _, articles, _ = load_source()
+    print(f"SOURCE_COUNT={len(articles)}")
+    print(f"EXISTING_ROWS={old_count}")
+    print(f"MISSING_BEFORE={len(missing)}")
+    for article, path in missing:
+        print(
+            "APPENDED:",
+            path,
+            "::",
+            as_text(article.get("title")),
+            "::",
+            as_text(article.get("authors")) or as_text(article.get("author")),
+        )
+    print(f"FINAL_ROWS={len(articles)}")
 
 
 if __name__ == "__main__":
