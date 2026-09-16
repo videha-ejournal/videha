@@ -124,3 +124,5 @@ jobs:
             done
             exit 1
           fi
+
+# This comment intentionally triggers the protected data-only sync after restoring the historic Book shell.
