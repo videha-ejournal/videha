@@ -25,7 +25,7 @@ jobs:
           sparse-checkout: |
             research
           sparse-checkout-cone-mode: true
-      - name: Identify exactly three additions and restore the prior 839 pages byte-for-byte
+      - name: Diagnose publication inventory delta
         shell: bash
         run: |
           set -euo pipefail
@@ -33,9 +33,19 @@ jobs:
           mapfile -t baseline_pages < <(git ls-tree -r --name-only "$BASE" -- research | grep -E '^research/[0-9]{4}/[^/]+/.*\.htm$' | sort)
           mapfile -t current_pages < <(find research -mindepth 3 -maxdepth 3 -type f -name '*.htm' -print | sort)
           mapfile -t added_pages < <(comm -13 <(printf '%s\n' "${baseline_pages[@]}") <(printf '%s\n' "${current_pages[@]}"))
+          mapfile -t missing_pages < <(comm -23 <(printf '%s\n' "${baseline_pages[@]}") <(printf '%s\n' "${current_pages[@]}"))
+          echo "BASELINE_COUNT=${#baseline_pages[@]}"
+          echo "CURRENT_COUNT=${#current_pages[@]}"
+          echo "ADDED_PATH_COUNT=${#added_pages[@]}"
+          echo "MISSING_BASELINE_PATH_COUNT=${#missing_pages[@]}"
+          printf 'ADDED_PATH=%s\n' "${added_pages[@]}"
+          printf 'MISSING_BASELINE_PATH=%s\n' "${missing_pages[@]}"
           test "${#baseline_pages[@]}" -eq 839
           test "${#current_pages[@]}" -eq 842
-          test "${#added_pages[@]}" -eq 3
+          if [ "${#added_pages[@]}" -ne 3 ] || [ "${#missing_pages[@]}" -ne 0 ]; then
+            echo "Path sets are not a simple +3 delta; stopping before any write."
+            exit 2
+          fi
           printf '%s\n' "${added_pages[@]}" | tee /tmp/videha-new-three.txt
           git checkout "$BASE" -- "${baseline_pages[@]}"
       - name: Make only the three new pages self-canonical and keep their DOI block
