@@ -1,22 +1,22 @@
 {
-  "issue_files_scanned": 447,
-  "article_entries_inventoried": 3531,
-  "scholar_candidates": 281,
+  "issue_files_scanned": 448,
+  "article_entries_inventoried": 3549,
+  "scholar_candidates": 272,
   "classification_counts": {
     "conference-seminar": 1,
     "criticism": 14,
-    "culture-art": 24,
+    "culture-art": 25,
     "culture-art+conference-seminar": 1,
-    "history": 25,
+    "history": 26,
     "history+criticism": 2,
     "history+folklore-ethnography+culture-art": 1,
     "linguistics": 2,
     "linguistics+criticism+academic-review": 1,
     "literary-history": 56,
-    "references-present": 152,
+    "references-present": 141,
     "research-explicit": 2
   },
-  "strong_title_based_with_body": 91,
+  "strong_title_based_with_body": 87,
   "strong_candidates": [
     {
       "issue": "195",
@@ -190,23 +190,6 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20079.pdf"
     },
     {
-      "issue": "81",
-      "publication_date": "2011-05-01",
-      "section": "2.1",
-      "author": "जितेन्द्र झा",
-      "title": "अपने घरमे उपेक्षित मिथिला चित्रकला",
-      "page_start": "",
-      "page_end": "",
-      "body_chars": 38479,
-      "classification": "culture-art",
-      "signals": [
-        "चित्रकला",
-        "मिथिला चित्रकला"
-      ],
-      "source_path": "search-documents/videha-081.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20081.pdf"
-    },
-    {
       "issue": "87",
       "publication_date": "2011-08-01",
       "section": "2.7",
@@ -221,23 +204,6 @@
       ],
       "source_path": "search-documents/videha-087.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20087.pdf"
-    },
-    {
-      "issue": "99",
-      "publication_date": "2012-02-01",
-      "section": "2.1",
-      "author": "नवेंदु कुमार झा",
-      "title": "बिहारक औद्योगिक विकास मे बाधा बनि रहल जमीन आ बिजली/ राशन कार्डक होयत डिजिटलीकरण/ मिथिलांचल मे माछ उत्पादक भरोसा देलनि मुख्यमंत्री, सौराठ मे खुजत मिथिला चित्रकला संस्थान/ जन आंदोलन सँ होयत कोसीक समस्याक समाधान-मेधा पाटेकर",
-      "page_start": "",
-      "page_end": "",
-      "body_chars": 38046,
-      "classification": "culture-art",
-      "signals": [
-        "चित्रकला",
-        "मिथिला चित्रकला"
-      ],
-      "source_path": "search-documents/videha-099.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20099.pdf"
     },
     {
       "issue": "343",
@@ -263,10 +229,9 @@
       "title": "मैथिल नारीक सांस्कृतिक- साहित्यिक स्वर - प्रेमलता मिश्र प्रेम",
       "page_start": "113",
       "page_end": "116",
-      "body_chars": 5574,
+      "body_chars": 3208,
       "classification": "culture-art",
       "signals": [
-        "संदर्भ",
         "सांस्कृतिक"
       ],
       "source_path": "search-documents/videha-357.html",
@@ -386,23 +351,6 @@
       ],
       "source_path": "search-documents/videha-419.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20419.pdf"
-    },
-    {
-      "issue": "110",
-      "publication_date": "2012-07-15",
-      "section": "2.1",
-      "author": "राम भरोस कापडि भ्रमर",
-      "title": "मैथिली लोक संस्कृति संगोष्ठी अन्तरगत लोकनायक सलहेसःचर्चा–परिचर्चा कार्यक्रम सम्पन्न",
-      "page_start": "",
-      "page_end": "",
-      "body_chars": 5699,
-      "classification": "culture-art+conference-seminar",
-      "signals": [
-        "संगोष्ठी",
-        "संस्कृति"
-      ],
-      "source_path": "search-documents/videha-110.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20110.pdf"
     },
     {
       "issue": "49",
@@ -1062,23 +1010,6 @@
       "signals": [
         "परिवारक योगदान",
         "सन्दर्भ",
-        "साहित्यमे"
-      ],
-      "source_path": "search-documents/videha-433.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20433.pdf"
-    },
-    {
-      "issue": "433",
-      "publication_date": "2026-01-01",
-      "section": "2.2",
-      "author": "हितनाथ झा",
-      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१२",
-      "page_start": "7",
-      "page_end": "24",
-      "body_chars": 19725,
-      "classification": "literary-history",
-      "signals": [
-        "परिवारक योगदान",
         "साहित्यमे"
       ],
       "source_path": "search-documents/videha-433.html",
@@ -1755,23 +1686,6 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20059.pdf"
     },
     {
-      "issue": "95",
-      "publication_date": "2011-12-01",
-      "section": "2.2",
-      "author": "हम पुछैत छी",
-      "title": "बृषेश चन्द्र लालजी सँ मुन्नाजी पुछैत छथि ढेर रास गप",
-      "page_start": "",
-      "page_end": "",
-      "body_chars": 174739,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ",
-        "सन्दर्भ"
-      ],
-      "source_path": "search-documents/videha-095.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20095.pdf"
-    },
-    {
       "issue": "447",
       "publication_date": "2026-08-01",
       "section": "2.24",
@@ -1870,6 +1784,22 @@
       ],
       "source_path": "search-documents/videha-044.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20044.pdf"
+    },
+    {
+      "issue": "66",
+      "publication_date": "2010-09-15",
+      "section": "2.1",
+      "author": "शम्भु कुमार सिंह",
+      "title": "“मैथिलीक प्रमुख उपभाषाक क्षेत्र आ ओकर प्रमुख विशेषता” यू. पी. एस. सी. परीक्षार्थीक हेतु उपयोगी",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 152987,
+      "classification": "references-present",
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-066.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20066.pdf"
     },
     {
       "issue": "64",
@@ -2020,23 +1950,6 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20058.pdf"
     },
     {
-      "issue": "382",
-      "publication_date": "2023-11-15",
-      "section": "2.19",
-      "author": "आशीष अनचिन्हार",
-      "title": "लक्ष्मण झा 'सागर' हमरा नजरिमे",
-      "page_start": "133",
-      "page_end": "137",
-      "body_chars": 91555,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ",
-        "सन्दर्भ"
-      ],
-      "source_path": "search-documents/videha-382.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20382.pdf"
-    },
-    {
       "issue": "70",
       "publication_date": "2010-11-15",
       "section": "2.7",
@@ -2076,7 +1989,7 @@
       "title": "प्रबन्ध वंश, विवाह, दूषण, सामाजिक स्मृति आ आधुनिक पुनर्पाठ",
       "page_start": "935",
       "page_end": "986",
-      "body_chars": 85457,
+      "body_chars": 81540,
       "classification": "references-present",
       "signals": [
         "संदर्भ",
@@ -2117,22 +2030,6 @@
       ],
       "source_path": "search-documents/videha-036.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20036.pdf"
-    },
-    {
-      "issue": "26",
-      "publication_date": "2009-01-15",
-      "section": "2.6",
-      "author": "सुशांत झा",
-      "title": "हमर सपना केर मिथिला",
-      "page_start": "",
-      "page_end": "",
-      "body_chars": 71548,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ"
-      ],
-      "source_path": "search-documents/videha-026.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20026.pdf"
     },
     {
       "issue": "75",
@@ -2182,22 +2079,6 @@
       ],
       "source_path": "search-documents/videha-395.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20395.pdf"
-    },
-    {
-      "issue": "70",
-      "publication_date": "2010-11-15",
-      "section": "8.2",
-      "author": "Maithili Short",
-      "title": "story “shabdashastram” by Gajendra Thakur re-written in English by the author himself",
-      "page_start": "",
-      "page_end": "",
-      "body_chars": 67461,
-      "classification": "references-present",
-      "signals": [
-        "सन्दर्भ"
-      ],
-      "source_path": "search-documents/videha-070.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20070.pdf"
     },
     {
       "issue": "19",
@@ -2364,22 +2245,6 @@
     {
       "issue": "360",
       "publication_date": "2022-12-15",
-      "section": "2.17",
-      "author": "जगदानन्द झा 'मनु'",
-      "title": "अनमोल झा जीक पोथी 'टेकनोलजी'क समीक्षा",
-      "page_start": "139",
-      "page_end": "142",
-      "body_chars": 32650,
-      "classification": "references-present",
-      "signals": [
-        "सन्दर्भ"
-      ],
-      "source_path": "search-documents/videha-360.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20360.pdf"
-    },
-    {
-      "issue": "360",
-      "publication_date": "2022-12-15",
       "section": "2.1",
       "author": "नित नवल सुभाष चन्द्र यादव",
       "title": "भाग-२ (गजेन्द्र ठाकुर)",
@@ -2392,22 +2257,6 @@
       ],
       "source_path": "search-documents/videha-360.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20360.pdf"
-    },
-    {
-      "issue": "383",
-      "publication_date": "2023-12-01",
-      "section": "2.10",
-      "author": "रबीन्द्र नारायण मिश्र",
-      "title": "ठेहा परक मौलाएल गाछ (धारावाहिक)",
-      "page_start": "103",
-      "page_end": "122",
-      "body_chars": 32497,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ"
-      ],
-      "source_path": "search-documents/videha-383.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20383.pdf"
     },
     {
       "issue": "353",
@@ -2424,22 +2273,6 @@
       ],
       "source_path": "search-documents/videha-353.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20353.pdf"
-    },
-    {
-      "issue": "66",
-      "publication_date": "2010-09-15",
-      "section": "2.1",
-      "author": "शम्भु कुमार सिंह",
-      "title": "“मैथिलीक प्रमुख उपभाषाक क्षेत्र आ ओकर प्रमुख विशेषता” यू. पी. एस. सी. परीक्षार्थीक हेतु उपयोगी",
-      "page_start": "",
-      "page_end": "",
-      "body_chars": 31030,
-      "classification": "references-present",
-      "signals": [
-        "सन्दर्भ"
-      ],
-      "source_path": "search-documents/videha-066.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20066.pdf"
     },
     {
       "issue": "165",
@@ -2488,22 +2321,6 @@
       ],
       "source_path": "search-documents/videha-384.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20384.pdf"
-    },
-    {
-      "issue": "444",
-      "publication_date": "2026-06-15",
-      "section": "2.6",
-      "author": "लाल देव कामत",
-      "title": "स्वस्थ आयु लेल योग",
-      "page_start": "36",
-      "page_end": "37",
-      "body_chars": 28945,
-      "classification": "references-present",
-      "signals": [
-        "सन्दर्भ"
-      ],
-      "source_path": "search-documents/videha-444.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20444.pdf"
     },
     {
       "issue": "80",
@@ -2586,22 +2403,6 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20359.pdf"
     },
     {
-      "issue": "363",
-      "publication_date": "2023-02-01",
-      "section": "2.19",
-      "author": "गजेन्द्र ठाकुर",
-      "title": "लालदासक मिथिला रामायण मे कुण्डलिया आ सम्पादक बा प्रूफरीडरक अज्ञानतावश ओइमे छन्दोभङ्ग",
-      "page_start": "181",
-      "page_end": "190",
-      "body_chars": 25267,
-      "classification": "references-present",
-      "signals": [
-        "सन्दर्भ"
-      ],
-      "source_path": "search-documents/videha-363.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20363.pdf"
-    },
-    {
       "issue": "439",
       "publication_date": "2026-04-01",
       "section": "2.14",
@@ -2632,39 +2433,6 @@
       ],
       "source_path": "search-documents/videha-378.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20378.pdf"
-    },
-    {
-      "issue": "128",
-      "publication_date": "2013-04-15",
-      "section": "2.2",
-      "author": "ज्योति चौधरी",
-      "title": "एक युग: टच वुड -भाग-४",
-      "page_start": "",
-      "page_end": "",
-      "body_chars": 24266,
-      "classification": "references-present",
-      "signals": [
-        "सन्दर्भ"
-      ],
-      "source_path": "search-documents/videha-128.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20128.pdf"
-    },
-    {
-      "issue": "442",
-      "publication_date": "2026-05-15",
-      "section": "2.14",
-      "author": "गजेन्द्र ठाकुर",
-      "title": "मैथिली लेल एकटा नारी केन्द्रित समीक्षाशास्त्र [क्वीर-फेमिनिज्म सहित] [सन्दर्भ- कामिनीक \"खण्ड-खण्ड मे बँटैत स्त्री\" आ शान्ति लक्ष्मी चौधरीक\"लेस्बियन कॉन्टिन्युअम\"]",
-      "page_start": "114",
-      "page_end": "173",
-      "body_chars": 23115,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ",
-        "सन्दर्भ"
-      ],
-      "source_path": "search-documents/videha-442.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf"
     },
     {
       "issue": "359",
@@ -2796,6 +2564,22 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20026.pdf"
     },
     {
+      "issue": "367",
+      "publication_date": "2023-04-01",
+      "section": "2.11",
+      "author": "लाल देव कामत",
+      "title": "तीन टा पोथीक समीक्षा",
+      "page_start": "63",
+      "page_end": "76",
+      "body_chars": 18134,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-367.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20367.pdf"
+    },
+    {
       "issue": "383",
       "publication_date": "2023-12-01",
       "section": "2.7",
@@ -2844,22 +2628,6 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20420.pdf"
     },
     {
-      "issue": "22",
-      "publication_date": "2008-11-15",
-      "section": "7.2",
-      "author": "The Comet",
-      "title": "English translation of Gajendra Thakur's Maithili Novel Sahasrabadhani by jyoti",
-      "page_start": "",
-      "page_end": "",
-      "body_chars": 17040,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ"
-      ],
-      "source_path": "search-documents/videha-022.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20022.pdf"
-    },
-    {
       "issue": "446",
       "publication_date": "2026-07-15",
       "section": "2.11",
@@ -2892,37 +2660,20 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20444.pdf"
     },
     {
-      "issue": "372",
-      "publication_date": "2023-06-15",
-      "section": "2.6",
-      "author": "डॉ किशन कारीगर",
-      "title": "मैथिली मे रचना चोरी के विकट समस्या आ समाधान",
-      "page_start": "66",
-      "page_end": "68",
-      "body_chars": 15642,
+      "issue": "358",
+      "publication_date": "2022-11-15",
+      "section": "2.22",
+      "author": "श्रीधरम",
+      "title": "शरदिन्दु कुमार चौधरीक साहित्य : 'स्वारथ लागि करहिं सब प्रीती'",
+      "page_start": "125",
+      "page_end": "134",
+      "body_chars": 15443,
       "classification": "references-present",
       "signals": [
-        "संदर्भ"
-      ],
-      "source_path": "search-documents/videha-372.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20372.pdf"
-    },
-    {
-      "issue": "395",
-      "publication_date": "2024-06-01",
-      "section": "2.17",
-      "author": "आशीष अनचिन्हार",
-      "title": "कुपोषित मैथिली भाषा-साहित्य लेल एकटा अनिवार्य पौष्टिक तत्व: नरेन्द्र झा",
-      "page_start": "195",
-      "page_end": "201",
-      "body_chars": 14832,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ",
         "सन्दर्भ"
       ],
-      "source_path": "search-documents/videha-395.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20395.pdf"
+      "source_path": "search-documents/videha-358.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20358.pdf"
     },
     {
       "issue": "439",
@@ -2940,6 +2691,23 @@
       ],
       "source_path": "search-documents/videha-439.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20439.pdf"
+    },
+    {
+      "issue": "442",
+      "publication_date": "2026-05-15",
+      "section": "2.14",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "मैथिली लेल एकटा नारी केन्द्रित समीक्षाशास्त्र [क्वीर-फेमिनिज्म सहित] [सन्दर्भ- कामिनीक \"खण्ड-खण्ड मे बँटैत स्त्री\" आ शान्ति लक्ष्मी चौधरीक\"लेस्बियन कॉन्टिन्युअम\"]",
+      "page_start": "114",
+      "page_end": "173",
+      "body_chars": 14368,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-442.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20442.pdf"
     },
     {
       "issue": "442",
@@ -2972,22 +2740,6 @@
       ],
       "source_path": "search-documents/videha-396.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20396.pdf"
-    },
-    {
-      "issue": "425",
-      "publication_date": "2025-09-01",
-      "section": "2.8",
-      "author": "प्रणव कुमार झा",
-      "title": "भारत मे क्रिटिकल केयर कार्यबल: एनबीईएमएस के भूमिका आ भविष्य",
-      "page_start": "41",
-      "page_end": "49",
-      "body_chars": 13475,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ"
-      ],
-      "source_path": "search-documents/videha-425.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20425.pdf"
     },
     {
       "issue": "198",
@@ -3103,21 +2855,20 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20419.pdf"
     },
     {
-      "issue": "371",
-      "publication_date": "2023-06-01",
-      "section": "2.13",
-      "author": "प्रवीण कुमार झा",
-      "title": "जनहित परिप्रेक्ष्य मे",
-      "page_start": "70",
-      "page_end": "71",
-      "body_chars": 11532,
+      "issue": "435",
+      "publication_date": "2026-02-01",
+      "section": "2.7",
+      "author": "प्रीति कुमारी",
+      "title": "श्री लालदेव कामत जीक व्यक्तित्व आ कृतित्व",
+      "page_start": "72",
+      "page_end": "81",
+      "body_chars": 11726,
       "classification": "references-present",
       "signals": [
-        "संदर्भ",
         "सन्दर्भ"
       ],
-      "source_path": "search-documents/videha-371.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20371.pdf"
+      "source_path": "search-documents/videha-435.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20435.pdf"
     },
     {
       "issue": "408",
@@ -3134,6 +2885,23 @@
       ],
       "source_path": "search-documents/videha-408.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20408.pdf"
+    },
+    {
+      "issue": "412",
+      "publication_date": "2025-02-15",
+      "section": "2.10",
+      "author": "डॉ विद्या नाथ झा",
+      "title": "स्वर्ग केहेन ? नर्क केहेन ?",
+      "page_start": "37",
+      "page_end": "46",
+      "body_chars": 11257,
+      "classification": "references-present",
+      "signals": [
+        "references",
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-412.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20412.pdf"
     },
     {
       "issue": "428",
@@ -3168,6 +2936,22 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf"
     },
     {
+      "issue": "425",
+      "publication_date": "2025-09-01",
+      "section": "2.8",
+      "author": "प्रणव कुमार झा",
+      "title": "भारत मे क्रिटिकल केयर कार्यबल: एनबीईएमएस के भूमिका आ भविष्य",
+      "page_start": "41",
+      "page_end": "49",
+      "body_chars": 11127,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-425.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20425.pdf"
+    },
+    {
       "issue": "396",
       "publication_date": "2024-06-15",
       "section": "2.8",
@@ -3200,6 +2984,22 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20395.pdf"
     },
     {
+      "issue": "416",
+      "publication_date": "2025-04-15",
+      "section": "2.3",
+      "author": "प्रणव झा",
+      "title": "परमाणु खनिज अन्वेषण एवं अनुसंधान निदेशालय के प्रदर्शनी",
+      "page_start": "18",
+      "page_end": "29",
+      "body_chars": 10576,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-416.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20416.pdf"
+    },
+    {
       "issue": "433",
       "publication_date": "2026-01-01",
       "section": "2.4",
@@ -3214,38 +3014,6 @@
       ],
       "source_path": "search-documents/videha-433.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20433.pdf"
-    },
-    {
-      "issue": "435",
-      "publication_date": "2026-02-01",
-      "section": "2.7",
-      "author": "प्रीति कुमारी",
-      "title": "श्री लालदेव कामत जीक व्यक्तित्व आ कृतित्व",
-      "page_start": "72",
-      "page_end": "81",
-      "body_chars": 9869,
-      "classification": "references-present",
-      "signals": [
-        "सन्दर्भ"
-      ],
-      "source_path": "search-documents/videha-435.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20435.pdf"
-    },
-    {
-      "issue": "409",
-      "publication_date": "2025-01-01",
-      "section": "2.7",
-      "author": "आचार्य रामानंद मंडल",
-      "title": "विजातीय बिआह",
-      "page_start": "43",
-      "page_end": "46",
-      "body_chars": 9666,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ"
-      ],
-      "source_path": "search-documents/videha-409.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20409.pdf"
     },
     {
       "issue": "409",
@@ -3441,6 +3209,22 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20443.pdf"
     },
     {
+      "issue": "421",
+      "publication_date": "2025-07-01",
+      "section": "2.6",
+      "author": "लालदेव कामत",
+      "title": "आर्यावर्तके कौटिल्य'क दृष्टि ओ कूटनीति",
+      "page_start": "28",
+      "page_end": "33",
+      "body_chars": 7399,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-421.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20421.pdf"
+    },
+    {
       "issue": "357",
       "publication_date": "2022-11-01",
       "section": "2.15",
@@ -3585,22 +3369,6 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20395.pdf"
     },
     {
-      "issue": "431",
-      "publication_date": "2025-12-01",
-      "section": "2.4",
-      "author": "परमानन्द लाल कर्ण",
-      "title": "बुढ़ापाक जिनगी",
-      "page_start": "30",
-      "page_end": "40",
-      "body_chars": 5958,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ"
-      ],
-      "source_path": "search-documents/videha-431.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20431.pdf"
-    },
-    {
       "issue": "358",
       "publication_date": "2022-11-15",
       "section": "2.5",
@@ -3697,22 +3465,6 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20434.pdf"
     },
     {
-      "issue": "440",
-      "publication_date": "2026-04-15",
-      "section": "2.12",
-      "author": "गजेन्द्र ठाकुर",
-      "title": "मैथिली लेल दलित साहित्य समीक्षाशास्त्र (पृष्ठ- ९४-१००)",
-      "page_start": "",
-      "page_end": "",
-      "body_chars": 5250,
-      "classification": "references-present",
-      "signals": [
-        "सन्दर्भ"
-      ],
-      "source_path": "search-documents/videha-440.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20440.pdf"
-    },
-    {
       "issue": "396",
       "publication_date": "2024-06-15",
       "section": "2.7",
@@ -3761,38 +3513,6 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20382.pdf"
     },
     {
-      "issue": "358",
-      "publication_date": "2022-11-15",
-      "section": "2.22",
-      "author": "श्रीधरम",
-      "title": "शरदिन्दु कुमार चौधरीक साहित्य : 'स्वारथ लागि करहिं सब प्रीती'",
-      "page_start": "125",
-      "page_end": "134",
-      "body_chars": 4615,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ"
-      ],
-      "source_path": "search-documents/videha-358.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20358.pdf"
-    },
-    {
-      "issue": "426",
-      "publication_date": "2025-09-15",
-      "section": "2.6",
-      "author": "लाल देव कामत",
-      "title": "विश्व शांति : पोथी चर्चा",
-      "page_start": "36",
-      "page_end": "40",
-      "body_chars": 4551,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ"
-      ],
-      "source_path": "search-documents/videha-426.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20426.pdf"
-    },
-    {
       "issue": "445",
       "publication_date": "2026-07-01",
       "section": "2.4",
@@ -3823,6 +3543,22 @@
       ],
       "source_path": "search-documents/videha-398.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20398.pdf"
+    },
+    {
+      "issue": "408",
+      "publication_date": "2024-12-15",
+      "section": "2.8",
+      "author": "आशीष अनचिन्हार",
+      "title": "मिथिला विकास परिषद्, कोलकाता (हमरा नजरिमे)",
+      "page_start": "94",
+      "page_end": "100",
+      "body_chars": 4433,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-408.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20408.pdf"
     },
     {
       "issue": "381",
@@ -3937,6 +3673,22 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20445.pdf"
     },
     {
+      "issue": "407",
+      "publication_date": "2024-12-01",
+      "section": "2.5",
+      "author": "आचार्य रामानंद मंडल",
+      "title": "मिथिला राज्य बनाम राजनीतिक दल",
+      "page_start": "54",
+      "page_end": "56",
+      "body_chars": 2775,
+      "classification": "references-present",
+      "signals": [
+        "संदर्भ"
+      ],
+      "source_path": "search-documents/videha-407.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20407.pdf"
+    },
+    {
       "issue": "359",
       "publication_date": "2022-12-01",
       "section": "4.1",
@@ -4001,6 +3753,22 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20428.pdf"
     },
     {
+      "issue": "358",
+      "publication_date": "2022-11-15",
+      "section": "5.1",
+      "author": "डा. दीपिका",
+      "title": "चम्पूसाहित्ययशो विलासः (पञ्चमोच्छवासः)",
+      "page_start": "250",
+      "page_end": "252",
+      "body_chars": 2087,
+      "classification": "references-present",
+      "signals": [
+        "सन्दर्भ"
+      ],
+      "source_path": "search-documents/videha-358.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20358.pdf"
+    },
+    {
       "issue": "356",
       "publication_date": "2022-10-15",
       "section": "4.1",
@@ -4047,22 +3815,6 @@
       ],
       "source_path": "search-documents/videha-319.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20319.pdf"
-    },
-    {
-      "issue": "408",
-      "publication_date": "2024-12-15",
-      "section": "2.8",
-      "author": "आशीष अनचिन्हार",
-      "title": "मिथिला विकास परिषद्, कोलकाता (हमरा नजरिमे)",
-      "page_start": "94",
-      "page_end": "100",
-      "body_chars": 1540,
-      "classification": "references-present",
-      "signals": [
-        "संदर्भ"
-      ],
-      "source_path": "search-documents/videha-408.html",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20408.pdf"
     },
     {
       "issue": "376",
@@ -4159,6 +3911,23 @@
       ],
       "source_path": "search-documents/videha-109.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20109.pdf"
+    },
+    {
+      "issue": "110",
+      "publication_date": "2012-07-15",
+      "section": "2.1",
+      "author": "राम भरोस कापडि भ्रमर",
+      "title": "मैथिली लोक संस्कृति संगोष्ठी अन्तरगत लोकनायक सलहेसःचर्चा–परिचर्चा कार्यक्रम सम्पन्न",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "culture-art+conference-seminar",
+      "signals": [
+        "संगोष्ठी",
+        "संस्कृति"
+      ],
+      "source_path": "search-documents/videha-110.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20110.pdf"
     },
     {
       "issue": "117",
@@ -4467,6 +4236,55 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20370.pdf"
     },
     {
+      "issue": "433",
+      "publication_date": "2026-01-01",
+      "section": "2.2",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान-१२",
+      "page_start": "7",
+      "page_end": "24",
+      "body_chars": 0,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-433.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20433.pdf"
+    },
+    {
+      "issue": "448",
+      "publication_date": "2026-08-15",
+      "section": "2.19",
+      "author": "डॉ कैलाश कुमार मिश्र",
+      "title": "रमानन्द झा “रमण” मैथिली साहित्य आ मिथिला संस्कृति केर अनुपम अभिलेखपाल",
+      "page_start": "178",
+      "page_end": "182",
+      "body_chars": 0,
+      "classification": "culture-art",
+      "signals": [
+        "संस्कृति"
+      ],
+      "source_path": "search-documents/videha-448.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf"
+    },
+    {
+      "issue": "448",
+      "publication_date": "2026-08-15",
+      "section": "2.29",
+      "author": "आशीष अनचिन्हार",
+      "title": "पोथी संग्रहकर्ता इतिहासकार होथि से जरूरी नहि",
+      "page_start": "441",
+      "page_end": "445",
+      "body_chars": 0,
+      "classification": "history",
+      "signals": [
+        "इतिहास"
+      ],
+      "source_path": "search-documents/videha-448.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf"
+    },
+    {
       "issue": "45",
       "publication_date": "2009-11-01",
       "section": "2.1",
@@ -4629,6 +4447,23 @@
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20080.pdf"
     },
     {
+      "issue": "81",
+      "publication_date": "2011-05-01",
+      "section": "2.1",
+      "author": "जितेन्द्र झा",
+      "title": "अपने घरमे उपेक्षित मिथिला चित्रकला",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "culture-art",
+      "signals": [
+        "चित्रकला",
+        "मिथिला चित्रकला"
+      ],
+      "source_path": "search-documents/videha-081.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20081.pdf"
+    },
+    {
       "issue": "86",
       "publication_date": "2011-07-15",
       "section": "2.4",
@@ -4659,6 +4494,23 @@
       ],
       "source_path": "search-documents/videha-092.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20092.pdf"
+    },
+    {
+      "issue": "99",
+      "publication_date": "2012-02-01",
+      "section": "2.1",
+      "author": "नवेंदु कुमार झा",
+      "title": "बिहारक औद्योगिक विकास मे बाधा बनि रहल जमीन आ बिजली/ राशन कार्डक होयत डिजिटलीकरण/ मिथिलांचल मे माछ उत्पादक भरोसा देलनि मुख्यमंत्री, सौराठ मे खुजत मिथिला चित्रकला संस्थान/ जन आंदोलन सँ होयत कोसीक समस्याक समाधान-मेधा पाटेकर",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "culture-art",
+      "signals": [
+        "चित्रकला",
+        "मिथिला चित्रकला"
+      ],
+      "source_path": "search-documents/videha-099.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20099.pdf"
     }
   ]
 }

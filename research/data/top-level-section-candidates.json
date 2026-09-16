@@ -1,6 +1,6 @@
 {
-  "issue_files_scanned": 447,
-  "top_level_scholarly_candidates": 148,
+  "issue_files_scanned": 448,
+  "top_level_scholarly_candidates": 151,
   "publication_policy": "review-only; never auto-published",
   "rows": [
     {
@@ -1944,6 +1944,45 @@
       "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
       "source_path": "search-documents/videha-447.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20447.pdf"
+    },
+    {
+      "issue": "448",
+      "publication_date": "2026-08-15",
+      "section": "2",
+      "label": "१४. हितनाथ झा- अनुसन्धान-प्रतिमान (पृष्ठ १५१-१५४)",
+      "signals": [
+        "अनुसन्धान"
+      ],
+      "status": "manual-boundary-review",
+      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
+      "source_path": "search-documents/videha-448.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf"
+    },
+    {
+      "issue": "448",
+      "publication_date": "2026-08-15",
+      "section": "2",
+      "label": "२९. आशीष अनचिन्हार- पोथी संग्रहकर्ता इतिहासकार होथि से जरूरी नहि (पृष्ठ ४४१-४४५)",
+      "signals": [
+        "इतिहास"
+      ],
+      "status": "manual-boundary-review",
+      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
+      "source_path": "search-documents/videha-448.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf"
+    },
+    {
+      "issue": "448",
+      "publication_date": "2026-08-15",
+      "section": "2",
+      "label": "९. कुमार राहुल- अनुसंधान आ संरक्षण लेल अपस्यांत डॉ रमानंद झा रमण (पृष्ठ १२१-१२५)",
+      "signals": [
+        "अनुसंधान"
+      ],
+      "status": "manual-boundary-review",
+      "reason": "Top-level legacy section: author/title ordering and article boundary require manual validation before any Scholar publication.",
+      "source_path": "search-documents/videha-448.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf"
     }
   ]
 }

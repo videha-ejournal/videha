@@ -3,163 +3,163 @@
   "source_files": [
     {
       "path": "search-documents/sadeha-001.html",
-      "text_chars": 1773076
+      "text_chars": 1773926
     },
     {
       "path": "search-documents/sadeha-002.html",
-      "text_chars": 492618
+      "text_chars": 493468
     },
     {
       "path": "search-documents/sadeha-003.html",
-      "text_chars": 138954
+      "text_chars": 139804
     },
     {
       "path": "search-documents/sadeha-004.html",
-      "text_chars": 343438
+      "text_chars": 344288
     },
     {
       "path": "search-documents/sadeha-005-version-1.html",
-      "text_chars": 177572
+      "text_chars": 178453
     },
     {
       "path": "search-documents/sadeha-005-version-2.html",
-      "text_chars": 4453
+      "text_chars": 5334
     },
     {
       "path": "search-documents/sadeha-006.html",
-      "text_chars": 441908
+      "text_chars": 442758
     },
     {
       "path": "search-documents/sadeha-007.html",
-      "text_chars": 398507
+      "text_chars": 399357
     },
     {
       "path": "search-documents/sadeha-008.html",
-      "text_chars": 320097
+      "text_chars": 320947
     },
     {
       "path": "search-documents/sadeha-009.html",
-      "text_chars": 290027
+      "text_chars": 290877
     },
     {
       "path": "search-documents/sadeha-010.html",
-      "text_chars": 739049
+      "text_chars": 739900
     },
     {
       "path": "search-documents/sadeha-011.html",
-      "text_chars": 564355
+      "text_chars": 565206
     },
     {
       "path": "search-documents/sadeha-012.html",
-      "text_chars": 384520
+      "text_chars": 385371
     },
     {
       "path": "search-documents/sadeha-013.html",
-      "text_chars": 344908
+      "text_chars": 345759
     },
     {
       "path": "search-documents/sadeha-014.html",
-      "text_chars": 515222
+      "text_chars": 516073
     },
     {
       "path": "search-documents/sadeha-015.html",
-      "text_chars": 359048
+      "text_chars": 359899
     },
     {
       "path": "search-documents/sadeha-016.html",
-      "text_chars": 586958
+      "text_chars": 587809
     },
     {
       "path": "search-documents/sadeha-017.html",
-      "text_chars": 1160868
+      "text_chars": 1161719
     },
     {
       "path": "search-documents/sadeha-018.html",
-      "text_chars": 1056413
+      "text_chars": 1057264
     },
     {
       "path": "search-documents/sadeha-019.html",
-      "text_chars": 962394
+      "text_chars": 963245
     },
     {
       "path": "search-documents/sadeha-020.html",
-      "text_chars": 872055
+      "text_chars": 872906
     },
     {
       "path": "search-documents/sadeha-021.html",
-      "text_chars": 1015120
+      "text_chars": 1015971
     },
     {
       "path": "search-documents/sadeha-022.html",
-      "text_chars": 623512
+      "text_chars": 624363
     },
     {
       "path": "search-documents/sadeha-023.html",
-      "text_chars": 1045250
+      "text_chars": 1046101
     },
     {
       "path": "search-documents/sadeha-024.html",
-      "text_chars": 781723
+      "text_chars": 782574
     },
     {
       "path": "search-documents/sadeha-025.html",
-      "text_chars": 515710
+      "text_chars": 516561
     },
     {
       "path": "search-documents/sadeha-026.html",
-      "text_chars": 395853
+      "text_chars": 396704
     },
     {
       "path": "search-documents/sadeha-027.html",
-      "text_chars": 50781
+      "text_chars": 51632
     },
     {
       "path": "search-documents/sadeha-028.html",
-      "text_chars": 1111681
+      "text_chars": 1112532
     },
     {
       "path": "search-documents/sadeha-029.html",
-      "text_chars": 936860
+      "text_chars": 937711
     },
     {
       "path": "search-documents/sadeha-030.html",
-      "text_chars": 2385643
+      "text_chars": 2386494
     },
     {
       "path": "search-documents/sadeha-031.html",
-      "text_chars": 467264
+      "text_chars": 468115
     },
     {
       "path": "search-documents/sadeha-032.html",
-      "text_chars": 1647692
+      "text_chars": 1648543
     },
     {
       "path": "search-documents/sadeha-033.html",
-      "text_chars": 1544520
+      "text_chars": 1545371
     },
     {
       "path": "search-documents/sadeha-034.html",
-      "text_chars": 1065862
+      "text_chars": 1066713
     },
     {
       "path": "search-documents/sadeha-035.html",
-      "text_chars": 1677817
+      "text_chars": 1678668
     },
     {
       "path": "search-documents/sadeha-036.html",
-      "text_chars": 1674350
+      "text_chars": 1675201
     },
     {
       "path": "search-documents/sadeha-037.html",
-      "text_chars": 601407
+      "text_chars": 602258
     }
   ],
-  "videha_inventory_rows_considered": 3531,
+  "videha_inventory_rows_considered": 3549,
   "unique_videha_articles_matched": 495,
   "author_title_matches": 379,
   "title_only_matches": 116,
   "matches_seen_in_previous_generated_build": 101,
-  "safe_auto_matches_total": 4,
+  "safe_auto_matches_total": 2,
   "new_scholarly_discoveries_publishable": 0,
   "new_matches_requiring_editorial_review": 0,
   "editorial_promotions": 1,
@@ -183,22 +183,6 @@
       "eligibility_note": "positive scholarly class confirmed by Sadeha author+title match"
     },
     {
-      "sadeha_source": "search-documents/sadeha-036.html",
-      "match_strength": "author-title",
-      "issue": "81",
-      "section": "2.1",
-      "author": "जितेन्द्र झा",
-      "title": "अपने घरमे उपेक्षित मिथिला चित्रकला",
-      "classification": "culture-art",
-      "body_chars": 38479,
-      "was_in_previous_generated_build": true,
-      "review_decision": null,
-      "sadeha_editorial_decision": null,
-      "publishable_discovery": true,
-      "reviewable_discovery": false,
-      "eligibility_note": "positive scholarly class confirmed by Sadeha author+title match"
-    },
-    {
       "sadeha_source": "search-documents/sadeha-011.html",
       "match_strength": "author-title",
       "issue": "87",
@@ -207,22 +191,6 @@
       "title": "मिथिलाक संस्कृति:किछु अप्रिय बिन्दु",
       "classification": "culture-art",
       "body_chars": 7496,
-      "was_in_previous_generated_build": true,
-      "review_decision": null,
-      "sadeha_editorial_decision": null,
-      "publishable_discovery": true,
-      "reviewable_discovery": false,
-      "eligibility_note": "positive scholarly class confirmed by Sadeha author+title match"
-    },
-    {
-      "sadeha_source": "search-documents/sadeha-036.html",
-      "match_strength": "author-title",
-      "issue": "99",
-      "section": "2.1",
-      "author": "नवेंदु कुमार झा",
-      "title": "बिहारक औद्योगिक विकास मे बाधा बनि रहल जमीन आ बिजली/ राशन कार्डक होयत डिजिटलीकरण/ मिथिलांचल मे माछ उत्पादक भरोसा देलनि मुख्यमंत्री, सौराठ मे खुजत मिथिला चित्रकला संस्थान/ जन आंदोलन सँ होयत कोसीक समस्याक समाधान-मेधा पाटेकर",
-      "classification": "culture-art",
-      "body_chars": 38046,
       "was_in_previous_generated_build": true,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -450,8 +418,8 @@
       "section": "2.6",
       "author": "सुशांत झा",
       "title": "हमर सपना केर मिथिला",
-      "classification": "references-present",
-      "body_chars": 71548,
+      "classification": "unclassified",
+      "body_chars": 3532,
       "was_in_previous_generated_build": true,
       "review_decision": null,
       "sadeha_editorial_decision": "exclude_for_now",
@@ -483,7 +451,7 @@
       "author": "विवेचना:केदारनाथ चौधरीक उपन्यास: चमेली रानी आ माहुर:",
       "title": "गजेन्द्र ठाकुर",
       "classification": "unclassified",
-      "body_chars": 34660,
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -643,7 +611,7 @@
       "author": "सुबोध ठाकुर",
       "title": "केना होएत मिथिलाक जीर्णोद्धार",
       "classification": "unclassified",
-      "body_chars": 198286,
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -1923,7 +1891,7 @@
       "author": "शम्भु कुमार सिंह",
       "title": "“मैथिलीक प्रमुख उपभाषाक क्षेत्र आ ओकर प्रमुख विशेषता” यू. पी. एस. सी. परीक्षार्थीक हेतु उपयोगी",
       "classification": "references-present",
-      "body_chars": 31030,
+      "body_chars": 152987,
       "was_in_previous_generated_build": true,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -2211,7 +2179,7 @@
       "author": "डॉ. शेफालिका वर्मा",
       "title": "एकटा संस्मरण एकटा प्रश्न",
       "classification": "unclassified",
-      "body_chars": 5699,
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -2291,7 +2259,7 @@
       "author": "सुजीत कुमार झा",
       "title": "मैथिलीमे क्रिकेटक कमेन्ट्री",
       "classification": "unclassified",
-      "body_chars": 38165,
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -2339,7 +2307,7 @@
       "author": "सुजीत कुमार झा",
       "title": "नेपालमे राष्ट्रिय जनगणना मैथिलीकेँ स्थान दियावकेँ विशेष संकल्प",
       "classification": "unclassified",
-      "body_chars": 5699,
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -2355,7 +2323,7 @@
       "author": "गजेन्द्र ठाकुर",
       "title": "स॒हस्र॑ शीर्षा॒",
       "classification": "unclassified",
-      "body_chars": 32361,
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -2403,13 +2371,13 @@
       "author": "जितेन्द्र झा",
       "title": "अपने घरमे उपेक्षित मिथिला चित्रकला",
       "classification": "culture-art",
-      "body_chars": 38479,
+      "body_chars": 0,
       "was_in_previous_generated_build": true,
       "review_decision": null,
       "sadeha_editorial_decision": null,
-      "publishable_discovery": true,
+      "publishable_discovery": false,
       "reviewable_discovery": false,
-      "eligibility_note": "positive scholarly class confirmed by Sadeha author+title match"
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-036.html",
@@ -2499,7 +2467,7 @@
       "author": "मनोज झा मुक्ति",
       "title": "जनगणनामे मातृभाषा",
       "classification": "unclassified",
-      "body_chars": 31976,
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -2579,7 +2547,7 @@
       "author": "मानेश्वर मनुज",
       "title": "मैथिल दृष्टिक प्रसंग मुम्बइसँ एक चिट्ठी/ बुच्ची दाइक निलामी कोना से देखू",
       "classification": "unclassified",
-      "body_chars": 5699,
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -2611,7 +2579,7 @@
       "author": "डॉ. राजीव कुमार वर्मा",
       "title": "कारी घटा बरसैत मेघ",
       "classification": "unclassified",
-      "body_chars": 5699,
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -2851,7 +2819,7 @@
       "author": "हम पुछैत छी",
       "title": "देवशंकर नवीनसँ मुन्नाजी पुछैत छथि ढेर रास गप।",
       "classification": "unclassified",
-      "body_chars": 40720,
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -2962,8 +2930,8 @@
       "section": "2.2",
       "author": "हम पुछैत छी",
       "title": "बृषेश चन्द्र लालजी सँ मुन्नाजी पुछैत छथि ढेर रास गप",
-      "classification": "references-present",
-      "body_chars": 174739,
+      "classification": "unclassified",
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": "exclude",
@@ -2979,7 +2947,7 @@
       "author": "नवेंदु कुमार झा",
       "title": "बिहार सहित पांच प्रदेशकेँ अन्नक खरीद बढ़ैबाक निर्देश/ 21 फरवरी सॅ प्रारंभ होयत विधान मंडलक बजट सत्र/ मुख्यमंत्रीक स्वागतक तैयारी कऽ रहल छथि रांटी गामवासी/ बढ़ि रहल अछि बालिका शिक्षाक दर/ बिहार मे सभ वर्ष मनाओल जायत भूकम्प आ बाढ़ि सुरक्षा सप्ताह/ सम्पन्न भेल विद्यालयक स्थापना दिवस/",
       "classification": "unclassified",
-      "body_chars": 37803,
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -3043,13 +3011,13 @@
       "author": "नवेंदु कुमार झा",
       "title": "बिहारक औद्योगिक विकास मे बाधा बनि रहल जमीन आ बिजली/ राशन कार्डक होयत डिजिटलीकरण/ मिथिलांचल मे माछ उत्पादक भरोसा देलनि मुख्यमंत्री, सौराठ मे खुजत मिथिला चित्रकला संस्थान/ जन आंदोलन सँ होयत कोसीक समस्याक समाधान-मेधा पाटेकर",
       "classification": "culture-art",
-      "body_chars": 38046,
+      "body_chars": 0,
       "was_in_previous_generated_build": true,
       "review_decision": null,
       "sadeha_editorial_decision": null,
-      "publishable_discovery": true,
+      "publishable_discovery": false,
       "reviewable_discovery": false,
-      "eligibility_note": "positive scholarly class confirmed by Sadeha author+title match"
+      "eligibility_note": null
     },
     {
       "sadeha_source": "search-documents/sadeha-010.html",
@@ -3075,7 +3043,7 @@
       "author": "अरुण कुमार सिंह",
       "title": "तीन दिवसीय कार्यशालाक आयोजन",
       "classification": "unclassified",
-      "body_chars": 5699,
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -3427,7 +3395,7 @@
       "author": "राम भरोस कापडि भ्रमर",
       "title": "मैथिली लोक संस्कृति संगोष्ठी अन्तरगत लोकनायक सलहेसःचर्चा–परिचर्चा कार्यक्रम सम्पन्न",
       "classification": "culture-art+conference-seminar",
-      "body_chars": 5699,
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -3571,7 +3539,7 @@
       "author": "जितेन्द्र झा",
       "title": "राजेश्वर नेपालीक सातटा कृति विमोचित",
       "classification": "unclassified",
-      "body_chars": 5699,
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -3587,7 +3555,7 @@
       "author": "कैलास दास",
       "title": "म्याराथन दौड़ आ जनकपुर",
       "classification": "unclassified",
-      "body_chars": 32206,
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -3603,7 +3571,7 @@
       "author": "रामभरोस कापडि भ्रमर",
       "title": "यात्रा प्रसंग- ह्वेन सांगसं चीनमे भेंटघांट",
       "classification": "unclassified",
-      "body_chars": 5699,
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -4099,7 +4067,7 @@
       "author": "आशीष अनचिन्हार",
       "title": "नेपालक नोर मरूभूमिमे/ कलंकित चान",
       "classification": "unclassified",
-      "body_chars": 5694,
+      "body_chars": 0,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -7826,8 +7794,8 @@
       "section": "2.17",
       "author": "जगदानन्द झा 'मनु'",
       "title": "अनमोल झा जीक पोथी 'टेकनोलजी'क समीक्षा",
-      "classification": "references-present",
-      "body_chars": 32650,
+      "classification": "unclassified",
+      "body_chars": 5013,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": "exclude_for_now",
@@ -7891,7 +7859,7 @@
       "author": "डॉ. किशन कारीगर",
       "title": "हौ तोरे त गौंआ छियअह",
       "classification": "unclassified",
-      "body_chars": 1581,
+      "body_chars": 727,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,
@@ -8083,7 +8051,7 @@
       "author": "चंदना दत्त",
       "title": "पर्यावरण दिवस",
       "classification": "unclassified",
-      "body_chars": 1142,
+      "body_chars": 1363,
       "was_in_previous_generated_build": false,
       "review_decision": null,
       "sadeha_editorial_decision": null,

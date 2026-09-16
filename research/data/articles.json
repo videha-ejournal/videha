@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-09-10T09:11:55.008362+00:00",
+  "generated": "2026-09-16T10:17:19.946985+00:00",
   "extraction_summary": {
     "issue_files_scanned": 448,
     "explicit_articles_publishable": 1,
@@ -9,8 +9,8 @@
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 0,
-    "audit_queue_held": 17,
-    "top_level_audit_publishable": 52,
+    "audit_queue_held": 18,
+    "top_level_audit_publishable": 55,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
@@ -18,7 +18,7 @@
     "promoted_sections_publishable": 797,
     "promoted_sections_review": 83,
     "curated_manifests": 30,
-    "published_after_all_overrides": 839,
+    "published_after_all_overrides": 842,
     "stale_generated_pages_removed_before_render": 834,
     "build_errors": 0
   },
@@ -15411,6 +15411,25 @@
       "page_end": null
     },
     {
+      "title": "अनुसंधान आ संरक्षण लेल अपस्यांत डॉ रमानंद झा रमण (पृष्ठ १२१-१२५)",
+      "english_title": null,
+      "authors": [
+        "कुमार राहुल"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Scholarly article",
+      "url": "https://www.videha.co.in/research/2026/448/अनुसंधान-आ-संरक्षण-लेल-अपस्यांत-डॉ-रमानंद-झा-रमण-पृष्ठ-१२१-१२५.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/अनुसंधान-आ-संरक्षण-लेल-अपस्यांत-डॉ-रमानंद-झा-रमण-पृष्ठ-१२१-१२५.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "अनुसन्धान-प्रतिमान",
       "english_title": null,
       "authors": [
@@ -15430,6 +15449,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
       "path": "2026/448/अनुसन्धान-प्रतिमान.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "अनुसन्धान-प्रतिमान (पृष्ठ १५१-१५४)",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Scholarly article",
+      "url": "https://www.videha.co.in/research/2026/448/अनुसन्धान-प्रतिमान-पृष्ठ-१५१-१५४.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/अनुसन्धान-प्रतिमान-पृष्ठ-१५१-१५४.htm",
       "page_start": null,
       "page_end": null
     },
@@ -15614,6 +15652,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
       "path": "2026/448/पोथी-संग्रहकर्ता-इतिहासकार-होथि-से-जरूरी-नहि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पोथी संग्रहकर्ता इतिहासकार होथि से जरूरी नहि (पृष्ठ ४४१-४४५)",
+      "english_title": null,
+      "authors": [
+        "आशीष अनचिन्हार"
+      ],
+      "publication_date": "2026-08-15",
+      "year": "2026",
+      "issue": "448",
+      "language": "mai",
+      "keywords": [],
+      "classification": "History / cultural history article",
+      "url": "https://www.videha.co.in/research/2026/448/पोथी-संग्रहकर्ता-इतिहासकार-होथि-से-जरूरी-नहि-पृष्ठ-४४१-४४५.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf",
+      "path": "2026/448/पोथी-संग्रहकर्ता-इतिहासकार-होथि-से-जरूरी-नहि-पृष्ठ-४४१-४४५.htm",
       "page_start": null,
       "page_end": null
     },
@@ -16071,7 +16128,7 @@
       "source_path": "search-documents/videha-447.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-447.html",
       "page_title": "VIDEHA — Issue 447 / अंक ४४७",
-      "year": "2000",
+      "year": "unknown",
       "issue": "447",
       "score": 1170,
       "matched_terms": [
@@ -16213,7 +16270,7 @@
       "source_path": "search-documents/videha-370.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-370.html",
       "page_title": "VIDEHA — Issue 370 / अंक ३७०",
-      "year": "2000",
+      "year": "unknown",
       "issue": "370",
       "score": 875,
       "matched_terms": [
@@ -16257,7 +16314,7 @@
       "source_path": "search-documents/videha-371.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-371.html",
       "page_title": "VIDEHA — Issue 371 / अंक ३७१",
-      "year": "2000",
+      "year": "unknown",
       "issue": "371",
       "score": 875,
       "matched_terms": [
@@ -16303,7 +16360,7 @@
       "source_path": "search-documents/videha-372.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-372.html",
       "page_title": "VIDEHA — Issue 372 / अंक ३७२",
-      "year": "2000",
+      "year": "unknown",
       "issue": "372",
       "score": 875,
       "matched_terms": [
@@ -16349,7 +16406,7 @@
       "source_path": "search-documents/videha-373.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-373.html",
       "page_title": "VIDEHA — Issue 373 / अंक ३७३",
-      "year": "2000",
+      "year": "unknown",
       "issue": "373",
       "score": 875,
       "matched_terms": [
@@ -16395,7 +16452,7 @@
       "source_path": "search-documents/videha-374.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-374.html",
       "page_title": "VIDEHA — Issue 374 / अंक ३७४",
-      "year": "2000",
+      "year": "unknown",
       "issue": "374",
       "score": 875,
       "matched_terms": [
@@ -16614,7 +16671,7 @@
       "source_path": "search-documents/videha-366.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-366.html",
       "page_title": "VIDEHA — Issue 366 / अंक ३६६",
-      "year": "2004",
+      "year": "unknown",
       "issue": "366",
       "score": 850,
       "matched_terms": [
@@ -16659,7 +16716,7 @@
       "source_path": "search-documents/videha-448.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-448.html",
       "page_title": "विदेह अंक ४४८ · Videha Issue 448",
-      "year": "2026",
+      "year": "unknown",
       "issue": "४४८",
       "score": 850,
       "matched_terms": [
@@ -16706,7 +16763,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-010.html",
       "page_title": "SADEHA — 10",
       "year": "unknown",
-      "issue": "10",
+      "issue": "unknown",
       "score": 840,
       "matched_terms": [
         "अनुसंधान",
@@ -16788,7 +16845,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-033.html",
       "page_title": "SADEHA — 33",
       "year": "unknown",
-      "issue": "33",
+      "issue": "unknown",
       "score": 795,
       "matched_terms": [
         "अनुसंधान",
@@ -16827,7 +16884,7 @@
       "source_path": "search-documents/videha-396.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-396.html",
       "page_title": "VIDEHA — Issue 396 / अंक ३९६",
-      "year": "2000",
+      "year": "unknown",
       "issue": "396",
       "score": 785,
       "matched_terms": [
@@ -16959,7 +17016,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-024.html",
       "page_title": "SADEHA — 24",
       "year": "unknown",
-      "issue": "24",
+      "issue": "unknown",
       "score": 750,
       "matched_terms": [
         "अनुसंधान",
@@ -17034,7 +17091,7 @@
       "source_path": "search-documents/videha-441.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-441.html",
       "page_title": "VIDEHA — Issue 441 / अंक ४४१",
-      "year": "2000",
+      "year": "unknown",
       "issue": "441",
       "score": 740,
       "matched_terms": [
@@ -17074,7 +17131,7 @@
       "source_path": "search-documents/videha-405.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-405.html",
       "page_title": "VIDEHA — Issue 405 / अंक ४०५",
-      "year": "2000",
+      "year": "unknown",
       "issue": "405",
       "score": 715,
       "matched_terms": [
@@ -17230,7 +17287,7 @@
       "source_path": "search-documents/videha-443.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-443.html",
       "page_title": "VIDEHA — Issue 443 / अंक ४४३",
-      "year": "2000",
+      "year": "unknown",
       "issue": "443",
       "score": 700,
       "matched_terms": [
@@ -17274,7 +17331,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-035.html",
       "page_title": "SADEHA — 35",
       "year": "unknown",
-      "issue": "35",
+      "issue": "unknown",
       "score": 695,
       "matched_terms": [
         "folklore",
@@ -17313,7 +17370,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-036.html",
       "page_title": "SADEHA — 36",
       "year": "unknown",
-      "issue": "36",
+      "issue": "unknown",
       "score": 695,
       "matched_terms": [
         "अनुसंधान",
@@ -17390,7 +17447,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-018.html",
       "page_title": "SADEHA — 18",
       "year": "unknown",
-      "issue": "18",
+      "issue": "unknown",
       "score": 660,
       "matched_terms": [
         "अनुसंधान",
@@ -17656,7 +17713,7 @@
       "source_path": "search-documents/videha-442.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-442.html",
       "page_title": "VIDEHA — Issue 442 / अंक ४४२",
-      "year": "2000",
+      "year": "unknown",
       "issue": "442",
       "score": 635,
       "matched_terms": [
@@ -17738,7 +17795,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-021.html",
       "page_title": "SADEHA — 21",
       "year": "unknown",
-      "issue": "21",
+      "issue": "unknown",
       "score": 615,
       "matched_terms": [
         "अनुसंधान",
@@ -18073,7 +18130,7 @@
       "source_path": "search-documents/videha-398.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-398.html",
       "page_title": "VIDEHA — Issue 398 / अंक ३९८",
-      "year": "2000",
+      "year": "unknown",
       "issue": "398",
       "score": 615,
       "matched_terms": [
@@ -18109,7 +18166,7 @@
       "source_path": "search-documents/videha-400.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-400.html",
       "page_title": "VIDEHA — Issue 400 / अंक ४००",
-      "year": "2000",
+      "year": "unknown",
       "issue": "400",
       "score": 615,
       "matched_terms": [
@@ -18148,7 +18205,7 @@
       "source_path": "search-documents/videha-446.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-446.html",
       "page_title": "VIDEHA — Issue 446 / अंक ४४६",
-      "year": "2000",
+      "year": "unknown",
       "issue": "446",
       "score": 615,
       "matched_terms": [
@@ -18190,7 +18247,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-011.html",
       "page_title": "SADEHA — 11",
       "year": "unknown",
-      "issue": "11",
+      "issue": "unknown",
       "score": 605,
       "matched_terms": [
         "अनुसन्धान",
@@ -18229,7 +18286,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-013.html",
       "page_title": "SADEHA — 13",
       "year": "unknown",
-      "issue": "13",
+      "issue": "unknown",
       "score": 605,
       "matched_terms": [
         "अनुसंधान",
@@ -18302,7 +18359,7 @@
       "source_path": "search-documents/videha-428.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-428.html",
       "page_title": "VIDEHA — Issue 428 / अंक ४२८",
-      "year": "2000",
+      "year": "unknown",
       "issue": "428",
       "score": 595,
       "matched_terms": [
@@ -18527,7 +18584,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-014.html",
       "page_title": "SADEHA — 14",
       "year": "unknown",
-      "issue": "14",
+      "issue": "unknown",
       "score": 570,
       "matched_terms": [
         "अनुसंधान",
@@ -18854,7 +18911,7 @@
       "source_path": "search-documents/videha-369.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-369.html",
       "page_title": "VIDEHA — Issue 369 / अंक ३६९",
-      "year": "2000",
+      "year": "unknown",
       "issue": "369",
       "score": 570,
       "matched_terms": [
@@ -18889,7 +18946,7 @@
       "source_path": "search-documents/videha-397.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-397.html",
       "page_title": "VIDEHA — Issue 397 / अंक ३९७",
-      "year": "2000",
+      "year": "unknown",
       "issue": "397",
       "score": 570,
       "matched_terms": [
@@ -18924,7 +18981,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-023.html",
       "page_title": "SADEHA — 23",
       "year": "unknown",
-      "issue": "23",
+      "issue": "unknown",
       "score": 560,
       "matched_terms": [
         "अनुसंधान",
@@ -18963,7 +19020,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-032.html",
       "page_title": "SADEHA — 32",
       "year": "unknown",
-      "issue": "32",
+      "issue": "unknown",
       "score": 560,
       "matched_terms": [
         "अनुसंधान",
@@ -19152,7 +19209,7 @@
       "source_path": "search-documents/videha-387.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-387.html",
       "page_title": "VIDEHA — Issue 387 / अंक ३८७",
-      "year": "2000",
+      "year": "unknown",
       "issue": "387",
       "score": 560,
       "matched_terms": [
@@ -19189,7 +19246,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-028.html",
       "page_title": "SADEHA — 28",
       "year": "unknown",
-      "issue": "28",
+      "issue": "unknown",
       "score": 550,
       "matched_terms": [
         "अनुसंधान",
@@ -19843,7 +19900,7 @@
       "source_path": "search-documents/videha-078.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-078.html",
       "page_title": "VIDEHA — Issue 78 / अंक ७८",
-      "year": "2010",
+      "year": "unknown",
       "issue": "78",
       "score": 515,
       "matched_terms": [
@@ -19988,7 +20045,7 @@
       "source_path": "search-documents/videha-440.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-440.html",
       "page_title": "VIDEHA — Issue 440 / अंक ४४०",
-      "year": "2000",
+      "year": "unknown",
       "issue": "440",
       "score": 515,
       "matched_terms": [
@@ -20027,7 +20084,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-026.html",
       "page_title": "SADEHA — 26",
       "year": "unknown",
-      "issue": "26",
+      "issue": "unknown",
       "score": 510,
       "matched_terms": [
         "अनुसंधान",
@@ -20063,7 +20120,7 @@
       "source_path": "search-documents/videha-438.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-438.html",
       "page_title": "VIDEHA — Issue 438 / अंक ४३८",
-      "year": "2000",
+      "year": "unknown",
       "issue": "438",
       "score": 500,
       "matched_terms": [
@@ -20099,7 +20156,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-017.html",
       "page_title": "SADEHA — 17",
       "year": "unknown",
-      "issue": "17",
+      "issue": "unknown",
       "score": 495,
       "matched_terms": [
         "अनुसंधान",
@@ -20300,7 +20357,7 @@
       "source_path": "search-documents/videha-392.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-392.html",
       "page_title": "VIDEHA — Issue 392 / अंक ३९२",
-      "year": "2000",
+      "year": "unknown",
       "issue": "392",
       "score": 495,
       "matched_terms": [
@@ -20335,7 +20392,7 @@
       "source_path": "search-documents/videha-445.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-445.html",
       "page_title": "VIDEHA — Issue 445 / अंक ४४५",
-      "year": "2000",
+      "year": "unknown",
       "issue": "445",
       "score": 495,
       "matched_terms": [
@@ -20832,7 +20889,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-020.html",
       "page_title": "SADEHA — 20",
       "year": "unknown",
-      "issue": "20",
+      "issue": "unknown",
       "score": 470,
       "matched_terms": [
         "अनुसंधान",
@@ -20866,7 +20923,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-034.html",
       "page_title": "SADEHA — 34",
       "year": "unknown",
-      "issue": "34",
+      "issue": "unknown",
       "score": 470,
       "matched_terms": [
         "अनुसंधान",
@@ -21357,7 +21414,7 @@
       "source_path": "search-documents/videha-381.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-381.html",
       "page_title": "VIDEHA — Issue 381 / अंक ३८१",
-      "year": "2000",
+      "year": "unknown",
       "issue": "381",
       "score": 470,
       "matched_terms": [
@@ -21391,7 +21448,7 @@
       "source_path": "search-documents/videha-390.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-390.html",
       "page_title": "VIDEHA — Issue 390 / अंक ३९०",
-      "year": "2000",
+      "year": "unknown",
       "issue": "390",
       "score": 470,
       "matched_terms": [
@@ -21463,51 +21520,11 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
-      "source_path": "prose.htm",
-      "source_url": "https://www.videha.co.in/prose.htm",
-      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 460,
-      "matched_terms": [
-        "अनुसन्धान",
-        "आलोचना",
-        "इतिहास",
-        "पंजी",
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "मिथिला चित्रकला",
-        "व्याकरण",
-        "संदर्भ",
-        "सन्दर्भ",
-        "समालोचना"
-      ],
-      "excluded_terms": [
-        "e-learning",
-        "quiz",
-        "ई-लर्निङ्ग",
-        "कथा",
-        "कविता",
-        "नाटक",
-        "प्रश्नोत्तरी",
-        "लघुकथा",
-        "साक्षात्कार"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
       "source_path": "search-documents/sadeha-025.html",
       "source_url": "https://www.videha.co.in/search-documents/sadeha-025.html",
       "page_title": "SADEHA — 25",
       "year": "unknown",
-      "issue": "25",
+      "issue": "unknown",
       "score": 460,
       "matched_terms": [
         "अन्वेषण",
@@ -21813,7 +21830,7 @@
       "source_path": "search-documents/videha-059.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-059.html",
       "page_title": "VIDEHA — Issue 59 / अंक ५९",
-      "year": "2004",
+      "year": "unknown",
       "issue": "59",
       "score": 445,
       "matched_terms": [
@@ -21950,7 +21967,7 @@
       "source_path": "search-documents/videha-081.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-081.html",
       "page_title": "VIDEHA — Issue 81 / अंक ८१",
-      "year": "2011",
+      "year": "unknown",
       "issue": "81",
       "score": 445,
       "matched_terms": [
@@ -22019,7 +22036,7 @@
       "source_path": "search-documents/videha-101.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-101.html",
       "page_title": "VIDEHA — Issue 101 / अंक १०१",
-      "year": "2012",
+      "year": "unknown",
       "issue": "101",
       "score": 445,
       "matched_terms": [
@@ -22186,7 +22203,7 @@
       "source_path": "search-documents/videha-118.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-118.html",
       "page_title": "VIDEHA — Issue 118 / अंक ११८",
-      "year": "2012",
+      "year": "unknown",
       "issue": "118",
       "score": 445,
       "matched_terms": [
@@ -22255,7 +22272,7 @@
       "source_path": "search-documents/videha-123.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-123.html",
       "page_title": "VIDEHA — Issue 123 / अंक १२३",
-      "year": "2013",
+      "year": "unknown",
       "issue": "123",
       "score": 445,
       "matched_terms": [
@@ -22290,7 +22307,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-012.html",
       "page_title": "SADEHA — 12",
       "year": "unknown",
-      "issue": "12",
+      "issue": "unknown",
       "score": 440,
       "matched_terms": [
         "अन्वेषण",
@@ -22327,7 +22344,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-019.html",
       "page_title": "SADEHA — 19",
       "year": "unknown",
-      "issue": "19",
+      "issue": "unknown",
       "score": 440,
       "matched_terms": [
         "references",
@@ -22363,7 +22380,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-029.html",
       "page_title": "SADEHA — 29",
       "year": "unknown",
-      "issue": "29",
+      "issue": "unknown",
       "score": 440,
       "matched_terms": [
         "अन्वेषण",
@@ -22434,7 +22451,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-016.html",
       "page_title": "SADEHA — 16",
       "year": "unknown",
-      "issue": "16",
+      "issue": "unknown",
       "score": 425,
       "matched_terms": [
         "अनुसंधान",
@@ -22777,6 +22794,45 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
+      "source_path": "prose.htm",
+      "source_url": "https://www.videha.co.in/prose.htm",
+      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 415,
+      "matched_terms": [
+        "अनुसन्धान",
+        "आलोचना",
+        "इतिहास",
+        "पंजी",
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "व्याकरण",
+        "संदर्भ",
+        "सन्दर्भ",
+        "समालोचना"
+      ],
+      "excluded_terms": [
+        "e-learning",
+        "quiz",
+        "ई-लर्निङ्ग",
+        "कथा",
+        "कविता",
+        "नाटक",
+        "प्रश्नोत्तरी",
+        "लघुकथा",
+        "साक्षात्कार"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
       "source_path": "search-documents/sadeha-008.html",
       "source_url": "https://www.videha.co.in/search-documents/sadeha-008.html",
       "page_title": "SADEHA — 8",
@@ -22848,7 +22904,7 @@
       "source_path": "search-documents/videha-444.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-444.html",
       "page_title": "VIDEHA — Issue 444 / अंक ४४४",
-      "year": "2000",
+      "year": "unknown",
       "issue": "444",
       "score": 415,
       "matched_terms": [
@@ -23047,7 +23103,7 @@
       "source_path": "search-documents/videha-368.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-368.html",
       "page_title": "VIDEHA — Issue 368 / अंक ३६८",
-      "year": "2000",
+      "year": "unknown",
       "issue": "368",
       "score": 400,
       "matched_terms": [
@@ -23635,7 +23691,7 @@
       "source_path": "search-documents/videha-419.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-419.html",
       "page_title": "VIDEHA — Issue 419 / अंक ४१९",
-      "year": "2000",
+      "year": "unknown",
       "issue": "419",
       "score": 380,
       "matched_terms": [
@@ -23668,7 +23724,7 @@
       "source_path": "search-documents/videha-439.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-439.html",
       "page_title": "VIDEHA — Issue 439 / अंक ४३९",
-      "year": "2000",
+      "year": "unknown",
       "issue": "439",
       "score": 375,
       "matched_terms": [
@@ -23699,7 +23755,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-015.html",
       "page_title": "SADEHA — 15",
       "year": "unknown",
-      "issue": "15",
+      "issue": "unknown",
       "score": 370,
       "matched_terms": [
         "अनुसंधान",
@@ -23892,7 +23948,7 @@
       "source_path": "search-documents/videha-430.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-430.html",
       "page_title": "VIDEHA — Issue 430 / अंक ४३०",
-      "year": "2000",
+      "year": "unknown",
       "issue": "430",
       "score": 360,
       "matched_terms": [
@@ -23921,7 +23977,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-005-version-1.html",
       "page_title": "SADEHA — 5, Version 1",
       "year": "unknown",
-      "issue": "5",
+      "issue": "unknown",
       "score": 345,
       "matched_terms": [
         "अन्वेषण",
@@ -24197,7 +24253,7 @@
       "source_path": "search-documents/videha-394.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-394.html",
       "page_title": "VIDEHA — Issue 394 / अंक ३९४",
-      "year": "2000",
+      "year": "unknown",
       "issue": "394",
       "score": 330,
       "matched_terms": [
@@ -24256,8 +24312,8 @@
       "source_path": "search-documents/sadeha-037.html",
       "source_url": "https://www.videha.co.in/search-documents/sadeha-037.html",
       "page_title": "SADEHA — 37",
-      "year": "2022",
-      "issue": "37",
+      "year": "unknown",
+      "issue": "unknown",
       "score": 325,
       "matched_terms": [
         "अन्वेषण",
@@ -24537,7 +24593,7 @@
       "source_path": "search-documents/videha-395.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-395.html",
       "page_title": "VIDEHA — Issue 395 / अंक ३९५",
-      "year": "2000",
+      "year": "unknown",
       "issue": "395",
       "score": 325,
       "matched_terms": [
@@ -24601,7 +24657,7 @@
       "source_path": "search-documents/videha-429.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-429.html",
       "page_title": "VIDEHA — Issue 429 / अंक ४२९",
-      "year": "2000",
+      "year": "unknown",
       "issue": "429",
       "score": 315,
       "matched_terms": [
@@ -24658,7 +24714,7 @@
       "source_path": "search-documents/videha-420.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-420.html",
       "page_title": "VIDEHA — Issue 420 / अंक ४२०",
-      "year": "2000",
+      "year": "unknown",
       "issue": "420",
       "score": 310,
       "matched_terms": [
@@ -24840,7 +24896,7 @@
       "source_path": "search-documents/videha-367.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-367.html",
       "page_title": "VIDEHA — Issue 367 / अंक ३६७",
-      "year": "2004",
+      "year": "unknown",
       "issue": "367",
       "score": 300,
       "matched_terms": [
@@ -24935,7 +24991,7 @@
       "source_path": "search-documents/videha-433.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-433.html",
       "page_title": "VIDEHA — Issue 433 / अंक ४३३",
-      "year": "2000",
+      "year": "unknown",
       "issue": "433",
       "score": 295,
       "matched_terms": [
@@ -25105,7 +25161,7 @@
       "source_path": "search-documents/videha-375.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-375.html",
       "page_title": "VIDEHA — Issue 375 / अंक ३७५",
-      "year": "2000",
+      "year": "unknown",
       "issue": "375",
       "score": 285,
       "matched_terms": [
@@ -25226,7 +25282,7 @@
       "source_path": "search-documents/videha-383.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-383.html",
       "page_title": "VIDEHA — Issue 383 / अंक ३८३",
-      "year": "2000",
+      "year": "unknown",
       "issue": "383",
       "score": 280,
       "matched_terms": [
@@ -25256,7 +25312,7 @@
       "source_path": "search-documents/videha-385.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-385.html",
       "page_title": "VIDEHA — Issue 385 / अंक ३८५",
-      "year": "2000",
+      "year": "unknown",
       "issue": "385",
       "score": 280,
       "matched_terms": [
@@ -25285,7 +25341,7 @@
       "source_path": "search-documents/videha-408.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-408.html",
       "page_title": "VIDEHA — Issue 408 / अंक ४०८",
-      "year": "2000",
+      "year": "unknown",
       "issue": "408",
       "score": 280,
       "matched_terms": [
@@ -25313,7 +25369,7 @@
       "source_path": "search-documents/videha-424.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-424.html",
       "page_title": "VIDEHA — Issue 424 / अंक ४२४",
-      "year": "2000",
+      "year": "unknown",
       "issue": "424",
       "score": 280,
       "matched_terms": [
@@ -25345,7 +25401,7 @@
       "source_path": "search-documents/videha-427.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-427.html",
       "page_title": "VIDEHA — Issue 427 / अंक ४२७",
-      "year": "2000",
+      "year": "unknown",
       "issue": "427",
       "score": 280,
       "matched_terms": [
@@ -25463,7 +25519,7 @@
       "source_path": "search-documents/videha-401.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-401.html",
       "page_title": "VIDEHA — Issue 401 / अंक ४०१",
-      "year": "1933",
+      "year": "unknown",
       "issue": "401",
       "score": 260,
       "matched_terms": [
@@ -25493,7 +25549,7 @@
       "source_path": "search-documents/videha-402.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-402.html",
       "page_title": "VIDEHA — Issue 402 / अंक ४०२",
-      "year": "2000",
+      "year": "unknown",
       "issue": "402",
       "score": 260,
       "matched_terms": [
@@ -25731,7 +25787,7 @@
       "source_path": "search-documents/videha-386.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-386.html",
       "page_title": "VIDEHA — Issue 386 / अंक ३८६",
-      "year": "2000",
+      "year": "unknown",
       "issue": "386",
       "score": 255,
       "matched_terms": [
@@ -25759,7 +25815,7 @@
       "source_path": "search-documents/videha-378.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-378.html",
       "page_title": "VIDEHA — Issue 378 / अंक ३७८",
-      "year": "2000",
+      "year": "unknown",
       "issue": "378",
       "score": 250,
       "matched_terms": [
@@ -25848,7 +25904,7 @@
       "source_path": "search-documents/videha-377.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-377.html",
       "page_title": "VIDEHA — Issue 377 / अंक ३७७",
-      "year": "2000",
+      "year": "unknown",
       "issue": "377",
       "score": 240,
       "matched_terms": [
@@ -25876,7 +25932,7 @@
       "source_path": "search-documents/videha-423.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-423.html",
       "page_title": "VIDEHA — Issue 423 / अंक ४२३",
-      "year": "2000",
+      "year": "unknown",
       "issue": "423",
       "score": 240,
       "matched_terms": [
@@ -26460,7 +26516,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-031.html",
       "page_title": "SADEHA — 31",
       "year": "unknown",
-      "issue": "31",
+      "issue": "unknown",
       "score": 235,
       "matched_terms": [
         "अनुसंधान",
@@ -26566,7 +26622,7 @@
       "source_path": "search-documents/videha-415.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-415.html",
       "page_title": "VIDEHA — Issue 415 / अंक ४१५",
-      "year": "2000",
+      "year": "unknown",
       "issue": "415",
       "score": 235,
       "matched_terms": [
@@ -27001,7 +27057,7 @@
       "source_path": "search-documents/videha-389.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-389.html",
       "page_title": "VIDEHA — Issue 389 / अंक ३८९",
-      "year": "2000",
+      "year": "unknown",
       "issue": "389",
       "score": 230,
       "matched_terms": [
@@ -27019,6 +27075,39 @@
         "समाचार"
       ],
       "special_terms": [
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
+      "source_path": "gajendra-thakur-samagra.htm",
+      "source_url": "https://www.videha.co.in/gajendra-thakur-samagra.htm",
+      "page_title": "गजेन्द्र ठाकुर समग्र | Videha",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 225,
+      "matched_terms": [
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "मिथिला चित्रकला",
+        "व्याकरण",
+        "सन्दर्भ",
+        "समालोचना"
+      ],
+      "excluded_terms": [
+        "quiz",
+        "ई-लर्निङ्ग",
+        "कथा",
+        "कविता",
+        "नाटक",
+        "प्रश्नोत्तरी",
+        "लघुकथा"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
         "कोश",
         "शब्दकोश"
       ],
@@ -27089,7 +27178,7 @@
       "source_path": "search-documents/videha-007.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-007.html",
       "page_title": "VIDEHA — Issue 7 / अंक ७",
-      "year": "2008",
+      "year": "unknown",
       "issue": "7",
       "score": 225,
       "matched_terms": [
@@ -27141,7 +27230,7 @@
       "source_path": "search-documents/videha-416.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-416.html",
       "page_title": "VIDEHA — Issue 416 / अंक ४१६",
-      "year": "2000",
+      "year": "unknown",
       "issue": "416",
       "score": 225,
       "matched_terms": [
@@ -27161,7 +27250,7 @@
       "source_path": "search-documents/videha-412.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-412.html",
       "page_title": "VIDEHA — Issue 412 / अंक ४१२",
-      "year": "2000",
+      "year": "unknown",
       "issue": "412",
       "score": 220,
       "matched_terms": [
@@ -27203,8 +27292,7 @@
         "कथा",
         "कविता",
         "नाटक",
-        "प्रश्नोत्तरी",
-        "लघुकथा"
+        "प्रश्नोत्तरी"
       ],
       "special_terms": [
         "dictionary",
@@ -27607,42 +27695,10 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
-      "source_path": "gajendra-thakur-samagra.htm",
-      "source_url": "https://www.videha.co.in/gajendra-thakur-samagra.htm",
-      "page_title": "गजेन्द्र ठाकुर समग्र | Videha",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 200,
-      "matched_terms": [
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "मिथिला चित्रकला",
-        "व्याकरण",
-        "समालोचना"
-      ],
-      "excluded_terms": [
-        "quiz",
-        "ई-लर्निङ्ग",
-        "कथा",
-        "कविता",
-        "नाटक",
-        "प्रश्नोत्तरी",
-        "लघुकथा"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
       "source_path": "search-documents/videha-009.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-009.html",
       "page_title": "VIDEHA — Issue 9 / अंक ९",
-      "year": "2008",
+      "year": "unknown",
       "issue": "9",
       "score": 200,
       "matched_terms": [
@@ -28975,7 +29031,7 @@
       "source_path": "search-documents/videha-407.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-407.html",
       "page_title": "VIDEHA — Issue 407 / अंक ४०७",
-      "year": "2000",
+      "year": "unknown",
       "issue": "407",
       "score": 185,
       "matched_terms": [
@@ -29174,7 +29230,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-022.html",
       "page_title": "SADEHA — 22",
       "year": "unknown",
-      "issue": "22",
+      "issue": "unknown",
       "score": 180,
       "matched_terms": [
         "आलोचना",
@@ -29203,7 +29259,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-027.html",
       "page_title": "SADEHA — 27",
       "year": "unknown",
-      "issue": "27",
+      "issue": "unknown",
       "score": 180,
       "matched_terms": [
         "आलोचना",
@@ -29291,7 +29347,7 @@
       "source_path": "search-documents/videha-382.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-382.html",
       "page_title": "VIDEHA — Issue 382 / अंक ३८२",
-      "year": "2000",
+      "year": "unknown",
       "issue": "382",
       "score": 180,
       "matched_terms": [
@@ -29321,7 +29377,7 @@
       "source_path": "search-documents/videha-384.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-384.html",
       "page_title": "VIDEHA — Issue 384 / अंक ३८४",
-      "year": "2000",
+      "year": "unknown",
       "issue": "384",
       "score": 180,
       "matched_terms": [
@@ -29351,7 +29407,7 @@
       "source_path": "search-documents/videha-391.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-391.html",
       "page_title": "VIDEHA — Issue 391 / अंक ३९१",
-      "year": "2000",
+      "year": "unknown",
       "issue": "391",
       "score": 180,
       "matched_terms": [
@@ -29378,7 +29434,7 @@
       "source_path": "search-documents/videha-393.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-393.html",
       "page_title": "VIDEHA — Issue 393 / अंक ३९३",
-      "year": "2000",
+      "year": "unknown",
       "issue": "393",
       "score": 180,
       "matched_terms": [
@@ -29407,7 +29463,7 @@
       "source_path": "search-documents/videha-435.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-435.html",
       "page_title": "VIDEHA — Issue 435 / अंक ४३५",
-      "year": "2000",
+      "year": "unknown",
       "issue": "435",
       "score": 180,
       "matched_terms": [
@@ -29651,7 +29707,7 @@
       "source_path": "search-documents/videha-418.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-418.html",
       "page_title": "VIDEHA — Issue 418 / अंक ४१८",
-      "year": "2000",
+      "year": "unknown",
       "issue": "418",
       "score": 170,
       "matched_terms": [
@@ -29670,7 +29726,7 @@
       "source_path": "search-documents/videha-437.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-437.html",
       "page_title": "VIDEHA — Issue 437 / अंक ४३७",
-      "year": "2000",
+      "year": "unknown",
       "issue": "437",
       "score": 165,
       "matched_terms": [
@@ -30457,7 +30513,7 @@
       "source_path": "search-documents/videha-406.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-406.html",
       "page_title": "VIDEHA — Issue 406 / अंक ४०६",
-      "year": "2000",
+      "year": "unknown",
       "issue": "406",
       "score": 160,
       "matched_terms": [
@@ -30485,7 +30541,7 @@
       "source_path": "search-documents/videha-411.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-411.html",
       "page_title": "VIDEHA — Issue 411 / अंक ४११",
-      "year": "2000",
+      "year": "unknown",
       "issue": "411",
       "score": 160,
       "matched_terms": [
@@ -30509,7 +30565,7 @@
       "source_path": "search-documents/videha-431.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-431.html",
       "page_title": "VIDEHA — Issue 431 / अंक ४३१",
-      "year": "2000",
+      "year": "unknown",
       "issue": "431",
       "score": 160,
       "matched_terms": [
@@ -30532,7 +30588,7 @@
       "source_path": "search-documents/videha-432.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-432.html",
       "page_title": "VIDEHA — Issue 432 / अंक ४३२",
-      "year": "2000",
+      "year": "unknown",
       "issue": "432",
       "score": 160,
       "matched_terms": [
@@ -30621,7 +30677,7 @@
       "source_path": "search-documents/videha-006.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-006.html",
       "page_title": "VIDEHA — Issue 6 / अंक ६",
-      "year": "2008",
+      "year": "unknown",
       "issue": "6",
       "score": 155,
       "matched_terms": [
@@ -31099,7 +31155,7 @@
       "source_url": "https://www.videha.co.in/search-documents/sadeha-005-version-2.html",
       "page_title": "SADEHA — 5, Version 2",
       "year": "unknown",
-      "issue": "5",
+      "issue": "unknown",
       "score": 145,
       "matched_terms": [
         "अन्वेषण",
@@ -31138,7 +31194,7 @@
       "source_path": "search-documents/videha-436.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-436.html",
       "page_title": "VIDEHA — Issue 436 / अंक ४३६",
-      "year": "2000",
+      "year": "unknown",
       "issue": "436",
       "score": 145,
       "matched_terms": [
@@ -31152,6 +31208,26 @@
       ],
       "special_terms": [
         "कोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
+      "source_path": "videha-doi.htm",
+      "source_url": "https://www.videha.co.in/videha-doi.htm",
+      "page_title": "विदेह DOI · Zenodo · Scholarly Preservation | VIDEHA ISSN 2229-547X",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 145,
+      "matched_terms": [
+        "अनुसन्धान",
+        "पञ्जी"
+      ],
+      "excluded_terms": [
+        "quiz"
+      ],
+      "special_terms": [
+        "thesaurus"
       ],
       "treatment": "different-discovery-strategy",
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
@@ -31258,7 +31334,7 @@
       "source_path": "search-documents/videha-403.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-403.html",
       "page_title": "VIDEHA — Issue 403 / अंक ४०३",
-      "year": "2000",
+      "year": "unknown",
       "issue": "403",
       "score": 140,
       "matched_terms": [
@@ -31964,7 +32040,7 @@
       "source_path": "search-documents/videha-003.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-003.html",
       "page_title": "VIDEHA — Issue 3 / अंक ३",
-      "year": "2008",
+      "year": "unknown",
       "issue": "3",
       "score": 135,
       "matched_terms": [
@@ -31989,7 +32065,7 @@
       "source_path": "search-documents/videha-004.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-004.html",
       "page_title": "VIDEHA — Issue 4 / अंक ४",
-      "year": "2008",
+      "year": "unknown",
       "issue": "4",
       "score": 135,
       "matched_terms": [
@@ -32009,7 +32085,7 @@
       "source_path": "search-documents/videha-005.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-005.html",
       "page_title": "VIDEHA — Issue 5 / अंक ५",
-      "year": "2008",
+      "year": "unknown",
       "issue": "5",
       "score": 135,
       "matched_terms": [
@@ -32056,7 +32132,7 @@
       "source_path": "search-documents/videha-380.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-380.html",
       "page_title": "VIDEHA — Issue 380 / अंक ३८०",
-      "year": "2000",
+      "year": "unknown",
       "issue": "380",
       "score": 135,
       "matched_terms": [
@@ -32084,7 +32160,7 @@
       "source_path": "search-documents/videha-409.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-409.html",
       "page_title": "VIDEHA — Issue 409 / अंक ४०९",
-      "year": "2000",
+      "year": "unknown",
       "issue": "409",
       "score": 135,
       "matched_terms": [
@@ -32189,7 +32265,7 @@
       "source_path": "search-documents/videha-002.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-002.html",
       "page_title": "VIDEHA — Issue 2 / अंक २",
-      "year": "2008",
+      "year": "unknown",
       "issue": "2",
       "score": 130,
       "matched_terms": [
@@ -33019,7 +33095,7 @@
       "source_path": "search-documents/videha-376.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-376.html",
       "page_title": "VIDEHA — Issue 376 / अंक ३७६",
-      "year": "2000",
+      "year": "unknown",
       "issue": "376",
       "score": 115,
       "matched_terms": [
@@ -33043,7 +33119,7 @@
       "source_path": "search-documents/videha-001.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-001.html",
       "page_title": "VIDEHA — Issue 1 / अंक १",
-      "year": "2008",
+      "year": "unknown",
       "issue": "1",
       "score": 110,
       "matched_terms": [
@@ -33235,7 +33311,7 @@
       "source_path": "search-documents/videha-404.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-404.html",
       "page_title": "VIDEHA — Issue 404 / अंक ४०४",
-      "year": "2000",
+      "year": "unknown",
       "issue": "404",
       "score": 100,
       "matched_terms": [
@@ -33257,7 +33333,7 @@
       "source_path": "search-documents/videha-422.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-422.html",
       "page_title": "VIDEHA — Issue 422 / अंक ४२२",
-      "year": "2000",
+      "year": "unknown",
       "issue": "422",
       "score": 95,
       "matched_terms": [
@@ -33280,7 +33356,7 @@
       "source_path": "search-documents/videha-425.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-425.html",
       "page_title": "VIDEHA — Issue 425 / अंक ४२५",
-      "year": "2000",
+      "year": "unknown",
       "issue": "425",
       "score": 95,
       "matched_terms": [
@@ -33302,7 +33378,7 @@
       "source_path": "search-documents/videha-426.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-426.html",
       "page_title": "VIDEHA — Issue 426 / अंक ४२६",
-      "year": "2000",
+      "year": "unknown",
       "issue": "426",
       "score": 95,
       "matched_terms": [
@@ -33368,7 +33444,7 @@
       "source_path": "search-documents/videha-379.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-379.html",
       "page_title": "VIDEHA — Issue 379 / अंक ३७९",
-      "year": "2000",
+      "year": "unknown",
       "issue": "379",
       "score": 90,
       "matched_terms": [
@@ -33393,7 +33469,7 @@
       "source_path": "search-documents/videha-399.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-399.html",
       "page_title": "VIDEHA — Issue 399 / अंक ३९९",
-      "year": "2000",
+      "year": "unknown",
       "issue": "399",
       "score": 90,
       "matched_terms": [
@@ -33415,7 +33491,7 @@
       "source_path": "search-documents/videha-410.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-410.html",
       "page_title": "VIDEHA — Issue 410 / अंक ४१०",
-      "year": "2000",
+      "year": "unknown",
       "issue": "410",
       "score": 90,
       "matched_terms": [
@@ -33893,7 +33969,7 @@
       "source_path": "search-documents/videha-388.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-388.html",
       "page_title": "VIDEHA — Issue 388 / अंक ३८८",
-      "year": "2000",
+      "year": "unknown",
       "issue": "388",
       "score": 85,
       "matched_terms": [
@@ -33937,7 +34013,7 @@
       "source_path": "search-documents/videha-421.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-421.html",
       "page_title": "VIDEHA — Issue 421 / अंक ४२१",
-      "year": "2000",
+      "year": "unknown",
       "issue": "421",
       "score": 70,
       "matched_terms": [
@@ -34250,7 +34326,7 @@
       "source_path": "search-documents/videha-232.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-232.html",
       "page_title": "VIDEHA — Issue 232 / अंक २३२",
-      "year": "2017",
+      "year": "unknown",
       "issue": "232",
       "score": 40,
       "matched_terms": [
@@ -34272,7 +34348,7 @@
       "source_path": "search-documents/videha-233.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-233.html",
       "page_title": "VIDEHA — Issue 233 / अंक २३३",
-      "year": "2017",
+      "year": "unknown",
       "issue": "233",
       "score": 40,
       "matched_terms": [
@@ -34294,7 +34370,7 @@
       "source_path": "search-documents/videha-234.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-234.html",
       "page_title": "VIDEHA — Issue 234 / अंक २३४",
-      "year": "2017",
+      "year": "unknown",
       "issue": "234",
       "score": 40,
       "matched_terms": [
@@ -34336,7 +34412,7 @@
       "source_path": "search-documents/videha-236.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-236.html",
       "page_title": "VIDEHA — Issue 236 / अंक २३६",
-      "year": "2017",
+      "year": "unknown",
       "issue": "236",
       "score": 40,
       "matched_terms": [
@@ -34357,7 +34433,7 @@
       "source_path": "search-documents/videha-238.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-238.html",
       "page_title": "VIDEHA — Issue 238 / अंक २३८",
-      "year": "2017",
+      "year": "unknown",
       "issue": "238",
       "score": 40,
       "matched_terms": [
@@ -34399,7 +34475,7 @@
       "source_path": "search-documents/videha-240.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-240.html",
       "page_title": "VIDEHA — Issue 240 / अंक २४०",
-      "year": "2017",
+      "year": "unknown",
       "issue": "240",
       "score": 40,
       "matched_terms": [
@@ -34483,7 +34559,7 @@
       "source_path": "search-documents/videha-244.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-244.html",
       "page_title": "VIDEHA — Issue 244 / अंक २४४",
-      "year": "2018",
+      "year": "unknown",
       "issue": "244",
       "score": 40,
       "matched_terms": [
@@ -34504,7 +34580,7 @@
       "source_path": "search-documents/videha-245.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-245.html",
       "page_title": "VIDEHA — Issue 245 / अंक २४५",
-      "year": "2018",
+      "year": "unknown",
       "issue": "245",
       "score": 40,
       "matched_terms": [
@@ -34525,7 +34601,7 @@
       "source_path": "search-documents/videha-246.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-246.html",
       "page_title": "VIDEHA — Issue 246 / अंक २४६",
-      "year": "2018",
+      "year": "unknown",
       "issue": "246",
       "score": 40,
       "matched_terms": [
@@ -34546,7 +34622,7 @@
       "source_path": "search-documents/videha-247.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-247.html",
       "page_title": "VIDEHA — Issue 247 / अंक २४७",
-      "year": "2018",
+      "year": "unknown",
       "issue": "247",
       "score": 40,
       "matched_terms": [
@@ -34567,7 +34643,7 @@
       "source_path": "search-documents/videha-248.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-248.html",
       "page_title": "VIDEHA — Issue 248 / अंक २४८",
-      "year": "2018",
+      "year": "unknown",
       "issue": "248",
       "score": 40,
       "matched_terms": [
@@ -35062,7 +35138,7 @@
       "source_path": "search-documents/videha-417.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-417.html",
       "page_title": "VIDEHA — Issue 417 / अंक ४१७",
-      "year": "2000",
+      "year": "unknown",
       "issue": "417",
       "score": 25,
       "matched_terms": [
@@ -35082,7 +35158,7 @@
       "source_path": "search-documents/videha-434.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-434.html",
       "page_title": "VIDEHA — Issue 434 / अंक ४३४",
-      "year": "2000",
+      "year": "unknown",
       "issue": "434",
       "score": 25,
       "matched_terms": [
@@ -35123,7 +35199,7 @@
       "source_path": "search-documents/videha-413.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-413.html",
       "page_title": "VIDEHA — Issue 413 / अंक ४१३",
-      "year": "2000",
+      "year": "unknown",
       "issue": "413",
       "score": 20,
       "matched_terms": [
@@ -35259,7 +35335,7 @@
       "source_path": "search-documents/videha-414.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-414.html",
       "page_title": "VIDEHA — Issue 414 / अंक ४१४",
-      "year": "2000",
+      "year": "unknown",
       "issue": "414",
       "score": 0,
       "matched_terms": [],
@@ -35280,7 +35356,7 @@
       "page_title": "VIDEHA Multilingual Publishing Studio",
       "year": "2000",
       "issue": "unknown",
-      "score": -35,
+      "score": 0,
       "matched_terms": [],
       "excluded_terms": [],
       "special_terms": [

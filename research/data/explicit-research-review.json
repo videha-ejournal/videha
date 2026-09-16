@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10T09:11:55.007479+00:00",
+  "generated": "2026-09-16T10:17:19.945712+00:00",
   "summary": {
     "issue_files_scanned": 448,
     "explicit_articles_publishable": 1,
@@ -7,8 +7,8 @@
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 0,
-    "audit_queue_held": 17,
-    "top_level_audit_publishable": 52,
+    "audit_queue_held": 18,
+    "top_level_audit_publishable": 55,
     "top_level_audit_held": 64,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
@@ -16,7 +16,7 @@
     "promoted_sections_publishable": 797,
     "promoted_sections_review": 83,
     "curated_manifests": 30,
-    "published_after_all_overrides": 839,
+    "published_after_all_overrides": 842,
     "stale_generated_pages_removed_before_render": 834,
     "build_errors": 0
   },
@@ -49,6 +49,12 @@
       "issue": "322",
       "section": "2.1",
       "reason": "insufficient-body-for-high-confidence, short-body"
+    },
+    {
+      "issue": "448",
+      "section": "2.29",
+      "body_chars": 0,
+      "reason": "body outside 1800–180000 character safe range"
     },
     {
       "issue": "49",

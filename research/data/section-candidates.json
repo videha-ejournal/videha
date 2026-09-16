@@ -1,7 +1,7 @@
 {
-  "issue_files_scanned": 447,
-  "candidate_sections": 126,
-  "high_confidence_review": 1,
+  "issue_files_scanned": 448,
+  "candidate_sections": 127,
+  "high_confidence_review": 2,
   "rows": [
     {
       "issue": "322",
@@ -26,6 +26,32 @@
       "body_chars": 0,
       "source_path": "search-documents/videha-322.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20322.pdf"
+    },
+    {
+      "issue": "448",
+      "publication_date": "2026-08-15",
+      "section": "2.29",
+      "author": "आशीष अनचिन्हार",
+      "title": "पोथी संग्रहकर्ता इतिहासकार होथि से जरूरी नहि",
+      "page_start": "441",
+      "page_end": "445",
+      "content_class": "history",
+      "score": 160,
+      "signals": [
+        "अध्ययन",
+        "अनुसंधान",
+        "अनुसन्धान",
+        "इतिहास",
+        "पद्धति",
+        "शोध",
+        "संदर्भ",
+        "सन्दर्भ"
+      ],
+      "negative_signals": [],
+      "status": "high-confidence-review",
+      "body_chars": 741208,
+      "source_path": "search-documents/videha-448.html",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf"
     },
     {
       "issue": "49",
