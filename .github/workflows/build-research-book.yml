@@ -1,0 +1,61 @@
+name: Build Videha Scholar Research Book
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'research/data/articles.json'
+      - 'scholar-tools/build_research_book.py'
+      - '.github/workflows/build-research-book.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: videha-scholar-research-book
+  cancel-in-progress: true
+
+jobs:
+  build-book:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out canonical inventory and book generator
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            research
+            scholar-tools
+          sparse-checkout-cone-mode: true
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Generate Research Book from research/data/articles.json
+        run: python3 scholar-tools/build_research_book.py
+      - name: Verify exact source alignment
+        run: python3 scholar-tools/build_research_book.py --check
+      - name: Commit generated Research Book
+        run: |
+          git config user.name "videha-scholar-bot"
+          git config user.email "videha-scholar-bot@users.noreply.github.com"
+          git add research/videha-scholar-research-book.html
+          if git diff --cached --quiet; then
+            echo "Research Book already matches canonical article inventory"
+          else
+            count="$(python3 - <<'PY'
+          import json
+          from pathlib import Path
+          print(len(json.loads(Path('research/data/articles.json').read_text(encoding='utf-8'))['articles']))
+          PY
+          )"
+            git commit -m "Regenerate Videha Scholar Research Book (${count} papers) [skip actions]"
+            for attempt in 1 2 3; do
+              git pull --rebase origin main && git push && exit 0
+              echo "Push attempt $attempt failed; retrying after refresh"
+              sleep 2
+            done
+            exit 1
+          fi
