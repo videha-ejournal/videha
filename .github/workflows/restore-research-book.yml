@@ -1,0 +1,99 @@
+name: Restore Historic Videha Scholar Research Book
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/restore-research-book.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: videha-scholar-research-book-restore
+  cancel-in-progress: false
+
+jobs:
+  restore-and-sync:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository history needed for exact restoration
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          sparse-checkout: |
+            research
+            scholar-tools
+          sparse-checkout-cone-mode: true
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+
+      - name: Restore exact last-good historic Research Book shell
+        run: |
+          git show 0a38b72a88d629a860b1c62b7e4bf0d5e17c1f4d:research/videha-scholar-research-book.html \
+            > research/videha-scholar-research-book.html
+          test -s research/videha-scholar-research-book.html
+          grep -Fq 'विदेह Scholar अनुसन्धान पुस्तक' research/videha-scholar-research-book.html
+          grep -Fq '🔊 सुनू · Listen' research/videha-scholar-research-book.html
+          grep -Fq 'GitHub Home' research/videha-scholar-research-book.html
+          grep -Fq 'class="back-top"' research/videha-scholar-research-book.html
+          grep -Fq 'id="book-search"' research/videha-scholar-research-book.html
+          if ! grep -Eiq '41[[:space:]]*(language|भाषा)|translat|अनुवाद|भाषा[[:space:]]*(चुनू|चयन)' research/videha-scholar-research-book.html; then
+            echo 'Historic translation interface marker missing' >&2
+            exit 1
+          fi
+
+      - name: Append only articles missing from the canonical inventory source
+        run: python3 scholar-tools/build_research_book.py
+
+      - name: Verify restored shell and exact inventory alignment
+        run: python3 scholar-tools/build_research_book.py --check
+
+      - name: Show restoration delta without permitting broad shell replacement
+        run: |
+          python3 - <<'PY'
+          import json
+          import re
+          import subprocess
+          from pathlib import Path
+
+          source = json.loads(Path('research/data/articles.json').read_text(encoding='utf-8'))
+          book = Path('research/videha-scholar-research-book.html').read_text(encoding='utf-8')
+          old = subprocess.check_output([
+              'git','show',
+              '0a38b72a88d629a860b1c62b7e4bf0d5e17c1f4d:research/videha-scholar-research-book.html'
+          ], text=True)
+
+          def tbody(text):
+              m=re.search(r'(?is)<tbody\b[^>]*>(.*?)</tbody>', text)
+              if not m: raise SystemExit('tbody missing')
+              return m.group(1)
+          old_rows=len(re.findall(r'(?is)<tr\b[^>]*>.*?</tr>', tbody(old)))
+          new_rows=len(re.findall(r'(?is)<tr\b[^>]*>.*?</tr>', tbody(book)))
+          expected=len(source['articles'])
+          if old_rows != 839:
+              raise SystemExit(f'Unexpected last-good row count: {old_rows}')
+          if new_rows != expected:
+              raise SystemExit(f'Final row mismatch: {new_rows} != {expected}')
+          if new_rows-old_rows != expected-old_rows:
+              raise SystemExit('Append-only delta mismatch')
+          print({'restoredHistoricRows': old_rows, 'inventoryRows': expected, 'appendedRows': new_rows-old_rows})
+          PY
+
+      - name: Commit restored Book plus append-only inventory additions
+        run: |
+          git config user.name "videha-scholar-bot"
+          git config user.email "videha-scholar-bot@users.noreply.github.com"
+          git add research/videha-scholar-research-book.html
+          git commit -m "Restore historic Research Book and append inventory additions [skip actions]"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "Push attempt $attempt failed; retrying after refresh"
+            sleep 2
+          done
+          exit 1
