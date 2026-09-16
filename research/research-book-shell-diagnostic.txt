@@ -1,0 +1,375 @@
+blob_sha=28df627a1ce81d6e964505c145b390e60728c772
+bytes=1086015
+HEADINGS:
+h1: विदेह शोध-लेख : अंक १ सँ ४४८ धरि
+h2: अनुलग्नक १ : लेखकानुक्रमेण सम्पूर्ण सूची
+h2: अनुलग्नक २ : विधावार सम्पूर्ण सूची
+h3: Agrarian history (1)
+h3: Alcohol prohibition law (1)
+h3: Amritsar history (1)
+h3: Ancient Indian history (1)
+h3: angika literary history and criticism (2)
+h3: Anthropology (4)
+h3: Archaeology (2)
+h3: Art criticism (1)
+h3: Art history (1)
+h3: Artificial intelligence in healthcare (1)
+h3: bajjika literary history and criticism (2)
+h3: Bajjika studies (1)
+h3: Bihani Katha studies (7)
+h3: Caste studies (2)
+h3: Chhathi (1)
+h3: Children&#x27;s theatre (1)
+h3: Children’s literature studies (4)
+h3: Comparative Maithili and Hindi ghazal criticism (1)
+h3: Comparative Ramayana studies (1)
+h3: Comparative Sanskrit literature (1)
+h3: Computational linguistics (2)
+h3: Computer education (1)
+h3: Contemporary music studies (1)
+h3: Criminal law (1)
+h3: Critical care medicine (1)
+h3: Cultural anthropology (3)
+h3: Cultural geography (1)
+h3: Cultural identity (1)
+h3: Cultural studies (1)
+h3: Cyber security (1)
+h3: Dalit literary criticism (2)
+h3: Dalit literary studies (3)
+h3: Dalit studies (1)
+h3: Development criticism (1)
+h3: Development studies (3)
+h3: Dharmashastra studies (5)
+h3: Digital humanities (2)
+h3: Digital media studies (1)
+h3: Disaster studies (1)
+h3: Drama studies (8)
+h3: Economic sociology (1)
+h3: Education history (2)
+h3: Education studies (2)
+h3: Egyptian history and civilization (1)
+h3: Elder law (1)
+h3: English-language diaspora studies (1)
+h3: English-language Mithila history (7)
+h3: Environmental history (1)
+h3: Environmental sociology (1)
+h3: Environmental studies (1)
+h3: Ethnographic travel diary (1)
+h3: Ethnomusicology (3)
+h3: Federalism (2)
+h3: Feminist literary studies (1)
+h3: Festival studies (1)
+h3: Folk history (2)
+h3: Folk-art studies (1)
+h3: Folk-dance studies (1)
+h3: Folklore (2)
+h3: Folklore studies (5)
+h3: Food anthropology (1)
+h3: Gandhian studies (1)
+h3: Gender anthropology (1)
+h3: Gender studies (7)
+h3: Gender terminology (1)
+h3: Genealogical studies (4)
+h3: Health policy (1)
+h3: Higher education (1)
+h3: Higher education history (2)
+h3: Hindi film-song prosody (8)
+h3: Hindi literary criticism (1)
+h3: Hindi–Maithili comparative literary criticism (1)
+h3: Historical linguistics (1)
+h3: Historical studies (1)
+h3: History / cultural history article (23)
+h3: Indian domestic-violence law (1)
+h3: Indian independence history (1)
+h3: Indian intellectual history (1)
+h3: Indian knowledge traditions (1)
+h3: Indian legal procedure (1)
+h3: India–Nepal relations (1)
+h3: Intellectual biography (2)
+h3: International relations (1)
+h3: Kerala cultural history (1)
+h3: Language movement (1)
+h3: Language preservation (1)
+h3: Lexicography (2)
+h3: Linguistic research methodology (1)
+h3: Linguistics (1)
+h3: Linguistics article (3)
+h3: Literary criticism (12)
+h3: Literary criticism article (6)
+h3: Literary history (1)
+h3: Literary institutions (1)
+h3: Madhesh studies (1)
+h3: Madhushravani (1)
+h3: mai literary history and criticism (25)
+h3: Maithili bibliography (2)
+h3: Maithili book criticism (2)
+h3: Maithili book review (12)
+h3: Maithili children&#x27;s literature (2)
+h3: Maithili children’s literature (2)
+h3: Maithili cinema studies (1)
+h3: Maithili criticism (1)
+h3: Maithili cultural criticism (1)
+h3: Maithili cultural history (1)
+h3: Maithili dialectology (1)
+h3: Maithili digital humanities (4)
+h3: Maithili drama criticism (4)
+h3: Maithili drama studies (1)
+h3: Maithili education history (1)
+h3: Maithili education policy (1)
+h3: Maithili feminist criticism (2)
+h3: Maithili feminist studies (1)
+h3: Maithili fiction criticism (9)
+h3: Maithili fiction studies (1)
+h3: Maithili film history (1)
+h3: Maithili folk music (1)
+h3: Maithili folk songs (2)
+h3: Maithili folk-song studies (1)
+h3: Maithili folklore (1)
+h3: Maithili ghazal criticism (15)
+h3: Maithili ghazal history (1)
+h3: Maithili ghazal studies (3)
+h3: Maithili historical linguistics (1)
+h3: Maithili intellectual history (3)
+h3: Maithili journalism studies (1)
+h3: Maithili language and culture (1)
+h3: Maithili language history (3)
+h3: Maithili language movement (1)
+h3: Maithili language policy (3)
+h3: Maithili language politics (1)
+h3: Maithili language sociology (1)
+h3: Maithili language standardization (1)
+h3: Maithili language studies (1)
+h3: Maithili language technology (1)
+h3: Maithili lexicography (2)
+h3: Maithili linguistics (5)
+h3: Maithili literary biography (6)
+h3: Maithili literary criticism (86)
+h3: Maithili literary historiography (2)
+h3: Maithili literary history (89)
+h3: Maithili literary institutions (9)
+h3: Maithili literary sociology (2)
+h3: Maithili literary theory (1)
+h3: Maithili media studies (1)
+h3: Maithili memoir criticism (1)
+h3: Maithili memoir studies (1)
+h3: Maithili movement studies (1)
+h3: Maithili music criticism (1)
+h3: Maithili music history (1)
+h3: Maithili musicology (1)
+h3: Maithili novel criticism (8)
+h3: Maithili novel studies (3)
+h3: Maithili orthography (1)
+h3: Maithili poetics (3)
+h3: Maithili poetry criticism (15)
+h3: Maithili poetry studies (1)
+h3: Maithili print culture (1)
+h3: Maithili prose criticism (4)
+h3: Maithili prosody (2)
+h3: Maithili publishing history (1)
+h3: Maithili Ramayana criticism (3)
+h3: Maithili religious literature (1)
+h3: Maithili research article (5)
+h3: Maithili satire criticism (1)
+h3: Maithili satire studies (3)
+h3: Maithili scholarly institutions (1)
+h3: Maithili short-fiction criticism (12)
+h3: Maithili short-fiction theory (2)
+h3: Maithili short-story criticism (3)
+h3: Maithili short-story history (1)
+h3: Maithili short-story studies (2)
+h3: Maithili sociolinguistics (2)
+h3: Maithili song criticism (3)
+h3: Maithili song studies (1)
+h3: Maithili theatre criticism (4)
+h3: Maithili theatre history (7)
+h3: Maithili theatre studies (9)
+h3: Maithili translation studies (1)
+h3: Maithili web journalism (3)
+h3: Marriage studies (1)
+h3: Marxist literary criticism (1)
+h3: Media studies (1)
+h3: Medical education (3)
+h3: Medical humanities (1)
+h3: Mithila anthropology (2)
+h3: Mithila art history (1)
+h3: Mithila cultural anthropology (1)
+h3: Mithila cultural criticism (1)
+h3: Mithila cultural geography (1)
+h3: Mithila cultural history (3)
+h3: Mithila cultural movements (1)
+h3: Mithila cultural studies (2)
+h3: Mithila diaspora studies (1)
+h3: Mithila economic history (1)
+h3: Mithila environmental history (1)
+h3: Mithila environmental studies (1)
+h3: Mithila feminist cultural studies (1)
+h3: Mithila folk art (1)
+h3: Mithila folk culture (1)
+h3: Mithila folk music (1)
+h3: Mithila folk theatre (2)
+h3: Mithila folk-music studies (1)
+h3: Mithila folklore (4)
+h3: Mithila genealogy (1)
+h3: Mithila heritage studies (1)
+h3: Mithila history (10)
+h3: Mithila institutional history (1)
+h3: Mithila intellectual history (6)
+h3: Mithila manuscript studies (1)
+h3: Mithila marriage practices (1)
+h3: Mithila oral tradition (1)
+h3: Mithila painting (1)
+h3: Mithila painting studies (1)
+h3: Mithila performance traditions (1)
+h3: Mithila pilgrimage geography (1)
+h3: Mithila regional history (1)
+h3: Mithila regional identity (1)
+h3: Mithila regional studies (3)
+h3: Mithila religious anthropology (1)
+h3: Mithila religious history (2)
+h3: Mithila ritual studies (1)
+h3: Mithila sacred geography (1)
+h3: Mithila social institutions (1)
+h3: Mithila statehood movement (1)
+h3: Mithila studies (1)
+h3: Mithila village studies (4)
+h3: Modern art criticism (2)
+h3: Modern Maithili ghazal history (1)
+h3: Modernity studies (1)
+h3: Music studies (1)
+h3: Narrative criticism (1)
+h3: Navya-Nyaya (1)
+h3: Nepal Maithili literary history (1)
+h3: Organizational sociology (1)
+h3: Panji scholarship (2)
+h3: Philosophical essay (1)
+h3: Philosophy of education (1)
+h3: Philosophy of life and death (1)
+h3: Phonology (1)
+h3: Poetry criticism (2)
+h3: Political analysis (5)
+h3: Political commentary (1)
+h3: Political economy (1)
+h3: Political poetry (1)
+h3: Political sociology (1)
+h3: Political studies (1)
+h3: Political thought (1)
+h3: Population studies (1)
+h3: Property law (1)
+h3: Public health (1)
+h3: Publishing history (1)
+h3: Ranchi urban history (1)
+h3: Regional development (1)
+h3: Regional studies (1)
+h3: Religious philosophy (1)
+h3: Religious studies (8)
+h3: Research article (5)
+h3: Research article (source-labelled शोध आलेख) (1)
+h3: Research methodology (1)
+h3: Ritual studies (2)
+h3: Rural development (1)
+h3: Rural sociology (2)
+h3: Salhesh studies (1)
+h3: Sanskrit and manuscript studies (1)
+h3: Sanskrit linguistics (2)
+h3: Sanskrit literary history (1)
+h3: Sanskrit literary studies (7)
+h3: Sanskrit philosophy (3)
+h3: Sanskrit poetics (1)
+h3: Scholarly article (7)
+h3: Science and religion (1)
+h3: Science communication (1)
+h3: Science education (1)
+h3: Seminar paper (6)
+h3: Social and political criticism (1)
+h3: Social anthropology (1)
+h3: Social justice (1)
+h3: Social movement studies (2)
+h3: Sociolinguistics (1)
+h3: Space science (1)
+h3: Space science communication (1)
+h3: Succession law (1)
+h3: Technical analysis (1)
+h3: Technology studies (1)
+h3: Textual criticism (1)
+h3: Theatre studies (1)
+h3: Tirhuta script history (1)
+h3: Transfer of Property Act 1882 (1)
+h3: Translation studies (3)
+h3: Transport policy (1)
+h3: Travel studies (1)
+h3: Urban anthropology (1)
+h3: Vedic textual studies (1)
+h3: Vidyapati studies (6)
+h3: Vidyapati-era Mithila (1)
+h3: Village studies (5)
+h3: Widow remarriage (1)
+h3: Women in Maithili fiction (1)
+h3: Women&#x27;s property rights (1)
+CONTROLS/LINK MARKERS:
+्रण" data-pagefind-ignore="all"><button type="button" id="videha-tts-toggle" aria-pressed="false">🔊 सुनू · Listen</button><button type="button" id="videha-tts-stop" hidden>⏹ रोकू</button><span id="videha-tts-status" class="videha-sr-only" role="status" aria-live="polite"></span></div><div class="book-to
+xOf(t)!==-1});r.hidden=!ok;if(ok)n++});st.textContent=(q.value?n+" मिलल · ":"")+"839 लेख"}q.addEventListener("input",f)})();</script></body></html>
+div class="book-tools videha-a11y-bar videha-ai-standalone" role="region" aria-label="पृष्ठ सुनबाक, अनुवाद आ सहायक तकनीक नियंत्रण" data-pagefind-ignore="all"><button type="button" id="videha-tts-toggle" aria-pressed="false">🔊 सुनू · Listen</button><button type="button" id="videha-tts-stop" hidden>⏹ रोकू</button><span id="videha-tts-status" class="videha-sr-only" role="status" aria-live="polite"></span><
+लेख खोजू · Search</b></label><input id="book-search" type="search" placeholder="लेखक, शीर्षक, विधा, भाषा, अंक…" autocomplete="off"><span id="book-search-status" class="book-status" role="status" aria-live="polite">839 लेख</span></div><div class="note"><b>सम्पादकीय टिप्पणी।</b> एहि सूचीमे पूरा शोध, इतिहास, आलोचना, भाषा-विज्ञान, समाज-अध्ययन अथवा सांस्कृतिक अनुशीलनबला सामग्री राखल गेल अछि। कथा, कविता, सू
+चना आ मात्र अनुवादकेँ स्वतन्त्र शोध-लेख नहि गनल गेल अछि।</div><h2>अनुलग्नक १ : लेखकानुक्रमेण सम्पूर्ण सूची</h2><table><thead><tr><th>क्रम</th><th>लेखक</th><th>लेख</th><th>विधा</th><th>भाषा</th><th>अंक · तिथि</th><th>वर्गीकरण</th><th>पृष्ठ</th></tr></thead><tbody><tr><td>1</td><td>Dr. Deepesh Kumar Thakur</td><td><a h
+.html?issue=390">अंक 390</a> · 2024-03-15</td><td>Vedic textual studies; caste history; comparative translation</td><td>—</td></tr><tr><td>4</td><td>Gajendra Thakur</td><td><a href="https://www.videha.co.in/research/2026/438/a-parallel-history-of-mithila-maithili-literature.htm">A Parallel History of Mithila &amp; Maithili Literature</a></td><td>Mithila intellectual history</td><td>en</td><td><a href="https:
+ve-explorer.html?issue=30">अंक 30</a> · 2009-03-15</td><td>Lexicography; Maithili language studies; translation studies; digital dictionaries</td><td>—</td></tr><tr><td>17</td><td>Vijay Deo Jha</td><td><a href="https://www.videha.co.in/research/2025/428/pandit-with-macbook-and-manuscripts.htm">Pandit with MacBook and manuscripts</a></td><td>Sanskrit and manuscript studies</td><td>en</td><td><a href="https://
+><td>36</td><td>डॉ. अमर जी झा</td><td><a href="https://www.videha.co.in/research/2013/142/भर्तृहरेः-भाषाशास्त्राीय-योगदानम्-videha-maithili-samskrit-education-contd.htm">भर्तृहरेः भाषाशास्त्राीय योगदानम् / VIDEHA MAITHILI SAMSKRIT EDUCATION (contd.)</a></td><td>Linguistics article</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=142">अंक 142</a>
+37</td><td>अमरकान्त अमर</td><td><a href="https://www.videha.co.in/research/2012/99/संघीयतामे-मैथिली-भाषा.htm">संघीयतामे मैथिली भाषा</a></td><td>Maithili language policy</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=99">अंक 99</a> · 2012-02-01</td><td>Maithili language policy; federalism; Nepal sociolinguistics and education</td><td>—</td></tr>
+अरविन्द ठाकुर</td><td><a href="https://www.videha.co.in/research/2015/189/लक्ष्मीनाथ-गोसांई-परम्परा-भाषा-आ-निर्गुण-भाव.htm">लक्ष्मीनाथ गोसांई: परम्परा, भाषा आ निर्गुण भाव</a></td><td>Maithili religious literature</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=189">अंक 189</a> · 2015-11-01</td><td>Maithili religious literature; Nirgun tradition;
+><tr><td>61</td><td>डा. अरुण कुमार सिंह</td><td><a href="https://www.videha.co.in/research/2012/107/भाषा-जातिगत-सम्पत्ति-नहि-अपितु-सामाजिक.htm">भाषा जातिगत सम्पत्ति नहि अपितु सामाजिक</a></td><td>Sociolinguistics</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=107">अंक 107</a> · 2012-06-01</td><td>Sociolinguistics; language and society; Maithili
+><td>63</td><td>डॉ. अरुण कुमार सिंह</td><td><a href="https://www.videha.co.in/research/2012/113/मातृभाषाक-माध्यमसँ-उच्चशिक्षा.htm">मातृभाषाक माध्यमसँ उच्चशिक्षा</a></td><td>Higher education</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=113">अंक 113</a> · 2012-09-01</td><td>Higher education; mother-tongue policy; Maithili sociolinguistics</td><
+0–37</td></tr><tr><td>82</td><td>आभा झा</td><td><a href="https://www.videha.co.in/research/2024/398/भाषा-आ-संस्कृतिक-वैश्विक-प्रसार-लेल-दत्तचित्त-ठाकुर-परिवार.htm">भाषा आ संस्कृतिक वैश्विक प्रसार लेल दत्तचित्त ठाकुर परिवार</a></td><td>Maithili language and culture</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=398">अंक 398</a> · 2024-07-15</td>
+</td></tr><tr><td>83</td><td>डॉ. आभा झा</td><td><a href="https://www.videha.co.in/research/2024/405/भाषांतरणक-उत्कृष्ट-प्रयास-कविता-शम्भु-बादलक.htm">भाषांतरणक उत्कृष्ट प्रयास—कविता शम्भु बादलक</a></td><td>Translation studies</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=405">अंक 405</a> · 2024-11-01</td><td>Translation studies; Maithili poetry
+्पना झा</td><td><a href="https://www.videha.co.in/research/2022/358/मैथिली-साहित्यक-सेवक-नहि-मैथिली-भाषाक-सेवकः-शरदिन्दु-चौधरी.htm">मैथिली साहित्यक सेवक नहि, मैथिली भाषाक सेवकः शरदिन्दु चौधरी</a></td><td>Maithili language history</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=358">अंक 358</a> · 2022-11-15</td><td>Maithili language history; lang
+29</td><td>डॉ. कल्पना मणिकान्त मिश्र</td><td><a href="https://www.videha.co.in/research/2009/34/मातृभाषा-बम्बईमे-विदेह-पत्रिका-आ-मैथिली-फिल्मक-संस्मरण.htm">मातृभाषा: बम्बईमे ‘विदेह’ पत्रिका आ मैथिली फिल्मक संस्मरण</a></td><td>Maithili print culture</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=34">अंक 34</a> · 2009-05-15</td><td>Maithili print
+किशन कारीगर</td><td><a href="https://www.videha.co.in/research/2024/386/मानकीकृत-तराजू-पर-जोखाइत-लोकभाषा-मैथिली.htm">मानकीकृत तराजू पर जोखाइत लोकभाषा मैथिली</a></td><td>Maithili linguistics</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=386">अंक 386</a> · 2024-01-15</td><td>Maithili linguistics; language standardization; sociolinguistics</td><t
+videha-archive-explorer.html?issue=405">अंक 405</a> · 2024-11-01</td><td>Maithili poetry criticism; translation studies; modern Hindi-Maithili literary exchange</td><td>—</td></tr><tr><td>241</td><td>कुमार पृथु</td><td><a href="https://www.videha.co.in/research/2013/136/नापल-तौलल-पसरल-पथार-परमेश्वर-कापड़िक-पथार.htm">नापल तौलल पसरल पथार (परमेश्वर कापड़िक पथार)</a></td><td>Maithili literary criticism</td><td>m
+eha-archive-explorer.html?issue=447">अंक 447</a> · 2026-08-01</td><td>Sanskrit philosophy; Maithili translation; comparative textual criticism</td><td>—</td></tr><tr><td>331</td><td>गजेन्द्र ठाकुर</td><td><a href="https://www.videha.co.in/research/2026/447/भारतीय-दलित-साहित्य-मैथिली-अनुवाद-समीक्षा-आ-सौन्दर्यशास्त्र.htm">भारतीय दलित साहित्य: मैथिली अनुवाद, समीक्षा आ सौन्दर्यशास्त्र</a></td><td>Dalit literary
+ha/videha-archive-explorer.html?issue=447">अंक 447</a> · 2026-08-01</td><td>Dalit literary studies; translation studies; Maithili aesthetics</td><td>—</td></tr><tr><td>332</td><td>गजेन्द्र ठाकुर</td><td><a href="https://www.videha.co.in/research/2021/313/भाषा-आ-प्रौद्योगिकी-संगणक-छायांकन-कुँजी-पटल-टंकणक-तकनीक.htm">भाषा आ प्रौद्योगिकी (संगणक, छायांकन, कुँजी पटल/टंकणक तकनीक)</a></td><td>Maithili language techn
+></tr><tr><td>333</td><td>गजेन्द्र ठाकुर</td><td><a href="https://www.videha.co.in/research/2009/34/भाषा-आ-प्रौद्योगिकी-अन्तर्जालपर-मैथिली-लेखन-आ-ई-प्रकाशन.htm">भाषा आ प्रौद्योगिकी: अन्तर्जालपर मैथिली लेखन आ ई-प्रकाशन</a></td><td>Maithili digital humanities</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=34">अंक 34</a> · 2009-05-15</td><td>Maith
+l?issue=351">अंक 351</a> · 2022-08-01</td><td>Maithili digital humanities; Unicode scripts; machine translation; language technology</td><td>—</td></tr><tr><td>360</td><td>गजेन्द्र ठाकुर</td><td><a href="https://www.videha.co.in/research/2010/63/मैथिलीक-उत्पत्ति-आ-विकास-तथा-भारोपीय-भाषा-परिवार-मध्य-मैथिल-4188a570d2.htm">मैथिलीक उत्पत्ति आ विकास तथा भारोपीय भाषा परिवार मध्य मैथिलीक स्थान</a></td><td>Maithili
+र</td><td><a href="https://www.videha.co.in/research/2026/447/मैथिलीक-एकटा-समानान्तर-व्याकरण-रचना-आ-भाषा-विज्ञान-ठेठी-अंग-3f90ef14df.htm">मैथिलीक एकटा समानान्तर व्याकरण, रचना आ भाषा-विज्ञान (ठेठी-अंगिका आ बज्जिकाकेँ संग लऽ कऽ)- गजेन्द्र ठाकुर] एकीकृत विस्तृत समालोचनात्मक शोध-समीक्षा</a></td><td>Linguistics</td><td>thethi-angika</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-e
+र</td><td><a href="https://www.videha.co.in/research/2026/447/मैथिलीक-एकटा-समानान्तर-व्याकरण-रचना-आ-भाषा-विज्ञान-ठेठी-अंग-05c2fbb4fe.htm">मैथिलीक एकटा समानान्तर व्याकरण, रचना आ भाषा-विज्ञान (ठेठी-अंगिका आ बज्जिकाकेँ संग लऽ कऽ)- गजेन्द्र ठाकुर] एकीकृत विस्तृत समालोचनात्मक शोध-समीक्षा (पृष्ठ ३८३-४४२)</a></td><td>Linguistics article</td><td>thethi-angika</td><td><a href="https://videha-ejournal.github.io
+क्षसम्, मृच्छकटिकम्, भगवदज्जुकम् आ मत्तविलास तेरहटा अनूदित पोथीक तुलनात्मक अध्ययन [संस्कृतसँ मैथिली अनुवाद गजेन्द्र ठाकुर]</a></td><td>Comparative Sanskrit literature</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=447">अंक 447</a> · 2026-08-01</td><td>Comparative Sanskrit literature; translation studies; literary criticism</td><td>181–221</td></t
+deha-archive-explorer.html?issue=346">अंक 346</a> · 2022-05-15</td><td>Maithili digital humanities; translation technology; language planning</td><td>—</td></tr><tr><td>385</td><td>गजेन्द्र ठाकुर; केशव महतो</td><td><a href="https://www.videha.co.in/research/2009/36/फील्ड-वर्कपर-आधारित-खिस्सा-सीत-बसंत.htm">फील्ड-वर्कपर आधारित खिस्सा सीत-बसंत</a></td><td>Folklore studies</td><td>mai</td><td><a href="https://vi
+r><td>411</td><td>डॉ. चित्रलेखा</td><td><a href="https://www.videha.co.in/research/2020/308/मिथिलाक-भाषा-एवं-साहित्य.htm">मिथिलाक भाषा एवं साहित्य</a></td><td>Maithili language history</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=308">अंक 308</a> · 2020-10-15</td><td>Maithili language history; literary history; Mithila cultural studies</td><t
+d>467</td><td>देवेश झा</td><td><a href="https://www.videha.co.in/research/2018/259/मैथिली-पत्रिकामे-अनुवाद-साहित्य.htm">मैथिली पत्रिकामे अनुवाद साहित्य</a></td><td>Translation studies</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=259">अंक 259</a> · 2018-10-01</td><td>Translation studies; Maithili periodical history; literary journalism</td><td>—
+वक-अनुसार-वर्णरत्नाकरक-भ-79b587630f.htm">ध्वनिविज्ञानी प्रो. डा. रामावतार यादवक अनुसार वर्णरत्नाकरक भाषा मैथिली</a></td><td>Phonology</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=396">अंक 396</a> · 2024-06-15</td><td>Phonology; Maithili historical linguistics; Varnaratnakara studies</td><td>119–124</td></tr><tr><td>472</td><td>डॉ. धनाकर ठाकुर
+वक-अनुसार-वर्णरत्नाकरक-भ-657c3c2d7e.htm">ध्वनिविज्ञानी प्रो. डा. रामावतार यादवक अनुसार वर्णरत्नाकरक भाषा मैथिली(पृ. ११९-१२४)</a></td><td>Scholarly article</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=396">अंक 396</a> · 2024-06-15</td><td>Scholarly article</td><td>—</td></tr><tr><td>473</td><td>डॉ. धनाकर ठाकुर</td><td><a href="https://www.vide
+18</td><td>डॉ प्रदीप कुमार पबड़ा</td><td><a href="https://www.videha.co.in/research/2024/398/मैथिली-भाषा-परिवार.htm">मैथिली भाषा परिवार</a></td><td>Maithili linguistics</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=398">अंक 398</a> · 2024-07-15</td><td>Maithili linguistics; language family studies; historical linguistics</td><td>78–82</td></tr
+ोकन.htm">श्री जगदीश प्रसाद मंडल&#x27;क साहित्यके अनुदीत प्रसार : एक सिंहावलोकन</a></td><td>Maithili translation studies</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=445">अंक 445</a> · 2026-07-01</td><td>Maithili translation studies; literary dissemination; author bibliography</td><td>60–62</td></tr><tr><td>540</td><td>डॉ. प्रेमशंकर सिंह</td><td><a h
+deha-sr-only{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0)}.back-top{position:fixed;right:20px;bottom:20px;width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#e53935,#8b0000);box-shadow:inset 2px 2px 5px #ff8a80, inset -3px -3px 6px #4a0000, 0 3px 8px #777;color:#fff;font-size:28px;font-w
+eight:900;z-index:10}.back-top a{color:#fff!important;text-decoration:none}table{border-collapse:collapse;width:100%;font-size:8.5px;page-break-inside:auto}thead{display:table-header-group}tr{page-break-inside:avoid}th,td{border:1px solid #b7c4d1;padding:4px;vertical-align:top}th{background:#e8eef5;color:#173b5f}a{color:#155a8a;
+:100%;font-size:12px;-webkit-overflow-scrolling:touch}table th,table td{min-width:7rem;padding:6px}.back-top{right:12px;bottom:12px;width:42px;height:42px;font-size:24px}}</style><link rel="canonical" href="https://videha-ejournal.github.io/videha/research/videha-scholar-research-book.html">
+<meta name="DC.identifier" content="https://videha-ejournal.github.io/videha/research/videha-scholar-research-book.html">
+<meta name="videha_github_mirror" content="https://videha-ejournal.github.io/videha/">
+<meta name="videha_digital_research_archives" content="https://github.com/videha-ejournal">
+","@type":"CollectionPage","name":"विदेह शोध-लेख : अंक १ सँ ४४७ धरि","url":"https://videha-ejournal.github.io/videha/research/videha-scholar-research-book.html","sameAs":"https://www.videha.co.in/research/videha-scholar-research-book.html","inLanguage":"mai","isPartOf":{"@type":"Periodical","name":"Videha","alternateName":"विदेह प्रथम मैथिली पाक्षिक ई-पत्रिका","issn":"2229-547X","url":"https://www.videh
+a.co.in/","sameAs":["https://videha-ejournal.github.io/videha/","https://github.com/videha-ejournal"],"editor":{"@type":"Person","name":"Gajendra Thakur"}},"publisher":{"@type":"Periodical","name":"Videha","alternateName":"विदेह प्रथम मैथिली पाक्षिक ई-पत्रिका","issn":"2229-547X","url":"https://www.videha.co.in/","sameAs":["https://videha-ejournal.github.io/videha/","https://gi
+</head><body><div class="home-strip">⭐ <a href="https://www.videha.co.in/">VIDEHA Home · www.videha.co.in</a> · ⭐ <a href="https://videha-ejournal.github.io/videha/">GitHub Home · videha-ejournal.github.io/videha</a></div><h1>विदेह शोध-लेख : अंक १ सँ ४४८ धरि</h1><p><b>लेखक आ सम्पादक:</b> Gajendra Thakur, Editor, Videha · ISSN 2229-547X · <a href="https://www.videha.co.in/">www.videha
+e="polite"></span></div><div class="book-tools" role="search" aria-label="शोध लेख खोजू"><label for="book-search"><b>शोध लेख खोजू · Search</b></label><input id="book-search" type="search" placeholder="लेखक, शीर्षक, विधा, भाषा, अंक…" autocomplete="off"><span id="book-search-status" class="book-status" role="status" aria-live="polite">839 लेख</span></div><div class="note"><b>सम्पादकीय टिप्पणी।</b> एहि सूचीमे पू
+a Literary Genre</a></td><td>Medical humanities</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=373">अंक 373</a> · 2023-07-01</td><td>Medical humanities; literary studies; interdisciplinary research</td><td>—</td></tr><tr><td>2</td><td>Dr. Shefalika Verma</td><td><a href="https://www.videha.co.in/research/2011/77/discrimination-against-women.htm">D
+nation Against Women</a></td><td>Gender studies</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=77">अंक 77</a> · 2011-03-01</td><td>Gender studies; women’s rights; social criticism</td><td>—</td></tr><tr><td>3</td><td>Dr. Tulsi Ram</td><td><a href="https://www.videha.co.in/research/2024/390/reference-of-shudras-in-vedas.htm">Reference of Shudras in
+Vedas</a></td><td>Vedic textual studies</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=390">अंक 390</a> · 2024-03-15</td><td>Vedic textual studies; caste history; comparative translation</td><td>—</td></tr><tr><td>4</td><td>Gajendra Thakur</td><td><a href="https://www.videha.co.in/research/2026/438/a-parallel-history-of-mithila-maithili-li
+rature</a></td><td>Mithila intellectual history</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=438">अंक 438</a> · 2026-03-15</td><td>Mithila intellectual history; Maithili literary history; comparative literature</td><td>—</td></tr><tr><td>5</td><td>Gajendra Thakur</td><td><a href="https://www.videha.co.in/research/2026/439/a-parallel-history-of-m
+</a></td><td>History / cultural history article</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=439">अंक 439</a> · 2026-04-01</td><td>History / cultural history article</td><td>—</td></tr><tr><td>6</td><td>Gajendra Thakur</td><td><a href="https://www.videha.co.in/research/2026/440/a-parallel-history-of-mithila-maithili-literature-tome-i-iv-volumes-
+</a></td><td>History / cultural history article</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=440">अंक 440</a> · 2026-04-15</td><td>History / cultural history article</td><td>—</td></tr><tr><td>7</td><td>Gajendra Thakur</td><td><a href="https://www.videha.co.in/research/2026/441/a-parallel-history-of-mithila-maithili-literature-tome-i-iv-volumes-
+</a></td><td>History / cultural history article</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=441">अंक 441</a> · 2026-05-01</td><td>History / cultural history article</td><td>—</td></tr><tr><td>8</td><td>Gajendra Thakur</td><td><a href="https://www.videha.co.in/research/2026/442/a-parallel-history-of-mithila-maithili-literature-tome-i-iv-volumes-
+</a></td><td>History / cultural history article</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=442">अंक 442</a> · 2026-05-15</td><td>History / cultural history article</td><td>—</td></tr><tr><td>9</td><td>Prof. Dr. Yogendra P. Yadava</td><td><a href="https://www.videha.co.in/research/2010/49/maithili.htm">Maithili</a></td><td>Maithili linguistics<
+/td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=49">अंक 49</a> · 2010-01-01</td><td>Maithili linguistics; grammar; language documentation (English)</td><td>—</td></tr><tr><td>10</td><td>Radhakrishna Chaudhary</td><td><a href="https://www.videha.co.in/research/2014/151/a-survey-of-maithili-literature.h
+iterature</a></td><td>Maithili literary history</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=151">अंक 151</a> · 2014-04-01</td><td>Maithili literary history; Mithila cultural history; English-language scholarship</td><td>—</td></tr><tr><td>11</td><td>Radhakrishna Choudhary</td><td><a href="https://www.videha.co.in/research/2014/150/the-political
+Heritage of Mithila</a></td><td>Mithila history</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=150">अंक 150</a> · 2014-03-15</td><td>Mithila history; political history; cultural history; English-language scholarship</td><td>—</td></tr><tr><td>12</td><td>Ramnarayan Thakur</td><td><a href="https://www.videha.co.in/research/2014/150/ancient-india--th
+f Pilgrimage</a></td><td>Ancient Indian history</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=150">अंक 150</a> · 2014-03-15</td><td>Ancient Indian history; pilgrimage studies; historiography; primary sources</td><td>—</td></tr><tr><td>13</td><td>Randhir Jha</td><td><a href="https://www.videha.co.in/research/2025/419/water-rich-mithila-then-water-
+Mithila Now!</a></td><td>Environmental history</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=419">अंक 419</a> · 2025-06-01</td><td>Environmental history; water studies; Mithila cultural ecology</td><td>35–44</td></tr><tr><td>14</td><td>Sanjeev Kumar Jha</td><td><a href="https://www.videha.co.in/research/2014/157/obsessed-with-native-hood.htm">Ob
+with Native-hood</a></td><td>Cultural identity</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=157">अंक 157</a> · 2014-07-01</td><td>Cultural identity; native-place attachment; social anthropology</td><td>—</td></tr><tr><td>15</td><td>Sindhu Poudyal</td><td><a href="https://www.videha.co.in/research/2010/50/indo-nepal-relations-a-personal-reflecti
+Reflection</a></td><td>International relations</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=50">अंक 50</a> · 2010-01-15</td><td>International relations; India–Nepal history; border and security studies</td><td>—</td></tr><tr><td>16</td><td>Udaya Narayana Singh</td><td><a href="https://www.videha.co.in/research/2009/30/on-english-maithili-dictio
+ary by Gajendra Thakur</a></td><td>Lexicography</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=30">अंक 30</a> · 2009-03-15</td><td>Lexicography; Maithili language studies; translation studies; digital dictionaries</td><td>—</td></tr><tr><td>17</td><td>Vijay Deo Jha</td><td><a href="https://www.videha.co.in/research/2025/428/pandit-with-macbook-and
+pts</a></td><td>Sanskrit and manuscript studies</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=428">अंक 428</a> · 2025-10-15</td><td>Sanskrit and manuscript studies; digital humanities; intellectual biography</td><td>—</td></tr><tr><td>18</td><td>डॉ अजय कुमार झा</td><td><a href="https://www.videha.co.in/research/2026/443/पोथी-समीक्षा-आचार्य-चाणक्य
+खंडकाव्य)</a></td><td>Maithili book criticism</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=443">अंक 443</a> · 2026-06-01</td><td>Maithili book criticism; historical poetics; Chanakya studies</td><td>88–89</td></tr><tr><td>19</td><td>अजय कुमार झा तिरहुतिया</td><td><a href="https://www.videha.co.in/research/2024/408/मिथिला-विकास-परिषद-किछु-सहेजल
+्मरण</a></td><td>Mithila institutional history</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=408">अंक 408</a> · 2024-12-15</td><td>Mithila institutional history; diaspora organization; cultural memory</td><td>62–76</td></tr><tr><td>20</td><td>अजय ठाकुर</td><td><a href="https://www.videha.co.in/research/2008/15/goa-is-parashuram-s-mithila-maithil
+a</a></td><td>English-language diaspora studies</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=15">अंक 15</a> · 2008-08-01</td><td>English-language diaspora studies; migration; Maithil community in Goa</td><td>—</td></tr><tr><td>21</td><td>अजित कुमार झा</td><td><a href="https://www.videha.co.in/research/2022/348/मिथिला-मैथिली-आन्दोलनक-पाथेय-श्रद्ध
+TABLE_HEADERS=['क्रम', 'लेखक', 'लेख', 'विधा', 'भाषा', 'अंक · तिथि', 'वर्गीकरण', 'पृष्ठ']
+TABLE_ROWS=839
+FIRST_ROW=<tr><td>1</td><td>Dr. Deepesh Kumar Thakur</td><td><a href="https://www.videha.co.in/research/2023/373/understanding-convergence-comprehending-medical-humanities-as-a-literary-genre.htm">Understanding Convergence: Comprehending Medical Humanities as a Literary Genre</a></td><td>Medical humanities</td><td>en</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=373">अंक 373</a> · 2023-07-01</td><td>Medical humanities; literary studies; interdisciplinary research</td><td>—</td></tr>
+LAST_ROW=<tr><td>839</td><td>डा ॅ. योगानन्द झा</td><td><a href="https://www.videha.co.in/research/2011/74/वनदेवी-आ-नारी-अस्मिताक-गाथा.htm">वनदेवी आ नारी अस्मिताक गाथा</a></td><td>Feminist literary studies</td><td>mai</td><td><a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=74">अंक 74</a> · 2011-01-15</td><td>Feminist literary studies; Ramayana reinterpretation; Mithila women’s cultural history</td><td>—</td></tr>
+SCRIPT_SRCS=['../assets/js/videha-tts.js?v=20260818-hostfix2', '../assets/js/videha-translate.js?v=20260827', '../assets/js/videha-access.js?v=20260827']
