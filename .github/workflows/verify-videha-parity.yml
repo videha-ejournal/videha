@@ -8,8 +8,8 @@ on:
       - '.github/workflows/verify-videha-parity.yml'
       - 'index.htm'
       - 'current-issue.json'
-  schedule:
-    - cron: '17 */6 * * *'
+  # Recurring host monitoring is owned by mithila-vajji-anga's videha-parity.yml.
+  # Keep this repository's issue check on relevant changes; live checks are manual.
 
 permissions:
   contents: read
@@ -21,15 +21,18 @@ concurrency:
 jobs:
   parity:
     runs-on: ubuntu-24.04
+    timeout-minutes: 8
     steps:
       - name: Check out mirror source
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - name: Verify local manifest and live main/mirror issue parity
+      - name: Verify issue consistency (live hosts on manual runs only)
+        env:
+          CHECK_LIVE: ${{ github.event_name == 'workflow_dispatch' }}
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          import json,re,time,urllib.request
+          import json,os,re,time,urllib.request
           from pathlib import Path
 
           DIGITS=str.maketrans('०१२३४५६७८९','0123456789')
@@ -50,19 +53,72 @@ jobs:
                       req=urllib.request.Request(url,headers={'User-Agent':'Videha-Parity-Monitor/1.0'})
                       return urllib.request.urlopen(req,timeout=25).read().decode('utf-8','ignore')
                   except Exception as e:
-                      last=e; time.sleep(4*(attempt+1))
+                      last=e
+                      if attempt < 3: time.sleep(4*(attempt+1))
               raise RuntimeError(f'Unable to fetch {url}: {last}')
 
-          local=issue(Path('index.htm').read_text(encoding='utf-8',errors='ignore'))
-          manifest=json.loads(Path('current-issue.json').read_text(encoding='utf-8'))
-          declared={'issueNumber':int(manifest['issueNumber']),'issueDate':manifest['issueDate']}
-          if local!=declared:
-              raise SystemExit(f'Mirror source/manifest drift: index={local} manifest={declared}')
+          report={'parity':None,'status':'checking','sources':{},'errors':[]}
+          def record(name, loader):
+              try:
+                  value=loader()
+                  report['sources'][name]={'state':'checked','issue':value}
+                  return value
+              except Exception as e:
+                  report['sources'][name]={'state':'invalid-source','error':str(e)}
+                  report['errors'].append(f'{name}: {e}')
 
-          main=issue(fetch('https://www.videha.co.in/'))
-          mirror=issue(fetch('https://videha-ejournal.github.io/videha/'))
-          report={'manifest':declared,'mirrorSource':local,'mainLive':main,'mirrorLive':mirror,'parity':main==mirror==declared}
-          print(json.dumps(report,ensure_ascii=False,indent=2))
-          if not report['parity']:
-              raise SystemExit(f'VIDEHA ISSUE PARITY DRIFT: main={main} mirror={mirror} manifest={declared}')
+          local=record('mirrorSource',lambda: issue(Path('index.htm').read_text(encoding='utf-8')))
+          def read_manifest():
+              manifest=json.loads(Path('current-issue.json').read_text(encoding='utf-8'))
+              return {'issueNumber':int(manifest['issueNumber']),'issueDate':manifest['issueDate']}
+          declared=record('manifest',read_manifest)
+          if local is not None and declared is not None and local!=declared:
+              report['errors'].append(f'Mirror source/manifest drift: index={local} manifest={declared}')
+
+          check_live=os.environ.get('CHECK_LIVE')=='true'
+          if check_live:
+              for name,url in [('mainLive','https://www.videha.co.in/'),('mirrorLive','https://videha-ejournal.github.io/videha/')]:
+                  try:
+                      html=fetch(url)
+                  except RuntimeError as e:
+                      report['sources'][name]={'state':'unavailable-source','url':url,'error':str(e)}
+                      continue
+                  value=record(name,lambda: issue(html))
+                  report['sources'][name]['url']=url
+                  if value is not None and declared is not None and value!=declared:
+                      report['errors'].append(f'{name} issue drift: live={value} manifest={declared}')
+          else:
+              report['sources'].update({name:{'state':'not-requested'} for name in ['mainLive','mirrorLive']})
+
+          unavailable=any(source['state']=='unavailable-source' for source in report['sources'].values())
+          if report['errors']:
+              report['status']='failed'
+              report['parity']=False
+          elif unavailable:
+              report['status']='incomplete-source-unavailable'
+          elif check_live:
+              report['status']='verified'
+              report['parity']=True
+          else:
+              report['status']='local-consistency-verified'
+          payload=json.dumps(report,ensure_ascii=False,indent=2)
+          Path('reports').mkdir(exist_ok=True)
+          Path('reports/videha-issue-parity.json').write_text(payload+'\n',encoding='utf-8')
+          print(payload)
+          summary=os.environ.get('GITHUB_STEP_SUMMARY')
+          if summary:
+              with open(summary,'a',encoding='utf-8') as f:
+                  f.write('## Videha issue check: '+report['status']+'\n\n```json\n'+payload+'\n```\n')
+          if unavailable:
+              print('::warning::Live parity is incomplete: a source host is unavailable. See the evidence report; parity is not verified.')
+          if report['errors']:
+              raise SystemExit('VIDEHA ISSUE CHECK FAILED: '+'; '.join(report['errors']))
           PY
+      - name: Preserve issue check evidence
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: videha-issue-parity
+          path: reports/videha-issue-parity.json
+          if-no-files-found: error
+          retention-days: 30
