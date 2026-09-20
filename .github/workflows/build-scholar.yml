@@ -5,6 +5,14 @@ name: Build Videha Scholar Research Index
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scholar-data/articles/**'
+      - 'scholar-tools/build_research.py'
+      - 'scholar-tools/build_all_research.py'
+      - 'scholar-tools/audit_research_stubs.py'
+      - '.github/workflows/build-scholar.yml'
   schedule:
     - cron: '23 3 * * 0'
 
@@ -79,6 +87,8 @@ jobs:
           PY
       - name: Validate Scholar metadata
         run: python3 scholar-tools/validate_scholar.py
+      - name: Audit all canonical article pages for stubs or missing HTML
+        run: python3 scholar-tools/audit_research_stubs.py --fail-on-stub
       - name: Commit generated research layer
         run: |
           git config user.name "videha-scholar-bot"
