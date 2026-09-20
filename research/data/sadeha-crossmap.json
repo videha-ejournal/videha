@@ -3317,7 +3317,7 @@
       "classification": "history",
       "body_chars": 991,
       "was_in_previous_generated_build": true,
-      "review_decision": null,
+      "review_decision": "exclude",
       "sadeha_editorial_decision": null,
       "publishable_discovery": false,
       "reviewable_discovery": false,

@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-09-20T15:25:13.440938+00:00",
+  "generated": "2026-09-20T16:16:16.808674+00:00",
   "extraction_summary": {
     "issue_files_scanned": 449,
     "explicit_articles_publishable": 1,
@@ -10,15 +10,15 @@
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 0,
     "audit_queue_held": 18,
-    "top_level_audit_publishable": 55,
-    "top_level_audit_held": 64,
+    "top_level_audit_publishable": 54,
+    "top_level_audit_held": 65,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
     "promoted_sections_requested": 880,
     "promoted_sections_publishable": 797,
     "promoted_sections_review": 83,
     "curated_manifests": 41,
-    "published_after_all_overrides": 853,
+    "published_after_all_overrides": 852,
     "stale_generated_pages_removed_before_render": 848,
     "build_errors": 0
   },
@@ -4979,25 +4979,6 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20107.pdf",
       "path": "2012/107/भाषा-जातिगत-सम्पत्ति-नहि-अपितु-सामाजिक.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
-      "title": "इतिहासहिन इतिहास",
-      "english_title": null,
-      "authors": [
-        "सन्तोष कुमार मिश्र"
-      ],
-      "publication_date": "2012-06-15",
-      "year": "2012",
-      "issue": "108",
-      "language": "mai",
-      "keywords": [],
-      "classification": "History / cultural history article",
-      "url": "https://www.videha.co.in/research/2012/108/इतिहासहिन-इतिहास.htm",
-      "pdf_url": null,
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20108.pdf",
-      "path": "2012/108/इतिहासहिन-इतिहास.htm",
       "page_start": null,
       "page_end": null
     },

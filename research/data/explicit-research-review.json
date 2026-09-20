@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20T15:25:13.439618+00:00",
+  "generated": "2026-09-20T16:16:16.807232+00:00",
   "summary": {
     "issue_files_scanned": 449,
     "explicit_articles_publishable": 1,
@@ -8,15 +8,15 @@
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 0,
     "audit_queue_held": 18,
-    "top_level_audit_publishable": 55,
-    "top_level_audit_held": 64,
+    "top_level_audit_publishable": 54,
+    "top_level_audit_held": 65,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
     "promoted_sections_requested": 880,
     "promoted_sections_publishable": 797,
     "promoted_sections_review": 83,
     "curated_manifests": 41,
-    "published_after_all_overrides": 853,
+    "published_after_all_overrides": 852,
     "stale_generated_pages_removed_before_render": 848,
     "build_errors": 0
   },
@@ -443,6 +443,12 @@
       "section": "8",
       "label": "भारोपीयभाषासन्दर्भे ध्वनिविमर्शः-विद्यावाचस्पति डा. सदानन्द झा-",
       "reason": "explicit name-like author/title not recoverable from heading"
+    },
+    {
+      "issue": "108",
+      "section": "3.8",
+      "label": "८.सन्तोष कुमार मिश्र- इतिहासहिन इतिहास",
+      "reason": "review ledger: exclude"
     },
     {
       "issue": "123",
