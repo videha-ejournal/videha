@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-09-16T10:17:19.946985+00:00",
+  "generated": "2026-09-20T13:27:00+00:00",
   "extraction_summary": {
     "issue_files_scanned": 448,
     "explicit_articles_publishable": 1,
@@ -16121,6 +16121,164 @@
       "path": "2026/439/सगर-राति-दीप-जरय-क-साहित्यिक-अवदान-नरहिया-गोष्ठीक-आलोकमे-एक-अध्ययन.htm",
       "page_start": "161",
       "page_end": "171"
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान २७",
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Taranath Jha",
+        "Mithila studies"
+      ],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/449/तारानाथ-झा-परिवारक-योगदान-२७.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/तारानाथ-झा-परिवारक-योगदान-२७.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार' एवं हुनक परिवारक योगदान-८",
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Shrikant Thakur Vidyalankar",
+        "Mithila studies"
+      ],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/449/श्रीकान्त-ठाकुर-विद्यालंकार-परिवारक-योगदान-८.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/श्रीकान्त-ठाकुर-विद्यालंकार-परिवारक-योगदान-८.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "'आँचर तर'के पोथीमे सामाजिक संदेश",
+      "authors": [
+        "लालदेव कामत"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary criticism",
+        "book review",
+        "social criticism"
+      ],
+      "classification": "Maithili literary criticism; book review; social criticism",
+      "url": "https://www.videha.co.in/research/2026/449/आँचर-तर-पोथी-सामाजिक-संदेश.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/आँचर-तर-पोथी-सामाजिक-संदेश.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "परिसीमनक आड़ि पर भारतीय लोकतंत्र",
+      "authors": [
+        "प्रणव कुमार झा"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "delimitation",
+        "Indian Parliament",
+        "federalism",
+        "representation"
+      ],
+      "classification": "Indian constitutional studies; parliamentary representation; federalism",
+      "url": "https://www.videha.co.in/research/2026/449/परिसीमनक-आड़ि-पर-भारतीय-लोकतंत्र.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/परिसीमनक-आड़ि-पर-भारतीय-लोकतंत्र.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "एचएसआरएक क्रान्तिकारी आन्दोलन, कालापानीक प्रतिरोध आ सचिन्द्रनाथ सान्यालक योगदान",
+      "authors": [
+        "प्रणव कुमार झा"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "HSRA",
+        "Sachindra Nath Sanyal",
+        "Cellular Jail",
+        "Indian independence movement"
+      ],
+      "classification": "Indian revolutionary history; anti-colonial resistance; Cellular Jail studies",
+      "url": "https://www.videha.co.in/research/2026/449/एचएसआरए-कालापानी-सचिन्द्रनाथ-सान्याल.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/एचएसआरए-कालापानी-सचिन्द्रनाथ-सान्याल.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "‘निनाद’ (मैथिली नाट्यालोचना): सैद्धान्तिक, रंगमंचीय, नव्य-न्यायिक आ समानान्तर-इतिहासपरक समालोचनात्मक पुनरावलोकन",
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "Maithili drama",
+        "theatre criticism",
+        "Navya-Nyaya",
+        "comparative theatre"
+      ],
+      "classification": "Drama studies; Maithili dramatic criticism; comparative theatre theory",
+      "url": "https://www.videha.co.in/research/2026/449/निनाद-मैथिली-नाट्यालोचना.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/निनाद-मैथिली-नाट्यालोचना.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कुणाल-कृत नाट्य-समीक्षा शृंखला · षष्ठ नाटक प्रेमक विस्तार उर्फ श्वेताक आविष्कार",
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "Maithili drama",
+        "comparative theatre",
+        "dramatic criticism",
+        "Kunal"
+      ],
+      "classification": "Drama studies; comparative theatre theory; Maithili dramatic criticism",
+      "url": "https://www.videha.co.in/research/2026/449/कुणाल-नाट्य-समीक्षा-६-प्रेमक-विस्तार.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/कुणाल-नाट्य-समीक्षा-६-प्रेमक-विस्तार.htm",
+      "page_start": null,
+      "page_end": null
     }
   ],
   "candidates": [
@@ -35365,5 +35523,6 @@
       "treatment": "different-discovery-strategy",
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     }
-  ]
+  ],
+  "count": 849
 }
