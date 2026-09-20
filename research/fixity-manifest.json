@@ -2,7 +2,7 @@
   "algorithm": "SHA-256",
   "generated": "2026-09-14",
   "releaseIdentifier": "urn:videha:research-archive:2026-09-14",
-  "sourceCommit": "6f47cf556f199c8652da0e58e925024c2fd20ce6",
+  "sourceCommit": "a7b24b7f4b31cb8ab03792be3da55f3fc06ab753",
   "files": [
     {
       "path": ".zenodo.json",
@@ -41,8 +41,8 @@
     },
     {
       "path": "index.htm",
-      "sha256": "b53354278acdf17fdd0c23c838c14c9fddb9289c4708b9fd541ec5ed2a947353",
-      "bytes": 123554
+      "sha256": "47da1df871dc1231d05f04f8e12f3037c80aea74519f1ced658a8d761067f6c9",
+      "bytes": 122043
     },
     {
       "path": "research/2008/10/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-8.htm",
@@ -1496,8 +1496,8 @@
     },
     {
       "path": "research/2012/99/बिहारक-औद्योगिक-विकास-मे-बाधा-बनि-रहल-जमीन-आ-बिजली-राशन-कार्-ca79e5a8df.htm",
-      "sha256": "6c45948b53125a1d03d4511e7604749986ece210c442c6420dc53a54a93bf9b6",
-      "bytes": 58298
+      "sha256": "a0c2d320157961b1b4dc82408a219486a3e24e17b1444c2051e2e7c9f37525a7",
+      "bytes": 58342
     },
     {
       "path": "research/2012/99/संघीयतामे-मैथिली-भाषा.htm",
@@ -4021,8 +4021,8 @@
     },
     {
       "path": "research/2026/447/गोहि-सभक-बीच-जलसमाधि-गजेन्द्र-ठाकुरक-मैथिली-कादम्बरी-खण्ड-०-a0259d7d5d.htm",
-      "sha256": "edfd5941c4b1a9d048908f20db030db9ad2b1d1d6884227fb68f68ff8701521b",
-      "bytes": 189184
+      "sha256": "5eaaa4a8dec9a737638d81973fef79d6f11a94db2185b88d8978626f40cd2c64",
+      "bytes": 189255
     },
     {
       "path": "research/2026/447/डॉ-अमरेन्द्रक-अंगिका-बाल-साहित्य---लोकस्मृतिसँ-आधुनिक-बाल-सृ-bfd90f8749.htm",
@@ -4091,8 +4091,8 @@
     },
     {
       "path": "research/2026/447/समग्र-सिंहावलोकन-चतुर्भाणी-दामक-प्रहसनम्-हास्यार्णव-आगमडम-99d9c6ef37.htm",
-      "sha256": "7e4cb99c74187f6a6a86f262fbfe3e15475e0ba35b891ac66772766c1d23142c",
-      "bytes": 129841
+      "sha256": "eca21315ff9fc88db02f4013e0b0f1564636be593f125ee671b719036659f06d",
+      "bytes": 129968
     },
     {
       "path": "research/2026/448/अखियासल-केन्द्रीय-मैथिली-बोली.htm",
@@ -4110,9 +4110,19 @@
       "bytes": 215760
     },
     {
+      "path": "research/2026/448/अनुसंधान-आ-संरक्षण-लेल-अपस्यांत-डॉ-रमानंद-झा-रमण-पृष्ठ-१२१-१२५.htm",
+      "sha256": "f135be0f9f41d34cb6b97b16d927a1566b4070e81c7fa9907d535cfc6adcbc75",
+      "bytes": 95802
+    },
+    {
       "path": "research/2026/448/अनुसंधान-आ-संरक्षण-लेल-अपस्यांत-डॉ-रमानंद-झा-रमण.htm",
       "sha256": "5913a78f4fad5720da9bad61a820bbe5784a27647f0a361db88ff9a059b4e917",
       "bytes": 31436
+    },
+    {
+      "path": "research/2026/448/अनुसन्धान-प्रतिमान-पृष्ठ-१५१-१५४.htm",
+      "sha256": "0f37cf5e1dbf460d52714b415c57781b0ac807caae3c7633a7e7b0ec73a991a3",
+      "bytes": 93470
     },
     {
       "path": "research/2026/448/अनुसन्धान-प्रतिमान.htm",
@@ -4153,6 +4163,11 @@
       "path": "research/2026/448/नान्य-पन्था-विद्यते-अनयाय.htm",
       "sha256": "943fc36c48fc901f03437d44172a766267363df6ed0b7d0fb7b11621996ef19e",
       "bytes": 46523
+    },
+    {
+      "path": "research/2026/448/पोथी-संग्रहकर्ता-इतिहासकार-होथि-से-जरूरी-नहि-पृष्ठ-४४१-४४५.htm",
+      "sha256": "913060867d5e6e9a3db8df8bd5ae2f577183230403e55108cde4b3805e3a960d",
+      "bytes": 92147
     },
     {
       "path": "research/2026/448/पोथी-संग्रहकर्ता-इतिहासकार-होथि-से-जरूरी-नहि.htm",
@@ -4240,6 +4255,41 @@
       "bytes": 20381
     },
     {
+      "path": "research/2026/449/आँचर-तर-पोथी-सामाजिक-संदेश.htm",
+      "sha256": "bfd4c80b211047c1a8c4e92d4512a9222eeb748a9d0c8337340fff29277d4d05",
+      "bytes": 30416
+    },
+    {
+      "path": "research/2026/449/एचएसआरए-कालापानी-सचिन्द्रनाथ-सान्याल.htm",
+      "sha256": "14f940bde4a4ca482dcbf5fdcbf91ac8a13f05dc491dd459cdb51212773c004a",
+      "bytes": 68275
+    },
+    {
+      "path": "research/2026/449/कुणाल-नाट्य-समीक्षा-६-प्रेमक-विस्तार.htm",
+      "sha256": "8a610c96038356094075aad304d3945606794a138386e1ac6fcff74fd083bfea",
+      "bytes": 47013
+    },
+    {
+      "path": "research/2026/449/तारानाथ-झा-परिवारक-योगदान-२७.htm",
+      "sha256": "03ee747777848483dfd45fa26c442a67a9ccc7d88d06992a66d0420e4679402d",
+      "bytes": 41891
+    },
+    {
+      "path": "research/2026/449/निनाद-मैथिली-नाट्यालोचना.htm",
+      "sha256": "ee62faae7543136f836ea829adb5dd5faf10defa6cfe4a3e38437e841e24fda7",
+      "bytes": 179700
+    },
+    {
+      "path": "research/2026/449/परिसीमनक-आड़ि-पर-भारतीय-लोकतंत्र.htm",
+      "sha256": "69913c5f9ea446b95779300feb4da08f10354b15618092e49faca62a0af85ea2",
+      "bytes": 58227
+    },
+    {
+      "path": "research/2026/449/श्रीकान्त-ठाकुर-विद्यालंकार-परिवारक-योगदान-८.htm",
+      "sha256": "2f817ab3c77cb5bfc0e58c3411481b684c7434355a66c2f57876512327056efd",
+      "bytes": 28219
+    },
+    {
       "path": "research/Videha-Scholar-Research-Book-Back-Cover.pdf",
       "sha256": "c5fc8b803e6387da1b6ba7319087d30a983313102263ed9ca9691c9e8747ef19",
       "bytes": 9438532
@@ -4281,43 +4331,43 @@
     },
     {
       "path": "research/citation-data-authority.html",
-      "sha256": "6f17438062fc6fd7c8e86f46691d999e1e1ebed4278c52d822353487168c8711",
+      "sha256": "a31ca0278bec0502f63f7319f6298d739848851709fa99386138a3b34f103c42",
       "bytes": 4100
     },
     {
       "path": "research/citation-data-authority.json",
-      "sha256": "c8a602f21ad1410c0fc1b4a0e5c59c49e05fa5532fc3c4af1e562aa64daed479",
+      "sha256": "e25533bac724d37787d4fe97edd08b7a6b86bed53502f7fabe9396a54603b9c3",
       "bytes": 991
     },
     {
       "path": "research/data/article-inventory.json",
-      "sha256": "e21d9fd02187afd1364505970dd8c92fcff33f54d71b64b292397269175757fc",
-      "bytes": 2056595
+      "sha256": "cebe90ebb5da153b53058ac1b74242ce5968d847acd50071ca2e33aa4d9ec00e",
+      "bytes": 2071974
     },
     {
       "path": "research/data/articles.json",
-      "sha256": "fdf8a9f2cb92e1e4757bdca75ea463b7fbbddd59d6ab288f19f9de8c5e74aad9",
-      "bytes": 1420944
+      "sha256": "854b123c7080f38136997ce728f6fc82218aebe62ab353cda79ad25e31128b4c",
+      "bytes": 1432432
     },
     {
       "path": "research/data/candidate-summary.json",
-      "sha256": "0f4d04e2475a19a3c05778179bf676442c3648c12a99c94089fcdb8a6b40badc",
-      "bytes": 184764
+      "sha256": "4e4cdb01eada107529733976b3ec4db06db5f04b5c4b66d10728399cd39eaf3c",
+      "bytes": 179447
     },
     {
       "path": "research/data/explicit-research-review.json",
-      "sha256": "6b215fb534af10ec980536e77cd66497e1e37569b8cba723828ccaf1a2d9631b",
-      "bytes": 80672
+      "sha256": "53f711f6074de6f49df8f2454fa1108b7736ee1b23df842e12dfa97ec5089128",
+      "bytes": 80821
     },
     {
       "path": "research/data/extractor-diagnostics.json",
-      "sha256": "ea6e4814ed171be77447f1088be7f3e4160c70d8ee9b22ba773f8172161f02b1",
+      "sha256": "61141e1c017dbc49f7638c986b35416cfbaecb5161ac95c42155431036c138ef",
       "bytes": 12027
     },
     {
       "path": "research/data/sadeha-crossmap.json",
-      "sha256": "05f91314942e5271d0d8e3cdf9155a1e353614593ee6f3a2cdc6595ff7945554",
-      "bytes": 311470
+      "sha256": "b9714af86025ee994d80facee7e43baa151ab21c10d29cbf66af0d19d4d5a5a0",
+      "bytes": 309412
     },
     {
       "path": "research/data/sadeha-swapped-metadata-review.json",
@@ -4326,18 +4376,18 @@
     },
     {
       "path": "research/data/section-candidates.json",
-      "sha256": "2c7540709db131133eb8eb5df922e088b6dc1fb88763ab8816e9547595bec963",
-      "bytes": 89613
+      "sha256": "132a91885f7febd9a921a9ae53ebebe1d221e1fc9ba55472f9c3f48eeec6b219",
+      "bytes": 90535
     },
     {
       "path": "research/data/top-level-section-candidates.json",
-      "sha256": "4edc030ad7c8c3b030b6cb5ba945851ad003ef1ab01d2da831f27cd3323622af",
-      "bytes": 159544
+      "sha256": "31334d4bf87cdef2cb9229492262f59f430fed2ca7751211029c4d369017729e",
+      "bytes": 161602
     },
     {
       "path": "research/index.htm",
-      "sha256": "4f4f38c5872e1eb31491b8d3b9a69bc60311e1bb4f7a9fb69f30fec991f2d840",
-      "bytes": 726797
+      "sha256": "eba38d418443d969a2db99b064f42e52799ccb7457ee4ad932341f299ca1c83d",
+      "bytes": 736303
     },
     {
       "path": "research/index.html",
@@ -4346,8 +4396,18 @@
     },
     {
       "path": "research/release-metadata.json",
-      "sha256": "792a6b36bda9894bc1576601b5e787f210e0702cceb3d20542568fd53487003e",
+      "sha256": "cff987177b0629b442718b587a087bd86d424fae346534c425c909cf4d4eec12",
       "bytes": 427
+    },
+    {
+      "path": "research/research-book-missing-diagnostic.json",
+      "sha256": "b6f9d42d4a603235266338c835d76207a1681249685f9ae6bd0c55e2fe44a32e",
+      "bytes": 13242
+    },
+    {
+      "path": "research/research-book-shell-diagnostic.txt",
+      "sha256": "6583629f79cf4945a69d518586f75544252ee3282faeaa12d555956cc0f22295",
+      "bytes": 41186
     },
     {
       "path": "research/research-registry.html",
@@ -4356,13 +4416,13 @@
     },
     {
       "path": "research/sitemap-official.xml",
-      "sha256": "d4ebe2eb42193ee708582ef937d559b132765f0cbe57f65ed3cb7bbc30229c35",
-      "bytes": 355892
+      "sha256": "4872ecde615778855bbf620779b1d46e861ef56466bcc52b36c9c36b2411ada7",
+      "bytes": 359606
     },
     {
       "path": "research/sitemap.xml",
-      "sha256": "6462f90ec8c5e97d932a84c393c7158603a06fe957441c2ddb3d3b8fd6f4d2b4",
-      "bytes": 145752
+      "sha256": "87669a2ccffaef8dd544e5d0f56cab65d6f8ec8b50ce24def5900cbe375dada9",
+      "bytes": 147504
     },
     {
       "path": "research/videha-research-book-cover-art.png",
@@ -4371,8 +4431,8 @@
     },
     {
       "path": "research/videha-scholar-research-book.html",
-      "sha256": "5ae4c1e04d1757caaef063e7ce104c2d0ded06f16ab480bd0f01ab614adb4a4c",
-      "bytes": 1086015
+      "sha256": "6729a7b51bcf90731184a48730ddd930a2ffcc1c5b48fd7d0abd5a80a30648cc",
+      "bytes": 1223080
     },
     {
       "path": "robots.txt",
@@ -4381,13 +4441,13 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "c8b40326bc5b0627c31364d01669e1ba120f410dbd06ed36b73013cb06f5cad8",
-      "bytes": 380036
+      "sha256": "ee7440efc20c634089fd0528842fa9968694049e1bc4a5eae9bb2ba8450e4b54",
+      "bytes": 383910
     },
     {
       "path": "tei/current-issue.xml",
-      "sha256": "2bee3ba619f1b66deeb5653bcd557516305a89527b380254f2813f50de3fa32a",
-      "bytes": 7223
+      "sha256": "02b97bb9110e446eef9fb2a35e26f84d0c8f0d4176b599b05b2f74a15c0dd1de",
+      "bytes": 5499
     },
     {
       "path": "tei/videha-issue-449.xml",
@@ -4395,9 +4455,14 @@
       "bytes": 7223
     },
     {
+      "path": "tei/videha-issue-450.xml",
+      "sha256": "02b97bb9110e446eef9fb2a35e26f84d0c8f0d4176b599b05b2f74a15c0dd1de",
+      "bytes": 5499
+    },
+    {
       "path": "videha-rss.xml",
-      "sha256": "abe112c02262feb6bc16438aaa1326ae2ebf2870e51106a5e8ecaebe706f7c2c",
-      "bytes": 6330
+      "sha256": "3b19bb83d1c69f43b6f3f9561bbad20cb3a2def693ab5242548d3a66ea90f60e",
+      "bytes": 4845
     }
   ]
 }
