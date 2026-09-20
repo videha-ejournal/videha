@@ -105,11 +105,14 @@ def load_curated():
 def render_article(rec):
     required=["title","authors","publication_date","issue","source_url"]
     missing=[k for k in required if not rec.get(k)]
-    if not rec.get("full_text_html") and not rec.get("full_text_html_bz2_base64"):
+    if not rec.get("full_text_html") and not rec.get("full_text_html_bz2_base64") and not rec.get("full_text_html_bz2_parts"):
         missing.append("full_text_html")
     full_text_html = rec.get("full_text_html") or ""
-    if rec.get("full_text_html_bz2_base64"):
-        full_text_html = bz2.decompress(base64.b64decode(rec["full_text_html_bz2_base64"])).decode("utf-8")
+    packed = rec.get("full_text_html_bz2_base64") or ""
+    if rec.get("full_text_html_bz2_parts"):
+        packed = "".join((ROOT / part).read_text(encoding="ascii").strip() for part in rec["full_text_html_bz2_parts"])
+    if packed:
+        full_text_html = bz2.decompress(base64.b64decode(packed)).decode("utf-8")
     if missing: raise ValueError(f"{rec.get('_manifest','record')}: missing {', '.join(missing)}")
     year=str(rec.get("year") or str(rec["publication_date"])[:4]); issue=str(rec["issue"])
     slug=rec.get("slug") or slugify(rec["title"]); rel=f"{year}/{issue}/{slug}.htm"
