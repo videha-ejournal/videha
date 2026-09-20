@@ -77,7 +77,7 @@ jobs:
               raise SystemExit('Canonical article inventory is empty')
           bad=[]
           for article in articles:
-              p=Path(article['path'])
+              p=Path('research') / article['path']
               text=p.read_text(encoding='utf-8',errors='ignore')
               if 'templates/scholar-article.html' in text:
                   bad.append(str(p))
