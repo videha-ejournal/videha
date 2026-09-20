@@ -159,6 +159,80 @@ def paths_in_rows(rows: list[str], inventory: set[str]) -> set[str]:
     return found
 
 
+def row_article_path(row: str) -> str:
+    """Return the canonical research article path referenced by a Book row."""
+    attr = re.search(r'(?is)\bdata-source-path=["\']([^"\']+)["\']', row)
+    if attr:
+        path = canonical_path(html.unescape(attr.group(1)))
+        if path:
+            return path
+    for href in re.findall(r'(?is)\bhref\s*=\s*["\']([^"\']+)["\']', row):
+        path = href_path(href)
+        if re.match(r"^research/\d{4}/", path):
+            return path
+    return ""
+
+
+def prune_annex1(text: str, known: set[str]) -> tuple[str, list[str]]:
+    a1, a2 = annex_boundaries(text)
+    segment = text[a1.end():a2.start()]
+    table_match = first_table(segment)
+    table = table_match.group(0)
+    body = tbody_parts(table)
+    rows = rows_from(body.group(2))
+    kept, removed = [], []
+    for row in rows:
+        path = row_article_path(row)
+        if not path:
+            raise SystemExit("Cannot identify an Annex 1 article row while pruning stale records")
+        if path in known:
+            kept.append(row)
+        else:
+            removed.append(path)
+    kept = renumber_rows(kept)
+    new_table = table[:body.start(2)] + "".join(kept) + table[body.end(2):]
+    new_segment = segment[:table_match.start()] + new_table + segment[table_match.end():]
+    return text[:a1.end()] + new_segment + text[a2.start():], removed
+
+
+def prune_annex2(text: str, known: set[str]) -> tuple[str, list[str]]:
+    _, a2 = annex_boundaries(text)
+    tail = text[a2.end():]
+    stop = re.search(r'(?is)<[^>]+\bclass=["\'][^"\']*\bback-top\b[^"\']*["\'][^>]*>|<script\b', tail)
+    if not stop:
+        raise SystemExit("Cannot find safe Annex 2 pruning boundary")
+    segment = tail[:stop.start()]
+    rest = tail[stop.start():]
+    pattern = re.compile(
+        r"(?is)(<h3\b[^>]*>.*?\()(\d+)(\)\s*</h3>\s*<table\b[^>]*>.*?<tbody\b[^>]*>)(.*?)(</tbody>\s*</table>)"
+    )
+    removed: list[str] = []
+    seen_sections = 0
+
+    def repl(match):
+        nonlocal seen_sections
+        seen_sections += 1
+        rows = rows_from(match.group(4))
+        kept = []
+        for row in rows:
+            path = row_article_path(row)
+            if not path:
+                raise SystemExit("Cannot identify an Annex 2 article row while pruning stale records")
+            if path in known:
+                kept.append(row)
+            else:
+                removed.append(path)
+        if not kept:
+            return ""
+        kept = renumber_rows(kept)
+        return match.group(1) + str(len(kept)) + match.group(3) + "".join(kept) + match.group(5)
+
+    new_segment = pattern.sub(repl, segment)
+    if not seen_sections:
+        raise SystemExit("No Annex 2 genre sections found while pruning stale records")
+    return text[:a2.end()] + new_segment + rest, removed
+
+
 def plain(fragment: str) -> str:
     return " ".join(html.unescape(re.sub(r"(?is)<[^>]+>", " ", fragment)).split())
 
@@ -432,26 +506,34 @@ def verify(text: str, raw: bytes, records: list[tuple[str, dict]]) -> None:
 def synchronize(text: str, raw: bytes, records: list[tuple[str, dict]]):
     assert_shell(text)
     known = {p for p, _ in records}
-    existing_author_rows = author_annex_rows(text)
+
+    # Explicit editorial exclusions can legitimately shrink the canonical inventory.
+    # Remove only Book rows whose own article URL/path is no longer canonical.
+    rendered, removed_author = prune_annex1(text, known)
+    rendered, removed_genre = prune_annex2(rendered, known)
+    if set(removed_author) != set(removed_genre):
+        raise SystemExit(
+            "Research Book stale-row pruning differs between annexes: "
+            f"author={sorted(set(removed_author))}, genre={sorted(set(removed_genre))}"
+        )
+
+    existing_author_rows = author_annex_rows(rendered)
     existing_paths = inventory_paths(existing_author_rows, known)
     if len(existing_paths) != len(existing_author_rows):
         raise SystemExit(
-            f"Refusing sync because existing Annex 1 rows do not map one-to-one to inventory: "
+            f"Research Book Annex 1 contains unmapped or duplicate rows after pruning: "
             f"rows={len(existing_author_rows)}, matched={len(existing_paths)}"
         )
-    if len(existing_paths) > len(records):
-        raise SystemExit("Refusing destructive Research Book sync")
     missing = [(p, a) for p, a in records if p not in existing_paths]
     if len(existing_paths) + len(missing) != len(records):
         raise SystemExit("Research Book inventory reconciliation failed")
 
-    rendered = text
     if missing:
         rendered = sync_annex1(rendered, missing)
         rendered = sync_annex2(rendered, missing)
     rendered = refresh_counts_and_provenance(rendered, raw, records)
     verify(rendered, raw, records)
-    return rendered, missing
+    return rendered, missing, sorted(set(removed_author))
 
 
 def main() -> None:
@@ -466,10 +548,13 @@ def main() -> None:
         print(f"Research Book verified from canonical source: {len(records)} rows in each annex; historic shell intact")
         return
 
-    rendered, missing = synchronize(current, raw, records)
+    rendered, missing, removed = synchronize(current, raw, records)
     if rendered != current:
         OUTPUT.write_text(rendered, encoding="utf-8")
     print(f"SOURCE_COUNT={len(records)}")
+    print(f"REMOVED_STALE={len(removed)}")
+    for path in removed:
+        print("REMOVED:", path)
     print(f"MISSING_BEFORE={len(missing)}")
     for path, article in missing:
         print("ADDED:", path, "::", article_author(article), "::", as_text(article.get("title")), "::", article_category(article))
