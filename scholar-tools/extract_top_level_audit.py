@@ -32,6 +32,21 @@ def norm(s: str) -> str:
     return re.sub(r"\s+", " ", htmlmod.unescape(s or "")).strip()
 
 
+def decision_map() -> dict[tuple[str, str], str]:
+    p = ROOT / "scholar-data" / "review-decisions.json"
+    if not p.exists():
+        return {}
+    data = json.loads(p.read_text(encoding="utf-8"))
+    out = {}
+    for d in data.get("decisions", []):
+        issue = str(int(str(d.get("issue") or "0")))
+        section = str(d.get("section") or "").strip().translate(DEV)
+        decision = str(d.get("decision") or "").lower()
+        if section:
+            out[(issue, section)] = decision
+    return out
+
+
 def issue_path(issue: str) -> Path | None:
     docs = ROOT / "search-documents"
     for name in (f"videha-{int(issue):03d}.html", f"videha-{int(issue)}.html", f"videha-{int(issue)}.htm"):
