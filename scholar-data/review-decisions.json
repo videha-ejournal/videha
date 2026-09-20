@@ -167,6 +167,14 @@
       "author": "योगेन्द्र पाठक ‘वियोगी’",
       "decision": "exclude_for_now",
       "reason": "The separately recoverable critical note is only 691 compact characters and remains below the conservative article threshold."
+    },
+    {
+      "issue": "108",
+      "section": "3.8",
+      "title": "इतिहासहिन इतिहास",
+      "author": "सन्तोष कुमार मिश्र",
+      "decision": "exclude",
+      "reason": "Manual source-boundary review: the Issue 108 contents place this item under ३. पद्य, and the recovered source text is a short poem. The word ‘इतिहास’ in the title created a false scholarly/history signal; it must not appear in the article-level Scholar research corpus."
     }
   ]
 }
