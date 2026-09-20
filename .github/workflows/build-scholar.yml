@@ -9,6 +9,8 @@ on:
     branches: [main]
     paths:
       - 'scholar-data/articles/**'
+      - 'scholar-data/review-decisions.json'
+      - 'scholar-tools/extract_top_level_audit.py'
       - 'scholar-tools/build_research.py'
       - 'scholar-tools/build_all_research.py'
       - 'scholar-tools/audit_research_stubs.py'
