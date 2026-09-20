@@ -1,5 +1,6 @@
 # Videha Scholar deep-index maintenance workflow.
 # Authoritative research infrastructure is built by research-infrastructure.yml;
+# Manual Issue 108 boundary correction verified 2026-09-20; this comment also requests a clean post-conflict rebuild.
 # this workflow is intentionally limited to scheduled/manual scholarly maintenance.
 name: Build Videha Scholar Research Index
 
