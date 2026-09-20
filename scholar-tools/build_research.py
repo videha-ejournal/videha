@@ -8,7 +8,7 @@ misrepresented as one paper while still producing a retrospective candidate
 queue automatically.
 """
 from __future__ import annotations
-import datetime as dt, html, json, re
+import base64, bz2, datetime as dt, html, json, re
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import quote
@@ -103,8 +103,13 @@ def load_curated():
     return out
 
 def render_article(rec):
-    required=["title","authors","publication_date","issue","full_text_html","source_url"]
+    required=["title","authors","publication_date","issue","source_url"]
     missing=[k for k in required if not rec.get(k)]
+    if not rec.get("full_text_html") and not rec.get("full_text_html_bz2_base64"):
+        missing.append("full_text_html")
+    full_text_html = rec.get("full_text_html") or ""
+    if rec.get("full_text_html_bz2_base64"):
+        full_text_html = bz2.decompress(base64.b64decode(rec["full_text_html_bz2_base64"])).decode("utf-8")
     if missing: raise ValueError(f"{rec.get('_manifest','record')}: missing {', '.join(missing)}")
     year=str(rec.get("year") or str(rec["publication_date"])[:4]); issue=str(rec["issue"])
     slug=rec.get("slug") or slugify(rec["title"]); rel=f"{year}/{issue}/{slug}.htm"
@@ -161,7 +166,7 @@ def render_article(rec):
         "DESCRIPTION_META":description_meta,"JSON_LD":json.dumps(jsonld,ensure_ascii=False).replace("</","<\\/"),
         "AUTHORS_VISIBLE":html.escape(", ".join(authors)),"DATE_VISIBLE":html.escape(str(rec["publication_date"])),
         "PAGE_RANGE_VISIBLE":page_range_visible,"ENGLISH_TITLE":english_title,"ABSTRACT_SECTION":abstract_section,
-        "KEYWORDS_SECTION":keywords_section,"FULL_TEXT":rec["full_text_html"],"REFERENCES_SECTION":references_section,
+        "KEYWORDS_SECTION":keywords_section,"FULL_TEXT":full_text_html,"REFERENCES_SECTION":references_section,
         "STANDARD_CITATION":html.escape(standard),"SOURCE_URL":esc_attr(rec["source_url"]),"PDF_LINK":pdf_link
     }
     page=TEMPLATE
