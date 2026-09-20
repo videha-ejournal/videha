@@ -1,9 +1,9 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-09-20T13:27:00+00:00",
+  "generated": "2026-09-20T15:25:13.440938+00:00",
   "extraction_summary": {
-    "issue_files_scanned": 448,
+    "issue_files_scanned": 449,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 0,
     "explicit_articles_detected_raw": 2,
@@ -17,9 +17,9 @@
     "promoted_sections_requested": 880,
     "promoted_sections_publishable": 797,
     "promoted_sections_review": 83,
-    "curated_manifests": 30,
-    "published_after_all_overrides": 842,
-    "stale_generated_pages_removed_before_render": 834,
+    "curated_manifests": 41,
+    "published_after_all_overrides": 853,
+    "stale_generated_pages_removed_before_render": 848,
     "build_errors": 0
   },
   "articles": [
@@ -16043,6 +16043,267 @@
       "page_end": null
     },
     {
+      "title": "'आँचर तर'के पोथीमे सामाजिक संदेश",
+      "english_title": null,
+      "authors": [
+        "लालदेव कामत"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary criticism",
+        "book review",
+        "social criticism"
+      ],
+      "classification": "Maithili literary criticism; book review; social criticism",
+      "url": "https://www.videha.co.in/research/2026/449/आँचर-तर-पोथी-सामाजिक-संदेश.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/आँचर-तर-पोथी-सामाजिक-संदेश.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "एचएसआरएक क्रान्तिकारी आन्दोलन, कालापानीक प्रतिरोध आ सचिन्द्रनाथ सान्यालक योगदान",
+      "english_title": null,
+      "authors": [
+        "प्रणव कुमार झा"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "HSRA",
+        "Sachindra Nath Sanyal",
+        "Cellular Jail",
+        "Indian independence movement"
+      ],
+      "classification": "Indian revolutionary history; anti-colonial resistance; Cellular Jail studies",
+      "url": "https://www.videha.co.in/research/2026/449/एचएसआरए-कालापानी-सचिन्द्रनाथ-सान्याल.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/एचएसआरए-कालापानी-सचिन्द्रनाथ-सान्याल.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कुणाल-कृत नाट्य-समीक्षा शृंखला · षष्ठ नाटक प्रेमक विस्तार उर्फ श्वेताक आविष्कार",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "Maithili drama",
+        "comparative theatre",
+        "dramatic criticism",
+        "Kunal"
+      ],
+      "classification": "Drama studies; comparative theatre theory; Maithili dramatic criticism",
+      "url": "https://www.videha.co.in/research/2026/449/कुणाल-नाट्य-समीक्षा-६-प्रेमक-विस्तार.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/कुणाल-नाट्य-समीक्षा-६-प्रेमक-विस्तार.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "परिसीमनक आड़ि पर भारतीय लोकतंत्र",
+      "english_title": null,
+      "authors": [
+        "प्रणव कुमार झा"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "delimitation",
+        "Indian Parliament",
+        "federalism",
+        "representation"
+      ],
+      "classification": "Indian constitutional studies; parliamentary representation; federalism",
+      "url": "https://www.videha.co.in/research/2026/449/परिसीमनक-आड़ि-पर-भारतीय-लोकतंत्र.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/परिसीमनक-आड़ि-पर-भारतीय-लोकतंत्र.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान २७",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Taranath Jha",
+        "Mithila studies"
+      ],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/449/तारानाथ-झा-परिवारक-योगदान-२७.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/तारानाथ-झा-परिवारक-योगदान-२७.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार' एवं हुनक परिवारक योगदान-८",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Shrikant Thakur Vidyalankar",
+        "Mithila studies"
+      ],
+      "classification": "Maithili literary history; intellectual biography; family contribution studies",
+      "url": "https://www.videha.co.in/research/2026/449/श्रीकान्त-ठाकुर-विद्यालंकार-परिवारक-योगदान-८.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/श्रीकान्त-ठाकुर-विद्यालंकार-परिवारक-योगदान-८.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "‘अंगिका साहित्य केरौं इतिहास’ [समीक्ष्य ग्रन्थ: आमुख — डॉ. डोमन साहु ‘समीर’ • पद्य-खण्ड — डॉ. तेजनारायण कुशवाहा • गद्य-खण्ड — डॉ. अमरेन्द्र • हिन्दी अकादमी, हैदराबाद • प्रथम संस्करण, १९९८ ई.] केन्द्रीय मैथिली बोली",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "Angika literary history",
+        "book review",
+        "Maithili criticism",
+        "Hindi Akademi Hyderabad"
+      ],
+      "classification": "Literary criticism; Angika literary history; book review",
+      "url": "https://www.videha.co.in/research/2026/449/अंगिका-साहित्य-इतिहास-केन्द्रीय-मैथिली.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/अंगिका-साहित्य-इतिहास-केन्द्रीय-मैथिली.htm",
+      "page_start": "109",
+      "page_end": "155"
+    },
+    {
+      "title": "‘अंगिका साहित्य केरौं इतिहास’ [समीक्ष्य ग्रन्थ: आमुख — डॉ. डोमन साहु ‘समीर’ • पद्य-खण्ड — डॉ. तेजनारायण कुशवाहा • गद्य-खण्ड — डॉ. अमरेन्द्र • हिन्दी अकादमी, हैदराबाद • प्रथम संस्करण, १९९८ ई.] ठेठी-अंगिका मैथिली",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "thethi-angika",
+      "keywords": [
+        "Angika literary history",
+        "Thethi-Angika",
+        "book review",
+        "Maithili dialect studies"
+      ],
+      "classification": "Literary criticism; Angika literary history; Thethi-Angika Maithili",
+      "url": "https://www.videha.co.in/research/2026/449/अंगिका-साहित्य-इतिहास-ठेठी-अंगिका-मैथिली.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/अंगिका-साहित्य-इतिहास-ठेठी-अंगिका-मैथिली.htm",
+      "page_start": "156",
+      "page_end": "202"
+    },
+    {
+      "title": "‘निनाद’ (मैथिली नाट्यालोचना): सैद्धान्तिक, रंगमंचीय, नव्य-न्यायिक आ समानान्तर-इतिहासपरक समालोचनात्मक पुनरावलोकन",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "Maithili drama",
+        "theatre criticism",
+        "Navya-Nyaya",
+        "comparative theatre"
+      ],
+      "classification": "Drama studies; Maithili dramatic criticism; comparative theatre theory",
+      "url": "https://www.videha.co.in/research/2026/449/निनाद-मैथिली-नाट्यालोचना.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/निनाद-मैथिली-नाट्यालोचना.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "‘बाल गोपाल’ — शंभु ‘अगेही’क बज्जिका बाल-कविता-संग्रहक समेकित गहन समीक्षा [केन्द्रीय मैथिली बोली]",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "Bajjika children's literature",
+        "children's poetry",
+        "Shambhu Agehi",
+        "book review"
+      ],
+      "classification": "Literary criticism; Bajjika children’s poetry; book review",
+      "url": "https://www.videha.co.in/research/2026/449/बाल-गोपाल-समीक्षा-केन्द्रीय-मैथिली.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/बाल-गोपाल-समीक्षा-केन्द्रीय-मैथिली.htm",
+      "page_start": "203",
+      "page_end": "241"
+    },
+    {
+      "title": "‘बाल गोपाल’ — शंभु ‘अगेही’क बज्जिका बाल-कविता-संग्रहक समेकित गहन समीक्षा [बज्जिका मैथिली]",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "bajjika",
+      "keywords": [
+        "Bajjika children's literature",
+        "children's poetry",
+        "Shambhu Agehi",
+        "Bajjika criticism"
+      ],
+      "classification": "Literary criticism; Bajjika children’s poetry; book review",
+      "url": "https://www.videha.co.in/research/2026/449/बाल-गोपाल-समीक्षा-बज्जिका-मैथिली.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/बाल-गोपाल-समीक्षा-बज्जिका-मैथिली.htm",
+      "page_start": "242",
+      "page_end": "280"
+    },
+    {
       "title": "मैथि‍ली कथाक वि‍कासमे गामक जि‍नगीक योगदान-",
       "authors": [
         "शिव कुमार झा &quot;टिल्लू&quot;"
@@ -16121,260 +16382,6 @@
       "path": "2026/439/सगर-राति-दीप-जरय-क-साहित्यिक-अवदान-नरहिया-गोष्ठीक-आलोकमे-एक-अध्ययन.htm",
       "page_start": "161",
       "page_end": "171"
-    },
-    {
-      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान २७",
-      "authors": [
-        "हितनाथ झा"
-      ],
-      "publication_date": "2026-09-01",
-      "year": "2026",
-      "issue": "449",
-      "language": "mai",
-      "keywords": [
-        "Maithili literary history",
-        "Taranath Jha",
-        "Mithila studies"
-      ],
-      "classification": "Maithili literary history; intellectual biography; family contribution studies",
-      "url": "https://www.videha.co.in/research/2026/449/तारानाथ-झा-परिवारक-योगदान-२७.htm",
-      "pdf_url": null,
-      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
-      "path": "2026/449/तारानाथ-झा-परिवारक-योगदान-२७.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
-      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार' एवं हुनक परिवारक योगदान-८",
-      "authors": [
-        "कल्पना झा"
-      ],
-      "publication_date": "2026-09-01",
-      "year": "2026",
-      "issue": "449",
-      "language": "mai",
-      "keywords": [
-        "Maithili literary history",
-        "Shrikant Thakur Vidyalankar",
-        "Mithila studies"
-      ],
-      "classification": "Maithili literary history; intellectual biography; family contribution studies",
-      "url": "https://www.videha.co.in/research/2026/449/श्रीकान्त-ठाकुर-विद्यालंकार-परिवारक-योगदान-८.htm",
-      "pdf_url": null,
-      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
-      "path": "2026/449/श्रीकान्त-ठाकुर-विद्यालंकार-परिवारक-योगदान-८.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
-      "title": "'आँचर तर'के पोथीमे सामाजिक संदेश",
-      "authors": [
-        "लालदेव कामत"
-      ],
-      "publication_date": "2026-09-01",
-      "year": "2026",
-      "issue": "449",
-      "language": "mai",
-      "keywords": [
-        "Maithili literary criticism",
-        "book review",
-        "social criticism"
-      ],
-      "classification": "Maithili literary criticism; book review; social criticism",
-      "url": "https://www.videha.co.in/research/2026/449/आँचर-तर-पोथी-सामाजिक-संदेश.htm",
-      "pdf_url": null,
-      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
-      "path": "2026/449/आँचर-तर-पोथी-सामाजिक-संदेश.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
-      "title": "परिसीमनक आड़ि पर भारतीय लोकतंत्र",
-      "authors": [
-        "प्रणव कुमार झा"
-      ],
-      "publication_date": "2026-09-01",
-      "year": "2026",
-      "issue": "449",
-      "language": "mai",
-      "keywords": [
-        "delimitation",
-        "Indian Parliament",
-        "federalism",
-        "representation"
-      ],
-      "classification": "Indian constitutional studies; parliamentary representation; federalism",
-      "url": "https://www.videha.co.in/research/2026/449/परिसीमनक-आड़ि-पर-भारतीय-लोकतंत्र.htm",
-      "pdf_url": null,
-      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
-      "path": "2026/449/परिसीमनक-आड़ि-पर-भारतीय-लोकतंत्र.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
-      "title": "एचएसआरएक क्रान्तिकारी आन्दोलन, कालापानीक प्रतिरोध आ सचिन्द्रनाथ सान्यालक योगदान",
-      "authors": [
-        "प्रणव कुमार झा"
-      ],
-      "publication_date": "2026-09-01",
-      "year": "2026",
-      "issue": "449",
-      "language": "mai",
-      "keywords": [
-        "HSRA",
-        "Sachindra Nath Sanyal",
-        "Cellular Jail",
-        "Indian independence movement"
-      ],
-      "classification": "Indian revolutionary history; anti-colonial resistance; Cellular Jail studies",
-      "url": "https://www.videha.co.in/research/2026/449/एचएसआरए-कालापानी-सचिन्द्रनाथ-सान्याल.htm",
-      "pdf_url": null,
-      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
-      "path": "2026/449/एचएसआरए-कालापानी-सचिन्द्रनाथ-सान्याल.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
-      "title": "‘निनाद’ (मैथिली नाट्यालोचना): सैद्धान्तिक, रंगमंचीय, नव्य-न्यायिक आ समानान्तर-इतिहासपरक समालोचनात्मक पुनरावलोकन",
-      "authors": [
-        "गजेन्द्र ठाकुर"
-      ],
-      "publication_date": "2026-09-01",
-      "year": "2026",
-      "issue": "449",
-      "language": "mai",
-      "keywords": [
-        "Maithili drama",
-        "theatre criticism",
-        "Navya-Nyaya",
-        "comparative theatre"
-      ],
-      "classification": "Drama studies; Maithili dramatic criticism; comparative theatre theory",
-      "url": "https://www.videha.co.in/research/2026/449/निनाद-मैथिली-नाट्यालोचना.htm",
-      "pdf_url": null,
-      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
-      "path": "2026/449/निनाद-मैथिली-नाट्यालोचना.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
-      "title": "कुणाल-कृत नाट्य-समीक्षा शृंखला · षष्ठ नाटक प्रेमक विस्तार उर्फ श्वेताक आविष्कार",
-      "authors": [
-        "गजेन्द्र ठाकुर"
-      ],
-      "publication_date": "2026-09-01",
-      "year": "2026",
-      "issue": "449",
-      "language": "mai",
-      "keywords": [
-        "Maithili drama",
-        "comparative theatre",
-        "dramatic criticism",
-        "Kunal"
-      ],
-      "classification": "Drama studies; comparative theatre theory; Maithili dramatic criticism",
-      "url": "https://www.videha.co.in/research/2026/449/कुणाल-नाट्य-समीक्षा-६-प्रेमक-विस्तार.htm",
-      "pdf_url": null,
-      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
-      "path": "2026/449/कुणाल-नाट्य-समीक्षा-६-प्रेमक-विस्तार.htm",
-      "page_start": null,
-      "page_end": null
-    },
-    {
-      "title": "‘अंगिका साहित्य केरौं इतिहास’ [समीक्ष्य ग्रन्थ: आमुख — डॉ. डोमन साहु ‘समीर’ • पद्य-खण्ड — डॉ. तेजनारायण कुशवाहा • गद्य-खण्ड — डॉ. अमरेन्द्र • हिन्दी अकादमी, हैदराबाद • प्रथम संस्करण, १९९८ ई.] केन्द्रीय मैथिली बोली",
-      "english_title": null,
-      "authors": [
-        "गजेन्द्र ठाकुर"
-      ],
-      "publication_date": "2026-09-01",
-      "year": "2026",
-      "issue": "449",
-      "language": "mai",
-      "keywords": [
-        "Angika literary history",
-        "book review",
-        "Maithili criticism",
-        "Hindi Akademi Hyderabad"
-      ],
-      "classification": "Literary criticism; Angika literary history; book review",
-      "url": "https://www.videha.co.in/research/2026/449/अंगिका-साहित्य-इतिहास-केन्द्रीय-मैथिली.htm",
-      "pdf_url": null,
-      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
-      "path": "2026/449/अंगिका-साहित्य-इतिहास-केन्द्रीय-मैथिली.htm",
-      "page_start": "109",
-      "page_end": "155"
-    },
-    {
-      "title": "‘अंगिका साहित्य केरौं इतिहास’ [समीक्ष्य ग्रन्थ: आमुख — डॉ. डोमन साहु ‘समीर’ • पद्य-खण्ड — डॉ. तेजनारायण कुशवाहा • गद्य-खण्ड — डॉ. अमरेन्द्र • हिन्दी अकादमी, हैदराबाद • प्रथम संस्करण, १९९८ ई.] ठेठी-अंगिका मैथिली",
-      "english_title": null,
-      "authors": [
-        "गजेन्द्र ठाकुर"
-      ],
-      "publication_date": "2026-09-01",
-      "year": "2026",
-      "issue": "449",
-      "language": "thethi-angika",
-      "keywords": [
-        "Angika literary history",
-        "Thethi-Angika",
-        "book review",
-        "Maithili dialect studies"
-      ],
-      "classification": "Literary criticism; Angika literary history; Thethi-Angika Maithili",
-      "url": "https://www.videha.co.in/research/2026/449/अंगिका-साहित्य-इतिहास-ठेठी-अंगिका-मैथिली.htm",
-      "pdf_url": null,
-      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
-      "path": "2026/449/अंगिका-साहित्य-इतिहास-ठेठी-अंगिका-मैथिली.htm",
-      "page_start": "156",
-      "page_end": "202"
-    },
-    {
-      "title": "‘बाल गोपाल’ — शंभु ‘अगेही’क बज्जिका बाल-कविता-संग्रहक समेकित गहन समीक्षा [केन्द्रीय मैथिली बोली]",
-      "english_title": null,
-      "authors": [
-        "गजेन्द्र ठाकुर"
-      ],
-      "publication_date": "2026-09-01",
-      "year": "2026",
-      "issue": "449",
-      "language": "mai",
-      "keywords": [
-        "Bajjika children's literature",
-        "children's poetry",
-        "Shambhu Agehi",
-        "book review"
-      ],
-      "classification": "Literary criticism; Bajjika children’s poetry; book review",
-      "url": "https://www.videha.co.in/research/2026/449/बाल-गोपाल-समीक्षा-केन्द्रीय-मैथिली.htm",
-      "pdf_url": null,
-      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
-      "path": "2026/449/बाल-गोपाल-समीक्षा-केन्द्रीय-मैथिली.htm",
-      "page_start": "203",
-      "page_end": "241"
-    },
-    {
-      "title": "‘बाल गोपाल’ — शंभु ‘अगेही’क बज्जिका बाल-कविता-संग्रहक समेकित गहन समीक्षा [बज्जिका मैथिली]",
-      "english_title": null,
-      "authors": [
-        "गजेन्द्र ठाकुर"
-      ],
-      "publication_date": "2026-09-01",
-      "year": "2026",
-      "issue": "449",
-      "language": "bajjika",
-      "keywords": [
-        "Bajjika children's literature",
-        "children's poetry",
-        "Shambhu Agehi",
-        "Bajjika criticism"
-      ],
-      "classification": "Literary criticism; Bajjika children’s poetry; book review",
-      "url": "https://www.videha.co.in/research/2026/449/बाल-गोपाल-समीक्षा-बज्जिका-मैथिली.htm",
-      "pdf_url": null,
-      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
-      "path": "2026/449/बाल-गोपाल-समीक्षा-बज्जिका-मैथिली.htm",
-      "page_start": "242",
-      "page_end": "280"
     }
   ],
   "candidates": [
@@ -18713,49 +18720,6 @@
       "special_terms": [
         "dictionary",
         "कोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
-      "source_path": "new_page_116.htm",
-      "source_url": "https://www.videha.co.in/new_page_116.htm",
-      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 585,
-      "matched_terms": [
-        "ethnography",
-        "अनुसन्धान",
-        "अन्वेषण",
-        "आलोचना",
-        "इतिहास",
-        "ग्रन्थसूची",
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "लोक-संस्कृति",
-        "व्याकरण",
-        "संदर्भ",
-        "सन्दर्भ",
-        "समालोचना"
-      ],
-      "excluded_terms": [
-        "e-learning",
-        "quiz",
-        "ई-लर्निङ्ग",
-        "कथा",
-        "कविता",
-        "घोषणा",
-        "नाटक",
-        "प्रश्नोत्तरी",
-        "समाचार",
-        "साक्षात्कार"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
       ],
       "treatment": "different-discovery-strategy",
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
@@ -23455,6 +23419,39 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
+      "source_path": "new_page_128.htm",
+      "source_url": "https://www.videha.co.in/new_page_128.htm",
+      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 380,
+      "matched_terms": [
+        "अनुसन्धान",
+        "अन्वेषण",
+        "इतिहास",
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "व्याकरण"
+      ],
+      "excluded_terms": [
+        "e-learning",
+        "quiz",
+        "ई-लर्निङ्ग",
+        "कथा",
+        "घोषणा",
+        "नाटक",
+        "प्रश्नोत्तरी"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
       "source_path": "search-documents/videha-028.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-028.html",
       "page_title": "VIDEHA — Issue 28 / अंक २८",
@@ -25054,37 +25051,6 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
-      "source_path": "index.htm",
-      "source_url": "https://www.videha.co.in/index.htm",
-      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 300,
-      "matched_terms": [
-        "अन्वेषण",
-        "इतिहास",
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "व्याकरण",
-        "समालोचना"
-      ],
-      "excluded_terms": [
-        "e-learning",
-        "quiz",
-        "ई-लर्निङ्ग",
-        "नाटक",
-        "प्रश्नोत्तरी"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
       "source_path": "search-documents/videha-199.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-199.html",
       "page_title": "VIDEHA — Issue 199 / अंक १९९",
@@ -26291,6 +26257,35 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
+      "source_path": "index.htm",
+      "source_url": "https://www.videha.co.in/index.htm",
+      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 235,
+      "matched_terms": [
+        "अन्वेषण",
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "व्याकरण"
+      ],
+      "excluded_terms": [
+        "e-learning",
+        "quiz",
+        "ई-लर्निङ्ग",
+        "कविता",
+        "प्रश्नोत्तरी"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
       "source_path": "new_page_103.htm",
       "source_url": "https://www.videha.co.in/new_page_103.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
@@ -26349,6 +26344,34 @@
     {
       "source_path": "new_page_107.htm",
       "source_url": "https://www.videha.co.in/new_page_107.htm",
+      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 235,
+      "matched_terms": [
+        "अन्वेषण",
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "व्याकरण"
+      ],
+      "excluded_terms": [
+        "e-learning",
+        "quiz",
+        "ई-लर्निङ्ग",
+        "प्रश्नोत्तरी"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
+      "source_path": "new_page_108.htm",
+      "source_url": "https://www.videha.co.in/new_page_108.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
       "year": "unknown",
       "issue": "unknown",
@@ -26515,14 +26538,42 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
-      "source_path": "new_page_119.htm",
-      "source_url": "https://www.videha.co.in/new_page_119.htm",
+      "source_path": "new_page_116.htm",
+      "source_url": "https://www.videha.co.in/new_page_116.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
       "year": "unknown",
       "issue": "unknown",
       "score": 235,
       "matched_terms": [
-        "अनुसन्धान",
+        "अन्वेषण",
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "व्याकरण"
+      ],
+      "excluded_terms": [
+        "e-learning",
+        "quiz",
+        "ई-लर्निङ्ग",
+        "प्रश्नोत्तरी"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
+      "source_path": "new_page_117.htm",
+      "source_url": "https://www.videha.co.in/new_page_117.htm",
+      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 235,
+      "matched_terms": [
+        "अन्वेषण",
         "पञ्जी",
         "भाषा विज्ञान",
         "व्याकरण"
@@ -26685,6 +26736,34 @@
     {
       "source_path": "new_page_132.htm",
       "source_url": "https://www.videha.co.in/new_page_132.htm",
+      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 235,
+      "matched_terms": [
+        "अन्वेषण",
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "व्याकरण"
+      ],
+      "excluded_terms": [
+        "e-learning",
+        "quiz",
+        "ई-लर्निङ्ग",
+        "प्रश्नोत्तरी"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
+      "source_path": "new_page_133.htm",
+      "source_url": "https://www.videha.co.in/new_page_133.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
       "year": "unknown",
       "issue": "unknown",
@@ -27369,37 +27448,6 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
-      "source_path": "new_page_125.htm",
-      "source_url": "https://www.videha.co.in/new_page_125.htm",
-      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 225,
-      "matched_terms": [
-        "इतिहास",
-        "पंजी",
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "व्याकरण"
-      ],
-      "excluded_terms": [
-        "e-learning",
-        "quiz",
-        "ई-लर्निङ्ग",
-        "कथा",
-        "प्रश्नोत्तरी",
-        "लघुकथा"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
       "source_path": "new_page_30.htm",
       "source_url": "https://www.videha.co.in/new_page_30.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
@@ -27668,69 +27716,6 @@
         "quiz",
         "ई-लर्निङ्ग",
         "प्रश्नोत्तरी"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
-      "source_path": "new_page_112.htm",
-      "source_url": "https://www.videha.co.in/new_page_112.htm",
-      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 205,
-      "matched_terms": [
-        "आलोचना",
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "व्याकरण",
-        "संदर्भ",
-        "सन्दर्भ"
-      ],
-      "excluded_terms": [
-        "e-learning",
-        "quiz",
-        "ई-लर्निङ्ग",
-        "नाटक",
-        "प्रश्नोत्तरी"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
-      "source_path": "new_page_115.htm",
-      "source_url": "https://www.videha.co.in/new_page_115.htm",
-      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 205,
-      "matched_terms": [
-        "इतिहास",
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "व्याकरण",
-        "सन्दर्भ"
-      ],
-      "excluded_terms": [
-        "e-learning",
-        "quiz",
-        "ई-लर्निङ्ग",
-        "कथा",
-        "घोषणा",
-        "प्रश्नोत्तरी",
-        "समाचार"
       ],
       "special_terms": [
         "dictionary",
@@ -29337,6 +29322,64 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
+      "source_path": "new_page_102.htm",
+      "source_url": "https://www.videha.co.in/new_page_102.htm",
+      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 180,
+      "matched_terms": [
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "लोकसंस्कृति",
+        "व्याकरण"
+      ],
+      "excluded_terms": [
+        "e-learning",
+        "quiz",
+        "ई-लर्निङ्ग",
+        "प्रश्नोत्तरी"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
+      "source_path": "new_page_129.htm",
+      "source_url": "https://www.videha.co.in/new_page_129.htm",
+      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 180,
+      "matched_terms": [
+        "इतिहास",
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "व्याकरण"
+      ],
+      "excluded_terms": [
+        "e-learning",
+        "quiz",
+        "ई-लर्निङ्ग",
+        "कथा",
+        "कविता",
+        "प्रश्नोत्तरी"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
       "source_path": "new_page_23.htm",
       "source_url": "https://www.videha.co.in/new_page_23.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
@@ -30030,6 +30073,34 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
+      "source_path": "new_page_105.htm",
+      "source_url": "https://www.videha.co.in/new_page_105.htm",
+      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 160,
+      "matched_terms": [
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "व्याकरण",
+        "संदर्भ"
+      ],
+      "excluded_terms": [
+        "e-learning",
+        "quiz",
+        "ई-लर्निङ्ग",
+        "प्रश्नोत्तरी"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
       "source_path": "new_page_11.htm",
       "source_url": "https://www.videha.co.in/new_page_11.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
@@ -30047,6 +30118,36 @@
         "quiz",
         "ई-लर्निङ्ग",
         "प्रश्नोत्तरी"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
+      "source_path": "new_page_115.htm",
+      "source_url": "https://www.videha.co.in/new_page_115.htm",
+      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 160,
+      "matched_terms": [
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "व्याकरण",
+        "संदर्भ"
+      ],
+      "excluded_terms": [
+        "e-learning",
+        "quiz",
+        "ई-लर्निङ्ग",
+        "कथा",
+        "प्रश्नोत्तरी",
+        "समाचार"
       ],
       "special_terms": [
         "dictionary",
@@ -30087,8 +30188,8 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
-      "source_path": "new_page_120.htm",
-      "source_url": "https://www.videha.co.in/new_page_120.htm",
+      "source_path": "new_page_125.htm",
+      "source_url": "https://www.videha.co.in/new_page_125.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
       "year": "unknown",
       "issue": "unknown",
@@ -30097,7 +30198,7 @@
         "पञ्जी",
         "भाषा विज्ञान",
         "व्याकरण",
-        "सन्दर्भ"
+        "संदर्भ"
       ],
       "excluded_terms": [
         "e-learning",
@@ -30105,8 +30206,6 @@
         "ई-लर्निङ्ग",
         "कथा",
         "कविता",
-        "घोषणा",
-        "नाटक",
         "प्रश्नोत्तरी"
       ],
       "special_terms": [
@@ -30861,68 +30960,6 @@
       ],
       "special_terms": [
         "कोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
-      "source_path": "new_page_102.htm",
-      "source_url": "https://www.videha.co.in/new_page_102.htm",
-      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 155,
-      "matched_terms": [
-        "आलोचना",
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "व्याकरण"
-      ],
-      "excluded_terms": [
-        "e-learning",
-        "quiz",
-        "ई-लर्निङ्ग",
-        "कविता",
-        "प्रश्नोत्तरी",
-        "साक्षात्कार"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
-      "source_path": "new_page_124.htm",
-      "source_url": "https://www.videha.co.in/new_page_124.htm",
-      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 155,
-      "matched_terms": [
-        "आलोचना",
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "व्याकरण"
-      ],
-      "excluded_terms": [
-        "e-learning",
-        "quiz",
-        "ई-लर्निङ्ग",
-        "कथा",
-        "घोषणा",
-        "नाटक",
-        "प्रश्नोत्तरी",
-        "साक्षात्कार"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
       ],
       "treatment": "different-discovery-strategy",
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
@@ -31748,34 +31785,6 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
-      "source_path": "new_page_105.htm",
-      "source_url": "https://www.videha.co.in/new_page_105.htm",
-      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 135,
-      "matched_terms": [
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "व्याकरण"
-      ],
-      "excluded_terms": [
-        "e-learning",
-        "quiz",
-        "ई-लर्निङ्ग",
-        "कथा",
-        "प्रश्नोत्तरी"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
       "source_path": "new_page_106.htm",
       "source_url": "https://www.videha.co.in/new_page_106.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
@@ -31791,6 +31800,7 @@
         "e-learning",
         "quiz",
         "ई-लर्निङ्ग",
+        "कविता",
         "प्रश्नोत्तरी"
       ],
       "special_terms": [
@@ -31803,35 +31813,8 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
-      "source_path": "new_page_108.htm",
-      "source_url": "https://www.videha.co.in/new_page_108.htm",
-      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 135,
-      "matched_terms": [
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "व्याकरण"
-      ],
-      "excluded_terms": [
-        "e-learning",
-        "quiz",
-        "ई-लर्निङ्ग",
-        "प्रश्नोत्तरी"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
-      "source_path": "new_page_117.htm",
-      "source_url": "https://www.videha.co.in/new_page_117.htm",
+      "source_path": "new_page_112.htm",
+      "source_url": "https://www.videha.co.in/new_page_112.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
       "year": "unknown",
       "issue": "unknown",
@@ -31884,6 +31867,93 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
+      "source_path": "new_page_119.htm",
+      "source_url": "https://www.videha.co.in/new_page_119.htm",
+      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 135,
+      "matched_terms": [
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "व्याकरण"
+      ],
+      "excluded_terms": [
+        "e-learning",
+        "quiz",
+        "ई-लर्निङ्ग",
+        "प्रश्नोत्तरी"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
+      "source_path": "new_page_120.htm",
+      "source_url": "https://www.videha.co.in/new_page_120.htm",
+      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 135,
+      "matched_terms": [
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "व्याकरण"
+      ],
+      "excluded_terms": [
+        "e-learning",
+        "quiz",
+        "ई-लर्निङ्ग",
+        "कविता",
+        "घोषणा",
+        "नाटक",
+        "प्रश्नोत्तरी"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
+      "source_path": "new_page_124.htm",
+      "source_url": "https://www.videha.co.in/new_page_124.htm",
+      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 135,
+      "matched_terms": [
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "व्याकरण"
+      ],
+      "excluded_terms": [
+        "e-learning",
+        "quiz",
+        "ई-लर्निङ्ग",
+        "कथा",
+        "घोषणा",
+        "नाटक",
+        "प्रश्नोत्तरी"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
       "source_path": "new_page_126.htm",
       "source_url": "https://www.videha.co.in/new_page_126.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
@@ -31900,63 +31970,6 @@
         "quiz",
         "ई-लर्निङ्ग",
         "कथा",
-        "प्रश्नोत्तरी"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
-      "source_path": "new_page_128.htm",
-      "source_url": "https://www.videha.co.in/new_page_128.htm",
-      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 135,
-      "matched_terms": [
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "व्याकरण"
-      ],
-      "excluded_terms": [
-        "e-learning",
-        "quiz",
-        "ई-लर्निङ्ग",
-        "प्रश्नोत्तरी",
-        "समाचार"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
-      "source_path": "new_page_129.htm",
-      "source_url": "https://www.videha.co.in/new_page_129.htm",
-      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 135,
-      "matched_terms": [
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "व्याकरण"
-      ],
-      "excluded_terms": [
-        "e-learning",
-        "quiz",
-        "ई-लर्निङ्ग",
-        "कथा",
-        "कविता",
         "प्रश्नोत्तरी"
       ],
       "special_terms": [
@@ -32023,33 +32036,6 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
-      "source_path": "new_page_133.htm",
-      "source_url": "https://www.videha.co.in/new_page_133.htm",
-      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 135,
-      "matched_terms": [
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "व्याकरण"
-      ],
-      "excluded_terms": [
-        "e-learning",
-        "quiz",
-        "ई-लर्निङ्ग",
-        "प्रश्नोत्तरी"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
       "source_path": "new_page_134.htm",
       "source_url": "https://www.videha.co.in/new_page_134.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
@@ -32065,6 +32051,7 @@
         "e-learning",
         "quiz",
         "ई-लर्निङ्ग",
+        "कथा",
         "प्रश्नोत्तरी"
       ],
       "special_terms": [
@@ -34378,6 +34365,24 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
+      "source_path": "search-documents/videha-449.html",
+      "source_url": "https://www.videha.co.in/search-documents/videha-449.html",
+      "page_title": "विदेह अंक ४४९ · Videha Issue 449",
+      "year": "unknown",
+      "issue": "४४९",
+      "score": 65,
+      "matched_terms": [
+        "इतिहास",
+        "समालोचना"
+      ],
+      "excluded_terms": [
+        "नाटक"
+      ],
+      "special_terms": [],
+      "treatment": "exclude",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
       "source_path": "google7d0b1633a9939d34.html",
       "source_url": "https://www.videha.co.in/google7d0b1633a9939d34.html",
       "page_title": "google7d0b1633a9939d34",
@@ -35619,6 +35624,5 @@
       "treatment": "different-discovery-strategy",
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     }
-  ],
-  "count": 853
+  ]
 }

@@ -1,7 +1,7 @@
 {
-  "issue_files_scanned": 448,
-  "article_entries_inventoried": 3549,
-  "scholar_candidates": 272,
+  "issue_files_scanned": 449,
+  "article_entries_inventoried": 3562,
+  "scholar_candidates": 274,
   "classification_counts": {
     "conference-seminar": 1,
     "criticism": 14,
@@ -12,7 +12,7 @@
     "history+folklore-ethnography+culture-art": 1,
     "linguistics": 2,
     "linguistics+criticism+academic-review": 1,
-    "literary-history": 56,
+    "literary-history": 58,
     "references-present": 141,
     "research-explicit": 2
   },
@@ -4283,6 +4283,40 @@
       ],
       "source_path": "search-documents/videha-448.html",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20448.pdf"
+    },
+    {
+      "issue": "449",
+      "publication_date": "2026-09-01",
+      "section": "1.1",
+      "author": "हितनाथ झा",
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान २७",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-449.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20449.pdf"
+    },
+    {
+      "issue": "449",
+      "publication_date": "2026-09-01",
+      "section": "1.2",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार'एवं हुनक परिवारक योगदान-८",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "source_path": "search-documents/videha-449.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20449.pdf"
     },
     {
       "issue": "45",
