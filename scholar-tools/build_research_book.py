@@ -443,6 +443,26 @@ def refresh_counts_and_provenance(text: str, raw: bytes, records: list[tuple[str
     text = re.sub(r"(?<![0-9])\d+\s*लेख", f"{count} लेख", text)
     text = re.sub(r'("numberOfItems"\s*:\s*)\d+', rf"\g<1>{count}", text)
 
+    # Keep the visible language distribution source-derived from articles.json.
+    language_counts = {}
+    for _, article in records:
+        code = as_text(article.get("language"))
+        language_counts[code] = language_counts.get(code, 0) + 1
+    language_labels = (
+        ("bajjika", "बज्जिका"),
+        ("en", "अंग्रेजी"),
+        ("mai", "मैथिली"),
+        ("sa", "संस्कृत"),
+        ("thethi-angika", "ठेठी-अंगिका"),
+    )
+    language_total = sum(language_counts.values())
+    if language_total != count:
+        raise SystemExit(f"Language distribution mismatch: {language_total} != {count}")
+    corpus_summary = "अन्तिम सत्यापित कॉर्पस : " + f"{count} लेख · " + " · ".join(
+        f"{label} {language_counts.get(code, 0)}" for code, label in language_labels
+    )
+    text = re.sub(r"अन्तिम सत्यापित कॉर्पस\s*:\s*[^<]+", corpus_summary, text, count=1)
+
     # Keep the issue range source-derived as well (the restored shell already says 448;
     # this also repairs any stale JSON-LD name that still said 447).
     issues = [int(as_text(a.get("issue"))) for _, a in records if as_text(a.get("issue")).isdigit()]
