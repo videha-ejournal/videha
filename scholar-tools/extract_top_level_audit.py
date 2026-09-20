@@ -144,6 +144,7 @@ def load_top_level_records() -> tuple[list[dict], list[dict]]:
         return [], [{"reason": "top-level audit catalogue missing"}]
     rows = json.loads(p.read_text(encoding="utf-8")).get("rows", [])
     records, review, published_keys = [], [], set()
+    decisions = decision_map()
     seen = set()
     for row in rows:
         issue = str(int(str(row.get("issue") or "0")))
@@ -178,6 +179,16 @@ def load_top_level_records() -> tuple[list[dict], list[dict]]:
         # (e.g. ``३.प्रणव झा-...``).  Prefer that explicit marker when present;
         # otherwise the old value can match only the TOC and publish its tail.
         label_section = re.match(r"^\s*([०-९0-9]+(?:\.[०-९0-9]+)?)\s*\.", label)
+        label_part = label_section.group(1).translate(DEV) if label_section else ""
+        decision_section = section
+        if label_part and "." not in label_part and "." not in section:
+            decision_section = f"{section}.{label_part}"
+        elif label_part:
+            decision_section = label_part
+        decision = decisions.get((issue, decision_section), "")
+        if decision.startswith("exclude") or decision.startswith("hold"):
+            review.append({"issue": issue, "section": decision_section, "label": label, "reason": f"review ledger: {decision}"})
+            continue
         body_section = label_section.group(1) if label_section else section
         resolved = body_segment(text, body_section, label)
         if not resolved:
