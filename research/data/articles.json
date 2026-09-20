@@ -16279,6 +16279,102 @@
       "path": "2026/449/कुणाल-नाट्य-समीक्षा-६-प्रेमक-विस्तार.htm",
       "page_start": null,
       "page_end": null
+    },
+    {
+      "title": "‘अंगिका साहित्य केरौं इतिहास’ [समीक्ष्य ग्रन्थ: आमुख — डॉ. डोमन साहु ‘समीर’ • पद्य-खण्ड — डॉ. तेजनारायण कुशवाहा • गद्य-खण्ड — डॉ. अमरेन्द्र • हिन्दी अकादमी, हैदराबाद • प्रथम संस्करण, १९९८ ई.] केन्द्रीय मैथिली बोली",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "Angika literary history",
+        "book review",
+        "Maithili criticism",
+        "Hindi Akademi Hyderabad"
+      ],
+      "classification": "Literary criticism; Angika literary history; book review",
+      "url": "https://www.videha.co.in/research/2026/449/अंगिका-साहित्य-इतिहास-केन्द्रीय-मैथिली.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/अंगिका-साहित्य-इतिहास-केन्द्रीय-मैथिली.htm",
+      "page_start": "109",
+      "page_end": "155"
+    },
+    {
+      "title": "‘अंगिका साहित्य केरौं इतिहास’ [समीक्ष्य ग्रन्थ: आमुख — डॉ. डोमन साहु ‘समीर’ • पद्य-खण्ड — डॉ. तेजनारायण कुशवाहा • गद्य-खण्ड — डॉ. अमरेन्द्र • हिन्दी अकादमी, हैदराबाद • प्रथम संस्करण, १९९८ ई.] ठेठी-अंगिका मैथिली",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "thethi-angika",
+      "keywords": [
+        "Angika literary history",
+        "Thethi-Angika",
+        "book review",
+        "Maithili dialect studies"
+      ],
+      "classification": "Literary criticism; Angika literary history; Thethi-Angika Maithili",
+      "url": "https://www.videha.co.in/research/2026/449/अंगिका-साहित्य-इतिहास-ठेठी-अंगिका-मैथिली.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/अंगिका-साहित्य-इतिहास-ठेठी-अंगिका-मैथिली.htm",
+      "page_start": "156",
+      "page_end": "202"
+    },
+    {
+      "title": "‘बाल गोपाल’ — शंभु ‘अगेही’क बज्जिका बाल-कविता-संग्रहक समेकित गहन समीक्षा [केन्द्रीय मैथिली बोली]",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "mai",
+      "keywords": [
+        "Bajjika children's literature",
+        "children's poetry",
+        "Shambhu Agehi",
+        "book review"
+      ],
+      "classification": "Literary criticism; Bajjika children’s poetry; book review",
+      "url": "https://www.videha.co.in/research/2026/449/बाल-गोपाल-समीक्षा-केन्द्रीय-मैथिली.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/बाल-गोपाल-समीक्षा-केन्द्रीय-मैथिली.htm",
+      "page_start": "203",
+      "page_end": "241"
+    },
+    {
+      "title": "‘बाल गोपाल’ — शंभु ‘अगेही’क बज्जिका बाल-कविता-संग्रहक समेकित गहन समीक्षा [बज्जिका मैथिली]",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-01",
+      "year": "2026",
+      "issue": "449",
+      "language": "bajjika",
+      "keywords": [
+        "Bajjika children's literature",
+        "children's poetry",
+        "Shambhu Agehi",
+        "Bajjika criticism"
+      ],
+      "classification": "Literary criticism; Bajjika children’s poetry; book review",
+      "url": "https://www.videha.co.in/research/2026/449/बाल-गोपाल-समीक्षा-बज्जिका-मैथिली.htm",
+      "pdf_url": null,
+      "source_url": "https://github.com/videha-ejournal/videha-sadeha/blob/main/Videha%20449.pdf",
+      "path": "2026/449/बाल-गोपाल-समीक्षा-बज्जिका-मैथिली.htm",
+      "page_start": "242",
+      "page_end": "280"
     }
   ],
   "candidates": [
@@ -35524,5 +35620,5 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     }
   ],
-  "count": 849
+  "count": 853
 }
