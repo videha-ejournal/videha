@@ -201,7 +201,9 @@ def load_top_level_records() -> tuple[list[dict], list[dict]]:
         elif label_part:
             decision_section = label_part
         decision = decisions.get((issue, decision_section), "")
-        if decision.startswith("exclude") or decision.startswith("hold"):
+        # Explicit exclusions are publication decisions. Historical hold_* entries
+        # remain review annotations until their own boundary work is undertaken.
+        if decision.startswith("exclude"):
             review.append({"issue": issue, "section": decision_section, "label": label, "reason": f"review ledger: {decision}"})
             continue
         body_section = label_section.group(1) if label_section else section
