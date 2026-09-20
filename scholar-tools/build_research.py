@@ -166,6 +166,10 @@ def render_article(rec):
     }
     page=TEMPLATE
     for k,v in vals.items(): page=page.replace("{{"+k+"}}",str(v))
+    # The article template is a source shell, never a canonical destination.
+    # Replace its own hard-coded template URLs before writing any generated paper.
+    page=page.replace("https://www.videha.co.in/templates/scholar-article.html", canonical)
+    page=page.replace("https://videha-ejournal.github.io/videha/templates/scholar-article.html", canonical)
     out=RESEARCH/rel; out.parent.mkdir(parents=True,exist_ok=True); out.write_text(page,encoding="utf-8")
     return {"title":rec["title"],"english_title":rec.get("english_title"),"authors":authors,"publication_date":rec["publication_date"],"year":year,"issue":issue,"language":rec.get("language","mai"),"keywords":rec.get("keywords",[]),"classification":rec.get("classification","research article"),"url":canonical,"pdf_url":f"{CFG['research_base']}/{pdf_rel}" if pdf_path.exists() else None,"source_url":rec["source_url"],"path":rel,"page_start":page_start or None,"page_end":page_end or None}
 
