@@ -2,7 +2,7 @@
   "algorithm": "SHA-256",
   "generated": "2026-09-14",
   "releaseIdentifier": "urn:videha:research-archive:2026-09-14",
-  "sourceCommit": "5c11d33cf90005df5a4655f253859e05dba80b17",
+  "sourceCommit": "48b82b9919e068fcc6c7cb67748cc37efc97fed8",
   "files": [
     {
       "path": ".zenodo.json",
@@ -4346,12 +4346,12 @@
     },
     {
       "path": "research/citation-data-authority.html",
-      "sha256": "5a14bb212bb9c86ef69a75858fbbf8fb0f0d57e8e502a29217dbcb7d0ae55b6e",
+      "sha256": "3db3318cb3881231e51b6c26a3f5e9888c7312bfbca53158f990062ff88b8f72",
       "bytes": 4100
     },
     {
       "path": "research/citation-data-authority.json",
-      "sha256": "c98983c47cc92f145a96122920cf5e8767b63cf01c0fda9d9afd85519216ab7c",
+      "sha256": "7accebcd0be6b85de086095fc7434566502addfa89bbf78a57b95f3664ab37c9",
       "bytes": 991
     },
     {
@@ -4361,7 +4361,7 @@
     },
     {
       "path": "research/data/articles.json",
-      "sha256": "34b8be3c7ecb1fc99bdc7ba7a96e2b425295f9976493cdd3a182a9b7a783f622",
+      "sha256": "07fb4f1a13447d450a9133361bd79b12c944b1cd4cb0bd84142ad124c3441e77",
       "bytes": 1437308
     },
     {
@@ -4371,7 +4371,7 @@
     },
     {
       "path": "research/data/explicit-research-review.json",
-      "sha256": "337168ac407c2bf5d24c76f02f445c9ffc9bc9020b24bab621e004b48647fd9e",
+      "sha256": "e7c8e60f441b3193f777119cce6a8993b9f1b8a3f0d7b7f059fb3b7ef485acfe",
       "bytes": 81042
     },
     {
@@ -4381,8 +4381,8 @@
     },
     {
       "path": "research/data/sadeha-crossmap.json",
-      "sha256": "283dc97dd6aef3ee23587f9e377710f48695ca795185e40a1919c667aab60117",
-      "bytes": 309417
+      "sha256": "1e3b59fcbdfdc4b96594330465e393172a8a7522b16ece639039b6943da5efe3",
+      "bytes": 309418
     },
     {
       "path": "research/data/sadeha-swapped-metadata-review.json",
@@ -4416,7 +4416,7 @@
     },
     {
       "path": "research/release-metadata.json",
-      "sha256": "16006c4604a37ecdd36f5bf64b091d20293fb0a62af8ea967bec37c78ba2170d",
+      "sha256": "c63a3ba92a8240250ce311ad9302eb864c6dba676074748215deac156057d9e8",
       "bytes": 427
     },
     {
@@ -4451,7 +4451,7 @@
     },
     {
       "path": "research/videha-scholar-research-book.html",
-      "sha256": "8759c2f0d68df23c725a8bb180258014c2f487f64b5e4179d42317fcb8cc6ac0",
+      "sha256": "bf0f6528ba20ef3c45a6214a2fa08eea512d375af89c0ac5beadba15afc74437",
       "bytes": 1230947
     },
     {
@@ -4481,7 +4481,7 @@
     },
     {
       "path": "videha-rss.xml",
-      "sha256": "65a4e5fbf5ed407a9371ecd4144aa201501f9a8a2e2c9178600c31d20c2af81a",
+      "sha256": "dc82bc9be49131082489ddbb7e7645b762548f7ada5a4b9c254c55a8bb1c51bd",
       "bytes": 4845
     }
   ]
