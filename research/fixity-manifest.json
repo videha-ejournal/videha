@@ -2,7 +2,7 @@
   "algorithm": "SHA-256",
   "generated": "2026-09-14",
   "releaseIdentifier": "urn:videha:research-archive:2026-09-14",
-  "sourceCommit": "e4379b255853fa0989728af3ca4f6f5427536bb3",
+  "sourceCommit": "dca5b40a435dfee412b0096afdb89a7fbd3becf0",
   "files": [
     {
       "path": ".zenodo.json",
@@ -41,8 +41,8 @@
     },
     {
       "path": "index.htm",
-      "sha256": "47da1df871dc1231d05f04f8e12f3037c80aea74519f1ced658a8d761067f6c9",
-      "bytes": 122043
+      "sha256": "4817c8039909b9d8169c8049aefc9021a270156b3dacc5f7743f12427ae2c068",
+      "bytes": 121319
     },
     {
       "path": "research/2008/10/मायानन्द-मिश्रक-इतिहास-बोध-क्रमशः-8.htm",
@@ -4346,12 +4346,12 @@
     },
     {
       "path": "research/citation-data-authority.html",
-      "sha256": "b8d8ba1cf64d7631080680cc99f10a24e0f4ea76371d4f41004a4811e94c9b06",
+      "sha256": "afe797f4dd06e4a79866b8bad0293ddba944dafe642a42d7aa8a1625a1b3c0a0",
       "bytes": 4100
     },
     {
       "path": "research/citation-data-authority.json",
-      "sha256": "ab9412eaf369f22eff4c02d8d91eca761267f0d7a4301378496e54d033949074",
+      "sha256": "345e9b0dc8f6e43f568ebf2ccfea84c4f56472dc7375668d2874d6eacbaf1950",
       "bytes": 991
     },
     {
@@ -4361,7 +4361,7 @@
     },
     {
       "path": "research/data/articles.json",
-      "sha256": "07fb4f1a13447d450a9133361bd79b12c944b1cd4cb0bd84142ad124c3441e77",
+      "sha256": "5c990320a058ff40c926748eef06f1d10c3a6d74fd50928245aff9328f33fbd0",
       "bytes": 1437308
     },
     {
@@ -4371,7 +4371,7 @@
     },
     {
       "path": "research/data/explicit-research-review.json",
-      "sha256": "e7c8e60f441b3193f777119cce6a8993b9f1b8a3f0d7b7f059fb3b7ef485acfe",
+      "sha256": "ec3637159d272869f6e7751c9e37ef3c6b8bb8afe48abf58e08f9a89824bbf9b",
       "bytes": 81042
     },
     {
@@ -4416,7 +4416,7 @@
     },
     {
       "path": "research/release-metadata.json",
-      "sha256": "f30c2a2c678ffd53cea0d7ff5830b4edf9a55352d192ed5b1a86120d31c559a2",
+      "sha256": "aca45837f2dbc6489254f668465b7b17058faffed7df6a5c56f8a9ffbda09d13",
       "bytes": 427
     },
     {
@@ -4451,7 +4451,7 @@
     },
     {
       "path": "research/videha-scholar-research-book.html",
-      "sha256": "bf0f6528ba20ef3c45a6214a2fa08eea512d375af89c0ac5beadba15afc74437",
+      "sha256": "fb2b3515d9f54558d326120e622f1b1fb0f33a81ea633bef40e14aa356a4373a",
       "bytes": 1230947
     },
     {
@@ -4466,8 +4466,8 @@
     },
     {
       "path": "tei/current-issue.xml",
-      "sha256": "02b97bb9110e446eef9fb2a35e26f84d0c8f0d4176b599b05b2f74a15c0dd1de",
-      "bytes": 5499
+      "sha256": "f7ed2e7d5670cc5b800e3220874e8f3937f619aac1b2e2e8866b0439737c6567",
+      "bytes": 4603
     },
     {
       "path": "tei/videha-issue-449.xml",
@@ -4480,9 +4480,14 @@
       "bytes": 5499
     },
     {
+      "path": "tei/videha-issue-451.xml",
+      "sha256": "f7ed2e7d5670cc5b800e3220874e8f3937f619aac1b2e2e8866b0439737c6567",
+      "bytes": 4603
+    },
+    {
       "path": "videha-rss.xml",
-      "sha256": "1f4416a41033ecb0ba0e57567a5c323c07e02a0575c27746a4fa4ce2d4ead9bf",
-      "bytes": 4845
+      "sha256": "bc4784b662f8be8d11a405a73f9e3b17ca11ea21eb61c8854a4f81ea614fb605",
+      "bytes": 4157
     }
   ]
 }
