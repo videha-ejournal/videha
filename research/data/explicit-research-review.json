@@ -1,9 +1,9 @@
 {
-  "generated": "2026-10-04T09:59:36.943349+00:00",
+  "generated": "2026-10-06T19:53:06.089439+00:00",
   "summary": {
-    "issue_files_scanned": 449,
+    "issue_files_scanned": 450,
     "explicit_articles_publishable": 1,
-    "explicit_articles_review": 0,
+    "explicit_articles_review": 41,
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 0,
@@ -15,12 +15,627 @@
     "promoted_sections_requested": 880,
     "promoted_sections_publishable": 797,
     "promoted_sections_review": 83,
-    "curated_manifests": 41,
-    "published_after_all_overrides": 852,
+    "curated_manifests": 84,
+    "published_after_all_overrides": 895,
     "stale_generated_pages_removed_before_render": 847,
     "build_errors": 0
   },
   "explicit_review": [
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.11",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "कुणाल-कृत प्रेमक परीक्षा उर्फ सुप्रभा आ अष्टावक्र- शोध आलेख 76",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.12",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "नव्य न्याय आ अपतटीय जुआ-जाल [प्रमाण, भाषा, न्यायालय आ समानान्तर इतिहास-दृष्टिक बहुपद्धतीय साहित्यिक समीक्षा] - शोध आलेख 86",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.13",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "अनुवादक [एक समग्र साहित्यिक, ज्ञानमीमांसात्मक आ समानान्तर ऐतिहासिक शोध-समीक्षा]- शोध आलेख 129",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.14",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "कथा-त्रिधारा : खण्ड-१ [कथा ००१–१००क समग्र साहित्यिक आ ज्ञानमीमांसात्मक समीक्षा]- शोध आलेख 167",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.15",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "कथा-त्रिधारा, खण्ड-२, कथा १०१–२००क बहुपद्धति साहित्यिक अध्ययन [भारतीय काव्यशास्त्र · पाश्चात्य आख्यानशास्त्र · नव्य-न्याय · विदेह समानान्तर ऐतिहासिक पद्धति]- शोध आलेख 202",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.16",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "कथा-त्रिधारा खण्ड-३ कथा २०१–३०० : विस्तृत साहित्यिक समीक्षा आ ज्ञानमीमांसात्मक परीक्षण भारतीय काव्यशास्त्र, पाश्चात्य साहित्य-सिद्धान्त, नव्य-न्याय आ विदेह समानान्तर ऐतिहासिक पद्धतिक आलोकमे- शोध आलेख 245",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.17",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "कथा-शतत्रयी (खण्ड-१)- शोध आलेख 275",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.18",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "कथा-शतत्रयी (खण्ड-२)- शोध आलेख 309",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.19",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "कथा-शतत्रयी (खण्ड-३)- शोध आलेख 353",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.20",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "रंग-संगम- शोध आलेख 385",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.21",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "रंग-संगम (खण्ड-२)- शोध आलेख 416",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.22",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "स्मृतिक दोसर दिस- शोध आलेख 448",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.23",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "इजोत — जनम-जनमक कथा- शोध आलेख 491",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.24",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "पातक भीतर लिखल नाँव- शोध आलेख 532",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.25",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "सातम साक्षी- शोध आलेख 553",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.26",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "जल-पाँजि : अभिलेख, मौन, देह आ नदीक समानान्तर इतिहास- शोध आलेख 582",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.27",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "कूट नाम : तरहड़िमे गोहि- शोध आलेख 617",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.28",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "बिज्जी : गोहि सभक बीच- शोध आलेख 642",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.29",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "सहस्रबाढ़नि- शोध आलेख 766",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.30",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "सहस्रशीर्षा- शोध आलेख 802",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.31",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "गोहि सभक बीच जलसमाधि- शोध आलेख 832",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.32",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "गोहि सभक बीच जलसमाधि (किशोर संस्करण)- शोध आलेख 881",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.33",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "गोहि सभक बीच जलसमाधि (बाल संस्करण)- शोध आलेख 934",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.34",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "डिकोडिंग द पञ्जी ऑफ मिथिला’-१- शोध आलेख 959",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.35",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "डिकोडिंग द पञ्जी ऑफ मिथिला’-२- शोध आलेख 994",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.36",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "डिकोडिंग द पञ्जी ऑफ मिथिला’-३- शोध आलेख 1036",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.37",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "डिकोडिंग द पञ्जी ऑफ मिथिला’-४- शोध आलेख 1063",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.38",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "डिकोडिंग द पञ्जी ऑफ मिथिला’-५- शोध आलेख 1102",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.39",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "डिकोडिंग द पञ्जी ऑफ मिथिला’-६- शोध आलेख 1129",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.40",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "गजेन्द्र ठाकुरक समानान्तर दर्शन-१- शोध आलेख 1156",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.41",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "गजेन्द्र ठाकुरक समानान्तर दर्शन-२- शोध आलेख 1198",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.42",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "मिथिला, वज्जी आ अंगक इतिहास खण्ड-१- शोध आलेख 1266",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.43",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "मिथिला, वज्जी आ अंगक इतिहास खण्ड-२- शोध आलेख 1298",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.44",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "मैथिली साहित्यक समानान्तर इतिहास- शोध आलेख 1340",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.45",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "पर्वत ऊपर भमरा जे सूतल- शोध आलेख 1594",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.46",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "स्वप्न मे मिज्झर होइत- शोध आलेख 1627",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.47",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "नव पाँखि- शोध आलेख 1677",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.48",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "३७ टा मैथिली बाल उपन्यास- शोध आलेख 1702",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.49",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "दीवान-ए-विदेह खण्ड-१- शोध आलेख 1723",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.50",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "दीवान-ए-विदेह खण्ड-२- शोध आलेख 1805",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
+    {
+      "issue": "450",
+      "source_path": "search-documents/videha-450.html",
+      "section": "1.51",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "अकुलाइत सुर- शोध आलेख 1917",
+      "publication_date": "2026-09-15",
+      "page_start": "",
+      "page_end": "",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "status": "review",
+      "reasons": [
+        "article body too short for safe publication"
+      ]
+    },
     {
       "title": "प्रोफेसर डा. रामावतार यादव ओ हुनक विलक्षण अनुसंधान तकनीक (मिथिला भारती शोध पत्रिकाक संदर्भमे)",
       "authors": [

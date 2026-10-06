@@ -1,11 +1,11 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-10-04T09:59:36.944580+00:00",
+  "generated": "2026-10-06T19:53:06.090882+00:00",
   "extraction_summary": {
-    "issue_files_scanned": 449,
+    "issue_files_scanned": 450,
     "explicit_articles_publishable": 1,
-    "explicit_articles_review": 0,
+    "explicit_articles_review": 41,
     "explicit_articles_detected_raw": 2,
     "explicit_false_positive_filtered": 1,
     "audit_queue_publishable": 0,
@@ -17,8 +17,8 @@
     "promoted_sections_requested": 880,
     "promoted_sections_publishable": 797,
     "promoted_sections_review": 83,
-    "curated_manifests": 41,
-    "published_after_all_overrides": 852,
+    "curated_manifests": 84,
+    "published_after_all_overrides": 895,
     "stale_generated_pages_removed_before_render": 847,
     "build_errors": 0
   },
@@ -16285,6 +16285,1038 @@
       "page_end": "280"
     },
     {
+      "title": "अकुलाइत सुर",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/अकुलाइत-सुर.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/अकुलाइत-सुर.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "अनुवादक [एक समग्र साहित्यिक, ज्ञानमीमांसात्मक आ समानान्तर ऐतिहासिक शोध-समीक्षा]",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/अनुवादक-एक-समग्र-साहित्यिक-ज्ञानमीमांसात्मक-आ-समानान्तर-ऐतिहासिक-शोध-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/अनुवादक-एक-समग्र-साहित्यिक-ज्ञानमीमांसात्मक-आ-समानान्तर-ऐतिहासिक-शोध-समीक्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "इजोत — जनम-जनमक कथा",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/इजोत-जनम-जनमक-कथा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/इजोत-जनम-जनमक-कथा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कथा-त्रिधारा : खण्ड-१ [कथा ००१–१००क समग्र साहित्यिक आ ज्ञानमीमांसात्मक  समीक्षा]",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/कथा-त्रिधारा-खण्ड-१-कथा-००१-१००क-समग्र-साहित्यिक-आ-ज्ञानमीमांसात्मक-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/कथा-त्रिधारा-खण्ड-१-कथा-००१-१००क-समग्र-साहित्यिक-आ-ज्ञानमीमांसात्मक-समीक्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कथा-त्रिधारा खण्ड-३ कथा २०१–३०० : विस्तृत साहित्यिक समीक्षा आ ज्ञानमीमांसात्मक परीक्षण भारतीय काव्यशास्त्र, पाश्चात्य साहित्य-सिद्धान्त, नव्य-न्याय आ विदेह समानान्तर ऐतिहासिक पद्धतिक आलोकमे",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/कथा-त्रिधारा-खण्ड-३-कथा-२०१-३००-विस्तृत-साहित्यिक-समीक्षा-आ-ज्ञानमीमांसात्मक-परीक्षण-भारतीय-काव्यशास्त्र-पाश्चात्य-साहित.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/कथा-त्रिधारा-खण्ड-३-कथा-२०१-३००-विस्तृत-साहित्यिक-समीक्षा-आ-ज्ञानमीमांसात्मक-परीक्षण-भारतीय-काव्यशास्त्र-पाश्चात्य-साहित.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कथा-त्रिधारा, खण्ड-२, कथा १०१–२००क बहुपद्धति साहित्यिक अध्ययन [भारतीय काव्यशास्त्र · पाश्चात्य आख्यानशास्त्र · नव्य-न्याय · विदेह समानान्तर ऐतिहासिक पद्धति]",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/कथा-त्रिधारा-खण्ड-२-कथा-१०१-२००क-बहुपद्धति-साहित्यिक-अध्ययन-भारतीय-काव्यशास्त्र-पाश्चात्य-आख्यानशास्त्र-नव्य-न्याय-विदेह.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/कथा-त्रिधारा-खण्ड-२-कथा-१०१-२००क-बहुपद्धति-साहित्यिक-अध्ययन-भारतीय-काव्यशास्त्र-पाश्चात्य-आख्यानशास्त्र-नव्य-न्याय-विदेह.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कथा-शतत्रयी (खण्ड-१)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/कथा-शतत्रयी-खण्ड-१.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/कथा-शतत्रयी-खण्ड-१.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कथा-शतत्रयी (खण्ड-२)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/कथा-शतत्रयी-खण्ड-२.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/कथा-शतत्रयी-खण्ड-२.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कथा-शतत्रयी (खण्ड-३)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/कथा-शतत्रयी-खण्ड-३.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/कथा-शतत्रयी-खण्ड-३.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कुणाल-कृत प्रेमक परीक्षा उर्फ सुप्रभा आ अष्टावक्र",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/कुणाल-कृत-प्रेमक-परीक्षा-उर्फ-सुप्रभा-आ-अष्टावक्र.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/कुणाल-कृत-प्रेमक-परीक्षा-उर्फ-सुप्रभा-आ-अष्टावक्र.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "कूट नाम : तरहड़िमे गोहि",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/कूट-नाम-तरहड़िमे-गोहि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/कूट-नाम-तरहड़िमे-गोहि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गजेन्द्र ठाकुरक समानान्तर दर्शन-१",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/गजेन्द्र-ठाकुरक-समानान्तर-दर्शन-१.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/गजेन्द्र-ठाकुरक-समानान्तर-दर्शन-१.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गजेन्द्र ठाकुरक समानान्तर दर्शन-२",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/गजेन्द्र-ठाकुरक-समानान्तर-दर्शन-२.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/गजेन्द्र-ठाकुरक-समानान्तर-दर्शन-२.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गोहि सभक बीच जलसमाधि",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/गोहि-सभक-बीच-जलसमाधि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/गोहि-सभक-बीच-जलसमाधि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गोहि सभक बीच जलसमाधि (किशोर संस्करण)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/गोहि-सभक-बीच-जलसमाधि-किशोर-संस्करण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/गोहि-सभक-बीच-जलसमाधि-किशोर-संस्करण.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "गोहि सभक बीच जलसमाधि (बाल संस्करण)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/गोहि-सभक-बीच-जलसमाधि-बाल-संस्करण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/गोहि-सभक-बीच-जलसमाधि-बाल-संस्करण.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "जल-पाँजि : अभिलेख, मौन, देह आ नदीक समानान्तर इतिहास",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/जल-पाँजि-अभिलेख-मौन-देह-आ-नदीक-समानान्तर-इतिहास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/जल-पाँजि-अभिलेख-मौन-देह-आ-नदीक-समानान्तर-इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "डिकोडिंग द पञ्जी ऑफ मिथिला’-१",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/डिकोडिंग-द-पञ्जी-ऑफ-मिथिला-१.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/डिकोडिंग-द-पञ्जी-ऑफ-मिथिला-१.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "डिकोडिंग द पञ्जी ऑफ मिथिला’-२",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/डिकोडिंग-द-पञ्जी-ऑफ-मिथिला-२.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/डिकोडिंग-द-पञ्जी-ऑफ-मिथिला-२.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "डिकोडिंग द पञ्जी ऑफ मिथिला’-३",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/डिकोडिंग-द-पञ्जी-ऑफ-मिथिला-३.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/डिकोडिंग-द-पञ्जी-ऑफ-मिथिला-३.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "डिकोडिंग द पञ्जी ऑफ मिथिला’-४",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/डिकोडिंग-द-पञ्जी-ऑफ-मिथिला-४.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/डिकोडिंग-द-पञ्जी-ऑफ-मिथिला-४.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "डिकोडिंग द पञ्जी ऑफ मिथिला’-५",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/डिकोडिंग-द-पञ्जी-ऑफ-मिथिला-५.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/डिकोडिंग-द-पञ्जी-ऑफ-मिथिला-५.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "डिकोडिंग द पञ्जी ऑफ मिथिला’-६",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/डिकोडिंग-द-पञ्जी-ऑफ-मिथिला-६.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/डिकोडिंग-द-पञ्जी-ऑफ-मिथिला-६.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "दीवान-ए-विदेह खण्ड-१",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/दीवान-ए-विदेह-खण्ड-१.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/दीवान-ए-विदेह-खण्ड-१.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "दीवान-ए-विदेह खण्ड-२",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/दीवान-ए-विदेह-खण्ड-२.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/दीवान-ए-विदेह-खण्ड-२.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नव पाँखि",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/नव-पाँखि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/नव-पाँखि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नव्य न्याय आ अपतटीय जुआ-जाल [प्रमाण, भाषा, न्यायालय आ समानान्तर इतिहास-दृष्टिक बहुपद्धतीय साहित्यिक समीक्षा]",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/नव्य-न्याय-आ-अपतटीय-जुआ-जाल-प्रमाण-भाषा-न्यायालय-आ-समानान्तर-इतिहास-दृष्टिक-बहुपद्धतीय-साहित्यिक-समीक्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/नव्य-न्याय-आ-अपतटीय-जुआ-जाल-प्रमाण-भाषा-न्यायालय-आ-समानान्तर-इतिहास-दृष्टिक-बहुपद्धतीय-साहित्यिक-समीक्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पर्वत ऊपर भमरा जे सूतल",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/पर्वत-ऊपर-भमरा-जे-सूतल.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/पर्वत-ऊपर-भमरा-जे-सूतल.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "पातक भीतर लिखल नाँव",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/पातक-भीतर-लिखल-नाँव.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/पातक-भीतर-लिखल-नाँव.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "बिज्जी : गोहि सभक बीच",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/बिज्जी-गोहि-सभक-बीच.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/बिज्जी-गोहि-सभक-बीच.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिला, वज्जी आ अंगक इतिहास खण्ड-१",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/मिथिला-वज्जी-आ-अंगक-इतिहास-खण्ड-१.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/मिथिला-वज्जी-आ-अंगक-इतिहास-खण्ड-१.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मिथिला, वज्जी आ अंगक इतिहास खण्ड-२",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/मिथिला-वज्जी-आ-अंगक-इतिहास-खण्ड-२.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/मिथिला-वज्जी-आ-अंगक-इतिहास-खण्ड-२.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली साहित्यक समानान्तर इतिहास",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/मैथिली-साहित्यक-समानान्तर-इतिहास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/मैथिली-साहित्यक-समानान्तर-इतिहास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "मैथिली साहित्यमे तारानाथ झा एवं हुनक परिवारक योगदान २८",
+      "english_title": null,
+      "authors": [
+        "हितनाथ झा"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२८.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-२८.htm",
+      "page_start": "28",
+      "page_end": "8"
+    },
+    {
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार'एवं हुनक परिवारक योगदान-९",
+      "english_title": null,
+      "authors": [
+        "कल्पना झा"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिवारक-योगदान-९.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/मैथिली-साहित्यमे-श्रीकान्त-ठाकुर-विद्यालंकार-एवं-हुनक-परिवारक-योगदान-९.htm",
+      "page_start": "9",
+      "page_end": null
+    },
+    {
+      "title": "रंग-संगम",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/रंग-संगम.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/रंग-संगम.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "रंग-संगम (खण्ड-२)",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/रंग-संगम-खण्ड-२.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/रंग-संगम-खण्ड-२.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सहस्रबाढ़नि",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/सहस्रबाढ़नि.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/सहस्रबाढ़नि.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सहस्रशीर्षा",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/सहस्रशीर्षा.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/सहस्रशीर्षा.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "सातम साक्षी",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/सातम-साक्षी.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/सातम-साक्षी.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "स्मृतिक दोसर दिस",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/स्मृतिक-दोसर-दिस.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/स्मृतिक-दोसर-दिस.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "स्वप्न मे मिज्झर होइत",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/स्वप्न-मे-मिज्झर-होइत.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/स्वप्न-मे-मिज्झर-होइत.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "३७ टा मैथिली बाल उपन्यास",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [
+        "Maithili literary history",
+        "Mithila studies",
+        "literary criticism",
+        "research article"
+      ],
+      "classification": "Maithili literary criticism; research article",
+      "url": "https://www.videha.co.in/research/2026/450/३७-टा-मैथिली-बाल-उपन्यास.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/३७-टा-मैथिली-बाल-उपन्यास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "मैथि‍ली कथाक वि‍कासमे गामक जि‍नगीक योगदान-",
       "authors": [
         "शिव कुमार झा &quot;टिल्लू&quot;"
@@ -16366,6 +17398,59 @@
     }
   ],
   "candidates": [
+    {
+      "source_path": "search-documents/videha-450.html",
+      "source_url": "https://www.videha.co.in/search-documents/videha-450.html",
+      "page_title": "विदेह अंक ४५० · Videha Issue 450",
+      "year": "2026",
+      "issue": "४५०",
+      "score": 1205,
+      "matched_terms": [
+        "bibliography",
+        "folklore",
+        "references",
+        "अनुसंधान",
+        "अनुसन्धान",
+        "अन्वेषण",
+        "आलोचना",
+        "इतिहास",
+        "ग्रन्थसूची",
+        "पंजी",
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "भाषाविज्ञान",
+        "मिथिला चित्रकला",
+        "लोक-संस्कृति",
+        "लोक-साहित्य",
+        "लोकसंस्कृति",
+        "व्याकरण",
+        "शोध आलेख",
+        "शोध-आलेख",
+        "संदर्भ",
+        "सन्दर्भ",
+        "समालोचना",
+        "सांस्कृतिक इतिहास"
+      ],
+      "excluded_terms": [
+        "quiz",
+        "ई-लर्निङ्ग",
+        "कथा",
+        "कविता",
+        "घोषणा",
+        "नाटक",
+        "प्रश्नोत्तरी",
+        "लघुकथा",
+        "समाचार",
+        "साक्षात्कार"
+      ],
+      "special_terms": [
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
     {
       "source_path": "search-documents/videha-447.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-447.html",
@@ -23400,39 +24485,6 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
-      "source_path": "new_page_128.htm",
-      "source_url": "https://www.videha.co.in/new_page_128.htm",
-      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 380,
-      "matched_terms": [
-        "अनुसन्धान",
-        "अन्वेषण",
-        "इतिहास",
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "व्याकरण"
-      ],
-      "excluded_terms": [
-        "e-learning",
-        "quiz",
-        "ई-लर्निङ्ग",
-        "कथा",
-        "घोषणा",
-        "नाटक",
-        "प्रश्नोत्तरी"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
       "source_path": "search-documents/videha-028.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-028.html",
       "page_title": "VIDEHA — Issue 28 / अंक २८",
@@ -25717,6 +26769,36 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
+      "source_path": "new_page_112.htm",
+      "source_url": "https://www.videha.co.in/new_page_112.htm",
+      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 260,
+      "matched_terms": [
+        "अनुसंधान",
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "व्याकरण",
+        "सन्दर्भ"
+      ],
+      "excluded_terms": [
+        "e-learning",
+        "quiz",
+        "ई-लर्निङ्ग",
+        "घोषणा",
+        "प्रश्नोत्तरी"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
       "source_path": "search-documents/videha-401.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-401.html",
       "page_title": "VIDEHA — Issue 401 / अंक ४०१",
@@ -26254,7 +27336,6 @@
         "e-learning",
         "quiz",
         "ई-लर्निङ्ग",
-        "कविता",
         "प्रश्नोत्तरी"
       ],
       "special_terms": [
@@ -27708,6 +28789,37 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
+      "source_path": "new_page_129.htm",
+      "source_url": "https://www.videha.co.in/new_page_129.htm",
+      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 205,
+      "matched_terms": [
+        "इतिहास",
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "व्याकरण",
+        "संदर्भ"
+      ],
+      "excluded_terms": [
+        "e-learning",
+        "quiz",
+        "ई-लर्निङ्ग",
+        "कथा",
+        "कविता",
+        "प्रश्नोत्तरी"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
       "source_path": "new_page_26.htm",
       "source_url": "https://www.videha.co.in/new_page_26.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
@@ -27903,6 +29015,36 @@
         "e-learning",
         "quiz",
         "ई-लर्निङ्ग",
+        "प्रश्नोत्तरी"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
+      "source_path": "new_page_126.htm",
+      "source_url": "https://www.videha.co.in/new_page_126.htm",
+      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 200,
+      "matched_terms": [
+        "इतिहास",
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "व्याकरण",
+        "समालोचना"
+      ],
+      "excluded_terms": [
+        "e-learning",
+        "quiz",
+        "ई-लर्निङ्ग",
+        "कथा",
         "प्रश्नोत्तरी"
       ],
       "special_terms": [
@@ -29303,16 +30445,16 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
-      "source_path": "new_page_102.htm",
-      "source_url": "https://www.videha.co.in/new_page_102.htm",
+      "source_path": "new_page_118.htm",
+      "source_url": "https://www.videha.co.in/new_page_118.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
       "year": "unknown",
       "issue": "unknown",
       "score": 180,
       "matched_terms": [
+        "इतिहास",
         "पञ्जी",
         "भाषा विज्ञान",
-        "लोकसंस्कृति",
         "व्याकरण"
       ],
       "excluded_terms": [
@@ -29331,14 +30473,14 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
-      "source_path": "new_page_129.htm",
-      "source_url": "https://www.videha.co.in/new_page_129.htm",
+      "source_path": "new_page_125.htm",
+      "source_url": "https://www.videha.co.in/new_page_125.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
       "year": "unknown",
       "issue": "unknown",
       "score": 180,
       "matched_terms": [
-        "इतिहास",
+        "पंजी",
         "पञ्जी",
         "भाषा विज्ञान",
         "व्याकरण"
@@ -30054,8 +31196,8 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
-      "source_path": "new_page_105.htm",
-      "source_url": "https://www.videha.co.in/new_page_105.htm",
+      "source_path": "new_page_102.htm",
+      "source_url": "https://www.videha.co.in/new_page_102.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
       "year": "unknown",
       "issue": "unknown",
@@ -30070,7 +31212,9 @@
         "e-learning",
         "quiz",
         "ई-लर्निङ्ग",
-        "प्रश्नोत्तरी"
+        "कथा",
+        "प्रश्नोत्तरी",
+        "लघुकथा"
       ],
       "special_terms": [
         "dictionary",
@@ -30099,36 +31243,6 @@
         "quiz",
         "ई-लर्निङ्ग",
         "प्रश्नोत्तरी"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
-      "source_path": "new_page_115.htm",
-      "source_url": "https://www.videha.co.in/new_page_115.htm",
-      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 160,
-      "matched_terms": [
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "व्याकरण",
-        "संदर्भ"
-      ],
-      "excluded_terms": [
-        "e-learning",
-        "quiz",
-        "ई-लर्निङ्ग",
-        "कथा",
-        "प्रश्नोत्तरी",
-        "समाचार"
       ],
       "special_terms": [
         "dictionary",
@@ -30169,8 +31283,8 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
-      "source_path": "new_page_125.htm",
-      "source_url": "https://www.videha.co.in/new_page_125.htm",
+      "source_path": "new_page_128.htm",
+      "source_url": "https://www.videha.co.in/new_page_128.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
       "year": "unknown",
       "issue": "unknown",
@@ -30179,14 +31293,12 @@
         "पञ्जी",
         "भाषा विज्ञान",
         "व्याकरण",
-        "संदर्भ"
+        "सन्दर्भ"
       ],
       "excluded_terms": [
         "e-learning",
         "quiz",
         "ई-लर्निङ्ग",
-        "कथा",
-        "कविता",
         "प्रश्नोत्तरी"
       ],
       "special_terms": [
@@ -31766,6 +32878,34 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
+      "source_path": "new_page_105.htm",
+      "source_url": "https://www.videha.co.in/new_page_105.htm",
+      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 135,
+      "matched_terms": [
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "व्याकरण"
+      ],
+      "excluded_terms": [
+        "e-learning",
+        "quiz",
+        "ई-लर्निङ्ग",
+        "कथा",
+        "प्रश्नोत्तरी"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
       "source_path": "new_page_106.htm",
       "source_url": "https://www.videha.co.in/new_page_106.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
@@ -31781,7 +32921,6 @@
         "e-learning",
         "quiz",
         "ई-लर्निङ्ग",
-        "कविता",
         "प्रश्नोत्तरी"
       ],
       "special_terms": [
@@ -31794,35 +32933,8 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
-      "source_path": "new_page_112.htm",
-      "source_url": "https://www.videha.co.in/new_page_112.htm",
-      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 135,
-      "matched_terms": [
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "व्याकरण"
-      ],
-      "excluded_terms": [
-        "e-learning",
-        "quiz",
-        "ई-लर्निङ्ग",
-        "प्रश्नोत्तरी"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
-      "source_path": "new_page_118.htm",
-      "source_url": "https://www.videha.co.in/new_page_118.htm",
+      "source_path": "new_page_115.htm",
+      "source_url": "https://www.videha.co.in/new_page_115.htm",
       "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
       "year": "unknown",
       "issue": "unknown",
@@ -31890,9 +33002,6 @@
         "e-learning",
         "quiz",
         "ई-लर्निङ्ग",
-        "कविता",
-        "घोषणा",
-        "नाटक",
         "प्रश्नोत्तरी"
       ],
       "special_terms": [
@@ -31920,37 +33029,6 @@
         "e-learning",
         "quiz",
         "ई-लर्निङ्ग",
-        "कथा",
-        "घोषणा",
-        "नाटक",
-        "प्रश्नोत्तरी"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
-      "source_path": "new_page_126.htm",
-      "source_url": "https://www.videha.co.in/new_page_126.htm",
-      "page_title": "विदेह प्रथम मैथिली पाक्षिक ई पत्रिका",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 135,
-      "matched_terms": [
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "व्याकरण"
-      ],
-      "excluded_terms": [
-        "e-learning",
-        "quiz",
-        "ई-लर्निङ्ग",
-        "कथा",
         "प्रश्नोत्तरी"
       ],
       "special_terms": [
@@ -32005,6 +33083,7 @@
         "e-learning",
         "quiz",
         "ई-लर्निङ्ग",
+        "कथा",
         "प्रश्नोत्तरी"
       ],
       "special_terms": [
@@ -32032,7 +33111,6 @@
         "e-learning",
         "quiz",
         "ई-लर्निङ्ग",
-        "कथा",
         "प्रश्नोत्तरी"
       ],
       "special_terms": [
