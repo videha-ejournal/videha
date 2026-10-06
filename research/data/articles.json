@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-10-06T19:53:06.090882+00:00",
+  "generated": "2026-10-06T20:25:58.280348+00:00",
   "extraction_summary": {
     "issue_files_scanned": 450,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 65,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 880,
-    "promoted_sections_publishable": 797,
+    "promoted_sections_requested": 881,
+    "promoted_sections_publishable": 798,
     "promoted_sections_review": 83,
     "curated_manifests": 84,
-    "published_after_all_overrides": 895,
-    "stale_generated_pages_removed_before_render": 847,
+    "published_after_all_overrides": 896,
+    "stale_generated_pages_removed_before_render": 890,
     "build_errors": 0
   },
   "articles": [
@@ -13721,6 +13721,25 @@
       "path": "2026/435/मैथिली-साहित्यमे-तारानाथ-झा-एवं-हुनक-परिवारक-योगदान-१४.htm",
       "page_start": "17",
       "page_end": "33"
+    },
+    {
+      "title": "श्री लालदेव कामत जीक व्यक्तित्व आ कृतित्व",
+      "english_title": null,
+      "authors": [
+        "प्रीति कुमारी"
+      ],
+      "publication_date": "2026-02-01",
+      "year": "2026",
+      "issue": "435",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili literary biography; author studies; social and cultural history",
+      "url": "https://www.videha.co.in/research/2026/435/श्री-लालदेव-कामत-जीक-व्यक्तित्व-आ-कृतित्व.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20435.pdf",
+      "path": "2026/435/श्री-लालदेव-कामत-जीक-व्यक्तित्व-आ-कृतित्व.htm",
+      "page_start": null,
+      "page_end": null
     },
     {
       "title": "मैथिली साहित्यमे उपेन्द्र नाथ झा 'व्यास' एवं हुनक परिवारक योगदान -२३",
