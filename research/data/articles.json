@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-10-06T20:25:58.280348+00:00",
+  "generated": "2026-10-06T20:35:13.466764+00:00",
   "extraction_summary": {
     "issue_files_scanned": 450,
     "explicit_articles_publishable": 1,
@@ -14,12 +14,12 @@
     "top_level_audit_held": 65,
     "sadeha_discovered_publishable": 0,
     "sadeha_discovered_held": 0,
-    "promoted_sections_requested": 881,
-    "promoted_sections_publishable": 798,
+    "promoted_sections_requested": 883,
+    "promoted_sections_publishable": 800,
     "promoted_sections_review": 83,
     "curated_manifests": 84,
-    "published_after_all_overrides": 896,
-    "stale_generated_pages_removed_before_render": 890,
+    "published_after_all_overrides": 898,
+    "stale_generated_pages_removed_before_render": 892,
     "build_errors": 0
   },
   "articles": [
@@ -17264,6 +17264,25 @@
       "page_end": null
     },
     {
+      "title": "स्मृति शेष डॉ कमला कान्त भंडारी - शिक्षाविद्",
+      "english_title": null,
+      "authors": [
+        "प्रीति कुमारी"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili intellectual biography; education history; cultural memory",
+      "url": "https://www.videha.co.in/research/2026/450/स्मृति-शेष-डॉ-कमला-कान्त-भंडारी---शिक्षाविद्.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/स्मृति-शेष-डॉ-कमला-कान्त-भंडारी---शिक्षाविद्.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
       "title": "स्मृतिक दोसर दिस",
       "english_title": null,
       "authors": [
@@ -17332,6 +17351,25 @@
       "pdf_url": null,
       "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
       "path": "2026/450/३७-टा-मैथिली-बाल-उपन्यास.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "‘स्वेदजीवी’ औपन्यासिक कृतिक तात्विक विश्लेषण",
+      "english_title": null,
+      "authors": [
+        "अभिनंदिनी कुमारी"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "450",
+      "language": "mai",
+      "keywords": [],
+      "classification": "Maithili novel studies; literary criticism; labour and Marxist literary analysis",
+      "url": "https://www.videha.co.in/research/2026/450/स्वेदजीवी-औपन्यासिक-कृतिक-तात्विक-विश्लेषण.htm",
+      "pdf_url": null,
+      "source_url": "https://archive.org/download/videha-2026/Videha%20450.pdf",
+      "path": "2026/450/स्वेदजीवी-औपन्यासिक-कृतिक-तात्विक-विश्लेषण.htm",
       "page_start": null,
       "page_end": null
     },
