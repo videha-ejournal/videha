@@ -1,4 +1,5 @@
 name: Build Videha Universal Search
+# Keep the search workflow runnable after generated inventory refresh commits.
 
 on:
   push:
