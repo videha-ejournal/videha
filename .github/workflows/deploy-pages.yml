@@ -37,19 +37,17 @@ jobs:
           # Some historical Issue 450 article slugs exceed the runner's
           # filesystem filename limit. Extract everything else so Pages can
           # still publish the index, manifest, explorer, and normal pages.
-          python - <<'PY'
-          import os, tarfile
+          python3 - <<'PY'
+          import tarfile
           with tarfile.open('/tmp/videha.tar.gz', 'r:gz') as archive:
-              root = archive.getmembers()[0].name.split('/')[0] + '/'
-              for member in archive.getmembers():
-                  name = member.name
-                  if not name.startswith(root):
-                      continue
-                  rel = name[len(root):]
+              members = archive.getmembers()
+              root = members[0].name.split('/')[0] + '/'
+              for member in members:
+                  rel = member.name[len(root):] if member.name.startswith(root) else ''
                   if not rel or any(len(part) > 240 for part in rel.split('/')):
                       continue
                   member.name = rel
-                  archive.extract(member, '.')
+                  archive.extract(member, '.', filter='data')
           PY
 
       - name: Configure Pages
