@@ -940,6 +940,11 @@ samagraRender('gt-ed-translation',[
  {q:'LIGHT — Stories Across Lifetimes'},{q:'THE OTHER SIDE OF MEMORY'},
  {q:'THE HUNDRED-STORY TRILOGY — Volumes I–III'},{q:'THREE STREAMS OF STORIES — Volumes I–III'},{q:'WHEN DREAMS MERGE'}
 ]);
+document.getElementById('gt-ed-translation').insertAdjacentHTML('beforeend',[
+ {title:'The Black Bee is Sleeping Atop the Mountain',author:'Gajendra Thakur',links:[['AMAZON','https://www.amazon.com/dp/B0GSQ937DN']]},
+ {title:'The Coconut Fortress',author:'Gajendra Thakur',links:[['AMAZON','https://www.amazon.com/dp/B0GSMML5LV']]},
+ {title:"The Comet's Coma: Lost in the Frozen Clouds",author:'Gajendra Thakur',links:[['AMAZON','https://www.amazon.com/dp/B0GS6KR1BZ']]}
+].map(card).join(''));
 
 function render(id,data,countId){document.getElementById(id).innerHTML=data.map(card).join('');if(countId)document.getElementById(countId).textContent=data.length+' entries'}
 render('grid-main',main,'count-main');render('grid-originals',originals,'count-originals');render('grid-translations',translations,'count-translations');render('grid-english',english,'count-english');document.getElementById('count-english').textContent=(english.length+10)+' entries';render('grid-language',language,'count-language');render('grid-academic',academic,'count-academic');render('grid-collab',collab,'count-collab');render('grid-software',software,'count-software');
