@@ -1,4 +1,5 @@
 name: Deploy Videha Pages
+# Deploy current root pages together with the research corpus.
 
 on:
   workflow_dispatch:
