@@ -55,7 +55,6 @@ jobs:
             /*
             !/research/2026/450/
           sparse-checkout-cone-mode: false
-        with:
           fetch-depth: 0
 
       - name: Set up Node
