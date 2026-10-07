@@ -34,7 +34,23 @@ jobs:
           curl --fail --location --retry 3 \
             "https://codeload.github.com/${GITHUB_REPOSITORY}/tar.gz/${GITHUB_SHA}" \
             -o /tmp/videha.tar.gz
-          tar -xzf /tmp/videha.tar.gz --strip-components=1
+          # Some historical Issue 450 article slugs exceed the runner's
+          # filesystem filename limit. Extract everything else so Pages can
+          # still publish the index, manifest, explorer, and normal pages.
+          python - <<'PY'
+          import os, tarfile
+          with tarfile.open('/tmp/videha.tar.gz', 'r:gz') as archive:
+              root = archive.getmembers()[0].name.split('/')[0] + '/'
+              for member in archive.getmembers():
+                  name = member.name
+                  if not name.startswith(root):
+                      continue
+                  rel = name[len(root):]
+                  if not rel or any(len(part) > 240 for part in rel.split('/')):
+                      continue
+                  member.name = rel
+                  archive.extract(member, '.')
+          PY
 
       - name: Configure Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b
