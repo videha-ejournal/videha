@@ -112,7 +112,7 @@ def main() -> int:
     require(not audit["conversion_failures"] and stats["doc_conversion_failures"] == 0, "DOC conversion failures are present")
     require(not audit["unpaired_sources"] and stats["unpaired_source_files"] == 0, "Unpaired source files are present")
 
-    total_bytes = 0
+    audited_total_bytes = 0
     translator_js = TRANSLATOR.read_text(encoding="utf-8")
     language_block = translator_js.split("var LANG_GROUPS =", 1)[1].split("var LIVE_HOST", 1)[0]
     language_count = len(re.findall(r"\[\s*'[A-Za-z-]+'\s*,\s*'", language_block))
@@ -126,7 +126,7 @@ def main() -> int:
 
     for path in (OUTPUT / name for name in sorted(audited_files)):
         raw = path.read_text(encoding="utf-8")
-        total_bytes += path.stat().st_size
+        audited_total_bytes += path.stat().st_size
         title = expected_title(path.name)
         require(f"<title>{html.escape(title)}</title>" in raw, f"Incorrect title in {path.name}")
         publication = "VIDEHA" if path.name.startswith("videha-") else "SADEHA"
@@ -151,7 +151,10 @@ def main() -> int:
     for name in sorted(incremental_expected):
         validate_incremental_videha(OUTPUT / name, latest, mirror_current)
 
-    require(total_bytes == stats["generated_html_bytes"], "Audited generated HTML byte total differs from the immutable audit")
+    # The immutable baseline covers only the audited pages. Incremental issue
+    # pages (448 onward) are intentionally validated structurally below and
+    # must not change the historical byte total.
+    require(audited_total_bytes == stats["generated_html_bytes"], "Audited generated HTML byte total differs from the immutable audit")
     require(all(doc["total_chars"] > 0 for doc in documents), "An empty audited searchable document exists")
 
     require(stats["ocr_characters"] > 0, "OCR contributed no searchable text")
