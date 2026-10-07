@@ -29,6 +29,18 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            research
+            search-documents
+            data
+            assets
+            index.htm
+            videha-archive-explorer.html
+            videha-digital-archive.html
+          sparse-checkout-cone-mode: true
 
       - name: Configure Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b
