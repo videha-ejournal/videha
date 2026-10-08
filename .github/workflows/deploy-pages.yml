@@ -9,6 +9,9 @@ on:
       - 'research/**'
       - 'data/**'
       - 'videha-archive-explorer.html'
+      - 'gajendra-thakur-samagra.htm'
+      - 'pothi.htm'
+      - 'index.htm'
       - 'assets/**'
       - '.github/workflows/deploy-pages.yml'
 
