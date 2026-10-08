@@ -109,7 +109,7 @@
       </div>
     </header>
     <div class="gt-ed-tabs">
-      <details class="gt-ed-tab gt-ed-editorial">
+      <details class="gt-ed-tab gt-ed-editorial" id="gt-ed-editorial-collection">
         <summary><span class="gt-ed-orb">सम्पादकीय</span><strong>गजेन्द्र ठाकुर समग्रक सम्पादकीय</strong><span aria-hidden="true" class="gt-ed-chevron">▶</span></summary>
         <div class="gt-ed-body"><div class="gt-grid" id="gt-ed-editorial-grid"></div></div>
       </details>
@@ -882,7 +882,15 @@ function samagraRender(id,specs){
   });
   el.innerHTML=rows.map(card).join('');
 }
-document.getElementById('gt-ed-editorial-grid').innerHTML=card({title:'गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra.pdf']]});
+// All six editorial volumes appear together as adjacent cards inside one collapsible section.
+document.getElementById('gt-ed-editorial-grid').innerHTML=[
+  card({title:'०० गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra.pdf']]}),
+  card({title:'०1 गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra_01.pdf']]}),
+  card({title:'०2 गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra_02.pdf']]}),
+  card({title:'०3 गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra_03.pdf']]}),
+  card({title:'०4 गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra_04.pdf']]}),
+  card({title:'०5 गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra_05.pdf']]})
+].join('');
 samagraRender('gt-ed-novel',[
  {q:'सहस्रबाढ़नि'},
  {q:'सहस्रशीर्षा',label:'सहस्रशीर्षा (प्रसिद्ध गढ़ नारिकेल)'},
