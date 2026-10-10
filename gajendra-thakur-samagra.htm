@@ -799,6 +799,9 @@ item("सातम साक्षी",V+'Saatam_Sakshi.pdf','गजेन्द
 item("सहस्रबाढ़नि",V+'sahasrabadhani.pdf','गजेन्द्र ठाकुर','PDF'),
 item("सहस्रशीर्षा",V+'sahasrashirsha.pdf','गजेन्द्र ठाकुर','PDF'),
 multi("मैथिलीक एकटा समानान्तर व्याकरण, रचना आ भाषा विज्ञान (ठेठी, अंगिका आ बज्जिकाकेँ संग लऽ कऽ)",[['PDF',V+'Maithili_Samanantar_Vyakaran_Rachna_Bhasha-Vigyan_merge.pdf'],['Archive PDF','https://archive.org/download/videha-petar/Maithili_Samanantar_Vyakaran_Rachna_Bhasha-Vigyan_merge.pdf'],['POTHI.COM HARDBACK','https://store.pothi.com/book/gajendra-thakur-maithili_thethi_angika_bajjika/'],['Google Playbook','https://play.google.com/store/books/details?id=pKX4EQAAQBAJ']]),
+item('Videha Maithili Style Manual',V+'VIDEHA_STYLE_MANUAL_MAITHILI.pdf','गजेन्द्र ठाकुर','PDF'),
+item('Videha Bajjika Style Manual',V+'VIDEHA_STYLE_MANUAL_BAJJIKA.pdf','गजेन्द्र ठाकुर','PDF'),
+item('Videha Thethi-Angika Style Manual',V+'VIDEHA_STYLE_MANUAL_THETHI_ANGIKA.pdf','गजेन्द्र ठाकुर','PDF'),
 multi("प्रबन्ध · निबन्ध · समालोचना सिद्धान्त आ अनुप्रयुक्त अध्ययन",[['PDF',V+'GAJENDRA_THAKUR_SAMAGRA_PNS.pdf'],['POTHI.COM HARDBACK — खण्ड १','https://store.pothi.com/book/gajendra-thakur-%E0%A4%AA%E0%A4%B0%E0%A4%AC%E0%A4%A8%E0%A4%A7-%E0%A4%A8%E0%A4%AC%E0%A4%A8%E0%A4%A7-%E0%A4%B8%E0%A4%AE%E0%A4%B2%E0%A4%9A%E0%A4%A8-%E0%A4%96%E0%A4%A3%E0%A4%A1-%E0%A5%A7-%E0%A4%B8%E0%A4%A6%E0%A4%A7%E0%A4%A8%E0%A4%A4/'],['POTHI.COM HARDBACK — खण्ड २','https://store.pothi.com/book/gajendra-thakur-%E0%A4%AA%E0%A4%B0%E0%A4%AC%E0%A4%A8%E0%A4%A7-%E0%A4%A8%E0%A4%AC%E0%A4%A8%E0%A4%A7-%E0%A4%B8%E0%A4%AE%E0%A4%B2%E0%A4%9A%E0%A4%A8-%E0%A4%96%E0%A4%A3%E0%A4%A1-%E0%A5%A8-%E0%A4%85%E0%A4%A8%E0%A4%AA%E0%A4%B0%E0%A4%AF%E0%A4%95%E0%A4%A4-%E0%A4%85%E0%A4%A7%E0%A4%AF%E0%A4%AF%E0%A4%A8/'],['Google Playbook','https://play.google.com/store/books/details?id=B84GEgAAQBAJ']]),
 item("गजेन्द्र ठाकुर समग्र अनुवाद खण्ड",V+'GAJENDRA_THAKUR_SAMAGRA_ANUVAD_KHAND.pdf'),
 multi("भामती (वाचस्पति) [मूल संस्कृत सँ मैथिली अनुवाद: गजेन्द्र ठाकुर]",[['PDF',V+'GAJENDRA_THAKUR_SAMAGRA_Bhamati.pdf'],['POTHI.COM HARDBACK','https://store.pothi.com/book/gajendra-thakur-bhamti/'],['Google Playbook','https://play.google.com/store/books/details?id=PWcAEgAAQBAJ']]),
@@ -894,7 +897,7 @@ function samagraRender(id,specs){
   });
   el.innerHTML=rows.map(card).join('');
 }
-// All ten editorial volumes appear together as adjacent cards inside one collapsible section.
+// All thirteen editorial volumes appear together as adjacent cards inside one collapsible section.
 document.getElementById('gt-ed-editorial-grid').innerHTML=[
   card({title:'०० गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra.pdf']]}),
   card({title:'०१ गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra_01.pdf']]}),
@@ -905,7 +908,10 @@ document.getElementById('gt-ed-editorial-grid').innerHTML=[
   card({title:'०६ गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra_06.pdf']]}),
   card({title:'०७ गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra_07.pdf']]}),
   card({title:'०८ गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra_08.pdf']]}),
-  card({title:'०९ गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra_09.pdf']]})
+  card({title:'०९ गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra_09.pdf']]}),
+  card({title:'१० गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra_10.pdf']]}),
+  card({title:'११ गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra_11.pdf']]}),
+  card({title:'१२ गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra_12.pdf']]})
 ].join('');
 samagraRender('gt-ed-novel',[
  {q:'सहस्रबाढ़नि'},
@@ -950,7 +956,7 @@ samagraRender('gt-ed-history',[
  {q:'HISTORY OF MITHILA, VAJJI & ANGA: SOCIO-CULTURAL-ECONOMIC HISTORY OF MITHILA, VAJJI & ANGA IN INDIA & NEPAL FROM PREHISTORY TO THE CONTEMPORARY PERIOD [A PARALLEL HISTORY OF MITHILA & MAITHILI LITERATURE] VOLUME II'}
 ]);
 samagraRender('gt-ed-panji',[{q:'Decoding the Panji of Mithila',label:'Decoding the Panji of Mithila — Volumes I–VI'}]);
-samagraRender('gt-ed-language',[{q:'मैथिलीक एकटा समानान्तर व्याकरण, रचना आ भाषा विज्ञान'}]);
+samagraRender('gt-ed-language',[{q:'मैथिलीक एकटा समानान्तर व्याकरण, रचना आ भाषा विज्ञान'},{q:'Videha Maithili Style Manual'},{q:'Videha Bajjika Style Manual'},{q:'Videha Thethi-Angika Style Manual'}]);
 samagraRender('gt-ed-thesaurus',[{q:'English-Maithili Thesaurus'},{q:'Maithili-English Thesaurus'}]);
 samagraRender('gt-ed-selflearn',[{q:'ए.आइ. सँ वीडियो बनाउ'},{q:'मैथिली रेडियो नाटक: स्वयं सीखू मार्गदर्शिका'}]);
 samagraRender('gt-ed-translation',[
