@@ -12,6 +12,9 @@ on:
       - 'gajendra-thakur-samagra.htm'
       - 'pothi.htm'
       - 'index.htm'
+      - 'Audio_Video.htm'
+      - 'femcorner.htm'
+      - 'videha-elearning.htm'
       - 'assets/**'
       - '.github/workflows/deploy-pages.yml'
 
