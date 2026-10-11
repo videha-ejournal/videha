@@ -8,6 +8,8 @@ on:
     paths:
       - 'research/**'
       - 'data/**'
+      - '*.htm'
+      - '*.html'
       - 'videha-archive-explorer.html'
       - 'gajendra-thakur-samagra.htm'
       - 'pothi.htm'
