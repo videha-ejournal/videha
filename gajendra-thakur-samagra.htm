@@ -860,8 +860,12 @@ const issue450Catalog=[{"title":"अकुलाइत सुर (खण्ड-�
 const issue450NormUrl=u=>(u||'').replace(/^http:\/\//,'https://').replace('https://www.archive.org/','https://archive.org/').replace(/&amp;/g,'&');
 const issue450NormTitle=s=>(s||'').normalize('NFKC').toLocaleLowerCase().replace(/[\s\-–—:;,.·'’"“”()\[\]]+/g,'');
 issue450Catalog.forEach(c=>{
-  let hit=main.find(e=>e.links&&e.links.some(l=>c.links.some(m=>issue450NormUrl(l[1])===issue450NormUrl(m[1]))));
-  if(!hit){const ct=issue450NormTitle(c.title);hit=main.find(e=>{const et=issue450NormTitle(e.title);return et===ct || (ct.length>8&&(et.includes(ct)||ct.includes(et)));});}
+  // Identify an existing book by title before comparing publication URLs:
+  // a shared Google Playbook URL must not attach another book's links.
+  const ct=issue450NormTitle(c.title);
+  let hit=main.find(e=>issue450NormTitle(e.title)===ct);
+  if(!hit){hit=main.find(e=>e.links&&e.links.some(l=>c.links.some(m=>issue450NormUrl(l[1])===issue450NormUrl(m[1]))));}
+  if(!hit){hit=main.find(e=>{const et=issue450NormTitle(e.title);return ct.length>8&&(et.includes(ct)||ct.includes(et));});}
   if(hit){const have=new Set((hit.links||[]).map(l=>issue450NormUrl(l[1])));c.links.forEach(l=>{if(!have.has(issue450NormUrl(l[1]))){hit.links.push(l);have.add(issue450NormUrl(l[1]));}});}
   else main.push({title:c.title,author:c.author||'गजेन्द्र ठाकुर',links:c.links});
 });
