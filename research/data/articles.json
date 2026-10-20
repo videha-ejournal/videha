@@ -1,9 +1,9 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-10-06T20:35:13.466764+00:00",
+  "generated": "2026-10-20T03:21:35.081401+00:00",
   "extraction_summary": {
-    "issue_files_scanned": 450,
+    "issue_files_scanned": 451,
     "explicit_articles_publishable": 1,
     "explicit_articles_review": 41,
     "explicit_articles_detected_raw": 2,
@@ -19,7 +19,7 @@
     "promoted_sections_review": 83,
     "curated_manifests": 84,
     "published_after_all_overrides": 898,
-    "stale_generated_pages_removed_before_render": 892,
+    "stale_generated_pages_removed_before_render": 913,
     "build_errors": 0
   },
   "articles": [
@@ -17651,6 +17651,55 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
+      "source_path": "search-documents/videha-451.html",
+      "source_url": "https://www.videha.co.in/search-documents/videha-451.html",
+      "page_title": "विदेह अंक ४५१ · Videha Issue 451",
+      "year": "2000",
+      "issue": "४५१",
+      "score": 910,
+      "matched_terms": [
+        "अनुसंधान",
+        "अनुसन्धान",
+        "अन्वेषण",
+        "आलोचना",
+        "इतिहास",
+        "ग्रन्थसूची",
+        "नृविज्ञान",
+        "पंजी",
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "भाषाविज्ञान",
+        "लोक-संस्कृति",
+        "लोक-साहित्य",
+        "लोकसंस्कृति",
+        "व्याकरण",
+        "संदर्भ",
+        "सन्दर्भ",
+        "समालोचना",
+        "सांस्कृतिक इतिहास"
+      ],
+      "excluded_terms": [
+        "quiz",
+        "ई-लर्निङ्ग",
+        "कथा",
+        "कविता",
+        "घोषणा",
+        "नाटक",
+        "प्रश्नोत्तरी",
+        "लघुकथा",
+        "समाचार",
+        "साक्षात्कार"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
       "source_path": "search-documents/videha-370.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-370.html",
       "page_title": "VIDEHA — Issue 370 / अंक ३७०",
@@ -26737,6 +26786,40 @@
       "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
     },
     {
+      "source_path": "gajendra-thakur-samagra.htm",
+      "source_url": "https://www.videha.co.in/gajendra-thakur-samagra.htm",
+      "page_title": "गजेन्द्र ठाकुर समग्र | Videha",
+      "year": "unknown",
+      "issue": "unknown",
+      "score": 270,
+      "matched_terms": [
+        "इतिहास",
+        "पञ्जी",
+        "भाषा विज्ञान",
+        "मिथिला चित्रकला",
+        "व्याकरण",
+        "सन्दर्भ",
+        "समालोचना"
+      ],
+      "excluded_terms": [
+        "quiz",
+        "ई-लर्निङ्ग",
+        "कथा",
+        "कविता",
+        "नाटक",
+        "प्रश्नोत्तरी",
+        "लघुकथा"
+      ],
+      "special_terms": [
+        "dictionary",
+        "thesaurus",
+        "कोश",
+        "शब्दकोश"
+      ],
+      "treatment": "different-discovery-strategy",
+      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
+    },
+    {
       "source_path": "search-documents/videha-013.html",
       "source_url": "https://www.videha.co.in/search-documents/videha-013.html",
       "page_title": "VIDEHA — Issue 13 / अंक १३",
@@ -28527,39 +28610,6 @@
         "समाचार"
       ],
       "special_terms": [
-        "कोश",
-        "शब्दकोश"
-      ],
-      "treatment": "different-discovery-strategy",
-      "note": "Legacy-page candidate only; article boundary and author/title metadata require validation before Scholar publication."
-    },
-    {
-      "source_path": "gajendra-thakur-samagra.htm",
-      "source_url": "https://www.videha.co.in/gajendra-thakur-samagra.htm",
-      "page_title": "गजेन्द्र ठाकुर समग्र | Videha",
-      "year": "unknown",
-      "issue": "unknown",
-      "score": 225,
-      "matched_terms": [
-        "पञ्जी",
-        "भाषा विज्ञान",
-        "मिथिला चित्रकला",
-        "व्याकरण",
-        "सन्दर्भ",
-        "समालोचना"
-      ],
-      "excluded_terms": [
-        "quiz",
-        "ई-लर्निङ्ग",
-        "कथा",
-        "कविता",
-        "नाटक",
-        "प्रश्नोत्तरी",
-        "लघुकथा"
-      ],
-      "special_terms": [
-        "dictionary",
-        "thesaurus",
         "कोश",
         "शब्दकोश"
       ],
