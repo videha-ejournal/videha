@@ -1,7 +1,7 @@
 {
   "journal": "Videha — First Maithili Fortnightly eJournal",
   "issn": "2229-547X",
-  "generated": "2026-10-20T03:36:51.934541+00:00",
+  "generated": "2026-10-20T03:38:27.786999+00:00",
   "extraction_summary": {
     "issue_files_scanned": 451,
     "explicit_articles_publishable": 1,
@@ -18,7 +18,7 @@
     "promoted_sections_publishable": 800,
     "promoted_sections_review": 83,
     "curated_manifests": 84,
-    "published_after_all_overrides": 903,
+    "published_after_all_overrides": 923,
     "stale_generated_pages_removed_before_render": 913,
     "build_errors": 0
   },
@@ -17560,6 +17560,446 @@
       "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
       "source_url": "https://www.videha.co.in/new_page_130.htm",
       "path": "2026/451/new_page_130.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल कमला चौधरी · शोध-लेख 1",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल कमला चौधरी"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-kamla-chaudhary-1.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-kamla-chaudhary-1.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-kamla-chaudhary-1.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल कमला चौधरी · शोध-लेख 2",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल कमला चौधरी"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-kamla-chaudhary-2.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-kamla-chaudhary-2.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-kamla-chaudhary-2.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल कमला चौधरी · शोध-लेख 3",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल कमला चौधरी"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-kamla-chaudhary-3.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-kamla-chaudhary-3.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-kamla-chaudhary-3.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल कुणाल · शोध-लेख 1",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल कुणाल"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-kunal-1.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-kunal-1.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-kunal-1.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल कुणाल · शोध-लेख 2",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल कुणाल"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-kunal-2.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-kunal-2.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-kunal-2.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल ललिता झा · शोध-लेख 1",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल ललिता झा"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-lalita-jha-1.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-lalita-jha-1.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-lalita-jha-1.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल वीरेन्द्र मल्लिक · शोध-लेख 1",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल वीरेन्द्र मल्लिक"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-virendra-mallick-1.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-virendra-mallick-1.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-virendra-mallick-1.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल वीरेन्द्र मल्लिक · शोध-लेख 2",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल वीरेन्द्र मल्लिक"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-virendra-mallick-2.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-virendra-mallick-2.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-virendra-mallick-2.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल वीरेन्द्र मल्लिक · शोध-लेख 3",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल वीरेन्द्र मल्लिक"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-virendra-mallick-3.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-virendra-mallick-3.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-virendra-mallick-3.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल वीरेन्द्र मल्लिक · शोध-लेख 4",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल वीरेन्द्र मल्लिक"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-virendra-mallick-4.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-virendra-mallick-4.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-virendra-mallick-4.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल वृषेश चन्द्र लाल · शोध-लेख 1",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल वृषेश चन्द्र लाल"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-vrishesh-chandra-lal-1.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-vrishesh-chandra-lal-1.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-vrishesh-chandra-lal-1.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल वृषेश चन्द्र लाल · शोध-लेख 2",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल वृषेश चन्द्र लाल"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-vrishesh-chandra-lal-2.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-vrishesh-chandra-lal-2.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-vrishesh-chandra-lal-2.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल वृषेश चन्द्र लाल · शोध-लेख 3",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल वृषेश चन्द्र लाल"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-vrishesh-chandra-lal-3.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-vrishesh-chandra-lal-3.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-vrishesh-chandra-lal-3.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल वृषेश चन्द्र लाल · शोध-लेख 4",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल वृषेश चन्द्र लाल"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-vrishesh-chandra-lal-4.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-vrishesh-chandra-lal-4.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-vrishesh-chandra-lal-4.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल योगानन्द झा · शोध-लेख 1",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल योगानन्द झा"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-yoganand-jha-1.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-yoganand-jha-1.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-yoganand-jha-1.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल योगानन्द झा · शोध-लेख 2",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल योगानन्द झा"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-yoganand-jha-2.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-yoganand-jha-2.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-yoganand-jha-2.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल योगानन्द झा · शोध-लेख 3",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल योगानन्द झा"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-yoganand-jha-3.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-yoganand-jha-3.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-yoganand-jha-3.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल योगानन्द झा · शोध-लेख 4",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल योगानन्द झा"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-yoganand-jha-4.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-yoganand-jha-4.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-yoganand-jha-4.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल योगानन्द झा · शोध-लेख 5",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल योगानन्द झा"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-yoganand-jha-5.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-yoganand-jha-5.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-yoganand-jha-5.htm",
+      "page_start": null,
+      "page_end": null
+    },
+    {
+      "title": "नित नवल योगानन्द झा · शोध-लेख 6",
+      "english_title": null,
+      "authors": [
+        "गजेन्द्र ठाकुर"
+      ],
+      "publication_date": "2026-09-15",
+      "year": "2026",
+      "issue": "451",
+      "language": "mai",
+      "keywords": [
+        "Issue 451",
+        "नित नवल योगानन्द झा"
+      ],
+      "classification": "Maithili literary criticism and research",
+      "url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-yoganand-jha-6.htm",
+      "pdf_url": "https://archive.org/download/videha-2026/Videha%20451.pdf",
+      "source_url": "https://videha-ejournal.github.io/videha/research/2026/451/gajendra-thakur-nit-naval-yoganand-jha-6.htm",
+      "path": "2026/451/gajendra-thakur-nit-naval-yoganand-jha-6.htm",
       "page_start": null,
       "page_end": null
     }
