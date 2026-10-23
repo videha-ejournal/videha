@@ -690,13 +690,13 @@ textarea:focus,input[type="text"]:focus{
 <!-- ===== Tier 1: Local instant search across all पोथी cards ===== -->
 <p class="vsearch-tip">
 <b style="color:#1F2A44;">📑 स्थानीय खोज</b> — एहि पन्नापर सभ पोथी, ई-पोथी, फॉण्ट, कीबोर्ड, वीडियो, ऑडियो आ डाउनलोड लिंक खोजू (शीर्षक, लेखक, URL सभमे)। 
-  उदाहरण: <code>विद्यापति</code>, <code>तिरहुता</code>, <code>शब्दकोश</code>, <code>उपन्यास</code>, <code>गजल</code>, <code>youtube</code>, <code>सदेह २८</code>।
+  गजेन्द्र ठाकुर समग्रक बन्द खण्डसभक शीर्षक, संसाधन आ लिंक सेहो खोजल जाएत। उदाहरण: <code>विद्यापति</code>, <code>तिरहुता</code>, <code>शब्दकोश</code>, <code>गजल</code>, <code>youtube</code>, <code>सदेह २८</code>, <code>82 SELECTED STORIES</code>।
 </p>
 <div class="vsearch-bar">
 <input aria-label="खोजू / Search: लेखक, शीर्षक, पोथी, फॉण्ट, वीडियो, URL…" autocomplete="off" class="vsearch-input" id="vsearch" oninput="pothiSearch(this.value)" onkeydown="if(event.key==='Escape'){this.value='';pothiSearch('');}" placeholder="खोजू / Search: लेखक, शीर्षक, पोथी, फॉण्ट, वीडियो, URL…" spellcheck="false" type="search"/>
 <button class="vsearch-clear" onclick="document.getElementById('vsearch').value='';pothiSearch('');document.getElementById('vsearch').focus();" title="Clear (Esc)">✕</button>
 </div>
-<p class="vsearch-count" id="vsearch-count" style="display:none"></p>
+<p class="vsearch-count" id="vsearch-count" role="status" aria-live="polite" style="display:none"></p>
 <p align="justify" class="cdt4ke" style="margin-left: 0in; margin-right: 0in; margin-top: 6.25pt; margin-bottom: .0001pt">
 <font face="Noto Serif Devanagari"> <script async="" src="https://cse.google.com/cse.js?cx=45bfe8b42ae5741d2">
 </script>
@@ -7765,7 +7765,7 @@ textarea:focus,input[type="text"]:focus{
 </script>
 <script>
 /* ============================================================
-   VIDEHA UNIVERSAL LOCAL SEARCH ENGINE  (v3, section-aware)
+   VIDEHA UNIVERSAL LOCAL SEARCH ENGINE  (v4, nested-Samagra-aware)
    Ported from videha.htm — the most capable variant.
    Features:
      • Devanagari digit <-> ASCII normalization (८४ = 84)
@@ -7773,14 +7773,16 @@ textarea:focus,input[type="text"]:focus{
      • Synonym expansion
      • AND-search across whitespace-separated tokens
      • Digit-boundary aware (so "28" does not match inside "1280")
-     • Section-aware: header-match widens to whole section; sections with
-       any hit are revealed (and <details> auto-opened, restored on clear)
+     • Section-aware including all 10 nested Samagra resource categories;
+       search reveals parent and child <details> and restores them on clear
      • data-search attribute honoured
      • Inline <mark class="vsmark"> highlighting
-   Config object {"section": "details.pothi-era", "head": ".pothi-era-head", "row": ".pothi-card", "input": "vsearch", "count": "vsearch-count", "fn": "pothiSearch"} is injected per-page.
+     • Multi-link publication blocks and individual nested resource URLs
+   Config object keeps the 4 era sections and adds Samagra leaf records.
+     A multi-link block is one result; its links remain searchable.
    ============================================================ */
 (function(){
-  var CFG = {"section": "details.pothi-era", "head": ".pothi-era-head", "row": ".pothi-card", "input": "vsearch", "count": "vsearch-count", "fn": "pothiSearch"};
+  var CFG = {"section": "details.pothi-era", "head": ".pothi-era-head", "row": ".pothi-card, .pothi-samagra-multi, .pothi-samagra-sub > .pothi-child-novels-list > a", "input": "vsearch", "count": "vsearch-count", "fn": "pothiSearch"};
   var SEC_SEL  = CFG.section;     // section container selector
   var HEAD_SEL = CFG.head;        // clickable/section-title selector inside section
   var ROW_SEL  = CFG.row;         // row/record selector inside section
@@ -7916,19 +7918,25 @@ textarea:focus,input[type="text"]:focus{
     return haystack + ' ' + extras;
   }
 
+  // Cache search text for the static archive: avoids rebuilding 1,400+ rows on each keystroke.
+  var HAY_CACHE = new WeakMap();
   function buildHaystack(row){
+    if(HAY_CACHE.has(row)) return HAY_CACHE.get(row);
     var rowText = row.textContent || '';
-    var dataSearch = row.getAttribute && row.getAttribute('data-search') || '';
+    var dataSearch = row.getAttribute('data-search') || '';
     var hrefs = '';
-    var links = row.querySelectorAll ? row.querySelectorAll('a[href]') : [];
+    // A standalone Samagra link is itself the result; querySelectorAll excludes self.
+    var links = row.matches('a[href]') ? [row] : Array.from(row.querySelectorAll('a[href]'));
     for(var i=0;i<links.length;i++){
       var h = links[i].getAttribute('href') || '';
       hrefs += ' ' + h;
-      try{ var last = h.split('/').pop().split('?')[0]; hrefs += ' ' + decodeURIComponent(last); }catch(e){}
+      try{ hrefs += ' ' + decodeURIComponent(h); }catch(e){}
     }
     var raw = rowText + ' ' + dataSearch + ' ' + hrefs;
     var base = expandSynonyms(normalize(raw));
-    return base + ' ' + _pKey(raw);
+    var searchable = base + ' ' + _pKey(raw);
+    HAY_CACHE.set(row, searchable);
+    return searchable;
   }
 
   function tokenInHaystack(haystack, token){
@@ -8006,76 +8014,124 @@ textarea:focus,input[type="text"]:focus{
     }
   }
 
-  // Snapshot original <details> open state (only relevant when sections are <details>)
-  function init(){
-    var groups = document.querySelectorAll(SEC_SEL);
-    for(var i=0;i<groups.length;i++){
-      if(groups[i].tagName === 'DETAILS'){
-        groups[i].dataset.origOpen = groups[i].hasAttribute('open') ? '1' : '0';
-      }
-    }
+  // Preserve *the user's current* accordion positions at the start of a search.
+  // Both the era and the two-level Samagra accordions must be restored on clear.
+  var searchActive = false;
+  function allSearchDetails(){
+    return document.querySelectorAll('details.pothi-era, details.pothi-samagra, details.pothi-samagra-sub');
   }
-  if(document.readyState === 'loading'){ document.addEventListener('DOMContentLoaded', init); }
-  else { init(); }
+  function saveOpenStates(){
+    Array.from(allSearchDetails()).forEach(function(d){
+      d.dataset.vsearchWasOpen = d.hasAttribute('open') ? '1' : '0';
+    });
+  }
+  function restoreOpenStates(){
+    Array.from(allSearchDetails()).forEach(function(d){
+      if(d.dataset.vsearchWasOpen === '1') d.setAttribute('open', '');
+      else d.removeAttribute('open');
+      delete d.dataset.vsearchWasOpen;
+    });
+  }
+  function matchesAll(text, tokens){
+    var h = expandSynonyms(normalize(text || '')) + ' ' + _pKey(text || '');
+    return tokens.every(function(t){return tokenInHaystack(h, t);});
+  }
 
   window[FN_NAME] = function(query){
     query = (query == null) ? '' : String(query).trim();
     var countEl = document.getElementById(COUNT_ID);
-    var groups = document.querySelectorAll(SEC_SEL);
+    var groups = Array.from(document.querySelectorAll(SEC_SEL));
 
     clearHighlights();
 
     if(!query){
-      for(var i=0;i<groups.length;i++){
-        var g = groups[i];
+      groups.forEach(function(g){
         g.style.display = '';
-        var rows = g.querySelectorAll(ROW_SEL);
-        for(var j=0;j<rows.length;j++) rows[j].style.display = '';
-        if(g.tagName === 'DETAILS'){
-          if(g.dataset.origOpen === '1') g.setAttribute('open','');
-          else g.removeAttribute('open');
-        }
-      }
-      if(countEl){ countEl.style.display='none'; countEl.classList.remove('zero'); }
+        Array.from(g.querySelectorAll(ROW_SEL)).forEach(function(r){r.style.display = '';});
+        Array.from(g.querySelectorAll('details.pothi-samagra, details.pothi-samagra-sub')).forEach(function(d){d.style.display = '';});
+      });
+      if(searchActive) restoreOpenStates();
+      searchActive = false;
+      if(countEl){ countEl.style.display='none'; countEl.classList.remove('zero'); countEl.textContent=''; }
       return;
     }
 
-    var qTokens = normalize(query).split(' ').filter(function(t){ return t.length>0; });
+    var qTokens = normalize(query).split(' ').filter(Boolean);
     if(!qTokens.length){ window[FN_NAME](''); return; }
-
+    if(!searchActive){saveOpenStates(); searchActive = true;}
     var totalMatches = 0;
-    for(var gi=0; gi<groups.length; gi++){
-      var group = groups[gi];
+
+    groups.forEach(function(group){
       var head = group.querySelector(HEAD_SEL);
-      var headExpanded = expandSynonyms(normalize(head ? head.textContent : ''));
-      var headMatch = qTokens.every(function(t){ return tokenInHaystack(headExpanded, t); });
+      var headMatch = matchesAll(head ? head.textContent : '', qTokens);
+      var rows = Array.from(group.querySelectorAll(ROW_SEL));
+      var hits = new Map(), direct = 0;
+      rows.forEach(function(row){
+        var hit = qTokens.every(function(t){ return tokenInHaystack(buildHaystack(row), t); });
+        hits.set(row, hit);
+        if(hit) direct++;
+      });
+      // Preserve the older behaviour: a category heading alone can list its whole era.
+      var eraWiden = direct === 0 && headMatch;
 
-      var rows = group.querySelectorAll(ROW_SEL);
-      var flags = new Array(rows.length), direct = 0;
-      for(var ri=0; ri<rows.length; ri++){
-        var hay = buildHaystack(rows[ri]);
-        var hit = qTokens.every(function(t){ return tokenInHaystack(hay, t); });
-        flags[ri] = hit; if(hit) direct++;
-      }
+      // Nested Samagra headings participate in search even when closed.
+      var parents = Array.from(group.querySelectorAll('details.pothi-samagra'));
+      var subgroups = Array.from(group.querySelectorAll('details.pothi-samagra-sub'));
+      var widenedParents = new Map(), widenedSubs = new Map(), countsBySub = new Map();
+      parents.forEach(function(parent){
+        var phead = parent.querySelector(':scope > summary');
+        var pDirect = rows.some(function(row){ return parent.contains(row) && hits.get(row); });
+        widenedParents.set(parent, !pDirect && matchesAll(phead ? phead.textContent : '', qTokens));
+      });
+      subgroups.forEach(function(sub){
+        var sh = sub.querySelector(':scope > summary');
+        var subDirect = rows.some(function(row){ return sub.contains(row) && hits.get(row); });
+        widenedSubs.set(sub, !subDirect && matchesAll(sh ? sh.textContent : '', qTokens));
+      });
 
-      var widen = (direct === 0 && headMatch);
       var visible = 0;
-      for(var rj=0; rj<rows.length; rj++){
-        if(flags[rj] || widen){ rows[rj].style.display=''; visible++; totalMatches++; }
-        else { rows[rj].style.display='none'; }
-      }
+      rows.forEach(function(row){
+        var sub = row.closest('details.pothi-samagra-sub');
+        var parent = row.closest('details.pothi-samagra');
+        var show = hits.get(row) || eraWiden ||
+          (sub && widenedSubs.get(sub)) || (parent && widenedParents.get(parent));
+        row.style.display = show ? '' : 'none';
+        if(show){
+          visible++;
+          if(sub) countsBySub.set(sub, (countsBySub.get(sub) || 0) + 1);
+        }
+      });
 
-      if(visible > 0 || headMatch){
-        group.style.display = '';
+      subgroups.forEach(function(sub){
+        var show = (countsBySub.get(sub) || 0) > 0;
+        sub.style.display = show ? '' : 'none';
+        if(show) sub.setAttribute('open','');
+        else sub.removeAttribute('open');
+      });
+      parents.forEach(function(parent){
+        var show = subgroups.some(function(sub){return parent.contains(sub) && sub.style.display !== 'none';});
+        parent.style.display = show ? '' : 'none';
+        if(show) parent.setAttribute('open','');
+        else parent.removeAttribute('open');
+      });
+
+      var groupShow = visible > 0 || headMatch;
+      group.style.display = groupShow ? '' : 'none';
+      if(groupShow){
         if(group.tagName === 'DETAILS') group.setAttribute('open','');
         if(head) highlight(head, qTokens);
-        for(var rk=0; rk<rows.length; rk++){
-          if(rows[rk].style.display !== 'none') highlight(rows[rk], qTokens);
-        }
-      } else {
-        group.style.display = 'none';
+        parents.forEach(function(d){
+          if(d.style.display !== 'none') highlight(d.querySelector(':scope > summary'), qTokens);
+        });
+        subgroups.forEach(function(d){
+          if(d.style.display !== 'none') highlight(d.querySelector(':scope > summary'), qTokens);
+        });
+        rows.forEach(function(row){
+          if(row.style.display !== 'none') highlight(row, qTokens);
+        });
       }
-    }
+      totalMatches += visible;
+    });
 
     if(countEl){
       countEl.style.display = '';
