@@ -5986,7 +5986,7 @@ function openQuizSection(event, id) {
    Config object {"section": ".vq-section", "head": ".vq-section-header", "row": ".vq-card", "input": "vsearch", "count": "vsearch-count", "fn": "elearnSearch"} is injected per-page.
    ============================================================ */
 (function(){
-  var CFG = {"section": ".vq-section", "head": ".vq-section-header", "row": ".vq-card", "input": "vsearch", "count": "vsearch-count", "fn": "elearnSearch"};
+  var CFG = {"section": ".vq-section,.stucat,.vg-group,details.vd-documentary", "head": ".vq-section-header,.stucat-head,.vg-group-title,summary", "row": ".vq-card,.sc-book,.vg-card,.vd-documentary-link", "input": "vsearch", "count": "vsearch-count", "fn": "elearnSearch"};
   var SEC_SEL  = CFG.section;     // section container selector
   var HEAD_SEL = CFG.head;        // clickable/section-title selector inside section
   var ROW_SEL  = CFG.row;         // row/record selector inside section
@@ -6122,22 +6122,23 @@ function openQuizSection(event, id) {
     return haystack + ' ' + extras;
   }
 
+  var VLS_HAY_CACHE = new WeakMap();
   function buildHaystack(row){
+    if(VLS_HAY_CACHE.has(row)) return VLS_HAY_CACHE.get(row);
     var rowText = row.textContent || '';
     var dataSearch = row.getAttribute && row.getAttribute('data-search') || '';
     var hrefs = '';
-    function addHref(h){
-      if(!h) return;
+    var links = row.matches('a[href]') ? [row].concat(Array.from(row.querySelectorAll('a[href]'))) : Array.from(row.querySelectorAll('a[href]'));
+    for(var i=0;i<links.length;i++){
+      var h = links[i].getAttribute('href') || '';
       hrefs += ' ' + h;
-      try{ var last = h.split('/').pop().split('?')[0]; hrefs += ' ' + decodeURIComponent(last); }catch(e){}
+      try{ hrefs += ' ' + decodeURIComponent(h); }catch(e){}
     }
-    // vq-card rows are often <a href="https://groups.google.com/g/videha"> elements themselves, so include the row's own href too.
-    if(row.getAttribute){ addHref(row.getAttribute('href') || ''); }
-    var links = row.querySelectorAll ? row.querySelectorAll('a[href]') : [];
-    for(var i=0;i<links.length;i++){ addHref(links[i].getAttribute('href') || ''); }
     var raw = rowText + ' ' + dataSearch + ' ' + hrefs;
     var base = expandSynonyms(normalize(raw));
-    return base + ' ' + _pKey(raw);
+    var hay = base + ' ' + _pKey(raw);
+    VLS_HAY_CACHE.set(row,hay);
+    return hay;
   }
 
   function tokenInHaystack(haystack, token){
@@ -6160,7 +6161,7 @@ function openQuizSection(event, id) {
     var walker = document.createTreeWalker(scopeEl, NodeFilter.SHOW_TEXT, {
       acceptNode: function(n){
         if(!n.nodeValue || !n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
-        if(n.parentNode && n.parentNode.nodeName === 'MARK') return NodeFilter.FILTER_REJECT;
+        if(n.parentNode && /^(MARK|SCRIPT|STYLE|TEXTAREA|OPTION)$/i.test(n.parentNode.nodeName)) return NodeFilter.FILTER_REJECT;
         return NodeFilter.FILTER_ACCEPT;
       }
     });
@@ -6227,6 +6228,36 @@ function openQuizSection(event, id) {
   if(document.readyState === 'loading'){ document.addEventListener('DOMContentLoaded', init); }
   else { init(); }
 
+  // Snapshot what readers opened, so a search does not alter their accordion choices.
+  var vlsSnapshot = null;
+  function vlsTakeSnapshot(){
+    vlsSnapshot = [];
+    document.querySelectorAll('main details, main .vq-cards').forEach(function(node){
+      vlsSnapshot.push({el:node, opened:node.tagName==='DETAILS' ? node.open : null,
+                        display:node.style.display,
+                        icon:node.classList.contains('vq-cards') ? node.parentElement.querySelector('.vq-toggle-icon') : null,
+                        iconCollapsed:node.classList.contains('vq-cards') && node.parentElement.querySelector('.vq-toggle-icon') ? node.parentElement.querySelector('.vq-toggle-icon').classList.contains('collapsed') : false});
+    });
+  }
+  function vlsRestoreSnapshot(){
+    if(!vlsSnapshot) return;
+    vlsSnapshot.forEach(function(s){
+      if(s.el.tagName==='DETAILS') s.el.open=s.opened;
+      else s.el.style.display=s.display;
+      if(s.icon) s.icon.classList.toggle('collapsed',s.iconCollapsed);
+    });
+  }
+  function vlsRevealRow(row){
+    for(var p=row;p && p!==document.body;p=p.parentElement){
+      if(p.tagName==='DETAILS') p.open=true;
+      if(p.classList && p.classList.contains('vq-cards')){
+        p.style.display='';
+        var icon=p.parentElement.querySelector('.vq-toggle-icon');
+        if(icon) icon.classList.remove('collapsed');
+      }
+    }
+  }
+
   window[FN_NAME] = function(query){
     query = (query == null) ? '' : String(query).trim();
     var countEl = document.getElementById(COUNT_ID);
@@ -6249,6 +6280,8 @@ function openQuizSection(event, id) {
       return;
     }
 
+    if(!vlsSnapshot) vlsTakeSnapshot();
+    else vlsRestoreSnapshot();
     var qTokens = normalize(query).split(' ').filter(function(t){ return t.length>0; });
     if(!qTokens.length){ window[FN_NAME](''); return; }
 
@@ -6256,7 +6289,7 @@ function openQuizSection(event, id) {
     for(var gi=0; gi<groups.length; gi++){
       var group = groups[gi];
       var head = group.querySelector(HEAD_SEL);
-      var headExpanded = expandSynonyms(normalize(head ? head.textContent : ''));
+      var headExpanded = expandSynonyms(normalize(head ? head.textContent : '')) + ' ' + _pKey(head ? head.textContent : '');
       var headMatch = qTokens.every(function(t){ return tokenInHaystack(headExpanded, t); });
 
       var rows = group.querySelectorAll(ROW_SEL);
@@ -6270,7 +6303,7 @@ function openQuizSection(event, id) {
       var widen = (direct === 0 && headMatch);
       var visible = 0;
       for(var rj=0; rj<rows.length; rj++){
-        if(flags[rj] || widen){ rows[rj].style.display=''; visible++; totalMatches++; }
+        if(flags[rj] || widen){ rows[rj].style.display=''; vlsRevealRow(rows[rj]); visible++; totalMatches++; }
         else { rows[rj].style.display='none'; }
       }
 

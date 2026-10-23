@@ -1668,7 +1668,7 @@ function vgResizeTool(btn,delta){
    Config object {"section": ".femcat", "head": ".femcat-head", "row": ".wc-book", "input": "vls-fem", "count": "vls-fem-cnt", "fn": "vlsFemSearch", "zeroClass": "vls-zero", "markClass": "vlsmark"} is injected per-page.
    ============================================================ */
 (function(){
-  var CFG = {"section": ".femcat", "head": ".femcat-head", "row": ".wc-book", "input": "vls-fem", "count": "vls-fem-cnt", "fn": "vlsFemSearch", "zeroClass": "vls-zero", "markClass": "vlsmark"};
+  var CFG = {"section": ".femcat,.vg-group,details.vd-documentary", "head": ".femcat-head,.vg-group-title,summary", "row": ".wc-book,.vg-card,.vd-documentary-link", "input": "vls-fem", "count": "vls-fem-cnt", "fn": "vlsFemSearch", "zeroClass": "vls-zero", "markClass": "vlsmark"};
   var SEC_SEL  = CFG.section;     // section container selector
   var HEAD_SEL = CFG.head;        // clickable/section-title selector inside section
   var ROW_SEL  = CFG.row;         // row/record selector inside section
@@ -1806,19 +1806,23 @@ function vgResizeTool(btn,delta){
     return haystack + ' ' + extras;
   }
 
+  var VLS_HAY_CACHE = new WeakMap();
   function buildHaystack(row){
+    if(VLS_HAY_CACHE.has(row)) return VLS_HAY_CACHE.get(row);
     var rowText = row.textContent || '';
     var dataSearch = row.getAttribute && row.getAttribute('data-search') || '';
     var hrefs = '';
-    var links = row.querySelectorAll ? row.querySelectorAll('a[href]') : [];
+    var links = row.matches('a[href]') ? [row].concat(Array.from(row.querySelectorAll('a[href]'))) : Array.from(row.querySelectorAll('a[href]'));
     for(var i=0;i<links.length;i++){
       var h = links[i].getAttribute('href') || '';
       hrefs += ' ' + h;
-      try{ var last = h.split('/').pop().split('?')[0]; hrefs += ' ' + decodeURIComponent(last); }catch(e){}
+      try{ hrefs += ' ' + decodeURIComponent(h); }catch(e){}
     }
     var raw = rowText + ' ' + dataSearch + ' ' + hrefs;
     var base = expandSynonyms(normalize(raw));
-    return base + ' ' + _pKey(raw);
+    var hay = base + ' ' + _pKey(raw);
+    VLS_HAY_CACHE.set(row,hay);
+    return hay;
   }
 
   function tokenInHaystack(haystack, token){
@@ -1841,7 +1845,7 @@ function vgResizeTool(btn,delta){
     var walker = document.createTreeWalker(scopeEl, NodeFilter.SHOW_TEXT, {
       acceptNode: function(n){
         if(!n.nodeValue || !n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
-        if(n.parentNode && n.parentNode.nodeName === 'MARK') return NodeFilter.FILTER_REJECT;
+        if(n.parentNode && /^(MARK|SCRIPT|STYLE|TEXTAREA|OPTION)$/i.test(n.parentNode.nodeName)) return NodeFilter.FILTER_REJECT;
         return NodeFilter.FILTER_ACCEPT;
       }
     });
@@ -1908,6 +1912,36 @@ function vgResizeTool(btn,delta){
   if(document.readyState === 'loading'){ document.addEventListener('DOMContentLoaded', init); }
   else { init(); }
 
+  // Snapshot what readers opened, so a search does not alter their accordion choices.
+  var vlsSnapshot = null;
+  function vlsTakeSnapshot(){
+    vlsSnapshot = [];
+    document.querySelectorAll('main details, main .vq-cards').forEach(function(node){
+      vlsSnapshot.push({el:node, opened:node.tagName==='DETAILS' ? node.open : null,
+                        display:node.style.display,
+                        icon:node.classList.contains('vq-cards') ? node.parentElement.querySelector('.vq-toggle-icon') : null,
+                        iconCollapsed:node.classList.contains('vq-cards') && node.parentElement.querySelector('.vq-toggle-icon') ? node.parentElement.querySelector('.vq-toggle-icon').classList.contains('collapsed') : false});
+    });
+  }
+  function vlsRestoreSnapshot(){
+    if(!vlsSnapshot) return;
+    vlsSnapshot.forEach(function(s){
+      if(s.el.tagName==='DETAILS') s.el.open=s.opened;
+      else s.el.style.display=s.display;
+      if(s.icon) s.icon.classList.toggle('collapsed',s.iconCollapsed);
+    });
+  }
+  function vlsRevealRow(row){
+    for(var p=row;p && p!==document.body;p=p.parentElement){
+      if(p.tagName==='DETAILS') p.open=true;
+      if(p.classList && p.classList.contains('vq-cards')){
+        p.style.display='';
+        var icon=p.parentElement.querySelector('.vq-toggle-icon');
+        if(icon) icon.classList.remove('collapsed');
+      }
+    }
+  }
+
   window[FN_NAME] = function(query){
     query = (query == null) ? '' : String(query).trim();
     var countEl = document.getElementById(COUNT_ID);
@@ -1926,10 +1960,13 @@ function vgResizeTool(btn,delta){
           else g.removeAttribute('open');
         }
       }
+      vlsRestoreSnapshot(); vlsSnapshot=null;
       if(countEl){ countEl.style.setProperty('display','none','important'); countEl.classList.remove(ZERO_CLS); }
       return;
     }
 
+    if(!vlsSnapshot) vlsTakeSnapshot();
+    else vlsRestoreSnapshot();
     var qTokens = normalize(query).split(' ').filter(function(t){ return t.length>0; });
     if(!qTokens.length){ window[FN_NAME](''); return; }
 
@@ -1937,7 +1974,7 @@ function vgResizeTool(btn,delta){
     for(var gi=0; gi<groups.length; gi++){
       var group = groups[gi];
       var head = group.querySelector(HEAD_SEL);
-      var headExpanded = expandSynonyms(normalize(head ? head.textContent : ''));
+      var headExpanded = expandSynonyms(normalize(head ? head.textContent : '')) + ' ' + _pKey(head ? head.textContent : '');
       var headMatch = qTokens.every(function(t){ return tokenInHaystack(headExpanded, t); });
 
       var rows = group.querySelectorAll(ROW_SEL);
@@ -1951,7 +1988,7 @@ function vgResizeTool(btn,delta){
       var widen = (direct === 0 && headMatch);
       var visible = 0;
       for(var rj=0; rj<rows.length; rj++){
-        if(flags[rj] || widen){ rows[rj].style.display=''; visible++; totalMatches++; }
+        if(flags[rj] || widen){ rows[rj].style.display=''; vlsRevealRow(rows[rj]); visible++; totalMatches++; }
         else { rows[rj].style.display='none'; }
       }
 

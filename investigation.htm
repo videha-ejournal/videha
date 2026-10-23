@@ -8,6 +8,9 @@
 <meta name="description" content="विदेह प्रथम मैथिली पाक्षिक ई पत्रिका. Videha — First Maithili Fortnightly eJournal, ISSN 2229-547X; scholarly publication and digital research archive.">
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <link href="site.webmanifest" rel="manifest"/>
+<link href="assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="assets/img/favicon.png" rel="icon" sizes="256x256" type="image/png"/>
+<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
 <!-- CSS here -->
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -500,9 +503,6 @@ textarea:focus,input[type="text"]:focus{
 <meta name="videha_github_mirror" content="https://videha-ejournal.github.io/videha/">
 <meta name="videha_digital_research_archives" content="https://github.com/videha-ejournal">
 <script type="application/ld+json" id="videha-scholarly-identity">{"@context":"https://schema.org","@type":"WebPage","name":"विदेह प्रथम मैथिली पाक्षिक ई पत्रिका","url":"https://www.videha.co.in/investigation.htm","sameAs":"https://videha-ejournal.github.io/videha/investigation.htm","inLanguage":"mai","isPartOf":{"@type":"Periodical","name":"Videha","alternateName":"विदेह प्रथम मैथिली पाक्षिक ई-पत्रिका","issn":"2229-547X","url":"https://www.videha.co.in/","sameAs":["https://videha-ejournal.github.io/videha/","https://github.com/videha-ejournal"],"editor":{"@type":"Person","name":"Gajendra Thakur"}},"publisher":{"@type":"Periodical","name":"Videha","alternateName":"विदेह प्रथम मैथिली पाक्षिक ई-पत्रिका","issn":"2229-547X","url":"https://www.videha.co.in/","sameAs":["https://videha-ejournal.github.io/videha/","https://github.com/videha-ejournal"],"editor":{"@type":"Person","name":"Gajendra Thakur"}}}</script>
-<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-<link rel="icon" type="image/png" sizes="256x256" href="assets/img/favicon.png">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
 </head>
 <body>
 <a class="videha-skip" href="#videha-main">मुख्य सामग्रीपर जाउ · Skip to main content</a>
@@ -1355,7 +1355,7 @@ textarea:focus,input[type="text"]:focus{
    Config object {"section": ".invcat", "head": ".invcat-head", "row": ".iv-group", "input": "vls-inv", "count": "vls-inv-cnt", "fn": "vlsInvSearch", "zeroClass": "vls-zero", "markClass": "vlsmark"} is injected per-page.
    ============================================================ */
 (function(){
-  var CFG = {"section": ".invcat", "head": ".invcat-head", "row": ".iv-group", "input": "vls-inv", "count": "vls-inv-cnt", "fn": "vlsInvSearch", "zeroClass": "vls-zero", "markClass": "vlsmark"};
+  var CFG = {"section": ".invcat,.inv-prose", "head": ".invcat-head,.inv-prose > h2,.inv-prose > h3", "row": ".iv-group,.invcat-body > .iv-glist > a.iv-link,.inv-prose > .iv-glist > a.iv-link,.inv-inline-links", "input": "vls-inv", "count": "vls-inv-cnt", "fn": "vlsInvSearch", "zeroClass": "vls-zero", "markClass": "vlsmark"};
   var SEC_SEL  = CFG.section;     // section container selector
   var HEAD_SEL = CFG.head;        // clickable/section-title selector inside section
   var ROW_SEL  = CFG.row;         // row/record selector inside section
@@ -1493,19 +1493,23 @@ textarea:focus,input[type="text"]:focus{
     return haystack + ' ' + extras;
   }
 
+  var VLS_HAY_CACHE = new WeakMap();
   function buildHaystack(row){
+    if(VLS_HAY_CACHE.has(row)) return VLS_HAY_CACHE.get(row);
     var rowText = row.textContent || '';
     var dataSearch = row.getAttribute && row.getAttribute('data-search') || '';
     var hrefs = '';
-    var links = row.querySelectorAll ? row.querySelectorAll('a[href]') : [];
+    var links = row.matches('a[href]') ? [row].concat(Array.from(row.querySelectorAll('a[href]'))) : Array.from(row.querySelectorAll('a[href]'));
     for(var i=0;i<links.length;i++){
       var h = links[i].getAttribute('href') || '';
       hrefs += ' ' + h;
-      try{ var last = h.split('/').pop().split('?')[0]; hrefs += ' ' + decodeURIComponent(last); }catch(e){}
+      try{ hrefs += ' ' + decodeURIComponent(h); }catch(e){}
     }
     var raw = rowText + ' ' + dataSearch + ' ' + hrefs;
     var base = expandSynonyms(normalize(raw));
-    return base + ' ' + _pKey(raw);
+    var hay = base + ' ' + _pKey(raw);
+    VLS_HAY_CACHE.set(row,hay);
+    return hay;
   }
 
   function tokenInHaystack(haystack, token){
@@ -1528,7 +1532,7 @@ textarea:focus,input[type="text"]:focus{
     var walker = document.createTreeWalker(scopeEl, NodeFilter.SHOW_TEXT, {
       acceptNode: function(n){
         if(!n.nodeValue || !n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
-        if(n.parentNode && n.parentNode.nodeName === 'MARK') return NodeFilter.FILTER_REJECT;
+        if(n.parentNode && /^(MARK|SCRIPT|STYLE|TEXTAREA|OPTION)$/i.test(n.parentNode.nodeName)) return NodeFilter.FILTER_REJECT;
         return NodeFilter.FILTER_ACCEPT;
       }
     });
@@ -1595,6 +1599,36 @@ textarea:focus,input[type="text"]:focus{
   if(document.readyState === 'loading'){ document.addEventListener('DOMContentLoaded', init); }
   else { init(); }
 
+  // Snapshot what readers opened, so a search does not alter their accordion choices.
+  var vlsSnapshot = null;
+  function vlsTakeSnapshot(){
+    vlsSnapshot = [];
+    document.querySelectorAll('main details, main .vq-cards').forEach(function(node){
+      vlsSnapshot.push({el:node, opened:node.tagName==='DETAILS' ? node.open : null,
+                        display:node.style.display,
+                        icon:node.classList.contains('vq-cards') ? node.parentElement.querySelector('.vq-toggle-icon') : null,
+                        iconCollapsed:node.classList.contains('vq-cards') && node.parentElement.querySelector('.vq-toggle-icon') ? node.parentElement.querySelector('.vq-toggle-icon').classList.contains('collapsed') : false});
+    });
+  }
+  function vlsRestoreSnapshot(){
+    if(!vlsSnapshot) return;
+    vlsSnapshot.forEach(function(s){
+      if(s.el.tagName==='DETAILS') s.el.open=s.opened;
+      else s.el.style.display=s.display;
+      if(s.icon) s.icon.classList.toggle('collapsed',s.iconCollapsed);
+    });
+  }
+  function vlsRevealRow(row){
+    for(var p=row;p && p!==document.body;p=p.parentElement){
+      if(p.tagName==='DETAILS') p.open=true;
+      if(p.classList && p.classList.contains('vq-cards')){
+        p.style.display='';
+        var icon=p.parentElement.querySelector('.vq-toggle-icon');
+        if(icon) icon.classList.remove('collapsed');
+      }
+    }
+  }
+
   window[FN_NAME] = function(query){
     query = (query == null) ? '' : String(query).trim();
     var countEl = document.getElementById(COUNT_ID);
@@ -1613,10 +1647,13 @@ textarea:focus,input[type="text"]:focus{
           else g.removeAttribute('open');
         }
       }
+      vlsRestoreSnapshot(); vlsSnapshot=null;
       if(countEl){ countEl.style.setProperty('display','none','important'); countEl.classList.remove(ZERO_CLS); }
       return;
     }
 
+    if(!vlsSnapshot) vlsTakeSnapshot();
+    else vlsRestoreSnapshot();
     var qTokens = normalize(query).split(' ').filter(function(t){ return t.length>0; });
     if(!qTokens.length){ window[FN_NAME](''); return; }
 
@@ -1624,7 +1661,7 @@ textarea:focus,input[type="text"]:focus{
     for(var gi=0; gi<groups.length; gi++){
       var group = groups[gi];
       var head = group.querySelector(HEAD_SEL);
-      var headExpanded = expandSynonyms(normalize(head ? head.textContent : ''));
+      var headExpanded = expandSynonyms(normalize(head ? head.textContent : '')) + ' ' + _pKey(head ? head.textContent : '');
       var headMatch = qTokens.every(function(t){ return tokenInHaystack(headExpanded, t); });
 
       var rows = group.querySelectorAll(ROW_SEL);
@@ -1638,7 +1675,7 @@ textarea:focus,input[type="text"]:focus{
       var widen = (direct === 0 && headMatch);
       var visible = 0;
       for(var rj=0; rj<rows.length; rj++){
-        if(flags[rj] || widen){ rows[rj].style.display=''; visible++; totalMatches++; }
+        if(flags[rj] || widen){ rows[rj].style.display=''; vlsRevealRow(rows[rj]); visible++; totalMatches++; }
         else { rows[rj].style.display='none'; }
       }
 
