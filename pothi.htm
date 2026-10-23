@@ -7779,10 +7779,10 @@ textarea:focus,input[type="text"]:focus{
      • Inline <mark class="vsmark"> highlighting
      • Multi-link publication blocks and individual nested resource URLs
    Config object keeps the 4 era sections and adds Samagra leaf records.
-     A multi-link block is one result; its links remain searchable.
+     A multi-link block, including Nit Naval editions, is one result; its links remain searchable.
    ============================================================ */
 (function(){
-  var CFG = {"section": "details.pothi-era", "head": ".pothi-era-head", "row": ".pothi-card, .pothi-samagra-multi, .pothi-samagra-sub > .pothi-child-novels-list > a", "input": "vsearch", "count": "vsearch-count", "fn": "pothiSearch"};
+  var CFG = {"section": "details.pothi-era", "head": ".pothi-era-head", "row": ".pothi-card, .pothi-samagra-multi, .pothi-samagra-sub > .pothi-child-novels-list > a, .pothi-samagra-sub > .pothi-child-novels-list > .pothi-nit-naval-links", "input": "vsearch", "count": "vsearch-count", "fn": "pothiSearch"};
   var SEC_SEL  = CFG.section;     // section container selector
   var HEAD_SEL = CFG.head;        // clickable/section-title selector inside section
   var ROW_SEL  = CFG.row;         // row/record selector inside section
