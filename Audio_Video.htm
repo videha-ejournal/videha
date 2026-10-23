@@ -2278,6 +2278,49 @@ function vgResizeTool(btn,delta){
     return haystack + ' ' + extras;
   }
 
+
+  // Index each book together with its *own* author's printed heading, not
+  // with the entire category (which would give unrelated matches).
+  var AUTHOR_HOLDERS='.wc-author,.kc-author,.sc-author,.av-group,.pr-author,.iv-group';
+  var AUTHOR_HEADINGS='.wc-author-name,.kc-author-name,.sc-author-name,.av-group-name,.pr-author-name,.iv-group-name';
+  function localAuthorContext(row){
+    var parts=[];
+    for(var par=row.parentElement;par && par!==document.body;par=par.parentElement){
+      if(par.matches && par.matches(AUTHOR_HOLDERS)){
+        var label=null;
+        for(var child=par.firstElementChild;child;child=child.nextElementSibling){
+          if(child.matches && child.matches(AUTHOR_HEADINGS)){label=child;break;}
+        }
+        if(label) parts.push(label.textContent||'');
+      }
+      // Do not accidentally attach unrelated authors from the entire catalogue.
+      if(par.matches && par.matches(SEC_SEL)) break;
+    }
+    return parts.join(' ');
+  }
+  // Author wrappers are visual containers, not search rows. Hide empty
+  // wrappers after filtering and restore their previous display on clear.
+  var AUTHOR_WRAPPERS='.wc-author,.kc-author,.sc-author,.av-group';
+  var originalAuthorDisplay=new WeakMap();
+  function resetAuthorWrappers(){
+    document.querySelectorAll(AUTHOR_WRAPPERS).forEach(function(holder){
+      if(originalAuthorDisplay.has(holder)) holder.style.display=originalAuthorDisplay.get(holder);
+    });
+  }
+  function syncAuthorWrappers(group,tokens){
+    group.querySelectorAll(AUTHOR_WRAPPERS).forEach(function(holder){
+      if(!originalAuthorDisplay.has(holder)) originalAuthorDisplay.set(holder,holder.style.display);
+      var recs=holder.querySelectorAll(ROW_SEL);
+      if(!recs.length)return;
+      var show=Array.from(recs).some(function(rec){return rec.style.display!=='none';});
+      holder.style.display=show?originalAuthorDisplay.get(holder):'none';
+      if(show){
+        var header=holder.querySelector(AUTHOR_HEADINGS);
+        if(header)highlight(header,tokens);
+      }
+    });
+  }
+
   var VLS_HAY_CACHE = new WeakMap();
   function buildHaystack(row){
     if(VLS_HAY_CACHE.has(row)) return VLS_HAY_CACHE.get(row);
@@ -2290,7 +2333,7 @@ function vgResizeTool(btn,delta){
       hrefs += ' ' + h;
       try{ hrefs += ' ' + decodeURIComponent(h); }catch(e){}
     }
-    var raw = rowText + ' ' + dataSearch + ' ' + hrefs;
+    var raw = rowText + ' ' + localAuthorContext(row) + ' ' + dataSearch + ' ' + hrefs;
     var base = expandSynonyms(normalize(raw));
     var hay = base + ' ' + _pKey(raw);
     VLS_HAY_CACHE.set(row,hay);
@@ -2420,6 +2463,7 @@ function vgResizeTool(btn,delta){
     var groups = document.querySelectorAll(SEC_SEL);
 
     clearHighlights();
+    resetAuthorWrappers();
 
     if(!query){
       for(var i=0;i<groups.length;i++){
@@ -2464,6 +2508,7 @@ function vgResizeTool(btn,delta){
         else { rows[rj].style.display='none'; }
       }
 
+      syncAuthorWrappers(group,qTokens);
       if(visible > 0 || headMatch){
         group.style.display = '';
         if(group.tagName === 'DETAILS') group.setAttribute('open','');

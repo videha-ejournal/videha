@@ -1148,6 +1148,7 @@ function normalizeLocal(t){return String(t||'').toLowerCase().replace(/[०-९]
 function cachedText(el){
   let text=searchCache.get(el); if(text)return text;
   let s=(el.textContent||'')+' '+(el.getAttribute('data-search')||'');
+  if(/\bGajendra\s+Thakur\b/i.test(s)) s+=' गजेन्द्र ठाकुर';
   el.querySelectorAll('a[href]').forEach(a=>{const link=a.getAttribute('href')||'';s+=' '+link;
     try{s+=' '+decodeURIComponent(link)}catch(e){}
   });
