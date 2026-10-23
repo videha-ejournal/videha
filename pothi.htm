@@ -690,10 +690,10 @@ textarea:focus,input[type="text"]:focus{
 <!-- ===== Tier 1: Local instant search across all पोथी cards ===== -->
 <p class="vsearch-tip">
 <b style="color:#1F2A44;">📑 स्थानीय खोज</b> — एहि पन्नापर सभ पोथी, ई-पोथी, फॉण्ट, कीबोर्ड, वीडियो, ऑडियो आ डाउनलोड लिंक खोजू (शीर्षक, लेखक, URL सभमे)। 
-  गजेन्द्र ठाकुर समग्रक बन्द खण्डसभक शीर्षक, संसाधन आ लिंक सेहो खोजल जाएत। उदाहरण: <code>विद्यापति</code>, <code>तिरहुता</code>, <code>शब्दकोश</code>, <code>गजल</code>, <code>youtube</code>, <code>सदेह २८</code>, <code>82 SELECTED STORIES</code>।
+  गजेन्द्र ठाकुर समग्रक बन्द खण्डसभक शीर्षक, संसाधन आ लिंक सेहो खोजल जाएत। देवनागरी अथवा Roman phonetic (अंग्रेजी अक्षरमे मैथिली उच्चारण) दुनू सँ खोजू। उदाहरण: <code>विद्यापति</code> / <code>Vidyapati</code>, <code>गजेन्द्र ठाकुर</code> / <code>Gajendra Thakur</code>, <code>Swarn Kamal</code>, <code>Maithili</code>, <code>shabdakosh</code>, <code>youtube</code>, <code>सदेह २८</code>।
 </p>
 <div class="vsearch-bar">
-<input aria-label="खोजू / Search: लेखक, शीर्षक, पोथी, फॉण्ट, वीडियो, URL…" autocomplete="off" class="vsearch-input" id="vsearch" oninput="pothiSearch(this.value)" onkeydown="if(event.key==='Escape'){this.value='';pothiSearch('');}" placeholder="खोजू / Search: लेखक, शीर्षक, पोथी, फॉण्ट, वीडियो, URL…" spellcheck="false" type="search"/>
+<input aria-label="खोजू / Search: देवनागरी या Roman phonetic · लेखक / Title / URL…" autocomplete="off" class="vsearch-input" id="vsearch" oninput="pothiSearchTyped(this.value)" onkeydown="if(event.key==='Escape'){this.value='';pothiSearch('');}" placeholder="खोजू / Search: देवनागरी या Roman phonetic · लेखक / Title / URL…" spellcheck="false" type="search"/>
 <button class="vsearch-clear" onclick="document.getElementById('vsearch').value='';pothiSearch('');document.getElementById('vsearch').focus();" title="Clear (Esc)">✕</button>
 </div>
 <p class="vsearch-count" id="vsearch-count" role="status" aria-live="polite" style="display:none"></p>
@@ -7769,7 +7769,7 @@ textarea:focus,input[type="text"]:focus{
    Ported from videha.htm — the most capable variant.
    Features:
      • Devanagari digit <-> ASCII normalization (८४ = 84)
-     • Cross-script phonetic matching (Devanagari/IAST/ISO/HK/IPA -> roman key)
+     • Cross-script Roman phonetic matching (Devanagari/IAST/Latin variants)
      • Synonym expansion
      • AND-search across whitespace-separated tokens
      • Digit-boundary aware (so "28" does not match inside "1280")
@@ -7860,57 +7860,121 @@ textarea:focus,input[type="text"]:focus{
     return s;
   }
 
-  // ── Cross-script phonetic normalisation ──
-  var _D2P = [
-    ['क्ष','ksh'],['ज्ञ','gn'],['त्र','tr'],
-    ['ख','kh'],['घ','gh'],['छ','ch'],['झ','jh'],
-    ['ठ','th'],['ढ','dh'],['थ','th'],['ध','dh'],['फ','ph'],['भ','bh'],
-    ['क','k'],['ग','g'],['ङ','ng'],['च','ch'],['ज','j'],['ञ','n'],
-    ['ट','t'],['ड','d'],['ण','n'],['त','t'],['द','d'],['न','n'],
-    ['प','p'],['ब','b'],['म','m'],['य','y'],['र','r'],['ल','l'],['व','v'],
-    ['श','sh'],['ष','sh'],['स','s'],['ह','h'],['ड़','r'],['ढ़','rh'],
-    ['अ','a'],['आ','a'],['इ','i'],['ई','i'],['उ','u'],['ऊ','u'],
-    ['ए','e'],['ऐ','ai'],['ओ','o'],['औ','au'],['ऋ','ri'],['ॠ','ri'],['ऌ','l'],
-    ['ा','a'],['ि','i'],['ी','i'],['ु','u'],['ू','u'],
-    ['े','e'],['ै','ai'],['ो','o'],['ौ','au'],['ृ','ri'],
-    ['ं','n'],['ँ','n'],['ः','h'],['्',''],['।',''],['॥',''],
-  ];
-  var _RM = [
-    ['ā','a'],['Ā','a'],['ī','i'],['Ī','i'],['ū','u'],['Ū','u'],
-    ['ē','e'],['Ē','e'],['ō','o'],['Ō','o'],
-    ['ṭh','th'],['ḍh','dh'],['ṭ','t'],['ḍ','d'],
-    ['ṇ','n'],['ṅ','ng'],['ñ','n'],['ṣ','sh'],['ś','sh'],
-    ['ṛ','ri'],['ṝ','ri'],['ḷ','l'],['ṃ','n'],['ḥ','h'],['m̐','n'],
-    ['ṉ','n'],['ḻ','l'],['Th','th'],['Dh','dh'],
-    ['ʈh','th'],['ɖh','dh'],['ʈ','t'],['ɖ','d'],
-    ['ɳ','n'],['ŋ','ng'],['ɲ','n'],['ʂ','sh'],['ɕ','sh'],
-    ['ɟ','j'],['tʃ','ch'],['dʒ','j'],
-    ['pʰ','ph'],['bʱ','bh'],['tʰ','th'],['dʱ','dh'],
-    ['kʰ','kh'],['gʱ','gh'],['tʃʰ','ch'],['dʒʱ','jh'],
-    ['ɦ','h'],['ʋ','v'],['ɽ','r'],
-    ['aː','a'],['iː','i'],['uː','u'],['eː','e'],['oː','o'],
-    ['ɑː','a'],['ɑ','a'],['ə','a'],['ɪ','i'],['ʊ','u'],
-    ['r̥','ri'],['ɹ̩','ri'],['l̥','l'],
-    ["'",''],["'",''],["ʼ",''],["'",''],["ʻ",''],['ː',''],['̃',''],['ʰ','h'],
-  ];
-  var _CL = [
-    ['w','v'],['f','ph'],['x','ksh'],['q','k'],['z','j'],['sh','s'],
-    ['aa','a'],['ee','i'],['ii','i'],['oo','u'],['uu','u'],
-    ['ai','e'],['au','o'],
-    ['kk','k'],['gg','g'],['cc','c'],['jj','j'],['tt','t'],['dd','d'],
-    ['pp','p'],['bb','b'],['mm','m'],['nn','n'],['ll','l'],['rr','r'],
-    ['ss','s'],['hh','h'],['vv','v'],['yy','y'],['rii','ri'],['ru','ri'],
-  ];
-  function _pKey(text){
-    if(!text) return '';
-    var s = String(text);
-    if(/[\u0900-\u097F]/.test(s)){ for(var i=0;i<_D2P.length;i++) s=s.split(_D2P[i][0]).join(_D2P[i][1]); }
-    for(var i=0;i<_RM.length;i++) s=s.split(_RM[i][0]).join(_RM[i][1]);
-    s=s.toLowerCase();
-    for(var i=0;i<_CL.length;i++) s=s.split(_CL[i][0]).join(_CL[i][1]);
-    return s.replace(/[^a-z0-9 ]/g,'').replace(/\s+/g,' ').trim();
+  // ── Roman phonetic search: actual Devanagari syllable transliteration ──
+  // A local, offline search aid (NOT translation and not an input-method editor).
+  // Supports Maithili/Hindi names, conventional spellings, vowel-length variation,
+  // IAST romanization and common regional b/v or aspirate variants.
+  var CONS = {
+    'क':'k','ख':'kh','ग':'g','घ':'gh','ङ':'ng',
+    'च':'ch','छ':'chh','ज':'j','झ':'jh','ञ':'n',
+    'ट':'t','ठ':'th','ड':'d','ढ':'dh','ण':'n',
+    'त':'t','थ':'th','द':'d','ध':'dh','न':'n',
+    'प':'p','फ':'ph','ब':'b','भ':'bh','म':'m',
+    'य':'y','र':'r','ल':'l','व':'v',
+    'श':'sh','ष':'sh','स':'s','ह':'h',
+    'ळ':'l','क़':'q','ख़':'kh','ग़':'gh','ज़':'z',
+    'ड़':'r','ढ़':'rh','फ़':'f','य़':'y'
+  };
+  var VOWELS = {
+    'अ':'a','आ':'aa','इ':'i','ई':'ee','उ':'u','ऊ':'oo',
+    'ऋ':'ri','ॠ':'ri','ऌ':'li','ए':'e','ऐ':'ai','ओ':'o','औ':'au',
+    'ऑ':'o','ऍ':'e'
+  };
+  var SIGNS = {
+    'ा':'aa','ि':'i','ी':'ee','ु':'u','ू':'oo','ृ':'ri','ॄ':'ri',
+    'ॢ':'li','े':'e','ै':'ai','ो':'o','ौ':'au','ॉ':'o','ॅ':'e'
+  };
+  var NUKTA_CONS = {'क':'q','ख':'kh','ग':'gh','ज':'z','ड':'r','ढ':'rh','फ':'f','य':'y'};
+  function romanizeDevanagari(text){
+    return String(text || '').replace(/[\u0900-\u097F]+/g, function(word){
+      var result = '';
+      for(var i=0; i<word.length; i++){
+        var ch=word[i], c=CONS[ch];
+        if(c){
+          if(word[i+1] === '़') {c = NUKTA_CONS[ch] || c; i++;}
+          var next=word[i+1];
+          if(next === '्') {result+=c; i++;}
+          else if(Object.prototype.hasOwnProperty.call(SIGNS,next)) {result+=c+SIGNS[next]; i++;}
+          else result+=c+'a';
+        } else if(Object.prototype.hasOwnProperty.call(VOWELS,ch)) result+=VOWELS[ch];
+        else if(ch==='ं' || ch==='ँ') result+='n';
+        else if(ch==='ः') result+='h';
+        else if(DEV_DIGITS[ch] !== undefined) result+=DEV_DIGITS[ch];
+        // Ignore standalone nukta, virama and punctuation marks.
+      }
+      return result;
+    });
   }
-  function _stripVC(s){ return s.replace(/[aeiou]/g,'').replace(/(.)\1+/g,'$1'); }
+  function romanKey(s, relaxed){
+    s=String(s||'').toLowerCase();
+    s=s.replace(/ā|ă|â|á|à|ä/g,'a').replace(/ī|í|ì|ï/g,'i')
+      .replace(/ū|ú|ù|ü/g,'u').replace(/ē|é|è/g,'e')
+      .replace(/ō|ó|ò/g,'o').replace(/ṛ|ṝ/g,'ri')
+      .replace(/ṭ/g,'t').replace(/ḍ/g,'d').replace(/ṇ|ñ/g,'n')
+      .replace(/ṅ/g,'ng').replace(/ś|ṣ/g,'sh').replace(/ṃ|ṁ|m̐/g,'n')
+      .replace(/ḥ/g,'h').replace(/[ʼʹ’']/g,'');
+    s=s.replace(/kṣ/g,'ksh').replace(/jñ/g,'jn');
+    s=s.replace(/gny|dny|gy|gn(?=[aeiou])|jn(?=[aeiou])/g,'jn');
+    s=s.replace(/sh/g,'s').replace(/ph/g,'f').replace(/w/g,'v');
+    s=s.replace(/aa/g,'a').replace(/ee|ii/g,'i').replace(/oo|uu/g,'u');
+    s=s.replace(/ai/g,'e').replace(/au/g,'o');
+    s=s.replace(/([aeiou])\1+/g,'$1');
+    if(relaxed){
+      s=s.replace(/chh/g,'ch').replace(/ch/g,'c')
+        .replace(/kh/g,'k').replace(/gh/g,'g')
+        .replace(/th/g,'t').replace(/dh/g,'d').replace(/bh/g,'b')
+        .replace(/jh/g,'j').replace(/[bv]/g,'v')
+        .replace(/z/g,'j');
+    }
+    return s.replace(/[^a-z0-9]/g,'');
+  }
+  function stemFinalA(s){return s.length>3 && s.endsWith('a') ? s.slice(0,-1):s;}
+  function consonants(s){return s.replace(/[aeiou]/g,'').replace(/(.)\1+/g,'$1');}
+  function comparablePhonetic(queryWord, targetWord, loose){
+    var q=romanKey(queryWord,loose), t=romanKey(targetWord,loose);
+    if(q.length<2 || t.length<2) return false;
+    if(t.indexOf(q)!==-1 || stemFinalA(t).indexOf(q)!==-1) return true;
+    if(q===stemFinalA(t) || stemFinalA(q)===t || stemFinalA(q)===stemFinalA(t)) return true;
+    if(!loose && queryWord.length>=5){
+      var a=consonants(q), b=consonants(t);
+      // Only compare within one word; skeletons spanning URLs/words caused
+      // broad false positives (e.g., "shree" matching most of the archive).
+      if(a.length>=3 && b.length>=3 && a===b) return true;
+    }
+    return false;
+  }
+  function phoneticWords(raw){
+    var txt=romanizeDevanagari(raw);
+    var seen=new Set(), words=[];
+    (txt.match(/[a-zA-ZÀ-žḀ-ỿ0-9]+/g)||[]).forEach(function(w){
+      var strict=romanKey(w,false);
+      if(!strict || seen.has(strict))return;
+      seen.add(strict);
+      words.push({strict:strict, loose:romanKey(w,true),
+        skeleton:consonants(strict)});
+    });
+    return words;
+  }
+  function comparableCompiled(q,w,relaxed){
+    var a=relaxed?q.loose:q.strict, b=relaxed?w.loose:w.strict;
+    if(a.length<2 || b.length<2)return false;
+    if(b.indexOf(a)!==-1 || stemFinalA(b).indexOf(a)!==-1) return true;
+    if(a===stemFinalA(b) || stemFinalA(a)===b || stemFinalA(a)===stemFinalA(b)) return true;
+    if(!relaxed && q.rawLength>=5 && q.skeleton.length>=3 &&
+       w.skeleton.length>=3 && q.skeleton===w.skeleton) return true;
+    return false;
+  }
+  var QUERY_CACHE=new Map();
+  function queryKey(token){
+    if(QUERY_CACHE.has(token))return QUERY_CACHE.get(token);
+    var latin=romanizeDevanagari(token);
+    var strict=romanKey(latin,false);
+    var q={strict:strict, loose:romanKey(latin,true),
+      skeleton:consonants(strict), rawLength:latin.length};
+    QUERY_CACHE.set(token,q);
+    if(QUERY_CACHE.size>160)QUERY_CACHE.clear();
+    return q;
+  }
 
   function expandSynonyms(haystack){
     var extras = '';
@@ -7918,38 +7982,47 @@ textarea:focus,input[type="text"]:focus{
     return haystack + ' ' + extras;
   }
 
-  // Cache search text for the static archive: avoids rebuilding 1,400+ rows on each keystroke.
+  // Cache both exact text/URLs and phonetic *visible-text* words. URLs stay
+  // searchable literally, but aren't interpreted as Maithili pronunciations.
   var HAY_CACHE = new WeakMap();
+  function makeIndex(visibleText, hrefs){
+    var searchable = expandSynonyms(normalize(visibleText+' '+(hrefs||'')));
+    var words=phoneticWords(visibleText+' '+expandSynonyms(normalize(visibleText)));
+    return {literal: searchable, words: words, urlWords: phoneticWords(hrefs || '')};
+  }
   function buildHaystack(row){
     if(HAY_CACHE.has(row)) return HAY_CACHE.get(row);
-    var rowText = row.textContent || '';
-    var dataSearch = row.getAttribute('data-search') || '';
-    var hrefs = '';
-    // A standalone Samagra link is itself the result; querySelectorAll excludes self.
-    var links = row.matches('a[href]') ? [row] : Array.from(row.querySelectorAll('a[href]'));
+    var visible=(row.textContent||'')+' '+(row.getAttribute('data-search')||'');
+    var hrefs='';
+    var links=row.matches('a[href]')?[row]:Array.from(row.querySelectorAll('a[href]'));
     for(var i=0;i<links.length;i++){
-      var h = links[i].getAttribute('href') || '';
-      hrefs += ' ' + h;
-      try{ hrefs += ' ' + decodeURIComponent(h); }catch(e){}
+      var h=links[i].getAttribute('href')||'';
+      hrefs+=' '+h;
+      try{hrefs+=' '+decodeURIComponent(h);}catch(e){}
     }
-    var raw = rowText + ' ' + dataSearch + ' ' + hrefs;
-    var base = expandSynonyms(normalize(raw));
-    var searchable = base + ' ' + _pKey(raw);
-    HAY_CACHE.set(row, searchable);
-    return searchable;
+    var index=makeIndex(visible,hrefs);
+    HAY_CACHE.set(row,index);
+    return index;
   }
-
-  function tokenInHaystack(haystack, token){
+  function tokenInHaystack(index, token){
+    var haystack=index.literal;
     if(/^\d+$/.test(token)){
-      var re = new RegExp('(^|[^0-9])' + token + '([^0-9]|$)');
-      return re.test(haystack);
+      return new RegExp('(^|[^0-9])'+token+'([^0-9]|$)').test(haystack);
     }
-    if(haystack.indexOf(token) !== -1) return true;
-    if(token.length >= 2){
-      var tokKey = _pKey(token);
-      if(tokKey && haystack.indexOf(tokKey) !== -1) return true;
-      var tv = _stripVC(tokKey);
-      if(tv.length >= 2 && _stripVC(haystack).indexOf(tv) !== -1) return true;
+    if(haystack.indexOf(token)!==-1) return true;
+    if(token.length<2) return false;
+    var q=queryKey(token);
+    if(!q.strict) return false;
+    var words=index.words;
+    // Devanagari titles can also be identified from romanized PDF URLs.
+    if(/[\u0900-\u097F]/.test(token)) words=words.concat(index.urlWords);
+    for(var i=0;i<words.length;i++){
+      if(comparableCompiled(q,words[i],false)) return true;
+    }
+    if(q.rawLength>=5){
+      for(var j=0;j<words.length;j++){
+        if(comparableCompiled(q,words[j],true)) return true;
+      }
     }
     return false;
   }
@@ -7984,6 +8057,21 @@ textarea:focus,input[type="text"]:focus{
           idx += Math.max(tok.length,1);
         }
       });
+      // Roman input also highlights the corresponding Devanagari word.
+      // No translation API or online font is required for this feature.
+      var devWord=/[\u0900-\u097F]+/g, match;
+      while((match=devWord.exec(original))!==null){
+        var candidate=romanizeDevanagari(match[0]);
+        for(var k=0;k<tokens.length;k++){
+          var tok=tokens[k];
+          if(tok.length<3 || !/[a-z]/i.test(tok) || /[\u0900-\u097F]/.test(tok)) continue;
+          if(comparablePhonetic(tok,candidate,false) ||
+            (tok.length>=5 && comparablePhonetic(tok,candidate,true))){
+            ranges.push([match.index,match.index+match[0].length]);
+            break;
+          }
+        }
+      }
       if(!ranges.length) return;
       ranges.sort(function(a,b){ return a[0]-b[0]; });
       var merged = [ranges[0].slice()];
@@ -8033,11 +8121,18 @@ textarea:focus,input[type="text"]:focus{
     });
   }
   function matchesAll(text, tokens){
-    var h = expandSynonyms(normalize(text || '')) + ' ' + _pKey(text || '');
+    var h = makeIndex(text || '', '');
     return tokens.every(function(t){return tokenInHaystack(h, t);});
   }
 
+  // Coalesce keystrokes so the 1,400-entry archive remains responsive.
+  var typeTimer = null;
+  window.pothiSearchTyped = function(query){
+    if(typeTimer !== null) clearTimeout(typeTimer);
+    typeTimer = setTimeout(function(){typeTimer=null;window[FN_NAME](query);},140);
+  };
   window[FN_NAME] = function(query){
+    if(typeTimer !== null){clearTimeout(typeTimer);typeTimer=null;}
     query = (query == null) ? '' : String(query).trim();
     var countEl = document.getElementById(COUNT_ID);
     var groups = Array.from(document.querySelectorAll(SEC_SEL));
