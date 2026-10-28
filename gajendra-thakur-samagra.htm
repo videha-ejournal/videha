@@ -972,6 +972,10 @@ english.push(
   multi("Jal Samadhi Among the Crocodiles [A Novel for Young Readers]",[["PDF", "https://videha-ejournal.github.io/videha-ejournal/Water_Burial_Young.pdf"]],'Gajendra Thakur — English translation from Maithili'),
   multi("CODE NAME THE CROCODILE IN THE DEPTHS [A Novel for Young Readers]",[["PDF", "https://videha-ejournal.github.io/videha-ejournal/CODE_NAME.pdf"], ["Google Playbook", "https://play.google.com/store/books/details?id=AAkjEgAAQBAJ"]],'Gajendra Thakur — English translation from Maithili')
 );
+/* NEW WINGS: English translation / collected works / author bibliography. */
+main.push(multi("NEW WINGS [Stories for Young Reader]",[["PDF","https://videha-ejournal.github.io/videha-ejournal/New_Wings.pdf"]],"Gajendra Thakur — English translation from Maithili"));
+translations.push(multi("NEW WINGS [Stories for Young Reader]",[["PDF","https://videha-ejournal.github.io/videha-ejournal/New_Wings.pdf"]],"Gajendra Thakur — English translation from Maithili"));
+english.push(multi("NEW WINGS [Stories for Young Reader]",[["PDF","https://videha-ejournal.github.io/videha-ejournal/New_Wings.pdf"]],"Gajendra Thakur — English translation from Maithili"));
 // Curated "गजेन्द्र ठाकुर समग्र" block — taxonomy from samagra.docx; links reused from 00 मुख्य समग्र.
 const samagraNorm=s=>(s||'').normalize('NFKC').toLocaleLowerCase().replace(/[\s\-–—:;,.·'’"“”()\[\]\/]+/g,'');
 function samagraFind(q){
@@ -1137,6 +1141,7 @@ samagraRender('gt-ed-translation',[
  {q:'A Water Burial Among the Crocodiles [A Children’s Novel]'},
  {q:'Jal Samadhi Among the Crocodiles [A Novel for Young Readers]'},
  {q:'CODE NAME THE CROCODILE IN THE DEPTHS [A Novel for Young Readers]'},
+ {q:'NEW WINGS [Stories for Young Reader]'},
  {q:'FIVE PERCENT DARKNESS'},
  {q:'गजेन्द्र ठाकुर समग्र अनुवाद खण्ड'},
  {q:'भामती (वाचस्पति)'},{q:'आत्मतत्त्वविवेक (उदयन)'},{q:'न्यायकुसुमाञ्जलि (उदयन)'},{q:'तत्त्वचिन्तामणि (गंगेश)'},
@@ -1163,6 +1168,7 @@ document.getElementById('child-links').insertAdjacentHTML('beforeend', [
   "<a class=\"gt-searchable\" href=\"https://videha-ejournal.github.io/videha-ejournal/Water_Burial_Children.pdf\" target=\"_blank\" rel=\"noopener\">A Water Burial Among the Crocodiles [A Children’s Novel] — PDF ↗</a>",
   "<a class=\"gt-searchable\" href=\"https://play.google.com/store/books/details?id=cg8jEgAAQBAJ\" target=\"_blank\" rel=\"noopener\">A Water Burial Among the Crocodiles [A Children’s Novel] — Google Playbook ↗</a>",
   "<a class=\"gt-searchable\" href=\"https://videha-ejournal.github.io/videha-ejournal/Water_Burial_Young.pdf\" target=\"_blank\" rel=\"noopener\">Jal Samadhi Among the Crocodiles [A Novel for Young Readers] — PDF ↗</a>",
+  "<a class=\"gt-searchable\" href=\"https://videha-ejournal.github.io/videha-ejournal/New_Wings.pdf\" target=\"_blank\" rel=\"noopener\">NEW WINGS [Stories for Young Reader] — PDF ↗</a>",
   "<a class=\"gt-searchable\" href=\"https://videha-ejournal.github.io/videha-ejournal/CODE_NAME.pdf\" target=\"_blank\" rel=\"noopener\">CODE NAME THE CROCODILE IN THE DEPTHS [A Novel for Young Readers] — PDF ↗</a>",
   "<a class=\"gt-searchable\" href=\"https://play.google.com/store/books/details?id=AAkjEgAAQBAJ\" target=\"_blank\" rel=\"noopener\">CODE NAME THE CROCODILE IN THE DEPTHS [A Novel for Young Readers] — Google Playbook ↗</a>",
 ].join(''));
