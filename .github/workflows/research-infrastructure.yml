@@ -63,6 +63,8 @@ jobs:
         run: python3 --version
       - name: Build canonical metadata, sitemaps, TEI, IIIF, citation authority and fixity
         run: python3 scholar-tools/build_research_infrastructure.py
+      - name: Apply shared Videha shell to every research article
+        run: python3 tools/migrate_legacy_research_shell.py
       - name: Generate Scholar Research Book from canonical article inventory
         run: python3 scholar-tools/build_research_book.py
       - name: Preserve Issue 451 author and genre annexure placement

@@ -1950,3 +1950,5 @@ pre{max-width:100%;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;}
 @media(max-width:420px){
   .videha-subscribe-strip{padding:12px 10px;font-size:13px;}
 }
+/* Shared shell for legacy and new research article pages. */
+.videha-migration-header{display:flex;justify-content:space-between;gap:1rem;align-items:center;flex-wrap:wrap;padding:.75rem 1rem;margin:0 auto 1.25rem;max-width:1100px;background:#faf6ee;border-bottom:3px solid #8b1a1a;font-family:Georgia,'Noto Serif Devanagari',serif}.videha-migration-header a{color:#7d1414;text-decoration:none;font-weight:700}.videha-migration-header nav{font-size:.95rem}.videha-migration-footer{max-width:1100px;margin:2rem auto 0;padding:1rem;border-top:2px solid #8b1a1a;text-align:center;font-family:Georgia,'Noto Serif Devanagari',serif}.videha-migration-footer a{color:#7d1414}@media(max-width:700px){.videha-migration-header{display:block;padding:.7rem}.videha-migration-header nav{margin-top:.5rem}body{max-width:100%;overflow-x:hidden}img,table{max-width:100%;height:auto}article{overflow-wrap:anywhere}}
