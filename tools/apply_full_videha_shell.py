@@ -6,6 +6,7 @@ header=header.replace('<h2>विदेह — प्रथम मैथिल�
 changed=0
 for p in Path('.').rglob('*'):
  if not p.is_file() or p.suffix.lower() not in {'.htm','.html'} or '.git' in p.parts or '_pagefind_build' in p.parts: continue
+ if p.parent == Path('.'): continue
  if p.name in {'google7d0b1633a9939d34.html','universal-search-embed-snippet.html'}: continue
  s=p.read_text(encoding='utf8',errors='ignore')
  s=re.sub(r'<header class="videha-full-header">.*?</header>',header,s,count=1,flags=re.S)
