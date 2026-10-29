@@ -11,7 +11,7 @@ for p in Path('.').rglob('*'):
  s=re.sub(r'<header class="(?:videha-migration|videha-search|videha-unified)-header">.*?</header>',header,s,count=1,flags=re.S)
  s=re.sub(r'<header class="vds-head">.*?</header>',header,s,count=1,flags=re.S)
  s=re.sub(r'<footer class="(?:videha-migration|videha-search|videha-unified)-footer">.*?</footer>',footer,s,count=1,flags=re.S)
- if '<header class="videha-full-header">' not in s and '<body>' in s: s=s.replace('<body>','<body>'+header,1)
+ if '<header class="videha-full-header">' not in s and '<body' in s: s=re.sub(r'(<body[^>]*>)',r'\1'+header,s,count=1)
  if '<footer class="videha-full-footer">' not in s and '</body>' in s: s=s.replace('</body>',footer+'</body>',1)
  p.write_text(s,encoding='utf8');changed+=1
 print('updated',changed)
