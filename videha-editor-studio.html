@@ -85,8 +85,8 @@ footer.foot{text-align:center;font-size:.85rem;color:var(--v-ink-soft);padding:1
 <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 <link rel="icon" type="image/png" sizes="256x256" href="assets/img/favicon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-</head>
-<body>
+<link rel="stylesheet" href="./assets/css/videha.css"></head>
+<body><header class="videha-unified-header"><a href="https://videha-ejournal.github.io/videha/">VIDEHA · प्रथम मैथिली पाक्षिक eJournal</a><nav><a href="https://videha-ejournal.github.io/videha/research/index.htm">Research</a> · <a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html">Archive</a></nav></header>
 <a class="skip-link" href="#main">मुख्य सामग्री पर जाउ / Skip to main content</a>
 <div class="wrap">
 <header class="mast">
@@ -860,7 +860,7 @@ function runAudit(){
       ggUrl=$("ggUrl").value.trim(), rssUrl=$("rssUrl").value.trim();
   function injHead(t,frag){ return /<\/head\s*>/i.test(t)? t.replace(/<\/head\s*>/i,frag+"\n</head>") : frag+"\n"+t; }
   function injAfterBody(t,frag){ return /<body\b[^>]*>/i.test(t)? t.replace(/(<body\b[^>]*>)/i,"$1\n"+frag) : frag+"\n"+t; }
-  function injBeforeBodyEnd(t,frag){ return /<\/body\s*>/i.test(t)? t.replace(/<\/body\s*>/i,frag+"\n</body>") : t+"\n"+frag; }
+  function injBeforeBodyEnd(t,frag){ return /<\/body\s*>/i.test(t)? t.replace(/<\/body\s*>/i,frag+"\n<footer class="videha-unified-footer"><a href="https://videha-ejournal.github.io/videha/">VIDEHA Home</a> · ISSN 2229-547X</footer></body>") : t+"\n"+frag; }
 
   var fileSet = {}; Object.keys(files).forEach(function(p){ fileSet[p]=1; });
   var lowerMap = {}; Object.keys(files).forEach(function(p){ lowerMap[p.toLowerCase()]=p; });
