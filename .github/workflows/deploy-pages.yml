@@ -7,7 +7,7 @@ on:
     branches: [main]
     paths:
       - 'research/**'
-        - 'search-documents/**'
+      - 'search-documents/**'
       - 'data/**'
       - '*.htm'
       - '*.html'
