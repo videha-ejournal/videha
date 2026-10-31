@@ -1204,6 +1204,258 @@ function attachRepositoryPdfByQuery(query,file,label='Repository PDF'){
  ['ए.आइ. सँ वीडियो बनाउ','GAJENDRA_THAKUR_SAMAGRA_AI_VIDEO.pdf'],
  ['मैथिली रेडियो नाटक: स्वयं सीखू मार्गदर्शिका','GAJENDRA_THAKUR_SAMAGRA_MAITHILI_RADIO_NATAK.pdf']
 ].forEach(entry=>attachRepositoryPdfByQuery(entry[0],entry[1],entry[2]));
+// Section 00 only: curated local PDF corpus metadata and reading order.
+// The other sections continue to use their existing independent source records.
+const gtCorpusNewBooks=[
+  {
+    "title": "गोहि सभक बीच जलसमाधि (मैथिलीक आइ धरिक सभसँ पैघ उपन्यास) [बाल संस्करण]",
+    "author": "गजेन्द्र ठाकुर",
+    "file": "Gohi_Jalsamadhi_Bal_Sanskaran.pdf",
+    "group": "01 उपन्यास"
+  },
+  {
+    "title": "गोहि सभक बीच जलसमाधि (मैथिलीक आइ धरिक सभसँ पैघ उपन्यास) [किशोर संस्करण]",
+    "author": "गजेन्द्र ठाकुर",
+    "file": "Gohi_Jalsamadhi_Kishor_Sanskaran.pdf",
+    "group": "01 उपन्यास"
+  },
+  {
+    "title": "पाँच प्रतिशत अन्हार (उपन्यास)",
+    "author": "गजेन्द्र ठाकुर",
+    "file": "5_Pratishat_Anhar.pdf",
+    "group": "01 उपन्यास"
+  },
+  {
+    "title": "Five Percent Darkness",
+    "author": "Gajendra Thakur · English translation",
+    "file": "5_Percent_Darkness.pdf",
+    "group": "12 अनुवाद"
+  },
+  {
+    "title": "गजेन्द्र ठाकुरक ८२ टा चयनित कथा",
+    "author": "गजेन्द्र ठाकुर · चयन आ सम्पादन: आशीष अनचिन्हार",
+    "file": "Gajendra_Thakur_Chayanit_Katha.pdf",
+    "group": "02 कथा-संग्रह"
+  },
+  {
+    "title": "Gajendra Thakur's 82 Selected Stories from his Ten Maithili Collections",
+    "author": "Gajendra Thakur · English selected stories",
+    "file": "Gajendra_Thakur_82_Selected_Stories.pdf",
+    "group": "12 अनुवाद"
+  },
+  {
+    "title": "विदेह शुद्ध मैथिली लेखन शैली निर्देशिका",
+    "author": "विदेह · लेखन-शैली निर्देशिका",
+    "file": "VIDEHA_STYLE_MANUAL_MAITHILI.pdf",
+    "group": "09 व्याकरण आ भाषा विज्ञान"
+  },
+  {
+    "title": "विदेह ठेठी-अंगिका लेखन शैली निर्देशिका",
+    "author": "विदेह · लेखन-शैली निर्देशिका",
+    "file": "VIDEHA_STYLE_MANUAL_THETHI_ANGIKA.pdf",
+    "group": "09 व्याकरण आ भाषा विज्ञान"
+  },
+  {
+    "title": "विदेह बज्जिका लेखन शैली निर्देशिका",
+    "author": "विदेह · लेखन-शैली निर्देशिका",
+    "file": "VIDEHA_STYLE_MANUAL_BAJJIKA.pdf",
+    "group": "09 व्याकरण आ भाषा विज्ञान"
+  },
+  {
+    "title": "नित नवल आशीष अनचिन्हार",
+    "author": "विदेह · नित नवल",
+    "file": "Nit_Naval_Anchinhar.pdf",
+    "group": "05 समालोचना"
+  },
+  {
+    "title": "नित नवल कुमार पवन",
+    "author": "विदेह · नित नवल",
+    "file": "Nit_Naval_Kumar_Pawan.pdf",
+    "group": "05 समालोचना"
+  },
+  {
+    "title": "नित नवल बेचन ठाकुर",
+    "author": "विदेह · नित नवल",
+    "file": "Nit_Naval_Bechan.pdf",
+    "group": "05 समालोचना"
+  },
+  {
+    "title": "नित नवल नन्द कुमार मिश्र ’नन्द’",
+    "author": "विदेह · नित नवल",
+    "file": "Nit_Naval_Nand.pdf",
+    "group": "05 समालोचना"
+  },
+  {
+    "title": "नित नवल योगानन्द झा",
+    "author": "विदेह · नित नवल",
+    "file": "Nit_Naval_Yoganand_Jha.pdf",
+    "group": "05 समालोचना"
+  },
+  {
+    "title": "नित नवल ललिता झा",
+    "author": "विदेह · नित नवल",
+    "file": "Nit_Naval_Lalita_Jha.pdf",
+    "group": "05 समालोचना"
+  },
+  {
+    "title": "नित नवल वीरेन्द्र मल्लिक",
+    "author": "विदेह · नित नवल",
+    "file": "Nit_Naval_Virendra_Mallick.pdf",
+    "group": "05 समालोचना"
+  },
+  {
+    "title": "नित नवल कमला चौधरी",
+    "author": "विदेह · नित नवल",
+    "file": "Nit_Naval_Kamla_Chaudhary.pdf",
+    "group": "05 समालोचना"
+  },
+  {
+    "title": "नित नवल कुणाल",
+    "author": "विदेह · नित नवल",
+    "file": "NIT_NAVAL_KUNAL.pdf",
+    "group": "05 समालोचना"
+  },
+  {
+    "title": "नित नवल परमेश्वर कापड़ि",
+    "author": "विदेह · नित नवल",
+    "file": "Nit_Naval_Parmeshwar_Kapari.pdf",
+    "group": "05 समालोचना"
+  },
+  {
+    "title": "विदेह सदेह १–३७ विस्तृत अध्ययन — 54,192 प्रश्न",
+    "author": "विदेह · शोध आ अध्ययन",
+    "file": "VIDEHA_SADEHA_01_37_QUIZ.pdf",
+    "group": "05 समालोचना"
+  },
+  {
+    "title": "A Water Burial Among the Crocodiles [A Children's Novel]",
+    "author": "Gajendra Thakur · children’s English edition",
+    "file": "Water_Burial_Children.pdf",
+    "group": "12 अनुवाद"
+  },
+  {
+    "title": "Jal Samadhi Among the Crocodiles [A Novel for Young Readers]",
+    "author": "Gajendra Thakur · young readers’ English edition",
+    "file": "Water_Burial_Young.pdf",
+    "group": "12 अनुवाद"
+  },
+  {
+    "title": "CODE NAME THE CROCODILE IN THE DEPTHS [A Novel for Young Readers]",
+    "author": "Gajendra Thakur · young readers’ English edition",
+    "file": "CODE_NAME.pdf",
+    "group": "12 अनुवाद"
+  },
+  {
+    "title": "NEW WINGS",
+    "author": "Gajendra Thakur · English stories for young readers",
+    "file": "New_Wings.pdf",
+    "group": "12 अनुवाद"
+  },
+  {
+    "title": "NAVYA NYAYA AND THE OFFSHORE GAMBLING WEB",
+    "author": "Gajendra Thakur · English edition",
+    "file": "NAVYA_NYAYA_AND_THE_OFFSHORE_GAMBLING_WEB_ENGLISH.pdf",
+    "group": "12 अनुवाद"
+  },
+  {
+    "title": "The Translator",
+    "author": "Gajendra Thakur · English edition",
+    "file": "The_Translator.pdf",
+    "group": "12 अनुवाद"
+  },
+  {
+    "title": "THE HUNDRED-STORY TRILOGY VOLUME I-III",
+    "author": "Gajendra Thakur · English collected edition",
+    "file": "The_Hundred-Story_Trilogy.pdf",
+    "group": "12 अनुवाद"
+  },
+  {
+    "title": "THREE STREAMS OF STORIES VOLUME I-III",
+    "author": "Gajendra Thakur · English collected edition",
+    "file": "Three_Streams_of_Stories.pdf",
+    "group": "12 अनुवाद"
+  },
+  {
+    "title": "LIGHT: Stories Across Lifetimes",
+    "author": "Gajendra Thakur · English edition",
+    "file": "LIGHT.pdf",
+    "group": "12 अनुवाद"
+  },
+  {
+    "title": "THE OTHER SIDE OF MEMORY",
+    "author": "Gajendra Thakur · English edition",
+    "file": "The_Other_Side_of_Memory.pdf",
+    "group": "12 अनुवाद"
+  },
+  {
+    "title": "THE SEVENTH WITNESS",
+    "author": "Gajendra Thakur · English edition",
+    "file": "The_Seventh_Witness.pdf",
+    "group": "12 अनुवाद"
+  },
+  {
+    "title": "MONGOOSE AMONG THE MONITOR LIZARDS",
+    "author": "Gajendra Thakur · English edition",
+    "file": "Mongoose_Among_the_Monitor_Lizards.pdf",
+    "group": "12 अनुवाद"
+  },
+  {
+    "title": "THE NAME WRITTEN WITHIN THE LEAF",
+    "author": "Gajendra Thakur · English edition",
+    "file": "The_Name_Written_Within_The_Leaf.pdf",
+    "group": "12 अनुवाद"
+  },
+  {
+    "title": "JAL-PANJI: WATER REGISTER",
+    "author": "Gajendra Thakur · English edition",
+    "file": "WATER_REGISTER.pdf",
+    "group": "12 अनुवाद"
+  }
+];
+for(const book of gtCorpusNewBooks){
+  if(gajendraPdfCorpus.some(x=>x.title===book.title || x.file===book.file))
+    throw new Error('Duplicate local PDF corpus entry: '+book.title);
+  gajendraPdfCorpus.push(book);
+}
+function gtCorpusIndex(t){
+  const i=gajendraPdfCorpus.findIndex(x=>x.title===t);
+  if(i<0)throw new Error('Missing corpus title: '+t);
+  return i;
+}
+function gtCorpusRename(from,to){
+  gajendraPdfCorpus[gtCorpusIndex(from)].title=to;
+}
+function gtCorpusMoveAfter(t,anchor){
+  const book=gajendraPdfCorpus.splice(gtCorpusIndex(t),1)[0];
+  gajendraPdfCorpus.splice(gtCorpusIndex(anchor)+1,0,book);
+}
+function gtCorpusMoveBefore(t,anchor){
+  const book=gajendraPdfCorpus.splice(gtCorpusIndex(t),1)[0];
+  gajendraPdfCorpus.splice(gtCorpusIndex(anchor),0,book);
+}
+function gtCorpusPlaceGroupAfter(anchor,titles){
+  let prev=anchor;
+  for(const t of titles){gtCorpusMoveAfter(t,prev);prev=t;}
+}
+gtCorpusRename("Gajendra Thakur Samagra — PNS","प्रबन्ध. निबन्ध. समालोचना- सिद्धान्त आ अनुप्रयुक्त अध्ययन");
+gtCorpusRename("GAJENDRA THAKUR'S PARALLEL PHILOSOPHY","गजेन्द्र ठाकुरक समानान्तर दर्शन — खण्ड १ [GAJENDRA THAKUR'S PARALLEL PHILOSOPHY]");
+gtCorpusRename("GAJENDRA THAKUR'S PARALLEL PHILOSOPHY VOLUME II","गजेन्द्र ठाकुरक समानान्तर दर्शन — खण्ड २ [GAJENDRA THAKUR'S PARALLEL PHILOSOPHY VOLUME II]");
+gtCorpusRename("Gajendra Thakur Samagra — AI Video","ए.आइ सँ वीडियो बनाउ");
+gtCorpusMoveAfter("ए.आइ सँ वीडियो बनाउ","मैथिली रेडियो नाटक — स्वयं सीखू मार्गदर्शिका");
+gtCorpusMoveAfter("Water-Burial Among the Crocodiles [English Teaching Companion]","WATER-BURIAL AMONG THE CROCODILES [ENGLISH TRANSLATION BY THE AUTHOR GAJENDRA THAKUR HIMSELF]");
+gtCorpusMoveAfter("Gohi Sabhak Beech Jalsamadhi — Maithili Teaching Companion","Water-Burial Among the Crocodiles [English Teaching Companion]");
+gtCorpusMoveAfter("Gajendra Thakur Samagra — Videha Sadeha 1–37","VIDEHA QUIZ MASTER — विदेह १–४४० विस्तृत अध्ययन — 10,135 प्रश्न");
+gtCorpusMoveAfter("विदेह शोध-लेख (अंक १ सँ ४४७ धरि)","Gajendra Thakur Samagra — Videha Sadeha 1–37");
+gtCorpusMoveAfter("गजेन्द्र ठाकुरक समानान्तर दर्शन — खण्ड २ [GAJENDRA THAKUR'S PARALLEL PHILOSOPHY VOLUME II]","गजेन्द्र ठाकुरक समानान्तर दर्शन — खण्ड १ [GAJENDRA THAKUR'S PARALLEL PHILOSOPHY]");
+gtCorpusPlaceGroupAfter("गोहि सभक बीच जलसमाधि",["गोहि सभक बीच जलसमाधि (मैथिलीक आइ धरिक सभसँ पैघ उपन्यास) [बाल संस्करण]", "गोहि सभक बीच जलसमाधि (मैथिलीक आइ धरिक सभसँ पैघ उपन्यास) [किशोर संस्करण]"]);
+gtCorpusPlaceGroupAfter("कुरुक्षेत्रम् अन्तर्मनक",["पाँच प्रतिशत अन्हार (उपन्यास)", "Five Percent Darkness"]);
+gtCorpusPlaceGroupAfter("कथा-त्रिधारा — खण्ड ३",["गजेन्द्र ठाकुरक ८२ टा चयनित कथा", "Gajendra Thakur's 82 Selected Stories from his Ten Maithili Collections"]);
+gtCorpusPlaceGroupAfter("Maithili–English Thesaurus",["विदेह शुद्ध मैथिली लेखन शैली निर्देशिका", "विदेह ठेठी-अंगिका लेखन शैली निर्देशिका", "विदेह बज्जिका लेखन शैली निर्देशिका"]);
+gtCorpusPlaceGroupAfter("प्रबन्ध. निबन्ध. समालोचना- सिद्धान्त आ अनुप्रयुक्त अध्ययन",["नित नवल आशीष अनचिन्हार", "नित नवल कुमार पवन", "नित नवल बेचन ठाकुर", "नित नवल नन्द कुमार मिश्र ’नन्द’", "नित नवल योगानन्द झा", "नित नवल ललिता झा", "नित नवल वीरेन्द्र मल्लिक", "नित नवल कमला चौधरी", "नित नवल कुणाल", "नित नवल परमेश्वर कापड़ि"]);
+gtCorpusMoveBefore("विदेह सदेह १–३७ विस्तृत अध्ययन — 54,192 प्रश्न","VIDEHA QUIZ MASTER — विदेह १–४४० विस्तृत अध्ययन — 10,135 प्रश्न");
+gtCorpusPlaceGroupAfter("Gohi Sabhak Beech Jalsamadhi — Maithili Teaching Companion",["A Water Burial Among the Crocodiles [A Children's Novel]", "Jal Samadhi Among the Crocodiles [A Novel for Young Readers]", "CODE NAME THE CROCODILE IN THE DEPTHS [A Novel for Young Readers]", "NEW WINGS"]);
+gtCorpusPlaceGroupAfter("KURUKSHETRAM OF THE INNER MIND [A MAITHILI NOVEL]",["NAVYA NYAYA AND THE OFFSHORE GAMBLING WEB", "The Translator", "THE HUNDRED-STORY TRILOGY VOLUME I-III", "THREE STREAMS OF STORIES VOLUME I-III", "LIGHT: Stories Across Lifetimes", "THE OTHER SIDE OF MEMORY", "THE SEVENTH WITNESS", "MONGOOSE AMONG THE MONITOR LIZARDS", "THE NAME WRITTEN WITHIN THE LEAF", "JAL-PANJI: WATER REGISTER"]);
+
 document.getElementById('gt-ed-pdf-corpus-grid').innerHTML=gajendraPdfCorpus.map(x=>card({title:x.title,author:x.author+' · '+x.group,links:[['Repository PDF','https://videha-ejournal.github.io/videha-ejournal/'+x.file]]})).join('');
 samagraRender('gt-ed-novel',[
  {q:"A Water Burial Among the Crocodiles [A Children’s Novel]"},
