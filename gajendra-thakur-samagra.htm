@@ -1367,12 +1367,14 @@ const gtCorpusNewBooks=[
     "title": "THE HUNDRED-STORY TRILOGY VOLUME I-III",
     "author": "Gajendra Thakur · English collected edition",
     "file": "The_Hundred-Story_Trilogy.pdf",
+    "volumeFiles": ["The_Hundred-Story_Trilogy_Volume_I.pdf", "The_Hundred-Story_Trilogy_Volume_II.pdf", "The_Hundred-Story_Trilogy_Volume_III.pdf"],
     "group": "12 अनुवाद"
   },
   {
     "title": "THREE STREAMS OF STORIES VOLUME I-III",
     "author": "Gajendra Thakur · English collected edition",
     "file": "Three_Streams_of_Stories.pdf",
+    "volumeFiles": ["Three_Streams_of_Stories_Volume_I.pdf", "Three_Streams_of_Stories_Volume_II.pdf", "Three_Streams_of_Stories_Volume_III.pdf"],
     "group": "12 अनुवाद"
   },
   {
@@ -1456,7 +1458,77 @@ gtCorpusMoveBefore("विदेह सदेह १–३७ विस्तृ
 gtCorpusPlaceGroupAfter("Gohi Sabhak Beech Jalsamadhi — Maithili Teaching Companion",["A Water Burial Among the Crocodiles [A Children's Novel]", "Jal Samadhi Among the Crocodiles [A Novel for Young Readers]", "CODE NAME THE CROCODILE IN THE DEPTHS [A Novel for Young Readers]", "NEW WINGS"]);
 gtCorpusPlaceGroupAfter("KURUKSHETRAM OF THE INNER MIND [A MAITHILI NOVEL]",["NAVYA NYAYA AND THE OFFSHORE GAMBLING WEB", "The Translator", "THE HUNDRED-STORY TRILOGY VOLUME I-III", "THREE STREAMS OF STORIES VOLUME I-III", "LIGHT: Stories Across Lifetimes", "THE OTHER SIDE OF MEMORY", "THE SEVENTH WITNESS", "MONGOOSE AMONG THE MONITOR LIZARDS", "THE NAME WRITTEN WITHIN THE LEAF", "JAL-PANJI: WATER REGISTER"]);
 
-document.getElementById('gt-ed-pdf-corpus-grid').innerHTML=gajendraPdfCorpus.map(x=>card({title:x.title,author:x.author+' · '+x.group,links:[['Repository PDF','https://videha-ejournal.github.io/videha-ejournal/'+x.file]]})).join('');
+// Section 00 additions: author studies and Nit Naval volumes (31 October 2026).
+const gtCorpusOctoberBooks = [
+  {
+    "title": "JAGDISH PRASAD MANDAL- MAITHILI WRITER",
+    "author": "गजेन्द्र ठाकुर · मैथिली लेखक परिचय",
+    "file": "JPM_MW_Gajendra_Thakur.pdf",
+    "group": "05 समालोचना"
+  },
+  {
+    "title": "RAJDEO MANDAL- MAITHILI WRITER",
+    "author": "गजेन्द्र ठाकुर · मैथिली लेखक परिचय",
+    "file": "Rajdeo_Mandal_Maithili_Writer.pdf",
+    "group": "05 समालोचना"
+  },
+  {
+    "title": "जगदीश प्रसाद मण्डल: एकटा बायोग्राफी",
+    "author": "गजेन्द्र ठाकुर · जीवनी",
+    "file": "JPMANDAL_BIOGRAPHY.pdf",
+    "group": "05 समालोचना"
+  },
+  {
+    "title": "नित नवल दिनेश कुमार मिश्र",
+    "author": "विदेह · नित नवल",
+    "file": "NIT NAVAL DINESH KUMAR MISHRA.pdf",
+    "group": "05 समालोचना"
+  },
+  {
+    "title": "नित नवल सुशील",
+    "author": "विदेह · नित नवल",
+    "file": "NIT_NAVAL_SUSHIL_GAJENDRA_THAKUR.pdf",
+    "group": "05 समालोचना"
+  },
+  {
+    "title": "नित नवल सुभाष चन्द्र यादव",
+    "author": "विदेह · नित नवल",
+    "file": "NIT_NAVAL_SUBHASH_CHANDRA_YADAV.pdf",
+    "group": "05 समालोचना"
+  },
+  {
+    "title": "नित नवल वृषेश चन्द्र लाल",
+    "author": "विदेह · नित नवल",
+    "file": "Nit_Naval_Brikhesh_Chandra_Lal.pdf",
+    "group": "05 समालोचना"
+  }
+];
+for (const book of gtCorpusOctoberBooks) {
+  if (gajendraPdfCorpus.some(x=>x.title===book.title || x.file===book.file))
+    throw new Error('Duplicate Section 00 PDF entry: '+book.title);
+  gajendraPdfCorpus.push(book);
+}
+// Section 00: a single alphabetical list. Titles beginning in Devanagari
+// (including Devanagari–Roman mixed titles) sort अ–ह; titles beginning in
+// Latin (including Roman–Devanagari mixed titles) sort A–Z afterward.
+// Leading digits/quotation marks/punctuation do not determine the script.
+const gtCorpusHiSort = new Intl.Collator('hi-IN', {usage:'sort',numeric:true,sensitivity:'base',ignorePunctuation:true});
+const gtCorpusEnSort = new Intl.Collator('en', {usage:'sort',numeric:true,sensitivity:'base',ignorePunctuation:true});
+function gtCorpusLeadingScript(title) {
+  const first = String(title).match(/[\u0900-\u097F]|[A-Za-z]/u);
+  return first && /[\u0900-\u097F]/u.test(first[0]) ? 0 : 1;
+}
+gajendraPdfCorpus.sort((a,b)=>{
+  const aGroup=gtCorpusLeadingScript(a.title);
+  const bGroup=gtCorpusLeadingScript(b.title);
+  return aGroup-bGroup || (aGroup===0 ? gtCorpusHiSort : gtCorpusEnSort).compare(a.title,b.title);
+});
+document.getElementById('gt-ed-pdf-corpus-grid').innerHTML=gajendraPdfCorpus.map(x=>
+  card({title:x.title,author:x.author+' · '+x.group,links:[
+    ['Repository PDF','https://videha-ejournal.github.io/videha-ejournal/'+encodeURI(x.file)],
+    ...(x.volumeFiles||[]).map((file,i)=>['Volume '+['I','II','III'][i],'https://videha-ejournal.github.io/videha-ejournal/'+encodeURI(file)])
+  ]})
+).join('');
 samagraRender('gt-ed-novel',[
  {q:"A Water Burial Among the Crocodiles [A Children’s Novel]"},
  {q:"Jal Samadhi Among the Crocodiles [A Novel for Young Readers]"},
