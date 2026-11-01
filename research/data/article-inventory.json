@@ -1,8 +1,8 @@
 {
   "issue_files_scanned": 452,
-  "current_index_issue": "452",
-  "current_index_included": false,
-  "article_entries_inventoried": 3670,
+  "current_index_issue": "453",
+  "current_index_included": true,
+  "article_entries_inventoried": 3673,
   "scholar_candidates": 316,
   "parse_errors": [],
   "rows": [
@@ -58662,6 +58662,51 @@
       "scholar_candidate": false,
       "source_path": "search-documents/videha-452.html",
       "source_url": "https://archive.org/download/videha-2026/Videha%20452.pdf"
+    },
+    {
+      "issue": "453",
+      "publication_date": "2026-11-01",
+      "section": "0.1",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "नूतन अंक",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
+      "source_path": "index.htm",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20453.pdf"
+    },
+    {
+      "issue": "453",
+      "publication_date": "2026-11-01",
+      "section": "1.3",
+      "author": "आशीष अनचिन्हार",
+      "title": "मिथिला राज्य आ' भाषा केर आंदोलन",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
+      "source_path": "index.htm",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20453.pdf"
+    },
+    {
+      "issue": "453",
+      "publication_date": "2026-11-01",
+      "section": "1.5",
+      "author": "डा. किशन कारीगर",
+      "title": "दोकनदार दलाल के हैप्पी दियावाती (हास्य",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
+      "source_path": "index.htm",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20453.pdf"
     }
   ]
 }
