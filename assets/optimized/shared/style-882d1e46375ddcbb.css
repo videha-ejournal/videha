@@ -1,0 +1,233 @@
+
+
+/* ============================================================
+   VIDEHA v2.4 — uniformity patch
+   Keeps all landing/list pages in the aboutme.htm / index.htm
+   editorial palette; removes remaining purple/pink/multicolour
+   category blocks by targeting the actual page classes.
+   ============================================================ */
+:root{
+  --vd-cream:#FAF6EE;
+  --vd-field:#EFE9DC;
+  --vd-rule:#D8CFC0;
+  --vd-rule-soft:#E7DECB;
+  --vd-crimson:#8B1A1A;
+  --vd-gold:#C49A3C;
+  --vd-indigo:#1F2A44;
+  --vd-ink:#23201B;
+  --vd-ink-soft:#544D42;
+}
+body{background:var(--vd-field)!important;color:var(--vd-ink)!important;}
+.videha-main-content,main.videha-main-content{background:transparent!important;}
+.videha-main-content .boxOutline{
+  background:var(--vd-cream)!important;
+  border:1px solid var(--vd-rule)!important;
+  border-radius:2px!important;
+  box-shadow:0 1px 0 #fff inset,0 6px 22px rgba(35,32,27,.07)!important;
+}
+
+/* Actual category wrappers used across prose/verse/fem/audio/kids/investigation/e-learning. */
+.prosecat,.femcat,.avcat,.kidcat,.kidscat,.invcat,.stucat,.sccat,
+.pr-author,.wc-author,.kc-author,.sc-author,.av-group,.iv-group,.sc-group,
+.kidcat-video,.inv-prose,.vq-section,.kids-quiz-wrap .vq-section{
+  background:var(--vd-cream)!important;
+  background-image:none!important;
+  border:1px solid var(--vd-rule)!important;
+  border-left:3px solid var(--vd-crimson)!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  transform:none!important;
+  overflow:visible!important;
+}
+.prosecat:hover,.femcat:hover,.avcat:hover,.kidcat:hover,.kidscat:hover,
+.invcat:hover,.stucat:hover,.sccat:hover,.pr-author:hover,.wc-author:hover,
+.kc-author:hover,.sc-author:hover,.av-group:hover,.iv-group:hover,.sc-group:hover,
+.kidcat-video:hover,.inv-prose:hover,.vq-section:hover{
+  transform:none!important;
+  box-shadow:none!important;
+}
+
+/* Category/card heads: replace gradients and bright fills with quiet editorial rules. */
+.prosecat-head,.femcat-head,.avcat-head,.kidcat-head,.kidscat-head,
+.invcat-head,.stucat-head,.sccat-head,.kids-quiz-wrap .vq-section-header,
+.vq-section-header,.av-group-name,.iv-group-name,.pr-author-name,.wc-author-name,
+.kc-author-name,.sc-author-name,.sc-group-name,.kidcat-video-title,.inv-dir-heading{
+  background:none!important;
+  background-color:var(--vd-cream)!important;
+  background-image:none!important;
+  color:var(--vd-crimson)!important;
+  text-shadow:none!important;
+  border:0!important;
+  border-bottom:1px solid var(--vd-rule)!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.prosecat-title,.femcat-title,.avcat-title,.kidcat-title,.kidscat-title,
+.invcat-title,.stucat-title,.sccat-title,.kids-quiz-title,.vq-section-label{
+  font-family:'Playfair Display','Noto Serif Devanagari',Georgia,serif!important;
+  color:var(--vd-crimson)!important;
+  text-shadow:none!important;
+  font-weight:700!important;
+  background:none!important;
+  background-image:none!important;
+}
+.prosecat-sub,.femcat-sub,.avcat-sub,.kidcat-sub,.kidscat-sub,
+.invcat-sub,.stucat-sub,.sccat-sub,.vq-section-sub{
+  background:none!important;
+  background-color:transparent!important;
+  color:var(--vd-ink-soft)!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  padding:0!important;
+  font-family:'IM Fell English','Libre Baskerville',Georgia,serif!important;
+  font-style:italic!important;
+}
+.prosecat-emoji,.femcat-emoji,.avcat-emoji,.kidcat-emoji,.kidscat-emoji,
+.invcat-emoji,.stucat-emoji,.sccat-emoji,.vq-toggle-icon,.vq-card-arrow,
+.pr-bk-a,.wc-bk-a,.kc-bk-a,.sc-bk-a,.av-bk-a,.iv-l-a{
+  display:none!important;
+}
+.prosecat-body,.femcat-body,.avcat-body,.kidcat-body,.kidscat-body,
+.invcat-body,.stucat-body,.sccat-body{
+  background:var(--vd-cream)!important;
+  background-image:none!important;
+}
+
+/* Links/buttons/cards: ruled rows, no coloured pills, no purple/pink gradients. */
+.pr-book,.wc-book,.kc-book,.sc-book,.av-book,.iv-link,
+.pr-booklist a,.wc-booklist a,.kc-booklist a,.sc-booklist a,.av-glist a,.iv-glist a,
+.vq-card,.kids-quiz-wrap .vq-card,.av-chip,.kc-sub-tag,.sc-sub-tag,.inv-sec-num,
+.vq-tab,.vpill,.pothi-card,.pothi-card-link,.pothi-dl-btn,.pothi-buy-btn,.pothi-buy-btn--outline{
+  background:#FFFCF6!important;
+  background-image:none!important;
+  color:var(--vd-ink)!important;
+  border:0!important;
+  border-bottom:1px solid var(--vd-rule-soft)!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  transform:none!important;
+  text-shadow:none!important;
+}
+.pr-book:hover,.wc-book:hover,.kc-book:hover,.sc-book:hover,.av-book:hover,.iv-link:hover,
+.vq-card:hover,.kids-quiz-wrap .vq-card:hover,.av-chip:hover,.vq-tab:hover,.vq-tab.active,
+.vpill:hover,.pothi-card-link:hover,.pothi-dl-btn:hover,.pothi-buy-btn:hover,.pothi-buy-btn--outline:hover{
+  background:rgba(196,154,60,.10)!important;
+  background-image:none!important;
+  color:var(--vd-crimson)!important;
+  border-color:var(--vd-rule)!important;
+  transform:none!important;
+  box-shadow:none!important;
+}
+.pr-booklist,.wc-booklist,.kc-booklist,.sc-booklist,.av-glist,.iv-glist,
+.kc-grid,.sc-grid,.sc-booklist,.vq-cards{gap:0!important;}
+.sc-bk-a,.kc-bk-a,.pr-bk-a,.wc-bk-a,.av-bk-a,.iv-l-a{color:var(--vd-gold)!important;}
+
+/* Evidence/image/video panels keep structure but follow the same parchment palette. */
+.inv-evidence,.kidcat-video-frame,.inv-evi-img{
+  background:#FFFCF6!important;
+  border:1px solid var(--vd-rule)!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.inv-evi-img:hover{transform:none!important;box-shadow:none!important;}
+
+/* Search bars and utility controls. */
+.vls-wrap,.vls-bar,.vsearch-bar,.vsearch-count,.vls-count{
+  background:var(--vd-cream)!important;
+  border:1px solid var(--vd-rule)!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.vls-input,.vsearch-input,input[type="text"],textarea{
+  background:var(--vd-cream)!important;
+  color:var(--vd-ink)!important;
+  border:1px solid var(--vd-rule)!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.vls-clear,.vsearch-clear,.mini-btn,.btn-transliterate,
+.conv-btn,.conv-dir-btn,.t-btn,.dir-btn,.dir-swap,.drive-search-btn,.btn{
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.vls-clear,.vsearch-clear{
+  background:none!important;
+  color:var(--vd-crimson)!important;
+  border:1px solid var(--vd-crimson)!important;
+}
+.vls-clear:hover,.vsearch-clear:hover{background:var(--vd-crimson)!important;color:#fff!important;}
+mark.vlsmark{background:rgba(196,154,60,.30)!important;color:var(--vd-ink)!important;}
+
+/* Functional-control safety: keep local search, corpus search, translator,
+   thesaurus and script-converter widgets visible/clickable while applying
+   only the quiet Videha palette. Do not force hidden file inputs or TTS stop. */
+.vls-wrap,.vls-bar,.vsearch-bar,.drive-search-box,.translator-card,.conv-card,
+.search-container,.dictionary-search,.upload-area,.tool-actions,.action-bar{
+  pointer-events:auto!important;
+  opacity:1!important;
+}
+.vls-bar,.vsearch-bar{
+  display:flex!important;
+  align-items:center!important;
+  gap:8px!important;
+}
+.vls-input,.vsearch-input,.search-box,#searchBox,#driveSearchInput,#vcq,
+#srcText,#outText,.io-textarea,.conv-textarea,.t-input{
+  pointer-events:auto!important;
+  opacity:1!important;
+  visibility:visible!important;
+}
+.vls-input,.vsearch-input,.search-box,#searchBox,#driveSearchInput,#vcq{
+  min-height:36px!important;
+}
+.vls-clear,.vsearch-clear,.conv-btn,.conv-dir-btn,.t-btn,.dir-btn,.dir-swap,
+.drive-search-btn,#driveSearchBtn,#translateBtn,.btn-transliterate{
+  pointer-events:auto!important;
+  opacity:1!important;
+  visibility:visible!important;
+  cursor:pointer!important;
+}
+.conv-textarea,.io-textarea,#srcText,#outText{
+  min-height:120px!important;
+  resize:vertical!important;
+}
+
+
+/* Legacy inline colour rescue for content links/text without disturbing masthead/footer. */
+.videha-main-content a{color:var(--vd-crimson)!important;}
+.videha-main-content h1,.videha-main-content h2,.videha-main-content h3,
+.videha-main-content h4,.videha-main-content h5,.videha-main-content h6{
+  color:var(--vd-crimson)!important;
+}
+.videha-main-content [style*="color:#283593"],.videha-main-content [style*="color: #283593"],
+.videha-main-content [style*="color:#9c27b0"],.videha-main-content [style*="color: #9c27b0"],
+.videha-main-content [style*="color:#e91e63"],.videha-main-content [style*="color: #e91e63"],
+.videha-main-content [style*="color:#ff6f61"],.videha-main-content [style*="color: #ff6f61"]{
+  color:var(--vd-crimson)!important;
+}
+.videha-main-content [style*="background:#283593"],.videha-main-content [style*="background: #283593"],
+.videha-main-content [style*="background:#9c27b0"],.videha-main-content [style*="background: #9c27b0"],
+.videha-main-content [style*="background:#e91e63"],.videha-main-content [style*="background: #e91e63"],
+.videha-main-content [style*="background:#ff6f61"],.videha-main-content [style*="background: #ff6f61"]{
+  background:var(--vd-cream)!important;
+  background-image:none!important;
+}
+@media(max-width:720px){
+  .prosecat-head,.femcat-head,.avcat-head,.kidcat-head,.invcat-head,.stucat-head,
+  .vq-section-header{padding:12px 14px!important;}
+}
+
+}
+
+.arch-card{
+  background:var(--vd-cream) !important;border:1px solid var(--vd-rule) !important;
+  border-top:3px solid var(--vd-crimson) !important;border-radius:0 !important;
+  box-shadow:none !important;
+}
+.arch-card-num{ color:var(--vd-gold) !important;background:none !important;
+  font-family:'Playfair Display',serif !important; }
+.arch-card-title{ color:var(--vd-crimson) !important;
+  font-family:'Playfair Display','Noto Serif Devanagari',serif !important; }
+.arch-card-sub{ color:var(--vd-ink-soft) !important; }
+

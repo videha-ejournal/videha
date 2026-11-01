@@ -1,0 +1,287 @@
+
+/* ============================================================
+   VIDEHA · EDITORIAL SKIN  (landing + tool pages)
+   Paris Review / New Yorker register.
+   Reading surface = cream #FAF6EE (index.htm prose/poetry block).
+   Plus: flatten every colourful tab / block / download button
+   to monochrome — no gradients, no fills, no pill shadows.
+   Loaded last so it wins the cascade.
+   ============================================================ */
+:root{
+  --vd-cream:#FAF6EE; --vd-field:#EFE9DC; --vd-rule:#D8CFC0;
+  --vd-rule-soft:#E7DECB;
+  --vd-crimson:#8B1A1A; --vd-gold:#C49A3C;
+  --vd-ink:#23201B; --vd-ink-soft:#544D42;
+}
+
+/* ---- page field + reading column -------------------------- */
+body{ background:var(--vd-field) !important; color:var(--vd-ink); }
+
+.videha-main-content,
+main.videha-main-content{
+  background:transparent !important;
+}
+
+/* generic wrappers that hold content become the cream column */
+.videha-main-content .boxOutline,
+.prosecats-wrap, .femcats-wrap, .av-wrap, .iv-wrap,
+.pothi-grid, .vq-wrap, .arch-wrap, .kids-wrap{
+  background:transparent;
+}
+
+/* ---- TYPOGRAPHY ------------------------------------------- */
+.videha-main-content,
+.videha-main-content p,
+.videha-main-content .MsoNormal{
+  font-family:'Noto Serif Devanagari','Libre Baskerville',Georgia,serif;
+  color:var(--vd-ink);
+}
+.videha-main-content h1,.videha-main-content h2,.videha-main-content h3{
+  font-family:'Playfair Display','Noto Serif Devanagari',Georgia,serif;
+  color:var(--vd-crimson);
+}
+
+/* running head strip → quiet italic eyebrow, no fill */
+.videha-main-content .clrStrip{
+  background:linear-gradient(90deg,#C77B2C 0%,#8B1A1A 50%,#1F2A44 100%) !important;
+  color:#FAF6EE !important;
+  padding:10px 16px !important;
+  margin:6px 0 12px !important;
+  border:0 !important;border-radius:2px !important;
+  box-shadow:0 2px 4px rgba(31,42,68,.08) !important;
+}
+.videha-main-content .clrStrip center,
+.videha-main-content .clrStrip font,
+.videha-main-content .clrStrip span{
+  color:#FAF6EE !important;
+  font-family:'Noto Serif Devanagari','Playfair Display',Georgia,serif !important;
+  font-style:normal;font-weight:600;font-size:1.1em;letter-spacing:0;
+  max-width:none;margin:0;padding:0;border-bottom:0 !important;
+  text-transform:none;
+}
+/* notices → flat parchment with a single gold hairline */
+.videha-main-content .grayBox{
+  background:#F3ECDC !important;border:0 !important;
+  border-left:3px solid var(--vd-gold) !important;border-radius:0 !important;
+  padding:8px 14px !important;box-shadow:none !important;
+}
+.videha-main-content .videha-refresh-note{
+  font-family:'Libre Baskerville',Georgia,serif;font-size:.72rem;
+  color:var(--vd-ink-soft);
+}
+
+/* ============================================================
+   FLATTEN — kill all colour blocks / gradient tabs / pill DLs
+   ============================================================ */
+
+/* category cards: prose, verse, fem, kids, audio, e-learning … */
+.prosecat,.femcat,.kidscat,.avcat,.sccat,.iv-group,.av-group,
+.wc-author,.kc-author,.sc-author,.pr-author{
+  background:var(--vd-cream) !important;
+  border:1px solid var(--vd-rule) !important;
+  border-left:3px solid var(--vd-crimson) !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+  transform:none !important;
+  margin-bottom:1.4rem !important;
+  overflow:visible !important;
+}
+.prosecat:hover,.femcat:hover,.kidscat:hover,.avcat:hover,
+.iv-group:hover,.av-group:hover,.pr-author:hover{
+  transform:none !important;box-shadow:none !important;
+}
+
+/* card headers: were gradient colour bars → flat cream, crimson type */
+.prosecat-head,.femcat-head,.kidscat-head,.avcat-head,.sccat-head,
+.av-group-name,.iv-group-name,.wc-author-name,.kc-author-name,
+.sc-author-name,.pr-author-name{
+  background:none !important;
+  background-color:var(--vd-cream) !important;
+  color:var(--vd-crimson) !important;
+  text-shadow:none !important;
+  border-bottom:1px solid var(--vd-rule) !important;
+  border-radius:0 !important;
+  padding:12px 16px !important;
+}
+.prosecat-title,.femcat-title,.kidscat-title,.avcat-title{
+  font-family:'Playfair Display','Noto Serif Devanagari',serif !important;
+  color:var(--vd-crimson) !important;text-shadow:none !important;
+  font-weight:700 !important;
+}
+/* the little rounded "sub" pill → plain italic caption */
+.prosecat-sub,.femcat-sub,.kidscat-sub,.avcat-sub{
+  background:none !important;color:var(--vd-ink-soft) !important;
+  border:0 !important;border-radius:0 !important;padding:0 !important;
+  font-family:'IM Fell English',Georgia,serif !important;font-style:italic;
+}
+/* emoji markers add carnival colour — hide them */
+.prosecat-emoji,.femcat-emoji,.kidscat-emoji,.avcat-emoji,
+.pothi-card-icon,.vq-card-arrow,.pr-bk-a,.wc-bk-a,.kc-bk-a,
+.sc-bk-a,.av-bk-a,.iv-l-a{ display:none !important; }
+
+.prosecat-body,.femcat-body,.kidscat-body,.avcat-body{
+  background:var(--vd-cream) !important;padding:14px 16px !important;
+}
+
+/* book / link items: were coloured pills → quiet ruled text rows */
+.pr-book,.wc-book,.kc-book,.sc-book,.av-book,.iv-link,
+.pr-booklist a,.wc-booklist a,.av-glist a,.iv-glist a{
+  background:#FFFCF6 !important;
+  border:0 !important;
+  border-bottom:1px solid var(--vd-rule-soft) !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+  color:var(--vd-ink) !important;
+  transform:none !important;
+  font-family:'Noto Serif Devanagari','Libre Baskerville',serif !important;
+  padding:8px 4px !important;
+}
+.pr-book:hover,.wc-book:hover,.kc-book:hover,.sc-book:hover,
+.av-book:hover,.iv-link:hover{
+  background:rgba(196,154,60,.10) !important;
+  color:var(--vd-crimson) !important;
+  transform:none !important;box-shadow:none !important;
+}
+.pr-booklist,.wc-booklist,.kc-booklist,.sc-booklist,
+.av-glist,.iv-glist{ gap:0 !important; }
+
+/* audio/video category chips — coloured tags → hairline outline tags */
+.av-chip,.ex-chip,.db-tab,.vq-tab,.conv-dir-btn,.pos-cell{
+  background:none !important;background-color:transparent !important;
+  color:var(--vd-crimson) !important;
+  border:1px solid var(--vd-rule) !important;border-radius:0 !important;
+  box-shadow:none !important;
+}
+.av-chip.active,.db-tab.active,.vq-tab.active,.conv-dir-btn.active{
+  background:var(--vd-crimson) !important;color:#fff !important;
+  border-color:var(--vd-crimson) !important;
+}
+
+/* archive cards (arch-card) — coloured numbered blocks → flat */
+.arch-card{
+  background:var(--vd-cream) !important;border:1px solid var(--vd-rule) !important;
+  border-top:3px solid var(--vd-crimson) !important;border-radius:0 !important;
+  box-shadow:none !important;
+}
+.arch-card-num{ color:var(--vd-gold) !important;background:none !important;
+  font-family:'Playfair Display',serif !important; }
+.arch-card-title{ color:var(--vd-crimson) !important;
+  font-family:'Playfair Display','Noto Serif Devanagari',serif !important; }
+.arch-card-sub{ color:var(--vd-ink-soft) !important; }
+
+/* videha.htm pill rows (vpill / vrow) — bright pills → ruled list */
+.vrow{ border-bottom:1px solid var(--vd-rule-soft) !important;
+  background:transparent !important; }
+.vrow-num{ color:var(--vd-gold) !important;font-family:'Playfair Display',serif !important; }
+.vpill{
+  background:#FFFCF6 !important;color:var(--vd-ink) !important;
+  border:1px solid var(--vd-rule) !important;border-radius:0 !important;
+  box-shadow:none !important;
+}
+.vpill:hover{ background:rgba(196,154,60,.12) !important;color:var(--vd-crimson) !important; }
+/* accordion heads (vacc-head) flat */
+.vacc-head{ background:var(--vd-cream) !important;color:var(--vd-crimson) !important;
+  border:1px solid var(--vd-rule) !important;border-radius:0 !important;box-shadow:none !important; }
+.vacc-title-mai{ font-family:'Playfair Display','Noto Serif Devanagari',serif !important;
+  color:var(--vd-crimson) !important; }
+.vacc-title-en{ color:var(--vd-ink-soft) !important;font-style:italic; }
+
+/* vq-card (translator / thesaurus / e-learning) navigation cards → ruled rows */
+.vq-card{
+  background:#FFFCF6 !important;color:var(--vd-ink) !important;
+  border:0 !important;border-bottom:1px solid var(--vd-rule-soft) !important;
+  border-radius:0 !important;box-shadow:none !important;
+}
+.vq-card:hover{ background:rgba(196,154,60,.10) !important;color:var(--vd-crimson) !important; }
+.vq-card-title{ font-family:'Noto Serif Devanagari',serif !important; }
+
+/* ---- DOWNLOAD / BUY BUTTONS → flat crimson outline ---------
+   pothi.htm had bright ochre filled DL buttons; flatten them.   */
+.pothi-grid .pothi-dl-btn,
+.pothi-grid .pothi-dl-btn:link,
+.pothi-grid .pothi-dl-btn:visited,
+.pothi-buy-btn,.pothi-buy-btn--outline{
+  background:none !important;background-color:transparent !important;
+  color:var(--vd-crimson) !important;
+  border:1px solid var(--vd-crimson) !important;border-radius:0 !important;
+  box-shadow:none !important;font-weight:700 !important;
+  letter-spacing:.04em !important;
+}
+.pothi-grid .pothi-dl-btn:hover,
+.pothi-buy-btn:hover,.pothi-buy-btn--outline:hover{
+  background:var(--vd-crimson) !important;color:#fff !important;
+}
+.pothi-card{
+  background:var(--vd-cream) !important;border:1px solid var(--vd-rule) !important;
+  border-top:3px solid var(--vd-crimson) !important;border-radius:0 !important;
+  box-shadow:none !important;transform:none !important;
+}
+.pothi-card:hover{ box-shadow:none !important;transform:none !important; }
+.pothi-card-author{ color:var(--vd-crimson) !important; }
+.pothi-card-title{ color:var(--vd-ink) !important; }
+
+/* ---- TOOL CONTROLS (translator / converter) ---------------
+   keep usable, drop colour: flat outline buttons, cream fields.*/
+.conv-btn,.t-btn,.vls-clear,
+button.conv-btn,button.t-btn{
+  background:none !important;background-color:transparent !important;
+  color:var(--vd-crimson) !important;
+  border:1px solid var(--vd-crimson) !important;border-radius:0 !important;
+  box-shadow:none !important;
+  font-family:'Libre Baskerville',Georgia,serif !important;font-weight:700 !important;
+}
+.conv-btn:hover,.t-btn:hover,.vls-clear:hover{
+  background:var(--vd-crimson) !important;color:#fff !important;
+}
+.conv-btn-outline{
+  background:none !important;color:var(--vd-ink-soft) !important;
+  border:1px solid var(--vd-rule) !important;border-radius:0 !important;box-shadow:none !important;
+}
+.conv-textarea,.conv-label,.vls-input,
+.vsearch-input,.t-input,textarea,input[type="text"]{
+  background:var(--vd-cream) !important;
+  border:1px solid var(--vd-rule) !important;border-radius:0 !important;
+  box-shadow:none !important;color:var(--vd-ink) !important;
+  font-family:'Noto Serif Devanagari','Libre Baskerville',serif !important;
+}
+.conv-textarea:focus,.vls-input:focus,.vsearch-input:focus,
+textarea:focus,input[type="text"]:focus{
+  outline:none !important;border-color:var(--vd-crimson) !important;
+}
+.wbw-word,.wbw-meaning,.wbw-extra,.headword-cell{
+  font-family:'Noto Serif Devanagari',serif !important;
+}
+
+/* word-by-word / confidence panels: strip bright fills if any */
+.wbw-word{ background:var(--vd-cream) !important;border:1px solid var(--vd-rule) !important;
+  border-radius:0 !important;color:var(--vd-crimson) !important; }
+
+/* local-search bar (vls) → flat */
+.vls-bar,.vls-wrap{ background:var(--vd-cream) !important;
+  border:1px solid var(--vd-rule) !important;border-radius:0 !important;box-shadow:none !important; }
+.vls-tip,.vls-count{ color:var(--vd-ink-soft) !important; }
+
+/* ---- LINKS (generic body links) --------------------------- */
+.videha-main-content a:not(.vpill):not(.av-chip):not(.db-tab):not(.vq-tab):not(.pothi-dl-btn):not(.pothi-buy-btn):not(.conv-btn):not(.t-btn){
+  color:var(--vd-crimson);
+}
+
+/* hairline section dividers in house tone */
+.videha-main-content hr{
+  border:0;height:1px;background:var(--vd-rule);width:42%;margin:1.8em auto;
+}
+.videha-main-content ::selection{ background:rgba(196,154,60,.30); }
+
+/* ---- RESPONSIVE ------------------------------------------- */
+@media (max-width:820px){
+  .videha-main-content .clrStrip center,
+.videha-main-content .clrStrip font,
+.videha-main-content .clrStrip span{
+  color:#FAF6EE !important;
+  font-family:'Noto Serif Devanagari','Playfair Display',Georgia,serif !important;
+  font-style:normal;font-weight:600;font-size:1.1em;letter-spacing:0;
+  max-width:none;margin:0;padding:0;border-bottom:0 !important;
+  text-transform:none;
+}
+}
+@media (prefers-reduced-motion:reduce){ *{ transition:none !important; } }
