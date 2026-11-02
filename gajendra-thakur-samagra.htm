@@ -315,6 +315,7 @@ const V='https://videha-ejournal.github.io/videha-ejournal/';
 const item=(title,url,author='गजेन्द्र ठाकुर',label='PDF / Open')=>({title,author,links:[[label,url]]});
 const multi=(title,links,author='गजेन्द्र ठाकुर')=>({title,author,links});
 const main=[
+item('मैथिली कथा-आख्यानशास्त्र: सिद्धान्त आ प्रयोग',V+'Narratology_Maithili.pdf','गजेन्द्र ठाकुर · समालोचनाशास्त्र','Repository PDF'),
 multi("पाँच प्रतिशत अन्हार",[['PDF','https://videha-ejournal.github.io/videha-ejournal/5_Pratishat_Anhar.pdf'],['Google Playbook','https://play.google.com/store/books/details?id=9uUZEgAAQBAJ'],['POTHI.COM HARDBACK','https://store.pothi.com/book/gajendra-thakur-%E0%A4%AA%E0%A4%9A-%E0%A4%AA%E0%A4%B0%E0%A4%A4%E0%A4%B6%E0%A4%A4-%E0%A4%85%E0%A4%A8%E0%A4%B9%E0%A4%B0/']]),
 multi("FIVE PERCENT DARKNESS",[['PDF','https://videha-ejournal.github.io/videha-ejournal/5_Percent_Darkness.pdf'],['Google Playbook','https://play.google.com/store/books/details?id=5QAaEgAAQBAJ'],['POTHI.COM HARDBACK','https://store.pothi.com/book/gajendra-thakur-five-percent-darkness/'],['Google Play Audiobook','https://play.google.com/store/audiobooks/details?id=AQAAAEBGAkFCFM']],'Gajendra Thakur — translated from original Maithili by the author himself'),
  multi('FIVE PERCENT DARKNESS — Audiobook',[['Google Play Audiobook','https://play.google.com/store/audiobooks/details?id=AQAAAEBGAkFCFM']],'Gajendra Thakur · English audiobook'),
@@ -612,6 +613,7 @@ document.getElementById('gt-ed-editorial-grid').innerHTML=[
   card({title:'७४ गजेन्द्र ठाकुर समग्रक सम्पादकीय',author:'सम्पादक: आशीष अनचिन्हार',links:[['PDF','https://videha-ejournal.github.io/videha-ejournal/editorial_samagra_74.pdf']]}),
 ].join('');
 const gajendraPdfCorpus=[
+ {title:'मैथिली कथा-आख्यानशास्त्र: सिद्धान्त आ प्रयोग',author:'गजेन्द्र ठाकुर · समालोचनाशास्त्र',file:'Narratology_Maithili.pdf',group:'05 समालोचना'},
  {title:'मैथिलीक एकटा समानान्तर व्याकरण, रचना आ भाषा विज्ञान (ठेठी, अंगिका आ बज्जिकाकेँ संग लऽ कऽ)',author:'गजेन्द्र ठाकुर · व्याकरण, रचना आ भाषा-विज्ञान',file:'Maithili_Samanantar_Vyakaran_Rachna_Bhasha-Vigyan_merge.pdf',group:'09 व्याकरण, रचना आ भाषा विज्ञान'},
  {title:'अकुलाइत सुर — किशोर गजल, कविता आ गीत',author:'गजेन्द्र ठाकुर · मूल मैथिली',file:'Akulait_Sur.pdf',group:'04 पद्य'},
  {title:'बिज्जी — गोहि सभक बीच',author:'गजेन्द्र ठाकुर · मूल मैथिली',file:'Bijji_Gohi_Sabhak_Beech.pdf',group:'01 उपन्यास'},
@@ -1082,6 +1084,7 @@ samagraRender('gt-ed-story',[
 samagraRender('gt-ed-drama',[{q:'रंग-संगम / RANG-SANGAM — खण्ड-१'},{q:'रंग-संगम / RANG-SANGAM — खण्ड-२'}]);
 samagraRender('gt-ed-poetry',[{q:'अकुलाइत सुर'},{q:'दीवान-ए-विदेह'},{q:'स्वप्नमे मिज्झर होइत'}]);
 samagraRender('gt-ed-criticism',[
+ {q:'मैथिली कथा-आख्यानशास्त्र: सिद्धान्त आ प्रयोग'},
  {q:'प्रबन्ध · निबन्ध · समालोचना सिद्धान्त आ अनुप्रयुक्त अध्ययन'},
  {q:'जगदीश प्रसाद मण्डल — एकटा बायोग्राफी (2013)'},
  {q:'Rajdeo Mandal — Maithili Writer (English)'},
