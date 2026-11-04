@@ -52,8 +52,8 @@ jobs:
 
           rm -rf publish
           mkdir publish
-          find . -maxdepth 1 -type f \( -name '*.htm' -o -name '*.html' -o -name '*.css' -o -name '*.js' -o -name '*.xml' -o -name '*.json' \) -exec cp --parents {} publish/ \;
-          for d in assets data pagefind photogallery research search-documents; do
+          find . -maxdepth 1 -type f \( -name '*.htm' -o -name '*.html' -o -name '*.css' -o -name '*.js' -o -name '*.xml' -o -name '*.json' -o -name '*.jpg' -o -name '*.jpeg' -o -name '*.JPG' -o -name '*.png' -o -name '*.gif' -o -name '*.webp' -o -name '*.svg' \) -exec cp --parents {} publish/ \;
+          for d in assets data iiif new_page_126_files pagefind photogallery research search-documents tei; do
             if [ -d "$d" ]; then cp -a "$d" publish/; fi
           done
 
