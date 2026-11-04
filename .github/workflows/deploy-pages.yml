@@ -53,7 +53,7 @@ jobs:
           rm -rf publish
           mkdir publish
           find . -maxdepth 1 -type f \( -name '*.htm' -o -name '*.html' -o -name '*.css' -o -name '*.js' -o -name '*.xml' -o -name '*.json' \) -exec cp --parents {} publish/ \;
-          for d in assets data pagefind research search-documents; do
+          for d in assets data pagefind photogallery research search-documents; do
             if [ -d "$d" ]; then cp -a "$d" publish/; fi
           done
 
