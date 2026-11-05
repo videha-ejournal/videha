@@ -140,7 +140,7 @@
 <div class="gt-grid" id="gt-ed-pdf-corpus-grid"></div>
 </div>
 </details>
-<details class="gt-ed-tab"><summary><span class="gt-ed-orb">01</span><span>उपन्यास</span><span aria-hidden="true" class="gt-ed-chevron">▶</span></summary><div class="gt-ed-body"><div class="gt-grid" id="gt-ed-novel"></div></div></details>
+<details class="gt-ed-tab"><summary><span class="gt-ed-orb">01</span><span>उपन्यास — केवल मूल मैथिली</span><span aria-hidden="true" class="gt-ed-chevron">▶</span></summary><div class="gt-ed-body"><div class="gt-grid" id="gt-ed-novel"></div></div></details>
 <details class="gt-ed-tab"><summary><span class="gt-ed-orb">02</span><span>कथा-संग्रह</span><span aria-hidden="true" class="gt-ed-chevron">▶</span></summary><div class="gt-ed-body"><div class="gt-grid" id="gt-ed-story"></div></div></details>
 <details class="gt-ed-tab"><summary><span class="gt-ed-orb">03</span><span>नाटक — मूल मैथिली आ तकर अंग्रेजी अनुवाद सहित</span><span aria-hidden="true" class="gt-ed-chevron">▶</span></summary><div class="gt-ed-body"><div class="gt-grid" id="gt-ed-drama"></div></div></details>
 <details class="gt-ed-tab"><summary><span class="gt-ed-orb">04</span><span>पद्य</span><span aria-hidden="true" class="gt-ed-chevron">▶</span></summary><div class="gt-ed-body"><div class="gt-grid" id="gt-ed-poetry"></div></div></details>
@@ -153,7 +153,7 @@
 <details class="gt-ed-tab"><summary><span class="gt-ed-orb">11</span><span>स्वयं सीखू मार्गदर्शिका — मैथिली आ तकर अंग्रेजी अनुवाद सहित</span><span aria-hidden="true" class="gt-ed-chevron">▶</span></summary><div class="gt-ed-body"><div class="gt-grid" id="gt-ed-selflearn"></div></div></details>
 <details class="gt-ed-tab"><summary><span class="gt-ed-orb">12</span><span>अनुवाद — आन भाषासँ मैथिली आ मैथिलीसँ अंग्रेजी</span><span aria-hidden="true" class="gt-ed-chevron">▶</span></summary>
 <div class="gt-ed-body">
-<p class="gt-ed-subnote">आन भाषासँ मैथिली; मूल संस्कृतसँ मैथिली आ तकर अंग्रेजी अनुवाद; तथा मैथिलीसँ अंग्रेजी अनुवाद।</p>
+<p class="gt-ed-subnote">एहि विभागमे केवल अनूदित पुस्तक: आन भाषासँ मैथिली आ मैथिलीसँ अंग्रेजी। मूल मैथिली उपन्यास आ तकर बाल/किशोर मैथिली संस्करण 01 उपन्यासमे अछि।</p>
 <div class="gt-grid" id="gt-ed-translation"></div>
 </div>
 </details>
@@ -1082,10 +1082,6 @@ document.getElementById('gt-ed-pdf-corpus-grid').innerHTML=gajendraPdfCorpus.map
   ]})
 ).join('');
 samagraRender('gt-ed-novel',[
- {q:'Bharat 2027: Twenty-Seven Years of Testimony'},
- {q:"A Water Burial Among the Crocodiles [A Children’s Novel]"},
- {q:"Jal Samadhi Among the Crocodiles [A Novel for Young Readers]"},
- {q:"CODE NAME THE CROCODILE IN THE DEPTHS [A Novel for Young Readers]"},
 
  {q:'पाँच प्रतिशत अन्हार'},
  {q:'सहस्रबाढ़नि'},
@@ -1149,11 +1145,8 @@ samagraRender('gt-ed-thesaurus',[{q:'English-Maithili Thesaurus'},{q:'Maithili-E
 samagraRender('gt-ed-selflearn',[{q:'ए.आइ. सँ वीडियो बनाउ'},{q:'मैथिली रेडियो नाटक: स्वयं सीखू मार्गदर्शिका'},{q:'गजेन्द्र ठाकुरक ११ उपन्यासक कथा-सार'},{q:'Gohi Sabhak Beech Jalsamadhi — Maithili Teaching Companion'},{q:'Water-Burial Among the Crocodiles [English Teaching Companion]'}]);
 samagraRender('gt-ed-translation',[
  {q:'Bharat 2027: Twenty-Seven Years of Testimony'},
- // Water-Burial / गोहि सभक बीच जलसमाधि: all book editions cross-referenced from 00 मुख्य समग्र.
- // Keep the original records and every source link; exclude teaching-only resources.
- {q:'गोहि सभक बीच जलसमाधि (मैथिलीक आइ धरिक सभसँ पैघ उपन्यास)'},
- {q:'गोहि सभक बीच जलसमाधि (मैथिलीक आइ धरिक सभसँ पैघ उपन्यास) [किशोर संस्करण]'},
- {q:'गोहि सभक बीच जलसमाधि (मैथिलीक आइ धरिक सभसँ पैघ उपन्यास) [बाल संस्करण]'},
+ // Only English translations of Water-Burial belong here; the original Maithili
+ // novel and its Maithili child/young-reader editions remain in 01 उपन्यास.
  {q:'WATER-BURIAL AMONG THE CROCODILES [ENGLISH TRANSLATION BY THE AUTHOR GAJENDRA THAKUR HIMSELF]'},
  {q:'A Water Burial Among the Crocodiles [A Children’s Novel]'},
  {q:'Jal Samadhi Among the Crocodiles [A Novel for Young Readers]'},
