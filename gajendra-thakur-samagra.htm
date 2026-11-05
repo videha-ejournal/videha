@@ -315,7 +315,7 @@ const V='https://videha-ejournal.github.io/videha-ejournal/';
 const item=(title,url,author='गजेन्द्र ठाकुर',label='PDF / Open')=>({title,author,links:[[label,url]]});
 const multi=(title,links,author='गजेन्द्र ठाकुर')=>({title,author,links});
 const main=[
-item('भारत २०२७',V+'Bharat_2027.pdf','गजेन्द्र ठाकुर · उपन्यास','Repository PDF'),
+item('Bharat 2027: Twenty-Seven Years of Testimony',V+'Bharat_2027_English.pdf','Gajendra Thakur · English translation of the Maithili novel','Repository PDF'), item('भारत २०२७',V+'Bharat_2027.pdf','गजेन्द्र ठाकुर · उपन्यास','Repository PDF'),
 multi('मैथिली कथा-आख्यानशास्त्र: सिद्धान्त आ प्रयोग', [['Repository PDF',V+'Narratology_Maithili.pdf'],['Google Playbook','https://play.google.com/store/books/details?id=yO8lEgAAQBAJ'],['POTHI.COM HARDBACK — PART 1','https://store.pothi.com/book/gajendra-thakur-%E0%A4%AE%E0%A4%A5%E0%A4%B2-%E0%A4%95%E0%A4%A5-%E0%A4%86%E0%A4%96%E0%A4%AF%E0%A4%A8%E0%A4%B6%E0%A4%B8%E0%A4%A4%E0%A4%B0-%E0%A4%B8%E0%A4%A6%E0%A4%A7%E0%A4%A8%E0%A4%A4-%E0%A4%86-%E0%A4%AA%E0%A4%B0%E0%A4%AF%E0%A4%97-%E0%A4%AA%E0%A4%B0%E0%A4%A5%E0%A4%AE-%E0%A4%AD%E0%A4%97/'],['POTHI.COM HARDBACK — PART 2','https://store.pothi.com/book/gajendra-thakur-%E0%A4%AE%E0%A4%A5%E0%A4%B2-%E0%A4%95%E0%A4%A5-%E0%A4%86%E0%A4%96%E0%A4%AF%E0%A4%A8%E0%A4%B6%E0%A4%B8%E0%A4%A4%E0%A4%B0-%E0%A4%B8%E0%A4%A6%E0%A4%A7%E0%A4%A8%E0%A4%A4-%E0%A4%86-%E0%A4%AA%E0%A4%B0%E0%A4%AF%E0%A4%97-%E0%A4%A6%E0%A4%B5%E0%A4%A4%E0%A4%AF-%E0%A4%AD%E0%A4%97/']], 'गजेन्द्र ठाकुर · समालोचनाशास्त्र'),
 multi("पाँच प्रतिशत अन्हार",[['PDF','https://videha-ejournal.github.io/videha-ejournal/5_Pratishat_Anhar.pdf'],['Google Playbook','https://play.google.com/store/books/details?id=9uUZEgAAQBAJ'],['POTHI.COM HARDBACK','https://store.pothi.com/book/gajendra-thakur-%E0%A4%AA%E0%A4%9A-%E0%A4%AA%E0%A4%B0%E0%A4%A4%E0%A4%B6%E0%A4%A4-%E0%A4%85%E0%A4%A8%E0%A4%B9%E0%A4%B0/']]),
 multi("FIVE PERCENT DARKNESS",[['PDF','https://videha-ejournal.github.io/videha-ejournal/5_Percent_Darkness.pdf'],['Google Playbook','https://play.google.com/store/books/details?id=5QAaEgAAQBAJ'],['POTHI.COM HARDBACK','https://store.pothi.com/book/gajendra-thakur-five-percent-darkness/'],['Google Play Audiobook','https://play.google.com/store/audiobooks/details?id=AQAAAEBGAkFCFM']],'Gajendra Thakur — translated from original Maithili by the author himself'),
@@ -1044,6 +1044,16 @@ for (const book of gtCorpusOctoberBooks) {
     throw new Error('Duplicate Section 00 PDF entry: '+book.title);
   gajendraPdfCorpus.push(book);
 }
+/* English edition of Bharat 2027 — collected works, translation, English, and local corpus. */
+const bharat2027English = {
+  title: 'Bharat 2027: Twenty-Seven Years of Testimony',
+  author: 'Gajendra Thakur · English translation of the Maithili novel',
+  file: 'Bharat_2027_English.pdf',
+  group: '12 अनुवाद',
+  english: true
+};
+[translations, english].forEach(catalogue => addVerifiedRepositoryPdf(bharat2027English, catalogue));
+gajendraPdfCorpus.push(bharat2027English);
 // Section 00: alphabetize the complete local corpus by book title.
 // Roman-script titles appear A–Z, followed by Devanagari titles अ–ह;
 // mixed-script titles are classified by their first letter. Natural numbers
@@ -1072,6 +1082,7 @@ document.getElementById('gt-ed-pdf-corpus-grid').innerHTML=gajendraPdfCorpus.map
   ]})
 ).join('');
 samagraRender('gt-ed-novel',[
+ {q:'Bharat 2027: Twenty-Seven Years of Testimony'},
  {q:"A Water Burial Among the Crocodiles [A Children’s Novel]"},
  {q:"Jal Samadhi Among the Crocodiles [A Novel for Young Readers]"},
  {q:"CODE NAME THE CROCODILE IN THE DEPTHS [A Novel for Young Readers]"},
@@ -1137,6 +1148,7 @@ samagraRender('gt-ed-language',[{q:'मैथिलीक एकटा समा
 samagraRender('gt-ed-thesaurus',[{q:'English-Maithili Thesaurus'},{q:'Maithili-English Thesaurus'}]);
 samagraRender('gt-ed-selflearn',[{q:'ए.आइ. सँ वीडियो बनाउ'},{q:'मैथिली रेडियो नाटक: स्वयं सीखू मार्गदर्शिका'},{q:'गजेन्द्र ठाकुरक ११ उपन्यासक कथा-सार'},{q:'Gohi Sabhak Beech Jalsamadhi — Maithili Teaching Companion'},{q:'Water-Burial Among the Crocodiles [English Teaching Companion]'}]);
 samagraRender('gt-ed-translation',[
+ {q:'Bharat 2027: Twenty-Seven Years of Testimony'},
  // Water-Burial / गोहि सभक बीच जलसमाधि: all book editions cross-referenced from 00 मुख्य समग्र.
  // Keep the original records and every source link; exclude teaching-only resources.
  {q:'गोहि सभक बीच जलसमाधि (मैथिलीक आइ धरिक सभसँ पैघ उपन्यास)'},
