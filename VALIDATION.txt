@@ -1,0 +1,15 @@
+PARALLEL HISTORY — MULTIPAGE LINK UPDATE
+Source: parallel.docx
+Part II = Tomes V–IX; Part III = Tome X.
+
+gajendra-thakur-samagra.htm: old 606,581 bytes / new 609,938 bytes; Part II Google refs 5; Part III Google refs 4
+videha.htm: old 414,055 bytes / new 417,907 bytes; Part II Google refs 1; Part III Google refs 1
+pothi.htm: old 876,842 bytes / new 878,080 bytes; Part II Google refs 4; Part III Google refs 4
+prose.htm: old 687,698 bytes / new 692,168 bytes; Part II Google refs 4; Part III Google refs 4
+Audio_Video.htm: old 332,304 bytes / new 341,244 bytes; Part II Google refs 2; Part III Google refs 2
+kids.htm: old 371,113 bytes / new 375,583 bytes; Part II Google refs 1; Part III Google refs 1
+videha-elearning.htm: old 542,874 bytes / new 547,344 bytes; Part II Google refs 1; Part III Google refs 1
+femcorner.htm: old 166,338 bytes / new 170,808 bytes; Part II Google refs 1; Part III Google refs 1
+gajenthakur.htm: old 176,372 bytes / new 181,998 bytes; Part II Google refs 3; Part III Google refs 3
+
+Existing Part I references were preserved. Cover file names Parallel_History_01.jpg and Parallel_History_02.jpg are referenced in gajenthakur.htm and pothi.htm, but image assets were not in the uploaded bundle; verify those paths on the web host.
