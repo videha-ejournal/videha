@@ -445,7 +445,21 @@ mark.vsmark{background:#f3e2b0;}
   border-top:3px solid #7a1f1a;
   padding:14px;
 }
-.publication-card--feature{grid-column:1 / -1;}
+ .publication-card--feature{grid-column:1 / -1;}
+
+/* Part II and Part III: two equal cards on desktop, readable full-width
+   image within each card. The existing mobile grid stacks them naturally. */
+.publication-card--parallel-continuation .publication-images--single{
+  width:100%;
+  max-width:none;
+  margin-left:auto;
+  margin-right:auto;
+}
+@media(max-width:760px){
+  .publication-card--parallel-continuation .publication-images--single{
+    max-width:420px;
+  }
+}
 .publication-card h3{
   margin:0 0 .45rem !important;
   color:#1a1714 !important;
@@ -667,14 +681,16 @@ mark.vsmark{background:#f3e2b0;}
 
     <figure class="parallel-cover-set">
       <div class="parallel-cover-images parallel-cover-images--single">
-        <a href="https://play.google.com/store/books/details?id=9ionEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Open A Parallel History of Mithila and Maithili Literature Part II · Tomes V–IX on Google Play Books"><img src="Parallel_History_01.jpg" alt="A Parallel History of Mithila and Maithili Literature — Part II · Tomes V–IX cover" loading="lazy"></a>
+        <a href="https://play.google.com/store/books/details?id=9ionEgAAQBAJ">
+		<img border="0" src="Parallel_History_2.jpg" width="900" height="675"></a>
       </div>
       <figcaption><strong>A Parallel History of Mithila &amp; Maithili Literature</strong>Part II · Tomes V–IX</figcaption>
     </figure>
 
     <figure class="parallel-cover-set">
       <div class="parallel-cover-images parallel-cover-images--single">
-        <a href="https://play.google.com/store/books/details?id=94InEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Open A Parallel History of Mithila and Maithili Literature Part III · Tome X on Google Play Books"><img src="Parallel_History_02.jpg" alt="A Parallel History of Mithila and Maithili Literature — Part III · Tome X cover" loading="lazy"></a>
+        <a href="https://play.google.com/store/books/details?id=94InEgAAQBAJ">
+		<img border="0" src="Parallel_History_3.jpg" width="900" height="675"></a>
       </div>
       <figcaption><strong>A Parallel History of Mithila &amp; Maithili Literature</strong>Part III · Tome X</figcaption>
     </figure>
@@ -2391,10 +2407,12 @@ Navya-Nyāya Epistemology of Gaṅgeśa&nbsp; Ghazal Poetics&nbsp; Rasa-Dhvani-V
       </div>
     </article>
 
-    <article class="publication-card publication-card--feature" id="pub-parallel-history-part-2">
+    <article class="publication-card publication-card--parallel-continuation" id="pub-parallel-history-part-2">
       <h3>A PARALLEL HISTORY OF MITHILA &amp; MAITHILI LITERATURE — PART II [TOMES V–IX] BY GAJENDRA THAKUR</h3>
       <p class="publication-meta">PART II [TOMES V–IX] · Print and digital editions</p>
-      <div class="publication-images publication-images--single"><a href="https://play.google.com/store/books/details?id=9ionEgAAQBAJ" target="_blank" rel="noopener noreferrer"><img src="Parallel_History_01.jpg" alt="A Parallel History of Mithila and Maithili Literature — PART II [TOMES V–IX] cover" loading="lazy"></a></div>
+      <div class="publication-images publication-images--single">
+        <a href="https://play.google.com/store/books/details?id=9ionEgAAQBAJ" target="_blank" rel="noopener noreferrer"><img src="Parallel_History_2.jpg" alt="A Parallel History of Mithila and Maithili Literature — Part II cover" loading="lazy"></a>
+      </div>
       <div class="publication-links" aria-label="A Parallel History of Mithila and Maithili Literature PART II [TOMES V–IX] links">
         <a href="https://videha-ejournal.github.io/videha-ejournal/VIDEHA_Parallel_History2.pdf" target="_blank" rel="noopener noreferrer">Repository PDF</a>
         <a href="https://play.google.com/store/books/details?id=9ionEgAAQBAJ" target="_blank" rel="noopener noreferrer">Google Playbook</a>
@@ -2408,10 +2426,12 @@ Navya-Nyāya Epistemology of Gaṅgeśa&nbsp; Ghazal Poetics&nbsp; Rasa-Dhvani-V
       </div>
     </article>
 
-    <article class="publication-card publication-card--feature" id="pub-parallel-history-part-3">
+    <article class="publication-card publication-card--parallel-continuation" id="pub-parallel-history-part-3">
       <h3>A PARALLEL HISTORY OF MITHILA &amp; MAITHILI LITERATURE — PART III [TOME X] BY GAJENDRA THAKUR</h3>
       <p class="publication-meta">PART III [TOME X] · Print and digital editions</p>
-      <div class="publication-images publication-images--single"><a href="https://play.google.com/store/books/details?id=94InEgAAQBAJ" target="_blank" rel="noopener noreferrer"><img src="Parallel_History_02.jpg" alt="A Parallel History of Mithila and Maithili Literature — PART III [TOME X] cover" loading="lazy"></a></div>
+      <div class="publication-images publication-images--single">
+        <a href="https://play.google.com/store/books/details?id=94InEgAAQBAJ" target="_blank" rel="noopener noreferrer"><img src="Parallel_History_3.jpg" alt="A Parallel History of Mithila and Maithili Literature — Part III cover" loading="lazy"></a>
+      </div>
       <div class="publication-links" aria-label="A Parallel History of Mithila and Maithili Literature PART III [TOME X] links">
         <a href="https://videha-ejournal.github.io/videha-ejournal/VIDEHA_Parallel_History3.pdf" target="_blank" rel="noopener noreferrer">Repository PDF</a>
         <a href="https://play.google.com/store/books/details?id=94InEgAAQBAJ" target="_blank" rel="noopener noreferrer">Google Playbook</a>
