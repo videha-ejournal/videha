@@ -1946,5 +1946,54 @@ const back=document.getElementById('videha-back-top');addEventListener('scroll',
   }
 })();
 </script>
+<!-- Additional Archive.org mirrors for PDFs hosted on Videha GitHub Pages, including root-level quiz books. -->
+<script id="gt-github-videha-archive-pdf-links">
+(function () {
+  'use strict';
+  const sourcePrefix = 'https://videha-ejournal.github.io/';
+  const archivePrefix = 'https://archive.org/download/videha-ejournal/';
+  function pairArchiveLinks() {
+    let inserted = 0;
+    let paired = 0;
+    const sourceLinks = Array.from(document.querySelectorAll('a[href]')).filter(function (link) {
+      const href = link.getAttribute('href') || '';
+      return href.startsWith(sourcePrefix) && /\.pdf(?:[?#]|$)/i.test(href);
+    });
+    for (const source of sourceLinks) {
+      const url = source.getAttribute('href');
+      const filename = url.split(/[?#]/, 1)[0].split('/').pop();
+      if (!filename) continue;
+      const target = archivePrefix + filename;
+      // One link per book entry, even when two GitHub paths identify the same quiz PDF.
+      const entry = source.closest('article.gt-card, .vg-card, .gt-feature') || source;
+      const next = source.nextElementSibling;
+      const alreadyPaired = (next && next.tagName === 'A' && next.getAttribute('href') === target) ||
+        Array.from(entry.querySelectorAll('a[href]')).some(function (link) {
+          return link !== source && link.getAttribute('href') === target;
+        });
+      if (alreadyPaired) { paired++; continue; }
+      const mirror = document.createElement('a');
+      mirror.className = 'gt-videha-archive-pdf-link';
+      mirror.href = target;
+      mirror.target = '_blank';
+      mirror.rel = 'noopener noreferrer';
+      mirror.title = 'Archive PDF Download — Videha eJournal — ' + filename;
+      mirror.textContent = 'Archive PDF Download (Videha) ↗';
+      source.insertAdjacentElement('afterend', mirror);
+      inserted++;
+      paired++;
+    }
+    window.gtVidehaArchivePdfAudit = {
+      matchingGitHubPdfLinks: sourceLinks.length,
+      matchesExamined: paired,
+      newArchiveLinksInserted: inserted
+    };
+  }
+  pairArchiveLinks();
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', pairArchiveLinks, {once: true});
+  }
+})();
+</script>
 </body>
 </html>
