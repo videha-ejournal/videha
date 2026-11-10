@@ -1863,5 +1863,88 @@ const back=document.getElementById('videha-back-top');addEventListener('scroll',
   <a href="https://groups.google.com/g/videha">ई-पत्र सदस्यता · Email subscription</a>  · 
   <a href="https://www.videha.co.in/videha-rss.xml" type="application/rss+xml">RSS feed</a>  · 
   <a href="videha-doi.htm">DOI · Zenodo · Scholarly Preservation</a></div>
+
+<!-- Additional Archive.org PDF download mirrors for the Videha book catalogue. -->
+<script id="gt-archive-pdf-download-links-202611">
+(function () {
+  'use strict';
+  const sourcePrefix = 'https://videha-ejournal.github.io/videha-ejournal/';
+  const archivePrefix = 'https://archive.org/download/videha-ejournal_202611/';
+  function addArchivePdfDownloads() {
+    let inserted = 0, paired = 0;
+    const sourceLinks = Array.from(document.querySelectorAll('a[href]')).filter(function (a) {
+      const u = a.getAttribute('href') || '';
+      return u.startsWith(sourcePrefix) && /\.pdf(?:[?#]|$)/i.test(u);
+    });
+    for (const sourceLink of sourceLinks) {
+      const oldUrl = sourceLink.getAttribute('href');
+      const filename = oldUrl.slice(sourcePrefix.length).split(/[?#]/, 1)[0].split('/').pop();
+      const newUrl = archivePrefix + filename;
+      const sibling = sourceLink.nextElementSibling;
+      if (sibling && sibling.tagName === 'A' && sibling.getAttribute('href') === newUrl) {
+        paired++;
+        continue;
+      }
+      const mirror = document.createElement('a');
+      mirror.className = 'gt-archive-pdf-link';
+      mirror.href = newUrl;
+      mirror.target = '_blank';
+      mirror.rel = 'noopener noreferrer';
+      mirror.textContent = 'Archive PDF Download ↗';
+      sourceLink.insertAdjacentElement('afterend', mirror);
+      inserted++;
+      paired++;
+    }
+    window.gtArchivePdfDownloadAudit = { qualifyingSourceLinks: sourceLinks.length, archiveLinksPaired: paired, newLinksInserted: inserted };
+  }
+  addArchivePdfDownloads();
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', addArchivePdfDownloads, {once:true});
+  }
+})();
+</script>
+<script id="gt-repository-archive-pdf-links-202611">
+(function () {
+  'use strict';
+  const sourcePrefix = 'https://videha-ejournal.github.io/videha-repository/';
+  const archivePrefix = 'https://archive.org/download/videha-petar-2/';
+  function addRepositoryArchivePdfLinks() {
+    let paired = 0;
+    let inserted = 0;
+    const matches = Array.from(document.querySelectorAll('a[href]')).filter(function (link) {
+      const href = link.getAttribute('href') || '';
+      return href.startsWith(sourcePrefix) && /\.pdf(?:[?#]|$)/i.test(href);
+    });
+    for (const link of matches) {
+      const sourceUrl = link.getAttribute('href');
+      const filename = sourceUrl.slice(sourcePrefix.length).split(/[?#]/, 1)[0].split('/').pop();
+      const archiveUrl = archivePrefix + filename;
+      const next = link.nextElementSibling;
+      if (next && next.tagName === 'A' && next.getAttribute('href') === archiveUrl) {
+        paired++;
+        continue;
+      }
+      const mirror = document.createElement('a');
+      mirror.className = 'gt-repository-archive-pdf-link';
+      mirror.href = archiveUrl;
+      mirror.target = '_blank';
+      mirror.rel = 'noopener noreferrer';
+      mirror.textContent = 'Archive PDF Download ↗';
+      link.insertAdjacentElement('afterend', mirror);
+      inserted++;
+      paired++;
+    }
+    window.gtRepositoryArchivePdfAudit = {
+      qualifyingSourceLinks: matches.length,
+      archiveLinksPaired: paired,
+      newLinksInserted: inserted
+    };
+  }
+  addRepositoryArchivePdfLinks();
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', addRepositoryArchivePdfLinks, {once: true});
+  }
+})();
+</script>
 </body>
 </html>
