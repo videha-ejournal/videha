@@ -2824,4 +2824,118 @@ Navya-Nyāya Epistemology of Gaṅgeśa&nbsp; Ghazal Poetics&nbsp; Rasa-Dhvani-V
   <a href="videha-rss.xml" type="application/rss+xml">RSS feed</a> &nbsp;·&nbsp;
   <a href="videha-doi.htm">DOI · Zenodo · Scholarly Preservation</a></div>
 
+<!-- VIDEHA_ARCHIVE_VIDEHA_AND_SADEHA_20261111: add exact-name PDF mirrors and de-duplicate identical Archive URLs per entry. -->
+<script id="videha-archive-videha-and-sadeha-dedup-20261111">
+(function () {
+  'use strict';
+  const githubPrefix = 'https://videha-ejournal.github.io/videha-sadeha/';
+  const archivePrefix = 'https://archive.org/download/VidehaAndSadeha/';
+  const entrySelector = 'article.gt-card, .gt-feature, .pothi-card, .vrow, .inv-inline-links, .inv-book-format-links, article.vg-card, .book-card, .book-entry, li.book-entry';
+  const listSelector = '.av-glist, .wc-booklist, .wc-grid, .kc-booklist, .kc-grid, .pr-booklist, .sc-grid, .pothi-child-novels-list, .pothi-nit-naval-links, .gt-linkgrid, .gt-links';
+  const stats = { githubPdfEntries: 0, mirrorsAddedAtRuntime: 0, removedDuplicateArchiveLinks: 0, mirrorsConfirmed: 0 };
+  let inRun = false;
+  let scheduled = false;
+  function isArchivePdf(anchor) {
+    if (!anchor || anchor.tagName !== 'A') return false;
+    const href = anchor.getAttribute('href') || '';
+    if (!href.startsWith('https://archive.org/download/')) return false;
+    const text = (anchor.textContent || '').trim();
+    return /Archive\s*(?:\.org)?\s*PDF/i.test(text) || /(?:^|\s)[\w-]*archive[\w-]*(?:\s|$)/i.test(anchor.className || '') || anchor.hasAttribute('data-videha-archive-mirror');
+  }
+  function archiveKey(anchor) {
+    try { return new URL(anchor.getAttribute('href'), document.baseURI).href; }
+    catch (_) { return anchor.getAttribute('href') || ''; }
+  }
+  function removeDuplicateInEntry(entry) {
+    const found = new Set();
+    for (const anchor of Array.from(entry.querySelectorAll('a[href^="https://archive.org/download/"]'))) {
+      if (!isArchivePdf(anchor)) continue;
+      const key = archiveKey(anchor);
+      if (found.has(key)) {
+        anchor.remove();
+        stats.removedDuplicateArchiveLinks++;
+      } else found.add(key);
+    }
+  }
+  // Lists may contain multiple independent books. Reset at the next original
+  // book link rather than removing a valid Archive mirror from another entry.
+  function removeDuplicateInUnwrappedList(list) {
+    const found = new Set();
+    for (const el of Array.from(list.children)) {
+      if (el.tagName !== 'A') { found.clear(); continue; }
+      const href = el.getAttribute('href') || '';
+      if (isArchivePdf(el)) {
+        const key = archiveKey(el);
+        if (found.has(key)) { el.remove(); stats.removedDuplicateArchiveLinks++; }
+        else found.add(key);
+      } else if (!el.classList.contains('videha-issue-github') &&
+                 !el.classList.contains('videha-issue-archive') &&
+                 !(href.startsWith('https://videha-ejournal.github.io/videha-sadeha/') && /\.pdf(?:[?#]|$)/i.test(href)) &&
+                 !/^(?:GitHub PDF|Archive PDF)/i.test((el.textContent || '').trim())) {
+        found.clear();
+      }
+    }
+  }
+  function addMirrors() {
+    const sources = Array.from(document.querySelectorAll('a[href]')).filter(function (a) {
+      const href = a.getAttribute('href') || '';
+      return href.startsWith(githubPrefix) && /\.pdf(?:[?#]|$)/i.test(href);
+    });
+    stats.githubPdfEntries = sources.length;
+    for (const source of sources) {
+      const href = source.getAttribute('href');
+      const part = href.slice(githubPrefix.length).split(/[?#]/, 1)[0];
+      if (!part || part.includes('/')) continue;
+      const target = archivePrefix + part;
+      const scope = source.closest(entrySelector);
+      const isPresent = scope ? Array.from(scope.querySelectorAll('a[href]')).some(function (a) {
+        return archiveKey(a) === target;
+      }) : Boolean(source.nextElementSibling && source.nextElementSibling.tagName === 'A' && archiveKey(source.nextElementSibling) === target);
+      if (!isPresent) {
+        const mirror = source.cloneNode(true);
+        mirror.setAttribute('href', target);
+        mirror.classList.remove('videha-issue-github');
+        mirror.classList.add('videha-issue-archive');
+        mirror.setAttribute('data-videha-archive-mirror', 'VidehaAndSadeha');
+        mirror.setAttribute('rel', 'noopener noreferrer');
+        mirror.setAttribute('target', '_blank');
+        mirror.setAttribute('title', 'Archive.org PDF — ' + decodeURIComponent(part));
+        const html = mirror.innerHTML;
+        mirror.innerHTML = /GitHub PDF/i.test(html) ? html.replace(/GitHub PDF/gi, 'Archive PDF Download') : 'Archive PDF Download ↗';
+        if (mirror.style.backgroundColor) mirror.style.backgroundColor = '#8B1A1A';
+        source.insertAdjacentElement('afterend', mirror);
+        stats.mirrorsAddedAtRuntime++;
+      }
+    }
+    for (const entry of document.querySelectorAll(entrySelector)) {
+      // Nested cards are independent scopes; do not merge across book entries.
+      if (entry.closest('.gt-card') && entry !== entry.closest('.gt-card')) continue;
+      removeDuplicateInEntry(entry);
+    }
+    for (const list of document.querySelectorAll(listSelector)) {
+      if (list.closest(entrySelector)) continue;
+      removeDuplicateInUnwrappedList(list);
+    }
+    stats.mirrorsConfirmed = Array.from(document.querySelectorAll('a[href^="'+ archivePrefix +'"]')).length;
+    window.videhaArchiveMirrorDedupAudit = Object.assign({}, stats);
+  }
+  function run() {
+    if (inRun) return;
+    inRun = true;
+    try { addMirrors(); }
+    finally { inRun = false; }
+  }
+  function schedule() {
+    if (scheduled) return;
+    scheduled = true;
+    requestAnimationFrame(function () { scheduled = false; run(); });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run, {once:true});
+  else run();
+  const observer = new MutationObserver(function (records) {
+    if (records.some(function (r) { return r.addedNodes.length || r.removedNodes.length; })) schedule();
+  });
+  observer.observe(document.documentElement, { childList:true, subtree:true });
+})();
+</script>
 </body>
