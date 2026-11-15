@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15T07:08:48.312418+00:00",
+  "generated": "2026-11-15T09:38:41.144216+00:00",
   "strategy": {
     "videha.co.in": {
       "role": "canonical lightweight publication site",
@@ -19,6 +19,6 @@
       "historicalSearchResults": "https://videha-ejournal.github.io/videha/search-documents/<file>"
     }
   },
-  "currentIssue": 453,
+  "currentIssue": 454,
   "historicalThrough": 453
 }
