@@ -2,7 +2,7 @@
   "issue_files_scanned": 453,
   "current_index_issue": "454",
   "current_index_included": true,
-  "article_entries_inventoried": 3674,
+  "article_entries_inventoried": 3677,
   "scholar_candidates": 316,
   "parse_errors": [],
   "rows": [
@@ -58682,13 +58682,62 @@
       "issue": "454",
       "publication_date": "2026-11-15",
       "section": "1.10",
-      "author": "गजेन्द्र ठाकुर धूर्त समागम पाठ • रूपान्तरण • रंग",
-      "title": "व्यवहार",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "धूर्त समागम पाठ • रूपान्तरण • रंग-व्यवहार",
       "page_start": "",
       "page_end": "",
       "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
+      "scholar_candidate": false,
+      "source_path": "index.htm",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.11",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "प्रभावतीहरण मूल गीत, संवाद आ दृश्यक साहित्यिक",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "non-scholar-priority",
+      "signals": [
+        "गीत"
+      ],
+      "scholar_candidate": false,
+      "source_path": "index.htm",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.12",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "‘धूर्त समागम’ आ ‘प्रभावतीहरण’ साहित्यिक •",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
+      "source_path": "index.htm",
+      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.13",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "भोरक ऋण (दीर्घ कथा)",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "non-scholar-priority",
+      "signals": [
+        "कथा"
+      ],
       "scholar_candidate": false,
       "source_path": "index.htm",
       "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20454.pdf"
