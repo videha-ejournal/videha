@@ -1236,6 +1236,29 @@ for(const [bookFile,teacher] of Object.entries(gtFourNovelTeacherBookFiles)){
   }
 }
 /* END FOUR_NOVEL_TEACHING_COMPANIONS */
+/* FOUR_NOVEL_POTHI_HARDBACKS_20261116 — Four book-specific links from additional new links.docx.
+   Keep the PDF, teacher, audiobook and Google Play links; add the hardback once to
+   every corresponding catalogue record and the Section 00 PDF bibliography. */
+const gtFourNovelPothiHardbacks20261116=[
+  {"title": "शहरक दोसर चेहरा (मैथिली कादम्बरी)", "file": "Shaharak_Dosar_Chehara.pdf", "url": "https://store.pothi.com/book/gajendra-thakur-%E0%A4%B6%E0%A4%B9%E0%A4%B0%E0%A4%95-%E0%A4%A6%E0%A4%B8%E0%A4%B0-%E0%A4%9A%E0%A4%B9%E0%A4%B0/"},
+  {"title": "The City's Other Face [A Maithili Novel]", "file": "The_Citys_Other_Face.pdf", "url": "https://store.pothi.com/book/gajendra-thakur-the-citys-other-face/"},
+  {"title": "अग्निवंश (मैथिली कादम्बरी)", "file": "Agnivansh.pdf", "url": "https://store.pothi.com/book/gajendra-thakur-%E0%A4%85%E0%A4%97%E0%A4%A8%E0%A4%B5%E0%A4%B6/"},
+  {"title": "Agnivansh [A Maithili Novel]", "file": "Agnivansh_English.pdf", "url": "https://store.pothi.com/book/gajendra-thakur-agnivansh-a-maithili-novel/"}
+];
+for (const catalogue of [main,originals,translations,english]) {
+  for (const book of catalogue) {
+    const edition=gtFourNovelPothiHardbacks20261116.find(e=>e.title===book.title);
+    if (!edition || !Array.isArray(book.links)) continue;
+    if (!book.links.some(link=>link[1]===edition.url))
+      book.links.push(['POTHI.COM HARDBACK',edition.url]);
+  }
+}
+for (const edition of gtFourNovelPothiHardbacks20261116) {
+  const links=gtSection00CatalogLinks[edition.file]||(gtSection00CatalogLinks[edition.file]=[]);
+  if (!links.some(link=>link[1]===edition.url))
+    links.push(['POTHI.COM HARDBACK',edition.url]);
+}
+/* END FOUR_NOVEL_POTHI_HARDBACKS_20261116 */
 const gtTeachingSets2026=[main,originals,translations,english,language,academic,collab,software];
 for(const catalogue of gtTeachingSets2026) for(const book of catalogue){
   const key=gtTeachingIdentify2026(book.title), info=gtTeachingMaterials2026[key];
