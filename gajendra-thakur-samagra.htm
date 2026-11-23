@@ -583,6 +583,22 @@ const __videhaIndiaKindleByUS = new Map([["https://www.amazon.com/Maithili-Journ
     if(!links.some(link=>link[1]===indiaUrl))links.push(['Amazon India Kindle',indiaUrl]);
   });
 });
+/* VIDEHA_FOUR_GOOGLE_PLAYBOOK_LINKS_20261123 — Add to matching visible book records before rendering. */
+const videhaFourGoogleBooks20261123 = [
+ {id:'sahasrabadhani',title:/^सहस्रबा[ढ़ढ़ढ]नि(?:$|[\s(—-])/u,exclude:/ब्रेल|ग्राफिक|ENGLISH/i,url:'https://play.google.com/store/books/details?id=mRgyEgAAQBAJ'},
+ {id:'sahasrashirsha',title:/^सहस्रशीर्षा(?:$|[\s(—-])/u,exclude:/ब्रेल|ग्राफिक|ENGLISH/i,url:'https://play.google.com/store/books/details?id=dRgyEgAAQBAJ'},
+ {id:'english_maithili',title:/^English[- ]Maithili Thesaurus(?:$|[\s(—-])/i,url:'https://play.google.com/store/books/details?id=IRAyEgAAQBAJ'},
+ {id:'maithili_english',title:/^Maithili[- ]English Thesaurus(?:$|[\s(—-])/i,url:'https://play.google.com/store/books/details?id=VxAyEgAAQBAJ'}
+];
+[main,originals,translations,english,language,academic,collab,software].forEach(catalogue=>{
+ catalogue.forEach(book=>{
+  if(!book || !book.title || !Array.isArray(book.links)) return;
+  const name=String(book.title).replace(/^\d+\.\s*/, '').trim();
+  const rule=videhaFourGoogleBooks20261123.find(rule=>rule.title.test(name) && !(rule.exclude && rule.exclude.test(name)));
+  if(rule && !book.links.some(pair=>pair[1]===rule.url)) book.links.push(['Google Playbook',rule.url]);
+ });
+});
+/* END VIDEHA_FOUR_GOOGLE_PLAYBOOK_LINKS_20261123 */
 // Curated "गजेन्द्र ठाकुर समग्र" block — taxonomy from samagra.docx; links reused from 00 मुख्य समग्र.
 const samagraNorm=s=>(s||'').normalize('NFKC').toLocaleLowerCase().replace(/[\s\-–—:;,.·'’"“”()\[\]\/]+/g,'');
 function samagraFind(q){
@@ -1396,6 +1412,24 @@ const gtCorpusAdditionalEditions20261115={
   'The_Hundred-Story_Trilogy.pdf':[['Amazon Kindle','https://www.amazon.in/dp/B0HRRDNN1D']],
   'Three_Streams_of_Stories.pdf':[['Amazon Kindle','https://www.amazon.in/dp/B0HRRCM823']]
 };
+
+/* VIDEHA_EIGHT_NEW_PUBLICATION_LINKS_20261123 — exact English titles & PDF identities from links2.docx. */
+const videhaEightPublicationLinks20261123 = [{"title":"The Black Bee is Sleeping Atop the Mountain","file":"ENGLISH_PARVAT_OOPAR_BHAMRA_JE_SOOTAL.pdf","links":[["Google Playbook","https://play.google.com/store/books/details?id=bN3JEQAAQBAJ"]]},{"title":"The Coconut Fortress","file":"ENGLISH_SAHASRASHIRSHA.pdf","links":[["Google Playbook","https://play.google.com/store/books/details?id=wyXMEQAAQBAJ"]]},{"title":"The Comet's Coma: Lost in the Frozen Clouds","file":"ENGLISH_SAHASRABADHANI.pdf","links":[["Google Playbook","https://play.google.com/store/books/details?id=utPIEQAAQBAJ"]]},{"title":"The Grammar and History of Maithili Ghazal","file":"ENGLISH_MAITHILI_GRAMMAR_GHAZAL_HISTORY.pdf","links":[["Google Playbook","https://play.google.com/store/books/details?id=j2TsEQAAQBAJ"],["Google Play Audiobook","https://play.google.com/store/audiobooks/details?id=AQAAAEC6_z-_lM"],["Amazon Kindle","https://www.amazon.in/dp/B0H5T1YKNG"],["POTHI.COM HARDBACK","https://store.pothi.com/book/ashish-anchinhar-grammar-and-history-maithili-ghazal/"]]},{"title":"Maithili Web Journalism's History","file":"ENGLISH_MAITHILI_WEB_JOURNALISM.pdf","links":[["Google Playbook","https://play.google.com/store/books/details?id=tx7LEQAAQBAJ"]]},{"title":"Jagdish Prasad Mandal: A Biography","file":"ENGLISH_JPM_BIOGRAPHY.pdf","links":[["Google Playbook","https://play.google.com/store/books/details?id=fLTlEQAAQBAJ"],["Google Play Audiobook","https://play.google.com/store/audiobooks/details?id=AQAAAEC6QzMDmM"],["Amazon Kindle","https://www.amazon.in/dp/B0H4PWSCJG"],["POTHI.COM HARDBACK","https://store.pothi.com/book/gajendra-thakur-jagdish-prasad-mandal-biography/"]]},{"title":"A Bridge Built for the Sake of Love","file":"ENGLISH_PREETI_KARAN_SETU_BANHAL.pdf","links":[["Google Playbook","https://play.google.com/store/books/details?id=0VfKEQAAQBAJ"]]},{"title":"Setushama — Vibrant Maithili","file":"ENGLISH_SETUSHAM.pdf","links":[["Google Playbook","https://play.google.com/store/books/details?id=VV3KEQAAQBAJ"]]}];
+const videhaEightExactTitleLinks20261123 = new Map(videhaEightPublicationLinks20261123.map(e=>[e.title,e.links]));
+for (const catalogue of [main,originals,translations,english,language,academic,collab,software]) {
+  for (const book of catalogue) {
+    const extra=videhaEightExactTitleLinks20261123.get(book.title);
+    if (!extra || !Array.isArray(book.links)) continue;
+    const existing=new Set(book.links.map(link=>link[1]));
+    for(const pair of extra) if(!existing.has(pair[1])) { book.links.push(pair.slice()); existing.add(pair[1]); }
+  }
+}
+for (const record of videhaEightPublicationLinks20261123) {
+  const group=gtSection00CatalogLinks[record.file]||(gtSection00CatalogLinks[record.file]=[]);
+  const existing=new Set(group.map(link=>link[1]));
+  for(const pair of record.links) if(!existing.has(pair[1])) { group.push(pair.slice());existing.add(pair[1]); }
+}
+/* END_VIDEHA_EIGHT_NEW_PUBLICATION_LINKS_20261123 */
 document.getElementById('gt-ed-pdf-corpus-grid').innerHTML=gajendraPdfCorpus.map(x=>
   card({title:x.title,author:x.author+' · '+x.group,links:[
     ['Repository PDF',x.repositoryUrl||('https://videha-ejournal.github.io/videha-ejournal/'+encodeURI(x.file))],
@@ -1646,6 +1680,16 @@ window.gt010407AdditiveAudit=gt010407Audit;
 /* END_VIDEHA_ADDITIVE_OVERHAUL_01_04_07_20261105 */
 for(const book of originals)gtFiveBookApplyLinks(book);
 
+
+/* Include independently assembled translation-tab cards for the same eight exact books. */
+for(const catalogue of [gt02Incoming,gt02Outgoing,gt02Bilingual]){
+  for(const book of catalogue){
+    const extra=videhaEightExactTitleLinks20261123.get(book.title);
+    if(!extra || !Array.isArray(book.links))continue;
+    const existing=new Set(book.links.map(p=>p[1]));
+    for(const pair of extra)if(!existing.has(pair[1])){book.links.push(pair.slice());existing.add(pair[1]);}
+  }
+}
 function render(id,data,countId){document.getElementById(id).innerHTML=data.map(card).join('');if(countId)document.getElementById(countId).textContent=data.length+' entries'}
 render('grid-main',main,'count-main');render('grid-originals',originals,'count-originals');render('grid-translations-into-maithili',gt02Incoming);render('grid-translations-from-maithili',gt02Outgoing);render('grid-translations-bilingual',gt02Bilingual);document.getElementById('count-translations').textContent=gt02Unique.length+' entries';render('grid-english',english,'count-english');document.getElementById('count-english').textContent=(english.length+10)+' entries';render('grid-language',language,'count-language');render('grid-academic',academic,'count-academic');render('grid-collab',collab,'count-collab');render('grid-children-maithili',gt010407ChildrenMaithili);render('grid-children-english',gt010407ChildrenEnglish);render('grid-videha-special-issues',gt010407LatestIssueRows);document.getElementById('count-collab').textContent=(collab.length+gt010407LatestIssueRows.length)+' entries';render('grid-software',software,'count-software');
 document.getElementById('child-links').innerHTML=children.map(x=>'<a class="gt-searchable" href="'+A+'children_novel/'+x[1]+'" target="_blank" rel="noopener">'+x[0]+' ↗</a>').join('');
