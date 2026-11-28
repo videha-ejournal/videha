@@ -1,5 +1,5 @@
 from pathlib import Path
-import json,html
+import json,html,re
 root=Path('.')
 d=json.loads((root/'research/data/articles.json').read_text(encoding='utf8'))
 a=[x for x in d['articles'] if str(x.get('issue'))=='454']
@@ -7,7 +7,7 @@ p=root/'research/index.htm'; s=p.read_text(encoding='utf8')
 if 'data-issue="454"' not in s:
  cards=''.join(f'<article class="research-card" data-issue="454" data-language="{html.escape(x.get("language","mai"))}" data-search="{html.escape(x["title"]+" "+x["authors"][0]+" 454",quote=True)}"><h2><a href="{x["url"]}">{html.escape(x["title"])}</a></h2><p>{html.escape(x["authors"][0])} · <a href="https://videha-ejournal.github.io/videha/videha-archive-explorer.html?issue=454">अंक 454</a> · {html.escape(x["classification"])}</p></article>' for x in a)
  s=s.replace('<main id="videha-main">','<main id="videha-main">'+cards,1)
- s=s.replace('970 लेख</strong>','1013 लेख</strong>',1)
+ s=re.sub(r'\d{3,4} लेख</strong>',f'{len(d["articles"])} लेख</strong>',s,count=1)
  p.write_text(s,encoding='utf8')
 print('registered',len(a))
 
