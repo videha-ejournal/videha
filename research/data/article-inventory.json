@@ -1,9 +1,9 @@
 {
-  "issue_files_scanned": 453,
+  "issue_files_scanned": 454,
   "current_index_issue": "454",
-  "current_index_included": true,
-  "article_entries_inventoried": 3677,
-  "scholar_candidates": 316,
+  "current_index_included": false,
+  "article_entries_inventoried": 3705,
+  "scholar_candidates": 319,
   "parse_errors": [],
   "rows": [
     {
@@ -58666,71 +58666,449 @@
     {
       "issue": "454",
       "publication_date": "2026-11-15",
-      "section": "0.1",
-      "author": "गजेन्द्र ठाकुर",
-      "title": "नूतन अंक",
+      "section": "1.1",
+      "author": "कल्पना झा",
+      "title": "मैथिली साहित्यमे श्रीकान्त ठाकुर 'विद्यालंकार'एवं हुनक परिवारक योगदान-१३ 2",
       "page_start": "",
       "page_end": "",
       "body_chars": 0,
-      "classification": "unclassified",
-      "signals": [],
-      "scholar_candidate": false,
-      "source_path": "index.htm",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20454.pdf"
+      "classification": "literary-history",
+      "signals": [
+        "परिवारक योगदान",
+        "साहित्यमे"
+      ],
+      "scholar_candidate": true,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
     },
     {
       "issue": "454",
       "publication_date": "2026-11-15",
       "section": "1.10",
       "author": "गजेन्द्र ठाकुर",
-      "title": "धूर्त समागम पाठ • रूपान्तरण • रंग-व्यवहार",
+      "title": "प्रभावतीहरण मूल गीत, संवाद आ दृश्यक साहित्यिक विवेचन समालोचनात्मक ग्रन्थ जगत्प्रकाशमल्लकृत नाटक डॉ॰ लेखनाथ मिश्र-सम्पादित मुद्रित पाठक आधारपर इतिहास • साहित्य • आख्यान • गीत • अभिनय • रंगमंच • पाठालोचना 118",
       "page_start": "",
       "page_end": "",
       "body_chars": 0,
-      "classification": "unclassified",
-      "signals": [],
+      "classification": "non-scholar-priority",
+      "signals": [
+        "नाटक",
+        "गीत"
+      ],
       "scholar_candidate": false,
-      "source_path": "index.htm",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20454.pdf"
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
     },
     {
       "issue": "454",
       "publication_date": "2026-11-15",
       "section": "1.11",
       "author": "गजेन्द्र ठाकुर",
-      "title": "प्रभावतीहरण मूल गीत, संवाद आ दृश्यक साहित्यिक",
+      "title": "‘धूर्त समागम’ आ ‘प्रभावतीहरण’ साहित्यिक • नाट्यशास्त्रीय • रङ्गमञ्चीय तुलनात्मक समालोचना ज्योतिरीश्वर ठाकुरक प्रहसनक आधुनिक प्रदर्शन-आलेख आ जगत्प्रकाशमल्लक मल्लकालीन गीतिनाट्य 167",
       "page_start": "",
       "page_end": "",
       "body_chars": 0,
       "classification": "non-scholar-priority",
       "signals": [
+        "प्रहसन",
         "गीत"
       ],
       "scholar_candidate": false,
-      "source_path": "index.htm",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20454.pdf"
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
     },
     {
       "issue": "454",
       "publication_date": "2026-11-15",
       "section": "1.12",
       "author": "गजेन्द्र ठाकुर",
-      "title": "‘धूर्त समागम’ आ ‘प्रभावतीहरण’ साहित्यिक •",
+      "title": "अग्निवंश : विस्तृत साहित्यिक समालोचना 184",
       "page_start": "",
       "page_end": "",
       "body_chars": 0,
-      "classification": "unclassified",
-      "signals": [],
-      "scholar_candidate": false,
-      "source_path": "index.htm",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20454.pdf"
+      "classification": "criticism",
+      "signals": [
+        "समालोचना"
+      ],
+      "scholar_candidate": true,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
     },
     {
       "issue": "454",
       "publication_date": "2026-11-15",
       "section": "1.13",
       "author": "गजेन्द्र ठाकुर",
-      "title": "भोरक ऋण (दीर्घ कथा)",
+      "title": "शहरक दोसर चेहरा : आख्यानशास्त्रीय अध्ययन 221",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.14",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "नित नवल : कैलाश कुमार मिश्र 251",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.15",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "नित नवल : राजदेव मण्डल 328",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.16",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "नित नवल : शिव कुमार प्रसाद 416",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.17",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "नित नवल : रामदेव प्रसाद मण्डल ‘झारूदार’ 464",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.18",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "नित नवल : आनन्द कुमार झा 484",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.19",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "नित नवल : सन्दीप कुमार साफी 546",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.2",
+      "author": "प्रणव कुमार झा",
+      "title": "मधुमेहक बढ़ैत साया - भारतक सामने एकटा मौन स्वास्थ्य-संकट 5",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.20",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "नित नवल : लल्लन प्रसाद ठाकुर 612",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.21",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "नित नवल : प्रभास कुमार चौधरी 717",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.22",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "अपाला आत्रेयी ऋचा, देह आ दृष्टिक रंगमंच: गजेन्द्र ठाकुरक नाटकक विस्तृत साहित्यिक एवं रंगमंचीय समीक्षा 778",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "non-scholar-priority",
+      "signals": [
+        "नाटक"
+      ],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.23",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "भऽ जाएब छू: भगजोगनी, बीया आ पृथ्वीक रंगमंच: गजेन्द्र ठाकुरक नाटकक विस्तृत साहित्यिक एवं रंगमंचीय समीक्षा 791",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "non-scholar-priority",
+      "signals": [
+        "नाटक"
+      ],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.24",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "दानवीर दधीची: ज्ञानदान, प्रतिज्ञा आ सत्यक रंगमंच: गजेन्द्र ठाकुरक नाटकक विस्तृत साहित्यिक एवं रंगमंचीय समीक्षा 806",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "non-scholar-priority",
+      "signals": [
+        "नाटक"
+      ],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.25",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "गंगा ब्रिज: पुल, श्रम आ प्रतिइतिहासक रंगमंच: गजेन्द्र ठाकुरक नाटकक विस्तृत साहित्यिक एवं रंगमंचीय समीक्षा 821",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "non-scholar-priority",
+      "signals": [
+        "नाटक"
+      ],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.26",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "जलोदीप: जलक बाट, स्मृति आ सामुदायिक विवेकक रंगमंच: गजेन्द्र ठाकुरक नाटकक विस्तृत साहित्यिक एवं रंगमंचीय समीक्षा 838",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "non-scholar-priority",
+      "signals": [
+        "नाटक"
+      ],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.27",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "कमलाक भगता: चिन्ह, अनुकरण आ विवेकक रंगमंच: गजेन्द्र ठाकुरक नाटकक विस्तृत साहित्यिक एवं रंगमंचीय समीक्षा 852",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "non-scholar-priority",
+      "signals": [
+        "नाटक"
+      ],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.28",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "मचण्ड: मौन, न्याय आ दयाक रंगमंच: गजेन्द्र ठाकुरक नाटकक विस्तृत साहित्यिक एवं रंगमंचीय समीक्षा 865",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "non-scholar-priority",
+      "signals": [
+        "नाटक"
+      ],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.29",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "संकर्षण: दंभ, व्यंग्य आ आत्मबोधक रंगमंच: गजेन्द्र ठाकुरक नाटकक विस्तृत साहित्यिक एवं रंगमंचीय समीक्षा 878",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "non-scholar-priority",
+      "signals": [
+        "नाटक"
+      ],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.3",
+      "author": "प्रणव कुमार झा",
+      "title": "विशेषज्ञ चिकित्सकक कमी आ अनुभवक मान्यता: भारतीय स्वास्थ्य-व्यवस्थाक लेल एकटा नव बाट? 11",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.30",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "उल्कामुख: प्रेम, स्मृति आ ज्ञानक रंगमंच: गजेन्द्र ठाकुरक नाटकक विस्तृत साहित्यिक एवं रंगमंचीय समीक्षा 893",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "non-scholar-priority",
+      "signals": [
+        "नाटक"
+      ],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.31",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "व्याप्ति : प्रमाण, प्रतिरोध आ रंगकर्म: गजेन्द्र ठाकुरक मैथिली नाटकक शोधपरक साहित्यिक आ रंगमंचीय समीक्षा 909",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "non-scholar-priority",
+      "signals": [
+        "नाटक"
+      ],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.32",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "‘जे नाम पोथीमे नहि’ : नाटक आ रंगमंच: गजेन्द्र ठाकुरक नाटकक विस्तृत साहित्यिक, नाट्यशास्त्रीय, रंगमंचीय आ प्रमाणमीमांसात्मक समीक्षा 927",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "non-scholar-priority",
+      "signals": [
+        "नाटक"
+      ],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.33",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "गजेन्द्र ठाकुरक दीर्घ मैथिली नाटक: पानिक लेखा: नाटक आ रंगमंचक आलोकमे विस्तृत साहित्यिक समीक्षा 948",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "non-scholar-priority",
+      "signals": [
+        "नाटक"
+      ],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.34",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "गजेन्द्र ठाकुर- भोरक ऋण (दीर्घ कथा) 975",
       "page_start": "",
       "page_end": "",
       "body_chars": 0,
@@ -58739,38 +59117,121 @@
         "कथा"
       ],
       "scholar_candidate": false,
-      "source_path": "index.htm",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20454.pdf"
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
     },
     {
       "issue": "454",
       "publication_date": "2026-11-15",
       "section": "1.4",
-      "author": "प्रणव कुमार झा",
-      "title": "विशेषज्ञ चिकित्सकक कमी आ अनुभवक मान्यता:",
+      "author": "लालदेव कामत",
+      "title": "सरपंच एहन होयबाक चाही/ 'आर्य ' एक यूनिक पोथी 17",
       "page_start": "",
       "page_end": "",
       "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
-      "source_path": "index.htm",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20454.pdf"
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.5",
+      "author": "संतोष कुमार राय 'बटोही'",
+      "title": "समीक्षा- कथा-संग्रह : छाही तर बटोही 22",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "non-scholar-priority",
+      "signals": [
+        "कथा"
+      ],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.6",
+      "author": "आचार्य रामानंद मंडल",
+      "title": "प्रेम विवाह: सांस्कृतिक बनाम संवैधानिक/ सभ्यता, संस्कृति आ साहित्य 24",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "culture-art",
+      "signals": [
+        "संस्कृति",
+        "सांस्कृतिक"
+      ],
+      "scholar_candidate": true,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.7",
+      "author": "प्रदीप कुमार मंडल \"पबड़ा\"",
+      "title": "भगवान धन्वंतरि के? 27",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "1.8",
+      "author": "परमेश्वर कापडि़",
+      "title": "लिला लेखन- करु बिगहा दुइ खेत/ सामा लेल’ हो अवतार 31",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "unclassified",
+      "signals": [],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
     },
     {
       "issue": "454",
       "publication_date": "2026-11-15",
       "section": "1.9",
-      "author": "परमेश्वर कापडि़",
-      "title": "लिला लेखन- करु बिगहा दुइ खेत/ सामा लेल’ हो",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "धूर्त समागम पाठ • रूपान्तरण • रंग-व्यवहार कविशेखर ज्योतिरीश्वर ठाकुरक प्रहसन पर आधारित डॉ. अरविन्द अक्कूक मैथिली प्रदर्शन-आलेखक विस्तृत साहित्यिक आ नाटक-रंगमंचीय समीक्षा 92",
+      "page_start": "",
+      "page_end": "",
+      "body_chars": 0,
+      "classification": "non-scholar-priority",
+      "signals": [
+        "नाटक",
+        "प्रहसन"
+      ],
+      "scholar_candidate": false,
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
+    },
+    {
+      "issue": "454",
+      "publication_date": "2026-11-15",
+      "section": "2.1",
+      "author": "गजेन्द्र ठाकुर",
+      "title": "माटिक स्मृति/ ओसक अन्तिम बुन्न/ अन्तिम चिट्ठी/ देहड़िक दीप/ अपूर्ण बखरा/ पुरान छत्ता/ खाली थारी 1011",
       "page_start": "",
       "page_end": "",
       "body_chars": 0,
       "classification": "unclassified",
       "signals": [],
       "scholar_candidate": false,
-      "source_path": "index.htm",
-      "source_url": "https://archive.org/download/VidehaAndSadeha/Videha%20454.pdf"
+      "source_path": "search-documents/videha-454.html",
+      "source_url": "https://archive.org/download/videha-2026/Videha%20454.pdf"
     }
   ]
 }
